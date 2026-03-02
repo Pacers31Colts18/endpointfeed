@@ -41,6 +41,8 @@ const FEEDS = [
     url:'https://www.deploymentresearch.com/feed' },
   { id:'mattzaske',     label:'mattzaske.com',               category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://mattzaske.com/rss.xml' },
+  { id:'msendpointmgr',     label:'msendpointmgr.com',               category:'sccm',     color:'#005a9e', type:'rss',
+    url:'https://msendpointmgr.com/feed/' },
 
   // ── Endpoint Security ───────────────────────────────────────────────────
   { id:'krebs',          label:'krebsonsecurity.com',         category:'security', color:'#d13438', type:'rss',
