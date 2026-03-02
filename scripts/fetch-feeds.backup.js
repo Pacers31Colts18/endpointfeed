@@ -2,8 +2,8 @@ const Parser = require('rss-parser');
 const fs = require('fs');
 const path = require('path');
 
-const PER_FEED_TIMEOUT = 5000;
-const BATCH_TIMEOUT_MS = 60000;
+const PER_FEED_TIMEOUT = 5000;   // 5s per feed — fail fast
+const BATCH_TIMEOUT_MS = 45000;  // 45s per batch of 5
 const BATCH_SIZE       = 5;
 const MAX_ITEMS        = 5;
 
@@ -22,36 +22,92 @@ const parser = new Parser({
   }
 });
 
+// NOTE on Microsoft Tech Community feeds:
+// The custom RSS plugin URLs (plugins/custom/microsoft/o365/custom-blog-rss) are
+// extremely slow and frequently timeout. Where possible we use alternate feed URLs.
+// If a feed still times out consistently, comment it out or replace with a working URL.
+
 const FEEDS = [
   // ── Intune ──────────────────────────────────────────────────────────────
+  // Alt: MS Tech Community Intune blog via standard atom feed
+  { id:'intune-blog',    label:'Microsoft Intune Blog',       category:'intune',     color:'#0078d4', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog' },
+  { id:'intune-support', label:'Intune Support Team',         category:'intune',     color:'#0078d4', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneSupportTeam' },
   { id:'4sysops',        label:'4sysops',                     category:'intune',     color:'#0078d4', type:'rss',
     url:'https://4sysops.com/feed/' },
 
-  // ── SCCM / ConfigMgr/Windows Updates ────────────────────────────────────
+  // ── SCCM / ConfigMgr ────────────────────────────────────────────────────
+  { id:'configmgr',      label:'Microsoft ConfigMgr Blog',    category:'sccm',       color:'#005a9e', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog' },
   { id:'patchmypc',      label:'Patch My PC Blog',            category:'sccm',       color:'#005a9e', type:'rss',
     url:'https://patchmypc.com/feed' },
   { id:'niallbrady',     label:'Niall Brady',                 category:'sccm',       color:'#005a9e', type:'rss',
     url:'https://www.niallbrady.com/feed/' },
 
   // ── Endpoint Security ───────────────────────────────────────────────────
+  { id:'defender',       label:'Microsoft Defender Blog',     category:'security',   color:'#d13438', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderBlog' },
+  { id:'msrc',           label:'MS Security Response Center', category:'security',   color:'#d13438', type:'rss',
+    url:'https://msrc.microsoft.com/blog/feed/' },
   { id:'krebs',          label:'Krebs on Security',           category:'security',   color:'#d13438', type:'rss',
     url:'https://krebsonsecurity.com/feed/' },
 
   // ── M365 / Office 365 ───────────────────────────────────────────────────
+  { id:'m365',           label:'Microsoft 365 Blog',          category:'m365',       color:'#d83b01', type:'rss',
+    url:'https://www.microsoft.com/en-us/microsoft-365/blog/feed/' },
   { id:'office365itpro', label:'Office 365 for IT Pros',      category:'m365',       color:'#d83b01', type:'rss',
     url:'https://office365itpros.com/feed/' },
+  { id:'practical365',   label:'Practical 365',               category:'m365',       color:'#d83b01', type:'rss',
+    url:'https://practical365.com/feed/' },
 
   // ── Azure AD / Entra ID ─────────────────────────────────────────────────
+  { id:'entra',          label:'Microsoft Entra Blog',        category:'entra',      color:'#7719aa', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Identity' },
   { id:'dirkjan',        label:'dirkjanm.io',                 category:'entra',      color:'#7719aa', type:'rss',
     url:'https://dirkjanm.io/feed.xml' },
 
+  // ── PowerShell / Scripting ──────────────────────────────────────────────
+  { id:'ps-blog',        label:'PowerShell Team Blog',        category:'powershell', color:'#4a9fff', type:'rss',
+    url:'https://devblogs.microsoft.com/powershell/feed/' },
+  { id:'adamauto',       label:'Adam the Automator',          category:'powershell', color:'#4a9fff', type:'rss',
+    url:'https://adamtheautomator.com/feed/' },
+  { id:'ps-magazine',    label:'PowerShell Magazine',         category:'powershell', color:'#4a9fff', type:'rss',
+    url:'https://powershellmagazine.com/feed/' },
+
+  // ── Windows Updates / WSUS ──────────────────────────────────────────────
+  { id:'win-itpro',      label:'Windows IT Pro Blog',         category:'windows',    color:'#00788a', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Windows-ITPro-blog' },
+  { id:'askds',          label:'Ask Directory Services',      category:'windows',    color:'#00788a', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AskDS' },
+
   // ── Apple ───────────────────────────────────────────────────────────────
+  { id:'mosyle',         label:'Mosyle Blog',                 category:'apple',      color:'#8e8e93', type:'rss',
+    url:'https://mosyle.com/blog/feed/' },
+  { id:'macadmins',      label:'MacAdmins News',              category:'apple',      color:'#8e8e93', type:'rss',
+    url:'https://macadmins.software/feed' },
   { id:'kandji',         label:'Kandji Blog',                 category:'apple',      color:'#8e8e93', type:'rss',
     url:'https://www.kandji.io/blog/rss.xml' },
 
   // ── YouTube ─────────────────────────────────────────────────────────────
+  { id:'yt-mechanics',   label:'Microsoft Mechanics',         category:'media',      color:'#ff0000', type:'youtube',
+    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCJ9905MRHxwLZ2jeNQGIWxA' },
   { id:'yt-savill',      label:'John Savill Tech Training',   category:'media',      color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
+  { id:'yt-intune',      label:'Microsoft Intune (YouTube)',  category:'media',      color:'#ff0000', type:'youtube',
+    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCfmamn4OylP6vSM5B5FyFqg' },
+  { id:'yt-andy-malone', label:'Andy Malone MVP',             category:'media',      color:'#ff0000', type:'youtube',
+    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCCi1GC9RpgP-nidUGnfbQqA' },
+
+  // ── Podcasts ─────────────────────────────────────────────────────────────
+  { id:'pod-runasradio',   label:'RunAs Radio',               category:'media',      color:'#1db954', type:'podcast',
+    url:'http://feeds.feedburner.com/RunasRadio' },
+  { id:'pod-ms-cloud',     label:'Microsoft Cloud IT Pro',    category:'media',      color:'#1db954', type:'podcast',
+    url:'https://feeds.simplecast.com/Vqb0tNg5' },
+  { id:'pod-intune',       label:'Endpoint Zone',             category:'media',      color:'#1db954', type:'podcast',
+    url:'https://endpointzone.buzzsprout.com/feed.xml' },
+  { id:'pod-practical365', label:'Practical 365 Podcast',     category:'media',      color:'#1db954', type:'podcast',
+    url:'https://practical365.com/feed/podcast/' },
 ];
 
 function strip(html) {
@@ -102,7 +158,7 @@ async function fetchFeed(feed) {
     const parsed = await Promise.race([
       parser.parseURL(feed.url),
       new Promise((_, reject) =>
-        setTimeout(() => reject(new Error(`timed out after ${PER_FEED_TIMEOUT}ms`)), PER_FEED_TIMEOUT)
+        setTimeout(() => reject(new Error(`timeout after ${PER_FEED_TIMEOUT}ms`)), PER_FEED_TIMEOUT)
       )
     ]);
 
@@ -113,8 +169,8 @@ async function fetchFeed(feed) {
         title:      item.title || 'Untitled',
         link:       item.link || item.guid || '',
         pubDate:    item.isoDate || item.pubDate || null,
-        summary:    strip(item.contentSnippet || item.summary || item.content || item['itunes:summary'] || '').slice(0, 300),
-        author:     item.creator || item.author || item['itunes:author'] || parsed.title || null,
+        summary:    strip(item.contentSnippet || item.summary || item.content || '').slice(0, 300),
+        author:     item.creator || item.author || parsed.title || null,
         categories: item.categories || [],
         type:       feed.type,
       };
@@ -153,7 +209,7 @@ async function fetchBatchWithTimeout(batch) {
       ...batch[i],
       items: [],
       fetchedAt: new Date().toISOString(),
-      error: `batch timeout — did not complete within ${BATCH_TIMEOUT_MS / 1000}s`
+      error: `batch timeout after ${BATCH_TIMEOUT_MS / 1000}s`
     }
   );
 }
@@ -161,7 +217,7 @@ async function fetchBatchWithTimeout(batch) {
 async function main() {
   const total   = FEEDS.length;
   const batches = Math.ceil(total / BATCH_SIZE);
-  console.log(`\nEndpointFeed — ${total} feeds (${batches} batches of ${BATCH_SIZE})\n`);
+  console.log(`\nEndpointFeed — ${total} feeds, ${batches} batches, ${PER_FEED_TIMEOUT/1000}s per-feed timeout\n`);
 
   const results = [];
   for (let i = 0; i < FEEDS.length; i += BATCH_SIZE) {
@@ -170,6 +226,8 @@ async function main() {
     console.log(`\n── Batch ${batchNum}/${batches}: ${batch.map(f => f.label).join(', ')}`);
     const batchResults = await fetchBatchWithTimeout(batch);
     results.push(...batchResults);
+
+    // Write partial results after every batch
     fs.writeFileSync(
       path.join(__dirname, '..', 'docs', 'feeds.json'),
       JSON.stringify({ generatedAt: new Date().toISOString(), feeds: results }, null, 2)
@@ -177,9 +235,9 @@ async function main() {
     console.log(`  └─ Saved (${results.length}/${total} feeds written)`);
   }
 
-  const ok       = results.filter(f => !f.error).length;
-  const articles = results.reduce((a, f) => a + f.items.length, 0);
-  console.log(`\n✅ Complete — ${ok}/${total} feeds OK · ${articles} total items`);
+  const ok    = results.filter(f => !f.error).length;
+  const items = results.reduce((a, f) => a + f.items.length, 0);
+  console.log(`\n✅ Complete — ${ok}/${total} OK · ${items} total items`);
 }
 
 main().catch(e => { console.error('Fatal:', e); process.exit(1); });

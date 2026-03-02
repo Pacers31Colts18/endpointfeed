@@ -1,299 +1,748 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EndpointFeed // Dashboard</title>
+  <title>EndpointFeed</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
   <style>
+    /* ─────────────────────────────────────────────────────────────────────
+       MICROSOFT 4-COLOR SYSTEM
+       Blue   #00a4ef  Red    #f25022
+       Green  #7fba00  Yellow #ffb900
+    ───────────────────────────────────────────────────────────────────── */
+
     :root {
-      --bg:         #0a0c0f;
-      --bg2:        #0f1318;
-      --bg3:        #151a21;
-      --border:     #1e2730;
-      --border2:    #263040;
-      --text:       #c8d6e5;
-      --text-dim:   #566a7f;
-      --text-mute:  #2e3d4d;
-      --green:      #00cc6a;
-      --yellow:     #ffd700;
-      --red:        #ff4444;
-      --yt-red:     #ff0000;
-      --pod-green:  #1db954;
-      --font-mono:  'JetBrains Mono', monospace;
-      --font-ui:    'Syne', sans-serif;
+      --ms-blue:   #00a4ef;
+      --ms-red:    #f25022;
+      --ms-green:  #7fba00;
+      --ms-yellow: #ffb900;
+
+      /* Slightly deeper variants for hover/border */
+      --ms-blue-d:   #0090d4;
+      --ms-red-d:    #d94018;
+      --ms-green-d:  #6aa300;
+      --ms-yellow-d: #e0a400;
     }
+
+    /* ── DARK THEME ── */
+    :root[data-theme="dark"] {
+      --bg:         #0d0d0d;
+      --bg-panel:   #141414;
+      --bg-card:    #1a1a1a;
+      --bg-header:  #111111;
+      --bg-hover:   #202020;
+      --border:     #2a2a2a;
+      --border-hi:  #383838;
+      --text:       #e8e8e8;
+      --text-dim:   #909090;
+      --text-mute:  #505050;
+      --accent:     var(--ms-blue);
+      --accent-d:   var(--ms-blue-d);
+      --new-bg:     rgba(127,186,0,0.12);
+      --new-fg:     var(--ms-green);
+      --new-border: rgba(127,186,0,0.35);
+      --err-fg:     var(--ms-red);
+      --err-border: rgba(242,80,34,0.35);
+      --err-bg:     rgba(242,80,34,0.08);
+      --live-color: var(--ms-green);
+      --shadow:     0 2px 12px rgba(0,0,0,0.5);
+    }
+
+    /* ── LIGHT THEME ── */
+    :root[data-theme="light"] {
+      --bg:         #f5f5f5;
+      --bg-panel:   #ffffff;
+      --bg-card:    #ffffff;
+      --bg-header:  #ebebeb;
+      --bg-hover:   #f0f0f0;
+      --border:     #d8d8d8;
+      --border-hi:  #c0c0c0;
+      --text:       #1a1a1a;
+      --text-dim:   #555555;
+      --text-mute:  #999999;
+      --accent:     var(--ms-blue-d);
+      --accent-d:   #0078b8;
+      --new-bg:     rgba(106,163,0,0.1);
+      --new-fg:     var(--ms-green-d);
+      --new-border: rgba(106,163,0,0.35);
+      --err-fg:     var(--ms-red-d);
+      --err-border: rgba(217,64,24,0.35);
+      --err-bg:     rgba(217,64,24,0.07);
+      --live-color: var(--ms-green-d);
+      --shadow:     0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* ── RESET ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
+
     body {
-      background: var(--bg); color: var(--text);
-      font-family: var(--font-mono); font-size: 13px; line-height: 1.6; min-height: 100vh;
-    }
-    body::before {
-      content: ''; position: fixed; inset: 0;
-      background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.025) 2px, rgba(0,0,0,0.025) 4px);
-      pointer-events: none; z-index: 9999;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Barlow', sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+      transition: background 0.2s, color 0.2s;
     }
 
     /* ── HEADER ── */
     header {
-      background: var(--bg2); border-bottom: 1px solid var(--border);
-      padding: 0 24px; display: flex; align-items: center; justify-content: space-between;
-      height: 56px; position: sticky; top: 0; z-index: 200;
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border);
+      padding: 0 20px;
+      height: 54px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 200;
+      box-shadow: var(--shadow);
     }
-    .logo {
-      font-family: var(--font-ui); font-weight: 800; font-size: 18px;
-      letter-spacing: -0.5px; color: #fff;
-      display: flex; align-items: center; gap: 10px; text-decoration: none;
+
+    .header-right { display: flex; align-items: center; gap: 10px; }
+
+    #last-updated {
+      font-size: 12px;
+      color: var(--text-mute);
+      font-family: 'JetBrains Mono', monospace;
     }
-    .logo-icon { width: 28px; height: 28px; background: #0078d4; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 13px; }
-    .logo em { color: #50e6ff; font-style: normal; }
-    .header-right { display: flex; align-items: center; gap: 12px; }
-    #last-updated { font-size: 11px; color: var(--text-dim); }
-    #last-updated b { color: var(--green); }
-    .icon-btn {
-      background: var(--bg3); border: 1px solid var(--border2); color: var(--text-dim);
-      font-family: var(--font-mono); font-size: 11px; padding: 5px 12px;
-      border-radius: 4px; cursor: pointer; transition: all 0.2s;
+    #last-updated b { color: var(--ms-green); }
+
+    .btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      padding: 5px 11px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+      letter-spacing: 0.3px;
     }
-    .icon-btn:hover { border-color: #0078d4; color: #50e6ff; }
+    .btn:hover { border-color: var(--ms-blue); color: var(--ms-blue); }
+
+    #theme-btn {
+      width: 32px; height: 30px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 15px;
+      transition: border-color 0.15s;
+      flex-shrink: 0;
+    }
+    #theme-btn:hover { border-color: var(--ms-yellow); }
+
+    /* Microsoft color stripe under header */
+    .ms-stripe {
+      height: 3px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .ms-stripe div:nth-child(1) { background: var(--ms-blue); }
+    .ms-stripe div:nth-child(2) { background: var(--ms-red); }
+    .ms-stripe div:nth-child(3) { background: var(--ms-green); }
+    .ms-stripe div:nth-child(4) { background: var(--ms-yellow); }
 
     /* ── TOOLBAR ── */
     .toolbar {
-      background: var(--bg2); border-bottom: 1px solid var(--border);
-      padding: 9px 24px; display: flex; align-items: center; gap: 7px;
-      flex-wrap: wrap; position: sticky; top: 56px; z-index: 100;
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
+      padding: 8px 20px;
+      display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+      position: sticky; top: 57px; z-index: 100;
     }
+
     .cat-pill {
-      display: flex; align-items: center; gap: 6px;
-      background: transparent; border: 1px solid var(--border); color: var(--text-dim);
-      font-family: var(--font-mono); font-size: 11px; padding: 4px 11px;
-      border-radius: 3px; cursor: pointer; transition: all 0.15s; white-space: nowrap;
+      display: flex; align-items: center; gap: 5px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-mute);
+      font-family: 'Barlow', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 4px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: all 0.12s;
+      white-space: nowrap;
     }
-    .cat-pill .pip { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
-    .cat-pill:hover { background: rgba(255,255,255,0.04); color: var(--text); }
+    .cat-pill .pip {
+      width: 7px; height: 7px;
+      border-radius: 1px;
+      flex-shrink: 0;
+    }
+    .cat-pill:hover {
+      border-color: var(--ms-blue);
+      color: var(--text);
+      background: var(--bg-hover);
+    }
+
+    .toolbar-divider {
+      width: 1px; height: 20px;
+      background: var(--border);
+      margin: 0 2px; flex-shrink: 0;
+    }
+
     .search-wrap { position: relative; margin-left: auto; }
-    .search-wrap::before { content: '⌕'; position: absolute; left: 9px; top: 50%; transform: translateY(-50%); color: var(--text-mute); font-size: 14px; pointer-events: none; }
-    #search {
-      background: var(--bg3); border: 1px solid var(--border); color: var(--text);
-      font-family: var(--font-mono); font-size: 12px; padding: 5px 12px 5px 28px;
-      border-radius: 4px; width: 240px; outline: none; transition: border-color 0.2s;
+    .search-wrap::before {
+      content: '🔍';
+      position: absolute; left: 9px; top: 50%;
+      transform: translateY(-50%);
+      font-size: 11px; pointer-events: none;
+      opacity: 0.4;
     }
-    #search:focus { border-color: #0078d4; }
+    #search {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'Barlow', sans-serif;
+      font-size: 13px;
+      padding: 5px 12px 5px 28px;
+      border-radius: 3px;
+      width: 230px; outline: none;
+      transition: border-color 0.15s;
+    }
+    #search:focus { border-color: var(--ms-blue); }
     #search::placeholder { color: var(--text-mute); }
 
-    /* ── STATS ── */
-    .stats-bar {
-      padding: 7px 24px; display: flex; gap: 20px; align-items: center;
-      border-bottom: 1px solid var(--border); background: var(--bg); flex-wrap: wrap;
+    /* ── STATUS BAR ── */
+    .statusbar {
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border);
+      padding: 5px 20px;
+      display: flex; gap: 0; align-items: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--text-mute);
+      overflow-x: auto;
     }
-    .stat { font-size: 11px; color: var(--text-dim); display: flex; align-items: center; gap: 6px; }
-    .stat b { color: var(--text); }
-    .pulse { width: 6px; height: 6px; background: var(--green); border-radius: 50%; animation: blink 2s infinite; }
-    @keyframes blink { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(0,204,106,0.5);} 50%{opacity:0.6;box-shadow:0 0 0 5px rgba(0,204,106,0);} }
 
-    /* ── LAYOUT ── */
-    .container { max-width: 1600px; margin: 0 auto; padding: 16px 24px 48px; display: flex; flex-direction: column; gap: 8px; }
+    .sb-seg {
+      display: flex; align-items: center; gap: 6px;
+      padding-right: 16px; margin-right: 16px;
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    .sb-seg:last-child { border-right: none; }
+    .sb-seg b { color: var(--text); font-weight: 600; }
+
+    .live-dot {
+      width: 7px; height: 7px;
+      background: var(--live-color);
+      border-radius: 50%;
+      animation: livepulse 2s ease infinite;
+      flex-shrink: 0;
+    }
+    @keyframes livepulse {
+      0%,100% { opacity:1; box-shadow: 0 0 0 0 rgba(127,186,0,0.5); }
+      50%      { opacity:0.7; box-shadow: 0 0 0 4px rgba(127,186,0,0); }
+    }
+
+    /* ── MAIN ── */
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 14px 20px 60px;
+      display: flex; flex-direction: column; gap: 6px;
+    }
 
     /* ── CATEGORY SECTION ── */
-    .cat-section { border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
-    .cat-header {
-      display: flex; align-items: center; gap: 12px; padding: 0 18px; height: 48px;
-      background: var(--bg2); cursor: pointer; user-select: none;
-      transition: background 0.15s; border-bottom: 1px solid transparent;
+    .cat-section {
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      transition: border-color 0.15s;
     }
-    .cat-header:hover { background: var(--bg3); }
+    .cat-section:hover { border-color: var(--border-hi); }
+
+    .cat-header {
+      display: flex; align-items: stretch;
+      height: 44px;
+      background: var(--bg-panel);
+      cursor: pointer; user-select: none;
+      transition: background 0.12s;
+      border-bottom: 1px solid transparent;
+    }
+    .cat-header:hover { background: var(--bg-hover); }
     .cat-section.open .cat-header { border-bottom-color: var(--border); }
-    .cat-stripe { width: 4px; height: 22px; border-radius: 2px; flex-shrink: 0; }
-    .cat-name { font-family: var(--font-ui); font-weight: 700; font-size: 14px; color: #fff; flex: 1; display: flex; align-items: center; gap: 10px; }
-    .cat-badge { font-family: var(--font-mono); font-size: 10px; color: var(--text-mute); background: var(--bg); border: 1px solid var(--border); padding: 1px 8px; border-radius: 10px; }
-    .cat-sources { font-size: 10px; color: var(--text-mute); margin-right: 4px; }
-    .cat-chevron { font-size: 10px; color: var(--text-mute); transition: transform 0.25s; }
-    .cat-section.open .cat-chevron { transform: rotate(180deg); }
-    .cat-body { display: none; padding: 14px; background: var(--bg); }
+
+    .cat-color-bar {
+      width: 4px; flex-shrink: 0;
+    }
+
+    .cat-header-inner {
+      flex: 1;
+      display: flex; align-items: center;
+      padding: 0 14px; gap: 12px;
+    }
+
+    .cat-icon {
+      font-size: 15px;
+      flex-shrink: 0;
+      width: 20px;
+      text-align: center;
+    }
+
+    .cat-name {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--text);
+      flex: 1;
+    }
+
+    .cat-meta {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 12px;
+      color: var(--text-mute);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .cat-pill-count {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 1px 8px;
+      border-radius: 2px;
+      font-size: 11px;
+    }
+    .cat-err-tag {
+      color: var(--ms-red);
+      font-size: 11px;
+    }
+    .cat-chevron {
+      color: var(--text-mute);
+      font-size: 10px;
+      transition: transform 0.2s;
+    }
+    .cat-section.open .cat-chevron { transform: rotate(90deg); }
+
+    .cat-body {
+      display: none;
+      padding: 12px;
+      background: var(--bg);
+    }
     .cat-section.open .cat-body { display: block; }
 
-    /* ── FEED GRID (articles) ── */
-    .feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; }
+    /* ── FEED GRID ── */
+    .feed-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 10px;
+    }
 
-    /* ── MEDIA LAYOUT ── */
-    /* YouTube and podcasts each get their own horizontal scroll row */
-    .media-section-label {
-      font-family: var(--font-ui); font-size: 11px; font-weight: 600;
-      color: var(--text-mute); text-transform: uppercase; letter-spacing: 1.5px;
-      padding: 0 2px 8px;
+    /* ── FEED CARD ── */
+    .feed-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      display: flex; flex-direction: column;
+      animation: cardIn 0.25s ease forwards;
+      opacity: 0;
+    }
+    @keyframes cardIn {
+      from { opacity:0; transform:translateY(5px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+
+    .card-header {
+      padding: 8px 12px;
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
       display: flex; align-items: center; gap: 8px;
     }
-    .media-section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
-    .media-row { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 8px; }
-    .media-row::-webkit-scrollbar { height: 4px; }
-    .media-row::-webkit-scrollbar-track { background: transparent; }
-    .media-row::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
-    .media-gap { height: 20px; }
-
-    /* ── YOUTUBE CARD ── */
-    .yt-card {
-      flex: 0 0 240px; background: var(--bg2); border: 1px solid var(--border);
-      border-radius: 5px; overflow: hidden; text-decoration: none; color: inherit;
-      display: flex; flex-direction: column; cursor: pointer;
-      transition: border-color 0.15s, transform 0.15s;
-      animation: rise 0.35s ease forwards; opacity: 0;
+    .card-color-dot {
+      width: 8px; height: 8px;
+      border-radius: 2px;
+      flex-shrink: 0;
     }
-    .yt-card:hover { border-color: var(--yt-red); transform: translateY(-2px); }
+    .card-name {
+      font-weight: 600;
+      font-size: 12px;
+      color: var(--text);
+      flex: 1;
+      font-family: 'Barlow', sans-serif;
+    }
+    .card-count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--text-mute);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 0 6px;
+      border-radius: 2px;
+    }
+    .card-err-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--err-fg);
+      background: var(--err-bg);
+      border: 1px solid var(--err-border);
+      padding: 0 6px;
+      border-radius: 2px;
+    }
+
+    /* ── ARTICLE ── */
+    .article {
+      display: block; text-decoration: none; color: inherit;
+      padding: 9px 12px;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+    .article:last-child { border-bottom: none; }
+    .article:hover { background: var(--bg-hover); }
+    .article:hover .art-title { color: var(--ms-blue); }
+
+    .art-meta {
+      display: flex; align-items: center; gap: 7px;
+      margin-bottom: 3px; flex-wrap: wrap;
+    }
+    .art-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--text-mute);
+    }
+    .art-author {
+      font-size: 11px;
+      color: var(--text-mute);
+      font-style: italic;
+    }
+    .art-author::before { content: '·'; margin-right: 6px; color: var(--border-hi); }
+
+    .badge-new {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      background: var(--new-bg);
+      color: var(--new-fg);
+      border: 1px solid var(--new-border);
+      padding: 0 5px;
+      border-radius: 2px;
+    }
+
+    .art-title {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 3px;
+      transition: color 0.1s;
+    }
+    .art-summary {
+      font-size: 12px;
+      color: var(--text-dim);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .art-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+    .art-tag {
+      font-size: 10px;
+      color: var(--text-mute);
+      border: 1px solid var(--border);
+      padding: 0 5px;
+      border-radius: 2px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .feed-error {
+      padding: 12px;
+      font-size: 12px;
+      color: var(--err-fg);
+      font-style: italic;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* ── MEDIA ── */
+    .media-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-mute);
+      padding-bottom: 8px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .media-label .ml-icon { color: var(--ms-red); }
+    .media-label.podcast-label .ml-icon { color: var(--ms-blue); }
+    .media-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+    .media-row {
+      display: flex; gap: 10px;
+      overflow-x: auto; padding-bottom: 6px;
+    }
+    .media-row::-webkit-scrollbar { height: 3px; }
+    .media-row::-webkit-scrollbar-track { background: transparent; }
+    .media-row::-webkit-scrollbar-thumb { background: var(--border-hi); border-radius: 2px; }
+    .media-gap { height: 16px; }
+
+    /* YouTube card */
+    .yt-card {
+      flex: 0 0 220px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      text-decoration: none; color: inherit;
+      display: flex; flex-direction: column;
+      transition: border-color 0.12s, transform 0.12s, box-shadow 0.12s;
+      animation: cardIn 0.25s ease forwards; opacity: 0;
+    }
+    .yt-card:hover {
+      border-color: var(--ms-red);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(242,80,34,0.2);
+      text-decoration: none;
+    }
+
     .yt-thumb {
       position: relative; width: 100%; aspect-ratio: 16/9;
-      background: var(--bg3); overflow: hidden;
+      background: var(--bg-panel); overflow: hidden;
     }
     .yt-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .yt-overlay {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(0,0,0,0.4);
+      opacity: 0; transition: opacity 0.12s;
+    }
+    .yt-card:hover .yt-overlay { opacity: 1; }
     .yt-play {
-      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
-      background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.15s;
+      width: 38px; height: 38px;
+      background: var(--ms-red);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px; padding-left: 3px;
     }
-    .yt-card:hover .yt-play { opacity: 1; }
-    .yt-play-icon {
-      width: 40px; height: 40px; background: var(--yt-red); border-radius: 50%;
-      display: flex; align-items: center; justify-content: center; font-size: 16px;
+    .yt-source {
+      position: absolute; bottom: 5px; left: 5px;
+      background: rgba(0,0,0,0.75);
+      font-size: 9px; color: #fff;
+      padding: 1px 6px; border-radius: 2px;
+      font-family: 'JetBrains Mono', monospace;
     }
-    .yt-channel-badge {
-      position: absolute; bottom: 6px; left: 6px;
-      background: rgba(0,0,0,0.75); font-size: 9px; color: #fff;
-      padding: 2px 6px; border-radius: 2px; font-family: var(--font-mono);
+    .yt-info { padding: 8px 10px; display: flex; flex-direction: column; gap: 4px; }
+    .yt-title {
+      font-size: 11px; font-weight: 500; color: var(--text);
+      line-height: 1.35;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+      transition: color 0.12s;
     }
-    .yt-info { padding: 9px 10px; flex: 1; display: flex; flex-direction: column; gap: 4px; }
-    .yt-title { font-size: 11px; font-weight: 500; color: var(--text); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; transition: color 0.15s; }
-    .yt-card:hover .yt-title { color: #50e6ff; }
-    .yt-meta { font-size: 10px; color: var(--text-mute); display: flex; gap: 8px; }
-    .badge-new-sm { font-size: 9px; background: rgba(0,204,106,0.12); color: var(--green); border: 1px solid rgba(0,204,106,0.3); padding: 1px 5px; border-radius: 2px; }
+    .yt-card:hover .yt-title { color: var(--ms-red); }
+    .yt-meta { font-size: 10px; color: var(--text-mute); display: flex; gap: 6px; align-items: center; font-family: 'JetBrains Mono', monospace; }
 
-    /* ── PODCAST CARD ── */
+    /* Podcast card */
     .pod-card {
-      flex: 0 0 300px; background: var(--bg2); border: 1px solid var(--border);
-      border-radius: 5px; overflow: hidden; display: flex; flex-direction: column;
-      cursor: pointer; transition: border-color 0.15s, transform 0.15s;
-      animation: rise 0.35s ease forwards; opacity: 0;
+      flex: 0 0 280px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      display: flex; flex-direction: column;
+      transition: border-color 0.12s, transform 0.12s, box-shadow 0.12s;
+      animation: cardIn 0.25s ease forwards; opacity: 0;
     }
-    .pod-card:hover { border-color: var(--pod-green); transform: translateY(-2px); }
-    .pod-header { display: flex; align-items: center; gap: 10px; padding: 10px; border-bottom: 1px solid var(--border); background: var(--bg3); }
-    .pod-art { width: 44px; height: 44px; border-radius: 4px; object-fit: cover; background: var(--bg); flex-shrink: 0; }
-    .pod-art-placeholder { width: 44px; height: 44px; border-radius: 4px; background: var(--bg); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+    .pod-card:hover {
+      border-color: var(--ms-blue);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0,164,239,0.15);
+    }
+
+    .pod-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 11px;
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
+    }
+    .pod-art {
+      width: 44px; height: 44px; border-radius: 4px;
+      object-fit: cover; background: var(--bg); flex-shrink: 0;
+    }
+    .pod-art-ph {
+      width: 44px; height: 44px; border-radius: 4px;
+      background: var(--bg); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; flex-shrink: 0;
+    }
     .pod-show { flex: 1; min-width: 0; }
-    .pod-show-name { font-family: var(--font-ui); font-size: 11px; font-weight: 600; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .pod-show-type { font-size: 10px; color: var(--pod-green); margin-top: 1px; }
-    .pod-body { padding: 10px; display: flex; flex-direction: column; gap: 6px; }
-    .pod-title { font-size: 12px; font-weight: 500; color: var(--text); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; transition: color 0.15s; text-decoration: none; }
-    .pod-card:hover .pod-title { color: #50e6ff; }
-    .pod-meta { display: flex; align-items: center; gap: 8px; font-size: 10px; color: var(--text-mute); }
-    .pod-duration { display: flex; align-items: center; gap: 4px; }
-    .pod-player { margin-top: 4px; }
-    .pod-player audio { width: 100%; height: 32px; outline: none; filter: invert(1) hue-rotate(180deg) brightness(0.85); }
-
-    /* ── ARTICLE CARD ── */
-    .feed-card {
-      background: var(--bg2); border: 1px solid var(--border);
-      border-radius: 5px; overflow: hidden; display: flex; flex-direction: column;
-      animation: rise 0.35s ease forwards; opacity: 0;
+    .pod-show-name {
+      font-size: 12px; font-weight: 600;
+      color: var(--text);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
-    @keyframes rise { from{opacity:0;transform:translateY(6px);} to{opacity:1;transform:translateY(0);} }
-    .card-header { padding: 9px 13px; background: var(--bg3); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 8px; }
-    .card-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-    .card-title { font-family: var(--font-ui); font-weight: 600; font-size: 12px; color: #fff; flex:1; }
-    .card-count { font-size: 10px; color: var(--text-mute); background: var(--bg); border: 1px solid var(--border); padding: 1px 6px; border-radius: 8px; }
-    .card-err { font-size: 10px; color: var(--red); border: 1px solid rgba(255,68,68,0.3); background: rgba(255,68,68,0.05); padding: 1px 6px; border-radius: 8px; }
+    .pod-type {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--ms-blue);
+      letter-spacing: 1px;
+      margin-top: 2px;
+    }
+    .pod-body { padding: 10px 11px; display: flex; flex-direction: column; gap: 5px; }
+    .pod-title {
+      font-size: 12px; font-weight: 500; color: var(--text);
+      line-height: 1.4;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+      text-decoration: none; transition: color 0.12s;
+    }
+    .pod-card:hover .pod-title { color: var(--ms-blue); }
+    .pod-meta {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 11px; color: var(--text-mute);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .pod-player { margin-top: 4px; }
+    .pod-player audio { width: 100%; height: 28px; outline: none; }
+    [data-theme="dark"] .pod-player audio { filter: invert(1) hue-rotate(180deg) brightness(0.75); }
+    .pod-no-audio { font-size: 11px; color: var(--text-mute); font-style: italic; }
 
-    .article { display: block; text-decoration: none; color: inherit; padding: 10px 13px; border-bottom: 1px solid var(--border); transition: background 0.12s; cursor: pointer; }
-    .article:last-child { border-bottom: none; }
-    .article:hover { background: rgba(255,255,255,0.03); }
-    .article:hover .article-title { color: #50e6ff; }
-    .article-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
-    .article-date { font-size: 10px; color: var(--text-mute); font-variant-numeric: tabular-nums; }
-    .article-author { font-size: 10px; color: var(--text-mute); }
-    .article-author::before { content: '·'; margin-right: 8px; }
-    .badge-new { font-size: 9px; letter-spacing: 0.5px; background: rgba(0,204,106,0.12); color: var(--green); border: 1px solid rgba(0,204,106,0.3); padding: 1px 5px; border-radius: 2px; }
-    .article-title { font-size: 12px; font-weight: 500; color: var(--text); line-height: 1.45; margin-bottom: 3px; transition: color 0.12s; }
-    .article-summary { font-size: 11px; color: var(--text-dim); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .article-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
-    .article-tag { font-size: 9px; color: var(--text-mute); border: 1px solid var(--border); padding: 1px 5px; border-radius: 2px; }
-    .feed-error { padding: 14px 13px; font-size: 11px; color: var(--red); opacity: 0.7; }
+    /* ── LOADING ── */
+    #loading {
+      padding: 70px 0; text-align: center; color: var(--text-mute);
+    }
+    .spinner {
+      width: 28px; height: 28px;
+      border: 2px solid var(--border);
+      border-top-color: var(--ms-blue);
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+      margin: 0 auto 14px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .load-text { font-family: 'JetBrains Mono', monospace; font-size: 12px; }
 
-    #loading { padding: 60px 0; text-align: center; color: var(--text-dim); }
-    .spinner { width: 30px; height: 30px; border: 2px solid var(--border2); border-top-color: #0078d4; border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 14px; }
-    @keyframes spin { to{transform:rotate(360deg);} }
+    /* ── FOOTER ── */
+    footer {
+      background: var(--bg-header);
+      border-top: 1px solid var(--border);
+      padding: 12px 20px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 12px; color: var(--text-mute);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .footer-brand {
+      display: flex; align-items: center; gap: 8px;
+    }
+    .footer-quad {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1.5px;
+    }
+    .footer-quad span { width: 6px; height: 6px; border-radius: 0; display: block; }
 
-    footer { border-top: 1px solid var(--border); padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; font-size: 11px; color: var(--text-mute); }
-
+    /* ── RESPONSIVE ── */
     @media (max-width: 680px) {
       .feed-grid { grid-template-columns: 1fr; }
-      .search-wrap { margin-left: 0; width: 100%; order: 99; }
+      .search-wrap { margin-left: 0; width: 100%; order: 99; flex-basis: 100%; }
       #search { width: 100%; }
-      .container, header, .toolbar, .stats-bar, footer { padding-left: 14px; padding-right: 14px; }
+      header, .toolbar, .statusbar, .container, footer { padding-left: 12px; padding-right: 12px; }
+      #last-updated { display: none; }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <a class="logo" href="#">
-    <div class="logo-icon">⬡</div>
-    Endpoint<em>Feed</em>
-  </a>
   <div class="header-right">
-    <div id="last-updated">Loading…</div>
-    <button class="icon-btn" onclick="loadFeeds()">↺ Refresh</button>
-    <button class="icon-btn" id="toggle-all-btn" onclick="toggleAll()">⊞ Expand All</button>
+    <div id="last-updated">initializing…</div>
+    <button class="btn" onclick="loadFeeds()">↺ refresh</button>
+    <button class="btn" id="expand-btn" onclick="toggleAll()">+ expand all</button>
+    <button id="theme-btn" onclick="toggleTheme()" title="Toggle theme">🌙</button>
   </div>
 </header>
 
+<!-- Microsoft 4-color stripe -->
+<div class="ms-stripe">
+  <div></div><div></div><div></div><div></div>
+</div>
+
 <div class="toolbar" id="toolbar">
   <div class="search-wrap">
-    <input type="text" id="search" placeholder="Search all articles…" oninput="handleSearch()" />
+    <input type="text" id="search" placeholder="Search articles…" oninput="handleSearch()" />
   </div>
 </div>
 
-<div class="stats-bar">
-  <div class="stat"><span class="pulse"></span>Live</div>
-  <div class="stat">Articles: <b id="stat-total">—</b></div>
-  <div class="stat">Sources: <b id="stat-sources">—</b></div>
-  <div class="stat">Updated: <b id="stat-updated">—</b></div>
+<div class="statusbar">
+  <div class="sb-seg"><span class="live-dot"></span><b>LIVE</b></div>
+  <div class="sb-seg">articles: <b id="stat-total">—</b></div>
+  <div class="sb-seg">sources: <b id="stat-sources">—</b></div>
+  <div class="sb-seg">updated: <b id="stat-updated">—</b></div>
 </div>
 
 <div class="container">
   <div id="loading">
     <div class="spinner"></div>
-    <div>Loading feeds…</div>
-    <div style="font-size:11px;color:var(--text-mute);margin-top:6px">fetching feeds.json</div>
+    <div class="load-text">loading feeds…</div>
   </div>
   <div id="cats" style="display:contents"></div>
 </div>
 
 <footer>
-  <span>EndpointFeed · Endpoint intelligence dashboard</span>
+  <div class="footer-brand">
+    <div class="footer-quad">
+      <span style="background:var(--ms-red)"></span>
+      <span style="background:var(--ms-green)"></span>
+      <span style="background:var(--ms-blue)"></span>
+      <span style="background:var(--ms-yellow)"></span>
+    </div>
+    EndpointFeed
+  </div>
   <span id="footer-ts"></span>
 </footer>
 
 <script>
+/* ── Categories ─────────────────────────────────────────── */
 const CATEGORIES = [
-  { id:'intune',      label:'Intune',                color:'#0078d4' },
-  { id:'sccm',        label:'SCCM / ConfigMgr',      color:'#005a9e' },
-  { id:'security',    label:'Endpoint Security',      color:'#d13438' },
-  { id:'m365',        label:'M365 / Office 365',      color:'#d83b01' },
-  { id:'entra',       label:'Azure AD / Entra ID',    color:'#7719aa' },
-  { id:'powershell',  label:'PowerShell / Scripting', color:'#4a9fff' },
-  { id:'windows',     label:'Windows Updates / WSUS', color:'#00788a' },
-  { id:'apple',       label:'Apple',                  color:'#8e8e93' },
-  { id:'media',       label:'Media',                  color:'#e8436a' },
+  { id:'intune',     label:'Intune',                icon:'🔷', color:'#00a4ef' },
+  { id:'sccm',       label:'SCCM / ConfigMgr',      icon:'🟩', color:'#7fba00' },
+  { id:'security',   label:'Endpoint Security',      icon:'🔴', color:'#f25022' },
+  { id:'m365',       label:'M365 / Office 365',      icon:'🟡', color:'#ffb900' },
+  { id:'entra',      label:'Azure AD / Entra ID',    icon:'🔷', color:'#00a4ef' },
+  { id:'powershell', label:'PowerShell / Scripting',  icon:'🟩', color:'#7fba00' },
+  { id:'windows',    label:'Windows Updates / WSUS', icon:'🔷', color:'#00a4ef' },
+  { id:'apple',      label:'Apple',                  icon:'⬜', color:'#909090' },
+  { id:'media',      label:'Media',                  icon:'🔴', color:'#f25022' },
 ];
+
+// Cycle through the 4 MS colors for category bars
+const MS_COLORS = ['#00a4ef','#f25022','#7fba00','#ffb900'];
+CATEGORIES.forEach((c, i) => { if (c.color === '#00a4ef' || c.color === '#7fba00' || c.color === '#f25022' || c.color === '#ffb900') return; c.color = MS_COLORS[i % 4]; });
 
 let allFeeds = [];
 let openSet  = new Set(['intune']);
 let allOpen  = false;
 
+/* ── Theme ──────────────────────────────────────────────── */
+function toggleTheme() {
+  const html = document.documentElement;
+  const isDark = html.dataset.theme === 'dark';
+  html.dataset.theme = isDark ? 'light' : 'dark';
+  document.getElementById('theme-btn').textContent = isDark ? '☀️' : '🌙';
+  try { localStorage.setItem('ef-theme', html.dataset.theme); } catch(_){}
+}
+try {
+  const saved = localStorage.getItem('ef-theme');
+  if (saved) {
+    document.documentElement.dataset.theme = saved;
+    document.getElementById('theme-btn').textContent = saved === 'dark' ? '🌙' : '☀️';
+  }
+} catch(_){}
+
+/* ── Toolbar ────────────────────────────────────────────── */
 function buildToolbar() {
   const bar = document.getElementById('toolbar');
-  bar.querySelectorAll('.cat-pill').forEach(p => p.remove());
+  bar.querySelectorAll('.cat-pill, .toolbar-divider').forEach(e => e.remove());
   const sw = bar.querySelector('.search-wrap');
 
-  bar.insertBefore(makePill('All', '#50e6ff', null), sw);
+  const allPill = makePill('All', '#888', null);
+  bar.insertBefore(allPill, sw);
+  bar.insertBefore(makeDivider(), sw);
   CATEGORIES.forEach(cat => bar.insertBefore(makePill(cat.label, cat.color, cat.id), sw));
 }
 
@@ -306,66 +755,77 @@ function makePill(label, color, catId) {
     const el = document.getElementById('cat-'+catId);
     if (el) {
       if (!openSet.has(catId)) { openSet.add(catId); el.classList.add('open'); }
-      setTimeout(() => el.scrollIntoView({behavior:'smooth',block:'start'}), 50);
+      setTimeout(() => el.scrollIntoView({behavior:'smooth', block:'start'}), 50);
     }
   };
   return btn;
 }
 
+function makeDivider() {
+  const d = document.createElement('div');
+  d.className = 'toolbar-divider';
+  return d;
+}
+
+/* ── Expand/collapse ────────────────────────────────────── */
 function toggleAll() {
   allOpen = !allOpen;
   if (allOpen) {
     CATEGORIES.forEach(c => openSet.add(c.id));
     document.querySelectorAll('.cat-section').forEach(s => s.classList.add('open'));
-    document.getElementById('toggle-all-btn').textContent = '⊟ Collapse All';
+    document.getElementById('expand-btn').textContent = '− collapse all';
   } else {
     openSet.clear(); openSet.add('intune');
-    document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id==='cat-intune'));
-    document.getElementById('toggle-all-btn').textContent = '⊞ Expand All';
+    document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id === 'cat-intune'));
+    document.getElementById('expand-btn').textContent = '+ expand all';
   }
 }
 
+/* ── Load feeds ─────────────────────────────────────────── */
 async function loadFeeds() {
   document.getElementById('loading').style.display = 'block';
   document.getElementById('cats').innerHTML = '';
-  document.getElementById('last-updated').textContent = 'Loading…';
+  document.getElementById('last-updated').textContent = 'syncing…';
   try {
     const res = await fetch('feeds.json?_='+Date.now());
     if (!res.ok) throw new Error('HTTP '+res.status);
     const data = await res.json();
     allFeeds = data.feeds || [];
 
-    const total = allFeeds.reduce((a,f)=>a+(f.items?.length||0),0);
-    const ok    = allFeeds.filter(f=>!f.error).length;
+    const total = allFeeds.reduce((a,f) => a+(f.items?.length||0), 0);
+    const ok    = allFeeds.filter(f => !f.error).length;
     document.getElementById('stat-total').textContent   = total;
     document.getElementById('stat-sources').textContent = `${ok}/${allFeeds.length}`;
 
     if (data.generatedAt) {
       const d   = new Date(data.generatedAt);
-      const fmt = d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});
+      const fmt = d.toLocaleString('en-US', {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'});
       document.getElementById('stat-updated').textContent = fmt;
-      document.getElementById('last-updated').innerHTML  = `Updated <b>${fmt}</b>`;
-      document.getElementById('footer-ts').textContent   = `Last fetch: ${fmt}`;
+      document.getElementById('last-updated').innerHTML  = `synced <b>${fmt}</b>`;
+      document.getElementById('footer-ts').textContent   = `last fetch: ${fmt}`;
     } else {
       document.getElementById('last-updated').innerHTML =
-        `<span style="color:var(--yellow)">⚠ No data — run the GitHub Action</span>`;
-      document.getElementById('stat-updated').textContent = 'Never';
+        `<span style="color:var(--ms-yellow)">⚠ no data — run the github action</span>`;
+      document.getElementById('stat-updated').textContent = 'never';
     }
+
     buildToolbar();
     renderAll('');
   } catch(err) {
     document.getElementById('loading').innerHTML = `
-      <div style="font-size:22px;margin-bottom:10px">⚠</div>
-      <div style="color:var(--red)">Failed to load feeds</div>
-      <div style="font-size:11px;color:var(--text-mute);margin-top:4px">${esc(err.message)}</div>`;
+      <div style="color:var(--ms-red);font-size:22px;margin-bottom:10px">✕</div>
+      <div style="font-weight:600">Failed to load feeds</div>
+      <div style="font-size:12px;color:var(--text-mute);margin-top:4px;font-family:monospace">${esc(err.message)}</div>`;
   }
 }
 
+/* ── Render ─────────────────────────────────────────────── */
 function renderAll(query) {
   document.getElementById('loading').style.display = 'none';
   const container = document.getElementById('cats');
   container.innerHTML = '';
   let delay = 0;
+
   for (const cat of CATEGORIES) {
     const feeds = allFeeds.filter(f => f.category === cat.id).map(f => ({
       ...f,
@@ -374,36 +834,40 @@ function renderAll(query) {
       )
     }));
     if (!feeds.length) continue;
-    const vis = feeds.reduce((a,f)=>a+f.items.length,0);
-    if (query && vis === 0) continue;
+    if (query && feeds.reduce((a,f) => a+f.items.length, 0) === 0) continue;
+
     container.appendChild(buildCatSection(cat, feeds, delay, query));
-    delay += 55;
+    delay += 45;
   }
+
+  const shown = document.querySelectorAll('.article, .yt-card, .pod-card').length;
   document.getElementById('stat-total').textContent =
-    document.querySelectorAll('.article, .yt-card, .pod-card').length
-    || allFeeds.reduce((a,f)=>a+(f.items?.length||0),0);
+    shown || allFeeds.reduce((a,f) => a+(f.items?.length||0), 0);
 }
 
+/* ── Category section ───────────────────────────────────── */
 function buildCatSection(cat, feeds, delay, query) {
   const isOpen = openSet.has(cat.id) || !!query;
-  const total  = feeds.reduce((a,f)=>a+f.items.length,0);
-  const errCnt = feeds.filter(f=>f.error).length;
+  const total  = feeds.reduce((a,f) => a+f.items.length, 0);
+  const errs   = feeds.filter(f => f.error).length;
 
   const sec = document.createElement('div');
-  sec.className = 'cat-section' + (isOpen?' open':'');
+  sec.className = 'cat-section' + (isOpen ? ' open' : '');
   sec.id = 'cat-'+cat.id;
 
   const hdr = document.createElement('div');
   hdr.className = 'cat-header';
   hdr.innerHTML = `
-    <div class="cat-stripe" style="background:${cat.color}"></div>
-    <div class="cat-name">
-      ${esc(cat.label)}
-      <span class="cat-badge">${total} item${total!==1?'s':''}</span>
-      ${errCnt?`<span style="font-size:10px;color:var(--red);font-family:var(--font-mono)">${errCnt} err</span>`:''}
-    </div>
-    <span class="cat-sources">${feeds.length} source${feeds.length!==1?'s':''}</span>
-    <span class="cat-chevron">▼</span>`;
+    <div class="cat-color-bar" style="background:${cat.color}"></div>
+    <div class="cat-header-inner">
+      <div class="cat-name">${esc(cat.label)}</div>
+      <div class="cat-meta">
+        ${errs ? `<span class="cat-err-tag">${errs} err</span>` : ''}
+        <span class="cat-pill-count">${total} item${total!==1?'s':''}</span>
+        <span>${feeds.length} src</span>
+
+      <span class="cat-chevron">▶</span>
+    </div>`;
   hdr.onclick = () => {
     const was = sec.classList.contains('open');
     sec.classList.toggle('open', !was);
@@ -418,7 +882,7 @@ function buildCatSection(cat, feeds, delay, query) {
   } else {
     const grid = document.createElement('div');
     grid.className = 'feed-grid';
-    feeds.forEach((feed, i) => grid.appendChild(buildArticleCard(feed, query, i*45)));
+    feeds.forEach((feed, i) => grid.appendChild(buildArticleCard(feed, query, i*40)));
     body.appendChild(grid);
   }
 
@@ -427,7 +891,7 @@ function buildCatSection(cat, feeds, delay, query) {
   return sec;
 }
 
-// ── Media body: YouTube row + Podcast row ──────────────
+/* ── Media body ─────────────────────────────────────────── */
 function buildMediaBody(feeds, query) {
   const wrap = document.createElement('div');
 
@@ -435,37 +899,30 @@ function buildMediaBody(feeds, query) {
   const podFeeds = feeds.filter(f => f.type === 'podcast');
 
   if (ytFeeds.length) {
-    const ytItems = ytFeeds.flatMap(f => f.items.map(i => ({...i, _feedLabel: f.label})));
-    if (ytItems.length) {
+    const items = ytFeeds.flatMap(f => f.items.map(i => ({...i, _feedLabel:f.label})));
+    if (items.length) {
       const lbl = document.createElement('div');
-      lbl.className = 'media-section-label';
-      lbl.innerHTML = `▶ YouTube`;
+      lbl.className = 'media-label';
+      lbl.innerHTML = `<span class="ml-icon">▶</span> YouTube`;
       wrap.appendChild(lbl);
-
       const row = document.createElement('div');
       row.className = 'media-row';
-      ytItems.forEach((item, i) => row.appendChild(buildYoutubeCard(item, i)));
+      items.forEach((item, i) => row.appendChild(buildYoutubeCard(item, i)));
       wrap.appendChild(row);
     }
   }
 
   if (podFeeds.length) {
-    const podItems = podFeeds.flatMap(f => f.items.map(i => ({...i, _feedLabel: f.label})));
-    if (podItems.length) {
-      if (ytFeeds.length) {
-        const gap = document.createElement('div');
-        gap.className = 'media-gap';
-        wrap.appendChild(gap);
-      }
-
+    const items = podFeeds.flatMap(f => f.items.map(i => ({...i, _feedLabel:f.label})));
+    if (items.length) {
+      if (ytFeeds.length) wrap.appendChild(Object.assign(document.createElement('div'), {className:'media-gap'}));
       const lbl = document.createElement('div');
-      lbl.className = 'media-section-label';
-      lbl.innerHTML = `🎙 Podcasts`;
+      lbl.className = 'media-label podcast-label';
+      lbl.innerHTML = `<span class="ml-icon">🎙</span> Podcasts`;
       wrap.appendChild(lbl);
-
       const row = document.createElement('div');
       row.className = 'media-row';
-      podItems.forEach((item, i) => row.appendChild(buildPodcastCard(item, i)));
+      items.forEach((item, i) => row.appendChild(buildPodcastCard(item, i)));
       wrap.appendChild(row);
     }
   }
@@ -473,138 +930,147 @@ function buildMediaBody(feeds, query) {
   return wrap;
 }
 
-function buildYoutubeCard(item, index) {
+/* ── YouTube card ───────────────────────────────────────── */
+function buildYoutubeCard(item, idx) {
   const a = document.createElement('a');
   a.className = 'yt-card';
-  a.href = item.link;
-  a.target = '_blank';
-  a.rel = 'noopener noreferrer';
-  a.style.animationDelay = (index * 50) + 'ms';
+  a.href = item.link; a.target = '_blank'; a.rel = 'noopener noreferrer';
+  a.style.animationDelay = (idx*40)+'ms';
 
-  const now    = Date.now();
-  const pub    = item.pubDate ? new Date(item.pubDate) : null;
-  const isNew  = pub && (now - pub.getTime()) < 172800000;
-  const ds     = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-  const thumb  = item.thumbnail || `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg`;
+  const pub   = item.pubDate ? new Date(item.pubDate) : null;
+  const isNew = pub && (Date.now()-pub.getTime()) < 172800000;
+  const ds    = pub ? pub.toLocaleDateString('en-US',{month:'short',day:'numeric'}) : '';
+  const thumb = item.thumbnail || (item.videoId ? `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg` : '');
 
   a.innerHTML = `
     <div class="yt-thumb">
-      <img src="${esc(thumb)}" alt="" loading="lazy" onerror="this.style.display='none'" />
-      <div class="yt-play"><div class="yt-play-icon">▶</div></div>
-      <div class="yt-channel-badge">${esc(item._feedLabel || '')}</div>
+      ${thumb ? `<img src="${esc(thumb)}" alt="" loading="lazy" />` : ''}
+      <div class="yt-overlay"><div class="yt-play">▶</div></div>
+      <div class="yt-source">${esc(item._feedLabel||'')}</div>
     </div>
     <div class="yt-info">
       <div class="yt-title">${esc(item.title)}</div>
       <div class="yt-meta">
-        ${ds ? `<span>${ds}</span>` : ''}
-        ${isNew ? '<span class="badge-new-sm">NEW</span>' : ''}
-      </div>
+        ${ds?`<span>${ds}</span>`:''}
+        ${isNew?'<span class="badge-new">NEW</span>':''}
+
     </div>`;
   return a;
 }
 
-function buildPodcastCard(item, index) {
+/* ── Podcast card ───────────────────────────────────────── */
+function buildPodcastCard(item, idx) {
   const card = document.createElement('div');
   card.className = 'pod-card';
-  card.style.animationDelay = (index * 50) + 'ms';
+  card.style.animationDelay = (idx*40)+'ms';
 
-  const now   = Date.now();
   const pub   = item.pubDate ? new Date(item.pubDate) : null;
-  const isNew = pub && (now - pub.getTime()) < 172800000;
-  const ds    = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-  const thumb = item.thumbnail;
-
-  const artHtml = thumb
-    ? `<img class="pod-art" src="${esc(thumb)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=pod-art-placeholder>🎙</div>'" />`
-    : `<div class="pod-art-placeholder">🎙</div>`;
+  const isNew = pub && (Date.now()-pub.getTime()) < 172800000;
+  const ds    = pub ? pub.toLocaleDateString('en-US',{month:'short',day:'numeric'}) : '';
+  const artHtml = item.thumbnail
+    ? `<img class="pod-art" src="${esc(item.thumbnail)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=pod-art-ph>🎙</div>'" />`
+    : `<div class="pod-art-ph">🎙</div>`;
 
   card.innerHTML = `
     <div class="pod-header">
       ${artHtml}
       <div class="pod-show">
-        <div class="pod-show-name">${esc(item._feedLabel || 'Podcast')}</div>
-        <div class="pod-show-type">● PODCAST</div>
-      </div>
+        <div class="pod-show-name">${esc(item._feedLabel||'Podcast')}</div>
+        <div class="pod-type">● PODCAST</div>
+
     </div>
     <div class="pod-body">
       <a class="pod-title" href="${esc(item.link)}" target="_blank" rel="noopener noreferrer">
-        ${esc(item.title)}
-        ${isNew ? '<span class="badge-new-sm" style="margin-left:6px">NEW</span>' : ''}
-      </a>
+        ${esc(item.title)}${isNew?' <span class="badge-new">NEW</span>':''}
+  
       <div class="pod-meta">
-        ${ds ? `<span>${ds}</span>` : ''}
-        ${item.duration ? `<span class="pod-duration">⏱ ${esc(item.duration)}</span>` : ''}
-      </div>
+        ${ds?`<span>${ds}</span>`:''}
+        ${item.duration?`<span>⏱ ${esc(item.duration)}</span>`:''}
+
       ${item.audioUrl
         ? `<div class="pod-player"><audio controls preload="none" src="${esc(item.audioUrl)}"></audio></div>`
-        : `<div style="font-size:10px;color:var(--text-mute);margin-top:4px">No audio — <a href="${esc(item.link)}" target="_blank" style="color:#4a9fff">open episode ↗</a></div>`
-      }
+        : `<div class="pod-no-audio">→ <a href="${esc(item.link)}" target="_blank" style="color:var(--ms-blue)">open episode</a></div>`}
     </div>`;
   return card;
 }
 
+/* ── Article card ───────────────────────────────────────── */
 function buildArticleCard(feed, query, delay) {
   const card = document.createElement('div');
   card.className = 'feed-card';
-  card.style.animationDelay = delay + 'ms';
+  card.style.animationDelay = delay+'ms';
 
   card.innerHTML = `<div class="card-header">
-    <span class="card-dot" style="background:${feed.color||'#0078d4'}"></span>
-    <span class="card-title">${esc(feed.label)}</span>
-    ${feed.error ? `<span class="card-err">ERR</span>` : `<span class="card-count">${feed.items.length}</span>`}
+    <span class="card-color-dot" style="background:${feed.color||'#00a4ef'}"></span>
+    <span class="card-name">${esc(feed.label)}</span>
+    ${feed.error
+      ? `<span class="card-err-badge">ERR</span>`
+      : `<span class="card-count">${feed.items.length}</span>`}
   </div>`;
 
   if (feed.error) {
     const e = document.createElement('div');
     e.className = 'feed-error';
-    e.textContent = 'Unavailable: ' + feed.error;
+    e.textContent = feed.error;
     card.appendChild(e); return card;
   }
   if (!feed.items.length) {
     const e = document.createElement('div');
-    e.className = 'feed-error'; e.style.color = 'var(--text-mute)';
-    e.textContent = query ? 'No matching articles.' : 'No articles.';
+    e.className = 'feed-error';
+    e.style.color = 'var(--text-mute)';
+    e.textContent = query ? 'no matches' : 'no articles';
     card.appendChild(e); return card;
   }
 
   const now = Date.now();
   for (const item of feed.items) {
     const a = document.createElement('a');
-    a.className = 'article'; a.href = item.link; a.target = '_blank'; a.rel = 'noopener noreferrer';
-    const pub    = item.pubDate ? new Date(item.pubDate) : null;
-    const isNew  = pub && (now - pub.getTime()) < 172800000;
-    const ds     = pub ? pub.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
-    const title  = query ? hi(item.title, query) : esc(item.title);
-    const summ   = item.summary ? (query ? hi(item.summary.slice(0,220),query) : esc(item.summary.slice(0,220))) : '';
-    const tags   = (item.categories||[]).slice(0,3).map(t=>`<span class="article-tag">${esc(t)}</span>`).join('');
+    a.className = 'article';
+    a.href = item.link; a.target = '_blank'; a.rel = 'noopener noreferrer';
+
+    const pub   = item.pubDate ? new Date(item.pubDate) : null;
+    const isNew = pub && (now - pub.getTime()) < 172800000;
+    const ds    = pub ? pub.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+    const title = query ? hi(item.title, query) : esc(item.title);
+    const summ  = item.summary
+      ? (query ? hi(item.summary.slice(0,220), query) : esc(item.summary.slice(0,220))) : '';
+    const tags  = (item.categories||[]).slice(0,3)
+      .map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
+
     a.innerHTML = `
-      <div class="article-meta">
-        ${ds?`<span class="article-date">${ds}</span>`:''}
-        ${item.author?`<span class="article-author">${esc(item.author)}</span>`:''}
+      <div class="art-meta">
+        ${ds?`<span class="art-date">${ds}</span>`:''}
+        ${item.author?`<span class="art-author">${esc(item.author)}</span>`:''}
         ${isNew?'<span class="badge-new">NEW</span>':''}
-      </div>
-      <div class="article-title">${title}</div>
-      ${summ?`<div class="article-summary">${summ}${(item.summary||'').length>220?'…':''}</div>`:''}
-      ${tags?`<div class="article-tags">${tags}</div>`:''}`;
+
+      <div class="art-title">${title}</div>
+      ${summ?`<div class="art-summary">${summ}${(item.summary||'').length>220?'…':''}</div>`:''}
+      ${tags?`<div class="art-tags">${tags}</div>`:''}`;
     card.appendChild(a);
   }
   return card;
 }
 
+/* ── Search ─────────────────────────────────────────────── */
 let searchTimer;
 function handleSearch() {
   clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => renderAll(document.getElementById('search').value.toLowerCase().trim()), 180);
+  searchTimer = setTimeout(() =>
+    renderAll(document.getElementById('search').value.toLowerCase().trim()), 160);
 }
 
-function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+/* ── Helpers ────────────────────────────────────────────── */
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
 function hi(text, q) {
   return esc(text).replace(
     new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),
-    '<mark style="background:rgba(255,215,0,0.18);color:var(--yellow);border-radius:2px">$1</mark>'
+    '<mark style="background:rgba(255,185,0,0.25);color:var(--ms-yellow);border-radius:1px;padding:0 1px">$1</mark>'
   );
 }
 
+/* ── Boot ───────────────────────────────────────────────── */
 loadFeeds();
 </script>
 </body>
