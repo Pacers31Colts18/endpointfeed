@@ -11,7 +11,11 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
     timeout-minutes: 5      # Hard cap — job dies after 5 minutes no matter what
+=======
+    timeout-minutes: 15     # 5 batches x 60s each + overhead = well within 15 min
+>>>>>>> a24f5d2 (update)
 
     steps:
       - name: Checkout
@@ -23,9 +27,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: |
-          cd scripts
-          npm install
+        run: cd scripts && npm install
 
       - name: Fetch feeds
         run: node scripts/fetch-feeds.js
