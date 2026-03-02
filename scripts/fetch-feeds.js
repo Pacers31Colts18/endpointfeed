@@ -28,8 +28,6 @@ const FEEDS = [
     url:'https://4sysops.com/feed/' },
 
   // ── SCCM / ConfigMgr/Windows Updates ────────────────────────────────────────────────────
-  { id:'configmgr',      label:'Microsoft ConfigMgr Blog',    category:'sccm',       color:'#005a9e', type:'rss',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=ConfigurationManagerBlog' },
   { id:'patchmypc',      label:'Patch My PC Blog',            category:'sccm',       color:'#005a9e', type:'rss',
     url:'https://patchmypc.com/feed' },
   { id:'niallbrady',     label:'Niall Brady',                 category:'sccm',       color:'#005a9e', type:'rss',
@@ -42,18 +40,14 @@ const FEEDS = [
   // ── M365 / Office 365 ───────────────────────────────────────────────────
   { id:'office365itpro', label:'Office 365 for IT Pros',      category:'m365',       color:'#d83b01', type:'rss',
     url:'https://office365itpros.com/feed/' },
-  { id:'practical365',   label:'Practical 365',               category:'m365',       color:'#d83b01', type:'rss',
-    url:'https://practical365.com/feed/' },
 
   // ── Azure AD / Entra ID ─────────────────────────────────────────────────
   { id:'dirkjan',        label:'dirkjanm.io',                 category:'entra',      color:'#7719aa', type:'rss',
     url:'https://dirkjanm.io/feed.xml' },
 
   // ── Apple ───────────────────────────────────────────────────────────────
-  { id:'mosyle',         label:'Mosyle Blog',                 category:'apple',      color:'#8e8e93', type:'rss',
-    url:'https://mosyle.com/blog/feed/' },
-  { id:'macadmins',      label:'MacAdmins News',              category:'apple',      color:'#8e8e93', type:'rss',
-    url:'https://macadmins.software/feed' },
+ // { id:'macadmins',      label:'MacAdmins News',              category:'apple',      color:'#8e8e93', type:'rss',
+  //  url:'https://macadmins.software/feed' },
   { id:'kandji',         label:'Kandji Blog',                 category:'apple',      color:'#8e8e93', type:'rss',
     url:'https://www.kandji.io/blog/rss.xml' },
 
@@ -62,10 +56,8 @@ const FEEDS = [
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
 
   // ── Podcasts ─────────────────────────────────────────────────────────────
-  { id:'pod-runasradio',  label:'RunAs Radio',                category:'media',      color:'#1db954', type:'podcast',
-    url:'http://feeds.feedburner.com/RunasRadio' },
-  { id:'pod-practical365',label:'Practical 365 Podcast',      category:'media',      color:'#1db954', type:'podcast',
-    url:'https://practical365.com/feed/podcast/' },
+  // { id:'pod-runasradio',  label:'RunAs Radio',                category:'media',      color:'#1db954', type:'podcast',
+  //  url:'http://feeds.feedburner.com/RunasRadio' },
 ];
 
 function strip(html) {
