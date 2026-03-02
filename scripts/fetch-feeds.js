@@ -19,8 +19,10 @@ const FEEDS = [
   // ── Intune ──────────────────────────────────────────────────────────────
   { id:'4sysops',        label:'4sysops',                   category:'intune',   color:'#0078d4', type:'rss',
     url:'https://4sysops.com/feed/' },
+  { id:'petervanderwoude', label:'petervanderwoude.nl', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://petervanderwoude.nl/feed/'
 
-  // ── SCCM / ConfigMgr ────────────────────────────────────────────────────
+  // ── ConfigMgr/WSUS ────────────────────────────────────────────────────
   { id:'patchmypc',      label:'Patch My PC Blog',          category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://patchmypc.com/feed' },
   { id:'niallbrady',     label:'Niall Brady',               category:'sccm',     color:'#005a9e', type:'rss',
@@ -42,7 +44,7 @@ const FEEDS = [
   { id:'kandji',         label:'Kandji Blog',               category:'apple',    color:'#8e8e93', type:'rss',
     url:'https://www.kandji.io/blog/rss.xml' },
 
-  // ── YouTube ─────────────────────────────────────────────────────────────
+  // ── Media ─────────────────────────────────────────────────────────────
   { id:'yt-savill',      label:'John Savill Tech Training', category:'media',    color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
 ];
