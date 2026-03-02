@@ -21,6 +21,14 @@ const FEEDS = [
     url:'https://4sysops.com/feed/' },
   { id:'petervanderwoude', label:'petervanderwoude.nl', category:'intune', color:'#0078d4', type:'rss',
     url:'https://petervanderwoude.nl/feed/'},
+  { id:'andrewstaylor', label:'andrewstaylor.com', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://andrewstaylor.com/feed/'},
+  { id:'skiptotheendpoint', label:'skiptotheendpoint.co.uk', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://skiptotheendpoint.co.uk/rss/'},
+  { id:'oddsandendpoints', label:'oddsandendpoints.co.uk', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://www.oddsandendpoints.co.uk/index.xml'},
+  { id:'systanddeploy', label:'systanddeploy.com', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://www.systanddeploy.com/feeds/posts/default?alt=rss'},
 
   // ── ConfigMgr/WSUS ────────────────────────────────────────────────────
   { id:'patchmypc',      label:'Patch My PC Blog - patchmypc.com',          category:'sccm',     color:'#005a9e', type:'rss',
@@ -29,21 +37,31 @@ const FEEDS = [
     url:'https://www.niallbrady.com/feed/' },
   { id:'garytown',     label:'Gary Blok - garytown.com',               category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://garytown.com/feed' },
+  { id:'deploymentresearch',     label:'deploymentresearch.com',               category:'sccm',     color:'#005a9e', type:'rss',
+    url:'https://www.deploymentresearch.com/feed' },
+  { id:'mattzaske',     label:'mattzaske.com',               category:'sccm',     color:'#005a9e', type:'rss',
+    url:'https://mattzaske.com/rss.xml' },
 
   // ── Endpoint Security ───────────────────────────────────────────────────
-  { id:'krebs',          label:'Krebs on Security',         category:'security', color:'#d13438', type:'rss',
+  { id:'krebs',          label:'krebsonsecurity.com',         category:'security', color:'#d13438', type:'rss',
     url:'https://krebsonsecurity.com/feed/' },
+  { id:'nathanmcnulty',          label:'nathanmcnulty.com',         category:'security', color:'#d13438', type:'rss',
+    url:'hhttps://nathanmcnulty.com/index.xml' },
 
   // ── M365 / Office 365 ───────────────────────────────────────────────────
-  { id:'office365itpro', label:'Office 365 for IT Pros',    category:'m365',     color:'#d83b01', type:'rss',
+  { id:'office365itpro', label:'office365itpros.com',    category:'m365',     color:'#d83b01', type:'rss',
     url:'https://office365itpros.com/feed/' },
 
   // ── Azure AD / Entra ID ─────────────────────────────────────────────────
   { id:'dirkjan',        label:'dirkjanm.io',               category:'entra',    color:'#7719aa', type:'rss',
     url:'https://dirkjanm.io/feed.xml' },
+  { id:'merill',        label:'merill.net',               category:'entra',    color:'#7719aa', type:'rss',
+    url:'http://feeds.feedburner.com/merill' },
+  { id:'andykem[',        label:'andykemp.com',               category:'entra',    color:'#7719aa', type:'rss',
+    url:'https://www.andykemp.com/feed/' },
 
   // ── Apple ───────────────────────────────────────────────────────────────
-  { id:'kandji',         label:'Kandji Blog',               category:'apple',    color:'#8e8e93', type:'rss',
+  { id:'kandji',         label:'Kkandji.io',               category:'apple',    color:'#8e8e93', type:'rss',
     url:'https://www.kandji.io/blog/rss.xml' },
 
   // ── Video ─────────────────────────────────────────────────────────────
