@@ -24,6 +24,7 @@ const parser = new Parser({
 
 const FEEDS = [
   // ── Intune ──────────────────────────────────────────────────────────────
+    { id:'4sysops',        label:'4sysops',                     category:'intune',     color:'#0078d4', type:'rss',
     url:'https://4sysops.com/feed/' },
 
   // ── SCCM / ConfigMgr/Windows Updates ────────────────────────────────────────────────────
