@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-02T19:15:09.407Z",
+  "generatedAt": "2026-03-02T19:34:05.126Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -55,7 +55,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:08.318Z",
+      "fetchedAt": "2026-03-02T19:34:00.858Z",
       "error": null
     },
     {
@@ -112,7 +112,189 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:08.016Z",
+      "fetchedAt": "2026-03-02T19:34:00.988Z",
+      "error": null
+    },
+    {
+      "id": "andrewstaylor",
+      "label": "andrewstaylor.com",
+      "category": "intune",
+      "color": "#0078d4",
+      "type": "rss",
+      "url": "https://andrewstaylor.com/feed/",
+      "items": [
+        {
+          "title": "Intune Newsletter – 27th February 2026",
+          "link": "https://andrewstaylor.com/2026/02/27/intune-newsletter-27th-february-2026/",
+          "pubDate": "2026-02-27T12:24:27.000Z",
+          "summary": "Read more]]>",
+          "author": "Andrew Taylor",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Intune Newsletter – 20th February 2026",
+          "link": "https://andrewstaylor.com/2026/02/20/intune-newsletter-20th-february-2026/",
+          "pubDate": "2026-02-20T00:03:14.000Z",
+          "summary": "Read more]]>",
+          "author": "Andrew Taylor",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Intune Newsletter – 13th February 2026",
+          "link": "https://andrewstaylor.com/2026/02/13/intune-newsletter-13th-february-2026/",
+          "pubDate": "2026-02-13T11:53:18.000Z",
+          "summary": "Read more]]>",
+          "author": "Andrew Taylor",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Intune Newsletter – 6th February 2026",
+          "link": "https://andrewstaylor.com/2026/02/06/intune-newsletter-6th-february-2026/",
+          "pubDate": "2026-02-06T11:59:53.000Z",
+          "summary": "Read more]]>",
+          "author": "Andrew Taylor",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Intune Newsletter – 30th January 2026",
+          "link": "https://andrewstaylor.com/2026/01/30/intune-newsletter-30th-january-2026/",
+          "pubDate": "2026-01-30T05:07:14.000Z",
+          "summary": "Read more]]>",
+          "author": "Andrew Taylor",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T19:34:01.291Z",
+      "error": null
+    },
+    {
+      "id": "skiptotheendpoint",
+      "label": "skiptotheendpoint.co.uk",
+      "category": "intune",
+      "color": "#0078d4",
+      "type": "rss",
+      "url": "https://skiptotheendpoint.co.uk/rss/",
+      "items": [],
+      "fetchedAt": "2026-03-02T19:34:00.393Z",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "oddsandendpoints",
+      "label": "oddsandendpoints.co.uk",
+      "category": "intune",
+      "color": "#0078d4",
+      "type": "rss",
+      "url": "https://www.oddsandendpoints.co.uk/index.xml",
+      "items": [
+        {
+          "title": "Keeping macOS Apps updated with App Auto-Patch and Intune",
+          "link": "https://www.oddsandendpoints.co.uk/posts/macos-app-auto-patch-intune/",
+          "pubDate": "2026-01-20T11:15:12.000Z",
+          "summary": "Now that there are so many players in the macOS app management space, how exactly do we keep these apps current and importantly, secure?]]>",
+          "author": "<name>Nick Benton</name><uri>https://www.linkedin.com/in/ennnbeee/</uri>",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Automatically Logging Off Idle Windows Devices",
+          "link": "https://www.oddsandendpoints.co.uk/posts/windows-idle-logoff/",
+          "pubDate": "2026-01-05T15:24:23.000Z",
+          "summary": "Can we use native Intune tools to automatically log off idle users on shared Windows devices when device locking isn&rsquo;t good enough?]]>",
+          "author": "<name>Nick Benton</name><uri>https://www.linkedin.com/in/ennnbeee/</uri>",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Block Windows Home Enrolment in Intune",
+          "link": "https://www.oddsandendpoints.co.uk/posts/windows-block-home-editions/",
+          "pubDate": "2025-11-11T13:27:26.000Z",
+          "summary": "With a general lack of management capability for Windows Home devices, should you be allowing them access to Entra ID services, and how do you stop them from enrolling into Intune?]]>",
+          "author": "<name>Nick Benton</name><uri>https://www.linkedin.com/in/ennnbeee/</uri>",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Blocking Windows Recall Enabled Managed Devices",
+          "link": "https://www.oddsandendpoints.co.uk/posts/windows-recall-compliance/",
+          "pubDate": "2025-10-26T17:28:22.000Z",
+          "summary": "Whether we like it or not, AI and Copilot is everywhere, and even if you don&rsquo;t want AI backed features like Windows Recall enabled on managed corporate and BYOD devices, it will happen. So how do we block these Copilot+ devices from accessing Corporate data or services?]]>",
+          "author": "<name>Nick Benton</name><uri>https://www.linkedin.com/in/ennnbeee/</uri>",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Fine-Tuning Groups for Phased Deployments in Intune",
+          "link": "https://www.oddsandendpoints.co.uk/posts/tuning-phased-deployment-groups/",
+          "pubDate": "2025-10-13T11:50:35.000Z",
+          "summary": "Can we improve upon our attempts to control the deployment of updates, new policies, and updated applications across our managed Intune devices once again?]]>",
+          "author": "<name>Nick Benton</name><uri>https://www.linkedin.com/in/ennnbeee/</uri>",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T19:34:01.511Z",
+      "error": null
+    },
+    {
+      "id": "systanddeploy",
+      "label": "systanddeploy.com",
+      "category": "intune",
+      "color": "#0078d4",
+      "type": "rss",
+      "url": "https://www.systanddeploy.com/feeds/posts/default?alt=rss",
+      "items": [
+        {
+          "title": "List all Intune plaform scripts containing a specific string",
+          "link": "https://www.systanddeploy.com/2026/02/list-all-intune-plaform-scripts.html",
+          "pubDate": "2026-02-27T07:34:00.000Z",
+          "summary": "<p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBtouaO1xMwkjZAC8soac_LbrFnhPYoFsTfZBOV3YVEpFn8i_54bjwIR9Il-XS32ouzxMzHqo-scXEYszjTiXauZjYuktoSCSiJPE_YT1aJJ5y8KyompY6WVCCtmBdSM02l_3cLlDX7L6QCJvjV0SlvhxpN-mgd5t",
+          "author": "noreply@blogger.com (Damien Van Robaeys)",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Send mail using Azure Automation, PowerShell and a managed identity",
+          "link": "https://www.systanddeploy.com/2026/02/send-mail-using-azure-automation.html",
+          "pubDate": "2026-02-17T09:31:00.000Z",
+          "summary": "<p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4ZSeEnE10liqX04OoBDSRSDs5o2j6PKsgYZFxUA5TrNd_YlOl-1ESa6k5HugmKbdY6DCT6pE_AC0wm7u3plaRJfiSI3bJQIsjhvJzwGPyk9k744qmO1tlN1oKokx4giQaFSU0HHtM1wjnhV_K8yLh7bb7pQSAfp0",
+          "author": "noreply@blogger.com (Damien Van Robaeys)",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Upload or download SharePoint files using Azure Automation and a managed identity",
+          "link": "https://www.systanddeploy.com/2026/01/upload-or-download-sharepoint-files.html",
+          "pubDate": "2026-01-22T12:06:00.000Z",
+          "summary": "<p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQdxbb2E9oUVyMhl37YBpZlMuEM90xiGQQnllBnmWSgkH4w89186G8Rp2YAzxhr2aB40uk6LK_If8_N2i9CRydfrxIMvKD9Zz1nJgJnxoR9QZAigHkzBgcR2VqmcrV4_LThxGny1-h-baox_f4E7cwKl_swV_ppzx",
+          "author": "noreply@blogger.com (Damien Van Robaeys)",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Disk size usage dashboard: understand what’s taking up space and remediate disk size issues on Intune devices",
+          "link": "https://www.systanddeploy.com/2026/01/disk-size-usage-dashboard-understand.html",
+          "pubDate": "2026-01-08T11:07:00.000Z",
+          "summary": "<p><span style=\"font-family: georgia;\"></span></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/a/AVvXsEg5Ch8iqw9BHjkTFdtiv7GoYPBs57KSE44Cf0MX9ccceNe4wbgiwrGQn7SzkrppIlrwVuajhOI0tytY9bGA4Nw88p92sOcN-6Xs8zpa-mf2ViV5Py-O0TDiHRqCZdTIq",
+          "author": "noreply@blogger.com (Damien Van Robaeys)",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "List all Intune remediation scripts containing a specific string in detection or remediation",
+          "link": "https://www.systanddeploy.com/2025/12/list-all-intune-remediation-scripts_22.html",
+          "pubDate": "2025-12-22T11:27:00.000Z",
+          "summary": "<p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3qwxSxEoGdaz1lJTeyBQ0HOCQjT6z46JthTKuwGyZ7mFPNN0f7GNjqkvVr74meFhdXPFjEPwHPsvB7RBtljyBZKDKH-NaMRjPqVzoWIvRXI-54BZz9gxTrfuszmjvu7totJHT3O5HwTmiydmyMWc3khfzCP7h1uC",
+          "author": "noreply@blogger.com (Damien Van Robaeys)",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T19:34:01.699Z",
       "error": null
     },
     {
@@ -169,7 +351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:08.477Z",
+      "fetchedAt": "2026-03-02T19:34:02.710Z",
       "error": null
     },
     {
@@ -226,7 +408,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:08.197Z",
+      "fetchedAt": "2026-03-02T19:34:02.198Z",
       "error": null
     },
     {
@@ -283,12 +465,126 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:09.011Z",
+      "fetchedAt": "2026-03-02T19:34:03.354Z",
+      "error": null
+    },
+    {
+      "id": "deploymentresearch",
+      "label": "deploymentresearch.com",
+      "category": "sccm",
+      "color": "#005a9e",
+      "type": "rss",
+      "url": "https://www.deploymentresearch.com/feed",
+      "items": [
+        {
+          "title": "Speeding up File Copy in a Computer Lab",
+          "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
+          "pubDate": "2026-02-26T14:17:31.000Z",
+          "summary": "In our labs, we often need to copy large files to multiple lab machines. These days, we have 10 GBE network cards on all file servers, but it wasn't long ago that we had only a 1 Gbps connection between the file server and the switch that connected the clients. To minimize the time it […] The post S",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Quick Tip – Enable vTPM on Hyper-V VMs",
+          "link": "https://www.deploymentresearch.com/quick-tip-enable-vtpm-on-hyper-v-vms/",
+          "pubDate": "2026-01-25T22:13:17.000Z",
+          "summary": "Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. The post Quick Tip – Enable vTPM on Hyper-V VMs appeared first on Deployment Research. ]]>",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Quick Tip – Migrate Windows 11 VMs with TPM Enabled to New Hyper-V Host",
+          "link": "https://www.deploymentresearch.com/quick-tip-migrate-windows-11-vms-with-tpm-enabled-to-new-hyper-v-host/",
+          "pubDate": "2026-01-24T05:13:56.000Z",
+          "summary": "If you ever need to migrate a few Windows 11 VMs, with TPM (vTPM) activated, from one Hyper-V host to another, this is how. Export Certificates and VMs on the Old Hyper-V Host In addition to exporting the VMs, you also need to export the two certificates that are created when enabling vTPM on a […] ",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 Deployment – Using MDT 8456 with Windows ADK 26H1 (Build 28000)",
+          "link": "https://www.deploymentresearch.com/windows-11-deployment-using-mdt-8456-with-windows-adk-26h1-build-28000/",
+          "pubDate": "2025-12-29T04:32:07.000Z",
+          "summary": "Since Microsoft doesn't officially support Windows 11 Deployments with MDT, nor support any Windows ADK version newer than Windows ADK for Windows 10, version 1809 (build 17763), it's up to the OSD community to make it work. On the good side, with millions of MDT downloads during the years, you're n",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Preventing Windows Updates During OSD with ConfigMgr",
+          "link": "https://www.deploymentresearch.com/preventing-windows-updates-during-osd-with-configmgr/",
+          "pubDate": "2025-11-25T14:27:49.000Z",
+          "summary": "A question came in from the community that hits a very real pain point in ConfigMgr OSD:“Why is Windows Update suddenly running during my Task Sequence?” If you’ve spent any time building Task Sequences, you’ve likely seen this in action. You carefully design the flow to deploy Windows, apply driver",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T19:34:03.506Z",
+      "error": null
+    },
+    {
+      "id": "mattzaske",
+      "label": "mattzaske.com",
+      "category": "sccm",
+      "color": "#005a9e",
+      "type": "rss",
+      "url": "https://mattzaske.com/rss.xml",
+      "items": [
+        {
+          "title": "Git Hooks: Using Git to Take Action",
+          "link": "https://mattzaske.com/blog/2026-03/git-hooks-using-git-take-action",
+          "pubDate": "2026-03-02T14:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Git Hooks: Using Git to Take Action</span> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>zaskem</span></span> <span class=\"field field--name-created field--type-created field--la",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Fire TV Power Control from Home Assistant!",
+          "link": "https://mattzaske.com/blog/2025-12/fire-tv-power-control-home-assistant",
+          "pubDate": "2025-12-15T14:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Fire TV Power Control from Home Assistant!</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/2025-12/adb-",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant",
+          "link": "https://mattzaske.com/blog/2025-07/configuringusing-awtrix-3-ulanzi-tc001-through-home-assistant",
+          "pubDate": "2025-07-14T13:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Home Assistant Notifications to Teams with Graph API",
+          "link": "https://mattzaske.com/blog/2025-06/home-assistant-notifications-teams-graph-api",
+          "pubDate": "2025-06-30T13:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Home Assistant Notifications to Teams with Graph API</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/20",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "MMSMOA 2025 Recap",
+          "link": "https://mattzaske.com/blog/2025-05/mmsmoa-2025-recap",
+          "pubDate": "2025-05-26T13:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">MMSMOA 2025 Recap</span> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>zaskem</span></span> <span class=\"field field--name-created field--type-created field--label-hidden\"><time ",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T19:34:03.024Z",
       "error": null
     },
     {
       "id": "krebs",
-      "label": "Krebs on Security",
+      "label": "krebsonsecurity.com",
       "category": "security",
       "color": "#d13438",
       "type": "rss",
@@ -340,12 +636,69 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:08.629Z",
+      "fetchedAt": "2026-03-02T19:34:03.020Z",
+      "error": null
+    },
+    {
+      "id": "nathanmcnulty",
+      "label": "nathanmcnulty.com",
+      "category": "security",
+      "color": "#d13438",
+      "type": "rss",
+      "url": "hhttps://nathanmcnulty.com/index.xml",
+      "items": [
+        {
+          "title": "Improving passkey registration experiences",
+          "link": "https://nathanmcnulty.com/blog/2025/09/improving-passkey-registration-experiences/",
+          "pubDate": "2025-09-09T16:17:00.000Z",
+          "summary": "<h2 id=\"passkey-registration-problems\">Passkey registration problems</h2> <p>Passkeys in Microsoft Authenticator are fantastic, assuming you can get users logged in to the app successfully. Unfortunately, many companies that are serious about rolling out phishing resistant authentication are also se",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Finding Seamless SSO usage",
+          "link": "https://nathanmcnulty.com/blog/2025/08/finding-seamless-sso-usage/",
+          "pubDate": "2025-08-24T12:27:00.000Z",
+          "summary": "<h2 id=\"a-brief-history\">A brief history</h2> <p>Seamless Single Sign On was first introduced in late 2016 and provided a way for users to authenticate to Entra ID (Azure AD at the time) using a Kerberos ticket from Active Directory. Unfortunately, most environments had it enabled at one point or an",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Comprehensive Guide to Configuring Advanced Auditing",
+          "link": "https://nathanmcnulty.com/blog/2025/04/comprehensive-guide-to-configuring-advanced-auditing/",
+          "pubDate": "2025-04-15T18:04:00.000Z",
+          "summary": "<p> <picture > <img class=\"img-fluid\" src=\"https://nathanmcnulty.com/images/230129-aaaa-featured.webp?v=6af01e70919a19c937ba287fe11ca44d\" alt=\"Image\" loading=\"lazy\" height=\"675\" width=\"900\" /> </picture> </p> <p>This post provides everything you need to ensure Advanced Auditing is fully configured a",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Managing Restricted Groups with Access Packages",
+          "link": "https://nathanmcnulty.com/blog/2025/04/managing-restricted-groups-with-access-packages/",
+          "pubDate": "2025-04-03T21:33:00.000Z",
+          "summary": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\" data-theme=\"dark\"><p lang=\"en\" dir=\"ltr\">👮 Restricted Management Admin Units (RMAU) in <a href=\"https://twitter.com/hashtag/EntraID?src=hash&amp;ref\\_src=twsrc%5Etfw\">#EntraID</a><br><br>Hackers HATE This Hidden Entra ID Feature Most Admins Never Us",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Entra Chat with Merill Fernando",
+          "link": "https://nathanmcnulty.com/media/2025/03/entra-chat/",
+          "pubDate": "2025-03-27T09:30:00.000Z",
+          "summary": "<p>It was such an honor to join Merill Fernando on Entra Chat, and I hope to join him again in the future. Be sure to check out Entra Chat:<br> <a href=\"https://entra.news/p/operational-groups-in-entra-with\" target=\"_blank\" rel=\"noopener noreferrer\">https://entra.news/p/operational-groups-in-entra-w",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T19:34:03.682Z",
       "error": null
     },
     {
       "id": "office365itpro",
-      "label": "Office 365 for IT Pros",
+      "label": "office365itpros.com",
       "category": "m365",
       "color": "#d83b01",
       "type": "rss",
@@ -397,7 +750,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:08.733Z",
+      "fetchedAt": "2026-03-02T19:34:03.634Z",
       "error": null
     },
     {
@@ -454,12 +807,126 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:08.694Z",
+      "fetchedAt": "2026-03-02T19:34:03.760Z",
+      "error": null
+    },
+    {
+      "id": "merill",
+      "label": "merill.net",
+      "category": "entra",
+      "color": "#7719aa",
+      "type": "rss",
+      "url": "http://feeds.feedburner.com/merill",
+      "items": [
+        {
+          "title": "Publishing private enterprise apps to the managed Google Play Store",
+          "link": "http://merill.net/2019/02/publishing-private-enterprise-apps-to-the-managed-google-play-store/",
+          "pubDate": "2019-02-07T21:57:12.000Z",
+          "summary": "Read MorePublishing private enterprise apps to the managed Google Play Store »]]>",
+          "author": "Merill Fernando",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Remove the ms-outlook attribute added to your contacts",
+          "link": "http://merill.net/2018/05/remove-the-ms-outlook-attribute-added-to-your-contacts/",
+          "pubDate": "2018-05-31T10:27:52.000Z",
+          "summary": "Read MoreRemove the ms-outlook attribute added to your contacts »]]>",
+          "author": "Merill Fernando",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Intune Data Centers",
+          "link": "http://merill.net/2018/04/intune-data-centers/",
+          "pubDate": "2018-04-13T11:44:18.000Z",
+          "summary": "",
+          "author": "Merill Fernando",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "PayID",
+          "link": "http://merill.net/2018/02/payid/",
+          "pubDate": "2018-02-27T20:49:59.000Z",
+          "summary": "Read MorePayID »]]>",
+          "author": "Merill Fernando",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Setting up WordPress as your micro blogging platform",
+          "link": "http://merill.net/2018/01/setting-up-wordpress-as-your-micro-blogging-platform/",
+          "pubDate": "2018-01-02T03:32:50.000Z",
+          "summary": "Read MoreSetting up WordPress as your micro blogging platform »]]>",
+          "author": "Merill Fernando",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T19:34:03.976Z",
+      "error": null
+    },
+    {
+      "id": "andykem[",
+      "label": "andykemp.com",
+      "category": "entra",
+      "color": "#7719aa",
+      "type": "rss",
+      "url": "https://www.andykemp.com/feed/",
+      "items": [
+        {
+          "title": "Introducing TechPress All-In-One",
+          "link": "https://www.andykemp.com/2026/01/15/techblogtheme-the-ultimate-plugin-free-wordpress-theme-for-tech-bloggers/",
+          "pubDate": "2026-01-15T11:44:16.000Z",
+          "summary": "",
+          "author": "Andy",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Data – The Fourth Pillar of Zero Trust",
+          "link": "https://www.andykemp.com/2025/12/08/data-the-fourth-pillar-of-zero-trust/",
+          "pubDate": "2025-12-08T21:52:24.000Z",
+          "summary": "",
+          "author": "Andy",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Applications – The Third Pillar of Zero Trust",
+          "link": "https://www.andykemp.com/2025/11/21/applications-the-third-pillar-of-zero-trust/",
+          "pubDate": "2025-11-21T15:48:38.000Z",
+          "summary": "",
+          "author": "Andy",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Devices – The Second Pillar of Zero Trust",
+          "link": "https://www.andykemp.com/2025/11/12/devices-the-second-pillar-of-zero-trust/",
+          "pubDate": "2025-11-12T16:07:29.000Z",
+          "summary": "",
+          "author": "Andy",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Identity: The New Perimeter in Zero Trust",
+          "link": "https://www.andykemp.com/2025/10/31/identity-the-new-perimeter-in-zero-trust/",
+          "pubDate": "2025-10-31T11:33:09.000Z",
+          "summary": "",
+          "author": "Andy",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T19:34:04.949Z",
       "error": null
     },
     {
       "id": "kandji",
-      "label": "Kandji Blog",
+      "label": "Kkandji.io",
       "category": "apple",
       "color": "#8e8e93",
       "type": "rss",
@@ -511,7 +978,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:09.341Z",
+      "fetchedAt": "2026-03-02T19:34:04.291Z",
       "error": null
     },
     {
@@ -578,7 +1045,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/mHlo2wlDIVQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:09.118Z",
+      "fetchedAt": "2026-03-02T19:34:04.305Z",
       "error": null
     },
     {
@@ -645,7 +1112,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/l14X29XDUSc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:09.122Z",
+      "fetchedAt": "2026-03-02T19:34:04.341Z",
       "error": null
     },
     {
@@ -702,7 +1169,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:09.151Z",
+      "fetchedAt": "2026-03-02T19:34:05.098Z",
       "error": null
     },
     {
@@ -759,7 +1226,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-02T19:15:09.407Z",
+      "fetchedAt": "2026-03-02T19:34:05.126Z",
       "error": null
     }
   ]
