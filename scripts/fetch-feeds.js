@@ -1,185 +1,225 @@
-const Parser = require('rss-parser');
-const fs = require('fs');
-const path = require('path');
+/**
+ * EndpointFeed — RSS fetcher
+ * Uses ONLY Node.js built-ins (https, http, zlib, fs).
+ * No npm install required.
+ */
 
-const PER_FEED_TIMEOUT = 5000;
-const BATCH_TIMEOUT_MS = 60000;
-const BATCH_SIZE       = 5;
+const https   = require('https');
+const http    = require('http');
+const zlib    = require('zlib');
+const fs      = require('fs');
+const path    = require('path');
+const { URL } = require('url');
+
+const PER_FEED_TIMEOUT = 8000;
+const BATCH_SIZE       = 4;
 const MAX_ITEMS        = 5;
-
-const parser = new Parser({
-  timeout: PER_FEED_TIMEOUT,
-  headers: {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-  },
-  customFields: {
-    item: [
-      ['media:group',     'mediaGroup'],
-      ['media:thumbnail', 'mediaThumbnail'],
-      ['itunes:duration', 'itunesDuration'],
-      ['itunes:image',    'itunesImage'],
-    ]
-  }
-});
 
 const FEEDS = [
   // ── Intune ──────────────────────────────────────────────────────────────
-  { id:'4sysops',        label:'4sysops',                     category:'intune',     color:'#0078d4', type:'rss',
+  { id:'4sysops',        label:'4sysops',                   category:'intune',   color:'#0078d4', type:'rss',
     url:'https://4sysops.com/feed/' },
 
-  // ── SCCM / ConfigMgr/Windows Updates ────────────────────────────────────
-  { id:'patchmypc',      label:'Patch My PC Blog',            category:'sccm',       color:'#005a9e', type:'rss',
+  // ── SCCM / ConfigMgr ────────────────────────────────────────────────────
+  { id:'patchmypc',      label:'Patch My PC Blog',          category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://patchmypc.com/feed' },
-  { id:'niallbrady',     label:'Niall Brady',                 category:'sccm',       color:'#005a9e', type:'rss',
+  { id:'niallbrady',     label:'Niall Brady',               category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://www.niallbrady.com/feed/' },
 
   // ── Endpoint Security ───────────────────────────────────────────────────
-  { id:'krebs',          label:'Krebs on Security',           category:'security',   color:'#d13438', type:'rss',
+  { id:'krebs',          label:'Krebs on Security',         category:'security', color:'#d13438', type:'rss',
     url:'https://krebsonsecurity.com/feed/' },
 
   // ── M365 / Office 365 ───────────────────────────────────────────────────
-  { id:'office365itpro', label:'Office 365 for IT Pros',      category:'m365',       color:'#d83b01', type:'rss',
+  { id:'office365itpro', label:'Office 365 for IT Pros',    category:'m365',     color:'#d83b01', type:'rss',
     url:'https://office365itpros.com/feed/' },
 
   // ── Azure AD / Entra ID ─────────────────────────────────────────────────
-  { id:'dirkjan',        label:'dirkjanm.io',                 category:'entra',      color:'#7719aa', type:'rss',
+  { id:'dirkjan',        label:'dirkjanm.io',               category:'entra',    color:'#7719aa', type:'rss',
     url:'https://dirkjanm.io/feed.xml' },
 
   // ── Apple ───────────────────────────────────────────────────────────────
-  { id:'kandji',         label:'Kandji Blog',                 category:'apple',      color:'#8e8e93', type:'rss',
+  { id:'kandji',         label:'Kandji Blog',               category:'apple',    color:'#8e8e93', type:'rss',
     url:'https://www.kandji.io/blog/rss.xml' },
 
   // ── YouTube ─────────────────────────────────────────────────────────────
-  { id:'yt-savill',      label:'John Savill Tech Training',   category:'media',      color:'#ff0000', type:'youtube',
+  { id:'yt-savill',      label:'John Savill Tech Training', category:'media',    color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
 ];
 
-function strip(html) {
-  return html.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+// ── HTTP fetch with redirect + gzip support ───────────────────────────────
+function fetchUrl(rawUrl, redirects = 5) {
+  return new Promise((resolve, reject) => {
+    if (redirects < 0) return reject(new Error('Too many redirects'));
+
+    const parsed  = new URL(rawUrl);
+    const lib     = parsed.protocol === 'https:' ? https : http;
+    const options = {
+      hostname: parsed.hostname,
+      port:     parsed.port || (parsed.protocol === 'https:' ? 443 : 80),
+      path:     parsed.pathname + parsed.search,
+      method:   'GET',
+      timeout:  PER_FEED_TIMEOUT,
+      headers:  {
+        'User-Agent':      'Mozilla/5.0 (compatible; EndpointFeed/2.0)',
+        'Accept':          'application/rss+xml, application/xml, text/xml, */*',
+        'Accept-Encoding': 'gzip, deflate',
+      },
+    };
+
+    const req = lib.request(options, res => {
+      if ([301,302,303,307,308].includes(res.statusCode) && res.headers.location) {
+        const next = new URL(res.headers.location, rawUrl).toString();
+        res.resume();
+        return resolve(fetchUrl(next, redirects - 1));
+      }
+      if (res.statusCode !== 200) {
+        res.resume();
+        return reject(new Error(`HTTP ${res.statusCode}`));
+      }
+
+      const chunks = [];
+      const enc    = (res.headers['content-encoding'] || '').toLowerCase();
+      let stream   = res;
+      if (enc === 'gzip')    stream = res.pipe(zlib.createGunzip());
+      if (enc === 'deflate') stream = res.pipe(zlib.createInflate());
+
+      stream.on('data',  c => chunks.push(c));
+      stream.on('end',   () => resolve(Buffer.concat(chunks).toString('utf8')));
+      stream.on('error', reject);
+    });
+
+    req.on('timeout', () => { req.destroy(); reject(new Error(`Timeout after ${PER_FEED_TIMEOUT}ms`)); });
+    req.on('error', reject);
+    req.end();
+  });
 }
 
-function getYoutubeVideoId(link) {
-  const m = (link || '').match(/[?&]v=([^&]+)/);
-  return m ? m[1] : null;
+// ── Minimal XML helpers ───────────────────────────────────────────────────
+function tag(xml, name) {
+  const re = new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`, 'i');
+  const m  = xml.match(re);
+  return m ? m[1].trim() : '';
 }
 
-function getYoutubeThumbnail(item, videoId) {
-  try {
-    const mg = item.mediaGroup;
-    if (mg?.['media:thumbnail']?.[0]?.$?.url) return mg['media:thumbnail'][0].$.url;
-    if (item.mediaThumbnail?.$?.url) return item.mediaThumbnail.$.url;
-  } catch (_) {}
-  if (videoId) return `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`;
-  return null;
+function tagAttr(xml, name, attr) {
+  const re = new RegExp(`<${name}[^>]*\\s${attr}="([^"]*)"`, 'i');
+  const m  = xml.match(re);
+  return m ? m[1] : '';
 }
 
-function getPodcastAudio(item) {
-  return item.enclosure?.url || null;
+function allTags(xml, name) {
+  const re = new RegExp(`<${name}[\\s>][\\s\\S]*?<\\/${name}>`, 'gi');
+  return xml.match(re) || [];
 }
 
-function getPodcastImage(item, feedImage) {
-  if (item.itunesImage?.$.href) return item.itunesImage.$.href;
-  if (item.itunesImage?.href)   return item.itunesImage.href;
-  return feedImage || null;
+function stripTags(s)     { return s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(); }
+function decodeCdata(s)   { return s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, (_, c) => c); }
+function decodeEntities(s) {
+  return s
+    .replace(/&amp;/g,  '&').replace(/&lt;/g,  '<').replace(/&gt;/g,  '>')
+    .replace(/&quot;/g, '"').replace(/&apos;/g, "'")
+    .replace(/&#(\d+);/g,      (_, n) => String.fromCharCode(+n))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)));
+}
+function clean(s) { return decodeEntities(decodeCdata(s)).trim(); }
+
+// ── Parse feed XML ────────────────────────────────────────────────────────
+function parseXml(xml, feedType) {
+  const isAtom  = /<feed[\s>]/i.test(xml);
+  const itemTag = isAtom ? 'entry' : 'item';
+  const rawItems = allTags(xml, itemTag);
+
+  return rawItems.slice(0, MAX_ITEMS).map(raw => {
+    const title = clean(stripTags(tag(raw, 'title') || 'Untitled'));
+
+    let link = '';
+    if (isAtom) {
+      link = tagAttr(raw, 'link', 'href') || clean(tag(raw, 'link'));
+    } else {
+      link = clean(tag(raw, 'link')) || clean(tag(raw, 'guid'));
+    }
+
+    const pubDate = clean(
+      tag(raw, 'pubDate') || tag(raw, 'published') || tag(raw, 'updated')
+    ) || null;
+    let isoDate = null;
+    if (pubDate) { try { isoDate = new Date(pubDate).toISOString(); } catch(_) {} }
+
+    const rawSummary = tag(raw, 'description') || tag(raw, 'summary') ||
+                       tag(raw, 'content') || tag(raw, 'media:description') || '';
+    const summary = clean(stripTags(rawSummary)).slice(0, 300);
+    const author  = clean(
+      tag(raw, 'dc:creator') || tag(raw, 'author') || tag(raw, 'name') || ''
+    );
+
+    const base = { title, link, pubDate: isoDate, summary, author, categories: [], type: feedType };
+
+    if (feedType === 'youtube') {
+      const videoId  = (link.match(/[?&]v=([^&]+)/) || [])[1] || null;
+      const thumbUrl = tagAttr(raw, 'media:thumbnail', 'url');
+      base.videoId   = videoId;
+      base.thumbnail = thumbUrl || (videoId ? `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg` : null);
+    }
+
+    return base;
+  });
 }
 
-function formatDuration(raw) {
-  if (!raw) return null;
-  if (/^\d+:\d+/.test(raw)) return raw;
-  const secs = parseInt(raw, 10);
-  if (isNaN(secs)) return raw;
-  const h = Math.floor(secs / 3600);
-  const m = Math.floor((secs % 3600) / 60);
-  const s = secs % 60;
-  return h > 0
-    ? `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`
-    : `${m}:${String(s).padStart(2,'0')}`;
-}
-
+// ── Fetch + parse one feed ────────────────────────────────────────────────
 async function fetchFeed(feed) {
   const start = Date.now();
   try {
-    const parsed = await Promise.race([
-      parser.parseURL(feed.url),
-      new Promise((_, reject) =>
-        setTimeout(() => reject(new Error(`timed out after ${PER_FEED_TIMEOUT}ms`)), PER_FEED_TIMEOUT)
-      )
-    ]);
-
-    const feedImage = parsed.image?.url || parsed.itunes?.image || null;
-
-    const items = (parsed.items || []).slice(0, MAX_ITEMS).map(item => {
-      const base = {
-        title:      item.title || 'Untitled',
-        link:       item.link || item.guid || '',
-        pubDate:    item.isoDate || item.pubDate || null,
-        summary:    strip(item.contentSnippet || item.summary || item.content || item['itunes:summary'] || '').slice(0, 300),
-        author:     item.creator || item.author || item['itunes:author'] || parsed.title || null,
-        categories: item.categories || [],
-        type:       feed.type,
-      };
-      if (feed.type === 'youtube') {
-        const videoId  = getYoutubeVideoId(base.link);
-        base.thumbnail = getYoutubeThumbnail(item, videoId);
-        base.videoId   = videoId;
-      }
-      if (feed.type === 'podcast') {
-        base.audioUrl  = getPodcastAudio(item);
-        base.thumbnail = getPodcastImage(item, feedImage);
-        base.duration  = formatDuration(item.itunesDuration || item['itunes:duration']);
-      }
-      return base;
-    });
-
-    console.log(`  ✓ ${feed.label} — ${items.length} items (${Date.now() - start}ms)`);
+    const xml   = await fetchUrl(feed.url);
+    const items = parseXml(xml, feed.type);
+    console.log(`  ✓ ${feed.label} — ${items.length} items (${Date.now()-start}ms)`);
     return { ...feed, items, fetchedAt: new Date().toISOString(), error: null };
   } catch (err) {
-    console.warn(`  ✗ ${feed.label} — ${err.message} (${Date.now() - start}ms)`);
+    console.warn(`  ✗ ${feed.label} — ${err.message} (${Date.now()-start}ms)`);
     return { ...feed, items: [], fetchedAt: new Date().toISOString(), error: err.message };
   }
 }
 
-async function fetchBatchWithTimeout(batch) {
-  const settled = new Array(batch.length).fill(null);
+// ── Batch with wall-clock cap ─────────────────────────────────────────────
+async function fetchBatch(batch) {
+  const BATCH_MS = (PER_FEED_TIMEOUT * batch.length) + 3000;
+  const settled  = new Array(batch.length).fill(null);
   const promises = batch.map((feed, i) =>
-    fetchFeed(feed).then(result => { settled[i] = result; })
+    fetchFeed(feed).then(r => { settled[i] = r; })
   );
   await Promise.race([
     Promise.all(promises),
-    new Promise(resolve => setTimeout(resolve, BATCH_TIMEOUT_MS))
+    new Promise(res => setTimeout(res, BATCH_MS))
   ]);
-  return settled.map((result, i) =>
-    result ?? {
-      ...batch[i],
-      items: [],
-      fetchedAt: new Date().toISOString(),
-      error: `batch timeout — did not complete within ${BATCH_TIMEOUT_MS / 1000}s`
-    }
-  );
+  return settled.map((r, i) => r ?? {
+    ...batch[i], items: [], fetchedAt: new Date().toISOString(),
+    error: `batch timeout after ${BATCH_MS}ms`
+  });
 }
 
+// ── Main ──────────────────────────────────────────────────────────────────
 async function main() {
-  const total   = FEEDS.length;
-  const batches = Math.ceil(total / BATCH_SIZE);
-  console.log(`\nEndpointFeed — ${total} feeds (${batches} batches of ${BATCH_SIZE})\n`);
-
+  console.log(`\nEndpointFeed — ${FEEDS.length} feeds, zero npm deps\n`);
+  const outFile = path.join(__dirname, '..', 'docs', 'feeds.json');
   const results = [];
+  const batches = Math.ceil(FEEDS.length / BATCH_SIZE);
+
   for (let i = 0; i < FEEDS.length; i += BATCH_SIZE) {
     const batch    = FEEDS.slice(i, i + BATCH_SIZE);
     const batchNum = Math.floor(i / BATCH_SIZE) + 1;
     console.log(`\n── Batch ${batchNum}/${batches}: ${batch.map(f => f.label).join(', ')}`);
-    const batchResults = await fetchBatchWithTimeout(batch);
-    results.push(...batchResults);
+    const res = await fetchBatch(batch);
+    results.push(...res);
     fs.writeFileSync(
-      path.join(__dirname, '..', 'docs', 'feeds.json'),
+      outFile,
       JSON.stringify({ generatedAt: new Date().toISOString(), feeds: results }, null, 2)
     );
-    console.log(`  └─ Saved (${results.length}/${total} feeds written)`);
+    console.log(`  └─ saved (${results.length}/${FEEDS.length} feeds written)`);
   }
 
-  const ok       = results.filter(f => !f.error).length;
-  const articles = results.reduce((a, f) => a + f.items.length, 0);
-  console.log(`\n✅ Complete — ${ok}/${total} feeds OK · ${articles} total items`);
+  const ok    = results.filter(f => !f.error).length;
+  const items = results.reduce((a, f) => a + f.items.length, 0);
+  console.log(`\n✅ Complete — ${ok}/${results.length} feeds OK · ${items} total items`);
 }
 
 main().catch(e => { console.error('Fatal:', e); process.exit(1); });

@@ -631,10 +631,6 @@
     .footer-brand {
       display: flex; align-items: center; gap: 8px;
     }
-    .footer-quad {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 1.5px;
-    }
-    .footer-quad span { width: 6px; height: 6px; border-radius: 0; display: block; }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 680px) {
@@ -649,6 +645,7 @@
 <body>
 
 <header>
+  <div class="header-left" style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;letter-spacing:2px;text-transform:uppercase;color:var(--text)">Endpoint<span style="color:var(--ms-blue)">Feed</span></div>
   <div class="header-right">
     <div id="last-updated">initializing…</div>
     <button class="btn" onclick="loadFeeds()">↺ refresh</button>
@@ -684,15 +681,7 @@
 </div>
 
 <footer>
-  <div class="footer-brand">
-    <div class="footer-quad">
-      <span style="background:var(--ms-red)"></span>
-      <span style="background:var(--ms-green)"></span>
-      <span style="background:var(--ms-blue)"></span>
-      <span style="background:var(--ms-yellow)"></span>
-    </div>
-    EndpointFeed
-  </div>
+  <div class="footer-brand">EndpointFeed</div>
   <span id="footer-ts"></span>
 </footer>
 
