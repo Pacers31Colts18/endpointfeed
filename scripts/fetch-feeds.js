@@ -23,21 +23,13 @@ const FEEDS = [
   { id:'4sysops',        label:'4sysops',                     category:'intune',     color:'#0078d4',
     url:'https://4sysops.com/feed/' },
 
-  // ── SCCM / ConfigMgr ────────────────────────────────────────────────────
+  // ── SCCM / ConfigMgr/Windows Updates ────────────────────────────────────────────────────
   { id:'configmgr',      label:'Microsoft ConfigMgr Blog',    category:'sccm',       color:'#005a9e',
     url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=ConfigurationManagerBlog' },
   { id:'patchmypc',      label:'Patch My PC Blog',            category:'sccm',       color:'#005a9e',
     url:'https://patchmypc.com/feed' },
   { id:'niallbrady',     label:'Niall Brady',                 category:'sccm',       color:'#005a9e',
     url:'https://www.niallbrady.com/feed/' },
-
-  // ── Endpoint Security ───────────────────────────────────────────────────
-  { id:'defender',       label:'Microsoft Defender Blog',     category:'security',   color:'#d13438',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=MicrosoftDefenderBlog' },
-  { id:'msrc',           label:'MS Security Response Center', category:'security',   color:'#d13438',
-    url:'https://msrc.microsoft.com/blog/feed/' },
-  { id:'krebs',          label:'Krebs on Security',           category:'security',   color:'#d13438',
-    url:'https://krebsonsecurity.com/feed/' },
 
   // ── M365 / Office 365 ───────────────────────────────────────────────────
   { id:'m365',           label:'Microsoft 365 Blog',          category:'m365',       color:'#d83b01',
@@ -48,28 +40,10 @@ const FEEDS = [
     url:'https://practical365.com/feed/' },
 
   // ── Azure AD / Entra ID ─────────────────────────────────────────────────
-  { id:'entra',          label:'Microsoft Entra Blog',        category:'entra',      color:'#7719aa',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=Identity' },
   { id:'dirkjan',        label:'dirkjanm.io',                 category:'entra',      color:'#7719aa',
     url:'https://dirkjanm.io/feed.xml' },
 
-  // ── PowerShell / Scripting ──────────────────────────────────────────────
-  { id:'ps-blog',        label:'PowerShell Team Blog',        category:'powershell', color:'#4a9fff',
-    url:'https://devblogs.microsoft.com/powershell/feed/' },
-  { id:'adamauto',       label:'Adam the Automator',          category:'powershell', color:'#4a9fff',
-    url:'https://adamtheautomator.com/feed/' },
-  { id:'ps-magazine',    label:'PowerShell Magazine',         category:'powershell', color:'#4a9fff',
-    url:'https://powershellmagazine.com/feed/' },
-
-  // ── Windows Updates / WSUS ──────────────────────────────────────────────
-  { id:'win-itpro',      label:'Windows IT Pro Blog',         category:'windows',    color:'#00788a',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=Windows-ITPro-blog' },
-  { id:'askds',          label:'Ask Directory Services',      category:'windows',    color:'#00788a',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=AskDS' },
-
   // ── Apple ───────────────────────────────────────────────────────────────
-  { id:'mosyle',         label:'Mosyle Blog',                 category:'apple',      color:'#8e8e93',
-    url:'https://mosyle.com/blog/feed/' },
   { id:'macadmins',      label:'MacAdmins News',              category:'apple',      color:'#8e8e93',
     url:'https://macadmins.software/feed' },
   { id:'kandji',         label:'Kandji Blog',                 category:'apple',      color:'#8e8e93',
