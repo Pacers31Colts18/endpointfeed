@@ -49,6 +49,8 @@ const FEEDS = [
   // ── Media ─────────────────────────────────────────────────────────────
   { id:'yt-savill',      label:'John Savill Tech Training', category:'media',    color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
+    { id:'5bytes-podcast',   label:'5 Bytes Podcast',               category:'media',      color:'#ff0000', type:'youtube',
+    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw'},
   { id:'pod-runasradio',   label:'RunAs Radio',               category:'media',      color:'#1db954', type:'podcast',
     url:'https://feeds.simplecast.com/cRTTfxcT'},
   { id:'pod-powershell-podcast',   label:'PowerShell Podcast',               category:'media',      color:'#1db954', type:'podcast',
