@@ -1,4 +1,471 @@
 {
-  "generatedAt": null,
-  "feeds": []
+  "generatedAt": "2026-03-02T05:07:41.893Z",
+  "feeds": [
+    {
+      "id": "4sysops",
+      "label": "4sysops",
+      "category": "intune",
+      "color": "#0078d4",
+      "type": "rss",
+      "url": "https://4sysops.com/feed/",
+      "items": [
+        {
+          "title": "Enable Windows ReFS boot: Install Windows Server on Resilient File System volumes",
+          "link": "https://4sysops.com/archives/enable-windows-refs-boot-install-windows-server-on-resilient-file-system-volumes/",
+          "pubDate": "2026-02-27T13:57:24.000Z",
+          "summary": "Windows Server vNext Insider Preview build 29531 introduces ReFS boot, allowing you to install and start Windows Server from a Resilient File System (ReFS)-formatted boot volume for the first time. This feature brings integrity-level metadata checksums, online corruption repair, block cloning, and 3",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Monitoring Secure Boot certificate installation status with Intune and PowerShell",
+          "link": "https://4sysops.com/archives/monitoring-secure-boot-certificate-installation-status-with-intune-and-powershell/",
+          "pubDate": "2026-02-27T13:51:27.000Z",
+          "summary": "Microsoft Secure Boot certificates issued by the 2011 Certificate Authorities (CAs) are expiring starting June 2026. Every Windows device with Secure Boot enabled must be updated to trust the 2023 certificates before expiration to retain security update support. Microsoft provides a monitoring-only ",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Windows Server 2025 security baseline 2602: 10 new settings",
+          "link": "https://4sysops.com/archives/windows-server-2025-security-baseline-2602-10-new-settings/",
+          "pubDate": "2026-02-26T12:55:12.000Z",
+          "summary": "Microsoft released version 2602 of the Security Baseline for Windows Server 2025, approximately eight months after the previous version 2506. The update adds 10 new Group Policy settings and removes one, focusing on NTLM auditing, printer security, and authentication hardening. Most of the new polic",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft Defender for Endpoint: library management for live response, vulnerability reporting, predictive shielding",
+          "link": "https://4sysops.com/archives/microsoft-defender-for-endpoint-library-management-for-live-response-vulnerability-reporting-predictive-shielding/",
+          "pubDate": "2026-02-26T12:54:27.000Z",
+          "summary": "Microsoft Defender for Endpoint has received a set of new features and enhancements in February 2026, covering live response management, configuration visibility, vulnerability reporting, and predictive threat mitigation. These updates span endpoints running Windows, macOS, Linux, Android, and iOS. ",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Update Secure Boot certificates on Windows Server and VMs before June 2026",
+          "link": "https://4sysops.com/archives/update-secure-boot-certificates-on-windows-server-and-vms-before-june-2026/",
+          "pubDate": "2026-02-25T15:28:13.000Z",
+          "summary": "Microsoft's original Secure Boot certificates — issued in 2011 — begin expiring in June 2026. Unlike Windows 11, Windows Server does not receive these updates automatically via Windows Update. Administrators must manually deploy the 2023 replacement certificates to all applicable servers and Generat",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T05:07:41.404Z",
+      "error": null
+    },
+    {
+      "id": "patchmypc",
+      "label": "Patch My PC Blog",
+      "category": "sccm",
+      "color": "#005a9e",
+      "type": "rss",
+      "url": "https://patchmypc.com/feed",
+      "items": [
+        {
+          "title": "Intune Win32App PowerShell Script Installer 64 Bit Switch Not Working",
+          "link": "https://patchmypc.com/blog/intune-win32-powershell-script-installer-64-bit-switch-not-working/",
+          "pubDate": "2026-03-01T14:26:35.000Z",
+          "summary": "Selecting 64 bit for a Win32 PowerShell installer script still launches 32 bit PowerShell inside IME. This blog explains why the switch does not enforce the expected architecture The post Intune Win32App PowerShell Script Installer 64 Bit Switch Not Working appeared first on Patch My PC. ]]>",
+          "author": "Rudy Ooms",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Disable MDM Enrollment When Adding a Work or School Account on Windows",
+          "link": "https://patchmypc.com/blog/disable-mdm-enrollment-when-adding-a-work-or-school-account/",
+          "pubDate": "2026-02-28T14:16:54.000Z",
+          "summary": "What really happens when you disable MDM enrollment in Intune? This article shows the full Windows broker and Entra ID flow behind the management prompt. The post Disable MDM Enrollment When Adding a Work or School Account on Windows appeared first on Patch My PC. ]]>",
+          "author": "Rudy Ooms",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "How to package Microsoft 365 Apps as a Custom App",
+          "link": "https://patchmypc.com/kb/how-to-package-microsoft-365-apps-as-custom-app/",
+          "pubDate": "2026-02-28T13:26:51.000Z",
+          "summary": "Learn how to package Microsoft 365 Apps as a Custom App for Patch My PC Cloud, including guidance on configuration planning and deployment considerations. The post How to package Microsoft 365 Apps as a Custom App appeared first on Patch My PC. ]]>",
+          "author": "Ben Whitmore",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Intune PowerShell Script Delay? Here Is What Really Causes It",
+          "link": "https://patchmypc.com/blog/intune-powershell-script-delay-here-is-what-really-causes-it/",
+          "pubDate": "2026-02-27T08:55:24.000Z",
+          "summary": "Why does an Intune PowerShell script not run immediately? This post explains the real IME triggers, the 8 hour timer, and why Sync does not start the PowerShell workload. The post Intune PowerShell Script Delay? Here Is What Really Causes It appeared first on Patch My PC. ]]>",
+          "author": "Rudy Ooms",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Foxit PDF Editor and Reader Deployment Guidance",
+          "link": "https://patchmypc.com/kb/foxit-pdf-editor-and-reader-deployment-guidance/",
+          "pubDate": "2026-02-25T11:05:03.000Z",
+          "summary": "This article explains the supported Foxit PDF Editor and Reader versions in the Patch My PC catalog, including product removals, renamed products, replacement guidance, and deployment recommendations. The post Foxit PDF Editor and Reader Deployment Guidance appeared first on Patch My PC. ]]>",
+          "author": "Ben Whitmore",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T05:07:41.468Z",
+      "error": null
+    },
+    {
+      "id": "niallbrady",
+      "label": "Niall Brady",
+      "category": "sccm",
+      "color": "#005a9e",
+      "type": "rss",
+      "url": "https://www.niallbrady.com/feed/",
+      "items": [
+        {
+          "title": "First looks at Frontline Shared UES",
+          "link": "https://www.niallbrady.com/2026/02/02/first-looks-at-frontline-shared-ues/",
+          "pubDate": "2026-02-02T19:44:34.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "January 2026 Cumulative Update breaks Windows app",
+          "link": "https://www.niallbrady.com/2026/01/19/january-2026-cumulative-update-breaks-windows-app/",
+          "pubDate": "2026-01-19T11:41:24.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "First looks at the Windows 365 Cloud Input Protection Preview Feature",
+          "link": "https://www.niallbrady.com/2025/12/21/windows-365-cloud-input-protection-preview-feature/",
+          "pubDate": "2025-12-21T17:06:53.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "First looks at Windows 365 AI-enabled Cloud PCs",
+          "link": "https://www.niallbrady.com/2025/12/13/first-looks-at-windows-365-ai-enabled-cloud-pcs/",
+          "pubDate": "2025-12-13T18:13:40.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "The rise and fall of SCCM Technical Preview",
+          "link": "https://www.niallbrady.com/2025/11/20/the-rise-and-fall-of-sccm-technical-preview/",
+          "pubDate": "2025-11-20T07:23:37.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T05:07:41.253Z",
+      "error": null
+    },
+    {
+      "id": "krebs",
+      "label": "Krebs on Security",
+      "category": "security",
+      "color": "#d13438",
+      "type": "rss",
+      "url": "https://krebsonsecurity.com/feed/",
+      "items": [
+        {
+          "title": "Who is the Kimwolf Botmaster “Dort”?",
+          "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
+          "pubDate": "2026-02-28T12:01:57.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+          "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+          "pubDate": "2026-02-20T20:00:30.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+          "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+          "pubDate": "2026-02-11T16:08:11.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Patch Tuesday, February 2026 Edition",
+          "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+          "pubDate": "2026-02-10T21:49:53.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
+          "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+          "pubDate": "2026-02-02T16:15:16.000Z",
+          "summary": "Read More »]]>",
+          "author": "BrianKrebs",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T05:07:40.804Z",
+      "error": null
+    },
+    {
+      "id": "office365itpro",
+      "label": "Office 365 for IT Pros",
+      "category": "m365",
+      "color": "#d83b01",
+      "type": "rss",
+      "url": "https://office365itpros.com/feed/",
+      "items": [
+        {
+          "title": "Planner’s Newly Redesigned Interface",
+          "link": "https://office365itpros.com/2026/02/27/planner-new-ux/?utm_source=rss&utm_medium=rss&utm_campaign=planner-new-ux",
+          "pubDate": "2026-02-27T07:00:00.000Z",
+          "summary": "",
+          "author": "Tony Redmond",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Extending Protection for Confidential SharePoint Online Files",
+          "link": "https://office365itpros.com/2026/02/26/sensitivity-label-extend-protection/?utm_source=rss&utm_medium=rss&utm_campaign=sensitivity-label-extend-protection",
+          "pubDate": "2026-02-26T07:00:00.000Z",
+          "summary": "",
+          "author": "Tony Redmond",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "How to Use Scoped Graph Permissions with SharePoint Lists",
+          "link": "https://office365itpros.com/2026/02/25/scoped-graph-permission-lists/?utm_source=rss&utm_medium=rss&utm_campaign=scoped-graph-permission-lists",
+          "pubDate": "2026-02-25T07:00:00.000Z",
+          "summary": "",
+          "author": "Tony Redmond",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft Extends DLP Policy for Copilot Protection to All Storage Locations",
+          "link": "https://office365itpros.com/2026/02/24/dlp-policy-for-copilot-storage/?utm_source=rss&utm_medium=rss&utm_campaign=dlp-policy-for-copilot-storage",
+          "pubDate": "2026-02-24T07:00:00.000Z",
+          "summary": "",
+          "author": "Tony Redmond",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Update #21 for Automating Microsoft 365 with PowerShell",
+          "link": "https://office365itpros.com/2026/02/23/automating-microsoft-365-ps21/?utm_source=rss&utm_medium=rss&utm_campaign=automating-microsoft-365-ps21",
+          "pubDate": "2026-02-23T07:00:00.000Z",
+          "summary": "",
+          "author": "Tony Redmond",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T05:07:41.583Z",
+      "error": null
+    },
+    {
+      "id": "dirkjan",
+      "label": "dirkjanm.io",
+      "category": "entra",
+      "color": "#7719aa",
+      "type": "rss",
+      "url": "https://dirkjanm.io/feed.xml",
+      "items": [
+        {
+          "title": "One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens",
+          "link": "https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/",
+          "pubDate": "2025-09-17T13:00:57.000Z",
+          "summary": "",
+          "author": "<name>Dirk-jan Mollema</name>",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Extending AD CS attack surface to the cloud with Intune certificates",
+          "link": "https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs/",
+          "pubDate": "2025-07-30T14:00:57.000Z",
+          "summary": "",
+          "author": "<name>Dirk-jan Mollema</name>",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Persisting on Entra ID applications and User Managed Identities with Federated Credentials",
+          "link": "https://dirkjanm.io/persisting-with-federated-credentials-entra-apps-managed-identities/",
+          "pubDate": "2024-07-31T18:00:57.000Z",
+          "summary": "",
+          "author": "<name>Dirk-jan Mollema</name>",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Lateral movement and on-prem NT hash dumping with Microsoft Entra Temporary Access Passes",
+          "link": "https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra/",
+          "pubDate": "2024-05-06T13:00:57.000Z",
+          "summary": "",
+          "author": "<name>Dirk-jan Mollema</name>",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Phishing for Primary Refresh Tokens and Windows Hello keys",
+          "link": "https://dirkjanm.io/phishing-for-microsoft-entra-primary-refresh-tokens/",
+          "pubDate": "2023-10-10T16:08:57.000Z",
+          "summary": "",
+          "author": "<name>Dirk-jan Mollema</name>",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T05:07:41.613Z",
+      "error": null
+    },
+    {
+      "id": "kandji",
+      "label": "Kandji Blog",
+      "category": "apple",
+      "color": "#8e8e93",
+      "type": "rss",
+      "url": "https://www.kandji.io/blog/rss.xml",
+      "items": [
+        {
+          "title": "macOS Malware Analysis: Music Plugin DMG Loader",
+          "link": "https://the-sequence.com/macos-malware-loader-music-plugin-dmg",
+          "pubDate": "2026-02-19T16:28:46.000Z",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/macos-malware-loader-music-plugin-dmg\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/Threat%20Intelligence%20Article%20Card%20(1)-1.png\" alt=\"macOS Malware Analysis: Music Plugin DMG Loader\"",
+          "author": "Calvin So",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Introducing Blueprint Routing",
+          "link": "https://the-sequence.com/introducing-blueprint-routing",
+          "pubDate": "2026-02-18T22:15:00.000Z",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/introducing-blueprint-routing\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/Blueprint%20Routing.png\" alt=\"Introducing Blueprint Routing\" class=\"hs-featured-image\" style=\"width:auto !importa",
+          "author": "Mike Boylan",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "The Security Implications of OpenClaw and Autonomous AI Agents",
+          "link": "https://the-sequence.com/openclaw-security-risks-autonomous-ai-agents",
+          "pubDate": "2026-02-13T16:07:08.000Z",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/openclaw-security-risks-autonomous-ai-agents\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/Threat%20Intelligence%20Article%20Card%20(1).png\" alt=\"The Security Implications of OpenClaw and A",
+          "author": "Shwena Kak",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "The hidden risks of the Homebrew Cellar in Vulnerability Management",
+          "link": "https://the-sequence.com/hidden-risks-of-homebrew-cellar-in-vulnerability-management",
+          "pubDate": "2026-02-12T17:29:44.000Z",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/hidden-risks-of-homebrew-cellar-in-vulnerability-management\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/Investigating%20Shai%20Hulud%20(2).png\" alt=\"The hidden risks of the Homebrew Cella",
+          "author": "Candace Jensen",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "The Better Way to Migrate iOS and iPadOS Devices",
+          "link": "https://the-sequence.com/better-way-to-migrate-ios-ipados",
+          "pubDate": "2026-02-02T19:49:19.000Z",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/better-way-to-migrate-ios-ipados\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/iPhone.png\" alt=\"The Better Way to Migrate iOS and iPadOS Devices\" class=\"hs-featured-image\" style=\"width:auto",
+          "author": "Adam Henry",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-02T05:07:41.893Z",
+      "error": null
+    },
+    {
+      "id": "yt-savill",
+      "label": "John Savill Tech Training",
+      "category": "media",
+      "color": "#ff0000",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
+      "items": [
+        {
+          "title": "Azure Update 27th February 2026",
+          "link": "https://www.youtube.com/watch?v=Tnq0SmW5TPY",
+          "pubDate": "2026-02-27T16:38:13.000Z",
+          "summary": "Nice bag of updates this week! 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queue never to",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": "Tnq0SmW5TPY",
+          "thumbnail": "https://i1.ytimg.com/vi/Tnq0SmW5TPY/hqdefault.jpg"
+        },
+        {
+          "title": "ExpressRoute Scalable Gateway #azure #networking",
+          "link": "https://www.youtube.com/shorts/uLsM-wl6xUA",
+          "pubDate": "2026-02-26T08:36:23.000Z",
+          "summary": "Quick look at the new scalable ExpressRoute Gateway SKU.",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": null,
+          "thumbnail": "https://i2.ytimg.com/vi/uLsM-wl6xUA/hqdefault.jpg"
+        },
+        {
+          "title": "ExpressRoute Gateway Scalable",
+          "link": "https://www.youtube.com/watch?v=2OVNx2quVP0",
+          "pubDate": "2026-02-25T12:00:43.000Z",
+          "summary": "A dive into the new scalable ExpressRoute GW SKU. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the modera",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": "2OVNx2quVP0",
+          "thumbnail": "https://i3.ytimg.com/vi/2OVNx2quVP0/hqdefault.jpg"
+        },
+        {
+          "title": "Agent 365 (A365) and Agent ID Short #ai #microsoft #entraid",
+          "link": "https://www.youtube.com/shorts/mHlo2wlDIVQ",
+          "pubDate": "2026-02-24T12:09:39.000Z",
+          "summary": "Quick overview of Agent 365 and Agent ID.",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": null,
+          "thumbnail": "https://i2.ytimg.com/vi/mHlo2wlDIVQ/hqdefault.jpg"
+        },
+        {
+          "title": "Agent 365 and Agent ID Overview",
+          "link": "https://www.youtube.com/watch?v=WTcyL68qTo8",
+          "pubDate": "2026-02-23T16:40:40.000Z",
+          "summary": "A walkthrough of Agent 365 and Agent ID. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queu",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": "WTcyL68qTo8",
+          "thumbnail": "https://i4.ytimg.com/vi/WTcyL68qTo8/hqdefault.jpg"
+        }
+      ],
+      "fetchedAt": "2026-03-02T05:07:41.692Z",
+      "error": null
+    }
+  ]
 }
