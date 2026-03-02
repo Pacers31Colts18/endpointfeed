@@ -23,10 +23,12 @@ const FEEDS = [
     url:'https://petervanderwoude.nl/feed/'},
 
   // ── ConfigMgr/WSUS ────────────────────────────────────────────────────
-  { id:'patchmypc',      label:'Patch My PC Blog',          category:'sccm',     color:'#005a9e', type:'rss',
+  { id:'patchmypc',      label:'Patch My PC Blog - patchmypc.com',          category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://patchmypc.com/feed' },
-  { id:'niallbrady',     label:'Niall Brady',               category:'sccm',     color:'#005a9e', type:'rss',
+  { id:'niallbrady',     label:'Niall Brady - niallbrady.com',               category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://www.niallbrady.com/feed/' },
+  { id:'garytown',     label:'Gary Blok - garytown.com',               category:'sccm',     color:'#005a9e', type:'rss',
+    url:'https://garytown.com/feed' },
 
   // ── Endpoint Security ───────────────────────────────────────────────────
   { id:'krebs',          label:'Krebs on Security',         category:'security', color:'#d13438', type:'rss',
@@ -47,6 +49,8 @@ const FEEDS = [
   // ── Media ─────────────────────────────────────────────────────────────
   { id:'yt-savill',      label:'John Savill Tech Training', category:'media',    color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
+  { id:'pod-runasradio',   label:'RunAs Radio',               category:'media',      color:'#1db954', type:'podcast',
+    url:'https://feeds.simplecast.com/cRTTfxcT'},
 ];
 
 // ── HTTP fetch with redirect + gzip support ───────────────────────────────
