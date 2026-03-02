@@ -46,14 +46,15 @@ const FEEDS = [
   { id:'kandji',         label:'Kandji Blog',               category:'apple',    color:'#8e8e93', type:'rss',
     url:'https://www.kandji.io/blog/rss.xml' },
 
-  // ── Media ─────────────────────────────────────────────────────────────
-  { id:'yt-savill',      label:'John Savill Tech Training', category:'media',    color:'#ff0000', type:'youtube',
+  // ── Video ─────────────────────────────────────────────────────────────
+  { id:'yt-savill',      label:'John Savill Tech Training', category:'video',    color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
-    { id:'5bytes-podcast',   label:'5 Bytes Podcast',               category:'media',      color:'#ff0000', type:'youtube',
+    { id:'5bytes-podcast',   label:'5 Bytes Podcast',               category:'video',      color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw'},
-  { id:'pod-runasradio',   label:'RunAs Radio',               category:'media',      color:'#1db954', type:'podcast',
+  // ── Audio ─────────────────────────────────────────────────────────────
+  { id:'pod-runasradio',   label:'RunAs Radio',               category:'audio',      color:'#1db954', type:'podcast',
     url:'https://feeds.simplecast.com/cRTTfxcT'},
-  { id:'pod-powershell-podcast',   label:'PowerShell Podcast',               category:'media',      color:'#1db954', type:'podcast',
+  { id:'pod-powershell-podcast',   label:'PowerShell Podcast',               category:'audio',      color:'#1db954', type:'podcast',
     url:'https://feed.podbean.com/powershellpodcast/feed.xml'},
 ];
 
