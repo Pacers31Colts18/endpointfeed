@@ -67,8 +67,10 @@ const FEEDS = [
   // ── Video ─────────────────────────────────────────────────────────────
   { id:'yt-savill',      label:'John Savill Tech Training', category:'video',    color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
-    { id:'5bytes-podcast',   label:'5 Bytes Podcast',               category:'video',      color:'#ff0000', type:'youtube',
+  { id:'5bytes-podcast',   label:'5 Bytes Podcast',               category:'video',      color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw'},
+  { id:'entra.chat',   label:'Entra.Chat Podcast',               category:'video',      color:'#ff0000', type:'youtube',
+    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ'},
   // ── Audio ─────────────────────────────────────────────────────────────
   { id:'pod-runasradio',   label:'RunAs Radio',               category:'audio',      color:'#1db954', type:'podcast',
     url:'https://feeds.simplecast.com/cRTTfxcT'},
