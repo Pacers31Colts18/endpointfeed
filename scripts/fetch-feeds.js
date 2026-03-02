@@ -2,7 +2,7 @@ const Parser = require('rss-parser');
 const fs = require('fs');
 const path = require('path');
 
-const PER_FEED_TIMEOUT = 10000;
+const PER_FEED_TIMEOUT = 5000;
 const BATCH_TIMEOUT_MS = 60000;
 const BATCH_SIZE       = 5;
 const MAX_ITEMS        = 5;
@@ -24,14 +24,9 @@ const parser = new Parser({
 
 const FEEDS = [
   // ── Intune ──────────────────────────────────────────────────────────────
-  { id:'intune-blog',    label:'Microsoft Intune Blog',       category:'intune',     color:'#0078d4', type:'rss',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=MicrosoftIntuneBlog' },
-  { id:'intune-support', label:'Intune Support Team',         category:'intune',     color:'#0078d4', type:'rss',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=IntuneSupportTeam' },
-  { id:'4sysops',        label:'4sysops',                     category:'intune',     color:'#0078d4', type:'rss',
     url:'https://4sysops.com/feed/' },
 
-  // ── SCCM / ConfigMgr ────────────────────────────────────────────────────
+  // ── SCCM / ConfigMgr/Windows Updates ────────────────────────────────────────────────────
   { id:'configmgr',      label:'Microsoft ConfigMgr Blog',    category:'sccm',       color:'#005a9e', type:'rss',
     url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=ConfigurationManagerBlog' },
   { id:'patchmypc',      label:'Patch My PC Blog',            category:'sccm',       color:'#005a9e', type:'rss',
@@ -40,40 +35,18 @@ const FEEDS = [
     url:'https://www.niallbrady.com/feed/' },
 
   // ── Endpoint Security ───────────────────────────────────────────────────
-  { id:'defender',       label:'Microsoft Defender Blog',     category:'security',   color:'#d13438', type:'rss',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=MicrosoftDefenderBlog' },
-  { id:'msrc',           label:'MS Security Response Center', category:'security',   color:'#d13438', type:'rss',
-    url:'https://msrc.microsoft.com/blog/feed/' },
   { id:'krebs',          label:'Krebs on Security',           category:'security',   color:'#d13438', type:'rss',
     url:'https://krebsonsecurity.com/feed/' },
 
   // ── M365 / Office 365 ───────────────────────────────────────────────────
-  { id:'m365',           label:'Microsoft 365 Blog',          category:'m365',       color:'#d83b01', type:'rss',
-    url:'https://www.microsoft.com/en-us/microsoft-365/blog/feed/' },
   { id:'office365itpro', label:'Office 365 for IT Pros',      category:'m365',       color:'#d83b01', type:'rss',
     url:'https://office365itpros.com/feed/' },
   { id:'practical365',   label:'Practical 365',               category:'m365',       color:'#d83b01', type:'rss',
     url:'https://practical365.com/feed/' },
 
   // ── Azure AD / Entra ID ─────────────────────────────────────────────────
-  { id:'entra',          label:'Microsoft Entra Blog',        category:'entra',      color:'#7719aa', type:'rss',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=Identity' },
   { id:'dirkjan',        label:'dirkjanm.io',                 category:'entra',      color:'#7719aa', type:'rss',
     url:'https://dirkjanm.io/feed.xml' },
-
-  // ── PowerShell / Scripting ──────────────────────────────────────────────
-  { id:'ps-blog',        label:'PowerShell Team Blog',        category:'powershell', color:'#4a9fff', type:'rss',
-    url:'https://devblogs.microsoft.com/powershell/feed/' },
-  { id:'adamauto',       label:'Adam the Automator',          category:'powershell', color:'#4a9fff', type:'rss',
-    url:'https://adamtheautomator.com/feed/' },
-  { id:'ps-magazine',    label:'PowerShell Magazine',         category:'powershell', color:'#4a9fff', type:'rss',
-    url:'https://powershellmagazine.com/feed/' },
-
-  // ── Windows Updates / WSUS ──────────────────────────────────────────────
-  { id:'win-itpro',      label:'Windows IT Pro Blog',         category:'windows',    color:'#00788a', type:'rss',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=Windows-ITPro-blog' },
-  { id:'askds',          label:'Ask Directory Services',      category:'windows',    color:'#00788a', type:'rss',
-    url:'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=2&board=AskDS' },
 
   // ── Apple ───────────────────────────────────────────────────────────────
   { id:'mosyle',         label:'Mosyle Blog',                 category:'apple',      color:'#8e8e93', type:'rss',
@@ -84,22 +57,12 @@ const FEEDS = [
     url:'https://www.kandji.io/blog/rss.xml' },
 
   // ── YouTube ─────────────────────────────────────────────────────────────
-  { id:'yt-mechanics',   label:'Microsoft Mechanics',         category:'media',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCJ9905MRHxwLZ2jeNQGIWxA' },
   { id:'yt-savill',      label:'John Savill Tech Training',   category:'media',      color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
-  { id:'yt-intune',      label:'Microsoft Intune (YouTube)',  category:'media',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCfmamn4OylP6vSM5B5FyFqg' },
-  { id:'yt-andy-malone', label:'Andy Malone MVP',             category:'media',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCCi1GC9RpgP-nidUGnfbQqA' },
 
   // ── Podcasts ─────────────────────────────────────────────────────────────
   { id:'pod-runasradio',  label:'RunAs Radio',                category:'media',      color:'#1db954', type:'podcast',
     url:'http://feeds.feedburner.com/RunasRadio' },
-  { id:'pod-ms-cloud',    label:'Microsoft Cloud IT Pro',     category:'media',      color:'#1db954', type:'podcast',
-    url:'https://feeds.simplecast.com/Vqb0tNg5' },
-  { id:'pod-intune',      label:'Endpoint Zone (Intune)',     category:'media',      color:'#1db954', type:'podcast',
-    url:'https://endpointzone.buzzsprout.com/feed.xml' },
   { id:'pod-practical365',label:'Practical 365 Podcast',      category:'media',      color:'#1db954', type:'podcast',
     url:'https://practical365.com/feed/podcast/' },
 ];
