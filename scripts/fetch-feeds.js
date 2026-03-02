@@ -20,7 +20,7 @@ const FEEDS = [
   { id:'4sysops',        label:'4sysops',                   category:'intune',   color:'#0078d4', type:'rss',
     url:'https://4sysops.com/feed/' },
   { id:'petervanderwoude', label:'petervanderwoude.nl', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://petervanderwoude.nl/feed/'
+    url:'https://petervanderwoude.nl/feed/'},
 
   // ── ConfigMgr/WSUS ────────────────────────────────────────────────────
   { id:'patchmypc',      label:'Patch My PC Blog',          category:'sccm',     color:'#005a9e', type:'rss',
