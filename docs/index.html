@@ -616,7 +616,8 @@ const CATEGORIES = [
   { id:'powershell', label:'PowerShell / Scripting',  icon:'🟩', color:'#7fba00' },
   { id:'windows',    label:'Windows Updates / WSUS', icon:'🔷', color:'#00a4ef' },
   { id:'apple',      label:'Apple',                  icon:'⬜', color:'#909090' },
-  { id:'media',      label:'Media',                  icon:'🔴', color:'#f25022' },
+  { id:'video',      label:'Video',                  icon:'🔴', color:'#f25022' },
+  { id:'audio',      label:'Podcasts / Audio',        icon:'🔷', color:'#00a4ef' },
 ];
 
 // Cycle through the 4 MS colors for category bars
@@ -786,7 +787,7 @@ function buildCatSection(cat, feeds, delay, query) {
   const body = document.createElement('div');
   body.className = 'cat-body';
 
-  if (cat.id === 'media') {
+  if (cat.id === 'video' || cat.id === 'audio') {
     body.appendChild(buildMediaBody(feeds, query));
   } else {
     const grid = document.createElement('div');
