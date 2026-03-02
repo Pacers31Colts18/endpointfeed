@@ -51,6 +51,8 @@ const FEEDS = [
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
   { id:'pod-runasradio',   label:'RunAs Radio',               category:'media',      color:'#1db954', type:'podcast',
     url:'https://feeds.simplecast.com/cRTTfxcT'},
+  { id:'pod-powershell-podcast',   label:'PowerShell Podcast',               category:'media',      color:'#1db954', type:'podcast',
+    url:'https://feed.podbean.com/powershellpodcast/feed.xml'},
 ];
 
 // ── HTTP fetch with redirect + gzip support ───────────────────────────────
