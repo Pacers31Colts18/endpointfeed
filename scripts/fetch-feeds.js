@@ -61,9 +61,9 @@ const FEEDS = [
   // ── M365 / Office 365 ───────────────────────────────────────────────────
   { id:'office365itpro', label:'office365itpros.com',    category:'m365',     color:'#d83b01', type:'rss',
     url:'https://office365itpros.com/feed/' },
-  { id:'microsoft365blog', label:'techcommunity.microsoft.com/category/microsoft365/blog/microsoft_365blog',    category:'m365',     color:'#d83b01', type:'rss',
+  { id:'microsoft365blog', label:'Microsoft Tech Community - M365 Blog',    category:'m365',     color:'#d83b01', type:'rss',
     url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog' },
-  { id:'microsoftofficesemiannualchannel', label:'learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel',    category:'m365',     color:'#d83b01', type:'rss',
+  { id:'microsoftofficesemiannualchannel', label:'Microsoft Office Semi-Annual Enterprise Channel Release Notes',    category:'m365',     color:'#d83b01', type:'rss',
     url:'https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29' },
 
   // ── Azure AD / Entra ID ─────────────────────────────────────────────────
@@ -99,6 +99,8 @@ const FEEDS = [
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g'},
   { id:'workplaceninjas',   label:'Workplace Ninjas Summit',               category:'video',      color:'#ff0000', type:'youtube',
     url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCK_cRU36_m2d68BArcSbHcg'},
+  { id:'windowsitpro',   label:'Windows IT Pro',               category:'video',      color:'#ff0000', type:'youtube',
+    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw'},
   // ── Audio ─────────────────────────────────────────────────────────────
   { id:'pod-runasradio',   label:'RunAs Radio',               category:'audio',      color:'#1db954', type:'podcast',
     url:'https://feeds.simplecast.com/cRTTfxcT'},
