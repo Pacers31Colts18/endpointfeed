@@ -106,6 +106,8 @@ const FEEDS = [
     url:'https://feeds.simplecast.com/cRTTfxcT'},
   { id:'pod-powershell-podcast',   label:'PowerShell Podcast',               category:'audio',      color:'#1db954', type:'podcast',
     url:'https://feed.podbean.com/powershellpodcast/feed.xml'},
+  { id:'macadmins-podcast',   label:'MacAdmins Podcast',               category:'audio',      color:'#1db954', type:'podcast',
+    url:'https://podcast.macadmins.org/feed/'},
 ];
 
 // ── HTTP fetch with redirect + gzip support ───────────────────────────────
