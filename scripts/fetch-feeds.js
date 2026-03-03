@@ -29,8 +29,12 @@ const FEEDS = [
     url:'https://www.oddsandendpoints.co.uk/index.xml'},
   { id:'systanddeploy', label:'systanddeploy.com', category:'intune', color:'#0078d4', type:'rss',
     url:'https://www.systanddeploy.com/feeds/posts/default?alt=rss'},
-  { id:'indevelopemnt-intune', label:'learn.microsoft.com/en-us/intune/intune-service/fundamentals/in-development', category:'intune', color:'#0078d4', type:'rss',
+  { id:'indevelopment-intune', label:'In Development - Microsoft Intune', category:'intune', color:'#0078d4', type:'rss',
     url:'https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29'},
+  { id:'intunecustomersuccess', label:'Intune Customer Success', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess'},
+  { id:'whatsnewintune', label:'Whats New in Intune', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29'},
 
   // ── ConfigMgr/WSUS ────────────────────────────────────────────────────
   { id:'patchmypc',      label:'Patch My PC Blog - patchmypc.com',          category:'sccm',     color:'#005a9e', type:'rss',
@@ -45,7 +49,7 @@ const FEEDS = [
     url:'https://mattzaske.com/rss.xml' },
   { id:'msendpointmgr',     label:'msendpointmgr.com',               category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://msendpointmgr.com/feed/' },
-  { id:'configmgrblog',     label:'techcommunity.microsoft.com/category/microsoftintune/blog/configurationmanagerblog',               category:'sccm',     color:'#005a9e', type:'rss',
+  { id:'configmgrblog',     label:'Microsoft Tech Community - Configuration Manager Blog',               category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog' },
 
   // ── Endpoint Security ───────────────────────────────────────────────────
@@ -57,6 +61,10 @@ const FEEDS = [
   // ── M365 / Office 365 ───────────────────────────────────────────────────
   { id:'office365itpro', label:'office365itpros.com',    category:'m365',     color:'#d83b01', type:'rss',
     url:'https://office365itpros.com/feed/' },
+  { id:'microsoft365blog', label:'techcommunity.microsoft.com/category/microsoft365/blog/microsoft_365blog',    category:'m365',     color:'#d83b01', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog' },
+  { id:'microsoftofficesemiannualchannel', label:'learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel',    category:'m365',     color:'#d83b01', type:'rss',
+    url:'https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29' },
 
   // ── Azure AD / Entra ID ─────────────────────────────────────────────────
   { id:'dirkjan',        label:'dirkjanm.io',               category:'entra',    color:'#7719aa', type:'rss',
