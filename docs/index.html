@@ -524,6 +524,17 @@
     [data-theme="dark"] .pod-item-player audio { filter: invert(1) hue-rotate(180deg) brightness(0.75); }
     .pod-no-audio { font-size: 11px; color: var(--text-mute); font-style: italic; }
 
+
+    /* NEW SECTION */
+    .new-feed-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; animation: cardIn 0.25s ease forwards; opacity: 0; }
+    .new-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-bottom: 1px solid var(--border); text-decoration: none; color: inherit; transition: background 0.1s; }
+    .new-item:last-child { border-bottom: none; }
+    .new-item:hover { background: var(--bg-hover); }
+    .new-item:hover .new-item-title { color: var(--ms-blue); }
+    .new-cat-tag { flex-shrink: 0; font-family: "JetBrains Mono", monospace; font-size: 9px; font-weight: 700; letter-spacing: 0.5px; padding: 2px 7px; border-radius: 2px; border: 1px solid; white-space: nowrap; text-transform: uppercase; }
+    .new-item-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+    .new-item-title { font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.4; transition: color 0.1s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .new-item-meta { font-family: "JetBrains Mono", monospace; font-size: 10px; color: var(--text-mute); display: flex; gap: 8px; }
     /* ── LOADING ── */
     #loading {
       padding: 70px 0; text-align: center; color: var(--text-mute);
@@ -559,6 +570,42 @@
       #search { width: 100%; }
       header, .toolbar, .statusbar, .container, footer { padding-left: 12px; padding-right: 12px; }
       #last-updated { display: none; }
+    }
+
+    .new-feed-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      animation: cardIn 0.25s ease forwards;
+      opacity: 0;
+    }
+    .new-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none; color: inherit;
+      transition: background 0.1s;
+    }
+    .new-item:last-child { border-bottom: none; }
+    .new-item:hover { background: var(--bg-hover); }
+    .new-item:hover .new-item-title { color: var(--ms-blue); }
+    .new-cat-tag {
+      flex-shrink: 0;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px; font-weight: 700; letter-spacing: 0.5px;
+      padding: 2px 7px; border-radius: 2px; border: 1px solid;
+      white-space: nowrap;
+    }
+    .new-item-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+    .new-item-title {
+      font-size: 13px; font-weight: 500; color: var(--text);
+      line-height: 1.4; transition: color 0.1s;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .new-item-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px; color: var(--text-mute); display: flex; gap: 8px;
     }
   </style>
 </head>
@@ -617,7 +664,7 @@ const CATEGORIES = [
   { id:'windows',    label:'Windows Updates / WSUS', icon:'🔷', color:'#00a4ef' },
   { id:'apple',      label:'Apple',                  icon:'⬜', color:'#909090' },
   { id:'video',      label:'Video',                  icon:'🔴', color:'#f25022' },
-  { id:'audio',      label:'Audio',        icon:'🔷', color:'#00a4ef' },
+  { id:'audio',      label:'Podcasts / Audio',        icon:'🔷', color:'#00a4ef' },
 ];
 
 // Cycle through the 4 MS colors for category bars
@@ -625,7 +672,7 @@ const MS_COLORS = ['#00a4ef','#f25022','#7fba00','#ffb900'];
 CATEGORIES.forEach((c, i) => { if (c.color === '#00a4ef' || c.color === '#7fba00' || c.color === '#f25022' || c.color === '#ffb900') return; c.color = MS_COLORS[i % 4]; });
 
 let allFeeds = [];
-let openSet  = new Set(['intune']);
+let openSet  = new Set(['new', 'intune']);
 let allOpen  = false;
 
 /* ── Theme ──────────────────────────────────────────────── */
@@ -652,6 +699,7 @@ function buildToolbar() {
 
   const allPill = makePill('All', '#888', null);
   bar.insertBefore(allPill, sw);
+  bar.insertBefore(makePill('New', '#7fba00', 'new'), sw);
   bar.insertBefore(makeDivider(), sw);
   CATEGORIES.forEach(cat => bar.insertBefore(makePill(cat.label, cat.color, cat.id), sw));
 }
@@ -681,11 +729,11 @@ function makeDivider() {
 function toggleAll() {
   allOpen = !allOpen;
   if (allOpen) {
-    CATEGORIES.forEach(c => openSet.add(c.id));
+    openSet.add('new'); CATEGORIES.forEach(c => openSet.add(c.id));
     document.querySelectorAll('.cat-section').forEach(s => s.classList.add('open'));
     document.getElementById('expand-btn').textContent = '− collapse all';
   } else {
-    openSet.clear(); openSet.add('intune');
+    openSet.clear(); openSet.add('new'); openSet.add('intune');
     document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id === 'cat-intune'));
     document.getElementById('expand-btn').textContent = '+ expand all';
   }
@@ -730,29 +778,75 @@ async function loadFeeds() {
 }
 
 /* ── Render ─────────────────────────────────────────────── */
+const NEW_THRESHOLD = 48 * 60 * 60 * 1000;
+
+const NEW_THRESHOLD = 48 * 60 * 60 * 1000;
+
 function renderAll(query) {
   document.getElementById('loading').style.display = 'none';
   const container = document.getElementById('cats');
   container.innerHTML = '';
+  const now = Date.now();
   let delay = 0;
+
+  if (!query) {
+    const newItems = [];
+    for (const feed of allFeeds) {
+      const cat = CATEGORIES.find(c => c.id === feed.category);
+      if (!cat) continue;
+      for (const item of (feed.items || [])) {
+        const pub = item.pubDate ? new Date(item.pubDate) : null;
+        if (pub && (now - pub.getTime()) < NEW_THRESHOLD)
+          newItems.push({ ...item, _feedLabel: feed.label, _cat: cat });
+      }
+    }
+    newItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    if (newItems.length) { container.appendChild(buildNewSection(newItems, delay)); delay += 45; }
+  }
 
   for (const cat of CATEGORIES) {
     const feeds = allFeeds.filter(f => f.category === cat.id).map(f => ({
-      ...f,
-      items: (f.items||[]).filter(i =>
-        !query || (i.title+' '+(i.summary||'')).toLowerCase().includes(query)
-      )
+      ...f, items: (f.items||[]).filter(i => !query || (i.title+' '+(i.summary||'')).toLowerCase().includes(query))
     }));
     if (!feeds.length) continue;
     if (query && feeds.reduce((a,f) => a+f.items.length, 0) === 0) continue;
-
     container.appendChild(buildCatSection(cat, feeds, delay, query));
     delay += 45;
   }
+  document.getElementById('stat-total').textContent = allFeeds.reduce((a,f) => a+(f.items?.length||0), 0);
+}
 
-  const shown = document.querySelectorAll('.article, .yt-card, .pod-card').length;
-  document.getElementById('stat-total').textContent =
-    shown || allFeeds.reduce((a,f) => a+(f.items?.length||0), 0);
+function buildNewSection(items, delay) {
+  const sec = document.createElement('div');
+  sec.className = 'cat-section' + (openSet.has('new') ? ' open' : '');
+  sec.id = 'cat-new';
+  const hdr = document.createElement('div');
+  hdr.className = 'cat-header';
+  hdr.innerHTML = '<div class="cat-color-bar" style="background:var(--ms-green)"></div><div class="cat-header-inner"><div class="cat-name">New</div><div class="cat-meta"><span class="cat-pill-count">' + items.length + ' item' + (items.length!==1?'s':'') + '</span><span>last 48h</span></div><span class="cat-chevron">▶</span></div>';
+  hdr.onclick = () => { const was = sec.classList.contains('open'); sec.classList.toggle('open',!was); was ? openSet.delete('new') : openSet.add('new'); };
+  const body = document.createElement('div');
+  body.className = 'cat-body';
+  const card = document.createElement('div');
+  card.className = 'new-feed-card';
+  card.style.animationDelay = delay + 'ms';
+  for (const item of items) {
+    const cat = item._cat;
+    const a = document.createElement('a');
+    a.className = 'new-item'; a.href = item.link; a.target = '_blank'; a.rel = 'noopener noreferrer';
+    const pub = item.pubDate ? new Date(item.pubDate) : null;
+    const ds = pub ? pub.toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
+    const hex = cat.color;
+    const r=parseInt(hex.slice(1,3),16), g=parseInt(hex.slice(3,5),16), b=parseInt(hex.slice(5,7),16);
+    const tag = document.createElement('span');
+    tag.className='new-cat-tag'; tag.textContent=cat.label;
+    tag.style.color=cat.color; tag.style.background='rgba('+r+','+g+','+b+',0.1)'; tag.style.borderColor='rgba('+r+','+g+','+b+',0.3)';
+    const bd = document.createElement('div');
+    bd.className = 'new-item-body';
+    bd.innerHTML = '<div class="new-item-title">'+esc(item.title)+'</div><div class="new-item-meta"><span>'+esc(item._feedLabel)+'</span>'+(ds?'<span>'+ds+'</span>':'')+'</div>';
+    a.appendChild(tag); a.appendChild(bd); card.appendChild(a);
+  }
+  body.appendChild(card); sec.appendChild(hdr); sec.appendChild(body);
+  return sec;
 }
 
 /* ── Category section ───────────────────────────────────── */
