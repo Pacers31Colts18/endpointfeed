@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-03T15:26:11.576Z",
+  "generatedAt": "2026-03-03T15:39:51.317Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -9,6 +9,15 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "4sysops turns 20",
+          "link": "https://4sysops.com/archives/4sysops-turns-20/",
+          "pubDate": "2026-03-03T15:35:31.000Z",
+          "summary": "Twenty years ago, I authored my first 4sysops blog post. However, my fascination with IT started much earlier. I can't recall exactly how I came to this realization, but I initially believed that computers were superior learning tools to books and that studying how to use them would give me superpow",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Enable Windows 365 Reserve on a Windows 365 Boot device",
           "link": "https://4sysops.com/archives/enable-windows-365-reserve-on-a-windows-365-boot-device/",
@@ -44,18 +53,9 @@
           "author": "IT Experts",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Windows Server 2025 security baseline 2602: 10 new settings",
-          "link": "https://4sysops.com/archives/windows-server-2025-security-baseline-2602-10-new-settings/",
-          "pubDate": "2026-02-26T12:55:12.000Z",
-          "summary": "Microsoft released version 2602 of the Security Baseline for Windows Server 2025, approximately eight months after the previous version 2506. The update adds 10 new Group Policy settings and removes one, focusing on NTLM auditing, printer security, and authentication hardening. Most of the new polic",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:06.061Z",
+      "fetchedAt": "2026-03-03T15:39:46.737Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:05.922Z",
+      "fetchedAt": "2026-03-03T15:39:46.739Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:06.417Z",
+      "fetchedAt": "2026-03-03T15:39:46.771Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-03-03T15:26:05.371Z",
+      "fetchedAt": "2026-03-03T15:39:45.982Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:06.706Z",
+      "fetchedAt": "2026-03-03T15:39:46.973Z",
       "error": null
     },
     {
@@ -294,12 +294,12 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:06.747Z",
+      "fetchedAt": "2026-03-03T15:39:47.017Z",
       "error": null
     },
     {
-      "id": "indevelopemnt-intune",
-      "label": "learn.microsoft.com/en-us/intune/intune-service/fundamentals/in-development",
+      "id": "indevelopment-intune",
+      "label": "In Development - Microsoft Intune",
       "category": "intune",
       "color": "#0078d4",
       "type": "rss",
@@ -315,7 +315,85 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:06.748Z",
+      "fetchedAt": "2026-03-03T15:39:47.206Z",
+      "error": null
+    },
+    {
+      "id": "intunecustomersuccess",
+      "label": "Intune Customer Success",
+      "category": "intune",
+      "color": "#0078d4",
+      "type": "rss",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
+      "items": [
+        {
+          "title": "How to enable HTTPS support for Microsoft Connected Cache for Enterprise and Education",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-enable-https-support-for-microsoft-connected-cache-for/ba-p/4496173",
+          "pubDate": "2026-02-20T22:37:52.000Z",
+          "summary": "<P>Starting on <STRONG>June 16<SUP>th</SUP>, 2026</STRONG>, or soon after, Intune will enforce HTTPS content delivery for customers using Microsoft Connected Cache for Enterprise and Education. To continue using Microsoft Connected Cache to localize Intune Win32 app downloads and reduce the bandwidt",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Support tip: Resolve device noncompliance with Mobile Threat Defense partner apps",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-resolve-device-noncompliance-with-mobile-threat/ba-p/4491669",
+          "pubDate": "2026-02-05T22:16:46.000Z",
+          "summary": "<P>Using a Mobile Threat Defense (MTD) solution, such as Microsoft Defender for Endpoint, with Microsoft Intune helps keep your organization’s resources protected and allows you to block devices that aren’t compliant with your organization’s policies.<BR /><BR /></P> <P>When an MTD detects a threat ",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Intune my Macs: Accelerating macOS proof of concepts with Microsoft Intune",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/intune-my-macs-accelerating-macos-proof-of-concepts-with/ba-p/4488571",
+          "pubDate": "2026-01-22T22:20:20.000Z",
+          "summary": "<P><STRONG>By: Neil Johnson and Chris Kunze - Principal Product Managers | Microsoft Intune</STRONG><BR /><BR /></P> <P><SPAN data-contrast=\"auto\">Intune provides a broad and mature set of capabilities for managing macOS devices across security, compliance, applications, and user onboarding. Many cu",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Debunking the myth: Cloud-native Windows devices and access to on-premises resources",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/debunking-the-myth-cloud-native-windows-devices-and-access-to-on/ba-p/4470056",
+          "pubDate": "2025-11-15T00:05:54.000Z",
+          "summary": "<P><STRONG>By: Roger Southgate - Sr. Product Manager | Microsoft Intune</STRONG></P> <H2>Myth vs reality</H2> <P><STRONG>Myth</STRONG>: Cloud-native Windows devices can’t access on-premises resources such as file shares or legacy applications.</P> <P><STRONG>Reality</STRONG>: With minimal or no conf",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Support tip: Aligning network policy with Microsoft Intune and Zero Trust",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-aligning-network-policy-with-microsoft-intune-and/ba-p/4466688",
+          "pubDate": "2025-11-08T01:04:31.000Z",
+          "summary": "<P><STRONG>By: Jon Callahan – Sr Product Manager | Microsoft Intune</STRONG></P> <P>&nbsp;</P> <P>Cloud services don’t just rely on the network. They redefine it. As organizations adopt Microsoft Intune and advance their Zero Trust strategies, many discover that traditional, perimeter-based architec",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-03T15:39:47.213Z",
+      "error": null
+    },
+    {
+      "id": "whatsnewintune",
+      "label": "Whats New in Intune",
+      "category": "intune",
+      "color": "#0078d4",
+      "type": "rss",
+      "url": "https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29",
+      "items": [
+        {
+          "title": "What's new in Microsoft Intune - Microsoft Intune",
+          "link": "https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/whats-new",
+          "pubDate": "2026-03-02T18:59:00.000Z",
+          "summary": "What's new in Microsoft Intune Learn what's new each week in Microsoft Intune. You can also read: Important notices Past releases in the What's new archive Information about how Intune service updates are released Note Each monthly update can take up to three days to roll out and is in the following",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-03T15:39:47.267Z",
       "error": null
     },
     {
@@ -372,7 +450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:07.571Z",
+      "fetchedAt": "2026-03-03T15:39:48.121Z",
       "error": null
     },
     {
@@ -429,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:08.299Z",
+      "fetchedAt": "2026-03-03T15:39:47.792Z",
       "error": null
     },
     {
@@ -486,7 +564,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:08.101Z",
+      "fetchedAt": "2026-03-03T15:39:47.569Z",
       "error": null
     },
     {
@@ -543,7 +621,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:09.514Z",
+      "fetchedAt": "2026-03-03T15:39:49.625Z",
       "error": null
     },
     {
@@ -600,7 +678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:07.946Z",
+      "fetchedAt": "2026-03-03T15:39:48.507Z",
       "error": null
     },
     {
@@ -657,12 +735,12 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:09.688Z",
+      "fetchedAt": "2026-03-03T15:39:48.884Z",
       "error": null
     },
     {
       "id": "configmgrblog",
-      "label": "techcommunity.microsoft.com/category/microsoftintune/blog/configurationmanagerblog",
+      "label": "Microsoft Tech Community - Configuration Manager Blog",
       "category": "sccm",
       "color": "#005a9e",
       "type": "rss",
@@ -714,7 +792,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:09.791Z",
+      "fetchedAt": "2026-03-03T15:39:48.397Z",
       "error": null
     },
     {
@@ -771,7 +849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:09.649Z",
+      "fetchedAt": "2026-03-03T15:39:49.838Z",
       "error": null
     },
     {
@@ -828,7 +906,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:09.659Z",
+      "fetchedAt": "2026-03-03T15:39:49.824Z",
       "error": null
     },
     {
@@ -885,7 +963,94 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:10.132Z",
+      "fetchedAt": "2026-03-03T15:39:49.859Z",
+      "error": null
+    },
+    {
+      "id": "microsoft365blog",
+      "label": "techcommunity.microsoft.com/category/microsoft365/blog/microsoft_365blog",
+      "category": "m365",
+      "color": "#d83b01",
+      "type": "rss",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
+      "items": [
+        {
+          "title": "Departmental billing for Microsoft 365 Backup is now available!",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/departmental-billing-for-microsoft-365-backup-is-now-available/ba-p/4497960",
+          "pubDate": "2026-03-02T15:30:00.000Z",
+          "summary": "<P>As organizations continue to scale Microsoft 365, protecting data has become a technical and operational requirement. <A href=\"https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview?view=o365-worldwide\" target=\"_blank\">Microsoft 365 Backup</A> delivers fast, native recovery for Sh",
+          "author": "sreelakshmi",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "What to Expect from the Copilot & AI Sessions at Microsoft 365 Community Conference",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-to-expect-from-the-copilot-ai-sessions-at-microsoft-365/ba-p/4496149",
+          "pubDate": "2026-02-20T19:28:29.000Z",
+          "summary": "<P>AI&nbsp;isn’t&nbsp;a side conversation at the Microsoft 365 Community Conference—it’s&nbsp;at the center of how work is changing. <STRONG>The</STRONG>&nbsp;<STRONG><A class=\"lia-external-url\" href=\"https://nextgen365events.com/#!/sessions?topic=Copilot,%20agents,%20copilot%20services\" target=\"_bl",
+          "author": "JonJones_MSFT",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Announcing the 2026 Microsoft 365 Community Conference Keynotes",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/announcing-the-2026-microsoft-365-community-conference-keynotes/ba-p/4494714",
+          "pubDate": "2026-02-21T00:23:35.000Z",
+          "summary": "<P>The <A class=\"lia-external-url\" href=\"https://aka.ms/M365Con26\" target=\"_blank\" rel=\"noopener\">Microsoft 365 Community Conference</A> returns to Orlando this April, bringing together thousands of builders, innovators, creators, communicators, admins, architects, MVPs, and product makers for three",
+          "author": "HeatherCook",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Kantar reduces storage costs with Microsoft 365 Archive",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/kantar-reduces-storage-costs-with-microsoft-365-archive/ba-p/4494597",
+          "pubDate": "2026-02-12T16:00:28.000Z",
+          "summary": "<P><A href=\"https://www.kantar.com/\" target=\"_blank\">Kantar</A>, a global leader in marketing data and analytics, is embracing Gen AI to save time, improve quality, and deliver better results to both employees and customers. After moving content to Microsoft 365 and rolling out Microsoft 365 Copilot",
+          "author": "MichaelHolste",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Manage and reduce storage growth in Microsoft 365 with Orchestry",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/manage-and-reduce-storage-growth-in-microsoft-365-with-orchestry/ba-p/4490861",
+          "pubDate": "2026-02-05T19:25:54.000Z",
+          "summary": "<P>Storage overages in Microsoft 365 rarely come from a single misstep or event —they build up quietly over time —version history accumulating in active libraries, inactive content lingering long after projects end, and legacy sites that were migrated as-is and never revisited. Because the growth is",
+          "author": "Trent Green",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-03T15:39:49.846Z",
+      "error": null
+    },
+    {
+      "id": "microsoftofficesemiannualchannel",
+      "label": "learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
+      "category": "m365",
+      "color": "#d83b01",
+      "type": "rss",
+      "url": "https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
+      "items": [
+        {
+          "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
+          "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
+          "pubDate": "2026-02-11T06:46:00.000Z",
+          "summary": "Release notes for Semi-Annual Enterprise Channel These release notes provide information about new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Archived release notes for Semi-Annual Enterprise Channel releases - Office release notes",
+          "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel-archived",
+          "pubDate": "2025-12-05T20:38:00.000Z",
+          "summary": "Archived Release Notes for Semi-Annual Enterprise Channel These release notes provide information about new features and nonsecurity updates included in Semi-Annual Enterprise Channel updates to Office 365 ProPlus, Visio Pro for Office 365, Project Online Desktop Client, and Office 365 Business. Not",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-03T15:39:50.110Z",
       "error": null
     },
     {
@@ -942,7 +1107,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:10.081Z",
+      "fetchedAt": "2026-03-03T15:39:49.908Z",
       "error": null
     },
     {
@@ -999,7 +1164,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:10.203Z",
+      "fetchedAt": "2026-03-03T15:39:50.091Z",
       "error": null
     },
     {
@@ -1056,7 +1221,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:10.847Z",
+      "fetchedAt": "2026-03-03T15:39:50.732Z",
       "error": null
     },
     {
@@ -1113,7 +1278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:10.955Z",
+      "fetchedAt": "2026-03-03T15:39:50.915Z",
       "error": null
     },
     {
@@ -1180,7 +1345,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/mHlo2wlDIVQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:10.884Z",
+      "fetchedAt": "2026-03-03T15:39:50.950Z",
       "error": null
     },
     {
@@ -1247,7 +1412,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/l14X29XDUSc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.035Z",
+      "fetchedAt": "2026-03-03T15:39:50.849Z",
       "error": null
     },
     {
@@ -1314,7 +1479,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/-2BR0gypZYM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.106Z",
+      "fetchedAt": "2026-03-03T15:39:50.856Z",
       "error": null
     },
     {
@@ -1381,7 +1546,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P7Lt2s7O4bQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.113Z",
+      "fetchedAt": "2026-03-03T15:39:51.043Z",
       "error": null
     },
     {
@@ -1448,7 +1613,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/fedh0BQlqUs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.266Z",
+      "fetchedAt": "2026-03-03T15:39:51.055Z",
       "error": null
     },
     {
@@ -1515,7 +1680,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dd9sXrHbcmc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.115Z",
+      "fetchedAt": "2026-03-03T15:39:51.089Z",
       "error": null
     },
     {
@@ -1582,7 +1747,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7yQoYDocK70/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.371Z",
+      "fetchedAt": "2026-03-03T15:39:51.061Z",
       "error": null
     },
     {
@@ -1649,7 +1814,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9NkYvdvYuS8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.528Z",
+      "fetchedAt": "2026-03-03T15:39:51.193Z",
       "error": null
     },
     {
@@ -1716,7 +1881,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WmB6erR-xow/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.377Z",
+      "fetchedAt": "2026-03-03T15:39:51.209Z",
       "error": null
     },
     {
@@ -1783,7 +1948,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lv2_40c9TmY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.527Z",
+      "fetchedAt": "2026-03-03T15:39:51.243Z",
       "error": null
     },
     {
@@ -1840,7 +2005,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.497Z",
+      "fetchedAt": "2026-03-03T15:39:51.164Z",
       "error": null
     },
     {
@@ -1897,7 +2062,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-03T15:26:11.576Z",
+      "fetchedAt": "2026-03-03T15:39:51.317Z",
       "error": null
     }
   ]
