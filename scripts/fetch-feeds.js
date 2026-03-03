@@ -51,6 +51,11 @@ const FEEDS = [
     url:'https://msendpointmgr.com/feed/' },
   { id:'configmgrblog',     label:'Microsoft Tech Community - Configuration Manager Blog',               category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog' },
+  { id:'oofhours',     label:'oofhours.com',               category:'sccm',     color:'#005a9e', type:'rss',
+    url:'https://oofhours.com/feed/' },
+  { id:'ccmexec',     label:'ccmexec.com',               category:'sccm',     color:'#005a9e', type:'rss',
+    url:'https://ccmexec.com/feed/' },
+
 
   // ── Endpoint Security ───────────────────────────────────────────────────
   { id:'krebs',          label:'krebsonsecurity.com',         category:'security', color:'#d13438', type:'rss',
