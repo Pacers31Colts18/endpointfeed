@@ -29,6 +29,8 @@ const FEEDS = [
     url:'https://www.oddsandendpoints.co.uk/index.xml'},
   { id:'systanddeploy', label:'systanddeploy.com', category:'intune', color:'#0078d4', type:'rss',
     url:'https://www.systanddeploy.com/feeds/posts/default?alt=rss'},
+  { id:'indevelopemnt-intune', label:'learn.microsoft.com/en-us/intune/intune-service/fundamentals/in-development', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29'},
 
   // ── ConfigMgr/WSUS ────────────────────────────────────────────────────
   { id:'patchmypc',      label:'Patch My PC Blog - patchmypc.com',          category:'sccm',     color:'#005a9e', type:'rss',
@@ -43,6 +45,8 @@ const FEEDS = [
     url:'https://mattzaske.com/rss.xml' },
   { id:'msendpointmgr',     label:'msendpointmgr.com',               category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://msendpointmgr.com/feed/' },
+  { id:'configmgrblog',     label:'techcommunity.microsoft.com/category/microsoftintune/blog/configurationmanagerblog',               category:'sccm',     color:'#005a9e', type:'rss',
+    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog' },
 
   // ── Endpoint Security ───────────────────────────────────────────────────
   { id:'krebs',          label:'krebsonsecurity.com',         category:'security', color:'#d13438', type:'rss',
