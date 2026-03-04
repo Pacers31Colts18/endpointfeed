@@ -36,7 +36,7 @@ const FEEDS = [
   { id:'whatsnewintune', label:'Whats New in Intune', category:'intune', color:'#0078d4', type:'rss',
     url:'https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29'},
 
-  // ── ConfigMgr/WSUS ────────────────────────────────────────────────────
+  // ── SCCM/ConfigMgr/WSUS ────────────────────────────────────────────────────
   { id:'patchmypc',      label:'Patch My PC Blog - patchmypc.com',          category:'sccm',     color:'#005a9e', type:'rss',
     url:'https://patchmypc.com/feed' },
   { id:'niallbrady',     label:'Niall Brady - niallbrady.com',               category:'sccm',     color:'#005a9e', type:'rss',
@@ -62,6 +62,10 @@ const FEEDS = [
     url:'https://krebsonsecurity.com/feed/' },
   { id:'nathanmcnulty',          label:'nathanmcnulty.com',         category:'security', color:'#d13438', type:'rss',
     url:'hhttps://nathanmcnulty.com/index.xml' },
+
+    // ── Azure Virtual Desktop ───────────────────────────────────────────────────
+  { id:'mobile-jon',          label:'mobile-jon.com',         category:'avd', color:'#d13438', type:'rss',
+    url:'https://mobile-jon.com/feed/' },
 
   // ── M365 / Office 365 ───────────────────────────────────────────────────
   { id:'office365itpro', label:'office365itpros.com',    category:'m365',     color:'#d83b01', type:'rss',
