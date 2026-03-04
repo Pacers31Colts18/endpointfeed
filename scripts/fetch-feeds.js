@@ -35,6 +35,11 @@ const FEEDS = [
     url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess'},
   { id:'whatsnewintune', label:'Whats New in Intune', category:'intune', color:'#0078d4', type:'rss',
     url:'https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29'},
+  { id:'justaboutthemodernworkplace', label:'justaboutthemodernworkplace.com', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://intunestuff.com/feed/'},
+  { id:'intunestuff', label:'intunestuff.com', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://joostgelijsteen.com/feed/'},
+
 
   // ── SCCM/ConfigMgr/WSUS ────────────────────────────────────────────────────
   { id:'patchmypc',      label:'Patch My PC Blog - patchmypc.com',          category:'sccm',     color:'#005a9e', type:'rss',
@@ -86,6 +91,12 @@ const FEEDS = [
   // ── Apple ───────────────────────────────────────────────────────────────
   { id:'kandji',         label:'Kkandji.io',               category:'apple',    color:'#8e8e93', type:'rss',
     url:'https://www.kandji.io/blog/rss.xml' },
+  { id:'allthingscloud',         label:'allthingscloud.blog',               category:'apple',    color:'#8e8e93', type:'rss',
+    url:'https://allthingscloud.blog/feed/' },
+  { id:'macadminsnews',         label:'macadmins.news',               category:'apple',    color:'#8e8e93', type:'rss',
+    url:'https://macadmins.news/issues.rss' },
+  { id:'macadminmusings',         label:'macadminmusings.com',               category:'apple',    color:'#8e8e93', type:'rss',
+    url:'https://macadminmusings.com/feed.xml' },
 
   // ── Video ─────────────────────────────────────────────────────────────
   { id:'yt-savill',      label:'John Savill Tech Training', category:'video',    color:'#ff0000', type:'youtube',
