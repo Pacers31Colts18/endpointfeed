@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-03T23:03:52.883Z",
+  "generatedAt": "2026-03-04T02:04:42.315Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -55,7 +55,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:45.335Z",
+      "fetchedAt": "2026-03-04T02:04:35.863Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:45.282Z",
+      "fetchedAt": "2026-03-04T02:04:35.895Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:45.692Z",
+      "fetchedAt": "2026-03-04T02:04:36.082Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-03-03T23:03:44.582Z",
+      "fetchedAt": "2026-03-04T02:04:35.429Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:45.987Z",
+      "fetchedAt": "2026-03-04T02:04:36.270Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:46.006Z",
+      "fetchedAt": "2026-03-04T02:04:36.361Z",
       "error": null
     },
     {
@@ -315,7 +315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:46.221Z",
+      "fetchedAt": "2026-03-04T02:04:36.422Z",
       "error": null
     },
     {
@@ -372,7 +372,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:46.130Z",
+      "fetchedAt": "2026-03-04T02:04:36.521Z",
       "error": null
     },
     {
@@ -393,7 +393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:46.244Z",
+      "fetchedAt": "2026-03-04T02:04:36.541Z",
       "error": null
     },
     {
@@ -450,7 +450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:47.483Z",
+      "fetchedAt": "2026-03-04T02:04:37.393Z",
       "error": null
     },
     {
@@ -507,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:46.927Z",
+      "fetchedAt": "2026-03-04T02:04:37.127Z",
       "error": null
     },
     {
@@ -564,7 +564,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:46.762Z",
+      "fetchedAt": "2026-03-04T02:04:36.733Z",
       "error": null
     },
     {
@@ -574,9 +574,55 @@
       "color": "#005a9e",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-03-03T23:03:47.711Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Speeding up File Copy in a Computer Lab",
+          "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
+          "pubDate": "2026-02-26T14:17:31.000Z",
+          "summary": "In our labs, we often need to copy large files to multiple lab machines. These days, we have 10 GBE network cards on all file servers, but it wasn't long ago that we had only a 1 Gbps connection between the file server and the switch that connected the clients. To minimize the time it […] The post S",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Quick Tip – Enable vTPM on Hyper-V VMs",
+          "link": "https://www.deploymentresearch.com/quick-tip-enable-vtpm-on-hyper-v-vms/",
+          "pubDate": "2026-01-25T22:13:17.000Z",
+          "summary": "Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. The post Quick Tip – Enable vTPM on Hyper-V VMs appeared first on Deployment Research. ]]>",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Quick Tip – Migrate Windows 11 VMs with TPM Enabled to New Hyper-V Host",
+          "link": "https://www.deploymentresearch.com/quick-tip-migrate-windows-11-vms-with-tpm-enabled-to-new-hyper-v-host/",
+          "pubDate": "2026-01-24T05:13:56.000Z",
+          "summary": "If you ever need to migrate a few Windows 11 VMs, with TPM (vTPM) activated, from one Hyper-V host to another, this is how. Export Certificates and VMs on the Old Hyper-V Host In addition to exporting the VMs, you also need to export the two certificates that are created when enabling vTPM on a […] ",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 Deployment – Using MDT 8456 with Windows ADK 26H1 (Build 28000)",
+          "link": "https://www.deploymentresearch.com/windows-11-deployment-using-mdt-8456-with-windows-adk-26h1-build-28000/",
+          "pubDate": "2025-12-29T04:32:07.000Z",
+          "summary": "Since Microsoft doesn't officially support Windows 11 Deployments with MDT, nor support any Windows ADK version newer than Windows ADK for Windows 10, version 1809 (build 17763), it's up to the OSD community to make it work. On the good side, with millions of MDT downloads during the years, you're n",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Preventing Windows Updates During OSD with ConfigMgr",
+          "link": "https://www.deploymentresearch.com/preventing-windows-updates-during-osd-with-configmgr/",
+          "pubDate": "2025-11-25T14:27:49.000Z",
+          "summary": "A question came in from the community that hits a very real pain point in ConfigMgr OSD:“Why is Windows Update suddenly running during my Task Sequence?” If you’ve spent any time building Task Sequences, you’ve likely seen this in action. You carefully design the flow to deploy Windows, apply driver",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-04T02:04:38.053Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -632,7 +678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:47.733Z",
+      "fetchedAt": "2026-03-04T02:04:37.798Z",
       "error": null
     },
     {
@@ -689,7 +735,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:47.746Z",
+      "fetchedAt": "2026-03-04T02:04:37.718Z",
       "error": null
     },
     {
@@ -746,7 +792,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:47.794Z",
+      "fetchedAt": "2026-03-04T02:04:37.646Z",
       "error": null
     },
     {
@@ -803,7 +849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:47.854Z",
+      "fetchedAt": "2026-03-04T02:04:38.147Z",
       "error": null
     },
     {
@@ -860,7 +906,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:49.542Z",
+      "fetchedAt": "2026-03-04T02:04:39.758Z",
       "error": null
     },
     {
@@ -917,7 +963,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:47.970Z",
+      "fetchedAt": "2026-03-04T02:04:38.248Z",
       "error": null
     },
     {
@@ -974,7 +1020,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:47.985Z",
+      "fetchedAt": "2026-03-04T02:04:38.350Z",
       "error": null
     },
     {
@@ -1031,7 +1077,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:49.634Z",
+      "fetchedAt": "2026-03-04T02:04:39.894Z",
       "error": null
     },
     {
@@ -1088,7 +1134,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:49.711Z",
+      "fetchedAt": "2026-03-04T02:04:40.052Z",
       "error": null
     },
     {
@@ -1118,7 +1164,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:49.925Z",
+      "fetchedAt": "2026-03-04T02:04:40.204Z",
       "error": null
     },
     {
@@ -1175,7 +1221,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:49.572Z",
+      "fetchedAt": "2026-03-04T02:04:39.957Z",
       "error": null
     },
     {
@@ -1232,7 +1278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:50.118Z",
+      "fetchedAt": "2026-03-04T02:04:40.434Z",
       "error": null
     },
     {
@@ -1289,7 +1335,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:50.955Z",
+      "fetchedAt": "2026-03-04T02:04:41.065Z",
       "error": null
     },
     {
@@ -1346,7 +1392,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:50.171Z",
+      "fetchedAt": "2026-03-04T02:04:40.577Z",
       "error": null
     },
     {
@@ -1413,7 +1459,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2OVNx2quVP0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:50.026Z",
+      "fetchedAt": "2026-03-04T02:04:40.448Z",
       "error": null
     },
     {
@@ -1480,7 +1526,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/l14X29XDUSc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:51.218Z",
+      "fetchedAt": "2026-03-04T02:04:41.073Z",
       "error": null
     },
     {
@@ -1547,7 +1593,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/-2BR0gypZYM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:50.983Z",
+      "fetchedAt": "2026-03-04T02:04:41.171Z",
       "error": null
     },
     {
@@ -1614,7 +1660,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/nf0LbfJ4mlg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:50.978Z",
+      "fetchedAt": "2026-03-04T02:04:41.091Z",
       "error": null
     },
     {
@@ -1681,7 +1727,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/fedh0BQlqUs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:50.982Z",
+      "fetchedAt": "2026-03-04T02:04:41.089Z",
       "error": null
     },
     {
@@ -1748,7 +1794,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dd9sXrHbcmc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:51.224Z",
+      "fetchedAt": "2026-03-04T02:04:41.177Z",
       "error": null
     },
     {
@@ -1815,7 +1861,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7yQoYDocK70/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:51.226Z",
+      "fetchedAt": "2026-03-04T02:04:41.334Z",
       "error": null
     },
     {
@@ -1882,7 +1928,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9NkYvdvYuS8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:51.439Z",
+      "fetchedAt": "2026-03-04T02:04:41.418Z",
       "error": null
     },
     {
@@ -1949,7 +1995,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7hB4dnZRtxg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:51.224Z",
+      "fetchedAt": "2026-03-04T02:04:41.285Z",
       "error": null
     },
     {
@@ -2016,7 +2062,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lv2_40c9TmY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:52.132Z",
+      "fetchedAt": "2026-03-04T02:04:41.573Z",
       "error": null
     },
     {
@@ -2083,7 +2129,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/ppYBf0n6q0Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:51.655Z",
+      "fetchedAt": "2026-03-04T02:04:41.498Z",
       "error": null
     },
     {
@@ -2094,6 +2140,15 @@
       "type": "podcast",
       "url": "https://feeds.simplecast.com/cRTTfxcT",
       "items": [
+        {
+          "title": "Hiring in 2026 with Suzi Edwards-Alexander",
+          "link": "https://www.runasradio.com/Shows/Show/1026",
+          "pubDate": "2026-03-04T00:00:00.000Z",
+          "summary": "How can you hire and get hired in 2026? While at NDC London, Richard chatted with Suzi Edwards-Alexander about her experiences recruiting technology folks into companies. Suzi talks about developing interview practices that actually reflect the job, rather than examining esoteric knowledge or certif",
+          "author": "info@runasradio.com (Suzi Edwards-Alexander, Richard Campbell)",
+          "categories": [],
+          "type": "podcast"
+        },
         {
           "title": "SaaS on Multiple Clouds with Steve Buchanan",
           "link": "https://runasradio.com/Shows/Show/1025",
@@ -2129,18 +2184,9 @@
           "author": "info@runasradio.com (Richard Campbell, Erica Toelle)",
           "categories": [],
           "type": "podcast"
-        },
-        {
-          "title": "Business Process Automation in 2026 with Ian Cooper",
-          "link": "https://runasradio.com/Shows/Show/1021",
-          "pubDate": "2026-01-28T00:00:00.000Z",
-          "summary": "Business Process Automation has been around a long time - what are the latest approaches? Richard talks to Ian Cooper about his work building BPA workflows in organizations - starting on paper or a whiteboard to make sense of the process before bringing tools into the equation. Ian talks about build",
-          "author": "info@runasradio.com (Ian Cooper, Richard Campbell)",
-          "categories": [],
-          "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:51.576Z",
+      "fetchedAt": "2026-03-04T02:04:41.527Z",
       "error": null
     },
     {
@@ -2197,7 +2243,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:51.484Z",
+      "fetchedAt": "2026-03-04T02:04:41.496Z",
       "error": null
     },
     {
@@ -2254,7 +2300,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-03T23:03:52.883Z",
+      "fetchedAt": "2026-03-04T02:04:42.315Z",
       "error": null
     }
   ]
