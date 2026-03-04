@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-04T15:26:23.750Z",
+  "generatedAt": "2026-03-04T16:45:53.856Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -9,6 +9,24 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "How to install Windows Admin Center vMode on Windows Server 2025",
+          "link": "https://4sysops.com/archives/how-to-install-windows-admin-center-vmode-on-windows-server-2025/",
+          "pubDate": "2026-03-04T16:44:37.000Z",
+          "summary": "Windows Admin Center (WAC) vMode (Virtualization Mode) is a current in-preview management gateway for Hyper-V environments, deployable as a stateful appliance with an integrated PostgreSQL database. Unlike aMode (Administration Mode), vMode targets centralized virtualization management across multip",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Enable Windows Group Policy Preferences (GPP) debug logging",
+          "link": "https://4sysops.com/archives/enable-windows-group-policy-preferences-gpp-debug-logging/",
+          "pubDate": "2026-03-04T16:42:27.000Z",
+          "summary": "Starting with the February 2026 preview updates for Windows 11 24H2 and 25H2, Microsoft has made Group Policy Preferences (GPP) debug logging configurable directly in Local Group Policy via gpedit.msc. Previously, these settings were primarily managed through domain-based Group Policy Objects (GPOs)",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "4sysops turns 20",
           "link": "https://4sysops.com/archives/4sysops-turns-20/",
@@ -35,27 +53,9 @@
           "author": "IT Experts",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Enable Windows ReFS boot: Install Windows Server on Resilient File System volumes",
-          "link": "https://4sysops.com/archives/enable-windows-refs-boot-install-windows-server-on-resilient-file-system-volumes/",
-          "pubDate": "2026-02-27T13:57:24.000Z",
-          "summary": "Windows Server vNext Insider Preview build 29531 introduces ReFS boot, allowing you to install and start Windows Server from a Resilient File System (ReFS)-formatted boot volume for the first time. This feature brings integrity-level metadata checksums, online corruption repair, block cloning, and 3",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Monitoring Secure Boot certificate installation status with Intune and PowerShell",
-          "link": "https://4sysops.com/archives/monitoring-secure-boot-certificate-installation-status-with-intune-and-powershell/",
-          "pubDate": "2026-02-27T13:51:27.000Z",
-          "summary": "Microsoft Secure Boot certificates issued by the 2011 Certificate Authorities (CAs) are expiring starting June 2026. Every Windows device with Secure Boot enabled must be updated to trust the 2023 certificates before expiration to retain security update support. Microsoft provides a monitoring-only ",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:13.603Z",
+      "fetchedAt": "2026-03-04T16:45:47.224Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:13.125Z",
+      "fetchedAt": "2026-03-04T16:45:47.098Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:14.288Z",
+      "fetchedAt": "2026-03-04T16:45:47.134Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-03-04T15:26:12.627Z",
+      "fetchedAt": "2026-03-04T16:45:46.982Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:14.550Z",
+      "fetchedAt": "2026-03-04T16:45:47.482Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:14.736Z",
+      "fetchedAt": "2026-03-04T16:45:47.395Z",
       "error": null
     },
     {
@@ -315,7 +315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:14.723Z",
+      "fetchedAt": "2026-03-04T16:45:47.449Z",
       "error": null
     },
     {
@@ -372,7 +372,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:14.757Z",
+      "fetchedAt": "2026-03-04T16:45:47.712Z",
       "error": null
     },
     {
@@ -393,7 +393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:14.993Z",
+      "fetchedAt": "2026-03-04T16:45:47.735Z",
       "error": null
     },
     {
@@ -450,7 +450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:16.300Z",
+      "fetchedAt": "2026-03-04T16:45:48.566Z",
       "error": null
     },
     {
@@ -507,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:15.596Z",
+      "fetchedAt": "2026-03-04T16:45:48.383Z",
       "error": null
     },
     {
@@ -564,7 +564,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:15.367Z",
+      "fetchedAt": "2026-03-04T16:45:48.276Z",
       "error": null
     },
     {
@@ -621,7 +621,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:17.710Z",
+      "fetchedAt": "2026-03-04T16:45:49.076Z",
       "error": null
     },
     {
@@ -678,7 +678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:16.601Z",
+      "fetchedAt": "2026-03-04T16:45:48.961Z",
       "error": null
     },
     {
@@ -735,7 +735,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:16.584Z",
+      "fetchedAt": "2026-03-04T16:45:48.891Z",
       "error": null
     },
     {
@@ -792,7 +792,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:16.742Z",
+      "fetchedAt": "2026-03-04T16:45:48.957Z",
       "error": null
     },
     {
@@ -849,7 +849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:17.779Z",
+      "fetchedAt": "2026-03-04T16:45:49.134Z",
       "error": null
     },
     {
@@ -906,7 +906,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:19.647Z",
+      "fetchedAt": "2026-03-04T16:45:50.607Z",
       "error": null
     },
     {
@@ -963,7 +963,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:17.863Z",
+      "fetchedAt": "2026-03-04T16:45:49.295Z",
       "error": null
     },
     {
@@ -1020,7 +1020,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:18.244Z",
+      "fetchedAt": "2026-03-04T16:45:49.465Z",
       "error": null
     },
     {
@@ -1077,7 +1077,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:20.667Z",
+      "fetchedAt": "2026-03-04T16:45:51.733Z",
       "error": null
     },
     {
@@ -1134,7 +1134,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:19.764Z",
+      "fetchedAt": "2026-03-04T16:45:50.696Z",
       "error": null
     },
     {
@@ -1191,7 +1191,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:19.820Z",
+      "fetchedAt": "2026-03-04T16:45:50.917Z",
       "error": null
     },
     {
@@ -1221,7 +1221,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:20.019Z",
+      "fetchedAt": "2026-03-04T16:45:50.919Z",
       "error": null
     },
     {
@@ -1278,7 +1278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:20.735Z",
+      "fetchedAt": "2026-03-04T16:45:51.924Z",
       "error": null
     },
     {
@@ -1335,7 +1335,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:21.028Z",
+      "fetchedAt": "2026-03-04T16:45:51.879Z",
       "error": null
     },
     {
@@ -1392,7 +1392,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:21.752Z",
+      "fetchedAt": "2026-03-04T16:45:52.528Z",
       "error": null
     },
     {
@@ -1449,7 +1449,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:20.969Z",
+      "fetchedAt": "2026-03-04T16:45:52.201Z",
       "error": null
     },
     {
@@ -1516,7 +1516,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2OVNx2quVP0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.079Z",
+      "fetchedAt": "2026-03-04T16:45:52.561Z",
       "error": null
     },
     {
@@ -1583,7 +1583,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/l14X29XDUSc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:21.933Z",
+      "fetchedAt": "2026-03-04T16:45:52.616Z",
       "error": null
     },
     {
@@ -1650,7 +1650,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/-2BR0gypZYM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.026Z",
+      "fetchedAt": "2026-03-04T16:45:52.657Z",
       "error": null
     },
     {
@@ -1717,7 +1717,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/nf0LbfJ4mlg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:21.928Z",
+      "fetchedAt": "2026-03-04T16:45:52.686Z",
       "error": null
     },
     {
@@ -1784,7 +1784,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/fedh0BQlqUs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.288Z",
+      "fetchedAt": "2026-03-04T16:45:52.838Z",
       "error": null
     },
     {
@@ -1851,7 +1851,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dd9sXrHbcmc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.692Z",
+      "fetchedAt": "2026-03-04T16:45:52.774Z",
       "error": null
     },
     {
@@ -1918,7 +1918,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7yQoYDocK70/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.095Z",
+      "fetchedAt": "2026-03-04T16:45:52.763Z",
       "error": null
     },
     {
@@ -1985,7 +1985,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9NkYvdvYuS8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.234Z",
+      "fetchedAt": "2026-03-04T16:45:52.833Z",
       "error": null
     },
     {
@@ -2052,7 +2052,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7hB4dnZRtxg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.966Z",
+      "fetchedAt": "2026-03-04T16:45:52.970Z",
       "error": null
     },
     {
@@ -2119,7 +2119,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lv2_40c9TmY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.841Z",
+      "fetchedAt": "2026-03-04T16:45:52.938Z",
       "error": null
     },
     {
@@ -2186,7 +2186,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/ppYBf0n6q0Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.841Z",
+      "fetchedAt": "2026-03-04T16:45:52.978Z",
       "error": null
     },
     {
@@ -2243,7 +2243,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:22.834Z",
+      "fetchedAt": "2026-03-04T16:45:53.090Z",
       "error": null
     },
     {
@@ -2300,7 +2300,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:23.108Z",
+      "fetchedAt": "2026-03-04T16:45:53.224Z",
       "error": null
     },
     {
@@ -2357,7 +2357,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-04T15:26:23.750Z",
+      "fetchedAt": "2026-03-04T16:45:53.856Z",
       "error": null
     }
   ]
