@@ -64,7 +64,7 @@ const FEEDS = [
     url:'hhttps://nathanmcnulty.com/index.xml' },
 
     // ── Azure Virtual Desktop ───────────────────────────────────────────────────
-  { id:'mobile-jon',          label:'mobile-jon.com',         category:'avd', color:'#d13438', type:'rss',
+  { id:'mobile-jon',          label:'mobile-jon.com',         category:'avd', color:'#0078d4', type:'rss',
     url:'https://mobile-jon.com/feed/' },
 
   // ── M365 / Office 365 ───────────────────────────────────────────────────
