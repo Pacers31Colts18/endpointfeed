@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-05T08:42:30.782Z",
+  "generatedAt": "2026-03-05T13:01:55.372Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -55,7 +55,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:22.714Z",
+      "fetchedAt": "2026-03-05T13:01:45.654Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:22.566Z",
+      "fetchedAt": "2026-03-05T13:01:44.511Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:22.781Z",
+      "fetchedAt": "2026-03-05T13:01:44.983Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-03-05T08:42:22.314Z",
+      "fetchedAt": "2026-03-05T13:01:44.127Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:22.900Z",
+      "fetchedAt": "2026-03-05T13:01:45.932Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:23.008Z",
+      "fetchedAt": "2026-03-05T13:01:46.020Z",
       "error": null
     },
     {
@@ -315,7 +315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:23.009Z",
+      "fetchedAt": "2026-03-05T13:01:46.416Z",
       "error": null
     },
     {
@@ -372,7 +372,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:23.501Z",
+      "fetchedAt": "2026-03-05T13:01:46.278Z",
       "error": null
     },
     {
@@ -393,7 +393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:23.539Z",
+      "fetchedAt": "2026-03-05T13:01:46.468Z",
       "error": null
     },
     {
@@ -450,7 +450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:23.623Z",
+      "fetchedAt": "2026-03-05T13:01:46.589Z",
       "error": null
     },
     {
@@ -507,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:24.224Z",
+      "fetchedAt": "2026-03-05T13:01:47.227Z",
       "error": null
     },
     {
@@ -564,7 +564,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:24.382Z",
+      "fetchedAt": "2026-03-05T13:01:47.192Z",
       "error": null
     },
     {
@@ -621,7 +621,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:24.913Z",
+      "fetchedAt": "2026-03-05T13:01:47.857Z",
       "error": null
     },
     {
@@ -678,7 +678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:24.805Z",
+      "fetchedAt": "2026-03-05T13:01:47.434Z",
       "error": null
     },
     {
@@ -688,9 +688,55 @@
       "color": "#005a9e",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-03-05T08:42:24.719Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Speeding up File Copy in a Computer Lab",
+          "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
+          "pubDate": "2026-02-26T14:17:31.000Z",
+          "summary": "In our labs, we often need to copy large files to multiple lab machines. These days, we have 10 GBE network cards on all file servers, but it wasn't long ago that we had only a 1 Gbps connection between the file server and the switch that connected the clients. To minimize the time it […] The post S",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Quick Tip – Enable vTPM on Hyper-V VMs",
+          "link": "https://www.deploymentresearch.com/quick-tip-enable-vtpm-on-hyper-v-vms/",
+          "pubDate": "2026-01-25T22:13:17.000Z",
+          "summary": "Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. The post Quick Tip – Enable vTPM on Hyper-V VMs appeared first on Deployment Research. ]]>",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Quick Tip – Migrate Windows 11 VMs with TPM Enabled to New Hyper-V Host",
+          "link": "https://www.deploymentresearch.com/quick-tip-migrate-windows-11-vms-with-tpm-enabled-to-new-hyper-v-host/",
+          "pubDate": "2026-01-24T05:13:56.000Z",
+          "summary": "If you ever need to migrate a few Windows 11 VMs, with TPM (vTPM) activated, from one Hyper-V host to another, this is how. Export Certificates and VMs on the Old Hyper-V Host In addition to exporting the VMs, you also need to export the two certificates that are created when enabling vTPM on a […] ",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 Deployment – Using MDT 8456 with Windows ADK 26H1 (Build 28000)",
+          "link": "https://www.deploymentresearch.com/windows-11-deployment-using-mdt-8456-with-windows-adk-26h1-build-28000/",
+          "pubDate": "2025-12-29T04:32:07.000Z",
+          "summary": "Since Microsoft doesn't officially support Windows 11 Deployments with MDT, nor support any Windows ADK version newer than Windows ADK for Windows 10, version 1809 (build 17763), it's up to the OSD community to make it work. On the good side, with millions of MDT downloads during the years, you're n",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Preventing Windows Updates During OSD with ConfigMgr",
+          "link": "https://www.deploymentresearch.com/preventing-windows-updates-during-osd-with-configmgr/",
+          "pubDate": "2025-11-25T14:27:49.000Z",
+          "summary": "A question came in from the community that hits a very real pain point in ConfigMgr OSD:“Why is Windows Update suddenly running during my Task Sequence?” If you’ve spent any time building Task Sequences, you’ve likely seen this in action. You carefully design the flow to deploy Windows, apply driver",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-05T13:01:47.981Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -746,7 +792,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:24.950Z",
+      "fetchedAt": "2026-03-05T13:01:47.635Z",
       "error": null
     },
     {
@@ -803,7 +849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:25.073Z",
+      "fetchedAt": "2026-03-05T13:01:48.717Z",
       "error": null
     },
     {
@@ -860,7 +906,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:25.296Z",
+      "fetchedAt": "2026-03-05T13:01:48.284Z",
       "error": null
     },
     {
@@ -917,7 +963,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:25.050Z",
+      "fetchedAt": "2026-03-05T13:01:48.039Z",
       "error": null
     },
     {
@@ -974,7 +1020,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:26.534Z",
+      "fetchedAt": "2026-03-05T13:01:49.714Z",
       "error": null
     },
     {
@@ -1031,7 +1077,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:26.738Z",
+      "fetchedAt": "2026-03-05T13:01:49.867Z",
       "error": null
     },
     {
@@ -1088,7 +1134,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:26.752Z",
+      "fetchedAt": "2026-03-05T13:01:49.874Z",
       "error": null
     },
     {
@@ -1145,7 +1191,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:26.858Z",
+      "fetchedAt": "2026-03-05T13:01:50.932Z",
       "error": null
     },
     {
@@ -1202,7 +1248,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:26.780Z",
+      "fetchedAt": "2026-03-05T13:01:49.880Z",
       "error": null
     },
     {
@@ -1259,7 +1305,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:27.143Z",
+      "fetchedAt": "2026-03-05T13:01:51.229Z",
       "error": null
     },
     {
@@ -1289,7 +1335,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:27.138Z",
+      "fetchedAt": "2026-03-05T13:01:51.354Z",
       "error": null
     },
     {
@@ -1346,7 +1392,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:26.889Z",
+      "fetchedAt": "2026-03-05T13:01:51.104Z",
       "error": null
     },
     {
@@ -1403,7 +1449,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:26.975Z",
+      "fetchedAt": "2026-03-05T13:01:51.090Z",
       "error": null
     },
     {
@@ -1460,7 +1506,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:27.860Z",
+      "fetchedAt": "2026-03-05T13:01:52.140Z",
       "error": null
     },
     {
@@ -1517,7 +1563,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:27.286Z",
+      "fetchedAt": "2026-03-05T13:01:51.769Z",
       "error": null
     },
     {
@@ -1574,7 +1620,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.313Z",
+      "fetchedAt": "2026-03-05T13:01:53.859Z",
       "error": null
     },
     {
@@ -1631,7 +1677,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:27.512Z",
+      "fetchedAt": "2026-03-05T13:01:52.058Z",
       "error": null
     },
     {
@@ -1642,7 +1688,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-03-05T08:42:28.422Z",
+      "fetchedAt": "2026-03-05T13:01:53.948Z",
       "error": "HTTP 403"
     },
     {
@@ -1709,7 +1755,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2OVNx2quVP0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.419Z",
+      "fetchedAt": "2026-03-05T13:01:54.048Z",
       "error": null
     },
     {
@@ -1776,7 +1822,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/l14X29XDUSc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.495Z",
+      "fetchedAt": "2026-03-05T13:01:54.175Z",
       "error": null
     },
     {
@@ -1843,7 +1889,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/-2BR0gypZYM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.477Z",
+      "fetchedAt": "2026-03-05T13:01:54.049Z",
       "error": null
     },
     {
@@ -1910,7 +1956,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/nf0LbfJ4mlg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.634Z",
+      "fetchedAt": "2026-03-05T13:01:54.258Z",
       "error": null
     },
     {
@@ -1977,7 +2023,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/fedh0BQlqUs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.562Z",
+      "fetchedAt": "2026-03-05T13:01:54.251Z",
       "error": null
     },
     {
@@ -2044,7 +2090,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dd9sXrHbcmc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.567Z",
+      "fetchedAt": "2026-03-05T13:01:54.255Z",
       "error": null
     },
     {
@@ -2111,7 +2157,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7yQoYDocK70/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.701Z",
+      "fetchedAt": "2026-03-05T13:01:54.208Z",
       "error": null
     },
     {
@@ -2178,7 +2224,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/FFLqudUZga8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.834Z",
+      "fetchedAt": "2026-03-05T13:01:54.416Z",
       "error": null
     },
     {
@@ -2192,7 +2238,7 @@
         {
           "title": "3/4/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
           "link": "https://www.youtube.com/watch?v=EuXkjSVe9nQ",
-          "pubDate": "2026-03-04T22:30:34.000Z",
+          "pubDate": "2026-03-05T11:36:34.000Z",
           "summary": "Join us every week for Updates, Q&A, and roundtable discussions on anything related to Windows deployment, MDT, ConfigMgr, or Intune. https://academy.viamonstra.com/courses/office-hours-community-edition #sccm #msintune #configmgr #mdt",
           "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
           "categories": [],
@@ -2245,7 +2291,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/17F2UdYahK4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.833Z",
+      "fetchedAt": "2026-03-05T13:01:54.364Z",
       "error": null
     },
     {
@@ -2312,7 +2358,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lv2_40c9TmY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.792Z",
+      "fetchedAt": "2026-03-05T13:01:54.403Z",
       "error": null
     },
     {
@@ -2379,7 +2425,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/ppYBf0n6q0Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.772Z",
+      "fetchedAt": "2026-03-05T13:01:54.333Z",
       "error": null
     },
     {
@@ -2436,7 +2482,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.933Z",
+      "fetchedAt": "2026-03-05T13:01:54.763Z",
       "error": null
     },
     {
@@ -2493,7 +2539,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:28.988Z",
+      "fetchedAt": "2026-03-05T13:01:54.557Z",
       "error": null
     },
     {
@@ -2550,7 +2596,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-05T08:42:30.782Z",
+      "fetchedAt": "2026-03-05T13:01:55.372Z",
       "error": null
     }
   ]
