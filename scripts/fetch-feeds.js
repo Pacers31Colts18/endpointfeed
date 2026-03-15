@@ -39,6 +39,8 @@ const FEEDS = [
     url:'https://intunestuff.com/feed/'},
   { id:'intunestuff', label:'intunestuff.com', category:'intune', color:'#0078d4', type:'rss',
     url:'https://joostgelijsteen.com/feed/'},
+  { id:'zerotrust', label:'zerotrust.tech', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://zerototrust.tech/feed/'},
 
 
   // ── SCCM/ConfigMgr/WSUS ────────────────────────────────────────────────────
