@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T13:14:24.912Z",
+  "generatedAt": "2026-03-16T17:01:31.428Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -9,6 +9,24 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Windows 11 Insider Preview builds 26300 and 26220: Policy-based removal of preinstalled apps",
+          "link": "https://4sysops.com/archives/windows-11-insider-preview-builds-26300-and-26220-policy-based-removal-of-preinstalled-apps/",
+          "pubDate": "2026-03-16T13:31:55.000Z",
+          "summary": "Microsoft released Windows 11 Insider Preview Build 26300.8068 (KB 5079464) to the Dev Channel and Build 26220.8062 (KB 5079458) to the Beta Channel. Both updates are based on Windows 11 version 25H2 and are delivered via an enablement package. The releases introduce a stricter kernel-level driver t",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "How to view effective settings in Microsoft Defender for Endpoint",
+          "link": "https://4sysops.com/archives/how-to-view-effective-settings-in-microsoft-defender-for-endpoint/",
+          "pubDate": "2026-03-16T13:31:01.000Z",
+          "summary": "Microsoft Defender for Endpoint now includes an effective settings feature, generally available as of March 2026, that shows which security configurations are actually enforced on a device. Source]]>",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Windows 11 KB5079387: No more clean install for Smart App Control, Group Policy start menu fix, Remote Desktop DisableSeamlessLanguageBar parameter for Set-RDSessionCollectionConfiguration",
           "link": "https://4sysops.com/archives/windows-11-kb5079387-no-more-clean-install-for-smart-app-control-group-policy-start-menu-fix-remote-desktop-disableseamlesslanguagebar-parameter-for-set-rdsessioncollectionconfiguration/",
@@ -35,27 +53,9 @@
           "author": "IT Experts",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Windows Autopatch enables hotpatch updates by default in May 2026",
-          "link": "https://4sysops.com/archives/windows-autopatch-enables-hotpatch-updates-by-default-in-may-2026/",
-          "pubDate": "2026-03-11T15:24:34.000Z",
-          "summary": "Microsoft announced that Windows Autopatch will enable hotpatch security updates by default for all eligible devices starting with the May 2026 Windows security update. The change affects devices managed through Microsoft Intune and the Windows updates API in Microsoft Graph. Hotpatch updates instal",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft 365 Copilot Wave 3 – Why Copilot Cowork is not a coworker",
-          "link": "https://4sysops.com/archives/microsoft-365-copilot-wave-3-why-copilot-cowork-is-not-a-coworker/",
-          "pubDate": "2026-03-10T16:03:39.000Z",
-          "summary": "Microsoft announced Wave 3 of Microsoft 365 Copilot, introducing Copilot Cowork as a new AI-driven work mode that executes multi-step tasks across Office applications. However, Copilot Cowork is a double misnomer because the tool qualifies as neither a copilot nor a coworker. Source]]>",
-          "author": "Michael Pietroforte",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:14.892Z",
+      "fetchedAt": "2026-03-16T17:01:22.543Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:14.625Z",
+      "fetchedAt": "2026-03-16T17:01:22.281Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:14.736Z",
+      "fetchedAt": "2026-03-16T17:01:22.756Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-03-16T13:14:14.361Z",
+      "fetchedAt": "2026-03-16T17:01:21.916Z",
       "error": "HTTP 403"
     },
     {
@@ -191,6 +191,15 @@
       "type": "rss",
       "url": "https://www.oddsandendpoints.co.uk/index.xml",
       "items": [
+        {
+          "title": "Updating Event Log Sizes with Intune and PowerShell",
+          "link": "https://www.oddsandendpoints.co.uk/posts/windows-event-log-size/",
+          "pubDate": "2026-03-16T21:19:25.000Z",
+          "summary": "Whether implementing good practice controls, or extending your device security posture using App Control for Business, log files are your friend&hellip;until they fill up.]]>",
+          "author": "<name>Nick Benton</name><uri>https://www.linkedin.com/in/ennnbeee/</uri>",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Keeping macOS Apps updated with App Auto-Patch and Intune",
           "link": "https://www.oddsandendpoints.co.uk/posts/macos-app-auto-patch-intune/",
@@ -226,18 +235,9 @@
           "author": "<name>Nick Benton</name><uri>https://www.linkedin.com/in/ennnbeee/</uri>",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Fine-Tuning Groups for Phased Deployments in Intune",
-          "link": "https://www.oddsandendpoints.co.uk/posts/tuning-phased-deployment-groups/",
-          "pubDate": "2025-10-13T11:50:35.000Z",
-          "summary": "Can we improve upon our attempts to control the deployment of updates, new policies, and updated applications across our managed Intune devices once again?]]>",
-          "author": "<name>Nick Benton</name><uri>https://www.linkedin.com/in/ennnbeee/</uri>",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:15.037Z",
+      "fetchedAt": "2026-03-16T17:01:23.061Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:15.151Z",
+      "fetchedAt": "2026-03-16T17:01:22.938Z",
       "error": null
     },
     {
@@ -315,7 +315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:15.336Z",
+      "fetchedAt": "2026-03-16T17:01:23.766Z",
       "error": null
     },
     {
@@ -372,7 +372,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:15.512Z",
+      "fetchedAt": "2026-03-16T17:01:23.342Z",
       "error": null
     },
     {
@@ -393,7 +393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:15.537Z",
+      "fetchedAt": "2026-03-16T17:01:23.786Z",
       "error": null
     },
     {
@@ -450,7 +450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:15.635Z",
+      "fetchedAt": "2026-03-16T17:01:23.886Z",
       "error": null
     },
     {
@@ -507,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:16.215Z",
+      "fetchedAt": "2026-03-16T17:01:24.577Z",
       "error": null
     },
     {
@@ -518,7 +518,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-03-16T13:14:15.724Z",
+      "fetchedAt": "2026-03-16T17:01:23.956Z",
       "error": "HTTP 403"
     },
     {
@@ -575,7 +575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:17.352Z",
+      "fetchedAt": "2026-03-16T17:01:25.701Z",
       "error": null
     },
     {
@@ -632,7 +632,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:16.702Z",
+      "fetchedAt": "2026-03-16T17:01:25.215Z",
       "error": null
     },
     {
@@ -689,7 +689,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:16.855Z",
+      "fetchedAt": "2026-03-16T17:01:24.867Z",
       "error": null
     },
     {
@@ -746,7 +746,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:19.748Z",
+      "fetchedAt": "2026-03-16T17:01:25.618Z",
       "error": null
     },
     {
@@ -803,7 +803,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:20.149Z",
+      "fetchedAt": "2026-03-16T17:01:26.073Z",
       "error": null
     },
     {
@@ -860,7 +860,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:19.898Z",
+      "fetchedAt": "2026-03-16T17:01:25.930Z",
       "error": null
     },
     {
@@ -917,7 +917,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:20.116Z",
+      "fetchedAt": "2026-03-16T17:01:26.080Z",
       "error": null
     },
     {
@@ -974,7 +974,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:19.907Z",
+      "fetchedAt": "2026-03-16T17:01:25.979Z",
       "error": null
     },
     {
@@ -1031,7 +1031,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:21.700Z",
+      "fetchedAt": "2026-03-16T17:01:27.717Z",
       "error": null
     },
     {
@@ -1088,7 +1088,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:20.245Z",
+      "fetchedAt": "2026-03-16T17:01:26.234Z",
       "error": null
     },
     {
@@ -1145,7 +1145,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:20.471Z",
+      "fetchedAt": "2026-03-16T17:01:26.335Z",
       "error": null
     },
     {
@@ -1156,6 +1156,15 @@
       "type": "rss",
       "url": "https://mobile-jon.com/feed/",
       "items": [
+        {
+          "title": "How to Secure Access to Entra Roles with Conditional Access and Privileged Identity Management",
+          "link": "https://mobile-jon.com/2026/03/16/how-to-secure-access-to-entra-roles-with-conditional-access-and-privileged-identity-management/",
+          "pubDate": "2026-03-16T16:44:08.000Z",
+          "summary": "",
+          "author": "MobileJon",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Tenant Manager: One Platform to Rule Them All?",
           "link": "https://mobile-jon.com/2026/03/03/tenant-manager-one-platform-to-rule-them-all/",
@@ -1191,18 +1200,9 @@
           "author": "MobileJon",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Leveraging Log Analytics to Query Secure Boot Certificate Update Status",
-          "link": "https://mobile-jon.com/2025/12/19/leveraging-log-analytics-to-query-secure-boot-certificate-update-status/",
-          "pubDate": "2025-12-20T03:30:21.000Z",
-          "summary": "",
-          "author": "MobileJon",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:21.764Z",
+      "fetchedAt": "2026-03-16T17:01:27.393Z",
       "error": null
     },
     {
@@ -1259,7 +1259,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:21.865Z",
+      "fetchedAt": "2026-03-16T17:01:27.783Z",
       "error": null
     },
     {
@@ -1316,7 +1316,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:22.021Z",
+      "fetchedAt": "2026-03-16T17:01:27.943Z",
       "error": null
     },
     {
@@ -1346,7 +1346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:22.081Z",
+      "fetchedAt": "2026-03-16T17:01:27.951Z",
       "error": null
     },
     {
@@ -1403,7 +1403,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:21.822Z",
+      "fetchedAt": "2026-03-16T17:01:27.926Z",
       "error": null
     },
     {
@@ -1460,7 +1460,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:22.368Z",
+      "fetchedAt": "2026-03-16T17:01:28.081Z",
       "error": null
     },
     {
@@ -1517,7 +1517,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:22.775Z",
+      "fetchedAt": "2026-03-16T17:01:28.704Z",
       "error": null
     },
     {
@@ -1574,7 +1574,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:22.384Z",
+      "fetchedAt": "2026-03-16T17:01:28.407Z",
       "error": null
     },
     {
@@ -1631,7 +1631,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.298Z",
+      "fetchedAt": "2026-03-16T17:01:28.719Z",
       "error": null
     },
     {
@@ -1688,7 +1688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.584Z",
+      "fetchedAt": "2026-03-16T17:01:29.205Z",
       "error": null
     },
     {
@@ -1699,7 +1699,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-03-16T13:14:23.425Z",
+      "fetchedAt": "2026-03-16T17:01:28.782Z",
       "error": "HTTP 403"
     },
     {
@@ -1766,7 +1766,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/8kdV9rjFRtg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.460Z",
+      "fetchedAt": "2026-03-16T17:01:28.918Z",
       "error": null
     },
     {
@@ -1833,7 +1833,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CTkNnLmtdVo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.507Z",
+      "fetchedAt": "2026-03-16T17:01:29.127Z",
       "error": null
     },
     {
@@ -1900,7 +1900,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/XZOIpzSPRzw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.738Z",
+      "fetchedAt": "2026-03-16T17:01:29.298Z",
       "error": null
     },
     {
@@ -1967,7 +1967,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yILrSTjYQQs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.677Z",
+      "fetchedAt": "2026-03-16T17:01:29.341Z",
       "error": null
     },
     {
@@ -2034,7 +2034,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KPwJjSxCi3U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.773Z",
+      "fetchedAt": "2026-03-16T17:01:29.231Z",
       "error": null
     },
     {
@@ -2101,7 +2101,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/8g_6Pmpfq_E/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.700Z",
+      "fetchedAt": "2026-03-16T17:01:29.230Z",
       "error": null
     },
     {
@@ -2168,7 +2168,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OtwJRlfdgS4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.862Z",
+      "fetchedAt": "2026-03-16T17:01:29.498Z",
       "error": null
     },
     {
@@ -2179,6 +2179,17 @@
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure Bastion: Enter ID Login for Windows VMs Solved! #shorts",
+          "link": "https://www.youtube.com/shorts/R5p2ulfnHYc",
+          "pubDate": "2026-03-16T15:01:39.000Z",
+          "summary": "Full Video: https://youtu.be/fiPqKI16XiA Stop exposing RDP ports! Azure Bastion now directly supports Enter ID sign-in for Windows VMs via the Azure portal. Enjoy one-click, secure access without public IPs. #Azure #Microsoft #RemoteAccess #EntraID #CloudSecurity #Bastion #MVPBuzz",
+          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/R5p2ulfnHYc/hqdefault.jpg"
+        },
         {
           "title": "Azure Bastion: Enter ID Sign-In Now Directly From Portal! #shorts",
           "link": "https://www.youtube.com/shorts/LPgHWbg0oRc",
@@ -2222,20 +2233,9 @@
           "type": "youtube",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/zQMhFaX0f5M/hqdefault.jpg"
-        },
-        {
-          "title": "Automate Hyper-V VM Creation & Renaming with PowerShell #shorts",
-          "link": "https://www.youtube.com/shorts/r4sn2GHYDjw",
-          "pubDate": "2026-03-09T00:01:22.000Z",
-          "summary": "Full Video: https://youtu.be/A8aPtTMLx68 Tired of manually building and renaming Hyper-V VMs? This video shows you how to use PowerShell automation to create multiple virtual machines and rename them instantly, saving you valuable time. #HyperV #Windows11 #Microsoft #PowerShell #Automation #VDI #Sys",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/r4sn2GHYDjw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.918Z",
+      "fetchedAt": "2026-03-16T17:01:29.429Z",
       "error": null
     },
     {
@@ -2302,7 +2302,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/VGYsqqWfEYo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.953Z",
+      "fetchedAt": "2026-03-16T17:01:29.348Z",
       "error": null
     },
     {
@@ -2369,7 +2369,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GTqFrEHf86o/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:23.867Z",
+      "fetchedAt": "2026-03-16T17:01:29.473Z",
       "error": null
     },
     {
@@ -2381,62 +2381,62 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw",
       "items": [
         {
-          "title": "Advanced Automation and PowerShell for Intune - #IntuneForMSPs Meetup",
-          "link": "https://www.youtube.com/watch?v=cS-hIbliXc4",
-          "pubDate": "2026-03-13T23:05:49.000Z",
-          "summary": "Ready to take Intune automation to the next level? Join this #IntuneForMSPs community meetup for a practical, MSP‑focused introduction to using the Graph API with Intune. Learn how to use advanced automation and PowerShell to streamline management, scale repeatable tasks, and unlock capabilities you",
+          "title": "Manage Apple devices at scale: Intune security best practices",
+          "link": "https://www.youtube.com/watch?v=ICIzouvPz1U",
+          "pubDate": "2026-02-25T22:00:14.000Z",
+          "summary": "Looking for best practices to help you manage Apple devices at scale with Intune? Join us at Tech Takeoff, Monday, March 16 at 9:30 AM PT. Let’s dig into how to balance strong security controls, reliable compliance enforcement, and tools that scale across macOS and iOS fleets. Save the date: https:/",
           "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
           "categories": [],
           "type": "youtube",
-          "videoId": "cS-hIbliXc4",
-          "thumbnail": "https://i4.ytimg.com/vi/cS-hIbliXc4/hqdefault.jpg"
+          "videoId": "ICIzouvPz1U",
+          "thumbnail": "https://i2.ytimg.com/vi/ICIzouvPz1U/hqdefault.jpg"
         },
         {
-          "title": "Ask Microsoft Anything: Secure Boot",
-          "link": "https://www.youtube.com/watch?v=ixq4RP33Am4",
-          "pubDate": "2026-03-12T16:18:48.000Z",
-          "summary": "Post your questions early and often at https://aka.ms/AMA/SecureBoot. It's time for our third Ask Microsoft Anything (AMA) about updating Secure Boot certificates on your Windows devices before they expire in June of 2026. If you've already bookmarked Secure Boot playbook, but need more details or h",
+          "title": "AMA: Getting the most from Security Copilot in Intune",
+          "link": "https://www.youtube.com/watch?v=pN-j_TqYuoQ",
+          "pubDate": "2026-02-25T21:54:20.000Z",
+          "summary": "Ask Microsoft Anything…about getting the most value from Security Copilot in Intune. Whether you're just getting started or already experimenting with Security Copilot, this AMA is your chance to get direct answers from the team building the experience. Post your questions in advance and tune in Mon",
           "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
           "categories": [],
           "type": "youtube",
-          "videoId": "ixq4RP33Am4",
-          "thumbnail": "https://i2.ytimg.com/vi/ixq4RP33Am4/hqdefault.jpg"
+          "videoId": "pN-j_TqYuoQ",
+          "thumbnail": "https://i1.ytimg.com/vi/pN-j_TqYuoQ/hqdefault.jpg"
         },
         {
-          "title": "The Intune playbook for iOS management at scale",
-          "link": "https://www.youtube.com/watch?v=hh54oc2MXF8",
-          "pubDate": "2026-03-10T07:09:33.000Z",
-          "summary": "If you have been wondering what’s new in managing iOS devices with Microsoft Intune, Monday, March 9 at 11:30 AM PT is your chance to find out! Explore updates to enrollment and managed access, then get tips to make iOS device management seamless across your estate. Tune in live with your questions ",
+          "title": "AI roundup: Intune agents for outcome-oriented innovation",
+          "link": "https://www.youtube.com/watch?v=X5Ixn1fMg3I",
+          "pubDate": "2026-02-25T21:55:08.000Z",
+          "summary": "AI is only as powerful as the signals and actions behind it. Want to dig into how Intune’s agent-based capabilities collect richer insights, enable more precise automated actions, and provide a foundation for advanced AI experiences? Tune in March 16 at 8:30 AM PT to take a closer look: https://tech",
           "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
           "categories": [],
           "type": "youtube",
-          "videoId": "hh54oc2MXF8",
-          "thumbnail": "https://i1.ytimg.com/vi/hh54oc2MXF8/hqdefault.jpg"
+          "videoId": "X5Ixn1fMg3I",
+          "thumbnail": "https://i1.ytimg.com/vi/X5Ixn1fMg3I/hqdefault.jpg"
         },
         {
-          "title": "From panic to productive: point-in-time restore in Windows",
-          "link": "https://www.youtube.com/watch?v=v3Be6IVc8hU",
-          "pubDate": "2026-03-10T06:47:41.000Z",
-          "summary": "Ever wish you could go back in time? Explore point-in-time restore for Windows with a special deep dive at Microsoft Technical Takeoff, Monday, March 9 at 11:00 AM PT. Explore the IT admin and end user experiences so you can leverage this capability in your organization: https://techcommunity.micros",
+          "title": "User experience updates: Windows 365 Boot and more",
+          "link": "https://www.youtube.com/watch?v=PIFTYGyDuqU",
+          "pubDate": "2026-02-25T21:40:06.000Z",
+          "summary": "Tune in Monday, March 16, at 8:00 AM PT to see how the latest updates for Windows 365 Boot and Windows App provide you with more flexible, secure ways to deliver Windows across shared devices, browsers, and mobile scenarios. Gain insight into multiple real-world use cases and ask your questions live",
           "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
           "categories": [],
           "type": "youtube",
-          "videoId": "v3Be6IVc8hU",
-          "thumbnail": "https://i3.ytimg.com/vi/v3Be6IVc8hU/hqdefault.jpg"
+          "videoId": "PIFTYGyDuqU",
+          "thumbnail": "https://i1.ytimg.com/vi/PIFTYGyDuqU/hqdefault.jpg"
         },
         {
-          "title": "Windows 365 Frontline expands with Cloud Apps and more",
-          "link": "https://www.youtube.com/watch?v=rTA0xXjoRZk",
-          "pubDate": "2026-03-10T06:05:01.000Z",
-          "summary": "If you’re modernizing app delivery or rethinking VDI, join us Monday, March 9 at 10:30 AM PT to learn how Windows 365 Cloud Apps let you deliver productivity and line‑of‑business apps without standing up full Cloud PCs. Tune in and take part in the live discussion on the Microsoft Tech Community: ht",
+          "title": "Reporting at scale with Windows Autopatch update readiness",
+          "link": "https://www.youtube.com/watch?v=sefS-HXSQ5I",
+          "pubDate": "2026-03-16T15:21:41.000Z",
+          "summary": "Keeping devices secure and compliant requires more than deploying updates—it demands visibility and proactive action. Tune in March 16 at 7:30 AM PT for a deep dive and demos on how Windows Autopatch update readiness delivers granular, actionable insights, reporting, and remediation tools to help yo",
           "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
           "categories": [],
           "type": "youtube",
-          "videoId": "rTA0xXjoRZk",
-          "thumbnail": "https://i3.ytimg.com/vi/rTA0xXjoRZk/hqdefault.jpg"
+          "videoId": "sefS-HXSQ5I",
+          "thumbnail": "https://i4.ytimg.com/vi/sefS-HXSQ5I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:24.032Z",
+      "fetchedAt": "2026-03-16T17:01:29.508Z",
       "error": null
     },
     {
@@ -2493,7 +2493,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:24.156Z",
+      "fetchedAt": "2026-03-16T17:01:29.693Z",
       "error": null
     },
     {
@@ -2504,6 +2504,15 @@
       "type": "podcast",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
       "items": [
+        {
+          "title": "Start Small and Keep Building in PowerShell with Mason Moser",
+          "link": "https://powershellpodcast.podbean.com/e/start-small-and-keep-building-in-powershell-with-mason-moser/",
+          "pubDate": "2026-03-16T14:00:00.000Z",
+          "summary": "Security professional Mason Moser joins The PowerShell Podcast to share his journey from discovering PowerShell through Learn PowerShell in a Month of Lunches to building real-world automation tools in a security environment. Mason talks about how starting slowly, returning to PowerShell after a bre",
+          "author": "",
+          "categories": [],
+          "type": "podcast"
+        },
         {
           "title": "Zero Trust and PowerShell in K12 with Jim Tyler",
           "link": "https://powershellpodcast.podbean.com/e/zero-trust-and-powershell-in-k12-with-jim-tyler/",
@@ -2539,18 +2548,9 @@
           "author": "",
           "categories": [],
           "type": "podcast"
-        },
-        {
-          "title": "PowerShell Is Fun mkay with Harm Veenstra",
-          "link": "https://powershellpodcast.podbean.com/e/powershell-is-fun-mkay-with-harm-venstra/",
-          "pubDate": "2026-02-09T15:00:00.000Z",
-          "summary": "PowerShellIsFun.com, joins The PowerShell Podcast to talk about productivity, consistency, and why PowerShell really is fun. Harm shares how blogging regularly helped accelerate his learning, improve his workflow, and deepen his connection to the community. He also discusses his recent transition to",
-          "author": "",
-          "categories": [],
-          "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:24.050Z",
+      "fetchedAt": "2026-03-16T17:01:29.575Z",
       "error": null
     },
     {
@@ -2607,7 +2607,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-16T13:14:24.912Z",
+      "fetchedAt": "2026-03-16T17:01:31.427Z",
       "error": null
     }
   ]
