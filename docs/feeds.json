@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T08:34:42.776Z",
+  "generatedAt": "2026-03-21T12:51:15.741Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -55,7 +55,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.201Z",
+      "fetchedAt": "2026-03-21T12:51:06.755Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.009Z",
+      "fetchedAt": "2026-03-21T12:51:06.643Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.134Z",
+      "fetchedAt": "2026-03-21T12:51:07.103Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-03-21T08:34:34.808Z",
+      "fetchedAt": "2026-03-21T12:51:06.316Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.449Z",
+      "fetchedAt": "2026-03-21T12:51:07.281Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.440Z",
+      "fetchedAt": "2026-03-21T12:51:07.696Z",
       "error": null
     },
     {
@@ -315,7 +315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.524Z",
+      "fetchedAt": "2026-03-21T12:51:07.535Z",
       "error": null
     },
     {
@@ -372,7 +372,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.786Z",
+      "fetchedAt": "2026-03-21T12:51:07.677Z",
       "error": null
     },
     {
@@ -393,7 +393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.815Z",
+      "fetchedAt": "2026-03-21T12:51:07.754Z",
       "error": null
     },
     {
@@ -450,7 +450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:35.911Z",
+      "fetchedAt": "2026-03-21T12:51:07.821Z",
       "error": null
     },
     {
@@ -507,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:36.506Z",
+      "fetchedAt": "2026-03-21T12:51:08.636Z",
       "error": null
     },
     {
@@ -518,7 +518,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-03-21T08:34:35.955Z",
+      "fetchedAt": "2026-03-21T12:51:07.926Z",
       "error": "HTTP 403"
     },
     {
@@ -575,7 +575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.332Z",
+      "fetchedAt": "2026-03-21T12:51:09.868Z",
       "error": null
     },
     {
@@ -632,7 +632,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.241Z",
+      "fetchedAt": "2026-03-21T12:51:09.456Z",
       "error": null
     },
     {
@@ -689,7 +689,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:36.839Z",
+      "fetchedAt": "2026-03-21T12:51:09.331Z",
       "error": null
     },
     {
@@ -700,6 +700,15 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [
+        {
+          "title": "To Use or Not to Use MDT",
+          "link": "https://www.deploymentresearch.com/to-use-or-not-to-use-mdt/",
+          "pubDate": "2026-03-20T23:15:22.000Z",
+          "summary": "Windows deployment isn’t going anywhere, no matter how often Microsoft talks about a cloud-only future. Out in the real world, imaging, task sequences, and controlled builds are still critical for many organizations. MDT hasn’t been developed since 2019, aside from a BIOS detection patch in 2020, an",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Speeding up File Copy in a Computer Lab",
           "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
@@ -735,18 +744,9 @@
           "author": "Johan Arwidmark",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Preventing Windows Updates During OSD with ConfigMgr",
-          "link": "https://www.deploymentresearch.com/preventing-windows-updates-during-osd-with-configmgr/",
-          "pubDate": "2025-11-25T14:27:49.000Z",
-          "summary": "A question came in from the community that hits a very real pain point in ConfigMgr OSD:“Why is Windows Update suddenly running during my Task Sequence?” If you’ve spent any time building Task Sequences, you’ve likely seen this in action. You carefully design the flow to deploy Windows, apply driver",
-          "author": "Johan Arwidmark",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.081Z",
+      "fetchedAt": "2026-03-21T12:51:09.703Z",
       "error": null
     },
     {
@@ -803,7 +803,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.655Z",
+      "fetchedAt": "2026-03-21T12:51:10.163Z",
       "error": null
     },
     {
@@ -860,7 +860,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.453Z",
+      "fetchedAt": "2026-03-21T12:51:10.089Z",
       "error": null
     },
     {
@@ -917,7 +917,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.615Z",
+      "fetchedAt": "2026-03-21T12:51:10.175Z",
       "error": null
     },
     {
@@ -974,7 +974,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.485Z",
+      "fetchedAt": "2026-03-21T12:51:10.125Z",
       "error": null
     },
     {
@@ -1031,7 +1031,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:39.194Z",
+      "fetchedAt": "2026-03-21T12:51:11.994Z",
       "error": null
     },
     {
@@ -1088,7 +1088,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.777Z",
+      "fetchedAt": "2026-03-21T12:51:10.337Z",
       "error": null
     },
     {
@@ -1145,7 +1145,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:37.913Z",
+      "fetchedAt": "2026-03-21T12:51:10.470Z",
       "error": null
     },
     {
@@ -1202,7 +1202,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:39.013Z",
+      "fetchedAt": "2026-03-21T12:51:11.531Z",
       "error": null
     },
     {
@@ -1259,7 +1259,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:39.275Z",
+      "fetchedAt": "2026-03-21T12:51:12.197Z",
       "error": null
     },
     {
@@ -1316,7 +1316,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:39.541Z",
+      "fetchedAt": "2026-03-21T12:51:12.218Z",
       "error": null
     },
     {
@@ -1346,7 +1346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:39.434Z",
+      "fetchedAt": "2026-03-21T12:51:12.420Z",
       "error": null
     },
     {
@@ -1403,7 +1403,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:39.270Z",
+      "fetchedAt": "2026-03-21T12:51:12.147Z",
       "error": null
     },
     {
@@ -1460,7 +1460,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:39.709Z",
+      "fetchedAt": "2026-03-21T12:51:12.765Z",
       "error": null
     },
     {
@@ -1517,7 +1517,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:40.315Z",
+      "fetchedAt": "2026-03-21T12:51:13.312Z",
       "error": null
     },
     {
@@ -1574,7 +1574,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:40.027Z",
+      "fetchedAt": "2026-03-21T12:51:12.830Z",
       "error": null
     },
     {
@@ -1631,7 +1631,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.270Z",
+      "fetchedAt": "2026-03-21T12:51:13.589Z",
       "error": null
     },
     {
@@ -1688,7 +1688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.588Z",
+      "fetchedAt": "2026-03-21T12:51:14.329Z",
       "error": null
     },
     {
@@ -1699,7 +1699,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-03-21T08:34:41.335Z",
+      "fetchedAt": "2026-03-21T12:51:13.716Z",
       "error": "HTTP 403"
     },
     {
@@ -1766,7 +1766,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/-agWE4TNPD0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.355Z",
+      "fetchedAt": "2026-03-21T12:51:13.760Z",
       "error": null
     },
     {
@@ -1833,7 +1833,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/15jvBvWuRV8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.444Z",
+      "fetchedAt": "2026-03-21T12:51:13.872Z",
       "error": null
     },
     {
@@ -1844,6 +1844,17 @@
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ",
       "items": [
+        {
+          "title": "Entra ID Deep Dive: Identity Governance, ECMA Connectors & Modern Provisioning Explained",
+          "link": "https://www.youtube.com/watch?v=i7YBPBFy2E4",
+          "pubDate": "2026-03-21T10:41:51.000Z",
+          "summary": "Darren Robinson, Identity and Zero Trust Strategy and Architecture Capability Lead at Increment, shares his extensive experience in identity governance and administration. In this episode, we dive deep into identity governance, Entra provisioning, and ECMA connectors with Darren. Learn how identity ",
+          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": "i7YBPBFy2E4",
+          "thumbnail": "https://i2.ytimg.com/vi/i7YBPBFy2E4/hqdefault.jpg"
+        },
         {
           "title": "Migrating to Entra Private Access with Side by Side",
           "link": "https://www.youtube.com/shorts/6IkKoYoffn4",
@@ -1887,20 +1898,9 @@
           "type": "youtube",
           "videoId": "vQv3l3_Mhrw",
           "thumbnail": "https://i3.ytimg.com/vi/vQv3l3_Mhrw/hqdefault.jpg"
-        },
-        {
-          "title": "We Open-Sourced Our Microsoft Entra Masterclass 👉Full Governance + Privileged Access + Agent ID Labs",
-          "link": "https://www.youtube.com/watch?v=HakQyk7PTtI",
-          "pubDate": "2026-02-28T12:09:30.000Z",
-          "summary": "Hey folks, welcome to another episode of Entra.Chat! Today, we’re doing a massive five-person podcast straight from Experts Live in Denmark. We just wrapped up a seven-hour identity masterclass, and I’ve got the experts Jan, Pim, Thomas, and Klaus here to break it all down. We’re completely open-sou",
-          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "HakQyk7PTtI",
-          "thumbnail": "https://i1.ytimg.com/vi/HakQyk7PTtI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.696Z",
+      "fetchedAt": "2026-03-21T12:51:14.461Z",
       "error": null
     },
     {
@@ -1967,7 +1967,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yILrSTjYQQs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.698Z",
+      "fetchedAt": "2026-03-21T12:51:14.737Z",
       "error": null
     },
     {
@@ -2034,7 +2034,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/sh7-94W-82E/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.679Z",
+      "fetchedAt": "2026-03-21T12:51:14.679Z",
       "error": null
     },
     {
@@ -2101,7 +2101,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/J1B9TvO4GOI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.707Z",
+      "fetchedAt": "2026-03-21T12:51:14.752Z",
       "error": null
     },
     {
@@ -2168,7 +2168,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OtwJRlfdgS4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.779Z",
+      "fetchedAt": "2026-03-21T12:51:14.904Z",
       "error": null
     },
     {
@@ -2235,7 +2235,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/fiPqKI16XiA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.783Z",
+      "fetchedAt": "2026-03-21T12:51:14.918Z",
       "error": null
     },
     {
@@ -2302,7 +2302,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/kx6lI7on3l4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.793Z",
+      "fetchedAt": "2026-03-21T12:51:14.986Z",
       "error": null
     },
     {
@@ -2369,7 +2369,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GTqFrEHf86o/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.792Z",
+      "fetchedAt": "2026-03-21T12:51:14.919Z",
       "error": null
     },
     {
@@ -2436,7 +2436,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/L53mqfxhzzg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.856Z",
+      "fetchedAt": "2026-03-21T12:51:15.176Z",
       "error": null
     },
     {
@@ -2493,7 +2493,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.969Z",
+      "fetchedAt": "2026-03-21T12:51:15.217Z",
       "error": null
     },
     {
@@ -2550,7 +2550,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:41.943Z",
+      "fetchedAt": "2026-03-21T12:51:15.172Z",
       "error": null
     },
     {
@@ -2607,7 +2607,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-21T08:34:42.776Z",
+      "fetchedAt": "2026-03-21T12:51:15.741Z",
       "error": null
     }
   ]
