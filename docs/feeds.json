@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T13:12:45.028Z",
+  "generatedAt": "2026-03-25T17:02:46.638Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -9,6 +9,24 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Permanently delete emails in Exchange Online with Priority Cleanup V2",
+          "link": "https://4sysops.com/archives/permanently-delete-emails-in-exchange-online-with-priority-cleanup-v2/",
+          "pubDate": "2026-03-25T16:11:08.000Z",
+          "summary": "Microsoft is developing Priority Cleanup V2, an updated data-purging feature in Microsoft Purview that deletes Exchange Online mailbox content even when protected by retention policies or eDiscovery holds. This proposed version is designed to reduce the number of approval stages from three to two, a",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "What are MCP extensions?",
+          "link": "https://4sysops.com/archives/what-are-mcp-extensions/",
+          "pubDate": "2026-03-25T16:09:09.000Z",
+          "summary": "The Model Context Protocol (MCP) is an open-source standard for connecting AI agents to external resources such as database systems. MCP extensions are modular, optional additions to the Model Context Protocol that enable specialized capabilities without modifying the core specification. These exten",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Microsoft Sentinel introduces AI-powered automation and delegated access at RSAC 2026",
           "link": "https://4sysops.com/archives/microsoft-sentinel-introduces-ai-powered-automation-and-delegated-access-at-rsac-2026/",
@@ -35,27 +53,9 @@
           "author": "IT Experts",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "PowerShell 7.6: new features, install, and upgrade",
-          "link": "https://4sysops.com/archives/powershell-76-new-features-install-and-upgrade/",
-          "pubDate": "2026-03-20T12:27:19.000Z",
-          "summary": "PowerShell 7.6 introduces several new features as part of Microsoft's latest Long-Term Support (LTS) release. With three years of support, it's a strong choice for production servers. Among the key new features in PowerShell 7.6 are improvements that address long-standing annoyances with autocomplet",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Comparing AI chips: GPU, ASIC, and NPU",
-          "link": "https://4sysops.com/archives/comparing-ai-chips-gpu-asic-and-npu/",
-          "pubDate": "2026-03-20T12:26:44.000Z",
-          "summary": "This article breaks down the three main categories of AI chips—GPUs, ASICs, and NPUs—and compares the leading hardware defining the future of artificial intelligence. You might think of NVIDIA as the undisputed king of artificial intelligence hardware, but the reality is far more complex. While NVID",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:27.453Z",
+      "fetchedAt": "2026-03-25T17:02:39.656Z",
       "error": null
     },
     {
@@ -65,9 +65,55 @@
       "color": "#0078d4",
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
-      "items": [],
-      "fetchedAt": "2026-03-25T13:12:34.710Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Restoring Windows during first sign-in",
+          "link": "https://petervanderwoude.nl/post/restoring-windows-during-first-sign-in/",
+          "pubDate": "2026-03-23T18:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Understanding the profile assignment of multi-app kiosk mode on Windows 11",
+          "link": "https://petervanderwoude.nl/post/understanding-the-profile-assignment-of-multi-app-kiosk-mode-on-windows-11/",
+          "pubDate": "2026-03-16T18:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Blocking the Microsoft Store Web Installer using Entra Internet Access",
+          "link": "https://petervanderwoude.nl/post/blocking-the-microsoft-store-web-installer-using-entra-internet-access/",
+          "pubDate": "2026-03-09T18:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Disabling MDM enrollment when adding work or school account",
+          "link": "https://petervanderwoude.nl/post/disabling-mdm-enrollment-when-adding-work-or-school-account/",
+          "pubDate": "2026-03-02T18:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Managing Copilot in Microsoft Edge",
+          "link": "https://petervanderwoude.nl/post/managing-copilot-in-microsoft-edge/",
+          "pubDate": "2026-02-23T18:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-25T17:02:39.358Z",
+      "error": null
     },
     {
       "id": "andrewstaylor",
@@ -123,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:27.916Z",
+      "fetchedAt": "2026-03-25T17:02:39.832Z",
       "error": null
     },
     {
@@ -134,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-03-25T13:12:26.877Z",
+      "fetchedAt": "2026-03-25T17:02:39.172Z",
       "error": "HTTP 403"
     },
     {
@@ -191,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:34.870Z",
+      "fetchedAt": "2026-03-25T17:02:40.151Z",
       "error": null
     },
     {
@@ -248,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:35.136Z",
+      "fetchedAt": "2026-03-25T17:02:40.091Z",
       "error": null
     },
     {
@@ -269,7 +315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:35.137Z",
+      "fetchedAt": "2026-03-25T17:02:40.162Z",
       "error": null
     },
     {
@@ -279,55 +325,9 @@
       "color": "#0078d4",
       "type": "rss",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
-      "items": [
-        {
-          "title": "Best practices for securing Microsoft Intune",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/best-practices-for-securing-microsoft-intune/ba-p/4502117",
-          "pubDate": "2026-03-14T22:31:16.000Z",
-          "summary": "<P>Microsoft Intune gives IT and security teams a powerful way to manage endpoints at scale - deploying apps, enforcing security baselines, and configuring the settings that keep users productive and your organization protected. That’s why strong admin protections matter, so the right people can mak",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Rethinking “Allow my organization to manage my device” Why opt‑in enrollment works better for Intune",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/rethinking-allow-my-organization-to-manage-my-device-why-opt-in/ba-p/4499766",
-          "pubDate": "2026-03-11T21:18:54.000Z",
-          "summary": "<P><STRONG>By: Ramya B Sharma – Senior Software Engineer | Microsoft Intune</STRONG></P> <P>&nbsp;</P> <P>A new public preview feature in Microsoft Intune, we’ve introduced a toggle that allows admins to block automatic mobile device management (MDM) enrollment during the modern app sign-in flow on ",
-          "author": "RamyaSharma",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "How to enable HTTPS support for Microsoft Connected Cache for Enterprise and Education",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-enable-https-support-for-microsoft-connected-cache-for/ba-p/4496173",
-          "pubDate": "2026-02-20T22:37:52.000Z",
-          "summary": "<P>Starting on <STRONG>June 16<SUP>th</SUP>, 2026</STRONG>, or soon after, Intune will enforce HTTPS content delivery for customers using Microsoft Connected Cache for Enterprise and Education. To continue using Microsoft Connected Cache to localize Intune Win32 app downloads and reduce the bandwidt",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Support tip: Resolve device noncompliance with Mobile Threat Defense partner apps",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-resolve-device-noncompliance-with-mobile-threat/ba-p/4491669",
-          "pubDate": "2026-02-05T22:16:46.000Z",
-          "summary": "<P>Using a Mobile Threat Defense (MTD) solution, such as Microsoft Defender for Endpoint, with Microsoft Intune helps keep your organization’s resources protected and allows you to block devices that aren’t compliant with your organization’s policies.<BR /><BR /></P> <P>When an MTD detects a threat ",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Intune my Macs: Accelerating macOS proof of concepts with Microsoft Intune",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/intune-my-macs-accelerating-macos-proof-of-concepts-with/ba-p/4488571",
-          "pubDate": "2026-01-22T22:20:20.000Z",
-          "summary": "<P><STRONG>By: Neil Johnson and Chris Kunze - Principal Product Managers | Microsoft Intune</STRONG><BR /><BR /></P> <P><SPAN data-contrast=\"auto\">Intune provides a broad and mature set of capabilities for managing macOS devices across security, compliance, applications, and user onboarding. Many cu",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-03-25T13:12:35.178Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-03-25T17:02:40.071Z",
+      "error": "HTTP 403"
     },
     {
       "id": "whatsnewintune",
@@ -347,7 +347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:35.432Z",
+      "fetchedAt": "2026-03-25T17:02:40.177Z",
       "error": null
     },
     {
@@ -404,7 +404,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:35.261Z",
+      "fetchedAt": "2026-03-25T17:02:40.264Z",
       "error": null
     },
     {
@@ -461,7 +461,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:36.463Z",
+      "fetchedAt": "2026-03-25T17:02:40.879Z",
       "error": null
     },
     {
@@ -472,7 +472,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-03-25T13:12:35.291Z",
+      "fetchedAt": "2026-03-25T17:02:40.371Z",
       "error": "HTTP 403"
     },
     {
@@ -483,6 +483,15 @@
       "type": "rss",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Patch My PC Publisher Production Version 2.1.112.0 Released",
+          "link": "https://patchmypc.com/release-notes/production-release/patch-my-pc-publisher-production-version-2-1-112-0-released/",
+          "pubDate": "2026-03-25T15:46:29.000Z",
+          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. This will be made available via the self-update channel over the coming days. You can upgrade in place now by downloading the latest MSI installer. Features Improvements Fixes The post Patch My PC Publisher Product",
+          "author": "Cody Mathis",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Endpoint visibility in Microsoft Intune: why “compliant” doesn’t mean “covered”",
           "link": "https://patchmypc.com/blog/endpoint-visibility-intune/",
@@ -518,18 +527,9 @@
           "author": "Rudy Ooms",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Patch My PC Publisher Preview Version 2.1.103.1 Released",
-          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-1-103-1-released/",
-          "pubDate": "2026-03-16T19:31:24.000Z",
-          "summary": "This release contains a variety of fixes, as noted below. Fixes The post Patch My PC Publisher Preview Version 2.1.103.1 Released appeared first on Patch My PC. ]]>",
-          "author": "Cody Mathis",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:37.512Z",
+      "fetchedAt": "2026-03-25T17:02:41.710Z",
       "error": null
     },
     {
@@ -586,7 +586,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:37.159Z",
+      "fetchedAt": "2026-03-25T17:02:41.343Z",
       "error": null
     },
     {
@@ -643,7 +643,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:37.065Z",
+      "fetchedAt": "2026-03-25T17:02:41.310Z",
       "error": null
     },
     {
@@ -700,7 +700,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:38.893Z",
+      "fetchedAt": "2026-03-25T17:02:41.444Z",
       "error": null
     },
     {
@@ -757,7 +757,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:39.275Z",
+      "fetchedAt": "2026-03-25T17:02:42.090Z",
       "error": null
     },
     {
@@ -814,7 +814,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:39.164Z",
+      "fetchedAt": "2026-03-25T17:02:41.814Z",
       "error": null
     },
     {
@@ -824,55 +824,9 @@
       "color": "#005a9e",
       "type": "rss",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog",
-      "items": [
-        {
-          "title": "Announcing the Annual Release Cadence for Microsoft Configuration Manager",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/announcing-the-annual-release-cadence-for-microsoft/ba-p/4464794",
-          "pubDate": "2025-11-07T19:02:56.000Z",
-          "summary": "<P>Starting with version 2609, Microsoft Configuration Manager will transition to an annual release cadence. This change is a formalization of the direction we’ve communicated at events and in customer conversations. Microsoft Intune is the future of device management, and all new innovations will o",
-          "author": "Danny_Guillory",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Update 2409 for Microsoft Configuration Manager current branch is now available.",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/update-2409-for-microsoft-configuration-manager-current-branch/ba-p/4351640",
-          "pubDate": "2024-12-16T18:44:36.000Z",
-          "summary": "<P>&nbsp;</P> <P>Update 2409 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2303 or later. This article summarizes the changes and new features in Configuration Manager, version 2409.</P> <P>&nbsp;</P> <H3>Configuration Mana",
-          "author": "Bala_Delli",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Configuration Manager technical preview version 2411",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/configuration-manager-technical-preview-version-2411/ba-p/4349866",
-          "pubDate": "2024-12-16T17:23:25.000Z",
-          "summary": "<P>&nbsp;</P> <H2>Operating System support added for Windows 11 24H2 and Windows Server 2025</H2> <P>&nbsp;</P> <P>With this version of Configuration Manager, support is added for Windows 11 24H2 and Windows Server 2025.</P> <UL> <LI>Windows 11 24H2 &amp; Windows Server 2025 are added to Product lif",
-          "author": "Bala_Delli",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Configuration Manager technical preview version 2405",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/configuration-manager-technical-preview-version-2405/ba-p/4162763",
-          "pubDate": "2024-06-26T15:07:23.000Z",
-          "summary": "<DIV class=\"heading-wrapper\" data-heading-level=\"h2\"> <H2 class=\"heading-anchor\">&nbsp;</H2> <H2 id=\"bkmk_Sqlepa\" class=\"heading-anchor\">Configuration Manager now supports SQL Extended Protection for Authentication</H2> <P>&nbsp;</P> </DIV> <P>Configuration Manager now supports SQL Extended Protecti",
-          "author": "Bala_Delli",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Update 2403 for Microsoft Configuration Manager current branch is now available.",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/update-2403-for-microsoft-configuration-manager-current-branch/ba-p/4119853",
-          "pubDate": "2024-05-14T04:45:41.000Z",
-          "summary": "<P>&nbsp;</P> <P>&nbsp;</P> <P class=\"lia-align-left\"><SPAN>Update 2403 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2211 or later. When installing a new site, it will also be available as a&nbsp;</SPAN><A href=\"https://le",
-          "author": "Bala_Delli",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-03-25T13:12:39.228Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-03-25T17:02:41.796Z",
+      "error": "HTTP 403"
     },
     {
       "id": "oofhours",
@@ -928,7 +882,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:39.116Z",
+      "fetchedAt": "2026-03-25T17:02:41.816Z",
       "error": null
     },
     {
@@ -938,9 +892,55 @@
       "color": "#005a9e",
       "type": "rss",
       "url": "https://ccmexec.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-03-25T13:12:40.980Z",
-      "error": "HTTP 415"
+      "items": [
+        {
+          "title": "Windows Backup for Organization – trigger backup using remediation",
+          "link": "https://ccmexec.com/2026/03/windows-backup-for-organization-trigger-backup-with-remediation/",
+          "pubDate": "2026-03-12T22:28:38.000Z",
+          "summary": "Windows Backup for Organizations is one of my favourite new features as it saves time for the end-users setting up their device after a restore or when they switch computer. For the end-user this is great and together with Onedrive known folder move and Enterprise State roaming the experience is gre",
+          "author": "Jörgen Nilsson",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Creating better Driver update groups",
+          "link": "https://ccmexec.com/2026/01/creating-better-driver-update-groups/",
+          "pubDate": "2026-01-27T07:10:37.000Z",
+          "summary": "When working with Driver Updates in Intune creating groups with different models are a challenge, which we will look at. But let’s start with having a look at how driver updates in Intune works.I for one use driver updates as a mean of having an easy way of blocking a Driver update if it causes... T",
+          "author": "Jörgen Nilsson",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 initial Start Menu with Intune",
+          "link": "https://ccmexec.com/2025/12/windows-11-initial-start-menu-with-intune/",
+          "pubDate": "2025-12-10T13:41:11.000Z",
+          "summary": "I have written more than more blog post on how to customize the Start Menu on Windows 10 and 11 using scripts and/or policies. I had to write a post on the new option we have of doing it. Now we have the possibility to use Intune to push out an initial Start Menu where... The post Windows 11 initial",
+          "author": "Jörgen Nilsson",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Application Control for Business and the story of the unsigned WIX dll’s",
+          "link": "https://ccmexec.com/2025/11/application-control-for-business-and-the-story-of-the-unsigned-wix-dlls/",
+          "pubDate": "2025-11-10T07:10:20.000Z",
+          "summary": "When using Application Control for Business which is the ultimate dream from a security perspective to only allow signed and trusted executables to be executed on our Windows devices. That requires that all binaries are signed, both executables and dll files (which are executables). WIX Toolset is w",
+          "author": "Jörgen Nilsson",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "MMUGSE – Meetup October 24 2026",
+          "link": "https://ccmexec.com/2025/10/mmugse-meetup-october-24-2026/",
+          "pubDate": "2025-10-22T05:30:02.000Z",
+          "summary": "On Friday the 24 of October we are hosting our next meetup! we have some really great sessions this time! Hope to see you there! Note: that the last session will be in Swedish. MMUGSE Agenda 24/108:30 -9:25 Your Mac is Lying to you: Exposing Hidden Security Risks – Oktay Sari & – Somesh PathakmacOS ",
+          "author": "Jörgen Nilsson",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-03-25T17:02:43.643Z",
+      "error": null
     },
     {
       "id": "krebs",
@@ -996,7 +996,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:39.431Z",
+      "fetchedAt": "2026-03-25T17:02:42.200Z",
       "error": null
     },
     {
@@ -1053,7 +1053,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:39.576Z",
+      "fetchedAt": "2026-03-25T17:02:42.440Z",
       "error": null
     },
     {
@@ -1110,7 +1110,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:40.486Z",
+      "fetchedAt": "2026-03-25T17:02:43.942Z",
       "error": null
     },
     {
@@ -1167,7 +1167,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:41.082Z",
+      "fetchedAt": "2026-03-25T17:02:44.052Z",
       "error": null
     },
     {
@@ -1177,55 +1177,9 @@
       "color": "#d83b01",
       "type": "rss",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
-      "items": [
-        {
-          "title": "Your guide to the Microsoft 365 Community Conference",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/your-guide-to-the-microsoft-365-community-conference/ba-p/4505384",
-          "pubDate": "2026-03-25T03:16:48.000Z",
-          "summary": "<P><A href=\"https://aka.ms/M365Con26_EventGuide_Reg\" target=\"_blank\" rel=\"noopener\"><SPAN data-contrast=\"none\"><SPAN data-ccp-charstyle=\"Hyperlink\">R</SPAN><SPAN data-ccp-charstyle=\"Hyperlink\">egister now</SPAN></SPAN></A><SPAN data-contrast=\"auto\"> and save&nbsp;your spot&nbsp;for&nbsp;the chance t",
-          "author": "JonJones_MSFT",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Women are leading the future of intelligent work at Microsoft 365 Community Conference",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/women-are-leading-the-future-of-intelligent-work-at-microsoft/ba-p/4505364",
-          "pubDate": "2026-03-24T23:24:07.000Z",
-          "summary": "<P>At the Microsoft 365 Community Conference this April 21–23 in Orlando, we’re proud to spotlight a range of experiences created to support, connect, and celebrate women across the tech community—from leadership panels and networking opportunities to professional development sessions designed to he",
-          "author": "JonJones_MSFT",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Top 5 Reasons to Attend the Microsoft 365 Community Conference",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/top-5-reasons-to-attend-the-microsoft-365-community-conference/ba-p/4503136",
-          "pubDate": "2026-03-18T21:28:09.000Z",
-          "summary": "<P>Between the inspiring keynotes and sessions, connection opportunities, and the chance to deepen your skills there are lots of reasons to attend the <A class=\"lia-external-url\" href=\"https://aka.ms/M365Con26\" target=\"_blank\" rel=\"noopener\">Microsoft 365 Community Conference</A> in Orlando on April",
-          "author": "JonJones_MSFT",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Level up your data security at Microsoft 365 Community Conference",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/level-up-your-data-security-at-microsoft-365-community/ba-p/4501785",
-          "pubDate": "2026-03-12T22:18:25.000Z",
-          "summary": "<P>Technology is evolving at a startling rate, and it’s no longer enough for an organization to maintain their security measures, they must evolve along with it. Don’t let your data, employees, or clients become another headline. Join us in Orlando on April 21–23 for the <A href=\"https://aka.ms/M365",
-          "author": "JonJones_MSFT",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Sign with a personal touch with eSignature for Microsoft 365",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/sign-with-a-personal-touch-with-esignature-for-microsoft-365/ba-p/4500960",
-          "pubDate": "2026-03-10T17:24:01.000Z",
-          "summary": "<P>We’ve heard your feedback: you want more personal and natural signing experiences with <A href=\"https://learn.microsoft.com/microsoft-365/documentprocessing/esignature-setup\" target=\"_blank\">eSignature for Microsoft 365</A>.</P> <P>Now you can draw your signature directly on PDF files using a sty",
-          "author": "MichaelHolste",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-03-25T13:12:41.220Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-03-25T17:02:44.031Z",
+      "error": "HTTP 403"
     },
     {
       "id": "microsoftofficesemiannualchannel",
@@ -1254,7 +1208,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:41.250Z",
+      "fetchedAt": "2026-03-25T17:02:44.240Z",
       "error": null
     },
     {
@@ -1311,7 +1265,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:41.116Z",
+      "fetchedAt": "2026-03-25T17:02:44.078Z",
       "error": null
     },
     {
@@ -1368,7 +1322,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:41.432Z",
+      "fetchedAt": "2026-03-25T17:02:44.341Z",
       "error": null
     },
     {
@@ -1425,7 +1379,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:42.405Z",
+      "fetchedAt": "2026-03-25T17:02:44.995Z",
       "error": null
     },
     {
@@ -1482,7 +1436,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:41.517Z",
+      "fetchedAt": "2026-03-25T17:02:44.581Z",
       "error": null
     },
     {
@@ -1539,7 +1493,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:43.240Z",
+      "fetchedAt": "2026-03-25T17:02:44.962Z",
       "error": null
     },
     {
@@ -1596,7 +1550,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:43.796Z",
+      "fetchedAt": "2026-03-25T17:02:45.298Z",
       "error": null
     },
     {
@@ -1607,7 +1561,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-03-25T13:12:43.403Z",
+      "fetchedAt": "2026-03-25T17:02:45.045Z",
       "error": "HTTP 403"
     },
     {
@@ -1674,7 +1628,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/UmjJiWDEfrE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:43.345Z",
+      "fetchedAt": "2026-03-25T17:02:45.095Z",
       "error": null
     },
     {
@@ -1741,7 +1695,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/15jvBvWuRV8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:43.477Z",
+      "fetchedAt": "2026-03-25T17:02:45.159Z",
       "error": null
     },
     {
@@ -1808,7 +1762,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/vQv3l3_Mhrw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:43.925Z",
+      "fetchedAt": "2026-03-25T17:02:45.388Z",
       "error": null
     },
     {
@@ -1875,7 +1829,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yILrSTjYQQs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:43.988Z",
+      "fetchedAt": "2026-03-25T17:02:45.386Z",
       "error": null
     },
     {
@@ -1942,7 +1896,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/gitqOxXAyR0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:43.933Z",
+      "fetchedAt": "2026-03-25T17:02:45.484Z",
       "error": null
     },
     {
@@ -2009,7 +1963,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/J1B9TvO4GOI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:43.940Z",
+      "fetchedAt": "2026-03-25T17:02:45.443Z",
       "error": null
     },
     {
@@ -2076,7 +2030,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/PcLYdztnkDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:44.213Z",
+      "fetchedAt": "2026-03-25T17:02:45.573Z",
       "error": null
     },
     {
@@ -2087,6 +2041,17 @@
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure VM Internet Access Changing: What You NEED to Know! #shorts",
+          "link": "https://www.youtube.com/shorts/4wXZTDqLpMs",
+          "pubDate": "2026-03-25T15:59:37.000Z",
+          "summary": "Full Video: https://youtu.be/8LM9SHjW1Nk New Azure VMs lose automatic internet access March 31st. Default Outbound Access, using a Microsoft-managed IP, will be disabled. Organizations need to manage outbound traffic through firewalls or define specific access. #Azure #AzureVM #Networking #CloudComp",
+          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": null,
+          "thumbnail": "https://i1.ytimg.com/vi/4wXZTDqLpMs/hqdefault.jpg"
+        },
         {
           "title": "Azure VMs: Big Internet Access Change Coming March 2026! #shorts",
           "link": "https://www.youtube.com/shorts/ODFcCJokpBI",
@@ -2130,20 +2095,9 @@
           "type": "youtube",
           "videoId": null,
           "thumbnail": "https://i2.ytimg.com/vi/A6IhBYNPlVY/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Bastion: Enter ID Login for Windows VMs Solved! #shorts",
-          "link": "https://www.youtube.com/shorts/R5p2ulfnHYc",
-          "pubDate": "2026-03-16T15:01:39.000Z",
-          "summary": "Full Video: https://youtu.be/fiPqKI16XiA Stop exposing RDP ports! Azure Bastion now directly supports Enter ID sign-in for Windows VMs via the Azure portal. Enjoy one-click, secure access without public IPs. #Azure #Microsoft #RemoteAccess #EntraID #CloudSecurity #Bastion #MVPBuzz",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/R5p2ulfnHYc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:44.263Z",
+      "fetchedAt": "2026-03-25T17:02:45.626Z",
       "error": null
     },
     {
@@ -2210,7 +2164,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RT5ZGbqP7qQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:44.269Z",
+      "fetchedAt": "2026-03-25T17:02:45.659Z",
       "error": null
     },
     {
@@ -2277,7 +2231,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/ZgfXAX06oHU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:44.247Z",
+      "fetchedAt": "2026-03-25T17:02:45.577Z",
       "error": null
     },
     {
@@ -2288,6 +2242,17 @@
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw",
       "items": [
+        {
+          "title": "Windows 365 AMA",
+          "link": "https://www.youtube.com/watch?v=8TJgSUhZ0Hc",
+          "pubDate": "2026-03-20T20:32:04.000Z",
+          "summary": "Post your questions now at https://aka.ms/AMA/Windows365/2603! Catch up on the latest capabilities for Windows 365 and get answers to your questions! Host Christian Montoya and members of the product and team provide answers and insights to help you configure, deploy, and manage Windows in the cloud",
+          "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": "8TJgSUhZ0Hc",
+          "thumbnail": "https://i1.ytimg.com/vi/8TJgSUhZ0Hc/hqdefault.jpg"
+        },
         {
           "title": "Transitioning to post-quantum cryptography",
           "link": "https://www.youtube.com/watch?v=whMu082qhVk",
@@ -2331,20 +2296,9 @@
           "type": "youtube",
           "videoId": "Fa_sJa3os4w",
           "thumbnail": "https://i3.ytimg.com/vi/Fa_sJa3os4w/hqdefault.jpg"
-        },
-        {
-          "title": "Unpacking Endpoint Management: Live from Tech Takeoff 2026",
-          "link": "https://www.youtube.com/watch?v=T57H6HwXwmE",
-          "pubDate": "2026-03-24T04:32:29.000Z",
-          "summary": "The series that brings you real discussions and proven tips and tricks is back—and live at Microsoft Technical Takeoff! Let's face it. Some configurations, policies, and approaches work better than others. That's why Danny and Rachelle, and their fellow colleagues in the Microsoft Intune, Security, ",
-          "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "T57H6HwXwmE",
-          "thumbnail": "https://i1.ytimg.com/vi/T57H6HwXwmE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:44.406Z",
+      "fetchedAt": "2026-03-25T17:02:45.746Z",
       "error": null
     },
     {
@@ -2401,7 +2355,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:44.341Z",
+      "fetchedAt": "2026-03-25T17:02:45.743Z",
       "error": null
     },
     {
@@ -2458,7 +2412,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:44.313Z",
+      "fetchedAt": "2026-03-25T17:02:45.788Z",
       "error": null
     },
     {
@@ -2515,7 +2469,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-25T13:12:45.028Z",
+      "fetchedAt": "2026-03-25T17:02:46.638Z",
       "error": null
     }
   ]
