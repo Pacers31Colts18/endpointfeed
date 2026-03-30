@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T13:22:07.237Z",
+  "generatedAt": "2026-03-30T16:57:03.809Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -9,6 +9,15 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Windows Kerberos RC4 deprecation: what will break in Active Directory and how to fix it",
+          "link": "https://4sysops.com/archives/windows-kerberos-rc4-deprecation-what-will-break-in-active-directory-and-how-to-fix-it/",
+          "pubDate": "2026-03-30T13:34:50.000Z",
+          "summary": "Starting in April 2026, Windows updates will change the default Kerberos ticket issuance behavior to AES-SHA1 for accounts without explicit encryption settings, while RC4 can still be used where explicitly enabled. This change, driven by CVE-2026-20833, affects every Windows Server environment where",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "What is Microsoft Defender for Cloud Apps?",
           "link": "https://4sysops.com/archives/what-is-microsoft-defender-for-cloud-apps/",
@@ -44,18 +53,9 @@
           "author": "IT Experts",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Permanently delete emails in Exchange Online with Priority Cleanup V2",
-          "link": "https://4sysops.com/archives/permanently-delete-emails-in-exchange-online-with-priority-cleanup-v2/",
-          "pubDate": "2026-03-25T16:11:08.000Z",
-          "summary": "Microsoft is developing Priority Cleanup V2, an updated data-purging feature in Microsoft Purview that deletes Exchange Online mailbox content even when protected by retention policies or eDiscovery holds. This proposed version is designed to reduce the number of approval stages from three to two, a",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:58.700Z",
+      "fetchedAt": "2026-03-30T16:56:54.092Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:58.424Z",
+      "fetchedAt": "2026-03-30T16:56:53.710Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:58.555Z",
+      "fetchedAt": "2026-03-30T16:56:54.314Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-03-30T13:21:58.207Z",
+      "fetchedAt": "2026-03-30T16:56:53.458Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:58.774Z",
+      "fetchedAt": "2026-03-30T16:56:54.469Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:58.904Z",
+      "fetchedAt": "2026-03-30T16:56:54.709Z",
       "error": null
     },
     {
@@ -315,7 +315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:59.535Z",
+      "fetchedAt": "2026-03-30T16:56:54.857Z",
       "error": null
     },
     {
@@ -372,7 +372,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:59.766Z",
+      "fetchedAt": "2026-03-30T16:56:54.841Z",
       "error": null
     },
     {
@@ -393,7 +393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:59.861Z",
+      "fetchedAt": "2026-03-30T16:56:54.945Z",
       "error": null
     },
     {
@@ -450,7 +450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:21:59.888Z",
+      "fetchedAt": "2026-03-30T16:56:55.064Z",
       "error": null
     },
     {
@@ -507,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:00.510Z",
+      "fetchedAt": "2026-03-30T16:56:55.798Z",
       "error": null
     },
     {
@@ -518,7 +518,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-03-30T13:21:59.977Z",
+      "fetchedAt": "2026-03-30T16:56:55.116Z",
       "error": "HTTP 403"
     },
     {
@@ -575,7 +575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:01.424Z",
+      "fetchedAt": "2026-03-30T16:56:56.753Z",
       "error": null
     },
     {
@@ -632,7 +632,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:01.045Z",
+      "fetchedAt": "2026-03-30T16:56:56.533Z",
       "error": null
     },
     {
@@ -689,7 +689,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:00.971Z",
+      "fetchedAt": "2026-03-30T16:56:56.224Z",
       "error": null
     },
     {
@@ -746,7 +746,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:01.144Z",
+      "fetchedAt": "2026-03-30T16:56:56.416Z",
       "error": null
     },
     {
@@ -803,7 +803,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:01.758Z",
+      "fetchedAt": "2026-03-30T16:56:57.022Z",
       "error": null
     },
     {
@@ -860,7 +860,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:01.648Z",
+      "fetchedAt": "2026-03-30T16:56:57.601Z",
       "error": null
     },
     {
@@ -917,7 +917,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:02.174Z",
+      "fetchedAt": "2026-03-30T16:56:57.055Z",
       "error": null
     },
     {
@@ -974,7 +974,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:01.571Z",
+      "fetchedAt": "2026-03-30T16:56:57.049Z",
       "error": null
     },
     {
@@ -1031,7 +1031,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:03.790Z",
+      "fetchedAt": "2026-03-30T16:56:59.506Z",
       "error": null
     },
     {
@@ -1088,7 +1088,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:02.358Z",
+      "fetchedAt": "2026-03-30T16:56:57.772Z",
       "error": null
     },
     {
@@ -1145,7 +1145,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:02.578Z",
+      "fetchedAt": "2026-03-30T16:56:58.047Z",
       "error": null
     },
     {
@@ -1202,7 +1202,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:03.707Z",
+      "fetchedAt": "2026-03-30T16:56:59.364Z",
       "error": null
     },
     {
@@ -1259,7 +1259,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:03.947Z",
+      "fetchedAt": "2026-03-30T16:56:59.732Z",
       "error": null
     },
     {
@@ -1270,6 +1270,15 @@
       "type": "rss",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
       "items": [
+        {
+          "title": "File-level archiving comes to Microsoft 365 Archive (public preview)",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/file-level-archiving-comes-to-microsoft-365-archive-public/ba-p/4506886",
+          "pubDate": "2026-03-30T16:07:57.000Z",
+          "summary": "<P>As content growth accelerates worldwide, organizations need better ways to manage inactive data without sacrificing security, compliance, retention, or discoverability.</P> <P>Today, we’re announcing a public preview of<STRONG> file</STRONG>‑<STRONG>level archiving in </STRONG><A href=\"https://ak",
+          "author": "Trent Green",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "From access to adoption: Unlock the power of Microsoft 365",
           "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/from-access-to-adoption-unlock-the-power-of-microsoft-365/ba-p/4506040",
@@ -1305,18 +1314,9 @@
           "author": "JonJones_MSFT",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Level up your data security at Microsoft 365 Community Conference",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/level-up-your-data-security-at-microsoft-365-community/ba-p/4501785",
-          "pubDate": "2026-03-12T22:18:25.000Z",
-          "summary": "<P>Technology is evolving at a startling rate, and it’s no longer enough for an organization to maintain their security measures, they must evolve along with it. Don’t let your data, employees, or clients become another headline. Join us in Orlando on April 21–23 for the <A href=\"https://aka.ms/M365",
-          "author": "JonJones_MSFT",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:04.497Z",
+      "fetchedAt": "2026-03-30T16:56:59.822Z",
       "error": null
     },
     {
@@ -1346,7 +1346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:04.576Z",
+      "fetchedAt": "2026-03-30T16:56:59.887Z",
       "error": null
     },
     {
@@ -1403,7 +1403,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:03.851Z",
+      "fetchedAt": "2026-03-30T16:56:59.652Z",
       "error": null
     },
     {
@@ -1460,7 +1460,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:04.700Z",
+      "fetchedAt": "2026-03-30T16:57:00.215Z",
       "error": null
     },
     {
@@ -1517,7 +1517,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.302Z",
+      "fetchedAt": "2026-03-30T16:57:00.725Z",
       "error": null
     },
     {
@@ -1574,7 +1574,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:04.899Z",
+      "fetchedAt": "2026-03-30T16:57:00.304Z",
       "error": null
     },
     {
@@ -1631,7 +1631,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.543Z",
+      "fetchedAt": "2026-03-30T16:57:01.032Z",
       "error": null
     },
     {
@@ -1688,7 +1688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.746Z",
+      "fetchedAt": "2026-03-30T16:57:01.438Z",
       "error": null
     },
     {
@@ -1699,7 +1699,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-03-30T13:22:05.667Z",
+      "fetchedAt": "2026-03-30T16:57:01.202Z",
       "error": "HTTP 403"
     },
     {
@@ -1766,7 +1766,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/umgAQbShp1s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.663Z",
+      "fetchedAt": "2026-03-30T16:57:01.419Z",
       "error": null
     },
     {
@@ -1833,7 +1833,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GFLukuwDwyw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.693Z",
+      "fetchedAt": "2026-03-30T16:57:01.507Z",
       "error": null
     },
     {
@@ -1900,7 +1900,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/sFAlJxCfZzU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.833Z",
+      "fetchedAt": "2026-03-30T16:57:01.715Z",
       "error": null
     },
     {
@@ -1967,7 +1967,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yILrSTjYQQs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.830Z",
+      "fetchedAt": "2026-03-30T16:57:01.641Z",
       "error": null
     },
     {
@@ -2034,7 +2034,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/gitqOxXAyR0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.905Z",
+      "fetchedAt": "2026-03-30T16:57:01.787Z",
       "error": null
     },
     {
@@ -2101,7 +2101,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DmcKYPQlsdU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.900Z",
+      "fetchedAt": "2026-03-30T16:57:01.818Z",
       "error": null
     },
     {
@@ -2168,7 +2168,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/PcLYdztnkDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:06.008Z",
+      "fetchedAt": "2026-03-30T16:57:01.934Z",
       "error": null
     },
     {
@@ -2235,7 +2235,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A6IhBYNPlVY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.918Z",
+      "fetchedAt": "2026-03-30T16:57:01.928Z",
       "error": null
     },
     {
@@ -2302,7 +2302,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/gp3X1m-9pn8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:05.997Z",
+      "fetchedAt": "2026-03-30T16:57:01.956Z",
       "error": null
     },
     {
@@ -2369,7 +2369,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/ZgfXAX06oHU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:06.085Z",
+      "fetchedAt": "2026-03-30T16:57:01.936Z",
       "error": null
     },
     {
@@ -2436,7 +2436,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Fa_sJa3os4w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:06.166Z",
+      "fetchedAt": "2026-03-30T16:57:02.122Z",
       "error": null
     },
     {
@@ -2493,7 +2493,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:06.258Z",
+      "fetchedAt": "2026-03-30T16:57:02.149Z",
       "error": null
     },
     {
@@ -2504,6 +2504,15 @@
       "type": "podcast",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
       "items": [
+        {
+          "title": "Poking Around Until Something Breaks (And Then Reporting It to Microsoft) with Morten Mynster",
+          "link": "https://powershellpodcast.podbean.com/e/poking-around-until-something-breaks-and-then-reporting-it-to-microsoft-with-morten-mynster/",
+          "pubDate": "2026-03-30T14:00:00.000Z",
+          "summary": "Publishing your work publicly, even to a small audience, creates opportunities that a resume never could. Morten landed a job offer without ever applying, simply because someone found his module on LinkedIn. The best way to learn something technical is still to get hands-on with it. Reading about it",
+          "author": "",
+          "categories": [],
+          "type": "podcast"
+        },
         {
           "title": "From School IT Intern to Systems Architect with Chris Thomas",
           "link": "https://powershellpodcast.podbean.com/e/from-school-it-intern-to-systems-architect-with-chris-thomas/",
@@ -2539,18 +2548,9 @@
           "author": "",
           "categories": [],
           "type": "podcast"
-        },
-        {
-          "title": "Escaping Tutorial Hell with Pablo Correchel",
-          "link": "https://powershellpodcast.podbean.com/e/escaping-tutorial-hell-with-pablo-correchel/",
-          "pubDate": "2026-02-23T15:00:00.000Z",
-          "summary": "https://www.linkedin.com/in/pablocorrechel • Connect with Andrew - https://andrewpla.tech/links • PDQ Discord – https://discord.gg/PDQ • Learn PowerShell in a Month of Lunches – https://www.manning.com/series/learn-powershell-in-a-month-of-lunches • PowerShell Wednesdays – https://www.youtube.com/wa",
-          "author": "",
-          "categories": [],
-          "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:06.228Z",
+      "fetchedAt": "2026-03-30T16:57:02.077Z",
       "error": null
     },
     {
@@ -2607,7 +2607,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-03-30T13:22:07.237Z",
+      "fetchedAt": "2026-03-30T16:57:03.809Z",
       "error": null
     }
   ]
