@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T17:02:39.934Z",
+  "generatedAt": "2026-04-21T20:53:54.614Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -9,6 +9,24 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "New Windows RDP phishing warning: Caution: Unknown remote connection",
+          "link": "https://4sysops.com/archives/new-windows-rdp-phishing-warning-caution-unknown-remote-connection/",
+          "pubDate": "2026-04-21T19:24:49.000Z",
+          "summary": "The April 2026 Patch Tuesday updates add anti-phishing protection to the Windows Remote Desktop client (mstsc.exe). The change — assigned CVE-2026-26151 — means that opening an .rdp file now triggers a security dialog that lists all requested resource-sharing settings, each disabled by default. File",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Remove Copilot and bloatware from Windows 11 with Rufus 4.14",
+          "link": "https://4sysops.com/archives/remove-copilot-and-bloatware-from-windows-11-with-rufus-4-14/",
+          "pubDate": "2026-04-21T19:24:16.000Z",
+          "summary": "Rufus is a free, open-source tool that creates bootable USB drives for installing Windows. Version 4.14 Beta, released on April 21, 2026, adds a new option to disable or remove preinstalled Microsoft apps such as Copilot, Teams, and Outlook during a fresh Windows installation. It also introduces a f",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "What are RDP plugins? Build your own dynamic virtual channel (DVC) plugin using Microsoft’s new sample repo",
           "link": "https://4sysops.com/archives/what-are-rdp-plugins-build-your-own-dynamic-virtual-channel-dvc-plugin-using-microsofts-new-sample-repo/",
@@ -35,27 +53,9 @@
           "author": "IT Experts",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Microsoft 365 Copilot security: Purview DLP, oversharing controls, and dashboard analytics",
-          "link": "https://4sysops.com/archives/microsoft-365-copilot-security-purview-dlp-oversharing-controls-and-dashboard-analytics/",
-          "pubDate": "2026-04-15T14:00:30.000Z",
-          "summary": "Microsoft released new security and governance controls for Microsoft 365 Copilot, introducing Data Loss Prevention (DLP) policies that inspect prompts before Copilot processes them, protecting web searches from leaking sensitive data, and enabling bulk remediation of overshared SharePoint files. Th",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft Entra SCIM 2.0: Now with bidirectional provisioning",
-          "link": "https://4sysops.com/archives/microsoft-entra-scim-20-now-with-bidirectional-provisioning/",
-          "pubDate": "2026-04-14T12:53:57.000Z",
-          "summary": "Microsoft introduced new SCIM 2.0 APIs for Microsoft Entra. The APIs now support bidirectional provisioning, which allows external identity systems to provision users and groups directly into Entra. SCIM (System for Cross-domain Identity Management) is an open internet standard that defines a common",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:30.237Z",
+      "fetchedAt": "2026-04-21T20:53:39.207Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:30.069Z",
+      "fetchedAt": "2026-04-21T20:53:39.000Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:30.694Z",
+      "fetchedAt": "2026-04-21T20:53:39.323Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-04-21T17:02:29.834Z",
+      "fetchedAt": "2026-04-21T20:53:38.770Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:30.852Z",
+      "fetchedAt": "2026-04-21T20:53:39.599Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:31.085Z",
+      "fetchedAt": "2026-04-21T20:53:39.551Z",
       "error": null
     },
     {
@@ -305,7 +305,7 @@
       "type": "rss",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-04-21T17:02:31.178Z",
+      "fetchedAt": "2026-04-21T20:53:39.712Z",
       "error": null
     },
     {
@@ -362,7 +362,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:31.268Z",
+      "fetchedAt": "2026-04-21T20:53:39.797Z",
       "error": null
     },
     {
@@ -383,7 +383,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:31.397Z",
+      "fetchedAt": "2026-04-21T20:53:39.815Z",
       "error": null
     },
     {
@@ -440,7 +440,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:31.389Z",
+      "fetchedAt": "2026-04-21T20:53:39.853Z",
       "error": null
     },
     {
@@ -450,9 +450,55 @@
       "color": "#0078d4",
       "type": "rss",
       "url": "https://joostgelijsteen.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-04-21T17:02:31.672Z",
-      "error": ""
+      "items": [
+        {
+          "title": "Edge (MAM) on iOS Keeps removing the Work Account after Sign-in!: Why one Broken identity breaks it All",
+          "link": "https://joostgelijsteen.com/why-edge-mam-ios-keeps-removing-work-account/",
+          "pubDate": "2026-03-12T09:47:41.000Z",
+          "summary": "Right after enabling App Protection Policies (MAM) for iOS, one user suddenly couldn’t open any... <p>The post Edge (MAM) on iOS Keeps removing the Work Account after Sign-in!: Why one Broken identity breaks it All first appeared on Just about the Modern Workplace.</p> ]]>",
+          "author": "Joost Gelijsteen",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Designing an App Protection Policy that don’t backfire on your unmanaged devices",
+          "link": "https://joostgelijsteen.com/designing-app-protection-policy/",
+          "pubDate": "2026-03-06T08:25:50.000Z",
+          "summary": "An App Protection Policy for unmanaged devices is often described as a lighter form of... <p>The post Designing an App Protection Policy that don’t backfire on your unmanaged devices first appeared on Just about the Modern Workplace.</p> ]]>",
+          "author": "Joost Gelijsteen",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Mobile Application Management Explained: How Intune MAM Works!",
+          "link": "https://joostgelijsteen.com/mobile-application-management-explained/",
+          "pubDate": "2026-02-23T09:32:35.000Z",
+          "summary": "Mobile Application Management protects corporate data inside mobile apps while leaving the device unmanaged. The... <p>The post Mobile Application Management Explained: How Intune MAM Works! first appeared on Just about the Modern Workplace.</p> ]]>",
+          "author": "Joost Gelijsteen",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Windows device configuration policies are moving to Settings catalog template. What you need to know",
+          "link": "https://joostgelijsteen.com/settings-catalog-template/",
+          "pubDate": "2025-04-29T11:49:40.000Z",
+          "summary": "In recent months, Microsoft has been rolling out an important change that impacts how we... <p>The post Windows device configuration policies are moving to Settings catalog template. What you need to know first appeared on Just about the Modern Workplace.</p> ]]>",
+          "author": "Joost Gelijsteen",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "From OMA-DM to Declared Configuration: The Next Step in Windows Policy Enforcement",
+          "link": "https://joostgelijsteen.com/declared-configuration/",
+          "pubDate": "2025-02-28T08:36:22.000Z",
+          "summary": "For years, OMA-DM (Open Mobile Alliance Device Management) has been the backbone of policy management... <p>The post From OMA-DM to Declared Configuration: The Next Step in Windows Policy Enforcement first appeared on Just about the Modern Workplace.</p> ]]>",
+          "author": "Joost Gelijsteen",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-04-21T20:53:40.481Z",
+      "error": null
     },
     {
       "id": "zerotrust",
@@ -462,7 +508,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-04-21T17:02:31.459Z",
+      "fetchedAt": "2026-04-21T20:53:39.937Z",
       "error": "HTTP 403"
     },
     {
@@ -519,7 +565,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:33.004Z",
+      "fetchedAt": "2026-04-21T20:53:41.852Z",
       "error": null
     },
     {
@@ -576,7 +622,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:32.520Z",
+      "fetchedAt": "2026-04-21T20:53:40.998Z",
       "error": null
     },
     {
@@ -633,7 +679,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:32.044Z",
+      "fetchedAt": "2026-04-21T20:53:40.903Z",
       "error": null
     },
     {
@@ -690,7 +736,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:33.414Z",
+      "fetchedAt": "2026-04-21T20:53:41.550Z",
       "error": null
     },
     {
@@ -700,55 +746,9 @@
       "color": "#005a9e",
       "type": "rss",
       "url": "https://mattzaske.com/rss.xml",
-      "items": [
-        {
-          "title": "Git Hooks: Using Git to Take Action",
-          "link": "https://mattzaske.com/blog/2026-03/git-hooks-using-git-take-action",
-          "pubDate": "2026-03-02T14:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Git Hooks: Using Git to Take Action</span> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>zaskem</span></span> <span class=\"field field--name-created field--type-created field--la",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Fire TV Power Control from Home Assistant!",
-          "link": "https://mattzaske.com/blog/2025-12/fire-tv-power-control-home-assistant",
-          "pubDate": "2025-12-15T14:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Fire TV Power Control from Home Assistant!</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/2025-12/adb-",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant",
-          "link": "https://mattzaske.com/blog/2025-07/configuringusing-awtrix-3-ulanzi-tc001-through-home-assistant",
-          "pubDate": "2025-07-14T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Home Assistant Notifications to Teams with Graph API",
-          "link": "https://mattzaske.com/blog/2025-06/home-assistant-notifications-teams-graph-api",
-          "pubDate": "2025-06-30T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Home Assistant Notifications to Teams with Graph API</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/20",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "MMSMOA 2025 Recap",
-          "link": "https://mattzaske.com/blog/2025-05/mmsmoa-2025-recap",
-          "pubDate": "2025-05-26T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">MMSMOA 2025 Recap</span> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>zaskem</span></span> <span class=\"field field--name-created field--type-created field--label-hidden\"><time ",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-04-21T17:02:33.718Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-04-21T20:53:49.943Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "msendpointmgr",
@@ -804,7 +804,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:33.699Z",
+      "fetchedAt": "2026-04-21T20:53:42.115Z",
       "error": null
     },
     {
@@ -861,7 +861,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:33.722Z",
+      "fetchedAt": "2026-04-21T20:53:42.349Z",
       "error": null
     },
     {
@@ -918,7 +918,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:33.677Z",
+      "fetchedAt": "2026-04-21T20:53:42.032Z",
       "error": null
     },
     {
@@ -975,7 +975,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:35.525Z",
+      "fetchedAt": "2026-04-21T20:53:51.466Z",
       "error": null
     },
     {
@@ -1032,7 +1032,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:33.921Z",
+      "fetchedAt": "2026-04-21T20:53:50.057Z",
       "error": null
     },
     {
@@ -1089,7 +1089,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:33.974Z",
+      "fetchedAt": "2026-04-21T20:53:50.194Z",
       "error": null
     },
     {
@@ -1146,7 +1146,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:34.894Z",
+      "fetchedAt": "2026-04-21T20:53:51.101Z",
       "error": null
     },
     {
@@ -1203,7 +1203,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:36.033Z",
+      "fetchedAt": "2026-04-21T20:53:51.584Z",
       "error": null
     },
     {
@@ -1260,7 +1260,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:35.757Z",
+      "fetchedAt": "2026-04-21T20:53:51.790Z",
       "error": null
     },
     {
@@ -1290,7 +1290,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:35.948Z",
+      "fetchedAt": "2026-04-21T20:53:51.880Z",
       "error": null
     },
     {
@@ -1347,7 +1347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:35.633Z",
+      "fetchedAt": "2026-04-21T20:53:51.508Z",
       "error": null
     },
     {
@@ -1404,7 +1404,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:36.220Z",
+      "fetchedAt": "2026-04-21T20:53:52.136Z",
       "error": null
     },
     {
@@ -1461,7 +1461,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:37.007Z",
+      "fetchedAt": "2026-04-21T20:53:52.547Z",
       "error": null
     },
     {
@@ -1518,7 +1518,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:36.432Z",
+      "fetchedAt": "2026-04-21T20:53:52.091Z",
       "error": null
     },
     {
@@ -1528,9 +1528,55 @@
       "color": "#8e8e93",
       "type": "rss",
       "url": "https://allthingscloud.blog/feed/",
-      "items": [],
-      "fetchedAt": "2026-04-21T17:02:36.551Z",
-      "error": ""
+      "items": [
+        {
+          "title": "macOS Impact Analysis with Intune: Measure Twice, Restrict Once",
+          "link": "https://allthingscloud.blog/macos-impact-analysis-intune/",
+          "pubDate": "2026-03-24T01:34:27.000Z",
+          "summary": "Last Updated on March 24, 2026 by Oktay Sari You have read the CIS benchmark. You have gone through BIO (Baseline Informatiebeveiliging Overheid). Maybe you even run the mSCP compliance audit. The recommendations are clear: disable iCloud Desktop & Documents Sync, disable AirDrop, block Apple Intell",
+          "author": "Oktay Sari",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Hunting Duplicate Device Records in Microsoft Defender",
+          "link": "https://allthingscloud.blog/duplicate-device-records-microsoft-defender-endpoint/",
+          "pubDate": "2026-02-19T18:08:54.000Z",
+          "summary": "Last Updated on February 20, 2026 by Oktay Sari “The same kind of script is sorely needed for Defender. It uses hostname as the unique identifier for Macs so any device name change creates a new record and uses up a license. It’s bonkers.” That was Luke on LinkedIn, commenting on my Entra ID duplica",
+          "author": "Oktay Sari",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "The Hidden Life of Duplicate macOS Device Records in Entra ID",
+          "link": "https://allthingscloud.blog/duplicate-macos-device-records-entra-id/",
+          "pubDate": "2026-02-13T20:45:06.000Z",
+          "summary": "Last Updated on February 14, 2026 by Oktay Sari Picture this; You open the Entra ID portal, search for one of your managed Macs, and find three device records staring back at you. One says “MacMDM,” another says “macOS,” and the third looks like it hasn’t checked in since last summer. Which one is r",
+          "author": "Oktay Sari",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Auditing Homebrew Security with Microsoft Intune: Detect Supply Chain Risks on Your Mac Fleet",
+          "link": "https://allthingscloud.blog/auditing-homebrew-security-intune-mac-fleet/",
+          "pubDate": "2026-01-31T20:24:13.000Z",
+          "summary": "Last Updated on February 1, 2026 by Oktay Sari Let’s be real: Homebrew is amazing. It’s the missing package manager for macOS that every developer loves. However, in an enterprise environment, Homebrew can also be a security nightmare waiting to happen. World-writable binaries? Third-party taps from",
+          "author": "Oktay Sari",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "How to Update Your Apple Account When Your Organization Reclaims the Domain",
+          "link": "https://allthingscloud.blog/update-apple-id-work-email/",
+          "pubDate": "2026-01-22T09:35:39.000Z",
+          "summary": "Last Updated on January 22, 2026 by Oktay Sari Your Work Email Can’t Be Your Apple Account Anymore: Here’s What to Do A step-by-step guide to updating your Apple Account when your organization reclaims their domain So you just got an email from Apple telling you to change your Apple ID email address",
+          "author": "Oktay Sari",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-04-21T20:53:52.604Z",
+      "error": null
     },
     {
       "id": "macadminsnews",
@@ -1540,7 +1586,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-04-21T17:02:37.637Z",
+      "fetchedAt": "2026-04-21T20:53:53.364Z",
       "error": "HTTP 404"
     },
     {
@@ -1551,7 +1597,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-04-21T17:02:37.205Z",
+      "fetchedAt": "2026-04-21T20:53:52.741Z",
       "error": "HTTP 403"
     },
     {
@@ -1561,65 +1607,9 @@
       "color": "#ff0000",
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
-      "items": [
-        {
-          "title": "Absolute Beginner Guide to Python",
-          "link": "https://www.youtube.com/watch?v=VE1HAjJB7cs",
-          "pubDate": "2026-04-20T14:19:12.000Z",
-          "summary": "A walk through how to get setup then being productive with Python! ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:26 - Setup 04:50 - My sample files 06:05 - Hello world 08:02 - Executing a python script 10:48 - Breaking down the syntax 13:25 - AI help 16:08 - Variables 20:21 - F-strings 22:",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "VE1HAjJB7cs",
-          "thumbnail": "https://i3.ytimg.com/vi/VE1HAjJB7cs/hqdefault.jpg"
-        },
-        {
-          "title": "3 hours of forest cleanup in 3 minutes",
-          "link": "https://www.youtube.com/watch?v=ETTmwOu1cy0",
-          "pubDate": "2026-04-19T11:49:59.000Z",
-          "summary": "First time in 2026 I got to go out and clean up the forest. Had some heavy rain then strong winds that fell a lot of trees. Time to start clearing up! Music: Carefree by Kevin MacLeod is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/by/4.0/",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "ETTmwOu1cy0",
-          "thumbnail": "https://i2.ytimg.com/vi/ETTmwOu1cy0/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Update 16th April 2026",
-          "link": "https://www.youtube.com/watch?v=WjvN_XjMr6U",
-          "pubDate": "2026-04-16T12:48:40.000Z",
-          "summary": "Quick update and sorry about location :-) 00:00 - Introduction 00:15 - New videos 01:09 - StandardV2 NAT Gateway as outbound for AKS 01:34 - Azure Monitor OpenTelemetry support for AKS workloads 02:20 - Azure Bastion MI for graphical session recording 02:53 - ASR NVMe disk controller support 03:04 -",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "WjvN_XjMr6U",
-          "thumbnail": "https://i4.ytimg.com/vi/WjvN_XjMr6U/hqdefault.jpg"
-        },
-        {
-          "title": "Does Microsoft AI Train Models on my Data and Interactions?",
-          "link": "https://www.youtube.com/watch?v=LKA9U9T7_t0",
-          "pubDate": "2026-04-15T08:03:20.000Z",
-          "summary": "Easy answer to a common question! ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:16 - Signed in with work or school account 03:34 - Signed in with personal account 04:56 - Training does not equal personalization 06:06 - Close ▬▬▬▬▬▬ K E Y L I N K S 🔗 ▬▬▬▬▬▬ ► Whiteboard: 🔗 https://github.",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "LKA9U9T7_t0",
-          "thumbnail": "https://i1.ytimg.com/vi/LKA9U9T7_t0/hqdefault.jpg"
-        },
-        {
-          "title": "Does Microsoft train on my data and interaction? #ai #microsoft",
-          "link": "https://www.youtube.com/shorts/-m61LgbbiXg",
-          "pubDate": "2026-04-15T08:02:06.000Z",
-          "summary": "Easy answer :-)",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/-m61LgbbiXg/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-04-21T17:02:37.371Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-04-21T20:53:52.750Z",
+      "error": "HTTP 500"
     },
     {
       "id": "5bytes-podcast",
@@ -1685,7 +1675,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CWOqIvAWnYo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:37.365Z",
+      "fetchedAt": "2026-04-21T20:53:52.783Z",
       "error": null
     },
     {
@@ -1695,65 +1685,9 @@
       "color": "#ff0000",
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ",
-      "items": [
-        {
-          "title": "Entra ID Hardening Tip #1: Privileged accounts in Entra ID should be cloud native identities",
-          "link": "https://www.youtube.com/shorts/AowZ8N5V4bM",
-          "pubDate": "2026-04-21T11:31:20.000Z",
-          "summary": "",
-          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/AowZ8N5V4bM/hqdefault.jpg"
-        },
-        {
-          "title": "Stop Leaving the Door Open: The Entra ID Hardening Checklist Security Experts Actually Use",
-          "link": "https://www.youtube.com/watch?v=O2usv4No_DI",
-          "pubDate": "2026-04-18T13:04:49.000Z",
-          "summary": "Microsoft Entra security is evolving and the way organizations think about identity protection needs to evolve with it. In this episode, I’m joined by Sean Metcalf, one of the foremost identity security experts in the industry, whose work has helped shape how many organizations approach securing bot",
-          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "O2usv4No_DI",
-          "thumbnail": "https://i4.ytimg.com/vi/O2usv4No_DI/hqdefault.jpg"
-        },
-        {
-          "title": "How to Design Bullet-Proof Conditional Access Policies in Microsoft Entra ID",
-          "link": "https://www.youtube.com/watch?v=QuNVyp9UMtI",
-          "pubDate": "2026-04-11T14:17:00.000Z",
-          "summary": "Microsoft MVP and Senior Architect Per Torben joins the show to share his expert blueprint for mastering Conditional Access and securing Entra ID environments. We talk about the absolute necessity of properly configured break-glass accounts, how he implements a secure “block by default” architecture",
-          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "QuNVyp9UMtI",
-          "thumbnail": "https://i2.ytimg.com/vi/QuNVyp9UMtI/hqdefault.jpg"
-        },
-        {
-          "title": "How to Navigate Microsoft Portals 10x Faster",
-          "link": "https://www.youtube.com/shorts/7x0cE4dvrgg",
-          "pubDate": "2026-04-07T11:18:02.000Z",
-          "summary": "Stop clicking through 15 menus just to find one Azure blade 🛑 55,000+ Microsoft pros use https://cmd.ms to skip the portal fatigue. I just launched a massive V2 rewrite: ⚡️ 100% keyboard-driven 🎯 Jump to any blade instantly 🔍 New Purview + Security commands",
-          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/7x0cE4dvrgg/hqdefault.jpg"
-        },
-        {
-          "title": "5 Entra ID Updates You Can’t Afford to Ignore in 2026 (Backup, Governance & Risk Score Exposed)",
-          "link": "https://www.youtube.com/watch?v=2C6G9M1aOko",
-          "pubDate": "2026-04-04T11:38:26.000Z",
-          "summary": "In this episode of Entra.Chat, MVPs Nathan, Ru, and Thomas join Merill to break down the most exciting new features in Microsoft Entra. We dive deep into the new Entra Backup and Recovery preview, exploring how it protects against accidental configurations and soft deletions. We also discuss the mas",
-          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "2C6G9M1aOko",
-          "thumbnail": "https://i3.ytimg.com/vi/2C6G9M1aOko/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-04-21T17:02:37.798Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-04-21T20:53:53.474Z",
+      "error": "HTTP 500"
     },
     {
       "id": "deanellerby",
@@ -1819,7 +1753,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/eVZdlqL9J-0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:37.768Z",
+      "fetchedAt": "2026-04-21T20:53:53.450Z",
       "error": null
     },
     {
@@ -1886,7 +1820,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/BQMDIiZRSoQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:37.928Z",
+      "fetchedAt": "2026-04-21T20:53:53.454Z",
       "error": null
     },
     {
@@ -1896,65 +1830,9 @@
       "color": "#ff0000",
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg",
-      "items": [
-        {
-          "title": "This One Setting Is Lying to Every Intune Admin",
-          "link": "https://www.youtube.com/shorts/wj3bLdP_J_M",
-          "pubDate": "2026-04-20T08:00:55.000Z",
-          "summary": "There's a default setting in Microsoft Intune that marks every device as compliant — even if you've never configured a single compliance policy. \"Mark devices with no compliance policy assigned as: Compliant\" It's on. By default. In every new tenant. 🎓 Secure & Manage Microsoft 365 - for MSPs Join ",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/wj3bLdP_J_M/hqdefault.jpg"
-        },
-        {
-          "title": "Microsoft FINALLY Adds Entra Backup… But Wait",
-          "link": "https://www.youtube.com/watch?v=tkSRPe0VrnU",
-          "pubDate": "2026-04-17T10:01:43.000Z",
-          "summary": "Microsoft has finally added native backup and recovery to Entra ID - and it's now live in Preview. Daily automated backups, granular restore, Difference Reports, and coverage across users, groups, apps, CA policies, named locations and more. But there are three things you need to understand before y",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "tkSRPe0VrnU",
-          "thumbnail": "https://i1.ytimg.com/vi/tkSRPe0VrnU/hqdefault.jpg"
-        },
-        {
-          "title": "Intune Compliance Policies - Why Most Tenants Get Them Wrong",
-          "link": "https://www.youtube.com/watch?v=kBUiyiUQm5o",
-          "pubDate": "2026-04-10T10:01:17.000Z",
-          "summary": "If your Microsoft Intune tenant is showing all devices as compliant - that might mean your security is solid. Or it might mean nobody ever configured a compliance policy and Intune is marking everything green by default. In this video, MSP Mike finds out which one it is. We fix the default complianc",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "kBUiyiUQm5o",
-          "thumbnail": "https://i4.ytimg.com/vi/kBUiyiUQm5o/hqdefault.jpg"
-        },
-        {
-          "title": "\"We Trust Our Staff\" Is Not a BYOD Strategy",
-          "link": "https://www.youtube.com/shorts/gins35-cc18",
-          "pubDate": "2026-04-03T09:13:03.000Z",
-          "summary": "\"We trust our staff\" is not a BYOD policy. If your staff can copy a client email and paste it straight into WhatsApp — you don't have a security strategy, you have a hope strategy. Watch the full video to see how App Protection Policies in Microsoft Intune fix this - without enrolling a single perso",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/gins35-cc18/hqdefault.jpg"
-        },
-        {
-          "title": "My Client Wants 12 AI Agents",
-          "link": "https://www.youtube.com/shorts/3jBh27Ac5B0",
-          "pubDate": "2026-03-27T08:40:47.000Z",
-          "summary": "Charles Bell has discovered Microsoft 365 E7. And he wants twelve AI agents. The good ones. Full E7 breakdown on the channel now. #Microsoft365 #MicrosoftE7 #MSP 🎓 Secure & Manage Microsoft 365 - for MSPs Join my private implementation program for MSPs who want to standardise, secure, and scale Mic",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/3jBh27Ac5B0/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-04-21T17:02:37.974Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-04-21T20:53:53.409Z",
+      "error": "HTTP 500"
     },
     {
       "id": "patchmypc",
@@ -1963,65 +1841,9 @@
       "color": "#ff0000",
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
-      "items": [
-        {
-          "title": "Intune Certificate Expiry: Why Devices Don't Disconnect!",
-          "link": "https://www.youtube.com/shorts/xj7PmUZsSdA",
-          "pubDate": "2026-04-03T11:01:37.000Z",
-          "summary": "Why doesn’t an expired Intune certificate immediately disconnect a device? In this YouTube Short, we explain the surprising reason Intune may still allow a device to connect even after certificate expiry. Learn how the private key, certificate recovery, and last check-in timestamp all play a role in",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/xj7PmUZsSdA/hqdefault.jpg"
-        },
-        {
-          "title": "A World Where Intune Check-Ins Can’t Be Trusted | Patch and Rant Ep.24",
-          "link": "https://www.youtube.com/watch?v=ooXOIfeDNVE",
-          "pubDate": "2026-04-03T11:01:26.000Z",
-          "summary": "What if Intune’s “Last Check-In” is the one signal you should stop trusting? In this episode of Patch and Rant, Rudy uncovers why a device can look perfectly healthy in the Intune portal, even when its certificate is already expired and real management is effectively dead. We break down how the OMA-",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "ooXOIfeDNVE",
-          "thumbnail": "https://i4.ytimg.com/vi/ooXOIfeDNVE/hqdefault.jpg"
-        },
-        {
-          "title": "Expired Certificate Issues: Intune Device Management Broken",
-          "link": "https://www.youtube.com/shorts/ODu_A-V6J5c",
-          "pubDate": "2026-04-03T11:00:42.000Z",
-          "summary": "A device can still say hello to Intune while actual device management is completely broken. In this YouTube Short, we explain how an expired Intune certificate can stop policies, app deployments, and updates even though the portal still makes the device look alive. This is a critical lesson for Intu",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/ODu_A-V6J5c/hqdefault.jpg"
-        },
-        {
-          "title": "The Silent Killer: Intune’s Last Check-In Timestamp",
-          "link": "https://www.youtube.com/shorts/Mcx9xnmLCMM",
-          "pubDate": "2026-04-03T11:00:39.000Z",
-          "summary": "Can you really trust the Intune last check-in timestamp? In this YouTube Short, we break down why a device can look healthy in the Intune portal while it is actually broken, unmanaged, and silently failing behind the scenes. If you manage Microsoft Intune, endpoint security, or enterprise devices, t",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/Mcx9xnmLCMM/hqdefault.jpg"
-        },
-        {
-          "title": "Intune MDM Certificate Renewal Nightmare Solved!",
-          "link": "https://www.youtube.com/shorts/ARJ6QTKmmuc",
-          "pubDate": "2026-04-03T11:00:14.000Z",
-          "summary": "Why won’t an Intune MDM certificate renew? This YouTube Short dives into a real-world troubleshooting scenario where the Intune device certificate had already expired, creating serious management issues. If you work with Microsoft Intune, MDM, or enterprise Windows devices, this quick breakdown show",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/ARJ6QTKmmuc/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-04-21T17:02:38.103Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-04-21T20:53:53.497Z",
+      "error": "HTTP 404"
     },
     {
       "id": "travisroberst",
@@ -2087,7 +1909,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/aQb1PM1kq2A/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:38.127Z",
+      "fetchedAt": "2026-04-21T20:53:53.617Z",
       "error": null
     },
     {
@@ -2097,65 +1919,9 @@
       "color": "#ff0000",
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g",
-      "items": [
-        {
-          "title": "OH 4 15 26 Clip Updates",
-          "link": "https://www.youtube.com/watch?v=8dNtPtPovhs",
-          "pubDate": "2026-04-17T17:45:38.000Z",
-          "summary": "⚡UPDATES! April 15 #ViaMonstraOfficeHours featuring Johan Arwidmark, Andrew Johnson, and special guest Jeff Gilbert 💻 What's new in #MicrosoftDefender XDR, GraphExplorer+, Dell Command - Update 5.7.0 released, #SecureBoot and HP, and more! #MSIntune #Intune #ViaMonstraAcademy ----------------------",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "8dNtPtPovhs",
-          "thumbnail": "https://i1.ytimg.com/vi/8dNtPtPovhs/hqdefault.jpg"
-        },
-        {
-          "title": "OH 4 8 26 Clip SCCM to Intune Migration",
-          "link": "https://www.youtube.com/watch?v=RIScMySlb04",
-          "pubDate": "2026-04-16T17:07:01.000Z",
-          "summary": "⚡Check out this snippet from our April 8 #ViaMonstraOfficeHours 👨‍💻 \"Tips, guidelines, or community tools on how to handle turning off all deployments in #SCCM and assigning them in #Intune through automation?\" 💻 #ConfigMgr #MSIntune #ViaMonstraAcademy 🔗SCCM to Microsoft Intune Migration : Ident",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "RIScMySlb04",
-          "thumbnail": "https://i3.ytimg.com/vi/RIScMySlb04/hqdefault.jpg"
-        },
-        {
-          "title": "4/15/26 ViaMonstra Academy OFFICE HOURS | Updates and Q&A on ConfigMgr/MDT/Intune w/ Jeff Gilbert",
-          "link": "https://www.youtube.com/watch?v=0vX68C8dg4E",
-          "pubDate": "2026-04-16T10:32:38.000Z",
-          "summary": "SPECIAL GUEST Jeff Gilbert 👏! Join us for Q&A and roundtable discussion on anything related to Windows deployment, MDT, ConfigMgr, or Microsoft Intune. We bring the experts; you bring the questions. With co-hosts Johan Arwidmark and Andrew Johnson. LINKS BELOW ⬇️ -----------------------------------",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "0vX68C8dg4E",
-          "thumbnail": "https://i1.ytimg.com/vi/0vX68C8dg4E/hqdefault.jpg"
-        },
-        {
-          "title": "OH CLIPS: Windows 11 crashing when upgrading from 23H2 to 24H2",
-          "link": "https://www.youtube.com/watch?v=CCQZ-sM_TPg",
-          "pubDate": "2026-04-14T16:00:16.000Z",
-          "summary": "⚡Here's a quick clip from our April 8 #ViaMonstraOfficeHours 👨‍💻 \"#Windows11 crashing when upgrading from 23H2 to 24H2\" 💻 #ViaMonstraAcademy 🔗SetupDiag https://learn.microsoft.com/en-us/windows/deployment/upgrade/setupdiag Full Office Hours 4.8.26 ➡️ https://youtube.com/live/QDN3lQBz-gw --------",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "CCQZ-sM_TPg",
-          "thumbnail": "https://i4.ytimg.com/vi/CCQZ-sM_TPg/hqdefault.jpg"
-        },
-        {
-          "title": "UPDATES! Office Hours 4.8.26 | Secure Boot news - Cmd.ms V2 - Driver Automation Tool v10 close by",
-          "link": "https://www.youtube.com/watch?v=Bt3B98hwcYM",
-          "pubDate": "2026-04-10T17:38:17.000Z",
-          "summary": "⚡UPDATES! April 8 #ViaMonstraOfficeHours featuring Johan Arwidmark and Andrew Johnson 💻 #SecureBoot news, Cmd.ms V2 announced, #DriverAutomationTool v10 is getting close, and more! #MSIntune #Intune #ViamonstraAcademy ---------------------------------------------------------------------- 🔗Updates ",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "Bt3B98hwcYM",
-          "thumbnail": "https://i3.ytimg.com/vi/Bt3B98hwcYM/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-04-21T17:02:38.089Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-04-21T20:53:53.511Z",
+      "error": "HTTP 500"
     },
     {
       "id": "workplaceninjas",
@@ -2221,7 +1987,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/M3GxgKIEnds/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:38.081Z",
+      "fetchedAt": "2026-04-21T20:53:53.607Z",
       "error": null
     },
     {
@@ -2231,65 +1997,9 @@
       "color": "#ff0000",
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw",
-      "items": [
-        {
-          "title": "From box to business‑ready with Windows Autopilot",
-          "link": "https://www.youtube.com/watch?v=0BEdIf8HjTo",
-          "pubDate": "2026-04-15T23:08:10.000Z",
-          "summary": "Get practical, MSP-focused insights on using Windows Autopilot with Microsoft Intune to streamline device provisioning, reduce hands-on deployment time, and improve the onboarding experience for customers at scale. Learn real-world strategies that you can apply immediately, common pitfalls to avoid,",
-          "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "0BEdIf8HjTo",
-          "thumbnail": "https://i1.ytimg.com/vi/0BEdIf8HjTo/hqdefault.jpg"
-        },
-        {
-          "title": "Get more done with Narrator",
-          "link": "https://www.youtube.com/watch?v=SV0qfjG1Vs4",
-          "pubDate": "2026-04-21T04:13:41.000Z",
-          "summary": "Join the Windows Accessibility team at Microsoft to explore how Narrator, the built-in screen reader in Windows, is evolving to better support your productivity. We’ve been listening to community feedback and have made meaningful improvements that we’d love to share with you. What you'll take away: ",
-          "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "SV0qfjG1Vs4",
-          "thumbnail": "https://i4.ytimg.com/vi/SV0qfjG1Vs4/hqdefault.jpg"
-        },
-        {
-          "title": "Ask Microsoft Anything: Secure Boot",
-          "link": "https://www.youtube.com/watch?v=-l6Kncf1WLo",
-          "pubDate": "2026-04-15T22:33:50.000Z",
-          "summary": "Post your questions in advance at https://aka.ms/AMA/SecureBoot It's time for our fourth Ask Microsoft Anything (AMA) about updating Secure Boot certificates on your Windows devices before they expire in June of 2026. Need clarification or have a specific question? Join us to get the answers you nee",
-          "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "-l6Kncf1WLo",
-          "thumbnail": "https://i2.ytimg.com/vi/-l6Kncf1WLo/hqdefault.jpg"
-        },
-        {
-          "title": "Windows 365 AMA",
-          "link": "https://www.youtube.com/watch?v=8TJgSUhZ0Hc",
-          "pubDate": "2026-03-26T04:06:54.000Z",
-          "summary": "Post your questions now at https://aka.ms/AMA/Windows365/2603! Catch up on the latest capabilities for Windows 365 and get answers to your questions! Host Christian Montoya and members of the product and team provide answers and insights to help you configure, deploy, and manage Windows in the cloud",
-          "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "8TJgSUhZ0Hc",
-          "thumbnail": "https://i1.ytimg.com/vi/8TJgSUhZ0Hc/hqdefault.jpg"
-        },
-        {
-          "title": "Transitioning to post-quantum cryptography",
-          "link": "https://www.youtube.com/watch?v=whMu082qhVk",
-          "pubDate": "2026-03-24T06:32:18.000Z",
-          "summary": "Cryptographic algorithms for encryption, hashing, signing, and key agreements are the fundamental building blocks of many secure communication systems. They are also undergoing a transformational change. Quantum computers can break traditional algorithms that have been in use for the last 20+ years,",
-          "author": "<name>Windows IT Pro</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "whMu082qhVk",
-          "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-04-21T17:02:38.256Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-04-21T20:53:53.656Z",
+      "error": "HTTP 500"
     },
     {
       "id": "pod-runasradio",
@@ -2345,7 +2055,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:38.355Z",
+      "fetchedAt": "2026-04-21T20:53:53.770Z",
       "error": null
     },
     {
@@ -2402,7 +2112,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:38.251Z",
+      "fetchedAt": "2026-04-21T20:53:53.730Z",
       "error": null
     },
     {
@@ -2459,7 +2169,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-21T17:02:39.934Z",
+      "fetchedAt": "2026-04-21T20:53:54.614Z",
       "error": null
     }
   ]
