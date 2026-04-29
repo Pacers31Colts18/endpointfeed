@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T13:58:07.683Z",
+  "generatedAt": "2026-04-29T17:39:35.681Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -55,7 +55,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:57:58.795Z",
+      "fetchedAt": "2026-04-29T17:39:25.423Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:57:58.552Z",
+      "fetchedAt": "2026-04-29T17:39:25.163Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:57:58.689Z",
+      "fetchedAt": "2026-04-29T17:39:25.516Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-04-29T13:57:58.414Z",
+      "fetchedAt": "2026-04-29T17:39:24.927Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:57:59.041Z",
+      "fetchedAt": "2026-04-29T17:39:25.743Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:57:59.031Z",
+      "fetchedAt": "2026-04-29T17:39:25.734Z",
       "error": null
     },
     {
@@ -305,7 +305,7 @@
       "type": "rss",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-04-29T13:57:59.108Z",
+      "fetchedAt": "2026-04-29T17:39:25.768Z",
       "error": null
     },
     {
@@ -362,7 +362,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:57:59.337Z",
+      "fetchedAt": "2026-04-29T17:39:26.000Z",
       "error": null
     },
     {
@@ -383,7 +383,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:57:59.355Z",
+      "fetchedAt": "2026-04-29T17:39:26.043Z",
       "error": null
     },
     {
@@ -440,7 +440,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:57:59.436Z",
+      "fetchedAt": "2026-04-29T17:39:26.104Z",
       "error": null
     },
     {
@@ -497,7 +497,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:00.059Z",
+      "fetchedAt": "2026-04-29T17:39:26.707Z",
       "error": null
     },
     {
@@ -508,7 +508,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-04-29T13:57:59.528Z",
+      "fetchedAt": "2026-04-29T17:39:26.173Z",
       "error": "HTTP 403"
     },
     {
@@ -565,7 +565,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:01.378Z",
+      "fetchedAt": "2026-04-29T17:39:27.893Z",
       "error": null
     },
     {
@@ -622,7 +622,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:00.665Z",
+      "fetchedAt": "2026-04-29T17:39:27.306Z",
       "error": null
     },
     {
@@ -679,7 +679,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:00.431Z",
+      "fetchedAt": "2026-04-29T17:39:27.065Z",
       "error": null
     },
     {
@@ -689,9 +689,55 @@
       "color": "#005a9e",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-04-29T13:58:00.408Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
+          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
+          "pubDate": "2026-04-27T15:00:17.000Z",
+          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Parsing Intune Remediation JSON Output",
+          "link": "https://www.deploymentresearch.com/parsing-intune-remediation-json-output/",
+          "pubDate": "2026-04-23T01:56:57.000Z",
+          "summary": "Recently we've been discussing Secure Boot Certificate updates a lot. There have been many new tools to help us as administrators report on the status of those updates across our fleets and one of the popular tools has been a remediation script released by Microsoft found here: Monitoring Secure Boo",
+          "author": "Andrew Johnson",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "To Use or Not to Use MDT",
+          "link": "https://www.deploymentresearch.com/to-use-or-not-to-use-mdt/",
+          "pubDate": "2026-03-20T23:15:22.000Z",
+          "summary": "Windows deployment isn’t going anywhere, no matter how often Microsoft talks about a cloud-only future. Out in the real world, imaging, task sequences, and controlled builds are still critical for many organizations. MDT hasn’t been developed since 2019, aside from a BIOS detection patch in 2020, an",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Speeding up File Copy in a Computer Lab",
+          "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
+          "pubDate": "2026-02-26T14:17:31.000Z",
+          "summary": "In our labs, we often need to copy large files to multiple lab machines. These days, we have 10 GBE network cards on all file servers, but it wasn't long ago that we had only a 1 Gbps connection between the file server and the switch that connected the clients. To minimize the time it […] The post S",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Quick Tip – Enable vTPM on Hyper-V VMs",
+          "link": "https://www.deploymentresearch.com/quick-tip-enable-vtpm-on-hyper-v-vms/",
+          "pubDate": "2026-01-25T22:13:17.000Z",
+          "summary": "Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. The post Quick Tip – Enable vTPM on Hyper-V VMs appeared first on Deployment Research. ]]>",
+          "author": "Johan Arwidmark",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-04-29T17:39:31.060Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -747,7 +793,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:01.692Z",
+      "fetchedAt": "2026-04-29T17:39:31.442Z",
       "error": null
     },
     {
@@ -804,7 +850,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:01.601Z",
+      "fetchedAt": "2026-04-29T17:39:31.200Z",
       "error": null
     },
     {
@@ -861,7 +907,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:01.846Z",
+      "fetchedAt": "2026-04-29T17:39:31.432Z",
       "error": null
     },
     {
@@ -918,7 +964,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:01.482Z",
+      "fetchedAt": "2026-04-29T17:39:31.160Z",
       "error": null
     },
     {
@@ -975,7 +1021,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:03.488Z",
+      "fetchedAt": "2026-04-29T17:39:32.868Z",
       "error": null
     },
     {
@@ -1032,7 +1078,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:02.047Z",
+      "fetchedAt": "2026-04-29T17:39:31.480Z",
       "error": null
     },
     {
@@ -1089,7 +1135,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:02.312Z",
+      "fetchedAt": "2026-04-29T17:39:31.588Z",
       "error": null
     },
     {
@@ -1146,7 +1192,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:03.366Z",
+      "fetchedAt": "2026-04-29T17:39:32.525Z",
       "error": null
     },
     {
@@ -1203,7 +1249,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:03.600Z",
+      "fetchedAt": "2026-04-29T17:39:32.929Z",
       "error": null
     },
     {
@@ -1260,7 +1306,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:04.026Z",
+      "fetchedAt": "2026-04-29T17:39:33.186Z",
       "error": null
     },
     {
@@ -1290,7 +1336,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:03.723Z",
+      "fetchedAt": "2026-04-29T17:39:33.137Z",
       "error": null
     },
     {
@@ -1347,7 +1393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:03.515Z",
+      "fetchedAt": "2026-04-29T17:39:32.912Z",
       "error": null
     },
     {
@@ -1404,7 +1450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:04.141Z",
+      "fetchedAt": "2026-04-29T17:39:33.330Z",
       "error": null
     },
     {
@@ -1461,7 +1507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.050Z",
+      "fetchedAt": "2026-04-29T17:39:33.792Z",
       "error": null
     },
     {
@@ -1474,51 +1520,51 @@
       "items": [
         {
           "title": "TIL: How To Keep Bad Apps Out of Your Mac Fleet",
-          "link": "https://the-sequence.com/til-keep-bad-apps-out-of-your-mac-fleet",
+          "link": "https://www.iru.com/blog/archive/til-keep-bad-apps-out-of-your-mac-fleet",
           "pubDate": "2025-09-26T17:45:07.000Z",
-          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/til-keep-bad-apps-out-of-your-mac-fleet\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/TIL%20-%20App%20Blocking%20-%20Thumbnail%20%231.jpg\" alt=\"TIL: How To Keep Bad Apps Out of Your Mac Fle",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://www.iru.com/blog/archive/til-keep-bad-apps-out-of-your-mac-fleet\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://www.iru.com/hubfs/TIL%20-%20App%20Blocking%20-%20Thumbnail%20%231.jpg\" alt=\"TIL: How To Keep Bad Apps Out of Your Mac ",
           "author": "Iru Team",
           "categories": [],
           "type": "rss"
         },
         {
           "title": "Introducing the Kandji Referral Program",
-          "link": "https://the-sequence.com/kandji-referral-program",
+          "link": "https://www.iru.com/blog/archive/kandji-referral-program",
           "pubDate": "2025-09-17T13:49:42.000Z",
-          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/kandji-referral-program\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/Kandji%20Referral%20Program.png\" alt=\"Kandji Referral Program\" class=\"hs-featured-image\" style=\"width:auto !important; ",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://www.iru.com/blog/archive/kandji-referral-program\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://www.iru.com/hubfs/Kandji%20Referral%20Program.png\" alt=\"Kandji Referral Program\" class=\"hs-featured-image\" style=\"width:auto !importan",
           "author": "Iru Team",
           "categories": [],
           "type": "rss"
         },
         {
           "title": "The Kids Aren’t Alright: A Threat Intel Dad’s View of the Internet",
-          "link": "https://the-sequence.com/threat-intel-dads-view-of-the-internet",
+          "link": "https://www.iru.com/blog/archive/threat-intel-dads-view-of-the-internet",
           "pubDate": "2025-09-02T18:16:53.000Z",
-          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/threat-intel-dads-view-of-the-internet\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/kandji_header_op-ed_the-kids-arent-alright_20250818.jpg\" alt=\"The Kids Aren’t Alright: A Threat Intel Da",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://www.iru.com/blog/archive/threat-intel-dads-view-of-the-internet\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://www.iru.com/hubfs/kandji_header_op-ed_the-kids-arent-alright_20250818.jpg\" alt=\"The Kids Aren’t Alright: A Threat Intel",
           "author": "alex.gartner@kandji.io (Alex Gartner)",
           "categories": [],
           "type": "rss"
         },
         {
           "title": "TIL: How Kandji's Vulnerability Response Goes From Detection to Action",
-          "link": "https://the-sequence.com/til-vulnerability-response",
+          "link": "https://www.iru.com/blog/archive/til-vulnerability-response",
           "pubDate": "2025-08-22T21:28:21.000Z",
-          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/til-vulnerability-response\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/TIL-%20Vulnerability%20Response%20-%20Thumbnail%201.jpg\" alt=\"TIL: How Kandji's Vulnerability Response Goes From Det",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://www.iru.com/blog/archive/til-vulnerability-response\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://www.iru.com/hubfs/TIL-%20Vulnerability%20Response%20-%20Thumbnail%201.jpg\" alt=\"TIL: How Kandji's Vulnerability Response Goes From ",
           "author": "Andy Rana",
           "categories": [],
           "type": "rss"
         },
         {
           "title": "Close the Gap: How Kandji’s Vulnerability Response Turns Detection into Action",
-          "link": "https://the-sequence.com/demo-day-vulnerability-response",
+          "link": "https://www.iru.com/blog/archive/demo-day-vulnerability-response",
           "pubDate": "2025-08-20T13:54:18.000Z",
-          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://the-sequence.com/demo-day-vulnerability-response\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://the-sequence.com/hubfs/Demo%20Day%20Vuln%20Response.png\" alt=\"Close the Gap: How Kandji’s Vulnerability Response Turns Detection into ",
+          "summary": "<div class=\"hs-featured-image-wrapper\"> <a href=\"https://www.iru.com/blog/archive/demo-day-vulnerability-response\" title=\"\" class=\"hs-featured-image-link\"> <img src=\"https://www.iru.com/hubfs/Demo%20Day%20Vuln%20Response.png\" alt=\"Close the Gap: How Kandji’s Vulnerability Response Turns Detection in",
           "author": "Iru Team",
           "categories": [],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:04.190Z",
+      "fetchedAt": "2026-04-29T17:39:33.675Z",
       "error": null
     },
     {
@@ -1575,7 +1621,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:04.767Z",
+      "fetchedAt": "2026-04-29T17:39:33.973Z",
       "error": null
     },
     {
@@ -1586,7 +1632,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-04-29T13:58:05.483Z",
+      "fetchedAt": "2026-04-29T17:39:34.402Z",
       "error": "HTTP 404"
     },
     {
@@ -1597,7 +1643,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-04-29T13:58:05.128Z",
+      "fetchedAt": "2026-04-29T17:39:34.027Z",
       "error": "HTTP 403"
     },
     {
@@ -1664,7 +1710,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WjvN_XjMr6U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.140Z",
+      "fetchedAt": "2026-04-29T17:39:34.009Z",
       "error": null
     },
     {
@@ -1731,7 +1777,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/I733HydOilY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.338Z",
+      "fetchedAt": "2026-04-29T17:39:34.077Z",
       "error": null
     },
     {
@@ -1798,7 +1844,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O2usv4No_DI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.569Z",
+      "fetchedAt": "2026-04-29T17:39:34.529Z",
       "error": null
     },
     {
@@ -1865,7 +1911,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/eVZdlqL9J-0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.544Z",
+      "fetchedAt": "2026-04-29T17:39:34.411Z",
       "error": null
     },
     {
@@ -1932,7 +1978,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/AOC_9lJ7IOk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.557Z",
+      "fetchedAt": "2026-04-29T17:39:34.478Z",
       "error": null
     },
     {
@@ -1999,7 +2045,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/kBUiyiUQm5o/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.566Z",
+      "fetchedAt": "2026-04-29T17:39:34.489Z",
       "error": null
     },
     {
@@ -2066,7 +2112,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Mcx9xnmLCMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.776Z",
+      "fetchedAt": "2026-04-29T17:39:34.618Z",
       "error": null
     },
     {
@@ -2077,6 +2123,17 @@
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Recast App Workspace: Unified App Delivery Simplified #shorts",
+          "link": "https://www.youtube.com/shorts/OIW24f9y040",
+          "pubDate": "2026-04-29T16:01:41.000Z",
+          "summary": "Full video: https://youtu.be/g8HbHjN9joY Streamline custom application packaging with Recast Application Workspace. Seamlessly switch between office and remote access. Unified delivery across VDI, AVD, Windows, Macs, and more. #ITManagement #Intune #Microsoft #Windows #Mac #VDI #EndpointManagement #",
+          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/OIW24f9y040/hqdefault.jpg"
+        },
         {
           "title": "Recast: Effortless App Management & Smart Icons #shorts",
           "link": "https://www.youtube.com/shorts/vy2vEkVmnQg",
@@ -2120,20 +2177,9 @@
           "type": "youtube",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/dRmArfobG-A/hqdefault.jpg"
-        },
-        {
-          "title": "Arc-Enabled Servers: Centralized Control & Cloud Security #shorts",
-          "link": "https://www.youtube.com/shorts/EoPKRSxWWQg",
-          "pubDate": "2026-04-21T20:59:31.000Z",
-          "summary": "Full Video: https://youtu.be/ttb2a0_8p7o Arc-enable physical and virtual servers for a centralized inventory across all environments. Protect, monitor, and manage them with cloud-based security tools and Azure services, just like native Azure VMs.#AzureArc #Microsoft #Azure #Windows #HybridCloud #Mu",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/EoPKRSxWWQg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.645Z",
+      "fetchedAt": "2026-04-29T17:39:34.534Z",
       "error": null
     },
     {
@@ -2200,7 +2246,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/8dNtPtPovhs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.649Z",
+      "fetchedAt": "2026-04-29T17:39:34.732Z",
       "error": null
     },
     {
@@ -2267,7 +2313,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CWEQnRBhFLM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.639Z",
+      "fetchedAt": "2026-04-29T17:39:34.699Z",
       "error": null
     },
     {
@@ -2334,7 +2380,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.853Z",
+      "fetchedAt": "2026-04-29T17:39:34.808Z",
       "error": null
     },
     {
@@ -2391,7 +2437,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.940Z",
+      "fetchedAt": "2026-04-29T17:39:34.949Z",
       "error": null
     },
     {
@@ -2402,6 +2448,15 @@
       "type": "podcast",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
       "items": [
+        {
+          "title": "PowerShell & DevOps Global Summit Bar session with Josh & Jeff",
+          "link": "https://powershellpodcast.podbean.com/e/powershell-devops-global-summit-bar-session-with-josh-jeff/",
+          "pubDate": "2026-04-29T14:00:00.000Z",
+          "summary": "This episode of the PowerShell Podcast After Dark captures two candid bar-session conversations from the PowerShell and DevOps Global Summit, centered on community, career growth, and the real-world value of putting yourself out there. In the first segment, Josh Dearing talks about attending his fir",
+          "author": "",
+          "categories": [],
+          "type": "podcast"
+        },
         {
           "title": "From Event Logs to AI Workflows with Lucas Allman",
           "link": "https://powershellpodcast.podbean.com/e/from-event-logs-to-ai-workflows-with-lucas-allman/",
@@ -2437,18 +2492,9 @@
           "author": "",
           "categories": [],
           "type": "podcast"
-        },
-        {
-          "title": "Intune Stack and the Art of Showing Up with Hailey Phillips",
-          "link": "https://powershellpodcast.podbean.com/e/intune-stack-and-the-art-of-showing-up-with-hailey-phillips/",
-          "pubDate": "2026-04-06T14:00:00.000Z",
-          "summary": "IntuneStack in action: Hailey's CI/CD-influenced PowerShell project manages Intune policy deployment across dev, test, and prod groups using promotion gates rather than expensive separate tenants — a more resilient, consistent, and auditable approach to endpoint management. Consistency over inspirat",
-          "author": "",
-          "categories": [],
-          "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:05.853Z",
+      "fetchedAt": "2026-04-29T17:39:34.822Z",
       "error": null
     },
     {
@@ -2505,7 +2551,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-29T13:58:07.682Z",
+      "fetchedAt": "2026-04-29T17:39:35.681Z",
       "error": null
     }
   ]
