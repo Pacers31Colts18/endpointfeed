@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T17:21:58.982Z",
+  "generatedAt": "2026-04-30T21:01:24.495Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -9,6 +9,15 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Windows Server 2025 in-place upgrade via Windows Update: prerequisites, steps, and limits",
+          "link": "https://4sysops.com/archives/windows-server-2025-in-place-upgrade-via-windows-update-prerequisites-steps-and-limits/",
+          "pubDate": "2026-04-30T20:23:33.000Z",
+          "summary": "Starting in mid-April 2026, Microsoft allows you to upgrade Windows Server 2019 and Windows Server 2022 directly to Windows Server 2025 through Windows Update — no installation media (ISO file or DVD) required. The process is called an in-place upgrade, meaning your installed applications, settings,",
+          "author": "IT Experts",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Windows 365 Reserve: user-initiated Cloud PC provisioning",
           "link": "https://4sysops.com/archives/windows-365-reserve-user-initiated-cloud-pc-provisioning/",
@@ -44,18 +53,9 @@
           "author": "IT Experts",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Windows 11 update control: Skip, pause, and restart without forced installs",
-          "link": "https://4sysops.com/archives/windows-11-update-control-skip-pause-and-restart-without-forced-installs/",
-          "pubDate": "2026-04-27T17:23:55.000Z",
-          "summary": "Microsoft is rolling out several long-requested changes to the Windows Update experience in Windows 11. You can now skip updates during initial device setup, pause them for up to 35 days with no limit on how many times you extend the pause, and restart or shut down your PC without being forced to in",
-          "author": "IT Experts",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:49.658Z",
+      "fetchedAt": "2026-04-30T21:01:14.260Z",
       "error": null
     },
     {
@@ -112,7 +112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:49.598Z",
+      "fetchedAt": "2026-04-30T21:01:14.186Z",
       "error": null
     },
     {
@@ -169,7 +169,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:50.068Z",
+      "fetchedAt": "2026-04-30T21:01:14.613Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-04-30T17:21:48.983Z",
+      "fetchedAt": "2026-04-30T21:01:13.818Z",
       "error": "HTTP 403"
     },
     {
@@ -237,7 +237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:50.330Z",
+      "fetchedAt": "2026-04-30T21:01:14.969Z",
       "error": null
     },
     {
@@ -294,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:50.561Z",
+      "fetchedAt": "2026-04-30T21:01:15.081Z",
       "error": null
     },
     {
@@ -305,7 +305,7 @@
       "type": "rss",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-04-30T17:21:50.372Z",
+      "fetchedAt": "2026-04-30T21:01:15.177Z",
       "error": null
     },
     {
@@ -315,9 +315,55 @@
       "color": "#0078d4",
       "type": "rss",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
-      "items": [],
-      "fetchedAt": "2026-04-30T17:21:50.424Z",
-      "error": "HTTP 403"
+      "items": [
+        {
+          "title": "Speed where it matters: How Microsoft Intune helps IT prioritize time-sensitive actions",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/speed-where-it-matters-how-microsoft-intune-helps-it-prioritize/ba-p/4515942",
+          "pubDate": "2026-04-30T15:47:22.000Z",
+          "summary": "<P><STRONG>By: Albert Cabello Serrano | Principal Product Manager - Microsoft Intune</STRONG></P> <P><EM>A closer look at how Intune delivers updates to devices and the investments we’re making to help important changes move faster and more predictably.</EM></P> <P>A common concern we hear from IT a",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Unpacking Endpoint Management is back - and we’ve got a lot to talk about",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/unpacking-endpoint-management-is-back-and-we-ve-got-a-lot-to/ba-p/4514599",
+          "pubDate": "2026-04-25T00:05:17.000Z",
+          "summary": "<P>If you’ve been missing real, candid conversations about endpoint management, good news! <EM>Unpacking Endpoint Management</EM> is officially back.</P> <P>This series is all about what actually works. No fluff, just practical tips, proven strategies, and honest discussions to help you optimize and",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "As vulnerability discovery moves at AI speed, keeping current is foundational to reduce exposure",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/as-vulnerability-discovery-moves-at-ai-speed-keeping-current-is/ba-p/4513766",
+          "pubDate": "2026-04-22T22:35:25.000Z",
+          "summary": "<P>Recent advances in automation and AI are accelerating vulnerability discovery and shortening the window between disclosure and exploitation. As Microsoft outlined in our recent&nbsp;<A class=\"lia-external-url\" href=\"https://aka.ms/prioritizingdefense\" target=\"_blank\" rel=\"noopener\">Security blog<",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Migrating Frontline Mobile Devices: Understanding the reality of your estate",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/migrating-frontline-mobile-devices-understanding-the-reality-of/ba-p/4511683",
+          "pubDate": "2026-04-15T21:04:35.000Z",
+          "summary": "<P><STRONG>By: Carol Burns - Principal Product Manager | Microsoft Intune and Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune)</STRONG></P> <P><EM>Practitioner perspective from <STRONG>Sucheta Gawade</STRONG>, Microsoft MVP (Azure &amp; Security / Intune), with deep experience in secure",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Create historical reports using Azure Log Analytics and Microsoft Intune diagnostic data",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/create-historical-reports-using-azure-log-analytics-and/ba-p/4508971",
+          "pubDate": "2026-04-07T23:27:45.000Z",
+          "summary": "<P><STRONG><SPAN data-contrast=\"auto\">By: Janusz Gal – Sr Product Manager | Microsoft Intune</SPAN></STRONG></P> <P>Azure Log Analytics gives Intune admins a flexible way to create custom reports from diagnostic data, especially when you need longer history or tailored calculations that go beyond wh",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-04-30T21:01:15.209Z",
+      "error": null
     },
     {
       "id": "whatsnewintune",
@@ -337,7 +383,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:50.578Z",
+      "fetchedAt": "2026-04-30T21:01:15.254Z",
       "error": null
     },
     {
@@ -394,7 +440,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:50.677Z",
+      "fetchedAt": "2026-04-30T21:01:15.328Z",
       "error": null
     },
     {
@@ -451,7 +497,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:51.692Z",
+      "fetchedAt": "2026-04-30T21:01:16.314Z",
       "error": null
     },
     {
@@ -462,7 +508,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-04-30T17:21:50.914Z",
+      "fetchedAt": "2026-04-30T21:01:15.378Z",
       "error": "HTTP 403"
     },
     {
@@ -519,7 +565,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:53.253Z",
+      "fetchedAt": "2026-04-30T21:01:17.709Z",
       "error": null
     },
     {
@@ -576,7 +622,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:52.423Z",
+      "fetchedAt": "2026-04-30T21:01:17.125Z",
       "error": null
     },
     {
@@ -633,7 +679,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:52.332Z",
+      "fetchedAt": "2026-04-30T21:01:16.734Z",
       "error": null
     },
     {
@@ -690,7 +736,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:52.404Z",
+      "fetchedAt": "2026-04-30T21:01:18.100Z",
       "error": null
     },
     {
@@ -747,7 +793,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:53.614Z",
+      "fetchedAt": "2026-04-30T21:01:18.413Z",
       "error": null
     },
     {
@@ -804,7 +850,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:53.358Z",
+      "fetchedAt": "2026-04-30T21:01:18.319Z",
       "error": null
     },
     {
@@ -814,9 +860,55 @@
       "color": "#005a9e",
       "type": "rss",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog",
-      "items": [],
-      "fetchedAt": "2026-04-30T17:21:53.304Z",
-      "error": "HTTP 403"
+      "items": [
+        {
+          "title": "Announcing the Annual Release Cadence for Microsoft Configuration Manager",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/announcing-the-annual-release-cadence-for-microsoft/ba-p/4464794",
+          "pubDate": "2025-11-07T19:02:56.000Z",
+          "summary": "<P>Starting with version 2609, Microsoft Configuration Manager will transition to an annual release cadence. This change is a formalization of the direction we’ve communicated at events and in customer conversations. Microsoft Intune is the future of device management, and all new innovations will o",
+          "author": "Danny_Guillory",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Update 2409 for Microsoft Configuration Manager current branch is now available.",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/update-2409-for-microsoft-configuration-manager-current-branch/ba-p/4351640",
+          "pubDate": "2024-12-16T18:44:36.000Z",
+          "summary": "<P>&nbsp;</P> <P>Update 2409 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2303 or later. This article summarizes the changes and new features in Configuration Manager, version 2409.</P> <P>&nbsp;</P> <H3>Configuration Mana",
+          "author": "Bala_Delli",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Configuration Manager technical preview version 2411",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/configuration-manager-technical-preview-version-2411/ba-p/4349866",
+          "pubDate": "2024-12-16T17:23:25.000Z",
+          "summary": "<P>&nbsp;</P> <H2>Operating System support added for Windows 11 24H2 and Windows Server 2025</H2> <P>&nbsp;</P> <P>With this version of Configuration Manager, support is added for Windows 11 24H2 and Windows Server 2025.</P> <UL> <LI>Windows 11 24H2 &amp; Windows Server 2025 are added to Product lif",
+          "author": "Bala_Delli",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Configuration Manager technical preview version 2405",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/configuration-manager-technical-preview-version-2405/ba-p/4162763",
+          "pubDate": "2024-06-26T15:07:23.000Z",
+          "summary": "<DIV class=\"heading-wrapper\" data-heading-level=\"h2\"> <H2 class=\"heading-anchor\">&nbsp;</H2> <H2 id=\"bkmk_Sqlepa\" class=\"heading-anchor\">Configuration Manager now supports SQL Extended Protection for Authentication</H2> <P>&nbsp;</P> </DIV> <P>Configuration Manager now supports SQL Extended Protecti",
+          "author": "Bala_Delli",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Update 2403 for Microsoft Configuration Manager current branch is now available.",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/update-2403-for-microsoft-configuration-manager-current-branch/ba-p/4119853",
+          "pubDate": "2024-05-14T04:45:41.000Z",
+          "summary": "<P>&nbsp;</P> <P>&nbsp;</P> <P class=\"lia-align-left\"><SPAN>Update 2403 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2211 or later. When installing a new site, it will also be available as a&nbsp;</SPAN><A href=\"https://le",
+          "author": "Bala_Delli",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-04-30T21:01:18.473Z",
+      "error": null
     },
     {
       "id": "oofhours",
@@ -872,7 +964,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:53.333Z",
+      "fetchedAt": "2026-04-30T21:01:18.341Z",
       "error": null
     },
     {
@@ -929,7 +1021,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:55.629Z",
+      "fetchedAt": "2026-04-30T21:01:20.328Z",
       "error": null
     },
     {
@@ -986,7 +1078,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:53.703Z",
+      "fetchedAt": "2026-04-30T21:01:18.607Z",
       "error": null
     },
     {
@@ -1043,7 +1135,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:53.796Z",
+      "fetchedAt": "2026-04-30T21:01:18.749Z",
       "error": null
     },
     {
@@ -1100,7 +1192,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:54.900Z",
+      "fetchedAt": "2026-04-30T21:01:19.775Z",
       "error": null
     },
     {
@@ -1157,7 +1249,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:55.722Z",
+      "fetchedAt": "2026-04-30T21:01:20.504Z",
       "error": null
     },
     {
@@ -1167,9 +1259,55 @@
       "color": "#d83b01",
       "type": "rss",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
-      "items": [],
-      "fetchedAt": "2026-04-30T17:21:55.688Z",
-      "error": "HTTP 403"
+      "items": [
+        {
+          "title": "Microsoft 365 Backup granular restore now generally available!",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-backup-granular-restore-now-generally-available/ba-p/4515936",
+          "pubDate": "2026-04-29T18:05:47.000Z",
+          "summary": "<P><SPAN data-contrast=\"auto\">Data recovery&nbsp;shouldn’t&nbsp;feel like an all-or-nothing decision.&nbsp;Until now,&nbsp;</SPAN><A href=\"https://aka.ms/M365Backup\" target=\"_blank\" rel=\"noopener\"><SPAN data-contrast=\"none\"><SPAN data-ccp-charstyle=\"Hyperlink\">Microsoft 365 Backup</SPAN></SPAN></A><",
+          "author": "diksha050",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Register today for the Microsoft 365 Archive + Orchestry webinar",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/register-today-for-the-microsoft-365-archive-orchestry-webinar/ba-p/4513788",
+          "pubDate": "2026-04-23T17:58:36.000Z",
+          "summary": "<P>Join us for a live webinar on May 7, 9:00 am PDT, with Trent Green, Microsoft, and David Francoeur, Orchestry, to learn more about what file-level archiving does, how it works, and how to turn it into a scalable, automated strategy across your tenant.</P> <P><A href=\"https://www.orchestry.com/web",
+          "author": "wbaer",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Debugging the future of work: Microsoft 365 Community Conference 2026",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/debugging-the-future-of-work-microsoft-365-community-conference/ba-p/4511750",
+          "pubDate": "2026-04-16T21:10:35.000Z",
+          "summary": "<P>Building in the era of AI can get very challenging. That’s exactly why we’re here to help you debug, refactor, and level up at the Microsoft 365 Community Conference, happening April 21–23, 2026 in Orlando, FL. Whether you’re a developer ready to scale your skillset or a power user looking to upg",
+          "author": "JonJones_MSFT",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "AI is a Team Sport – Announcing our first wave of Guest Speakers at M365 Community Conference 2026",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/ai-is-a-team-sport-announcing-our-first-wave-of-guest-speakers/ba-p/4511314",
+          "pubDate": "2026-04-18T18:48:01.000Z",
+          "summary": "<P>What do championship athletes, enterprise innovators, and community leaders all have in common?</P> <P>They know that transformation does not happen in isolation. It happens when teams come together with a shared goal, the right strategy, and the courage to try something new.</P> <P>That is why a",
+          "author": "JonJones_MSFT",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Apply sensitivity labels with custom permissions in Office for the web",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/apply-sensitivity-labels-with-custom-permissions-in-office-for/ba-p/4507823",
+          "pubDate": "2026-04-14T14:35:34.000Z",
+          "summary": "<P><SPAN data-contrast=\"auto\">We’re excited to announce that support for applying sensitivity labels with user-defined permissions is now rolling out in Word, Excel, and PowerPoint for the web.</SPAN></P> <P><SPAN data-contrast=\"auto\">In the past, users were limited to opening and editing files with",
+          "author": "Camille_Birch",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-04-30T21:01:20.591Z",
+      "error": null
     },
     {
       "id": "microsoftofficesemiannualchannel",
@@ -1198,7 +1336,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:55.991Z",
+      "fetchedAt": "2026-04-30T21:01:20.736Z",
       "error": null
     },
     {
@@ -1255,7 +1393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:55.673Z",
+      "fetchedAt": "2026-04-30T21:01:20.481Z",
       "error": null
     },
     {
@@ -1312,7 +1450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:56.168Z",
+      "fetchedAt": "2026-04-30T21:01:20.898Z",
       "error": null
     },
     {
@@ -1369,7 +1507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:56.855Z",
+      "fetchedAt": "2026-04-30T21:01:21.620Z",
       "error": null
     },
     {
@@ -1426,7 +1564,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:56.345Z",
+      "fetchedAt": "2026-04-30T21:01:21.402Z",
       "error": null
     },
     {
@@ -1483,7 +1621,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:57.167Z",
+      "fetchedAt": "2026-04-30T21:01:22.367Z",
       "error": null
     },
     {
@@ -1494,7 +1632,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-04-30T17:21:57.805Z",
+      "fetchedAt": "2026-04-30T21:01:23.221Z",
       "error": "HTTP 404"
     },
     {
@@ -1505,7 +1643,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-04-30T17:21:57.334Z",
+      "fetchedAt": "2026-04-30T21:01:22.485Z",
       "error": "HTTP 403"
     },
     {
@@ -1572,7 +1710,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WjvN_XjMr6U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:57.490Z",
+      "fetchedAt": "2026-04-30T21:01:22.803Z",
       "error": null
     },
     {
@@ -1639,7 +1777,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/I733HydOilY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:57.488Z",
+      "fetchedAt": "2026-04-30T21:01:22.814Z",
       "error": null
     },
     {
@@ -1706,7 +1844,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O2usv4No_DI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:57.834Z",
+      "fetchedAt": "2026-04-30T21:01:23.357Z",
       "error": null
     },
     {
@@ -1717,6 +1855,17 @@
       "type": "youtube",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw",
       "items": [
+        {
+          "title": "Windows 11 updates without reboots? Hotpatch in Intune explained",
+          "link": "https://www.youtube.com/watch?v=BimgLntnD3A",
+          "pubDate": "2026-04-30T20:18:33.000Z",
+          "summary": "Windows 11 Hotpatch is becoming a big deal for IT admins. From May, eligible Windows 11 devices will receive hotpatch updates by default, allowing monthly quality updates to install without requiring a reboot. In this video, I explain what Windows Hotpatch is, which devices are eligible, how baselin",
+          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
+          "categories": [],
+          "type": "youtube",
+          "videoId": "BimgLntnD3A",
+          "thumbnail": "https://i3.ytimg.com/vi/BimgLntnD3A/hqdefault.jpg"
+        },
         {
           "title": "What are the steps to \"cloud native\"?",
           "link": "https://www.youtube.com/watch?v=bEtcWsxKxsM",
@@ -1760,20 +1909,9 @@
           "type": "youtube",
           "videoId": "iVUUkgyZsTk",
           "thumbnail": "https://i2.ytimg.com/vi/iVUUkgyZsTk/hqdefault.jpg"
-        },
-        {
-          "title": "Don't miss this License Verification checkbox!",
-          "link": "https://www.youtube.com/watch?v=eVZdlqL9J-0",
-          "pubDate": "2026-02-16T13:01:13.000Z",
-          "summary": "Ever tried to use an Intune feature only to find it’s grayed out with a message saying Windows license verification is required? In this video, I show you exactly why this happens and where to go in the Intune portal to enable Windows license verification — so features like Remediations become avail",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "youtube",
-          "videoId": "eVZdlqL9J-0",
-          "thumbnail": "https://i2.ytimg.com/vi/eVZdlqL9J-0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:57.820Z",
+      "fetchedAt": "2026-04-30T21:01:23.348Z",
       "error": null
     },
     {
@@ -1840,7 +1978,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QUVHPsoIAbY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:57.989Z",
+      "fetchedAt": "2026-04-30T21:01:23.600Z",
       "error": null
     },
     {
@@ -1907,7 +2045,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/kBUiyiUQm5o/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:57.848Z",
+      "fetchedAt": "2026-04-30T21:01:23.595Z",
       "error": null
     },
     {
@@ -1974,7 +2112,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Mcx9xnmLCMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:58.009Z",
+      "fetchedAt": "2026-04-30T21:01:23.719Z",
       "error": null
     },
     {
@@ -2041,7 +2179,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dRmArfobG-A/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:58.229Z",
+      "fetchedAt": "2026-04-30T21:01:23.711Z",
       "error": null
     },
     {
@@ -2108,7 +2246,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3rHfUp2t1F8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:58.155Z",
+      "fetchedAt": "2026-04-30T21:01:23.722Z",
       "error": null
     },
     {
@@ -2175,7 +2313,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CWEQnRBhFLM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:58.155Z",
+      "fetchedAt": "2026-04-30T21:01:23.762Z",
       "error": null
     },
     {
@@ -2242,7 +2380,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:58.250Z",
+      "fetchedAt": "2026-04-30T21:01:23.920Z",
       "error": null
     },
     {
@@ -2299,7 +2437,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:58.287Z",
+      "fetchedAt": "2026-04-30T21:01:24.006Z",
       "error": null
     },
     {
@@ -2356,7 +2494,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:58.332Z",
+      "fetchedAt": "2026-04-30T21:01:23.955Z",
       "error": null
     },
     {
@@ -2413,7 +2551,7 @@
           "type": "podcast"
         }
       ],
-      "fetchedAt": "2026-04-30T17:21:58.982Z",
+      "fetchedAt": "2026-04-30T21:01:24.495Z",
       "error": null
     }
   ]
