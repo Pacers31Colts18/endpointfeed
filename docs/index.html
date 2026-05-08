@@ -552,6 +552,11 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 10px; color: var(--text-mute); white-space: nowrap;
     }
+    .mvp-badge {
+      font-size: 9px; font-weight: 700; letter-spacing: 0.06em;
+      padding: 2px 5px; border-radius: 3px; flex-shrink: 0;
+      background: #0078d4; color: #fff; white-space: nowrap;
+    }
     .new-card-thumb {
       width: 100%; aspect-ratio: 16/9;
       object-fit: cover; display: block;
@@ -856,7 +861,7 @@ function renderAll(query) {
     if (feed.type !== 'rss') continue;
     for (const item of (feed.items || [])) {
       if (withinWindow(item) && matchesQuery(item))
-        articleItems.push({ ...item, _feedLabel: feed.label, _feedColor: feed.color });
+        articleItems.push({ ...item, _feedLabel: feed.label, _feedMvp: !!feed.mvp });
     }
   }
   articleItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
@@ -926,6 +931,7 @@ function buildBlogPostsSection(items, delay, query) {
     card.innerHTML = `
       <div class="new-card-top" style="background:${topBg}">
         <span class="new-card-source">${esc(item._feedLabel)}</span>
+        ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
         ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
       </div>
       <div class="new-card-body">
@@ -956,7 +962,7 @@ function buildCatSection(cat, feeds, delay, query) {
   // Collect + sort all items across feeds
   const allItems = [];
   feeds.forEach(feed => {
-    (feed.items || []).forEach(item => allItems.push({ ...item, _feedLabel: feed.label, _sectionColor: cat.color }));
+    (feed.items || []).forEach(item => allItems.push({ ...item, _feedLabel: feed.label, _sectionColor: cat.color, _feedMvp: !!feed.mvp }));
   });
   allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
@@ -1012,6 +1018,7 @@ function buildVideoCard(item, delay) {
   card.innerHTML = `
     <div class="new-card-top" style="background:${topBg}">
       <span class="new-card-source">${esc(item._feedLabel || '')}</span>
+      ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
       ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
     </div>
     ${thumb ? `<img class="new-card-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : ''}
@@ -1035,6 +1042,7 @@ function buildAudioCard(item, delay) {
   card.innerHTML = `
     <div class="new-card-top" style="background:${topBg}">
       <span class="new-card-source">${esc(item._feedLabel || '')}</span>
+      ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
       ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
     </div>
     <div class="new-card-body">
