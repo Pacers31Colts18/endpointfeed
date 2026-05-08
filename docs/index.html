@@ -646,26 +646,30 @@
 </footer>
 
 <script>
-/* ── Categories ─────────────────────────────────────────── */
+/* ── Media categories (Video + Audio only) ───────────────── */
 const CATEGORIES = [
-  { id:'intune',     label:'Intune',                icon:'🔷', color:'#00a4ef' },
-  { id:'sccm',       label:'SCCM / ConfigMgr / WSUS',      icon:'🟩', color:'#7fba00' },
-  { id:'security',   label:'Endpoint Security',      icon:'🔴', color:'#f25022' },
-  { id:'m365',       label:'M365 / Office 365',      icon:'🟡', color:'#ffb900' },
-  { id:'entra',      label:'Azure AD / Entra ID',    icon:'🔷', color:'#00a4ef' },
-  { id:'powershell', label:'PowerShell / Scripting',  icon:'🟩', color:'#7fba00' },
-  { id:'avd',        label:'Azure Virtual Desktop',  icon:'🔷', color:'#00a4ef' },
-  { id:'apple',      label:'Apple',                  icon:'⬜', color:'#909090' },
-  { id:'video',      label:'Video',                  icon:'🔴', color:'#f25022' },
-  { id:'audio',      label:'Podcasts / Audio',        icon:'🔷', color:'#00a4ef' },
+  { id:'video', label:'Video',           color:'#f25022' },
+  { id:'audio', label:'Podcasts / Audio', color:'#00a4ef' },
 ];
 
-// Cycle through the 4 MS colors for category bars
-const MS_COLORS = ['#00a4ef','#f25022','#7fba00','#ffb900'];
-CATEGORIES.forEach((c, i) => { if (c.color === '#00a4ef' || c.color === '#7fba00' || c.color === '#f25022' || c.color === '#ffb900') return; c.color = MS_COLORS[i % 4]; });
+// Labels/colors for the New section feed badges (feed.category → display)
+const CAT_BADGE = {
+  intune:     { label:'Intune',      color:'#00a4ef' },
+  sccm:       { label:'ConfigMgr',   color:'#7fba00' },
+  security:   { label:'Security',    color:'#f25022' },
+  m365:       { label:'M365',        color:'#ffb900' },
+  entra:      { label:'Entra ID',    color:'#00a4ef' },
+  powershell: { label:'PowerShell',  color:'#7fba00' },
+  avd:        { label:'AVD',         color:'#00a4ef' },
+  apple:      { label:'Apple',       color:'#909090' },
+  video:      { label:'Video',       color:'#f25022' },
+  audio:      { label:'Audio',       color:'#00a4ef' },
+};
+
+const ARTICLES_CAT = { id: 'articles', label: 'Articles', color: '#5b8dee' };
 
 let allFeeds = [];
-let openSet  = new Set(['new', 'intune']);
+let openSet  = new Set(['new', 'articles']);
 let allOpen  = false;
 
 /* ── Theme ──────────────────────────────────────────────── */
@@ -690,10 +694,10 @@ function buildToolbar() {
   bar.querySelectorAll('.cat-pill, .toolbar-divider').forEach(e => e.remove());
   const sw = bar.querySelector('.search-wrap');
 
-  const allPill = makePill('All', '#888', null);
-  bar.insertBefore(allPill, sw);
-  bar.insertBefore(makePill('New', '#7fba00', 'new'), sw);
+  bar.insertBefore(makePill('All', '#888', null), sw);
+  bar.insertBefore(makePill('New', '#34c759', 'new'), sw);
   bar.insertBefore(makeDivider(), sw);
+  bar.insertBefore(makePill(ARTICLES_CAT.label, ARTICLES_CAT.color, ARTICLES_CAT.id), sw);
   CATEGORIES.forEach(cat => bar.insertBefore(makePill(cat.label, cat.color, cat.id), sw));
 }
 
@@ -722,12 +726,12 @@ function makeDivider() {
 function toggleAll() {
   allOpen = !allOpen;
   if (allOpen) {
-    openSet.add('new'); CATEGORIES.forEach(c => openSet.add(c.id));
+    openSet.add('new'); openSet.add('articles'); CATEGORIES.forEach(c => openSet.add(c.id));
     document.querySelectorAll('.cat-section').forEach(s => s.classList.add('open'));
     document.getElementById('expand-btn').textContent = '− collapse all';
   } else {
-    openSet.clear(); openSet.add('new'); openSet.add('intune');
-    document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id === 'cat-intune'));
+    openSet.clear(); openSet.add('new'); openSet.add('articles');
+    document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id === 'cat-articles'));
     document.getElementById('expand-btn').textContent = '+ expand all';
   }
 }
@@ -783,18 +787,27 @@ function renderAll(query) {
   if (!query) {
     const newItems = [];
     for (const feed of allFeeds) {
-      const cat = CATEGORIES.find(c => c.id === feed.category);
-      if (!cat) continue;
+      const badge = CAT_BADGE[feed.category] || ARTICLES_CAT;
       for (const item of (feed.items || [])) {
         const pub = item.pubDate ? new Date(item.pubDate) : null;
         if (pub && (now - pub.getTime()) < NEW_THRESHOLD)
-          newItems.push({ ...item, _feedLabel: feed.label, _cat: cat });
+          newItems.push({ ...item, _feedLabel: feed.label, _cat: badge });
       }
     }
     newItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
     if (newItems.length) { container.appendChild(buildNewSection(newItems, delay)); delay += 45; }
   }
 
+  // Single Articles section for all RSS feeds
+  const articleFeeds = allFeeds
+    .filter(f => f.type === 'rss')
+    .map(f => ({ ...f, items: (f.items||[]).filter(i => !query || (i.title+' '+(i.summary||'')).toLowerCase().includes(query)) }));
+  if (articleFeeds.length && (!query || articleFeeds.reduce((a,f) => a+f.items.length, 0) > 0)) {
+    container.appendChild(buildCatSection(ARTICLES_CAT, articleFeeds, delay, query));
+    delay += 45;
+  }
+
+  // Video and Audio sections
   for (const cat of CATEGORIES) {
     const feeds = allFeeds.filter(f => f.category === cat.id).map(f => ({
       ...f, items: (f.items||[]).filter(i => !query || (i.title+' '+(i.summary||'')).toLowerCase().includes(query))
