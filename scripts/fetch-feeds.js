@@ -32,12 +32,14 @@ const FEEDS = [
   {
     id: "andrewstaylor",
     label: "andrewstaylor.com",
+    mvp: true,
     type: "rss",
     url: "https://andrewstaylor.com/feed/",
   },
   {
     id: "skiptotheendpoint",
     label: "skiptotheendpoint.co.uk",
+    mvp: true,
     type: "rss",
     url: "https://skiptotheendpoint.co.uk/rss/",
   },
@@ -116,12 +118,14 @@ const FEEDS = [
   {
     id: "garytown",
     label: "garytown.com - Gary Blok",
+    mvp: true,
     type: "rss",
     url: "https://garytown.com/feed",
   },
   {
     id: "deploymentresearch",
     label: "deploymentresearch.com - Johan Arwidmark",
+    mvp: true,
     type: "rss",
     url: "https://www.deploymentresearch.com/feed",
   },
@@ -146,6 +150,7 @@ const FEEDS = [
   {
     id: "oofhours",
     label: "oofhours.com - Mike Niehaus",
+    mvp: true,
     type: "rss",
     url: "https://oofhours.com/feed/",
   },
@@ -164,18 +169,21 @@ const FEEDS = [
   {
     id: "nathanmcnulty",
     label: "nathanmcnulty.com - Nathan McNulty",
+    mvp: true,
     type: "rss",
     url: "https://nathanmcnulty.com/index.xml",
   },
   {
     id: "mobile-jon",
     label: "mobile-jon.com",
+    mvp: true,
     type: "rss",
     url: "https://mobile-jon.com/feed/",
   },
   {
     id: "bigchriscloud",
     label: "bigchriscloud.com - Chris Cavazos",
+    mvp: true,
     type: "rss",
     url: "https://bigchriscloud.com/feed/",
   },
@@ -218,6 +226,7 @@ const FEEDS = [
   {
     id: "conditionalaccess",
     label: "conditionalaccess.uk - Lewis Berry",
+    mvp: true,
     type: "rss",
     url: "https://conditionalaccess.uk/blog/feed/",
   },
@@ -248,6 +257,7 @@ const FEEDS = [
   {
     id: "deploymentbunny",
     label: "deploymentbunny.com - Mikael Nyström",
+    mvp: true,
     type: "rss",
     url: "https://deploymentbunny.com/feed/",
   },
@@ -281,6 +291,7 @@ const FEEDS = [
   {
     id: "yt-savill",
     label: "John Savill Tech Training",
+    mvp: true,
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
   },
@@ -299,18 +310,21 @@ const FEEDS = [
   {
     id: "yt-deanellerby",
     label: "Dean Ellerby",
+    mvp: true,
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw",
   },
   {
     id: "yt-getrubix",
     label: "Get Rubix",
+    mvp: true,
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
   },
   {
     id: "yt-bearded365",
     label: "Bearded 365 Guy",
+    mvp: true,
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg",
   },
@@ -323,6 +337,7 @@ const FEEDS = [
   {
     id: "yt-travis",
     label: "Travis Roberts",
+    mvp: true,
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
   },
