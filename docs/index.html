@@ -520,10 +520,6 @@
 
     /* NEW SECTION */
     .new-feed-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; animation: cardIn 0.25s ease forwards; opacity: 0; }
-    .new-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--border); text-decoration: none; color: inherit; transition: background 0.1s; }
-    .new-item:last-child { border-bottom: none; }
-    .new-item:hover { background: var(--bg-hover); }
-    .new-item:hover .new-item-title { color: var(--accent); }
     .new-cat-tag { flex-shrink: 0; font-family: "Barlow", sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.2px; padding: 2px 8px; border-radius: 3px; border: 1px solid; white-space: nowrap; }
 
     /* New section — card grid */
@@ -580,6 +576,20 @@
     }
 
     @media (max-width: 680px) { .new-card-grid { grid-template-columns: 1fr; } }
+
+    /* Day-range selector inside New section header */
+    .day-pills { display: flex; gap: 3px; }
+    .day-pill {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-mute);
+      font-family: 'Barlow', sans-serif;
+      font-size: 10px; font-weight: 600;
+      padding: 1px 7px; border-radius: 3px;
+      cursor: pointer; transition: all 0.12s;
+    }
+    .day-pill:hover { border-color: var(--new-fg); color: var(--new-fg); }
+    .day-pill.active { border-color: var(--new-fg); color: var(--new-fg); background: var(--new-bg); }
     /* ── LOADING ── */
     #loading {
       padding: 70px 0; text-align: center; color: var(--text-mute);
@@ -643,15 +653,6 @@
       white-space: nowrap;
     }
     .new-item-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
-    .new-item-title {
-      font-size: 13px; font-weight: 500; color: var(--text);
-      line-height: 1.4; transition: color 0.1s;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    }
-    .new-item-meta {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10px; color: var(--text-mute); display: flex; gap: 8px;
-    }
   </style>
 </head>
 <body>
@@ -704,11 +705,12 @@ const CATEGORIES = [
   { id:'audio', label:'Podcasts / Audio', color:'#00a4ef' },
 ];
 
-const ARTICLES_CAT = { id: 'articles', label: 'Articles', color: '#5b8dee' };
+const ARTICLES_CAT = { id: 'articles', label: 'Blog Posts', color: '#5b8dee' };
 
 let allFeeds = [];
 let openSet  = new Set(['new', 'articles']);
 let allOpen  = false;
+let newDays  = 7;
 
 /* ── Theme ──────────────────────────────────────────────── */
 function toggleTheme() {
@@ -813,38 +815,44 @@ async function loadFeeds() {
 }
 
 /* ── Render ─────────────────────────────────────────────── */
-const NEW_THRESHOLD = 48 * 60 * 60 * 1000;
-
 function renderAll(query) {
   document.getElementById('loading').style.display = 'none';
   const container = document.getElementById('cats');
   container.innerHTML = '';
   const now = Date.now();
+  const newThreshold = newDays * 24 * 60 * 60 * 1000;
   let delay = 0;
 
+  // New section (all feed types, within newDays window)
   if (!query) {
     const newItems = [];
     for (const feed of allFeeds) {
       for (const item of (feed.items || [])) {
         const pub = item.pubDate ? new Date(item.pubDate) : null;
-        if (pub && (now - pub.getTime()) < NEW_THRESHOLD)
+        if (pub && (now - pub.getTime()) < newThreshold)
           newItems.push({ ...item, _feedLabel: feed.label, _feedType: feed.type });
       }
     }
     newItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-    if (newItems.length) { container.appendChild(buildNewSection(newItems, delay)); delay += 45; }
+    if (newItems.length) { container.appendChild(buildNewSection(newItems)); delay += 45; }
   }
 
-  // Single Articles section for all RSS feeds
-  const articleFeeds = allFeeds
-    .filter(f => f.type === 'rss')
-    .map(f => ({ ...f, items: (f.items||[]).filter(i => !query || (i.title+' '+(i.summary||'')).toLowerCase().includes(query)) }));
-  if (articleFeeds.length && (!query || articleFeeds.reduce((a,f) => a+f.items.length, 0) > 0)) {
-    container.appendChild(buildCatSection(ARTICLES_CAT, articleFeeds, delay, query));
+  // Blog Posts — flat individual article cards, sorted newest first
+  const allArticleItems = [];
+  for (const feed of allFeeds) {
+    if (feed.type !== 'rss') continue;
+    for (const item of (feed.items || [])) {
+      if (!query || (item.title + ' ' + (item.summary||'')).toLowerCase().includes(query))
+        allArticleItems.push({ ...item, _feedLabel: feed.label });
+    }
+  }
+  allArticleItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  if (allArticleItems.length) {
+    container.appendChild(buildBlogPostsSection(allArticleItems, delay, query));
     delay += 45;
   }
 
-  // Video and Audio sections
+  // Video and Audio sections (per-source cards, unchanged)
   for (const cat of CATEGORIES) {
     const feeds = allFeeds.filter(f => f.category === cat.id).map(f => ({
       ...f, items: (f.items||[]).filter(i => !query || (i.title+' '+(i.summary||'')).toLowerCase().includes(query))
@@ -857,7 +865,7 @@ function renderAll(query) {
   document.getElementById('stat-total').textContent = allFeeds.reduce((a,f) => a+(f.items?.length||0), 0);
 }
 
-function buildNewSection(items, delay) {
+function buildNewSection(items) {
   const TYPE_BADGE = {
     youtube: { label:'Video',   color:'#f25022' },
     podcast: { label:'Audio',   color:'#00a4ef' },
@@ -868,17 +876,45 @@ function buildNewSection(items, delay) {
   sec.className = 'cat-section' + (openSet.has('new') ? ' open' : '');
   sec.id = 'cat-new';
 
+  // Build header with day-range selector
   const hdr = document.createElement('div');
   hdr.className = 'cat-header';
-  hdr.innerHTML = `<div class="cat-color-bar" style="background:var(--new-fg)"></div>
-    <div class="cat-header-inner">
-      <div class="cat-name">New</div>
-      <div class="cat-meta">
-        <span class="cat-pill-count">${items.length} item${items.length!==1?'s':''}</span>
-        <span>last 48h</span>
-      </div>
-      <span class="cat-chevron">▶</span>
-    </div>`;
+
+  const colorBar = document.createElement('div');
+  colorBar.className = 'cat-color-bar';
+  colorBar.style.background = 'var(--new-fg)';
+
+  const inner = document.createElement('div');
+  inner.className = 'cat-header-inner';
+  inner.innerHTML = `<div class="cat-name">New</div>`;
+
+  const meta = document.createElement('div');
+  meta.className = 'cat-meta';
+  meta.innerHTML = `<span class="cat-pill-count">${items.length} item${items.length!==1?'s':''}</span>`;
+
+  const dayPills = document.createElement('span');
+  dayPills.className = 'day-pills';
+  [7, 14, 30].forEach(d => {
+    const btn = document.createElement('button');
+    btn.className = 'day-pill' + (d === newDays ? ' active' : '');
+    btn.textContent = d + 'd';
+    btn.onclick = e => {
+      e.stopPropagation();
+      newDays = d;
+      renderAll(document.getElementById('search').value.toLowerCase().trim());
+    };
+    dayPills.appendChild(btn);
+  });
+  meta.appendChild(dayPills);
+
+  const chevron = document.createElement('span');
+  chevron.className = 'cat-chevron';
+  chevron.textContent = '▶';
+
+  inner.appendChild(meta);
+  inner.appendChild(chevron);
+  hdr.appendChild(colorBar);
+  hdr.appendChild(inner);
   hdr.onclick = () => { const was = sec.classList.contains('open'); sec.classList.toggle('open',!was); was ? openSet.delete('new') : openSet.add('new'); };
 
   const body = document.createElement('div');
@@ -925,7 +961,70 @@ function buildNewSection(items, delay) {
   return sec;
 }
 
-/* ── Category section ───────────────────────────────────── */
+/* ── Blog Posts section — flat individual article cards ──── */
+function buildBlogPostsSection(items, delay, query) {
+  const isOpen = openSet.has('articles') || !!query;
+  const sec = document.createElement('div');
+  sec.className = 'cat-section' + (isOpen ? ' open' : '');
+  sec.id = 'cat-articles';
+
+  const hdr = document.createElement('div');
+  hdr.className = 'cat-header';
+  hdr.innerHTML = `
+    <div class="cat-color-bar" style="background:${ARTICLES_CAT.color}"></div>
+    <div class="cat-header-inner">
+      <div class="cat-name">${ARTICLES_CAT.label}</div>
+      <div class="cat-meta">
+        <span class="cat-pill-count">${items.length} item${items.length!==1?'s':''}</span>
+      </div>
+      <span class="cat-chevron">▶</span>
+    </div>`;
+  hdr.onclick = () => {
+    const was = sec.classList.contains('open');
+    sec.classList.toggle('open', !was);
+    was ? openSet.delete('articles') : openSet.add('articles');
+  };
+
+  const body = document.createElement('div');
+  body.className = 'cat-body';
+
+  const grid = document.createElement('div');
+  grid.className = 'new-card-grid';
+
+  items.forEach((item, i) => {
+    const pub = item.pubDate ? new Date(item.pubDate) : null;
+    const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
+    const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
+    const title = query ? hi(item.title, query) : esc(item.title);
+    const rawSumm = item.summary || '';
+    const summ = rawSumm ? (query ? hi(rawSumm.slice(0,220), query) : esc(rawSumm.slice(0,220))) : '';
+
+    const card = document.createElement('a');
+    card.className = 'new-card';
+    card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
+    card.style.animationDelay = (Math.min(i, 30) * 20) + 'ms';
+
+    card.innerHTML = `
+      <div class="new-card-top">
+        <span class="new-card-source" style="font-weight:500;color:var(--text-dim);font-size:12px">${esc(item._feedLabel)}</span>
+        ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
+      </div>
+      <div class="new-card-body">
+        <div class="new-card-title">${title}</div>
+        ${summ ? `<div class="new-card-summary">${summ}${rawSumm.length>220?'…':''}</div>` : ''}
+        ${tags ? `<div class="art-tags">${tags}</div>` : ''}
+      </div>`;
+
+    grid.appendChild(card);
+  });
+
+  body.appendChild(grid);
+  sec.appendChild(hdr);
+  sec.appendChild(body);
+  return sec;
+}
+
+/* ── Category section (Video / Audio only) ──────────────── */
 function buildCatSection(cat, feeds, delay, query) {
   const isOpen = openSet.has(cat.id) || !!query;
   const total  = feeds.reduce((a,f) => a+f.items.length, 0);
