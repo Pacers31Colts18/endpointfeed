@@ -543,7 +543,8 @@
       padding: 10px 14px 8px;
     }
     .new-card-source {
-      font-size: 12px; color: var(--text-mute);
+      font-size: 12px; color: var(--text);
+      font-weight: 600; letter-spacing: 0.01em;
       flex: 1; min-width: 0;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
@@ -841,7 +842,7 @@ function renderAll(query) {
     if (feed.type !== 'rss') continue;
     for (const item of (feed.items || [])) {
       if (withinWindow(item) && matchesQuery(item))
-        articleItems.push({ ...item, _feedLabel: feed.label });
+        articleItems.push({ ...item, _feedLabel: feed.label, _feedColor: feed.color });
     }
   }
   articleItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
@@ -907,9 +908,10 @@ function buildBlogPostsSection(items, delay, query) {
     card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
     card.style.animationDelay = (Math.min(i, 30) * 20) + 'ms';
 
+    const topBg = item._feedColor ? tintBg(item._feedColor, 0.08) : 'transparent';
     card.innerHTML = `
-      <div class="new-card-top">
-        <span class="new-card-source" style="font-weight:500;color:var(--text-dim);font-size:12px">${esc(item._feedLabel)}</span>
+      <div class="new-card-top" style="background:${topBg}">
+        <span class="new-card-source">${esc(item._feedLabel)}</span>
         ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
       </div>
       <div class="new-card-body">
@@ -927,11 +929,22 @@ function buildBlogPostsSection(items, delay, query) {
   return sec;
 }
 
-/* ── Category section (Video / Audio only) ──────────────── */
+/* ── Color tint helper ──────────────────────────────────── */
+function tintBg(hex, alpha) {
+  const r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), b = parseInt(hex.slice(5,7),16);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+/* ── Video / Audio sections — flat card grid ────────────── */
 function buildCatSection(cat, feeds, delay, query) {
   const isOpen = openSet.has(cat.id) || !!query;
-  const total  = feeds.reduce((a,f) => a+f.items.length, 0);
-  const errs   = feeds.filter(f => f.error).length;
+
+  // Collect + sort all items across feeds
+  const allItems = [];
+  feeds.forEach(feed => {
+    (feed.items || []).forEach(item => allItems.push({ ...item, _feedLabel: feed.label, _feedColor: feed.color }));
+  });
+  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
   const sec = document.createElement('div');
   sec.className = 'cat-section' + (isOpen ? ' open' : '');
@@ -944,10 +957,8 @@ function buildCatSection(cat, feeds, delay, query) {
     <div class="cat-header-inner">
       <div class="cat-name">${esc(cat.label)}</div>
       <div class="cat-meta">
-        ${errs ? `<span class="cat-err-tag">${errs} err</span>` : ''}
-        <span class="cat-pill-count">${total} item${total!==1?'s':''}</span>
-        <span>${feeds.length} src</span>
-
+        <span class="cat-pill-count">${allItems.length} item${allItems.length!==1?'s':''}</span>
+      </div>
       <span class="cat-chevron">▶</span>
     </div>`;
   hdr.onclick = () => {
@@ -958,199 +969,70 @@ function buildCatSection(cat, feeds, delay, query) {
 
   const body = document.createElement('div');
   body.className = 'cat-body';
+  const grid = document.createElement('div');
+  grid.className = 'new-card-grid';
 
-  if (cat.id === 'video' || cat.id === 'audio') {
-    body.appendChild(buildMediaBody(feeds, query));
-  } else {
-    const grid = document.createElement('div');
-    grid.className = 'feed-grid';
-    feeds.forEach((feed, i) => grid.appendChild(buildArticleCard(feed, query, i*40)));
-    body.appendChild(grid);
-  }
+  allItems.forEach((item, i) => {
+    const cardDelay = (Math.min(i, 30) * 20) + 'ms';
+    grid.appendChild(cat.id === 'video' ? buildVideoCard(item, cardDelay) : buildAudioCard(item, cardDelay));
+  });
 
+  body.appendChild(grid);
   sec.appendChild(hdr);
   sec.appendChild(body);
   return sec;
 }
 
-/* ── Media body ─────────────────────────────────────────── */
-/* ── Media body — per-feed cards ─────────────────── */
-function buildMediaBody(feeds, query) {
-  const wrap = document.createElement('div');
-  wrap.className = 'feed-grid';
+/* ── Video card (individual item) ───────────────────────── */
+function buildVideoCard(item, delay) {
+  const card = document.createElement('a');
+  card.className = 'new-card';
+  card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
+  card.style.animationDelay = delay;
 
-  feeds.forEach((feed, i) => {
-    if (feed.type === 'youtube') {
-      wrap.appendChild(buildYoutubeFeedCard(feed, query, i * 40));
-    } else if (feed.type === 'podcast') {
-      wrap.appendChild(buildPodcastFeedCard(feed, query, i * 40));
-    }
-  });
+  const pub = item.pubDate ? new Date(item.pubDate) : null;
+  const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
+  const thumb = item.thumbnail || (item.videoId ? `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg` : '');
+  const topBg = item._feedColor ? tintBg(item._feedColor, 0.10) : 'transparent';
 
-  return wrap;
-}
+  card.innerHTML = `
+    <div class="new-card-top" style="background:${topBg}">
+      <span class="new-card-source">${esc(item._feedLabel || '')}</span>
+      ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
+    </div>
+    ${thumb ? `<img class="new-card-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : ''}
+    <div class="new-card-body">
+      <div class="new-card-title">${esc(item.title)}</div>
+    </div>`;
 
-/* ── YouTube feed card ──────────────────────────────── */
-function buildYoutubeFeedCard(feed, query, delay) {
-  const card = document.createElement('div');
-  card.className = 'feed-card';
-  card.style.animationDelay = delay + 'ms';
-
-  card.innerHTML = `<div class="card-header">
-    <span class="card-color-dot" style="background:var(--ms-red)"></span>
-    <span class="card-name">${esc(feed.label)}</span>
-    ${feed.error
-      ? `<span class="card-err-badge">ERR</span>`
-      : `<span class="card-count">${feed.items.length}</span>`}
-  </div>`;
-
-  if (feed.error) {
-    const e = document.createElement('div');
-    e.className = 'feed-error'; e.textContent = feed.error;
-    card.appendChild(e); return card;
-  }
-  if (!feed.items.length) {
-    const e = document.createElement('div');
-    e.className = 'feed-error'; e.style.color = 'var(--text-mute)';
-    e.textContent = query ? 'no matches' : 'no videos';
-    card.appendChild(e); return card;
-  }
-
-  const now = Date.now();
-  for (const item of feed.items) {
-    const a = document.createElement('a');
-    a.className = 'yt-item';
-    a.href = item.link; a.target = '_blank'; a.rel = 'noopener noreferrer';
-
-    const pub   = item.pubDate ? new Date(item.pubDate) : null;
-    const isNew = pub && (now - pub.getTime()) < 172800000;
-    const ds    = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-    const thumb = item.thumbnail || (item.videoId ? `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg` : '');
-    const title = query ? hi(item.title, query) : esc(item.title);
-
-    a.innerHTML = `
-      <div class="yt-thumb-sm">
-        ${thumb ? `<img src="${esc(thumb)}" alt="" loading="lazy" />` : ''}
-        <div class="yt-thumb-sm-play"><div class="yt-play-sm">▶</div></div>
-      </div>
-      <div class="yt-item-info">
-        <div class="yt-item-title">${title}</div>
-        <div class="yt-item-meta">
-          ${ds ? `<span>${ds}</span>` : ''}
-          ${isNew ? '<span class="badge-new">NEW</span>' : ''}
-        </div>
-      </div>`;
-    card.appendChild(a);
-  }
   return card;
 }
 
-/* ── Podcast feed card ──────────────────────────────── */
-function buildPodcastFeedCard(feed, query, delay) {
+/* ── Audio card (individual item) ───────────────────────── */
+function buildAudioCard(item, delay) {
   const card = document.createElement('div');
-  card.className = 'feed-card';
-  card.style.animationDelay = delay + 'ms';
+  card.className = 'new-card';
+  card.style.animationDelay = delay;
 
-  card.innerHTML = `<div class="card-header">
-    <span class="card-color-dot" style="background:var(--ms-blue)"></span>
-    <span class="card-name">${esc(feed.label)}</span>
-    ${feed.error
-      ? `<span class="card-err-badge">ERR</span>`
-      : `<span class="card-count">${feed.items.length}</span>`}
-  </div>`;
+  const pub = item.pubDate ? new Date(item.pubDate) : null;
+  const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
+  const topBg = item._feedColor ? tintBg(item._feedColor, 0.10) : 'transparent';
 
-  if (feed.error) {
-    const e = document.createElement('div');
-    e.className = 'feed-error'; e.textContent = feed.error;
-    card.appendChild(e); return card;
-  }
-  if (!feed.items.length) {
-    const e = document.createElement('div');
-    e.className = 'feed-error'; e.style.color = 'var(--text-mute)';
-    e.textContent = query ? 'no matches' : 'no episodes';
-    card.appendChild(e); return card;
-  }
-
-  const now = Date.now();
-  for (const item of feed.items) {
-    const div = document.createElement('div');
-    div.className = 'pod-item';
-
-    const pub   = item.pubDate ? new Date(item.pubDate) : null;
-    const isNew = pub && (now - pub.getTime()) < 172800000;
-    const ds    = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-    const title = query ? hi(item.title, query) : esc(item.title);
-
-    div.innerHTML = `
-      <a class="pod-item-title" href="${esc(item.link)}" target="_blank" rel="noopener noreferrer">
-        ${title}${isNew ? ' <span class="badge-new">NEW</span>' : ''}
-      </a>
-      <div class="pod-item-meta">
-        ${ds ? `<span>${ds}</span>` : ''}
-        ${item.duration ? `<span>⏱ ${esc(item.duration)}</span>` : ''}
-      </div>
+  card.innerHTML = `
+    <div class="new-card-top" style="background:${topBg}">
+      <span class="new-card-source">${esc(item._feedLabel || '')}</span>
+      ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
+    </div>
+    <div class="new-card-body">
+      <a class="new-card-title" href="${esc(item.link)}" target="_blank" rel="noopener noreferrer"
+         style="color:inherit;text-decoration:none">${esc(item.title)}</a>
+      ${item.duration ? `<div style="font-size:12px;color:var(--text-mute);margin-top:2px">⏱ ${esc(item.duration)}</div>` : ''}
       ${item.audioUrl
-        ? `<div class="pod-item-player"><audio controls preload="none" src="${esc(item.audioUrl)}"></audio></div>`
-        : `<div class="pod-no-audio">→ <a href="${esc(item.link)}" target="_blank" style="color:var(--ms-blue)">open episode</a></div>`}`;
-    card.appendChild(div);
-  }
-  return card;
-}
+        ? `<audio controls preload="none" src="${esc(item.audioUrl)}" style="width:100%;margin-top:8px"></audio>`
+        : `<a href="${esc(item.link)}" target="_blank" rel="noopener noreferrer"
+             style="color:var(--accent);font-size:13px;margin-top:6px;display:inline-block">→ open episode</a>`}
+    </div>`;
 
-/* ── Article card ───────────────────────────────────────── */
-function buildArticleCard(feed, query, delay) {
-  const card = document.createElement('div');
-  card.className = 'feed-card';
-  card.style.animationDelay = delay+'ms';
-
-  card.innerHTML = `<div class="card-header">
-    <span class="card-color-dot" style="background:${feed.color||'#00a4ef'}"></span>
-    <span class="card-name">${esc(feed.label)}</span>
-    ${feed.error
-      ? `<span class="card-err-badge">ERR</span>`
-      : `<span class="card-count">${feed.items.length}</span>`}
-  </div>`;
-
-  if (feed.error) {
-    const e = document.createElement('div');
-    e.className = 'feed-error';
-    e.textContent = feed.error;
-    card.appendChild(e); return card;
-  }
-  if (!feed.items.length) {
-    const e = document.createElement('div');
-    e.className = 'feed-error';
-    e.style.color = 'var(--text-mute)';
-    e.textContent = query ? 'no matches' : 'no articles';
-    card.appendChild(e); return card;
-  }
-
-  const now = Date.now();
-  for (const item of feed.items) {
-    const a = document.createElement('a');
-    a.className = 'article';
-    a.href = item.link; a.target = '_blank'; a.rel = 'noopener noreferrer';
-
-    const pub   = item.pubDate ? new Date(item.pubDate) : null;
-    const isNew = pub && (now - pub.getTime()) < 172800000;
-    const ds    = pub ? pub.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
-    const title = query ? hi(item.title, query) : esc(item.title);
-    const summ  = item.summary
-      ? (query ? hi(item.summary.slice(0,220), query) : esc(item.summary.slice(0,220))) : '';
-    const tags  = (item.categories||[]).slice(0,3)
-      .map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
-
-    a.innerHTML = `
-      <div class="art-meta">
-        ${ds?`<span class="art-date">${ds}</span>`:''}
-        ${item.author?`<span class="art-author">${esc(item.author)}</span>`:''}
-        ${isNew?'<span class="badge-new">NEW</span>':''}
-      </div>
-      <div class="art-title">${title}</div>
-      ${summ?`<div class="art-summary">${summ}${(item.summary||'').length>220?'…':''}</div>`:''}
-      ${tags?`<div class="art-tags">${tags}</div>`:''}`;
-    card.appendChild(a);
-  }
   return card;
 }
 
