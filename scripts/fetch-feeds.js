@@ -41,6 +41,10 @@ const FEEDS = [
     url:'https://joostgelijsteen.com/feed/'},
   { id:'zerotrust', label:'zerotrust.tech', category:'intune', color:'#0078d4', type:'rss',
     url:'https://zerototrust.tech/feed/'},
+  { id:'euc365', label:'euc365.com', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://euc365.com/feed/'},
+  { id:'modernmanagement.blog', label:'modernmanagement.blog - Peter Daalmans', category:'intune', color:'#0078d4', type:'rss',
+    url:'https://euc365.com/feed/'},
 
 
   // ── SCCM/ConfigMgr/WSUS ────────────────────────────────────────────────────
@@ -64,15 +68,19 @@ const FEEDS = [
     url:'https://ccmexec.com/feed/' },
 
 
-  // ── Endpoint Security ───────────────────────────────────────────────────
+  // ── Security ───────────────────────────────────────────────────
   { id:'krebs',          label:'krebsonsecurity.com',         category:'security', color:'#d13438', type:'rss',
     url:'https://krebsonsecurity.com/feed/' },
   { id:'nathanmcnulty',          label:'nathanmcnulty.com',         category:'security', color:'#d13438', type:'rss',
     url:'hhttps://nathanmcnulty.com/index.xml' },
+  
 
     // ── Azure Virtual Desktop ───────────────────────────────────────────────────
   { id:'mobile-jon',          label:'mobile-jon.com',         category:'avd', color:'#0078d4', type:'rss',
     url:'https://mobile-jon.com/feed/' },
+    { id:'bigchriscloud.com',          label:'bigchriscloud.com - Chris Cavazos',         category:'avd', color:'#0078d4', type:'rss',
+    url:'https://bigchriscloud.com/feed/' },
+
 
   // ── M365 / Office 365 ───────────────────────────────────────────────────
   { id:'office365itpro', label:'office365itpros.com',    category:'m365',     color:'#d83b01', type:'rss',
@@ -89,6 +97,8 @@ const FEEDS = [
     url:'http://feeds.feedburner.com/merill' },
   { id:'andykemp',        label:'andykemp.com',               category:'entra',    color:'#7719aa', type:'rss',
     url:'https://www.andykemp.com/feed/' },
+   { id:'lewisberry',        label:'conditionalaccess.uk',               category:'entra',    color:'#7719aa', type:'rss',
+    url:'https://conditionalaccess.uk/blog/feed/' },
 
   // ── Apple ───────────────────────────────────────────────────────────────
   { id:'kandji',         label:'Kkandji.io',               category:'apple',    color:'#8e8e93', type:'rss',
@@ -238,7 +248,25 @@ function parseXml(xml, feedType) {
       tag(raw, 'dc:creator') || tag(raw, 'author') || tag(raw, 'name') || ''
     );
 
-    const base = { title, link, pubDate: isoDate, summary, author, categories: [], type: feedType };
+    let categories = [];
+    if (isAtom) {
+      const catRe = /<category[^>]+term="([^"]*)"[^>]*\/?>/gi;
+      let m;
+      while ((m = catRe.exec(raw)) !== null) {
+        const c = clean(m[1]);
+        if (c) categories.push(c);
+      }
+    } else {
+      const catRe = /<category[^>]*>([\s\S]*?)<\/category>/gi;
+      let m;
+      while ((m = catRe.exec(raw)) !== null) {
+        const c = clean(stripTags(m[1]));
+        if (c) categories.push(c);
+      }
+    }
+    categories = [...new Set(categories)].slice(0, 5);
+
+    const base = { title, link, pubDate: isoDate, summary, author, categories, type: feedType };
 
     if (feedType === 'youtube') {
       const videoId  = (link.match(/[?&]v=([^&]+)/) || [])[1] || null;
