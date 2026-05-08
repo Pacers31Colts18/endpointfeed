@@ -751,7 +751,7 @@ function buildToolbar() {
   bar.insertBefore(makePill(ARTICLES_CAT.label, ARTICLES_CAT.color, ARTICLES_CAT.id), sw);
   CATEGORIES.forEach(cat => bar.insertBefore(makePill(cat.label, cat.color, cat.id), sw));
   bar.insertBefore(makeDivider(), sw);
-  [7, 14, 30].forEach(d => {
+  [1, 7, 14, 30].forEach(d => {
     const btn = document.createElement('button');
     btn.className = 'day-range-pill' + (d === newDays ? ' active' : '');
     btn.textContent = d + 'd';
