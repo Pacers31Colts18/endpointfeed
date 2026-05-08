@@ -269,6 +269,13 @@ const FEEDS = [
     type: "rss",
     url: "https://z-nerd.com/index.xml",
   },
+  {
+    id: "jorgeasaur",
+    label: "jorgeasaur.us - Jorge Suarez",
+    mvp: true,
+    type: "rss",
+    url: "https://www.jorgeasaur.us/rss.xml",
+  },
 
   // ── Video ─────────────────────────────────────────────────────────────────
   {
