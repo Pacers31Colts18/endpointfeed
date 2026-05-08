@@ -525,9 +525,61 @@
     .new-item:hover { background: var(--bg-hover); }
     .new-item:hover .new-item-title { color: var(--accent); }
     .new-cat-tag { flex-shrink: 0; font-family: "Barlow", sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.2px; padding: 2px 8px; border-radius: 3px; border: 1px solid; white-space: nowrap; }
-    .new-item-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
-    .new-item-title { font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.4; transition: color 0.1s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .new-item-meta { font-family: "JetBrains Mono", monospace; font-size: 10px; color: var(--text-mute); display: flex; gap: 8px; }
+
+    /* New section — card grid */
+    #cat-new { border-color: rgba(52,199,89,0.3); }
+    #cat-new .cat-body { background: var(--bg); }
+
+    .new-card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 10px;
+    }
+    .new-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex; flex-direction: column;
+      text-decoration: none; color: inherit;
+      transition: background 0.1s, border-color 0.15s;
+      animation: cardIn 0.25s ease forwards; opacity: 0;
+    }
+    .new-card:hover { background: var(--bg-hover); border-color: var(--border-hi); }
+    .new-card:hover .new-card-title { color: var(--accent); }
+
+    .new-card-top {
+      display: flex; align-items: center; gap: 8px;
+      padding: 10px 14px 8px;
+    }
+    .new-card-source {
+      font-size: 12px; color: var(--text-mute);
+      flex: 1; min-width: 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .new-card-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px; color: var(--text-mute); white-space: nowrap;
+    }
+    .new-card-thumb {
+      width: 100%; aspect-ratio: 16/9;
+      object-fit: cover; display: block;
+    }
+    .new-card-body {
+      padding: 10px 14px 12px;
+      display: flex; flex-direction: column; gap: 6px; flex: 1;
+    }
+    .new-card-title {
+      font-size: 14px; font-weight: 500; color: var(--text);
+      line-height: 1.45; transition: color 0.1s;
+    }
+    .new-card-summary {
+      font-size: 13px; color: var(--text-dim); line-height: 1.6;
+      display: -webkit-box; -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical; overflow: hidden;
+    }
+
+    @media (max-width: 680px) { .new-card-grid { grid-template-columns: 1fr; } }
     /* ── LOADING ── */
     #loading {
       padding: 70px 0; text-align: center; color: var(--text-mute);
@@ -806,44 +858,70 @@ function renderAll(query) {
 }
 
 function buildNewSection(items, delay) {
-  const sec = document.createElement('div');
-  sec.className = 'cat-section' + (openSet.has('new') ? ' open' : '');
-  sec.id = 'cat-new';
-  const hdr = document.createElement('div');
-  hdr.className = 'cat-header';
-  hdr.innerHTML = '<div class="cat-color-bar" style="background:var(--ms-green)"></div><div class="cat-header-inner"><div class="cat-name">New</div><div class="cat-meta"><span class="cat-pill-count">' + items.length + ' item' + (items.length!==1?'s':'') + '</span><span>last 48h</span></div><span class="cat-chevron">▶</span></div>';
-  hdr.onclick = () => { const was = sec.classList.contains('open'); sec.classList.toggle('open',!was); was ? openSet.delete('new') : openSet.add('new'); };
-  const body = document.createElement('div');
-  body.className = 'cat-body';
-  const card = document.createElement('div');
-  card.className = 'new-feed-card';
-  card.style.animationDelay = delay + 'ms';
   const TYPE_BADGE = {
     youtube: { label:'Video',   color:'#f25022' },
     podcast: { label:'Audio',   color:'#00a4ef' },
     rss:     { label:'Article', color:'#5b8dee' },
   };
-  for (const item of items) {
-    const a = document.createElement('a');
-    a.className = 'new-item'; a.href = item.link; a.target = '_blank'; a.rel = 'noopener noreferrer';
-    const pub = item.pubDate ? new Date(item.pubDate) : null;
-    const ds = pub ? pub.toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
-    const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
+
+  const sec = document.createElement('div');
+  sec.className = 'cat-section' + (openSet.has('new') ? ' open' : '');
+  sec.id = 'cat-new';
+
+  const hdr = document.createElement('div');
+  hdr.className = 'cat-header';
+  hdr.innerHTML = `<div class="cat-color-bar" style="background:var(--new-fg)"></div>
+    <div class="cat-header-inner">
+      <div class="cat-name">New</div>
+      <div class="cat-meta">
+        <span class="cat-pill-count">${items.length} item${items.length!==1?'s':''}</span>
+        <span>last 48h</span>
+      </div>
+      <span class="cat-chevron">▶</span>
+    </div>`;
+  hdr.onclick = () => { const was = sec.classList.contains('open'); sec.classList.toggle('open',!was); was ? openSet.delete('new') : openSet.add('new'); };
+
+  const body = document.createElement('div');
+  body.className = 'cat-body';
+
+  const grid = document.createElement('div');
+  grid.className = 'new-card-grid';
+
+  items.forEach((item, i) => {
     const tb = TYPE_BADGE[item._feedType] || TYPE_BADGE.rss;
     const hex = tb.color, r=parseInt(hex.slice(1,3),16), g=parseInt(hex.slice(3,5),16), b=parseInt(hex.slice(5,7),16);
-    const badge = document.createElement('span');
-    badge.className = 'new-cat-tag'; badge.textContent = tb.label;
-    badge.style.color = tb.color;
-    badge.style.background = `rgba(${r},${g},${b},0.1)`;
-    badge.style.borderColor = `rgba(${r},${g},${b},0.3)`;
-    const bd = document.createElement('div');
-    bd.className = 'new-item-body';
-    bd.innerHTML = '<div class="new-item-title">'+esc(item.title)+'</div>'
-      +'<div class="new-item-meta"><span>'+esc(item._feedLabel)+'</span>'+(ds?'<span>'+ds+'</span>':'')+'</div>'
-      +(tags?'<div class="art-tags">'+tags+'</div>':'');
-    a.appendChild(badge); a.appendChild(bd); card.appendChild(a);
-  }
-  body.appendChild(card); sec.appendChild(hdr); sec.appendChild(body);
+    const badgeStyle = `color:${tb.color};background:rgba(${r},${g},${b},0.1);border-color:rgba(${r},${g},${b},0.3)`;
+
+    const pub = item.pubDate ? new Date(item.pubDate) : null;
+    const ds = pub ? pub.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+    const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
+    const thumb = item.thumbnail || (item.videoId ? `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg` : '');
+    const summ = item.summary ? esc(item.summary.slice(0,220)) : '';
+
+    const card = document.createElement('a');
+    card.className = 'new-card';
+    card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
+    card.style.animationDelay = (i * 25) + 'ms';
+
+    card.innerHTML = `
+      <div class="new-card-top">
+        <span class="new-cat-tag" style="${badgeStyle}">${tb.label}</span>
+        <span class="new-card-source">${esc(item._feedLabel)}</span>
+        ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
+      </div>
+      ${thumb ? `<img class="new-card-thumb" src="${esc(thumb)}" alt="" loading="lazy">` : ''}
+      <div class="new-card-body">
+        <div class="new-card-title">${esc(item.title)}</div>
+        ${summ ? `<div class="new-card-summary">${summ}${item.summary.length>220?'…':''}</div>` : ''}
+        ${tags ? `<div class="art-tags">${tags}</div>` : ''}
+      </div>`;
+
+    grid.appendChild(card);
+  });
+
+  body.appendChild(grid);
+  sec.appendChild(hdr);
+  sec.appendChild(body);
   return sec;
 }
 
