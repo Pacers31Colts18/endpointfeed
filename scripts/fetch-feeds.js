@@ -16,130 +16,63 @@ const BATCH_SIZE       = 4;
 const MAX_ITEMS        = 5;
 
 const FEEDS = [
-  // ── Intune ──────────────────────────────────────────────────────────────
-  { id:'4sysops',        label:'4sysops',                   category:'intune',   color:'#0078d4', type:'rss',
-    url:'https://4sysops.com/feed/' },
-  { id:'petervanderwoude', label:'petervanderwoude.nl', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://petervanderwoude.nl/feed/'},
-  { id:'andrewstaylor', label:'andrewstaylor.com', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://andrewstaylor.com/feed/'},
-  { id:'skiptotheendpoint', label:'skiptotheendpoint.co.uk', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://skiptotheendpoint.co.uk/rss/'},
-  { id:'oddsandendpoints', label:'oddsandendpoints.co.uk', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://www.oddsandendpoints.co.uk/index.xml'},
-  { id:'systanddeploy', label:'systanddeploy.com', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://www.systanddeploy.com/feeds/posts/default?alt=rss'},
-  { id:'indevelopment-intune', label:'In Development - Microsoft Intune', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29'},
-  { id:'intunecustomersuccess', label:'Intune Customer Success', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess'},
-  { id:'whatsnewintune', label:'Whats New in Intune', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29'},
-  { id:'justaboutthemodernworkplace', label:'justaboutthemodernworkplace.com', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://intunestuff.com/feed/'},
-  { id:'intunestuff', label:'intunestuff.com', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://joostgelijsteen.com/feed/'},
-  { id:'zerotrust', label:'zerotrust.tech', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://zerototrust.tech/feed/'},
-  { id:'euc365', label:'euc365.com', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://euc365.com/feed/'},
-  { id:'modernmanagement.blog', label:'modernmanagement.blog - Peter Daalmans', category:'intune', color:'#0078d4', type:'rss',
-    url:'https://euc365.com/feed/'},
+  // ── Blogs ──────────────────────────────────────────────────────────────────
+  { id: '4sysops',                      label: '4sysops',                                              type: 'rss', url: 'https://4sysops.com/feed/' },
+  { id: 'petervanderwoude',             label: 'petervanderwoude.nl',                                  type: 'rss', url: 'https://petervanderwoude.nl/feed/' },
+  { id: 'andrewstaylor',                label: 'andrewstaylor.com',                                    type: 'rss', url: 'https://andrewstaylor.com/feed/' },
+  { id: 'skiptotheendpoint',            label: 'skiptotheendpoint.co.uk',                              type: 'rss', url: 'https://skiptotheendpoint.co.uk/rss/' },
+  { id: 'oddsandendpoints',             label: 'oddsandendpoints.co.uk',                               type: 'rss', url: 'https://www.oddsandendpoints.co.uk/index.xml' },
+  { id: 'systanddeploy',                label: 'systanddeploy.com',                                    type: 'rss', url: 'https://www.systanddeploy.com/feeds/posts/default?alt=rss' },
+  { id: 'indevelopment-intune',         label: 'In Development - Microsoft Intune',                    type: 'rss', url: 'https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29' },
+  { id: 'intunecustomersuccess',        label: 'Intune Customer Success',                              type: 'rss', url: 'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess' },
+  { id: 'whatsnewintune',               label: 'Whats New in Intune',                                  type: 'rss', url: 'https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29' },
+  { id: 'justaboutthemodernworkplace',  label: 'justaboutthemodernworkplace.com',                      type: 'rss', url: 'https://intunestuff.com/feed/' },
+  { id: 'intunestuff',                  label: 'intunestuff.com',                                      type: 'rss', url: 'https://joostgelijsteen.com/feed/' },
+  { id: 'zerotrust',                    label: 'zerotrust.tech',                                       type: 'rss', url: 'https://zerototrust.tech/feed/' },
+  { id: 'euc365',                       label: 'euc365.com',                                           type: 'rss', url: 'https://euc365.com/feed/' },
+  { id: 'modernmanagement',             label: 'modernmanagement.blog - Peter Daalmans',               type: 'rss', url: 'https://modernmanagement.blog/feed/' },
+  { id: 'patchmypc-blog',               label: 'Patch My PC Blog',                                     type: 'rss', url: 'https://patchmypc.com/feed' },
+  { id: 'niallbrady',                   label: 'Niall Brady - niallbrady.com',                         type: 'rss', url: 'https://www.niallbrady.com/feed/' },
+  { id: 'garytown',                     label: 'Gary Blok - garytown.com',                             type: 'rss', url: 'https://garytown.com/feed' },
+  { id: 'deploymentresearch',           label: 'deploymentresearch.com',                               type: 'rss', url: 'https://www.deploymentresearch.com/feed' },
+  { id: 'mattzaske',                    label: 'mattzaske.com',                                        type: 'rss', url: 'https://mattzaske.com/rss.xml' },
+  { id: 'msendpointmgr',               label: 'msendpointmgr.com',                                    type: 'rss', url: 'https://msendpointmgr.com/feed/' },
+  { id: 'configmgrblog',               label: 'Microsoft Tech Community - Configuration Manager Blog', type: 'rss', url: 'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog' },
+  { id: 'oofhours',                     label: 'oofhours.com',                                         type: 'rss', url: 'https://oofhours.com/feed/' },
+  { id: 'ccmexec',                      label: 'ccmexec.com',                                          type: 'rss', url: 'https://ccmexec.com/feed/' },
+  { id: 'krebs',                        label: 'krebsonsecurity.com',                                  type: 'rss', url: 'https://krebsonsecurity.com/feed/' },
+  { id: 'nathanmcnulty',               label: 'nathanmcnulty.com',                                    type: 'rss', url: 'https://nathanmcnulty.com/index.xml' },
+  { id: 'mobile-jon',                   label: 'mobile-jon.com',                                       type: 'rss', url: 'https://mobile-jon.com/feed/' },
+  { id: 'bigchriscloud',               label: 'bigchriscloud.com - Chris Cavazos',                    type: 'rss', url: 'https://bigchriscloud.com/feed/' },
+  { id: 'office365itpro',              label: 'office365itpros.com',                                   type: 'rss', url: 'https://office365itpros.com/feed/' },
+  { id: 'microsoft365blog',            label: 'Microsoft Tech Community - M365 Blog',                  type: 'rss', url: 'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog' },
+  { id: 'officereleases',              label: 'Microsoft Office Semi-Annual Channel Release Notes',    type: 'rss', url: 'https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29' },
+  { id: 'dirkjan',                      label: 'dirkjanm.io',                                          type: 'rss', url: 'https://dirkjanm.io/feed.xml' },
+  { id: 'merill',                       label: 'merill.net',                                           type: 'rss', url: 'http://feeds.feedburner.com/merill' },
+  { id: 'andykemp',                     label: 'andykemp.com',                                         type: 'rss', url: 'https://www.andykemp.com/feed/' },
+  { id: 'lewisberry',                   label: 'conditionalaccess.uk',                                 type: 'rss', url: 'https://conditionalaccess.uk/blog/feed/' },
+  { id: 'kandji',                       label: 'kandji.io',                                            type: 'rss', url: 'https://www.kandji.io/blog/rss.xml' },
+  { id: 'allthingscloud',              label: 'allthingscloud.blog',                                   type: 'rss', url: 'https://allthingscloud.blog/feed/' },
+  { id: 'macadminsnews',               label: 'macadmins.news',                                        type: 'rss', url: 'https://macadmins.news/issues.rss' },
+  { id: 'macadminmusings',             label: 'macadminmusings.com',                                   type: 'rss', url: 'https://macadminmusings.com/feed.xml' },
 
+  // ── Video ─────────────────────────────────────────────────────────────────
+  { id: 'yt-savill',        label: 'John Savill Tech Training', type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
+  { id: 'yt-5bytes',        label: '5 Bytes Podcast',           type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw' },
+  { id: 'yt-entrachat',     label: 'Entra.Chat Podcast',        type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ' },
+  { id: 'yt-deanellerby',   label: 'Dean Ellerby',              type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw' },
+  { id: 'yt-getrubix',      label: 'Get Rubix',                 type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A' },
+  { id: 'yt-bearded365',    label: 'Bearded 365 Guy',           type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg' },
+  { id: 'yt-patchmypc',     label: 'Patch My PC',               type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg' },
+  { id: 'yt-travis',        label: 'Travis Roberts',            type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA' },
+  { id: 'yt-viamonstra',    label: 'ViaMonstra Online Academy', type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g' },
+  { id: 'yt-ninjas',        label: 'Workplace Ninjas Summit',   type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCK_cRU36_m2d68BArcSbHcg' },
+  { id: 'yt-windowsitpro',  label: 'Windows IT Pro',            type: 'video', url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw' },
 
-  // ── SCCM/ConfigMgr/WSUS ────────────────────────────────────────────────────
-  { id:'patchmypc',      label:'Patch My PC Blog - patchmypc.com',          category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://patchmypc.com/feed' },
-  { id:'niallbrady',     label:'Niall Brady - niallbrady.com',               category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://www.niallbrady.com/feed/' },
-  { id:'garytown',     label:'Gary Blok - garytown.com',               category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://garytown.com/feed' },
-  { id:'deploymentresearch',     label:'deploymentresearch.com',               category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://www.deploymentresearch.com/feed' },
-  { id:'mattzaske',     label:'mattzaske.com',               category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://mattzaske.com/rss.xml' },
-  { id:'msendpointmgr',     label:'msendpointmgr.com',               category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://msendpointmgr.com/feed/' },
-  { id:'configmgrblog',     label:'Microsoft Tech Community - Configuration Manager Blog',               category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog' },
-  { id:'oofhours',     label:'oofhours.com',               category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://oofhours.com/feed/' },
-  { id:'ccmexec',     label:'ccmexec.com',               category:'sccm',     color:'#005a9e', type:'rss',
-    url:'https://ccmexec.com/feed/' },
-
-
-  // ── Security ───────────────────────────────────────────────────
-  { id:'krebs',          label:'krebsonsecurity.com',         category:'security', color:'#d13438', type:'rss',
-    url:'https://krebsonsecurity.com/feed/' },
-  { id:'nathanmcnulty',          label:'nathanmcnulty.com',         category:'security', color:'#d13438', type:'rss',
-    url:'hhttps://nathanmcnulty.com/index.xml' },
-  
-
-    // ── Azure Virtual Desktop ───────────────────────────────────────────────────
-  { id:'mobile-jon',          label:'mobile-jon.com',         category:'avd', color:'#0078d4', type:'rss',
-    url:'https://mobile-jon.com/feed/' },
-    { id:'bigchriscloud.com',          label:'bigchriscloud.com - Chris Cavazos',         category:'avd', color:'#0078d4', type:'rss',
-    url:'https://bigchriscloud.com/feed/' },
-
-
-  // ── M365 / Office 365 ───────────────────────────────────────────────────
-  { id:'office365itpro', label:'office365itpros.com',    category:'m365',     color:'#d83b01', type:'rss',
-    url:'https://office365itpros.com/feed/' },
-  { id:'microsoft365blog', label:'Microsoft Tech Community - M365 Blog',    category:'m365',     color:'#d83b01', type:'rss',
-    url:'https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog' },
-  { id:'microsoftofficesemiannualchannel', label:'Microsoft Office Semi-Annual Enterprise Channel Release Notes',    category:'m365',     color:'#d83b01', type:'rss',
-    url:'https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29' },
-
-  // ── Azure AD / Entra ID ─────────────────────────────────────────────────
-  { id:'dirkjan',        label:'dirkjanm.io',               category:'entra',    color:'#7719aa', type:'rss',
-    url:'https://dirkjanm.io/feed.xml' },
-  { id:'merill',        label:'merill.net',               category:'entra',    color:'#7719aa', type:'rss',
-    url:'http://feeds.feedburner.com/merill' },
-  { id:'andykemp',        label:'andykemp.com',               category:'entra',    color:'#7719aa', type:'rss',
-    url:'https://www.andykemp.com/feed/' },
-   { id:'lewisberry',        label:'conditionalaccess.uk',               category:'entra',    color:'#7719aa', type:'rss',
-    url:'https://conditionalaccess.uk/blog/feed/' },
-
-  // ── Apple ───────────────────────────────────────────────────────────────
-  { id:'kandji',         label:'Kkandji.io',               category:'apple',    color:'#8e8e93', type:'rss',
-    url:'https://www.kandji.io/blog/rss.xml' },
-  { id:'allthingscloud',         label:'allthingscloud.blog',               category:'apple',    color:'#8e8e93', type:'rss',
-    url:'https://allthingscloud.blog/feed/' },
-  { id:'macadminsnews',         label:'macadmins.news',               category:'apple',    color:'#8e8e93', type:'rss',
-    url:'https://macadmins.news/issues.rss' },
-  { id:'macadminmusings',         label:'macadminmusings.com',               category:'apple',    color:'#8e8e93', type:'rss',
-    url:'https://macadminmusings.com/feed.xml' },
-
-  // ── Video ─────────────────────────────────────────────────────────────
-  { id:'yt-savill',      label:'John Savill Tech Training', category:'video',    color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ' },
-  { id:'5bytes-podcast',   label:'5 Bytes Podcast',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw'},
-  { id:'entra.chat',   label:'Entra.Chat Podcast',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ'},
-  { id:'deanellerby',   label:'Dean Ellerby',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw'},
-  { id:'getrubix',   label:'Get Rubix',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A'},
-  { id:'bearded365guy',   label:'Bearded 365 Guy',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg'},
-  { id:'patchmypc',   label:'Patch My PC',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg'},
-  { id:'travisroberst',   label:'Travis Roberts',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA'},
-  { id:'viamonstra',   label:'ViaMonstra Online Academy',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g'},
-  { id:'workplaceninjas',   label:'Workplace Ninjas Summit',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCK_cRU36_m2d68BArcSbHcg'},
-  { id:'windowsitpro',   label:'Windows IT Pro',               category:'video',      color:'#ff0000', type:'youtube',
-    url:'https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw'},
-  // ── Audio ─────────────────────────────────────────────────────────────
-  { id:'pod-runasradio',   label:'RunAs Radio',               category:'audio',      color:'#1db954', type:'podcast',
-    url:'https://feeds.simplecast.com/cRTTfxcT'},
-  { id:'pod-powershell-podcast',   label:'PowerShell Podcast',               category:'audio',      color:'#1db954', type:'podcast',
-    url:'https://feed.podbean.com/powershellpodcast/feed.xml'},
-  { id:'macadmins-podcast',   label:'MacAdmins Podcast',               category:'audio',      color:'#1db954', type:'podcast',
-    url:'https://podcast.macadmins.org/feed/'},
+  // ── Audio ─────────────────────────────────────────────────────────────────
+  { id: 'pod-runasradio',   label: 'RunAs Radio',       type: 'audio', url: 'https://feeds.simplecast.com/cRTTfxcT' },
+  { id: 'pod-powershell',   label: 'PowerShell Podcast', type: 'audio', url: 'https://feed.podbean.com/powershellpodcast/feed.xml' },
+  { id: 'pod-macadmins',    label: 'MacAdmins Podcast',  type: 'audio', url: 'https://podcast.macadmins.org/feed/' },
 ];
 
 // ── HTTP fetch with redirect + gzip support ───────────────────────────────
@@ -268,7 +201,7 @@ function parseXml(xml, feedType) {
 
     const base = { title, link, pubDate: isoDate, summary, author, categories, type: feedType };
 
-    if (feedType === 'youtube') {
+    if (feedType === 'video') {
       const videoId  = (link.match(/[?&]v=([^&]+)/) || [])[1] || null;
       const thumbUrl = tagAttr(raw, 'media:thumbnail', 'url');
       base.videoId   = videoId;
