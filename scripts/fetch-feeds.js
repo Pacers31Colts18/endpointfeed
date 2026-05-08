@@ -260,7 +260,7 @@ function parseXml(xml, feedType) {
       const catRe = /<category[^>]*>([\s\S]*?)<\/category>/gi;
       let m;
       while ((m = catRe.exec(raw)) !== null) {
-        const c = clean(stripTags(m[1]));
+        const c = stripTags(clean(m[1]));
         if (c) categories.push(c);
       }
     }
