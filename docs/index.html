@@ -518,13 +518,7 @@
     .pod-no-audio { font-size: 11px; color: var(--text-mute); font-style: italic; }
 
 
-    /* NEW SECTION */
-    .new-feed-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; animation: cardIn 0.25s ease forwards; opacity: 0; }
-    .new-cat-tag { flex-shrink: 0; font-family: "Barlow", sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.2px; padding: 2px 8px; border-radius: 3px; border: 1px solid; white-space: nowrap; }
-
-    /* New section — card grid */
-    #cat-new { border-color: rgba(52,199,89,0.3); }
-    #cat-new .cat-body { background: var(--bg); }
+    /* Card grid (Articles / New) */
 
     .new-card-grid {
       display: grid;
@@ -577,19 +571,19 @@
 
     @media (max-width: 680px) { .new-card-grid { grid-template-columns: 1fr; } }
 
-    /* Day-range selector inside New section header */
-    .day-pills { display: flex; gap: 3px; }
-    .day-pill {
+    /* Day-range selector in toolbar */
+    .day-range-pill {
       background: transparent;
       border: 1px solid var(--border);
       color: var(--text-mute);
       font-family: 'Barlow', sans-serif;
-      font-size: 10px; font-weight: 600;
-      padding: 1px 7px; border-radius: 3px;
+      font-size: 12px; font-weight: 600;
+      padding: 4px 10px; border-radius: 4px;
       cursor: pointer; transition: all 0.12s;
+      white-space: nowrap;
     }
-    .day-pill:hover { border-color: var(--new-fg); color: var(--new-fg); }
-    .day-pill.active { border-color: var(--new-fg); color: var(--new-fg); background: var(--new-bg); }
+    .day-range-pill:hover { border-color: var(--accent); color: var(--accent); }
+    .day-range-pill.active { border-color: var(--accent); color: var(--accent); background: rgba(91,141,238,0.1); }
     /* ── LOADING ── */
     #loading {
       padding: 70px 0; text-align: center; color: var(--text-mute);
@@ -708,7 +702,7 @@ const CATEGORIES = [
 const ARTICLES_CAT = { id: 'articles', label: 'Blog Posts', color: '#5b8dee' };
 
 let allFeeds = [];
-let openSet  = new Set(['new', 'articles']);
+let openSet  = new Set(['articles', 'video', 'audio']);
 let allOpen  = false;
 let newDays  = 7;
 
@@ -731,14 +725,24 @@ try {
 /* ── Toolbar ────────────────────────────────────────────── */
 function buildToolbar() {
   const bar = document.getElementById('toolbar');
-  bar.querySelectorAll('.cat-pill, .toolbar-divider').forEach(e => e.remove());
+  bar.querySelectorAll('.cat-pill, .toolbar-divider, .day-range-pill').forEach(e => e.remove());
   const sw = bar.querySelector('.search-wrap');
 
-  bar.insertBefore(makePill('All', '#888', null), sw);
-  bar.insertBefore(makePill('New', '#34c759', 'new'), sw);
-  bar.insertBefore(makeDivider(), sw);
   bar.insertBefore(makePill(ARTICLES_CAT.label, ARTICLES_CAT.color, ARTICLES_CAT.id), sw);
   CATEGORIES.forEach(cat => bar.insertBefore(makePill(cat.label, cat.color, cat.id), sw));
+  bar.insertBefore(makeDivider(), sw);
+  [7, 14, 30].forEach(d => {
+    const btn = document.createElement('button');
+    btn.className = 'day-range-pill' + (d === newDays ? ' active' : '');
+    btn.textContent = d + 'd';
+    btn.dataset.days = d;
+    btn.onclick = () => {
+      newDays = d;
+      bar.querySelectorAll('.day-range-pill').forEach(b => b.classList.toggle('active', +b.dataset.days === d));
+      renderAll(document.getElementById('search').value.toLowerCase().trim());
+    };
+    bar.insertBefore(btn, sw);
+  });
 }
 
 function makePill(label, color, catId) {
@@ -766,11 +770,11 @@ function makeDivider() {
 function toggleAll() {
   allOpen = !allOpen;
   if (allOpen) {
-    openSet.add('new'); openSet.add('articles'); CATEGORIES.forEach(c => openSet.add(c.id));
+    openSet.add('articles'); CATEGORIES.forEach(c => openSet.add(c.id));
     document.querySelectorAll('.cat-section').forEach(s => s.classList.add('open'));
     document.getElementById('expand-btn').textContent = '− collapse all';
   } else {
-    openSet.clear(); openSet.add('new'); openSet.add('articles');
+    openSet.clear(); openSet.add('articles');
     document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id === 'cat-articles'));
     document.getElementById('expand-btn').textContent = '+ expand all';
   }
@@ -820,145 +824,44 @@ function renderAll(query) {
   const container = document.getElementById('cats');
   container.innerHTML = '';
   const now = Date.now();
-  const newThreshold = newDays * 24 * 60 * 60 * 1000;
+  const threshold = newDays * 24 * 60 * 60 * 1000;
   let delay = 0;
 
-  // New section (all feed types, within newDays window)
-  if (!query) {
-    const newItems = [];
-    for (const feed of allFeeds) {
-      for (const item of (feed.items || [])) {
-        const pub = item.pubDate ? new Date(item.pubDate) : null;
-        if (pub && (now - pub.getTime()) < newThreshold)
-          newItems.push({ ...item, _feedLabel: feed.label, _feedType: feed.type });
-      }
-    }
-    newItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-    if (newItems.length) { container.appendChild(buildNewSection(newItems)); delay += 45; }
+  function withinWindow(item) {
+    const pub = item.pubDate ? new Date(item.pubDate) : null;
+    return pub && (now - pub.getTime()) < threshold;
+  }
+  function matchesQuery(item) {
+    return !query || (item.title + ' ' + (item.summary||'')).toLowerCase().includes(query);
   }
 
-  // Blog Posts — flat individual article cards, sorted newest first
-  const allArticleItems = [];
+  // Articles — flat card grid, filtered to newDays window
+  const articleItems = [];
   for (const feed of allFeeds) {
     if (feed.type !== 'rss') continue;
     for (const item of (feed.items || [])) {
-      if (!query || (item.title + ' ' + (item.summary||'')).toLowerCase().includes(query))
-        allArticleItems.push({ ...item, _feedLabel: feed.label });
+      if (withinWindow(item) && matchesQuery(item))
+        articleItems.push({ ...item, _feedLabel: feed.label });
     }
   }
-  allArticleItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  if (allArticleItems.length) {
-    container.appendChild(buildBlogPostsSection(allArticleItems, delay, query));
+  articleItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  if (articleItems.length || !query) {
+    container.appendChild(buildBlogPostsSection(articleItems, delay, query));
     delay += 45;
   }
 
-  // Video and Audio sections (per-source cards, unchanged)
+  // Audio and Video — per-source cards, filtered to newDays window
   for (const cat of CATEGORIES) {
-    const feeds = allFeeds.filter(f => f.category === cat.id).map(f => ({
-      ...f, items: (f.items||[]).filter(i => !query || (i.title+' '+(i.summary||'')).toLowerCase().includes(query))
-    }));
+    const feeds = allFeeds
+      .filter(f => f.category === cat.id)
+      .map(f => ({ ...f, items: (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i)) }))
+      .filter(f => f.items.length > 0);
     if (!feeds.length) continue;
-    if (query && feeds.reduce((a,f) => a+f.items.length, 0) === 0) continue;
     container.appendChild(buildCatSection(cat, feeds, delay, query));
     delay += 45;
   }
+
   document.getElementById('stat-total').textContent = allFeeds.reduce((a,f) => a+(f.items?.length||0), 0);
-}
-
-function buildNewSection(items) {
-  const TYPE_BADGE = {
-    youtube: { label:'Video',   color:'#f25022' },
-    podcast: { label:'Audio',   color:'#00a4ef' },
-    rss:     { label:'Article', color:'#5b8dee' },
-  };
-
-  const sec = document.createElement('div');
-  sec.className = 'cat-section' + (openSet.has('new') ? ' open' : '');
-  sec.id = 'cat-new';
-
-  // Build header with day-range selector
-  const hdr = document.createElement('div');
-  hdr.className = 'cat-header';
-
-  const colorBar = document.createElement('div');
-  colorBar.className = 'cat-color-bar';
-  colorBar.style.background = 'var(--new-fg)';
-
-  const inner = document.createElement('div');
-  inner.className = 'cat-header-inner';
-  inner.innerHTML = `<div class="cat-name">New</div>`;
-
-  const meta = document.createElement('div');
-  meta.className = 'cat-meta';
-  meta.innerHTML = `<span class="cat-pill-count">${items.length} item${items.length!==1?'s':''}</span>`;
-
-  const dayPills = document.createElement('span');
-  dayPills.className = 'day-pills';
-  [7, 14, 30].forEach(d => {
-    const btn = document.createElement('button');
-    btn.className = 'day-pill' + (d === newDays ? ' active' : '');
-    btn.textContent = d + 'd';
-    btn.onclick = e => {
-      e.stopPropagation();
-      newDays = d;
-      renderAll(document.getElementById('search').value.toLowerCase().trim());
-    };
-    dayPills.appendChild(btn);
-  });
-  meta.appendChild(dayPills);
-
-  const chevron = document.createElement('span');
-  chevron.className = 'cat-chevron';
-  chevron.textContent = '▶';
-
-  inner.appendChild(meta);
-  inner.appendChild(chevron);
-  hdr.appendChild(colorBar);
-  hdr.appendChild(inner);
-  hdr.onclick = () => { const was = sec.classList.contains('open'); sec.classList.toggle('open',!was); was ? openSet.delete('new') : openSet.add('new'); };
-
-  const body = document.createElement('div');
-  body.className = 'cat-body';
-
-  const grid = document.createElement('div');
-  grid.className = 'new-card-grid';
-
-  items.forEach((item, i) => {
-    const tb = TYPE_BADGE[item._feedType] || TYPE_BADGE.rss;
-    const hex = tb.color, r=parseInt(hex.slice(1,3),16), g=parseInt(hex.slice(3,5),16), b=parseInt(hex.slice(5,7),16);
-    const badgeStyle = `color:${tb.color};background:rgba(${r},${g},${b},0.1);border-color:rgba(${r},${g},${b},0.3)`;
-
-    const pub = item.pubDate ? new Date(item.pubDate) : null;
-    const ds = pub ? pub.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
-    const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
-    const thumb = item.thumbnail || (item.videoId ? `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg` : '');
-    const summ = item.summary ? esc(item.summary.slice(0,220)) : '';
-
-    const card = document.createElement('a');
-    card.className = 'new-card';
-    card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
-    card.style.animationDelay = (i * 25) + 'ms';
-
-    card.innerHTML = `
-      <div class="new-card-top">
-        <span class="new-cat-tag" style="${badgeStyle}">${tb.label}</span>
-        <span class="new-card-source">${esc(item._feedLabel)}</span>
-        ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
-      </div>
-      ${thumb ? `<img class="new-card-thumb" src="${esc(thumb)}" alt="" loading="lazy">` : ''}
-      <div class="new-card-body">
-        <div class="new-card-title">${esc(item.title)}</div>
-        ${summ ? `<div class="new-card-summary">${summ}${item.summary.length>220?'…':''}</div>` : ''}
-        ${tags ? `<div class="art-tags">${tags}</div>` : ''}
-      </div>`;
-
-    grid.appendChild(card);
-  });
-
-  body.appendChild(grid);
-  sec.appendChild(hdr);
-  sec.appendChild(body);
-  return sec;
 }
 
 /* ── Blog Posts section — flat individual article cards ──── */
