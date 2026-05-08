@@ -600,6 +600,18 @@
     @keyframes spin { to { transform: rotate(360deg); } }
     .load-text { font-family: 'JetBrains Mono', monospace; font-size: 12px; }
 
+    /* Sources view */
+    #sources-view { padding-bottom: 40px; }
+    .sources-heading {
+      font-size: 13px; font-weight: 600; letter-spacing: 0.04em;
+      text-transform: uppercase; color: var(--text-mute);
+      margin: 28px 0 12px; display: flex; align-items: center; gap: 8px;
+    }
+    .sources-heading-dot {
+      display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+    }
+    .btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
     /* ── FOOTER ── */
     footer {
       background: var(--bg-header);
@@ -656,6 +668,7 @@
   <div class="header-left" style="font-family:'Barlow',sans-serif;font-weight:700;font-size:18px;letter-spacing:0.5px;color:var(--text)">Endpoint<span style="color:var(--accent)">Feed</span></div>
   <div class="header-right">
     <div id="last-updated">initializing…</div>
+    <button class="btn" id="sources-btn" onclick="showSources()">Sources</button>
     <button class="btn" onclick="loadFeeds()">↺ refresh</button>
     <button class="btn" id="expand-btn" onclick="toggleAll()">+ expand all</button>
     <button id="theme-btn" onclick="toggleTheme()" title="Toggle theme">🌙</button>
@@ -686,6 +699,7 @@
     <div class="load-text">loading feeds…</div>
   </div>
   <div id="cats" style="display:contents"></div>
+  <div id="sources-view" style="display:none"></div>
 </div>
 
 <footer>
@@ -908,7 +922,7 @@ function buildBlogPostsSection(items, delay, query) {
     card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
     card.style.animationDelay = (Math.min(i, 30) * 20) + 'ms';
 
-    const topBg = item._feedColor ? tintBg(item._feedColor, 0.08) : 'transparent';
+    const topBg = tintBg(ARTICLES_CAT.color, 0.07);
     card.innerHTML = `
       <div class="new-card-top" style="background:${topBg}">
         <span class="new-card-source">${esc(item._feedLabel)}</span>
@@ -942,7 +956,7 @@ function buildCatSection(cat, feeds, delay, query) {
   // Collect + sort all items across feeds
   const allItems = [];
   feeds.forEach(feed => {
-    (feed.items || []).forEach(item => allItems.push({ ...item, _feedLabel: feed.label, _feedColor: feed.color }));
+    (feed.items || []).forEach(item => allItems.push({ ...item, _feedLabel: feed.label, _sectionColor: cat.color }));
   });
   allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
@@ -993,7 +1007,7 @@ function buildVideoCard(item, delay) {
   const pub = item.pubDate ? new Date(item.pubDate) : null;
   const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
   const thumb = item.thumbnail || (item.videoId ? `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg` : '');
-  const topBg = item._feedColor ? tintBg(item._feedColor, 0.10) : 'transparent';
+  const topBg = item._sectionColor ? tintBg(item._sectionColor, 0.07) : 'transparent';
 
   card.innerHTML = `
     <div class="new-card-top" style="background:${topBg}">
@@ -1016,7 +1030,7 @@ function buildAudioCard(item, delay) {
 
   const pub = item.pubDate ? new Date(item.pubDate) : null;
   const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-  const topBg = item._feedColor ? tintBg(item._feedColor, 0.10) : 'transparent';
+  const topBg = item._sectionColor ? tintBg(item._sectionColor, 0.07) : 'transparent';
 
   card.innerHTML = `
     <div class="new-card-top" style="background:${topBg}">
@@ -1034,6 +1048,74 @@ function buildAudioCard(item, delay) {
     </div>`;
 
   return card;
+}
+
+/* ── Sources view ───────────────────────────────────────── */
+let sourcesOpen = false;
+
+function showSources() {
+  sourcesOpen = !sourcesOpen;
+  document.getElementById('sources-view').style.display = sourcesOpen ? 'block' : 'none';
+  document.getElementById('cats').style.display        = sourcesOpen ? 'none' : 'contents';
+  document.getElementById('sources-btn').classList.toggle('active', sourcesOpen);
+  document.getElementById('expand-btn').style.display  = sourcesOpen ? 'none' : '';
+  if (sourcesOpen) buildSourcesView();
+}
+
+function buildSourcesView() {
+  const view = document.getElementById('sources-view');
+  view.innerHTML = '';
+
+  const groups = [
+    { label: 'Blog Posts', type: 'rss',   color: ARTICLES_CAT.color },
+    { label: 'Video',      type: 'video',  color: '#f25022' },
+    { label: 'Podcasts',   type: 'audio',  color: '#00a4ef' },
+  ];
+
+  groups.forEach(group => {
+    const feeds = allFeeds.filter(f => f.type === group.type || f.category === group.type);
+    if (!feeds.length) return;
+
+    const heading = document.createElement('div');
+    heading.className = 'sources-heading';
+    heading.innerHTML = `<span class="sources-heading-dot" style="background:${group.color}"></span>${esc(group.label)} <span style="font-weight:400;opacity:0.6">(${feeds.length})</span>`;
+    view.appendChild(heading);
+
+    const grid = document.createElement('div');
+    grid.className = 'new-card-grid';
+
+    feeds.forEach(feed => {
+      let siteUrl = '';
+      try {
+        if (feed.items && feed.items.length && feed.items[0].link) {
+          const u = new URL(feed.items[0].link);
+          siteUrl = u.origin;
+        } else {
+          siteUrl = new URL(feed.url).origin;
+        }
+      } catch(_) { siteUrl = feed.url; }
+
+      const card = document.createElement('a');
+      card.className = 'new-card';
+      card.href = siteUrl;
+      card.target = '_blank'; card.rel = 'noopener noreferrer';
+      card.style.animationDelay = '0ms';
+
+      const topBg = tintBg(group.color, 0.07);
+      card.innerHTML = `
+        <div class="new-card-top" style="background:${topBg}">
+          <span class="new-card-source">${esc(feed.label)}</span>
+          ${feed.error ? `<span style="font-size:10px;color:var(--ms-red);font-weight:600">ERR</span>` : `<span style="font-size:11px;color:var(--text-mute)">${feed.items?.length||0} items</span>`}
+        </div>
+        <div class="new-card-body">
+          <div style="font-size:12px;color:var(--text-mute);word-break:break-all">${esc(siteUrl)}</div>
+        </div>`;
+
+      grid.appendChild(card);
+    });
+
+    view.appendChild(grid);
+  });
 }
 
 /* ── Search ─────────────────────────────────────────────── */
