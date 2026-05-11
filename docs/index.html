@@ -749,7 +749,7 @@ const CATEGORIES = [
 ];
 
 const ARTICLES_CAT = { id: 'articles', label: 'Blog Posts',  color: '#5b8dee' };
-const VENDOR_CAT   = { id: 'vendor',   label: 'Vendors',     color: '#0078d4' };
+const VENDOR_CAT   = { id: 'vendor',   label: 'Official',    color: '#7fba00' };
 
 const VENDORS = [
   { id: 'microsoft', label: 'Microsoft',       color: '#0078d4' },
@@ -784,9 +784,9 @@ function buildToolbar() {
   bar.querySelectorAll('.cat-pill, .toolbar-divider, .day-range-pill').forEach(e => e.remove());
   const sw = bar.querySelector('.search-wrap');
 
+  bar.insertBefore(makePill(VENDOR_CAT.label, VENDOR_CAT.color, VENDOR_CAT.id), sw);
   bar.insertBefore(makePill(ARTICLES_CAT.label, ARTICLES_CAT.color, ARTICLES_CAT.id), sw);
   CATEGORIES.forEach(cat => bar.insertBefore(makePill(cat.label, cat.color, cat.id), sw));
-  bar.insertBefore(makePill(VENDOR_CAT.label, VENDOR_CAT.color, VENDOR_CAT.id), sw);
   bar.insertBefore(makeDivider(), sw);
   [1, 7, 14, 30].forEach(d => {
     const btn = document.createElement('button');
@@ -895,6 +895,16 @@ function renderAll(query) {
     return !query || (item.title + ' ' + (item.summary||'')).toLowerCase().includes(query);
   }
 
+  // Official (vendor) section — rendered first
+  const vendorFeeds = allFeeds.filter(f => f.vendor);
+  const vendorItems = vendorFeeds.flatMap(f =>
+    (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i))
+  );
+  if (vendorItems.length || !query) {
+    container.appendChild(buildVendorSection(vendorFeeds, delay, query));
+    delay += 45;
+  }
+
   // Articles — flat card grid, filtered to newDays window (excludes vendor feeds)
   const articleItems = [];
   for (const feed of allFeeds) {
@@ -918,16 +928,6 @@ function renderAll(query) {
       .filter(f => f.items.length > 0);
     if (!feeds.length) continue;
     container.appendChild(buildCatSection(cat, feeds, delay, query));
-    delay += 45;
-  }
-
-  // Vendors section
-  const vendorFeeds = allFeeds.filter(f => f.vendor);
-  const vendorItems = vendorFeeds.flatMap(f =>
-    (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i))
-  );
-  if (vendorItems.length || !query) {
-    container.appendChild(buildVendorSection(vendorFeeds, delay, query));
     delay += 45;
   }
 
