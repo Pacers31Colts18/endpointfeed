@@ -382,6 +382,13 @@ const FEEDS = [
     badge: "Microsoft",
     url: "https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29",
   },
+  {
+    id: "jamf",
+    label: "JAMF Blog",
+    type: "official",
+    badge: "Microsoft",
+    url: "https://www.jamf.com/blog/rss/",
+  },
 
   // ── Audio ─────────────────────────────────────────────────────────────────
   {
