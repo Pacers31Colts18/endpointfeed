@@ -366,7 +366,7 @@ const FEEDS = [
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw",
   },
 
-  // ── Vendor: Nerdio ────────────────────────────────────────────────────────
+  // ──Official ───────────────────────────────────────────────
   {
     id: "nerdio-blog",
     label: "Nerdio",
@@ -374,14 +374,19 @@ const FEEDS = [
     vendor: "nerdio",
     url: "https://getnerdio.com/resources/feed/",
   },
-
-  // ── Vendor: Recast Software ───────────────────────────────────────────────
   {
     id: "recast-blog",
     label: "Recast Software",
     type: "rss",
     vendor: "recast",
     url: "https://www.recastsoftware.com/feed/",
+  },
+  {
+    id: "patchmypc-blog",
+    label: "Patch my PC",
+    type: "rss",
+    vendor: "patchmypc",
+    url: "https://patchmypc.com/feed",
   },
 
   // ── Audio ─────────────────────────────────────────────────────────────────
