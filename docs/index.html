@@ -590,6 +590,35 @@
     }
     .day-range-pill:hover { border-color: var(--accent); color: var(--accent); }
     .day-range-pill.active { border-color: var(--accent); color: var(--accent); background: rgba(91,141,238,0.1); }
+    /* ── VENDOR SUB-SECTIONS ── */
+    .vendor-sub {
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+    .vendor-sub:last-child { margin-bottom: 0; }
+    .vendor-sub-header {
+      display: flex; align-items: stretch;
+      height: 38px;
+      background: var(--bg-panel);
+      cursor: pointer; user-select: none;
+      transition: background 0.12s;
+      border-bottom: 1px solid transparent;
+    }
+    .vendor-sub-header:hover { background: var(--bg-hover); }
+    .vendor-sub.open .vendor-sub-header { border-bottom-color: var(--border); }
+    .vendor-sub.open .vendor-sub-chevron { transform: rotate(90deg); }
+    .vendor-sub-body {
+      display: none;
+      padding: 12px;
+      background: var(--bg);
+    }
+    .vendor-sub.open .vendor-sub-body { display: block; }
+    .vendor-sub-chevron {
+      color: var(--text-mute); font-size: 10px; transition: transform 0.2s;
+    }
+
     /* ── LOADING ── */
     #loading {
       padding: 70px 0; text-align: center; color: var(--text-mute);
@@ -719,10 +748,17 @@ const CATEGORIES = [
   { id:'audio', label:'Podcasts / Audio', color:'#00a4ef' },
 ];
 
-const ARTICLES_CAT = { id: 'articles', label: 'Blog Posts', color: '#5b8dee' };
+const ARTICLES_CAT = { id: 'articles', label: 'Blog Posts',  color: '#5b8dee' };
+const VENDOR_CAT   = { id: 'vendor',   label: 'Vendors',     color: '#0078d4' };
+
+const VENDORS = [
+  { id: 'microsoft', label: 'Microsoft',       color: '#0078d4' },
+  { id: 'nerdio',    label: 'Nerdio',           color: '#6c4bf4' },
+  { id: 'recast',    label: 'Recast Software',  color: '#e55a1c' },
+];
 
 let allFeeds = [];
-let openSet  = new Set(['articles', 'video', 'audio']);
+let openSet  = new Set(['articles', 'video', 'audio', 'vendor']);
 let allOpen  = false;
 let newDays  = 7;
 
@@ -750,6 +786,7 @@ function buildToolbar() {
 
   bar.insertBefore(makePill(ARTICLES_CAT.label, ARTICLES_CAT.color, ARTICLES_CAT.id), sw);
   CATEGORIES.forEach(cat => bar.insertBefore(makePill(cat.label, cat.color, cat.id), sw));
+  bar.insertBefore(makePill(VENDOR_CAT.label, VENDOR_CAT.color, VENDOR_CAT.id), sw);
   bar.insertBefore(makeDivider(), sw);
   [1, 7, 14, 30].forEach(d => {
     const btn = document.createElement('button');
@@ -791,11 +828,14 @@ function toggleAll() {
   allOpen = !allOpen;
   if (allOpen) {
     openSet.add('articles'); CATEGORIES.forEach(c => openSet.add(c.id));
+    openSet.add('vendor'); VENDORS.forEach(v => openSet.add('vs-'+v.id));
     document.querySelectorAll('.cat-section').forEach(s => s.classList.add('open'));
+    document.querySelectorAll('.vendor-sub').forEach(s => s.classList.add('open'));
     document.getElementById('expand-btn').textContent = '− collapse all';
   } else {
     openSet.clear(); openSet.add('articles');
     document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id === 'cat-articles'));
+    document.querySelectorAll('.vendor-sub').forEach(s => s.classList.remove('open'));
     document.getElementById('expand-btn').textContent = '+ expand all';
   }
 }
@@ -855,10 +895,10 @@ function renderAll(query) {
     return !query || (item.title + ' ' + (item.summary||'')).toLowerCase().includes(query);
   }
 
-  // Articles — flat card grid, filtered to newDays window
+  // Articles — flat card grid, filtered to newDays window (excludes vendor feeds)
   const articleItems = [];
   for (const feed of allFeeds) {
-    if (feed.type !== 'rss') continue;
+    if (feed.type !== 'rss' || feed.vendor) continue;
     for (const item of (feed.items || [])) {
       if (withinWindow(item) && matchesQuery(item))
         articleItems.push({ ...item, _feedLabel: feed.label, _feedMvp: !!feed.mvp });
@@ -873,11 +913,21 @@ function renderAll(query) {
   // Audio and Video — per-source cards, filtered to newDays window
   for (const cat of CATEGORIES) {
     const feeds = allFeeds
-      .filter(f => f.type === cat.id)
+      .filter(f => f.type === cat.id && !f.vendor)
       .map(f => ({ ...f, items: (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i)) }))
       .filter(f => f.items.length > 0);
     if (!feeds.length) continue;
     container.appendChild(buildCatSection(cat, feeds, delay, query));
+    delay += 45;
+  }
+
+  // Vendors section
+  const vendorFeeds = allFeeds.filter(f => f.vendor);
+  const vendorItems = vendorFeeds.flatMap(f =>
+    (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i))
+  );
+  if (vendorItems.length || !query) {
+    container.appendChild(buildVendorSection(vendorFeeds, delay, query));
     delay += 45;
   }
 
@@ -1003,6 +1053,118 @@ function buildCatSection(cat, feeds, delay, query) {
   return sec;
 }
 
+/* ── Vendors section — nested per-vendor sub-sections ───── */
+function buildVendorSection(vendorFeeds, delay, query) {
+  const isOpen = openSet.has('vendor') || !!query;
+
+  const totalItems = vendorFeeds.reduce((a, f) => a + (f.items||[]).length, 0);
+
+  const sec = document.createElement('div');
+  sec.className = 'cat-section' + (isOpen ? ' open' : '');
+  sec.id = 'cat-vendor';
+
+  const hdr = document.createElement('div');
+  hdr.className = 'cat-header';
+  hdr.innerHTML = `
+    <div class="cat-color-bar" style="background:${VENDOR_CAT.color}"></div>
+    <div class="cat-header-inner">
+      <div class="cat-name">${esc(VENDOR_CAT.label)}</div>
+      <div class="cat-meta">
+        <span class="cat-pill-count">${totalItems} item${totalItems!==1?'s':''}</span>
+      </div>
+      <span class="cat-chevron">▶</span>
+    </div>`;
+  hdr.onclick = () => {
+    const was = sec.classList.contains('open');
+    sec.classList.toggle('open', !was);
+    was ? openSet.delete('vendor') : openSet.add('vendor');
+  };
+
+  const body = document.createElement('div');
+  body.className = 'cat-body';
+
+  VENDORS.forEach(vendor => {
+    const feeds = vendorFeeds.filter(f => f.vendor === vendor.id);
+    if (!feeds.length) return;
+    body.appendChild(buildVendorSubSection(vendor, feeds, query));
+  });
+
+  sec.appendChild(hdr);
+  sec.appendChild(body);
+  return sec;
+}
+
+function buildVendorSubSection(vendor, feeds, query) {
+  const vsKey = 'vs-' + vendor.id;
+  const isOpen = openSet.has(vsKey) || !!query;
+
+  const items = feeds.flatMap(f =>
+    (f.items||[]).map(i => ({ ...i, _feedLabel: f.label, _feedMvp: !!f.mvp, _sectionColor: vendor.color }))
+  );
+  items.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+  const sub = document.createElement('div');
+  sub.className = 'vendor-sub' + (isOpen ? ' open' : '');
+  sub.id = 'vs-' + vendor.id;
+
+  const hdr = document.createElement('div');
+  hdr.className = 'vendor-sub-header';
+  hdr.innerHTML = `
+    <div class="cat-color-bar" style="background:${vendor.color}"></div>
+    <div class="cat-header-inner">
+      <div class="cat-name" style="font-size:13px">${esc(vendor.label)}</div>
+      <div class="cat-meta">
+        <span class="cat-pill-count">${items.length} item${items.length!==1?'s':''}</span>
+      </div>
+      <span class="vendor-sub-chevron cat-chevron">▶</span>
+    </div>`;
+  hdr.onclick = () => {
+    const was = sub.classList.contains('open');
+    sub.classList.toggle('open', !was);
+    was ? openSet.delete(vsKey) : openSet.add(vsKey);
+  };
+
+  const body = document.createElement('div');
+  body.className = 'vendor-sub-body';
+
+  const grid = document.createElement('div');
+  grid.className = 'new-card-grid';
+
+  items.forEach((item, i) => {
+    const pub = item.pubDate ? new Date(item.pubDate) : null;
+    const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
+    const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
+    const title = query ? hi(item.title, query) : esc(item.title);
+    const rawSumm = item.summary || '';
+    const summ = rawSumm ? (query ? hi(rawSumm.slice(0,220), query) : esc(rawSumm.slice(0,220))) : '';
+
+    const card = document.createElement('a');
+    card.className = 'new-card';
+    card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
+    card.style.animationDelay = (Math.min(i, 30) * 20) + 'ms';
+
+    const topBg = tintBg(vendor.color, 0.07);
+    card.innerHTML = `
+      <div class="new-card-top" style="background:${topBg}">
+        <span class="new-card-source">${esc(item._feedLabel)}</span>
+        ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
+        ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
+      </div>
+      <div class="new-card-body">
+        <div class="new-card-title">${title}</div>
+        ${summ ? `<div class="new-card-summary">${summ}${rawSumm.length>220?'…':''}</div>` : ''}
+        ${tags ? `<div class="art-tags">${tags}</div>` : ''}
+      </div>`;
+
+    grid.appendChild(card);
+  });
+
+  body.appendChild(grid);
+  sub.appendChild(hdr);
+  sub.appendChild(body);
+  return sub;
+}
+
 /* ── Video card (individual item) ───────────────────────── */
 function buildVideoCard(item, delay) {
   const card = document.createElement('a');
@@ -1075,13 +1237,13 @@ function buildSourcesView() {
   view.innerHTML = '';
 
   const groups = [
-    { label: 'Blog Posts', type: 'rss',   color: ARTICLES_CAT.color },
+    { label: 'Blog Posts', type: 'rss',   color: ARTICLES_CAT.color, excludeVendor: true },
     { label: 'Video',      type: 'video',  color: '#f25022' },
     { label: 'Podcasts',   type: 'audio',  color: '#00a4ef' },
   ];
 
   groups.forEach(group => {
-    const feeds = allFeeds.filter(f => f.type === group.type);
+    const feeds = allFeeds.filter(f => f.type === group.type && (!group.excludeVendor || !f.vendor));
     if (!feeds.length) return;
 
     const heading = document.createElement('div');
@@ -1110,6 +1272,52 @@ function buildSourcesView() {
       card.style.animationDelay = '0ms';
 
       const topBg = tintBg(group.color, 0.07);
+      card.innerHTML = `
+        <div class="new-card-top" style="background:${topBg}">
+          <span class="new-card-source">${esc(feed.label)}</span>
+          ${feed.error ? `<span style="font-size:10px;color:var(--ms-red);font-weight:600">ERR</span>` : `<span style="font-size:11px;color:var(--text-mute)">${feed.items?.length||0} items</span>`}
+        </div>
+        <div class="new-card-body">
+          <div style="font-size:12px;color:var(--text-mute);word-break:break-all">${esc(siteUrl)}</div>
+        </div>`;
+
+      grid.appendChild(card);
+    });
+
+    view.appendChild(grid);
+  });
+
+  // Vendor groups
+  VENDORS.forEach(vendor => {
+    const feeds = allFeeds.filter(f => f.vendor === vendor.id);
+    if (!feeds.length) return;
+
+    const heading = document.createElement('div');
+    heading.className = 'sources-heading';
+    heading.innerHTML = `<span class="sources-heading-dot" style="background:${vendor.color}"></span>${esc('Vendor — ' + vendor.label)} <span style="font-weight:400;opacity:0.6">(${feeds.length})</span>`;
+    view.appendChild(heading);
+
+    const grid = document.createElement('div');
+    grid.className = 'new-card-grid';
+
+    feeds.forEach(feed => {
+      let siteUrl = '';
+      try {
+        if (feed.items && feed.items.length && feed.items[0].link) {
+          const u = new URL(feed.items[0].link);
+          siteUrl = u.origin;
+        } else {
+          siteUrl = new URL(feed.url).origin;
+        }
+      } catch(_) { siteUrl = feed.url; }
+
+      const card = document.createElement('a');
+      card.className = 'new-card';
+      card.href = siteUrl;
+      card.target = '_blank'; card.rel = 'noopener noreferrer';
+      card.style.animationDelay = '0ms';
+
+      const topBg = tintBg(vendor.color, 0.07);
       card.innerHTML = `
         <div class="new-card-top" style="background:${topBg}">
           <span class="new-card-source">${esc(feed.label)}</span>

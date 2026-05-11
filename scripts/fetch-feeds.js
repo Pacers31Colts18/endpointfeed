@@ -59,18 +59,21 @@ const FEEDS = [
     id: "indevelopment-intune",
     label: "In Development - Microsoft Intune",
     type: "rss",
+    vendor: "microsoft",
     url: "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
   },
   {
     id: "intunecustomersuccess",
     label: "Intune Customer Success",
     type: "rss",
+    vendor: "microsoft",
     url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
   },
   {
     id: "whatsnewintune",
     label: "Whats New in Intune",
     type: "rss",
+    vendor: "microsoft",
     url: "https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29",
   },
   {
@@ -145,6 +148,7 @@ const FEEDS = [
     id: "configmgrblog",
     label: "Microsoft Tech Community - Configuration Manager Blog",
     type: "rss",
+    vendor: "microsoft",
     url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog",
   },
   {
@@ -197,12 +201,14 @@ const FEEDS = [
     id: "microsoft365blog",
     label: "Microsoft Tech Community - M365 Blog",
     type: "rss",
+    vendor: "microsoft",
     url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
   },
   {
     id: "officereleases",
     label: "Microsoft Office Semi-Annual Channel Release Notes",
     type: "rss",
+    vendor: "microsoft",
     url: "https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
   },
   {
@@ -358,6 +364,24 @@ const FEEDS = [
     label: "Windows IT Pro",
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw",
+  },
+
+  // ── Vendor: Nerdio ────────────────────────────────────────────────────────
+  {
+    id: "nerdio-blog",
+    label: "Nerdio Blog",
+    type: "rss",
+    vendor: "nerdio",
+    url: "https://nerdio.com/feed/",
+  },
+
+  // ── Vendor: Recast Software ───────────────────────────────────────────────
+  {
+    id: "recast-blog",
+    label: "Recast Software Blog",
+    type: "rss",
+    vendor: "recast",
+    url: "https://www.recastsoftware.com/blog/feed/",
   },
 
   // ── Audio ─────────────────────────────────────────────────────────────────
