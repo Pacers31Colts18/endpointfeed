@@ -369,10 +369,10 @@ const FEEDS = [
   // ── Vendor: Nerdio ────────────────────────────────────────────────────────
   {
     id: "nerdio-blog",
-    label: "Nerdio Blog",
+    label: "Nerdio",
     type: "rss",
     vendor: "nerdio",
-    url: "https://nerdio.com/feed/",
+    url: "https://getnerdio.com/resources/feed/",
   },
 
   // ── Vendor: Recast Software ───────────────────────────────────────────────
