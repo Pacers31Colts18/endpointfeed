@@ -861,7 +861,7 @@ function renderAll(query) {
   }
 
   // Official (vendor) section — rendered first
-  const vendorFeeds = allFeeds.filter(f => f.vendor);
+  const vendorFeeds = allFeeds.filter(f => f.type === 'official');
   const vendorItems = vendorFeeds.flatMap(f =>
     (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i))
   );
@@ -873,7 +873,7 @@ function renderAll(query) {
   // Articles — flat card grid, filtered to newDays window (excludes vendor feeds)
   const articleItems = [];
   for (const feed of allFeeds) {
-    if (feed.type !== 'rss' || feed.vendor) continue;
+    if (feed.type !== 'rss') continue;
     for (const item of (feed.items || [])) {
       if (withinWindow(item) && matchesQuery(item))
         articleItems.push({ ...item, _feedLabel: feed.label, _feedBadge: feed.badge || null, _sectionColor: ARTICLES_CAT.color });
@@ -888,7 +888,7 @@ function renderAll(query) {
   // Audio and Video — per-source cards, filtered to newDays window
   for (const cat of CATEGORIES) {
     const feeds = allFeeds
-      .filter(f => f.type === cat.id && !f.vendor)
+      .filter(f => f.type === cat.id)
       .map(f => ({ ...f, items: (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i)) }))
       .filter(f => f.items.length > 0);
     if (!feeds.length) continue;
@@ -1168,13 +1168,13 @@ function buildSourcesView() {
   view.innerHTML = '';
 
   const groups = [
-    { label: 'Blog Posts', type: 'rss',   color: ARTICLES_CAT.color, excludeVendor: true },
+    { label: 'Blog Posts', type: 'rss',   color: ARTICLES_CAT.color },
     { label: 'Video',      type: 'video',  color: '#f25022' },
     { label: 'Podcasts',   type: 'audio',  color: '#00a4ef' },
   ];
 
   groups.forEach(group => {
-    const feeds = allFeeds.filter(f => f.type === group.type && (!group.excludeVendor || !f.vendor));
+    const feeds = allFeeds.filter(f => f.type === group.type);
     if (!feeds.length) return;
 
     const heading = document.createElement('div');
@@ -1219,7 +1219,7 @@ function buildSourcesView() {
   });
 
   // Official (vendor) group
-  const officialFeeds = allFeeds.filter(f => f.vendor);
+  const officialFeeds = allFeeds.filter(f => f.type === 'official');
   if (officialFeeds.length) {
     const heading = document.createElement('div');
     heading.className = 'sources-heading';
