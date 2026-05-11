@@ -374,23 +374,19 @@ const FEEDS = [
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw",
   },
 
-  // ── Vendor: Nerdio ────────────────────────────────────────────────────────
+  // ──Official ───────────────────────────────────────────────
   {
     id: "nerdio-blog",
-    label: "Nerdio Blog",
+    label: "Nerdio",
     type: "rss",
     vendor: "nerdio",
-    badge: "Nerdio",
-    url: "https://nerdio.com/feed/",
+    url: "https://getnerdio.com/resources/feed/",
   },
-
-  // ── Vendor: Recast Software ───────────────────────────────────────────────
   {
     id: "recast-blog",
-    label: "Recast Software Blog",
+    label: "Recast Software",
     type: "rss",
     vendor: "recast",
-    badge: "Recast Software",
     url: "https://www.recastsoftware.com/blog/feed/",
   },
 
