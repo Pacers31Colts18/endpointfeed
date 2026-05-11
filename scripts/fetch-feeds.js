@@ -378,10 +378,10 @@ const FEEDS = [
   // ── Vendor: Recast Software ───────────────────────────────────────────────
   {
     id: "recast-blog",
-    label: "Recast Software Blog",
+    label: "Recast Software",
     type: "rss",
     vendor: "recast",
-    url: "https://www.recastsoftware.com/blog/feed/",
+    url: "https://www.recastsoftware.com/feed/",
   },
 
   // ── Audio ─────────────────────────────────────────────────────────────────
