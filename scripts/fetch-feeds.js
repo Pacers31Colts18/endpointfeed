@@ -389,6 +389,13 @@ const FEEDS = [
     badge: "Microsoft",
     url: "https://www.jamf.com/blog/rss/",
   },
+  {
+    id: "2pint",
+    label: "2Pint Software Blog",
+    type: "official",
+    badge: "2Pint Software",
+    url: "https://2pintsoftware.com/news/rss",
+  },
 
   // ── Audio ─────────────────────────────────────────────────────────────────
   {
