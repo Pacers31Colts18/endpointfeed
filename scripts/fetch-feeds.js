@@ -32,14 +32,14 @@ const FEEDS = [
   {
     id: "andrewstaylor",
     label: "andrewstaylor.com",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://andrewstaylor.com/feed/",
   },
   {
     id: "skiptotheendpoint",
     label: "skiptotheendpoint.co.uk",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://skiptotheendpoint.co.uk/rss/",
   },
@@ -60,6 +60,8 @@ const FEEDS = [
     label: "In Development - Microsoft Intune",
     type: "rss",
     vendor: "microsoft",
+    badge: "Microsoft",
+    vendorLabel: "Microsoft",
     url: "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
   },
   {
@@ -67,6 +69,8 @@ const FEEDS = [
     label: "Intune Customer Success",
     type: "rss",
     vendor: "microsoft",
+    badge: "Microsoft",
+    vendorLabel: "Microsoft",
     url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
   },
   {
@@ -74,6 +78,7 @@ const FEEDS = [
     label: "Whats New in Intune",
     type: "rss",
     vendor: "microsoft",
+    badge: "Microsoft",
     url: "https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29",
   },
   {
@@ -121,14 +126,14 @@ const FEEDS = [
   {
     id: "garytown",
     label: "garytown.com - Gary Blok",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://garytown.com/feed",
   },
   {
     id: "deploymentresearch",
     label: "deploymentresearch.com - Johan Arwidmark",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://www.deploymentresearch.com/feed",
   },
@@ -149,12 +154,13 @@ const FEEDS = [
     label: "Microsoft Tech Community - Configuration Manager Blog",
     type: "rss",
     vendor: "microsoft",
+    badge: "Microsoft",
     url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog",
   },
   {
     id: "oofhours",
     label: "oofhours.com - Mike Niehaus",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://oofhours.com/feed/",
   },
@@ -173,21 +179,21 @@ const FEEDS = [
   {
     id: "nathanmcnulty",
     label: "nathanmcnulty.com - Nathan McNulty",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://nathanmcnulty.com/index.xml",
   },
   {
     id: "mobile-jon",
     label: "mobile-jon.com",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://mobile-jon.com/feed/",
   },
   {
     id: "bigchriscloud",
     label: "bigchriscloud.com - Chris Cavazos",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://bigchriscloud.com/feed/",
   },
@@ -202,6 +208,7 @@ const FEEDS = [
     label: "Microsoft Tech Community - M365 Blog",
     type: "rss",
     vendor: "microsoft",
+    badge: "Microsoft",
     url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
   },
   {
@@ -209,6 +216,7 @@ const FEEDS = [
     label: "Microsoft Office Semi-Annual Channel Release Notes",
     type: "rss",
     vendor: "microsoft",
+    badge: "Microsoft",
     url: "https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
   },
   {
@@ -232,7 +240,7 @@ const FEEDS = [
   {
     id: "conditionalaccess",
     label: "conditionalaccess.uk - Lewis Berry",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://conditionalaccess.uk/blog/feed/",
   },
@@ -263,7 +271,7 @@ const FEEDS = [
   {
     id: "deploymentbunny",
     label: "deploymentbunny.com - Mikael Nyström",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://deploymentbunny.com/feed/",
   },
@@ -288,7 +296,7 @@ const FEEDS = [
   {
     id: "jorgeasaur",
     label: "jorgeasaur.us - Jorge Suarez",
-    mvp: true,
+    badge: 'MVP',
     type: "rss",
     url: "https://www.jorgeasaur.us/rss.xml",
   },
@@ -297,7 +305,7 @@ const FEEDS = [
   {
     id: "yt-savill",
     label: "John Savill Tech Training",
-    mvp: true,
+    badge: 'MVP',
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
   },
@@ -316,21 +324,21 @@ const FEEDS = [
   {
     id: "yt-deanellerby",
     label: "Dean Ellerby",
-    mvp: true,
+    badge: 'MVP',
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw",
   },
   {
     id: "yt-getrubix",
     label: "Get Rubix",
-    mvp: true,
+    badge: 'MVP',
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
   },
   {
     id: "yt-bearded365",
     label: "Bearded 365 Guy",
-    mvp: true,
+    badge: 'MVP',
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg",
   },
@@ -343,7 +351,7 @@ const FEEDS = [
   {
     id: "yt-travis",
     label: "Travis Roberts",
-    mvp: true,
+    badge: 'MVP',
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
   },
@@ -372,6 +380,7 @@ const FEEDS = [
     label: "Nerdio Blog",
     type: "rss",
     vendor: "nerdio",
+    badge: "Nerdio",
     url: "https://nerdio.com/feed/",
   },
 
@@ -381,6 +390,7 @@ const FEEDS = [
     label: "Recast Software Blog",
     type: "rss",
     vendor: "recast",
+    badge: "Recast Software",
     url: "https://www.recastsoftware.com/blog/feed/",
   },
 

@@ -552,10 +552,10 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 10px; color: var(--text-mute); white-space: nowrap;
     }
-    .mvp-badge {
+    .badge {
       font-size: 9px; font-weight: 700; letter-spacing: 0.06em;
-      padding: 2px 5px; border-radius: 3px; flex-shrink: 0;
-      background: #0078d4; color: #fff; white-space: nowrap;
+      padding: 2px 6px; border-radius: 3px; flex-shrink: 0;
+      border: 1px solid; white-space: nowrap;
     }
     .new-card-thumb {
       width: 100%; aspect-ratio: 16/9;
@@ -590,12 +590,6 @@
     }
     .day-range-pill:hover { border-color: var(--accent); color: var(--accent); }
     .day-range-pill.active { border-color: var(--accent); color: var(--accent); background: rgba(91,141,238,0.1); }
-    /* ── VENDOR BADGE ── */
-    .vendor-badge {
-      font-size: 9px; font-weight: 700; letter-spacing: 0.05em;
-      padding: 2px 6px; border-radius: 3px; flex-shrink: 0;
-      border: 1px solid; white-space: nowrap;
-    }
 
     /* ── LOADING ── */
     #loading {
@@ -729,11 +723,6 @@ const CATEGORIES = [
 const ARTICLES_CAT = { id: 'articles', label: 'Blog Posts',  color: '#5b8dee' };
 const VENDOR_CAT   = { id: 'vendor',   label: 'Official',    color: '#7fba00' };
 
-const VENDORS = [
-  { id: 'microsoft', label: 'Microsoft',       color: '#0078d4' },
-  { id: 'nerdio',    label: 'Nerdio',           color: '#6c4bf4' },
-  { id: 'recast',    label: 'Recast Software',  color: '#e55a1c' },
-];
 
 let allFeeds = [];
 let openSet  = new Set(['articles', 'video', 'audio', 'vendor']);
@@ -887,7 +876,7 @@ function renderAll(query) {
     if (feed.type !== 'rss' || feed.vendor) continue;
     for (const item of (feed.items || [])) {
       if (withinWindow(item) && matchesQuery(item))
-        articleItems.push({ ...item, _feedLabel: feed.label, _feedMvp: !!feed.mvp });
+        articleItems.push({ ...item, _feedLabel: feed.label, _feedBadge: feed.badge || null, _sectionColor: ARTICLES_CAT.color });
     }
   }
   articleItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
@@ -954,10 +943,11 @@ function buildBlogPostsSection(items, delay, query) {
     card.style.animationDelay = (Math.min(i, 30) * 20) + 'ms';
 
     const topBg = tintBg(ARTICLES_CAT.color, 0.07);
+    const badgeColor = ARTICLES_CAT.color;
     card.innerHTML = `
       <div class="new-card-top" style="background:${topBg}">
         <span class="new-card-source">${esc(item._feedLabel)}</span>
-        ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
+        ${item._feedBadge ? `<span class="badge" style="color:${badgeColor};border-color:${badgeColor}60;background:${badgeColor}18">${esc(item._feedBadge)}</span>` : ''}
         ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
       </div>
       <div class="new-card-body">
@@ -988,7 +978,7 @@ function buildCatSection(cat, feeds, delay, query) {
   // Collect + sort all items across feeds
   const allItems = [];
   feeds.forEach(feed => {
-    (feed.items || []).forEach(item => allItems.push({ ...item, _feedLabel: feed.label, _sectionColor: cat.color, _feedMvp: !!feed.mvp }));
+    (feed.items || []).forEach(item => allItems.push({ ...item, _feedLabel: feed.label, _sectionColor: cat.color, _feedBadge: feed.badge || null }));
   });
   allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
@@ -1029,19 +1019,15 @@ function buildCatSection(cat, feeds, delay, query) {
   return sec;
 }
 
-/* ── Official section — flat grid with per-vendor color labels ── */
+/* ── Official section — flat grid with badge labels ── */
 function buildVendorSection(vendorFeeds, delay, query) {
   const isOpen = openSet.has('vendor') || !!query;
 
-  // Build a lookup from vendor id → vendor config
-  const vendorMap = Object.fromEntries(VENDORS.map(v => [v.id, v]));
-
-  // Collect all items, attaching vendor info
+  // Collect all items
   const allItems = [];
   for (const feed of vendorFeeds) {
-    const vendor = vendorMap[feed.vendor] || { id: feed.vendor, label: feed.vendor, color: '#888' };
     for (const item of (feed.items || [])) {
-      allItems.push({ ...item, _feedLabel: feed.label, _feedMvp: !!feed.mvp, _vendor: vendor });
+      allItems.push({ ...item, _feedLabel: feed.label, _feedBadge: feed.badge || null, _sectionColor: VENDOR_CAT.color });
     }
   }
   allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
@@ -1073,7 +1059,7 @@ function buildVendorSection(vendorFeeds, delay, query) {
   grid.className = 'new-card-grid';
 
   allItems.forEach((item, i) => {
-    const vendor = item._vendor;
+    const color = VENDOR_CAT.color;
     const pub = item.pubDate ? new Date(item.pubDate) : null;
     const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
     const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
@@ -1086,12 +1072,11 @@ function buildVendorSection(vendorFeeds, delay, query) {
     card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
     card.style.animationDelay = (Math.min(i, 30) * 20) + 'ms';
 
-    const topBg = tintBg(vendor.color, 0.07);
+    const topBg = tintBg(color, 0.07);
     card.innerHTML = `
       <div class="new-card-top" style="background:${topBg}">
-        <span class="vendor-badge" style="color:${vendor.color};border-color:${vendor.color}40;background:${vendor.color}18">${esc(vendor.label)}</span>
+        ${item._feedBadge ? `<span class="badge" style="color:${color};border-color:${color}60;background:${color}18">${esc(item._feedBadge)}</span>` : ''}
         <span class="new-card-source">${esc(item._feedLabel)}</span>
-        ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
         ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
       </div>
       <div class="new-card-body">
@@ -1121,10 +1106,11 @@ function buildVideoCard(item, delay) {
   const thumb = item.thumbnail || (item.videoId ? `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg` : '');
   const topBg = item._sectionColor ? tintBg(item._sectionColor, 0.07) : 'transparent';
 
+  const badgeColor = item._sectionColor || '#f25022';
   card.innerHTML = `
     <div class="new-card-top" style="background:${topBg}">
       <span class="new-card-source">${esc(item._feedLabel || '')}</span>
-      ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
+      ${item._feedBadge ? `<span class="badge" style="color:${badgeColor};border-color:${badgeColor}60;background:${badgeColor}18">${esc(item._feedBadge)}</span>` : ''}
       ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
     </div>
     ${thumb ? `<img class="new-card-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : ''}
@@ -1145,10 +1131,11 @@ function buildAudioCard(item, delay) {
   const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
   const topBg = item._sectionColor ? tintBg(item._sectionColor, 0.07) : 'transparent';
 
+  const audioBadgeColor = item._sectionColor || '#00a4ef';
   card.innerHTML = `
     <div class="new-card-top" style="background:${topBg}">
       <span class="new-card-source">${esc(item._feedLabel || '')}</span>
-      ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
+      ${item._feedBadge ? `<span class="badge" style="color:${audioBadgeColor};border-color:${audioBadgeColor}60;background:${audioBadgeColor}18">${esc(item._feedBadge)}</span>` : ''}
       ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
     </div>
     <div class="new-card-body">
@@ -1243,7 +1230,6 @@ function buildSourcesView() {
     grid.className = 'new-card-grid';
 
     officialFeeds.forEach(feed => {
-      const vendor = VENDORS.find(v => v.id === feed.vendor) || { color: '#888', label: feed.vendor };
       let siteUrl = '';
       try {
         if (feed.items && feed.items.length && feed.items[0].link) {
@@ -1260,10 +1246,11 @@ function buildSourcesView() {
       card.target = '_blank'; card.rel = 'noopener noreferrer';
       card.style.animationDelay = '0ms';
 
-      const topBg = tintBg(VENDOR_CAT.color, 0.07);
+      const vc = VENDOR_CAT.color;
+      const topBg = tintBg(vc, 0.07);
       card.innerHTML = `
         <div class="new-card-top" style="background:${topBg}">
-          <span class="vendor-badge" style="color:${vendor.color};border-color:${vendor.color}40;background:${vendor.color}18">${esc(vendor.label)}</span>
+          ${feed.badge ? `<span class="badge" style="color:${vc};border-color:${vc}60;background:${vc}18">${esc(feed.badge)}</span>` : ''}
           <span class="new-card-source">${esc(feed.label)}</span>
           ${feed.error ? `<span style="font-size:10px;color:var(--ms-red);font-weight:600">ERR</span>` : `<span style="font-size:11px;color:var(--text-mute)">${feed.items?.length||0} items</span>`}
         </div>
