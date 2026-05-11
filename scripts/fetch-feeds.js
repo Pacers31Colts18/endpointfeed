@@ -321,21 +321,21 @@ const FEEDS = [
   // ──Official ───────────────────────────────────────────────
   {
     id: "nerdio-blog",
-    label: "Nerdio",
+    label: "Nerdio Blog",
     type: "official",
     badge: "Nerdio",
     url: "https://getnerdio.com/resources/feed/",
   },
   {
     id: "recast-blog",
-    label: "Recast Software",
+    label: "Recast Software Blog",
     type: "official",
     badge: "Recast Software",
     url: "https://www.recastsoftware.com/blog/feed/",
   },
   {
     id: "patchmypc-blog",
-    label: "Patch My PC",
+    label: "Patch My PC Blog",
     type: "official",
     badge: "Patch My PC",
     url: "https://patchmypc.com/feed",
@@ -384,9 +384,9 @@ const FEEDS = [
   },
   {
     id: "jamf",
-    label: "JAMF Blog",
+    label: "JAMF Software Blog",
     type: "official",
-    badge: "Microsoft",
+    badge: "JAMF Software",
     url: "https://www.jamf.com/blog/rss/",
   },
   {
