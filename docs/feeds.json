@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T13:56:09.045Z",
+  "generatedAt": "2026-05-11T14:04:54.464Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -15,10 +15,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "deployment",
-            "remote desktop services",
             "remote management",
-            "remote control"
+            "remote control",
+            "intune",
+            "deployment"
           ],
           "type": "rss"
         },
@@ -30,9 +30,9 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "patch management",
             "group policy",
-            "deployment"
+            "deployment",
+            "patch management"
           ],
           "type": "rss"
         },
@@ -58,10 +58,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "patch management",
             "deployment",
             "security",
-            "windows"
+            "windows",
+            "windows 11"
           ],
           "type": "rss"
         },
@@ -79,7 +79,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:55:57.409Z",
+      "fetchedAt": "2026-05-11T14:04:38.499Z",
       "error": null
     },
     {
@@ -161,7 +161,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:55:57.645Z",
+      "fetchedAt": "2026-05-11T14:04:38.581Z",
       "error": null
     },
     {
@@ -227,7 +227,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:55:57.914Z",
+      "fetchedAt": "2026-05-11T14:04:39.139Z",
       "error": null
     },
     {
@@ -237,7 +237,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-11T13:55:56.709Z",
+      "fetchedAt": "2026-05-11T14:04:37.854Z",
       "error": "HTTP 403"
     },
     {
@@ -292,7 +292,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:55:58.172Z",
+      "fetchedAt": "2026-05-11T14:04:39.396Z",
       "error": null
     },
     {
@@ -357,93 +357,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:55:58.329Z",
-      "error": null
-    },
-    {
-      "id": "indevelopment-intune",
-      "label": "In Development - Microsoft Intune",
-      "type": "official",
-      "badge": "Microsoft",
-      "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
-      "items": [],
-      "fetchedAt": "2026-05-11T13:55:58.042Z",
-      "error": null
-    },
-    {
-      "id": "intunecustomersuccess",
-      "label": "Intune Customer Success",
-      "type": "official",
-      "badge": "Microsoft",
-      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
-      "items": [
-        {
-          "title": "Known issue: Upgrading Microsoft Tunnel version 20260129.1",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/known-issue-upgrading-microsoft-tunnel-version-20260129-1/ba-p/4517935",
-          "pubDate": "2026-05-08T23:05:24.000Z",
-          "summary": "<P>We identified an upgrade issue with the early March release of Microsoft Tunnel version 20260129.1 that caused servers to become stuck and unable to complete the upgrade. The issue can be resolved by uninstalling and reinstalling the server to a newer version (<A class=\"lia-external-url\" href=\"ht",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Migrating frontline mobile devices: Aligning stakeholders before real-world testing",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/migrating-frontline-mobile-devices-aligning-stakeholders-before/ba-p/4516511",
-          "pubDate": "2026-05-01T19:37:13.000Z",
-          "summary": "<P><STRONG>By: Carol Burns - Principal Product Manager | Microsoft Intune and Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune)</STRONG></P> <P><EM>Practitioner perspective from Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune), with deep experience in secure frontline mobili",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Speed where it matters: How Microsoft Intune helps IT prioritize time-sensitive actions",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/speed-where-it-matters-how-microsoft-intune-helps-it-prioritize/ba-p/4515942",
-          "pubDate": "2026-04-30T15:47:22.000Z",
-          "summary": "<P><STRONG>By: Albert Cabello Serrano | Principal Product Manager - Microsoft Intune</STRONG></P> <P><EM>A closer look at how Intune delivers updates to devices and the investments we’re making to help important changes move faster and more predictably.</EM></P> <P>A common concern we hear from IT a",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Unpacking Endpoint Management is back - and we’ve got a lot to talk about",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/unpacking-endpoint-management-is-back-and-we-ve-got-a-lot-to/ba-p/4514599",
-          "pubDate": "2026-04-30T21:37:19.000Z",
-          "summary": "<P>If you've been missing real, candid conversations about endpoint management, good news! <EM>Unpacking Endpoint Management</EM> is officially back.</P> <P style=\"margin-top: 16px;\">This series is all about what actually works. No fluff, just practical tips, proven strategies, and honest discussion",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "As vulnerability discovery moves at AI speed, keeping current is foundational to reduce exposure",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/as-vulnerability-discovery-moves-at-ai-speed-keeping-current-is/ba-p/4513766",
-          "pubDate": "2026-04-22T22:35:25.000Z",
-          "summary": "<P>Recent advances in automation and AI are accelerating vulnerability discovery and shortening the window between disclosure and exploitation. As Microsoft outlined in our recent&nbsp;<A class=\"lia-external-url\" href=\"https://aka.ms/prioritizingdefense\" target=\"_blank\" rel=\"noopener\">Security blog<",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        }
-      ],
-      "fetchedAt": "2026-05-11T13:55:58.275Z",
-      "error": null
-    },
-    {
-      "id": "whatsnewintune",
-      "label": "Whats New in Intune",
-      "type": "official",
-      "badge": "Microsoft",
-      "url": "https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29",
-      "items": [
-        {
-          "title": "What's new in Microsoft Intune - Microsoft Intune",
-          "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
-          "pubDate": "2026-05-05T22:34:00.000Z",
-          "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. You can also read: Important notices Past releases in the What's new archive... Applies to: Windows 10/11 Week of April 27, 2026 (Service release 2604) Microsoft Intune Suite ",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        }
-      ],
-      "fetchedAt": "2026-05-11T13:55:58.347Z",
+      "fetchedAt": "2026-05-11T14:04:39.491Z",
       "error": null
     },
     {
@@ -528,7 +442,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:55:58.394Z",
+      "fetchedAt": "2026-05-11T14:04:39.341Z",
       "error": null
     },
     {
@@ -601,7 +515,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:55:59.282Z",
+      "fetchedAt": "2026-05-11T14:04:40.258Z",
       "error": null
     },
     {
@@ -610,7 +524,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-11T13:55:58.399Z",
+      "fetchedAt": "2026-05-11T14:04:40.318Z",
       "error": "HTTP 403"
     },
     {
@@ -688,7 +602,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:01.152Z",
+      "fetchedAt": "2026-05-11T14:04:42.314Z",
       "error": null
     },
     {
@@ -697,76 +611,8 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-11T13:55:59.609Z",
+      "fetchedAt": "2026-05-11T14:04:40.625Z",
       "error": "certificate has expired"
-    },
-    {
-      "id": "patchmypc-blog",
-      "label": "Patch My PC Blog",
-      "type": "rss",
-      "url": "https://patchmypc.com/feed",
-      "items": [
-        {
-          "title": "Controlled Configuration for Microsoft Defender Antivirus settings",
-          "link": "https://patchmypc.com/blog/controlled-configuration-for-microsoft-defender-antivirus-settings/",
-          "pubDate": "2026-05-11T07:23:56.000Z",
-          "summary": "Controlled Configuration for Microsoft Defender antivirus settings is coming. Microsoft describes it as an extension of Tamper Protection, with Intune taking control of Defender policy enforcement. The post Controlled Configuration for Microsoft Defender Antivirus settings appeared first on Patch My",
-          "author": "Rudy Ooms",
-          "categories": [
-            "Blog"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "WSUS URLs redirect to HTTPS when HSTS is enabled",
-          "link": "https://patchmypc.com/kb/wsus-urls-redirect-to-https-when-hsts-is-enabled/",
-          "pubDate": "2026-05-05T12:43:04.000Z",
-          "summary": "WSUS content URLs may redirect from HTTP port 8530 to HTTPS port 443 when HSTS is enabled or cached for the WSUS host name. This article explains the symptoms, cause, verification steps, and how to clear cached HSTS state on affected clients. The post WSUS URLs redirect to HTTPS when HSTS is enabled",
-          "author": "Ben Whitmore",
-          "categories": [
-            "Knowledge Base",
-            "443 Redirect",
-            "HSTS",
-            "HTTP 404"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "The Autopilot profile doesn’t decide if a device is corporate",
-          "link": "https://patchmypc.com/blog/the-autopilot-profile-doesnt-decide-if-a-device-is-corporate/",
-          "pubDate": "2026-04-30T08:45:47.000Z",
-          "summary": "A missing Autopilot profile often makes Windows show the full OOBE flow again. That looks like the device was not recognized as corporate, but the profile only controls the setup experience. The real ownership check happens later, when Intune evaluates the device identity and ZTDID during enrollment",
-          "author": "Rudy Ooms",
-          "categories": [
-            "Blog"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Patch My PC Publisher Preview Version 2.1.120.177 Released",
-          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-1-120-177-released/",
-          "pubDate": "2026-04-28T15:01:47.000Z",
-          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. Bugfixes & Improvements Publisher Microsoft Intune Integration Reliability and Logging The post Patch My PC Publisher Preview Version 2.1.120.177 Released appeared first on Patch My PC. ]]>",
-          "author": "Brian Hall",
-          "categories": [
-            "Preview Release"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Patch My PC Publisher Preview Version 2.1.120.131 Released",
-          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-1-120-131-released/",
-          "pubDate": "2026-04-22T18:31:36.000Z",
-          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. Improvements Fixes The post Patch My PC Publisher Preview Version 2.1.120.131 Released appeared first on Patch My PC. ]]>",
-          "author": "Cody Mathis",
-          "categories": [
-            "Preview Release"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-05-11T13:56:00.374Z",
-      "error": null
     },
     {
       "id": "niallbrady",
@@ -841,7 +687,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:55:59.997Z",
+      "fetchedAt": "2026-05-11T14:04:41.015Z",
       "error": null
     },
     {
@@ -918,7 +764,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:01.698Z",
+      "fetchedAt": "2026-05-11T14:04:42.828Z",
       "error": null
     },
     {
@@ -984,7 +830,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:02.154Z",
+      "fetchedAt": "2026-05-11T14:04:42.879Z",
       "error": null
     },
     {
@@ -1039,7 +885,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:01.446Z",
+      "fetchedAt": "2026-05-11T14:04:42.650Z",
       "error": null
     },
     {
@@ -1119,63 +965,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:01.311Z",
-      "error": null
-    },
-    {
-      "id": "configmgrblog",
-      "label": "Microsoft Tech Community - Configuration Manager Blog",
-      "type": "official",
-      "badge": "Microsoft",
-      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog",
-      "items": [
-        {
-          "title": "Announcing the Annual Release Cadence for Microsoft Configuration Manager",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/announcing-the-annual-release-cadence-for-microsoft/ba-p/4464794",
-          "pubDate": "2025-11-07T19:02:56.000Z",
-          "summary": "<P>Starting with version 2609, Microsoft Configuration Manager will transition to an annual release cadence. This change is a formalization of the direction we’ve communicated at events and in customer conversations. Microsoft Intune is the future of device management, and all new innovations will o",
-          "author": "Danny_Guillory",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Update 2409 for Microsoft Configuration Manager current branch is now available.",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/update-2409-for-microsoft-configuration-manager-current-branch/ba-p/4351640",
-          "pubDate": "2024-12-16T18:44:36.000Z",
-          "summary": "<P>&nbsp;</P> <P>Update 2409 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2303 or later. This article summarizes the changes and new features in Configuration Manager, version 2409.</P> <P>&nbsp;</P> <H3>Configuration Mana",
-          "author": "Bala_Delli",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Configuration Manager technical preview version 2411",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/configuration-manager-technical-preview-version-2411/ba-p/4349866",
-          "pubDate": "2024-12-16T17:23:25.000Z",
-          "summary": "<P>&nbsp;</P> <H2>Operating System support added for Windows 11 24H2 and Windows Server 2025</H2> <P>&nbsp;</P> <P>With this version of Configuration Manager, support is added for Windows 11 24H2 and Windows Server 2025.</P> <UL> <LI>Windows 11 24H2 &amp; Windows Server 2025 are added to Product lif",
-          "author": "Bala_Delli",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Configuration Manager technical preview version 2405",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/configuration-manager-technical-preview-version-2405/ba-p/4162763",
-          "pubDate": "2024-06-26T15:07:23.000Z",
-          "summary": "<DIV class=\"heading-wrapper\" data-heading-level=\"h2\"> <H2 class=\"heading-anchor\">&nbsp;</H2> <H2 id=\"bkmk_Sqlepa\" class=\"heading-anchor\">Configuration Manager now supports SQL Extended Protection for Authentication</H2> <P>&nbsp;</P> </DIV> <P>Configuration Manager now supports SQL Extended Protecti",
-          "author": "Bala_Delli",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Update 2403 for Microsoft Configuration Manager current branch is now available.",
-          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/update-2403-for-microsoft-configuration-manager-current-branch/ba-p/4119853",
-          "pubDate": "2024-05-14T04:45:41.000Z",
-          "summary": "<P>&nbsp;</P> <P>&nbsp;</P> <P class=\"lia-align-left\"><SPAN>Update 2403 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2211 or later. When installing a new site, it will also be available as a&nbsp;</SPAN><A href=\"https://le",
-          "author": "Bala_Delli",
-          "categories": [],
-          "type": "official"
-        }
-      ],
-      "fetchedAt": "2026-05-11T13:56:02.407Z",
+      "fetchedAt": "2026-05-11T14:04:42.625Z",
       "error": null
     },
     {
@@ -1254,7 +1044,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:02.213Z",
+      "fetchedAt": "2026-05-11T14:04:42.937Z",
       "error": null
     },
     {
@@ -1334,7 +1124,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:04.134Z",
+      "fetchedAt": "2026-05-11T14:04:44.821Z",
       "error": null
     },
     {
@@ -1419,7 +1209,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:02.322Z",
+      "fetchedAt": "2026-05-11T14:04:43.019Z",
       "error": null
     },
     {
@@ -1475,7 +1265,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:04.243Z",
+      "fetchedAt": "2026-05-11T14:04:43.039Z",
       "error": null
     },
     {
@@ -1561,7 +1351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:05.387Z",
+      "fetchedAt": "2026-05-11T14:04:45.765Z",
       "error": null
     },
     {
@@ -1647,7 +1437,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:04.262Z",
+      "fetchedAt": "2026-05-11T14:04:44.894Z",
       "error": null
     },
     {
@@ -1727,92 +1517,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:04.288Z",
-      "error": null
-    },
-    {
-      "id": "microsoft365blog",
-      "label": "Microsoft Tech Community - M365 Blog",
-      "type": "official",
-      "badge": "Microsoft",
-      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
-      "items": [
-        {
-          "title": "Microsoft 365 E7 and Agent 365 are now generally available",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-e7-and-agent-365-are-now-generally-available/ba-p/4516295",
-          "pubDate": "2026-05-01T15:00:00.000Z",
-          "summary": "<P><SPAN data-contrast=\"auto\">Frontier&nbsp;Transformation&nbsp;is about&nbsp;fundamentally changing how&nbsp;organizations&nbsp;operate&nbsp;–&nbsp;embedding&nbsp;AI into everyday workflows&nbsp;to&nbsp;accelerate decisions,&nbsp;improve outcomes,&nbsp;and drive measurable&nbsp;business&nbsp;impact",
-          "author": "carolinestanford",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Microsoft 365 Backup granular restore now generally available!",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-backup-granular-restore-now-generally-available/ba-p/4515936",
-          "pubDate": "2026-04-29T18:05:47.000Z",
-          "summary": "<P><SPAN data-contrast=\"auto\">Data recovery&nbsp;shouldn’t&nbsp;feel like an all-or-nothing decision.&nbsp;Until now,&nbsp;</SPAN><A href=\"https://aka.ms/M365Backup\" target=\"_blank\" rel=\"noopener\"><SPAN data-contrast=\"none\"><SPAN data-ccp-charstyle=\"Hyperlink\">Microsoft 365 Backup</SPAN></SPAN></A><",
-          "author": "diksha050",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Register today for the Microsoft 365 Archive + Orchestry webinar",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/register-today-for-the-microsoft-365-archive-orchestry-webinar/ba-p/4513788",
-          "pubDate": "2026-04-23T17:58:36.000Z",
-          "summary": "<P>Join us for a live webinar on May 7, 9:00 am PDT, with Trent Green, Microsoft, and David Francoeur, Orchestry, to learn more about what file-level archiving does, how it works, and how to turn it into a scalable, automated strategy across your tenant.</P> <P><A href=\"https://www.orchestry.com/web",
-          "author": "wbaer",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Debugging the future of work: Microsoft 365 Community Conference 2026",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/debugging-the-future-of-work-microsoft-365-community-conference/ba-p/4511750",
-          "pubDate": "2026-04-16T21:10:35.000Z",
-          "summary": "<P>Building in the era of AI can get very challenging. That’s exactly why we’re here to help you debug, refactor, and level up at the Microsoft 365 Community Conference, happening April 21–23, 2026 in Orlando, FL. Whether you’re a developer ready to scale your skillset or a power user looking to upg",
-          "author": "JonJones_MSFT",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "AI is a Team Sport – Announcing our first wave of Guest Speakers at M365 Community Conference 2026",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/ai-is-a-team-sport-announcing-our-first-wave-of-guest-speakers/ba-p/4511314",
-          "pubDate": "2026-04-18T18:48:01.000Z",
-          "summary": "<P>What do championship athletes, enterprise innovators, and community leaders all have in common?</P> <P>They know that transformation does not happen in isolation. It happens when teams come together with a shared goal, the right strategy, and the courage to try something new.</P> <P>That is why a",
-          "author": "JonJones_MSFT",
-          "categories": [],
-          "type": "official"
-        }
-      ],
-      "fetchedAt": "2026-05-11T13:56:05.626Z",
-      "error": null
-    },
-    {
-      "id": "officereleases",
-      "label": "Microsoft Office Semi-Annual Channel Release Notes",
-      "type": "official",
-      "badge": "Microsoft",
-      "url": "https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
-      "items": [
-        {
-          "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
-          "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
-          "pubDate": "2026-04-14T21:54:00.000Z",
-          "summary": "Release notes for Semi-Annual Enterprise Channel Summarize this article for me These release notes provide information about new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and th",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Archived release notes for Semi-Annual Enterprise Channel releases - Office release notes",
-          "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel-archived",
-          "pubDate": "2026-04-23T15:14:00.000Z",
-          "summary": "Archived Release Notes for Semi-Annual Enterprise Channel Summarize this article for me In this article These release notes provide information about new features and nonsecurity updates included in Semi-Annual Enterprise Channel updates to Office 365 ProPlus, Visio Pro for Office 365, Project Onlin",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        }
-      ],
-      "fetchedAt": "2026-05-11T13:56:05.405Z",
+      "fetchedAt": "2026-05-11T14:04:44.947Z",
       "error": null
     },
     {
@@ -1867,7 +1572,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:05.528Z",
+      "fetchedAt": "2026-05-11T14:04:44.875Z",
       "error": null
     },
     {
@@ -1932,7 +1637,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:05.809Z",
+      "fetchedAt": "2026-05-11T14:04:45.948Z",
       "error": null
     },
     {
@@ -2017,7 +1722,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:06.721Z",
+      "fetchedAt": "2026-05-11T14:04:46.659Z",
       "error": null
     },
     {
@@ -2073,7 +1778,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:06.528Z",
+      "fetchedAt": "2026-05-11T14:04:46.291Z",
       "error": null
     },
     {
@@ -2138,7 +1843,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:05.983Z",
+      "fetchedAt": "2026-05-11T14:04:48.193Z",
       "error": null
     },
     {
@@ -2219,7 +1924,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:06.633Z",
+      "fetchedAt": "2026-05-11T14:04:49.143Z",
       "error": null
     },
     {
@@ -2228,7 +1933,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-11T13:56:07.581Z",
+      "fetchedAt": "2026-05-11T14:04:49.048Z",
       "error": "HTTP 404"
     },
     {
@@ -2237,7 +1942,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-11T13:56:06.769Z",
+      "fetchedAt": "2026-05-11T14:04:48.408Z",
       "error": "HTTP 403"
     },
     {
@@ -2317,7 +2022,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:06.799Z",
+      "fetchedAt": "2026-05-11T14:04:48.436Z",
       "error": null
     },
     {
@@ -2388,7 +2093,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:06.949Z",
+      "fetchedAt": "2026-05-11T14:04:49.331Z",
       "error": null
     },
     {
@@ -2407,7 +2112,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.685Z",
+      "fetchedAt": "2026-05-11T14:04:49.291Z",
       "error": null
     },
     {
@@ -2462,7 +2167,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.682Z",
+      "fetchedAt": "2026-05-11T14:04:49.376Z",
       "error": null
     },
     {
@@ -2547,7 +2252,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.680Z",
+      "fetchedAt": "2026-05-11T14:04:49.323Z",
       "error": null
     },
     {
@@ -2613,7 +2318,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oqbKWwUhh4Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.663Z",
+      "fetchedAt": "2026-05-11T14:04:49.550Z",
       "error": null
     },
     {
@@ -2678,7 +2383,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CzxTU7M2NIw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.827Z",
+      "fetchedAt": "2026-05-11T14:04:49.415Z",
       "error": null
     },
     {
@@ -2743,7 +2448,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zK0QrJzvvCg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.714Z",
+      "fetchedAt": "2026-05-11T14:04:49.413Z",
       "error": null
     },
     {
@@ -2809,7 +2514,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iVUUkgyZsTk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.900Z",
+      "fetchedAt": "2026-05-11T14:04:49.411Z",
       "error": null
     },
     {
@@ -2875,7 +2580,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/v1i0bHTm330/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.828Z",
+      "fetchedAt": "2026-05-11T14:04:49.556Z",
       "error": null
     },
     {
@@ -2941,7 +2646,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/73f_gjdaw2U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:07.907Z",
+      "fetchedAt": "2026-05-11T14:04:49.706Z",
       "error": null
     },
     {
@@ -3006,7 +2711,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/ODu_A-V6J5c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:08.114Z",
+      "fetchedAt": "2026-05-11T14:04:49.559Z",
       "error": null
     },
     {
@@ -3072,7 +2777,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OIW24f9y040/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:08.222Z",
+      "fetchedAt": "2026-05-11T14:04:49.555Z",
       "error": null
     },
     {
@@ -3137,7 +2842,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lgXUD1pxe_w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:08.040Z",
+      "fetchedAt": "2026-05-11T14:04:50.005Z",
       "error": null
     },
     {
@@ -3202,7 +2907,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CWEQnRBhFLM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:08.397Z",
+      "fetchedAt": "2026-05-11T14:04:49.713Z",
       "error": null
     },
     {
@@ -3267,7 +2972,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:08.365Z",
+      "fetchedAt": "2026-05-11T14:04:49.712Z",
       "error": null
     },
     {
@@ -3323,7 +3028,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:08.374Z",
+      "fetchedAt": "2026-05-11T14:04:51.180Z",
       "error": null
     },
     {
@@ -3333,7 +3038,303 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-11T13:56:08.314Z",
+      "fetchedAt": "2026-05-11T14:04:51.282Z",
+      "error": null
+    },
+    {
+      "id": "patchmypc-blog",
+      "label": "Patch My PC",
+      "type": "official",
+      "badge": "Patch My PC",
+      "url": "https://patchmypc.com/feed",
+      "items": [
+        {
+          "title": "Controlled Configuration for Microsoft Defender Antivirus settings",
+          "link": "https://patchmypc.com/blog/controlled-configuration-for-microsoft-defender-antivirus-settings/",
+          "pubDate": "2026-05-11T07:23:56.000Z",
+          "summary": "Controlled Configuration for Microsoft Defender antivirus settings is coming. Microsoft describes it as an extension of Tamper Protection, with Intune taking control of Defender policy enforcement. The post Controlled Configuration for Microsoft Defender Antivirus settings appeared first on Patch My",
+          "author": "Rudy Ooms",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "WSUS URLs redirect to HTTPS when HSTS is enabled",
+          "link": "https://patchmypc.com/kb/wsus-urls-redirect-to-https-when-hsts-is-enabled/",
+          "pubDate": "2026-05-05T12:43:04.000Z",
+          "summary": "WSUS content URLs may redirect from HTTP port 8530 to HTTPS port 443 when HSTS is enabled or cached for the WSUS host name. This article explains the symptoms, cause, verification steps, and how to clear cached HSTS state on affected clients. The post WSUS URLs redirect to HTTPS when HSTS is enabled",
+          "author": "Ben Whitmore",
+          "categories": [
+            "Knowledge Base",
+            "443 Redirect",
+            "HSTS",
+            "HTTP 404"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "The Autopilot profile doesn’t decide if a device is corporate",
+          "link": "https://patchmypc.com/blog/the-autopilot-profile-doesnt-decide-if-a-device-is-corporate/",
+          "pubDate": "2026-04-30T08:45:47.000Z",
+          "summary": "A missing Autopilot profile often makes Windows show the full OOBE flow again. That looks like the device was not recognized as corporate, but the profile only controls the setup experience. The real ownership check happens later, when Intune evaluates the device identity and ZTDID during enrollment",
+          "author": "Rudy Ooms",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "Patch My PC Publisher Preview Version 2.1.120.177 Released",
+          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-1-120-177-released/",
+          "pubDate": "2026-04-28T15:01:47.000Z",
+          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. Bugfixes & Improvements Publisher Microsoft Intune Integration Reliability and Logging The post Patch My PC Publisher Preview Version 2.1.120.177 Released appeared first on Patch My PC. ]]>",
+          "author": "Brian Hall",
+          "categories": [
+            "Preview Release"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "Patch My PC Publisher Preview Version 2.1.120.131 Released",
+          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-1-120-131-released/",
+          "pubDate": "2026-04-22T18:31:36.000Z",
+          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. Improvements Fixes The post Patch My PC Publisher Preview Version 2.1.120.131 Released appeared first on Patch My PC. ]]>",
+          "author": "Cody Mathis",
+          "categories": [
+            "Preview Release"
+          ],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-05-11T14:04:53.277Z",
+      "error": null
+    },
+    {
+      "id": "microsoft365blog",
+      "label": "Microsoft Tech Community - M365 Blog",
+      "type": "official",
+      "badge": "Microsoft",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
+      "items": [
+        {
+          "title": "Microsoft 365 E7 and Agent 365 are now generally available",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-e7-and-agent-365-are-now-generally-available/ba-p/4516295",
+          "pubDate": "2026-05-01T15:00:00.000Z",
+          "summary": "<P><SPAN data-contrast=\"auto\">Frontier&nbsp;Transformation&nbsp;is about&nbsp;fundamentally changing how&nbsp;organizations&nbsp;operate&nbsp;–&nbsp;embedding&nbsp;AI into everyday workflows&nbsp;to&nbsp;accelerate decisions,&nbsp;improve outcomes,&nbsp;and drive measurable&nbsp;business&nbsp;impact",
+          "author": "carolinestanford",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Microsoft 365 Backup granular restore now generally available!",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-backup-granular-restore-now-generally-available/ba-p/4515936",
+          "pubDate": "2026-04-29T18:05:47.000Z",
+          "summary": "<P><SPAN data-contrast=\"auto\">Data recovery&nbsp;shouldn’t&nbsp;feel like an all-or-nothing decision.&nbsp;Until now,&nbsp;</SPAN><A href=\"https://aka.ms/M365Backup\" target=\"_blank\" rel=\"noopener\"><SPAN data-contrast=\"none\"><SPAN data-ccp-charstyle=\"Hyperlink\">Microsoft 365 Backup</SPAN></SPAN></A><",
+          "author": "diksha050",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Register today for the Microsoft 365 Archive + Orchestry webinar",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/register-today-for-the-microsoft-365-archive-orchestry-webinar/ba-p/4513788",
+          "pubDate": "2026-04-23T17:58:36.000Z",
+          "summary": "<P>Join us for a live webinar on May 7, 9:00 am PDT, with Trent Green, Microsoft, and David Francoeur, Orchestry, to learn more about what file-level archiving does, how it works, and how to turn it into a scalable, automated strategy across your tenant.</P> <P><A href=\"https://www.orchestry.com/web",
+          "author": "wbaer",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Debugging the future of work: Microsoft 365 Community Conference 2026",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/debugging-the-future-of-work-microsoft-365-community-conference/ba-p/4511750",
+          "pubDate": "2026-04-16T21:10:35.000Z",
+          "summary": "<P>Building in the era of AI can get very challenging. That’s exactly why we’re here to help you debug, refactor, and level up at the Microsoft 365 Community Conference, happening April 21–23, 2026 in Orlando, FL. Whether you’re a developer ready to scale your skillset or a power user looking to upg",
+          "author": "JonJones_MSFT",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "AI is a Team Sport – Announcing our first wave of Guest Speakers at M365 Community Conference 2026",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/ai-is-a-team-sport-announcing-our-first-wave-of-guest-speakers/ba-p/4511314",
+          "pubDate": "2026-04-18T18:48:01.000Z",
+          "summary": "<P>What do championship athletes, enterprise innovators, and community leaders all have in common?</P> <P>They know that transformation does not happen in isolation. It happens when teams come together with a shared goal, the right strategy, and the courage to try something new.</P> <P>That is why a",
+          "author": "JonJones_MSFT",
+          "categories": [],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-05-11T14:04:51.542Z",
+      "error": null
+    },
+    {
+      "id": "officereleases",
+      "label": "Microsoft Office Semi-Annual Channel Release Notes",
+      "type": "official",
+      "badge": "Microsoft",
+      "url": "https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
+      "items": [
+        {
+          "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
+          "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
+          "pubDate": "2026-04-14T21:54:00.000Z",
+          "summary": "Release notes for Semi-Annual Enterprise Channel Summarize this article for me These release notes provide information about new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and th",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Archived release notes for Semi-Annual Enterprise Channel releases - Office release notes",
+          "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel-archived",
+          "pubDate": "2026-04-23T15:14:00.000Z",
+          "summary": "Archived Release Notes for Semi-Annual Enterprise Channel Summarize this article for me In this article These release notes provide information about new features and nonsecurity updates included in Semi-Annual Enterprise Channel updates to Office 365 ProPlus, Visio Pro for Office 365, Project Onlin",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-05-11T14:04:51.263Z",
+      "error": null
+    },
+    {
+      "id": "configmgrblog",
+      "label": "Microsoft Tech Community - Configuration Manager Blog",
+      "type": "official",
+      "badge": "Microsoft",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog",
+      "items": [
+        {
+          "title": "Announcing the Annual Release Cadence for Microsoft Configuration Manager",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/announcing-the-annual-release-cadence-for-microsoft/ba-p/4464794",
+          "pubDate": "2025-11-07T19:02:56.000Z",
+          "summary": "<P>Starting with version 2609, Microsoft Configuration Manager will transition to an annual release cadence. This change is a formalization of the direction we’ve communicated at events and in customer conversations. Microsoft Intune is the future of device management, and all new innovations will o",
+          "author": "Danny_Guillory",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Update 2409 for Microsoft Configuration Manager current branch is now available.",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/update-2409-for-microsoft-configuration-manager-current-branch/ba-p/4351640",
+          "pubDate": "2024-12-16T18:44:36.000Z",
+          "summary": "<P>&nbsp;</P> <P>Update 2409 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2303 or later. This article summarizes the changes and new features in Configuration Manager, version 2409.</P> <P>&nbsp;</P> <H3>Configuration Mana",
+          "author": "Bala_Delli",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Configuration Manager technical preview version 2411",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/configuration-manager-technical-preview-version-2411/ba-p/4349866",
+          "pubDate": "2024-12-16T17:23:25.000Z",
+          "summary": "<P>&nbsp;</P> <H2>Operating System support added for Windows 11 24H2 and Windows Server 2025</H2> <P>&nbsp;</P> <P>With this version of Configuration Manager, support is added for Windows 11 24H2 and Windows Server 2025.</P> <UL> <LI>Windows 11 24H2 &amp; Windows Server 2025 are added to Product lif",
+          "author": "Bala_Delli",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Configuration Manager technical preview version 2405",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/configuration-manager-technical-preview-version-2405/ba-p/4162763",
+          "pubDate": "2024-06-26T15:07:23.000Z",
+          "summary": "<DIV class=\"heading-wrapper\" data-heading-level=\"h2\"> <H2 class=\"heading-anchor\">&nbsp;</H2> <H2 id=\"bkmk_Sqlepa\" class=\"heading-anchor\">Configuration Manager now supports SQL Extended Protection for Authentication</H2> <P>&nbsp;</P> </DIV> <P>Configuration Manager now supports SQL Extended Protecti",
+          "author": "Bala_Delli",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Update 2403 for Microsoft Configuration Manager current branch is now available.",
+          "link": "https://techcommunity.microsoft.com/t5/configuration-manager-blog/update-2403-for-microsoft-configuration-manager-current-branch/ba-p/4119853",
+          "pubDate": "2024-05-14T04:45:41.000Z",
+          "summary": "<P>&nbsp;</P> <P>&nbsp;</P> <P class=\"lia-align-left\"><SPAN>Update 2403 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2211 or later. When installing a new site, it will also be available as a&nbsp;</SPAN><A href=\"https://le",
+          "author": "Bala_Delli",
+          "categories": [],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-05-11T14:04:53.558Z",
+      "error": null
+    },
+    {
+      "id": "indevelopment-intune",
+      "label": "In Development - Microsoft Intune",
+      "type": "official",
+      "badge": "Microsoft",
+      "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
+      "items": [],
+      "fetchedAt": "2026-05-11T14:04:53.301Z",
+      "error": null
+    },
+    {
+      "id": "intunecustomersuccess",
+      "label": "Intune Customer Success",
+      "type": "official",
+      "badge": "Microsoft",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
+      "items": [
+        {
+          "title": "Known issue: Upgrading Microsoft Tunnel version 20260129.1",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/known-issue-upgrading-microsoft-tunnel-version-20260129-1/ba-p/4517935",
+          "pubDate": "2026-05-08T23:05:24.000Z",
+          "summary": "<P>We identified an upgrade issue with the early March release of Microsoft Tunnel version 20260129.1 that caused servers to become stuck and unable to complete the upgrade. The issue can be resolved by uninstalling and reinstalling the server to a newer version (<A class=\"lia-external-url\" href=\"ht",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Migrating frontline mobile devices: Aligning stakeholders before real-world testing",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/migrating-frontline-mobile-devices-aligning-stakeholders-before/ba-p/4516511",
+          "pubDate": "2026-05-01T19:37:13.000Z",
+          "summary": "<P><STRONG>By: Carol Burns - Principal Product Manager | Microsoft Intune and Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune)</STRONG></P> <P><EM>Practitioner perspective from Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune), with deep experience in secure frontline mobili",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Speed where it matters: How Microsoft Intune helps IT prioritize time-sensitive actions",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/speed-where-it-matters-how-microsoft-intune-helps-it-prioritize/ba-p/4515942",
+          "pubDate": "2026-04-30T15:47:22.000Z",
+          "summary": "<P><STRONG>By: Albert Cabello Serrano | Principal Product Manager - Microsoft Intune</STRONG></P> <P><EM>A closer look at how Intune delivers updates to devices and the investments we’re making to help important changes move faster and more predictably.</EM></P> <P>A common concern we hear from IT a",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Unpacking Endpoint Management is back - and we’ve got a lot to talk about",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/unpacking-endpoint-management-is-back-and-we-ve-got-a-lot-to/ba-p/4514599",
+          "pubDate": "2026-04-30T21:37:19.000Z",
+          "summary": "<P>If you've been missing real, candid conversations about endpoint management, good news! <EM>Unpacking Endpoint Management</EM> is officially back.</P> <P style=\"margin-top: 16px;\">This series is all about what actually works. No fluff, just practical tips, proven strategies, and honest discussion",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "As vulnerability discovery moves at AI speed, keeping current is foundational to reduce exposure",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/as-vulnerability-discovery-moves-at-ai-speed-keeping-current-is/ba-p/4513766",
+          "pubDate": "2026-04-22T22:35:25.000Z",
+          "summary": "<P>Recent advances in automation and AI are accelerating vulnerability discovery and shortening the window between disclosure and exploitation. As Microsoft outlined in our recent&nbsp;<A class=\"lia-external-url\" href=\"https://aka.ms/prioritizingdefense\" target=\"_blank\" rel=\"noopener\">Security blog<",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-05-11T14:04:53.635Z",
+      "error": null
+    },
+    {
+      "id": "whatsnewintune",
+      "label": "Whats New in Intune",
+      "type": "official",
+      "badge": "Microsoft",
+      "url": "https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29",
+      "items": [
+        {
+          "title": "What's new in Microsoft Intune - Microsoft Intune",
+          "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
+          "pubDate": "2026-05-05T22:34:00.000Z",
+          "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. You can also read: Important notices Past releases in the What's new archive... Applies to: Windows 10/11 Week of April 27, 2026 (Service release 2604) Microsoft Intune Suite ",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-05-11T14:04:53.318Z",
       "error": null
     },
     {
@@ -3388,7 +3389,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:08.472Z",
+      "fetchedAt": "2026-05-11T14:04:53.720Z",
       "error": null
     },
     {
@@ -3397,6 +3398,15 @@
       "type": "audio",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
       "items": [
+        {
+          "title": "Splatting, Automation, and Chasing the Sun with Jess Pomfret",
+          "link": "https://powershellpodcast.podbean.com/e/splatting-automation-and-chasing-the-sun-with-jess-pomfret/",
+          "pubDate": "2026-05-11T14:00:00.000Z",
+          "summary": "Splatting is one of the most readable improvements you can make to your PowerShell code. Instead of chaining parameters into one long command, you load them into a hash table and pass that to your command with an @ symbol. Cleaner to write, easier to read, and especially useful when you're sharing c",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
         {
           "title": "From ISE Anxiety to VS Code Every Day with Paula Kingsley",
           "link": "https://powershellpodcast.podbean.com/e/from-ise-anxiety-to-vs-code-every-day-with-paula-kingsley/",
@@ -3432,18 +3442,9 @@
           "author": "",
           "categories": [],
           "type": "audio"
-        },
-        {
-          "title": "The PowerShell Summit Hallway Track with Gilbert Sanchez and Joshua Dearing",
-          "link": "https://powershellpodcast.podbean.com/e/the-powershell-summit-hallway-track-with-gilbert-sanchez-and-joshua-dearing/",
-          "pubDate": "2026-04-20T14:00:00.000Z",
-          "summary": "This episode captures the energy of PowerShell Summit through two conversations, one with Gilbert Sanchez and one with Joshua Dearing. The discussion moves from open source maintenance and the future of PowerShell in AI workflows to the human side of technical communities, including burnout, neurodi",
-          "author": "",
-          "categories": [],
-          "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:08.770Z",
+      "fetchedAt": "2026-05-11T14:04:54.216Z",
       "error": null
     },
     {
@@ -3508,7 +3509,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-11T13:56:09.045Z",
+      "fetchedAt": "2026-05-11T14:04:54.464Z",
       "error": null
     }
   ]
