@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T13:39:16.875Z",
+  "generatedAt": "2026-05-11T13:53:12.059Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -15,10 +15,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
+            "remote control",
+            "intune",
             "deployment",
-            "remote desktop services",
-            "remote management",
-            "remote control"
+            "remote desktop services"
           ],
           "type": "rss"
         },
@@ -30,9 +30,9 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
+            "deployment",
             "patch management",
-            "group policy",
-            "deployment"
+            "group policy"
           ],
           "type": "rss"
         },
@@ -44,9 +44,9 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "office",
             "security",
-            "microsoft 365"
+            "microsoft 365",
+            "office"
           ],
           "type": "rss"
         },
@@ -58,10 +58,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "window server 2025",
-            "patch management",
             "deployment",
-            "security"
+            "security",
+            "windows",
+            "windows 11"
           ],
           "type": "rss"
         },
@@ -79,7 +79,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:03.112Z",
+      "fetchedAt": "2026-05-11T13:52:59.046Z",
       "error": null
     },
     {
@@ -161,7 +161,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:03.107Z",
+      "fetchedAt": "2026-05-11T13:52:59.142Z",
       "error": null
     },
     {
@@ -227,7 +227,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:03.558Z",
+      "fetchedAt": "2026-05-11T13:52:59.565Z",
       "error": null
     },
     {
@@ -237,7 +237,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-11T13:39:02.684Z",
+      "fetchedAt": "2026-05-11T13:52:58.612Z",
       "error": "HTTP 403"
     },
     {
@@ -292,7 +292,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:03.823Z",
+      "fetchedAt": "2026-05-11T13:52:59.723Z",
       "error": null
     },
     {
@@ -357,28 +357,24 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:03.978Z",
+      "fetchedAt": "2026-05-11T13:53:00.105Z",
       "error": null
     },
     {
       "id": "indevelopment-intune",
       "label": "In Development - Microsoft Intune",
-      "type": "rss",
-      "vendor": "microsoft",
+      "type": "official",
       "badge": "Microsoft",
-      "vendorLabel": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-11T13:39:03.970Z",
+      "fetchedAt": "2026-05-11T13:52:59.720Z",
       "error": null
     },
     {
       "id": "intunecustomersuccess",
       "label": "Intune Customer Success",
-      "type": "rss",
-      "vendor": "microsoft",
+      "type": "official",
       "badge": "Microsoft",
-      "vendorLabel": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
         {
@@ -388,7 +384,7 @@
           "summary": "<P>We identified an upgrade issue with the early March release of Microsoft Tunnel version 20260129.1 that caused servers to become stuck and unable to complete the upgrade. The issue can be resolved by uninstalling and reinstalling the server to a newer version (<A class=\"lia-external-url\" href=\"ht",
           "author": "Intune_Support_Team",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Migrating frontline mobile devices: Aligning stakeholders before real-world testing",
@@ -397,7 +393,7 @@
           "summary": "<P><STRONG>By: Carol Burns - Principal Product Manager | Microsoft Intune and Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune)</STRONG></P> <P><EM>Practitioner perspective from Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune), with deep experience in secure frontline mobili",
           "author": "Intune_Support_Team",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Speed where it matters: How Microsoft Intune helps IT prioritize time-sensitive actions",
@@ -406,7 +402,7 @@
           "summary": "<P><STRONG>By: Albert Cabello Serrano | Principal Product Manager - Microsoft Intune</STRONG></P> <P><EM>A closer look at how Intune delivers updates to devices and the investments we’re making to help important changes move faster and more predictably.</EM></P> <P>A common concern we hear from IT a",
           "author": "Intune_Support_Team",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Unpacking Endpoint Management is back - and we’ve got a lot to talk about",
@@ -415,7 +411,7 @@
           "summary": "<P>If you've been missing real, candid conversations about endpoint management, good news! <EM>Unpacking Endpoint Management</EM> is officially back.</P> <P style=\"margin-top: 16px;\">This series is all about what actually works. No fluff, just practical tips, proven strategies, and honest discussion",
           "author": "Intune_Support_Team",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "As vulnerability discovery moves at AI speed, keeping current is foundational to reduce exposure",
@@ -424,17 +420,16 @@
           "summary": "<P>Recent advances in automation and AI are accelerating vulnerability discovery and shortening the window between disclosure and exploitation. As Microsoft outlined in our recent&nbsp;<A class=\"lia-external-url\" href=\"https://aka.ms/prioritizingdefense\" target=\"_blank\" rel=\"noopener\">Security blog<",
           "author": "Intune_Support_Team",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:04.005Z",
+      "fetchedAt": "2026-05-11T13:53:00.124Z",
       "error": null
     },
     {
       "id": "whatsnewintune",
       "label": "Whats New in Intune",
-      "type": "rss",
-      "vendor": "microsoft",
+      "type": "official",
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22What%27s+new+in+microsoft+intune%22%2B%22learn+what%27s+new%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Intune%27%29",
       "items": [
@@ -445,10 +440,10 @@
           "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. You can also read: Important notices Past releases in the What's new archive... Applies to: Windows 10/11 Week of April 27, 2026 (Service release 2604) Microsoft Intune Suite ",
           "author": "",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:04.043Z",
+      "fetchedAt": "2026-05-11T13:53:00.156Z",
       "error": null
     },
     {
@@ -533,7 +528,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:04.198Z",
+      "fetchedAt": "2026-05-11T13:53:00.247Z",
       "error": null
     },
     {
@@ -606,7 +601,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:04.733Z",
+      "fetchedAt": "2026-05-11T13:53:00.961Z",
       "error": null
     },
     {
@@ -615,7 +610,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-11T13:39:04.252Z",
+      "fetchedAt": "2026-05-11T13:53:00.401Z",
       "error": "HTTP 403"
     },
     {
@@ -693,7 +688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:06.426Z",
+      "fetchedAt": "2026-05-11T13:53:02.766Z",
       "error": null
     },
     {
@@ -702,7 +697,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-11T13:39:05.065Z",
+      "fetchedAt": "2026-05-11T13:53:01.421Z",
       "error": "certificate has expired"
     },
     {
@@ -770,7 +765,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:05.894Z",
+      "fetchedAt": "2026-05-11T13:53:02.059Z",
       "error": null
     },
     {
@@ -846,7 +841,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:07.070Z",
+      "fetchedAt": "2026-05-11T13:53:01.873Z",
       "error": null
     },
     {
@@ -923,7 +918,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:08.102Z",
+      "fetchedAt": "2026-05-11T13:53:03.184Z",
       "error": null
     },
     {
@@ -989,7 +984,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:08.776Z",
+      "fetchedAt": "2026-05-11T13:53:04.346Z",
       "error": null
     },
     {
@@ -1044,7 +1039,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:07.463Z",
+      "fetchedAt": "2026-05-11T13:53:03.264Z",
       "error": null
     },
     {
@@ -1124,14 +1119,13 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:08.080Z",
+      "fetchedAt": "2026-05-11T13:53:03.223Z",
       "error": null
     },
     {
       "id": "configmgrblog",
       "label": "Microsoft Tech Community - Configuration Manager Blog",
-      "type": "rss",
-      "vendor": "microsoft",
+      "type": "official",
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ConfigurationManagerBlog",
       "items": [
@@ -1142,7 +1136,7 @@
           "summary": "<P>Starting with version 2609, Microsoft Configuration Manager will transition to an annual release cadence. This change is a formalization of the direction we’ve communicated at events and in customer conversations. Microsoft Intune is the future of device management, and all new innovations will o",
           "author": "Danny_Guillory",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Update 2409 for Microsoft Configuration Manager current branch is now available.",
@@ -1151,7 +1145,7 @@
           "summary": "<P>&nbsp;</P> <P>Update 2409 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2303 or later. This article summarizes the changes and new features in Configuration Manager, version 2409.</P> <P>&nbsp;</P> <H3>Configuration Mana",
           "author": "Bala_Delli",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Configuration Manager technical preview version 2411",
@@ -1160,7 +1154,7 @@
           "summary": "<P>&nbsp;</P> <H2>Operating System support added for Windows 11 24H2 and Windows Server 2025</H2> <P>&nbsp;</P> <P>With this version of Configuration Manager, support is added for Windows 11 24H2 and Windows Server 2025.</P> <UL> <LI>Windows 11 24H2 &amp; Windows Server 2025 are added to Product lif",
           "author": "Bala_Delli",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Configuration Manager technical preview version 2405",
@@ -1169,7 +1163,7 @@
           "summary": "<DIV class=\"heading-wrapper\" data-heading-level=\"h2\"> <H2 class=\"heading-anchor\">&nbsp;</H2> <H2 id=\"bkmk_Sqlepa\" class=\"heading-anchor\">Configuration Manager now supports SQL Extended Protection for Authentication</H2> <P>&nbsp;</P> </DIV> <P>Configuration Manager now supports SQL Extended Protecti",
           "author": "Bala_Delli",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Update 2403 for Microsoft Configuration Manager current branch is now available.",
@@ -1178,10 +1172,10 @@
           "summary": "<P>&nbsp;</P> <P>&nbsp;</P> <P class=\"lia-align-left\"><SPAN>Update 2403 for Configuration Manager current branch is available as an in-console update. Apply this update on sites that run version 2211 or later. When installing a new site, it will also be available as a&nbsp;</SPAN><A href=\"https://le",
           "author": "Bala_Delli",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:09.339Z",
+      "fetchedAt": "2026-05-11T13:53:04.775Z",
       "error": null
     },
     {
@@ -1260,7 +1254,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:08.989Z",
+      "fetchedAt": "2026-05-11T13:53:04.487Z",
       "error": null
     },
     {
@@ -1340,7 +1334,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:10.576Z",
+      "fetchedAt": "2026-05-11T13:53:06.178Z",
       "error": null
     },
     {
@@ -1425,7 +1419,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:09.075Z",
+      "fetchedAt": "2026-05-11T13:53:04.596Z",
       "error": null
     },
     {
@@ -1481,7 +1475,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:10.777Z",
+      "fetchedAt": "2026-05-11T13:53:06.332Z",
       "error": null
     },
     {
@@ -1567,7 +1561,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:11.994Z",
+      "fetchedAt": "2026-05-11T13:53:07.243Z",
       "error": null
     },
     {
@@ -1653,7 +1647,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:10.728Z",
+      "fetchedAt": "2026-05-11T13:53:06.371Z",
       "error": null
     },
     {
@@ -1733,14 +1727,13 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:10.819Z",
+      "fetchedAt": "2026-05-11T13:53:06.416Z",
       "error": null
     },
     {
       "id": "microsoft365blog",
       "label": "Microsoft Tech Community - M365 Blog",
-      "type": "rss",
-      "vendor": "microsoft",
+      "type": "official",
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
       "items": [
@@ -1751,7 +1744,7 @@
           "summary": "<P><SPAN data-contrast=\"auto\">Frontier&nbsp;Transformation&nbsp;is about&nbsp;fundamentally changing how&nbsp;organizations&nbsp;operate&nbsp;–&nbsp;embedding&nbsp;AI into everyday workflows&nbsp;to&nbsp;accelerate decisions,&nbsp;improve outcomes,&nbsp;and drive measurable&nbsp;business&nbsp;impact",
           "author": "carolinestanford",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Microsoft 365 Backup granular restore now generally available!",
@@ -1760,7 +1753,7 @@
           "summary": "<P><SPAN data-contrast=\"auto\">Data recovery&nbsp;shouldn’t&nbsp;feel like an all-or-nothing decision.&nbsp;Until now,&nbsp;</SPAN><A href=\"https://aka.ms/M365Backup\" target=\"_blank\" rel=\"noopener\"><SPAN data-contrast=\"none\"><SPAN data-ccp-charstyle=\"Hyperlink\">Microsoft 365 Backup</SPAN></SPAN></A><",
           "author": "diksha050",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Register today for the Microsoft 365 Archive + Orchestry webinar",
@@ -1769,7 +1762,7 @@
           "summary": "<P>Join us for a live webinar on May 7, 9:00 am PDT, with Trent Green, Microsoft, and David Francoeur, Orchestry, to learn more about what file-level archiving does, how it works, and how to turn it into a scalable, automated strategy across your tenant.</P> <P><A href=\"https://www.orchestry.com/web",
           "author": "wbaer",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Debugging the future of work: Microsoft 365 Community Conference 2026",
@@ -1778,7 +1771,7 @@
           "summary": "<P>Building in the era of AI can get very challenging. That’s exactly why we’re here to help you debug, refactor, and level up at the Microsoft 365 Community Conference, happening April 21–23, 2026 in Orlando, FL. Whether you’re a developer ready to scale your skillset or a power user looking to upg",
           "author": "JonJones_MSFT",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "AI is a Team Sport – Announcing our first wave of Guest Speakers at M365 Community Conference 2026",
@@ -1787,17 +1780,16 @@
           "summary": "<P>What do championship athletes, enterprise innovators, and community leaders all have in common?</P> <P>They know that transformation does not happen in isolation. It happens when teams come together with a shared goal, the right strategy, and the courage to try something new.</P> <P>That is why a",
           "author": "JonJones_MSFT",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:12.313Z",
+      "fetchedAt": "2026-05-11T13:53:07.534Z",
       "error": null
     },
     {
       "id": "officereleases",
       "label": "Microsoft Office Semi-Annual Channel Release Notes",
-      "type": "rss",
-      "vendor": "microsoft",
+      "type": "official",
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22Release+notes+for+Semi-Annual+Enterprise+Channel+releases+-+Office+release+notes%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [
@@ -1808,7 +1800,7 @@
           "summary": "Release notes for Semi-Annual Enterprise Channel Summarize this article for me These release notes provide information about new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and th",
           "author": "",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Archived release notes for Semi-Annual Enterprise Channel releases - Office release notes",
@@ -1817,10 +1809,10 @@
           "summary": "Archived Release Notes for Semi-Annual Enterprise Channel Summarize this article for me In this article These release notes provide information about new features and nonsecurity updates included in Semi-Annual Enterprise Channel updates to Office 365 ProPlus, Visio Pro for Office 365, Project Onlin",
           "author": "",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:12.255Z",
+      "fetchedAt": "2026-05-11T13:53:07.448Z",
       "error": null
     },
     {
@@ -1875,7 +1867,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:12.108Z",
+      "fetchedAt": "2026-05-11T13:53:07.414Z",
       "error": null
     },
     {
@@ -1940,7 +1932,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:12.223Z",
+      "fetchedAt": "2026-05-11T13:53:07.598Z",
       "error": null
     },
     {
@@ -2025,7 +2017,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:13.113Z",
+      "fetchedAt": "2026-05-11T13:53:08.447Z",
       "error": null
     },
     {
@@ -2081,7 +2073,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:13.088Z",
+      "fetchedAt": "2026-05-11T13:53:08.292Z",
       "error": null
     },
     {
@@ -2146,7 +2138,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:13.174Z",
+      "fetchedAt": "2026-05-11T13:53:08.366Z",
       "error": null
     },
     {
@@ -2227,7 +2219,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:13.191Z",
+      "fetchedAt": "2026-05-11T13:53:09.024Z",
       "error": null
     },
     {
@@ -2236,7 +2228,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-11T13:39:13.808Z",
+      "fetchedAt": "2026-05-11T13:53:09.927Z",
       "error": "HTTP 404"
     },
     {
@@ -2245,7 +2237,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-11T13:39:13.364Z",
+      "fetchedAt": "2026-05-11T13:53:09.141Z",
       "error": "HTTP 403"
     },
     {
@@ -2325,7 +2317,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:13.461Z",
+      "fetchedAt": "2026-05-11T13:53:09.181Z",
       "error": null
     },
     {
@@ -2396,7 +2388,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:13.575Z",
+      "fetchedAt": "2026-05-11T13:53:09.380Z",
       "error": null
     },
     {
@@ -2415,7 +2407,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.117Z",
+      "fetchedAt": "2026-05-11T13:53:10.113Z",
       "error": null
     },
     {
@@ -2470,7 +2462,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.007Z",
+      "fetchedAt": "2026-05-11T13:53:10.135Z",
       "error": null
     },
     {
@@ -2555,7 +2547,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.060Z",
+      "fetchedAt": "2026-05-11T13:53:10.157Z",
       "error": null
     },
     {
@@ -2621,7 +2613,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oqbKWwUhh4Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.267Z",
+      "fetchedAt": "2026-05-11T13:53:10.420Z",
       "error": null
     },
     {
@@ -2686,7 +2678,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CzxTU7M2NIw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.393Z",
+      "fetchedAt": "2026-05-11T13:53:10.541Z",
       "error": null
     },
     {
@@ -2751,7 +2743,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zK0QrJzvvCg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.552Z",
+      "fetchedAt": "2026-05-11T13:53:10.770Z",
       "error": null
     },
     {
@@ -2817,7 +2809,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iVUUkgyZsTk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.433Z",
+      "fetchedAt": "2026-05-11T13:53:10.584Z",
       "error": null
     },
     {
@@ -2883,7 +2875,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/v1i0bHTm330/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.435Z",
+      "fetchedAt": "2026-05-11T13:53:10.831Z",
       "error": null
     },
     {
@@ -2949,7 +2941,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/73f_gjdaw2U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.667Z",
+      "fetchedAt": "2026-05-11T13:53:10.988Z",
       "error": null
     },
     {
@@ -3014,7 +3006,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/ODu_A-V6J5c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.717Z",
+      "fetchedAt": "2026-05-11T13:53:10.944Z",
       "error": null
     },
     {
@@ -3080,7 +3072,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OIW24f9y040/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.701Z",
+      "fetchedAt": "2026-05-11T13:53:11.032Z",
       "error": null
     },
     {
@@ -3145,7 +3137,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lgXUD1pxe_w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.709Z",
+      "fetchedAt": "2026-05-11T13:53:10.957Z",
       "error": null
     },
     {
@@ -3210,7 +3202,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CWEQnRBhFLM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.901Z",
+      "fetchedAt": "2026-05-11T13:53:11.217Z",
       "error": null
     },
     {
@@ -3275,14 +3267,14 @@
           "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:14.831Z",
+      "fetchedAt": "2026-05-11T13:53:11.163Z",
       "error": null
     },
     {
       "id": "nerdio-blog",
       "label": "Nerdio",
-      "type": "rss",
-      "vendor": "nerdio",
+      "type": "official",
+      "badge": "Nerdio",
       "url": "https://getnerdio.com/resources/feed/",
       "items": [
         {
@@ -3292,7 +3284,7 @@
           "summary": "CUSTOMER STORY TRIIO Nerdio’s impact on Azure infrastructure   Nerdio overall has helped us optimize the Azure infrastructure that we… The post TRIIO: Nerdio’s impact on Azure infrastructure appeared first on Nerdio. ]]>",
           "author": "Lauren Purdy",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "IDC Spotlight 2026: Mastering the modern digital workspace",
@@ -3301,7 +3293,7 @@
           "summary": "2026 IDC SPOTLIGHT Mastering the modern digital workspace Rapid growth in digital work is colliding with persistent IT skills shortages,… The post IDC Spotlight 2026: Mastering the modern digital workspace appeared first on Nerdio. ]]>",
           "author": "Brian Gallagher",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "The Great VDI Migration: Your Path to a Cloud-First Workplace",
@@ -3310,7 +3302,7 @@
           "summary": "ON-DEMAND WEBINAR The Great VDI Migration: Your Path to a Cloud-First Workplace In this webinar, experts from Nerdio and Microsoft… The post The Great VDI Migration: Your Path to a Cloud-First Workplace appeared first on Nerdio. ]]>",
           "author": "Lauren Purdy",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Announcing Nerdio Compass: Start your VDI modernization journey to Windows Cloud",
@@ -3319,7 +3311,7 @@
           "summary": "Hybrid cloud Announcing Nerdio Compass: Start your VDI modernization journey to Windows Cloud Aaron Parker | May 1, 2026 |… The post Announcing Nerdio Compass: Start your VDI modernization journey to Windows Cloud appeared first on Nerdio. ]]>",
           "author": "Lauren Purdy",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         },
         {
           "title": "Rethinking EUC in the age of agentic AI with Computer-Using Agents (CUA)",
@@ -3328,20 +3320,20 @@
           "summary": "Nerdio Manager for Enterprise Rethinking EUC in the age of agentic AI with Computer-Using Agents (CUA) Christiaan Brinkhoff | May… The post Rethinking EUC in the age of agentic AI with Computer-Using Agents (CUA) appeared first on Nerdio. ]]>",
           "author": "Lauren Purdy",
           "categories": [],
-          "type": "rss"
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:16.068Z",
+      "fetchedAt": "2026-05-11T13:53:11.331Z",
       "error": null
     },
     {
       "id": "recast-blog",
       "label": "Recast Software",
-      "type": "rss",
-      "vendor": "recast",
+      "type": "official",
+      "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-11T13:39:14.849Z",
+      "fetchedAt": "2026-05-11T13:53:11.244Z",
       "error": null
     },
     {
@@ -3396,7 +3388,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:16.290Z",
+      "fetchedAt": "2026-05-11T13:53:11.563Z",
       "error": null
     },
     {
@@ -3451,7 +3443,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:16.300Z",
+      "fetchedAt": "2026-05-11T13:53:11.504Z",
       "error": null
     },
     {
@@ -3516,7 +3508,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-11T13:39:16.875Z",
+      "fetchedAt": "2026-05-11T13:53:12.059Z",
       "error": null
     }
   ]
