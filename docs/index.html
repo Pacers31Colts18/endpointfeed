@@ -590,33 +590,11 @@
     }
     .day-range-pill:hover { border-color: var(--accent); color: var(--accent); }
     .day-range-pill.active { border-color: var(--accent); color: var(--accent); background: rgba(91,141,238,0.1); }
-    /* ── VENDOR SUB-SECTIONS ── */
-    .vendor-sub {
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      overflow: hidden;
-      margin-bottom: 8px;
-    }
-    .vendor-sub:last-child { margin-bottom: 0; }
-    .vendor-sub-header {
-      display: flex; align-items: stretch;
-      height: 38px;
-      background: var(--bg-panel);
-      cursor: pointer; user-select: none;
-      transition: background 0.12s;
-      border-bottom: 1px solid transparent;
-    }
-    .vendor-sub-header:hover { background: var(--bg-hover); }
-    .vendor-sub.open .vendor-sub-header { border-bottom-color: var(--border); }
-    .vendor-sub.open .vendor-sub-chevron { transform: rotate(90deg); }
-    .vendor-sub-body {
-      display: none;
-      padding: 12px;
-      background: var(--bg);
-    }
-    .vendor-sub.open .vendor-sub-body { display: block; }
-    .vendor-sub-chevron {
-      color: var(--text-mute); font-size: 10px; transition: transform 0.2s;
+    /* ── VENDOR BADGE ── */
+    .vendor-badge {
+      font-size: 9px; font-weight: 700; letter-spacing: 0.05em;
+      padding: 2px 6px; border-radius: 3px; flex-shrink: 0;
+      border: 1px solid; white-space: nowrap;
     }
 
     /* ── LOADING ── */
@@ -828,14 +806,12 @@ function toggleAll() {
   allOpen = !allOpen;
   if (allOpen) {
     openSet.add('articles'); CATEGORIES.forEach(c => openSet.add(c.id));
-    openSet.add('vendor'); VENDORS.forEach(v => openSet.add('vs-'+v.id));
+    openSet.add('vendor');
     document.querySelectorAll('.cat-section').forEach(s => s.classList.add('open'));
-    document.querySelectorAll('.vendor-sub').forEach(s => s.classList.add('open'));
     document.getElementById('expand-btn').textContent = '− collapse all';
   } else {
     openSet.clear(); openSet.add('articles');
     document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id === 'cat-articles'));
-    document.querySelectorAll('.vendor-sub').forEach(s => s.classList.remove('open'));
     document.getElementById('expand-btn').textContent = '+ expand all';
   }
 }
@@ -1053,24 +1029,45 @@ function buildCatSection(cat, feeds, delay, query) {
   return sec;
 }
 
-/* ── Vendors section — nested per-vendor sub-sections ───── */
+/* ── Official section — flat grid with per-vendor color labels ── */
 function buildVendorSection(vendorFeeds, delay, query) {
   const isOpen = openSet.has('vendor') || !!query;
 
-  const totalItems = vendorFeeds.reduce((a, f) => a + (f.items||[]).length, 0);
+  // Build a lookup from vendor id → vendor config
+  const vendorMap = Object.fromEntries(VENDORS.map(v => [v.id, v]));
+
+  // Collect all items, attaching vendor info
+  const allItems = [];
+  for (const feed of vendorFeeds) {
+    const vendor = vendorMap[feed.vendor] || { id: feed.vendor, label: feed.vendor, color: '#888' };
+    for (const item of (feed.items || [])) {
+      allItems.push({ ...item, _feedLabel: feed.label, _feedMvp: !!feed.mvp, _vendor: vendor });
+    }
+  }
+  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
   const sec = document.createElement('div');
   sec.className = 'cat-section' + (isOpen ? ' open' : '');
   sec.id = 'cat-vendor';
 
+  // Build vendor color-bar as a multi-segment stripe
+  const stripeSegs = VENDORS
+    .filter(v => vendorFeeds.some(f => f.vendor === v.id))
+    .map(v => `<div style="flex:1;background:${v.color}"></div>`)
+    .join('');
+  const colorBar = `<div style="width:4px;flex-shrink:0;display:flex;flex-direction:column">${stripeSegs}</div>`;
+
   const hdr = document.createElement('div');
   hdr.className = 'cat-header';
   hdr.innerHTML = `
-    <div class="cat-color-bar" style="background:${VENDOR_CAT.color}"></div>
+    ${colorBar}
     <div class="cat-header-inner">
       <div class="cat-name">${esc(VENDOR_CAT.label)}</div>
       <div class="cat-meta">
-        <span class="cat-pill-count">${totalItems} item${totalItems!==1?'s':''}</span>
+        ${VENDORS.filter(v => vendorFeeds.some(f => f.vendor === v.id)).map(v =>
+          `<span class="vendor-badge" style="color:${v.color};border-color:${v.color}40;background:${v.color}18">${esc(v.label)}</span>`
+        ).join('')}
+        <span class="cat-pill-count">${allItems.length} item${allItems.length!==1?'s':''}</span>
       </div>
       <span class="cat-chevron">▶</span>
     </div>`;
@@ -1082,55 +1079,11 @@ function buildVendorSection(vendorFeeds, delay, query) {
 
   const body = document.createElement('div');
   body.className = 'cat-body';
-
-  VENDORS.forEach(vendor => {
-    const feeds = vendorFeeds.filter(f => f.vendor === vendor.id);
-    if (!feeds.length) return;
-    body.appendChild(buildVendorSubSection(vendor, feeds, query));
-  });
-
-  sec.appendChild(hdr);
-  sec.appendChild(body);
-  return sec;
-}
-
-function buildVendorSubSection(vendor, feeds, query) {
-  const vsKey = 'vs-' + vendor.id;
-  const isOpen = openSet.has(vsKey) || !!query;
-
-  const items = feeds.flatMap(f =>
-    (f.items||[]).map(i => ({ ...i, _feedLabel: f.label, _feedMvp: !!f.mvp, _sectionColor: vendor.color }))
-  );
-  items.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
-  const sub = document.createElement('div');
-  sub.className = 'vendor-sub' + (isOpen ? ' open' : '');
-  sub.id = 'vs-' + vendor.id;
-
-  const hdr = document.createElement('div');
-  hdr.className = 'vendor-sub-header';
-  hdr.innerHTML = `
-    <div class="cat-color-bar" style="background:${vendor.color}"></div>
-    <div class="cat-header-inner">
-      <div class="cat-name" style="font-size:13px">${esc(vendor.label)}</div>
-      <div class="cat-meta">
-        <span class="cat-pill-count">${items.length} item${items.length!==1?'s':''}</span>
-      </div>
-      <span class="vendor-sub-chevron cat-chevron">▶</span>
-    </div>`;
-  hdr.onclick = () => {
-    const was = sub.classList.contains('open');
-    sub.classList.toggle('open', !was);
-    was ? openSet.delete(vsKey) : openSet.add(vsKey);
-  };
-
-  const body = document.createElement('div');
-  body.className = 'vendor-sub-body';
-
   const grid = document.createElement('div');
   grid.className = 'new-card-grid';
 
-  items.forEach((item, i) => {
+  allItems.forEach((item, i) => {
+    const vendor = item._vendor;
     const pub = item.pubDate ? new Date(item.pubDate) : null;
     const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
     const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
@@ -1146,6 +1099,7 @@ function buildVendorSubSection(vendor, feeds, query) {
     const topBg = tintBg(vendor.color, 0.07);
     card.innerHTML = `
       <div class="new-card-top" style="background:${topBg}">
+        <span class="vendor-badge" style="color:${vendor.color};border-color:${vendor.color}40;background:${vendor.color}18">${esc(vendor.label)}</span>
         <span class="new-card-source">${esc(item._feedLabel)}</span>
         ${item._feedMvp ? '<span class="mvp-badge">MVP</span>' : ''}
         ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
@@ -1160,9 +1114,9 @@ function buildVendorSubSection(vendor, feeds, query) {
   });
 
   body.appendChild(grid);
-  sub.appendChild(hdr);
-  sub.appendChild(body);
-  return sub;
+  sec.appendChild(hdr);
+  sec.appendChild(body);
+  return sec;
 }
 
 /* ── Video card (individual item) ───────────────────────── */
