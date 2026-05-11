@@ -1050,23 +1050,13 @@ function buildVendorSection(vendorFeeds, delay, query) {
   sec.className = 'cat-section' + (isOpen ? ' open' : '');
   sec.id = 'cat-vendor';
 
-  // Build vendor color-bar as a multi-segment stripe
-  const stripeSegs = VENDORS
-    .filter(v => vendorFeeds.some(f => f.vendor === v.id))
-    .map(v => `<div style="flex:1;background:${v.color}"></div>`)
-    .join('');
-  const colorBar = `<div style="width:4px;flex-shrink:0;display:flex;flex-direction:column">${stripeSegs}</div>`;
-
   const hdr = document.createElement('div');
   hdr.className = 'cat-header';
   hdr.innerHTML = `
-    ${colorBar}
+    <div class="cat-color-bar" style="background:${VENDOR_CAT.color}"></div>
     <div class="cat-header-inner">
       <div class="cat-name">${esc(VENDOR_CAT.label)}</div>
       <div class="cat-meta">
-        ${VENDORS.filter(v => vendorFeeds.some(f => f.vendor === v.id)).map(v =>
-          `<span class="vendor-badge" style="color:${v.color};border-color:${v.color}40;background:${v.color}18">${esc(v.label)}</span>`
-        ).join('')}
         <span class="cat-pill-count">${allItems.length} item${allItems.length!==1?'s':''}</span>
       </div>
       <span class="cat-chevron">▶</span>
@@ -1241,20 +1231,19 @@ function buildSourcesView() {
     view.appendChild(grid);
   });
 
-  // Vendor groups
-  VENDORS.forEach(vendor => {
-    const feeds = allFeeds.filter(f => f.vendor === vendor.id);
-    if (!feeds.length) return;
-
+  // Official (vendor) group
+  const officialFeeds = allFeeds.filter(f => f.vendor);
+  if (officialFeeds.length) {
     const heading = document.createElement('div');
     heading.className = 'sources-heading';
-    heading.innerHTML = `<span class="sources-heading-dot" style="background:${vendor.color}"></span>${esc('Vendor — ' + vendor.label)} <span style="font-weight:400;opacity:0.6">(${feeds.length})</span>`;
+    heading.innerHTML = `<span class="sources-heading-dot" style="background:${VENDOR_CAT.color}"></span>${esc(VENDOR_CAT.label)} <span style="font-weight:400;opacity:0.6">(${officialFeeds.length})</span>`;
     view.appendChild(heading);
 
     const grid = document.createElement('div');
     grid.className = 'new-card-grid';
 
-    feeds.forEach(feed => {
+    officialFeeds.forEach(feed => {
+      const vendor = VENDORS.find(v => v.id === feed.vendor) || { color: '#888', label: feed.vendor };
       let siteUrl = '';
       try {
         if (feed.items && feed.items.length && feed.items[0].link) {
@@ -1271,9 +1260,10 @@ function buildSourcesView() {
       card.target = '_blank'; card.rel = 'noopener noreferrer';
       card.style.animationDelay = '0ms';
 
-      const topBg = tintBg(vendor.color, 0.07);
+      const topBg = tintBg(VENDOR_CAT.color, 0.07);
       card.innerHTML = `
         <div class="new-card-top" style="background:${topBg}">
+          <span class="vendor-badge" style="color:${vendor.color};border-color:${vendor.color}40;background:${vendor.color}18">${esc(vendor.label)}</span>
           <span class="new-card-source">${esc(feed.label)}</span>
           ${feed.error ? `<span style="font-size:10px;color:var(--ms-red);font-weight:600">ERR</span>` : `<span style="font-size:11px;color:var(--text-mute)">${feed.items?.length||0} items</span>`}
         </div>
@@ -1285,7 +1275,7 @@ function buildSourcesView() {
     });
 
     view.appendChild(grid);
-  });
+  }
 }
 
 /* ── Search ─────────────────────────────────────────────── */
