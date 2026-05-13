@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T21:08:47.114Z",
+  "generatedAt": "2026-05-13T21:25:55.731Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -57,9 +57,9 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "patch management",
             "deployment",
-            "windows"
+            "windows",
+            "patch management"
           ],
           "type": "rss"
         },
@@ -78,7 +78,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:30.235Z",
+      "fetchedAt": "2026-05-13T21:25:38.514Z",
       "error": null
     },
     {
@@ -162,7 +162,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:30.134Z",
+      "fetchedAt": "2026-05-13T21:25:38.435Z",
       "error": null
     },
     {
@@ -228,7 +228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:30.699Z",
+      "fetchedAt": "2026-05-13T21:25:38.524Z",
       "error": null
     },
     {
@@ -238,7 +238,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-13T21:08:29.907Z",
+      "fetchedAt": "2026-05-13T21:25:38.194Z",
       "error": "HTTP 403"
     },
     {
@@ -293,7 +293,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:30.970Z",
+      "fetchedAt": "2026-05-13T21:25:38.680Z",
       "error": null
     },
     {
@@ -358,7 +358,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:30.879Z",
+      "fetchedAt": "2026-05-13T21:25:38.738Z",
       "error": null
     },
     {
@@ -443,7 +443,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:30.824Z",
+      "fetchedAt": "2026-05-13T21:25:38.679Z",
       "error": null
     },
     {
@@ -516,7 +516,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:31.548Z",
+      "fetchedAt": "2026-05-13T21:25:39.208Z",
       "error": null
     },
     {
@@ -525,7 +525,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T21:08:31.625Z",
+      "fetchedAt": "2026-05-13T21:25:39.304Z",
       "error": "HTTP 403"
     },
     {
@@ -603,7 +603,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:33.235Z",
+      "fetchedAt": "2026-05-13T21:25:40.779Z",
       "error": null
     },
     {
@@ -612,7 +612,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T21:08:31.999Z",
+      "fetchedAt": "2026-05-13T21:25:39.477Z",
       "error": "certificate has expired"
     },
     {
@@ -688,7 +688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:32.467Z",
+      "fetchedAt": "2026-05-13T21:25:39.796Z",
       "error": null
     },
     {
@@ -765,7 +765,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:33.434Z",
+      "fetchedAt": "2026-05-13T21:25:41.261Z",
       "error": null
     },
     {
@@ -774,9 +774,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-05-13T21:08:33.478Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
+          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
+          "pubDate": "2026-05-06T20:30:40.000Z",
+          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
+          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
+          "pubDate": "2026-04-27T15:00:17.000Z",
+          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Parsing Intune Remediation JSON Output",
+          "link": "https://www.deploymentresearch.com/parsing-intune-remediation-json-output/",
+          "pubDate": "2026-04-23T01:56:57.000Z",
+          "summary": "Recently we've been discussing Secure Boot Certificate updates a lot. There have been many new tools to help us as administrators report on the status of those updates across our fleets and one of the popular tools has been a remediation script released by Microsoft found here: Monitoring Secure Boo",
+          "author": "Andrew Johnson",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "To Use or Not to Use MDT",
+          "link": "https://www.deploymentresearch.com/to-use-or-not-to-use-mdt/",
+          "pubDate": "2026-03-20T23:15:22.000Z",
+          "summary": "Windows deployment isn’t going anywhere, no matter how often Microsoft talks about a cloud-only future. Out in the real world, imaging, task sequences, and controlled builds are still critical for many organizations. MDT hasn’t been developed since 2019, aside from a BIOS detection patch in 2020, an",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Speeding up File Copy in a Computer Lab",
+          "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
+          "pubDate": "2026-02-26T14:17:31.000Z",
+          "summary": "In our labs, we often need to copy large files to multiple lab machines. These days, we have 10 GBE network cards on all file servers, but it wasn't long ago that we had only a 1 Gbps connection between the file server and the switch that connected the clients. To minimize the time it […] The post S",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-05-13T21:25:44.018Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -830,7 +886,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:33.674Z",
+      "fetchedAt": "2026-05-13T21:25:41.210Z",
       "error": null
     },
     {
@@ -910,7 +966,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:33.514Z",
+      "fetchedAt": "2026-05-13T21:25:41.091Z",
       "error": null
     },
     {
@@ -989,7 +1045,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:33.829Z",
+      "fetchedAt": "2026-05-13T21:25:44.113Z",
       "error": null
     },
     {
@@ -1069,7 +1125,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:35.964Z",
+      "fetchedAt": "2026-05-13T21:25:45.554Z",
       "error": null
     },
     {
@@ -1154,7 +1210,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:33.901Z",
+      "fetchedAt": "2026-05-13T21:25:44.144Z",
       "error": null
     },
     {
@@ -1210,7 +1266,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:33.912Z",
+      "fetchedAt": "2026-05-13T21:25:44.248Z",
       "error": null
     },
     {
@@ -1296,7 +1352,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:37.126Z",
+      "fetchedAt": "2026-05-13T21:25:46.683Z",
       "error": null
     },
     {
@@ -1382,7 +1438,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:36.097Z",
+      "fetchedAt": "2026-05-13T21:25:45.576Z",
       "error": null
     },
     {
@@ -1466,7 +1522,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:36.140Z",
+      "fetchedAt": "2026-05-13T21:25:45.672Z",
       "error": null
     },
     {
@@ -1521,7 +1577,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:36.298Z",
+      "fetchedAt": "2026-05-13T21:25:45.831Z",
       "error": null
     },
     {
@@ -1586,7 +1642,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:37.331Z",
+      "fetchedAt": "2026-05-13T21:25:46.790Z",
       "error": null
     },
     {
@@ -1671,7 +1727,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:37.937Z",
+      "fetchedAt": "2026-05-13T21:25:47.260Z",
       "error": null
     },
     {
@@ -1727,7 +1783,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:37.866Z",
+      "fetchedAt": "2026-05-13T21:25:47.146Z",
       "error": null
     },
     {
@@ -1792,7 +1848,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:37.800Z",
+      "fetchedAt": "2026-05-13T21:25:47.082Z",
       "error": null
     },
     {
@@ -1873,7 +1929,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:38.935Z",
+      "fetchedAt": "2026-05-13T21:25:47.798Z",
       "error": null
     },
     {
@@ -1882,7 +1938,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-13T21:08:38.891Z",
+      "fetchedAt": "2026-05-13T21:25:47.972Z",
       "error": "HTTP 404"
     },
     {
@@ -1891,7 +1947,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-13T21:08:38.338Z",
+      "fetchedAt": "2026-05-13T21:25:47.458Z",
       "error": "HTTP 403"
     },
     {
@@ -1971,7 +2027,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:38.391Z",
+      "fetchedAt": "2026-05-13T21:25:47.544Z",
       "error": null
     },
     {
@@ -2045,7 +2101,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.284Z",
+      "fetchedAt": "2026-05-13T21:25:48.148Z",
       "error": null
     },
     {
@@ -2064,7 +2120,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.104Z",
+      "fetchedAt": "2026-05-13T21:25:48.190Z",
       "error": null
     },
     {
@@ -2119,7 +2175,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.301Z",
+      "fetchedAt": "2026-05-13T21:25:48.308Z",
       "error": null
     },
     {
@@ -2204,7 +2260,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.334Z",
+      "fetchedAt": "2026-05-13T21:25:48.147Z",
       "error": null
     },
     {
@@ -2270,7 +2326,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oqbKWwUhh4Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.400Z",
+      "fetchedAt": "2026-05-13T21:25:48.334Z",
       "error": null
     },
     {
@@ -2335,7 +2391,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CzxTU7M2NIw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.492Z",
+      "fetchedAt": "2026-05-13T21:25:48.415Z",
       "error": null
     },
     {
@@ -2400,7 +2456,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zK0QrJzvvCg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.472Z",
+      "fetchedAt": "2026-05-13T21:25:48.430Z",
       "error": null
     },
     {
@@ -2466,7 +2522,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/usyxV6wQuyU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.567Z",
+      "fetchedAt": "2026-05-13T21:25:48.488Z",
       "error": null
     },
     {
@@ -2532,7 +2588,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/vXJKiXkY_fo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.749Z",
+      "fetchedAt": "2026-05-13T21:25:48.642Z",
       "error": null
     },
     {
@@ -2598,7 +2654,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3ob5Q7QTvVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.682Z",
+      "fetchedAt": "2026-05-13T21:25:48.583Z",
       "error": null
     },
     {
@@ -2663,7 +2719,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/ODu_A-V6J5c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.645Z",
+      "fetchedAt": "2026-05-13T21:25:48.556Z",
       "error": null
     },
     {
@@ -2673,6 +2729,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure Arc Onboarding at Scale: Service Principal Strategy #shorts",
+          "link": "https://www.youtube.com/shorts/XBwzqJAwTMs",
+          "pubDate": "2026-05-13T21:03:24.000Z",
+          "summary": "Full Video: https://youtu.be/O7w-NoFtAZs Learn how to efficiently onboard machines to Azure Arc at scale using Entra ID service principles. Enhance security with least-privileged access and enable onboarding without elevated Azure credentials. #AzureArc #Automation #Windows #Azure #HybridCloud #Mult",
+          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i1.ytimg.com/vi/XBwzqJAwTMs/hqdefault.jpg"
+        },
         {
           "title": "Automate Azure Arc Onboarding with Service Principal Script #shorts",
           "link": "https://www.youtube.com/shorts/Fs-DOV-RVEg",
@@ -2716,20 +2783,9 @@
           "type": "video",
           "videoId": "O7w-NoFtAZs",
           "thumbnail": "https://i4.ytimg.com/vi/O7w-NoFtAZs/hqdefault.jpg"
-        },
-        {
-          "title": "Recast App Workspace: Unified App Delivery Simplified #shorts",
-          "link": "https://www.youtube.com/shorts/OIW24f9y040",
-          "pubDate": "2026-04-29T16:01:41.000Z",
-          "summary": "Full video: https://youtu.be/g8HbHjN9joY Streamline custom application packaging with Recast Application Workspace. Seamlessly switch between office and remote access. Unified delivery across VDI, AVD, Windows, Macs, and more. #ITManagement #Intune #Microsoft #Windows #Mac #VDI #EndpointManagement #",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/OIW24f9y040/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.574Z",
+      "fetchedAt": "2026-05-13T21:25:48.494Z",
       "error": null
     },
     {
@@ -2794,7 +2850,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oPLxoKkzKTI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.838Z",
+      "fetchedAt": "2026-05-13T21:25:48.736Z",
       "error": null
     },
     {
@@ -2859,7 +2915,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/vRZHcrgFnqk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.844Z",
+      "fetchedAt": "2026-05-13T21:25:48.721Z",
       "error": null
     },
     {
@@ -2924,7 +2980,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.879Z",
+      "fetchedAt": "2026-05-13T21:25:48.714Z",
       "error": null
     },
     {
@@ -2989,7 +3045,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.821Z",
+      "fetchedAt": "2026-05-13T21:25:48.696Z",
       "error": null
     },
     {
@@ -3054,7 +3110,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HNUcTH7oTJc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:39.983Z",
+      "fetchedAt": "2026-05-13T21:25:48.826Z",
       "error": null
     },
     {
@@ -3110,7 +3166,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:41.219Z",
+      "fetchedAt": "2026-05-13T21:25:50.084Z",
       "error": null
     },
     {
@@ -3120,7 +3176,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T21:08:40.076Z",
+      "fetchedAt": "2026-05-13T21:25:48.820Z",
       "error": null
     },
     {
@@ -3189,7 +3245,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:40.508Z",
+      "fetchedAt": "2026-05-13T21:25:49.524Z",
       "error": null
     },
     {
@@ -3245,7 +3301,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:41.599Z",
+      "fetchedAt": "2026-05-13T21:25:50.644Z",
       "error": null
     },
     {
@@ -3274,7 +3330,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:41.804Z",
+      "fetchedAt": "2026-05-13T21:25:50.136Z",
       "error": null
     },
     {
@@ -3330,7 +3386,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:41.649Z",
+      "fetchedAt": "2026-05-13T21:25:50.781Z",
       "error": null
     },
     {
@@ -3340,7 +3396,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-13T21:08:41.550Z",
+      "fetchedAt": "2026-05-13T21:25:50.150Z",
       "error": null
     },
     {
@@ -3396,7 +3452,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:42.259Z",
+      "fetchedAt": "2026-05-13T21:25:51.316Z",
       "error": null
     },
     {
@@ -3416,7 +3472,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:41.883Z",
+      "fetchedAt": "2026-05-13T21:25:50.859Z",
       "error": null
     },
     {
@@ -3472,7 +3528,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:46.151Z",
+      "fetchedAt": "2026-05-13T21:25:55.026Z",
       "error": null
     },
     {
@@ -3528,7 +3584,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:42.581Z",
+      "fetchedAt": "2026-05-13T21:25:51.329Z",
       "error": null
     },
     {
@@ -3583,7 +3639,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:46.318Z",
+      "fetchedAt": "2026-05-13T21:25:55.176Z",
       "error": null
     },
     {
@@ -3638,7 +3694,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:46.291Z",
+      "fetchedAt": "2026-05-13T21:25:55.095Z",
       "error": null
     },
     {
@@ -3703,7 +3759,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T21:08:47.114Z",
+      "fetchedAt": "2026-05-13T21:25:55.731Z",
       "error": null
     }
   ]
