@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T18:01:57.437Z",
+  "generatedAt": "2026-05-13T21:08:47.114Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -7,6 +7,35 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Cloud-Initiated Driver Recovery: automatic Windows Update rollback",
+          "link": "https://4sysops.com/archives/cloud-initiated-driver-recovery-automatic-windows-update-rollback/",
+          "pubDate": "2026-05-13T19:39:25.000Z",
+          "summary": "Microsoft is introducing Cloud-Initiated Driver Recovery, a mechanism that automatically rolls back a faulty driver on your devices via Windows Update, without requiring any action from you or your hardware vendor. The feature is aimed at closing a gap where a bad driver could linger on devices for ",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "patch management",
+            "wsus",
+            "deployment"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Agent 365 GA and Copilot Cowork: new M365 AI agent controls",
+          "link": "https://4sysops.com/archives/agent-365-ga-and-copilot-cowork-new-m365-ai-agent-controls/",
+          "pubDate": "2026-05-13T19:38:59.000Z",
+          "summary": "Microsoft announced two significant updates: Agent 365 reached general availability as a management tool for AI agents in the Microsoft 365 admin center, and Copilot Cowork — a feature that runs multi-step tasks on your behalf in the background — gained mobile support, reusable task templates called",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "office",
+            "microsoft 365",
+            "AI",
+            "AI agents"
+          ],
+          "type": "rss"
+        },
         {
           "title": "What is Microsoft Discovery?",
           "link": "https://4sysops.com/archives/what-is-microsoft-discovery/",
@@ -42,43 +71,14 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "intune",
             "deployment",
-            "remote management"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "New TeamViewer connector in Microsoft Intune: remote control for Windows, macOS, iOS, Android",
-          "link": "https://4sysops.com/archives/new-teamviewer-connector-in-microsoft-intune-remote-control-for-windows-macos-ios-android/",
-          "pubDate": "2026-05-08T19:56:34.000Z",
-          "summary": "TeamViewer is a remote assistance solution that lets you remotely connect to and control Intune-managed Windows, macOS, Android, and iOS/iPadOS devices directly from the Intune admin center to support your users. Microsoft Intune's April 2026 update (service release 2604) introduces a redesigned Tea",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "remote desktop services",
             "remote management",
-            "remote control",
             "intune"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "New Group Policy for Windows Update maintenance window in Windows 11 25H2",
-          "link": "https://4sysops.com/archives/new-group-policy-for-windows-update-maintenance-window-in-windows-11-25h2/",
-          "pubDate": "2026-05-07T19:09:31.000Z",
-          "summary": "Windows 11 version 25H2 introduces a new Group Policy setting, Configure maintenance windows for automatic updates, that lets you define precise time windows for downloading, installing, and restarting after updates. The policy ships with version 3.0 of the ADMX administrative templates and is curre",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "patch management",
-            "group policy",
-            "deployment"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:41.092Z",
+      "fetchedAt": "2026-05-13T21:08:30.235Z",
       "error": null
     },
     {
@@ -162,7 +162,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:40.969Z",
+      "fetchedAt": "2026-05-13T21:08:30.134Z",
       "error": null
     },
     {
@@ -228,7 +228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:41.562Z",
+      "fetchedAt": "2026-05-13T21:08:30.699Z",
       "error": null
     },
     {
@@ -238,7 +238,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-13T18:01:40.770Z",
+      "fetchedAt": "2026-05-13T21:08:29.907Z",
       "error": "HTTP 403"
     },
     {
@@ -293,7 +293,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:41.837Z",
+      "fetchedAt": "2026-05-13T21:08:30.970Z",
       "error": null
     },
     {
@@ -358,7 +358,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:41.944Z",
+      "fetchedAt": "2026-05-13T21:08:30.879Z",
       "error": null
     },
     {
@@ -443,7 +443,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:41.797Z",
+      "fetchedAt": "2026-05-13T21:08:30.824Z",
       "error": null
     },
     {
@@ -516,7 +516,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:42.327Z",
+      "fetchedAt": "2026-05-13T21:08:31.548Z",
       "error": null
     },
     {
@@ -525,7 +525,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T18:01:42.402Z",
+      "fetchedAt": "2026-05-13T21:08:31.625Z",
       "error": "HTTP 403"
     },
     {
@@ -603,7 +603,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:43.881Z",
+      "fetchedAt": "2026-05-13T21:08:33.235Z",
       "error": null
     },
     {
@@ -612,7 +612,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T18:01:42.590Z",
+      "fetchedAt": "2026-05-13T21:08:31.999Z",
       "error": "certificate has expired"
     },
     {
@@ -688,7 +688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:42.924Z",
+      "fetchedAt": "2026-05-13T21:08:32.467Z",
       "error": null
     },
     {
@@ -765,7 +765,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:44.323Z",
+      "fetchedAt": "2026-05-13T21:08:33.434Z",
       "error": null
     },
     {
@@ -774,65 +774,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
-          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
-          "pubDate": "2026-05-06T20:30:40.000Z",
-          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
-          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
-          "pubDate": "2026-04-27T15:00:17.000Z",
-          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Parsing Intune Remediation JSON Output",
-          "link": "https://www.deploymentresearch.com/parsing-intune-remediation-json-output/",
-          "pubDate": "2026-04-23T01:56:57.000Z",
-          "summary": "Recently we've been discussing Secure Boot Certificate updates a lot. There have been many new tools to help us as administrators report on the status of those updates across our fleets and one of the popular tools has been a remediation script released by Microsoft found here: Monitoring Secure Boo",
-          "author": "Andrew Johnson",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "To Use or Not to Use MDT",
-          "link": "https://www.deploymentresearch.com/to-use-or-not-to-use-mdt/",
-          "pubDate": "2026-03-20T23:15:22.000Z",
-          "summary": "Windows deployment isn’t going anywhere, no matter how often Microsoft talks about a cloud-only future. Out in the real world, imaging, task sequences, and controlled builds are still critical for many organizations. MDT hasn’t been developed since 2019, aside from a BIOS detection patch in 2020, an",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Speeding up File Copy in a Computer Lab",
-          "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
-          "pubDate": "2026-02-26T14:17:31.000Z",
-          "summary": "In our labs, we often need to copy large files to multiple lab machines. These days, we have 10 GBE network cards on all file servers, but it wasn't long ago that we had only a 1 Gbps connection between the file server and the switch that connected the clients. To minimize the time it […] The post S",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-05-13T18:01:45.056Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-13T21:08:33.478Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -886,7 +830,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:44.265Z",
+      "fetchedAt": "2026-05-13T21:08:33.674Z",
       "error": null
     },
     {
@@ -966,7 +910,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:44.102Z",
+      "fetchedAt": "2026-05-13T21:08:33.514Z",
       "error": null
     },
     {
@@ -1045,7 +989,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:45.107Z",
+      "fetchedAt": "2026-05-13T21:08:33.829Z",
       "error": null
     },
     {
@@ -1125,7 +1069,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:46.691Z",
+      "fetchedAt": "2026-05-13T21:08:35.964Z",
       "error": null
     },
     {
@@ -1210,7 +1154,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:45.212Z",
+      "fetchedAt": "2026-05-13T21:08:33.901Z",
       "error": null
     },
     {
@@ -1266,7 +1210,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:45.264Z",
+      "fetchedAt": "2026-05-13T21:08:33.912Z",
       "error": null
     },
     {
@@ -1352,7 +1296,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:47.832Z",
+      "fetchedAt": "2026-05-13T21:08:37.126Z",
       "error": null
     },
     {
@@ -1438,7 +1382,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:46.808Z",
+      "fetchedAt": "2026-05-13T21:08:36.097Z",
       "error": null
     },
     {
@@ -1522,7 +1466,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:46.947Z",
+      "fetchedAt": "2026-05-13T21:08:36.140Z",
       "error": null
     },
     {
@@ -1577,7 +1521,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:46.997Z",
+      "fetchedAt": "2026-05-13T21:08:36.298Z",
       "error": null
     },
     {
@@ -1642,7 +1586,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:48.119Z",
+      "fetchedAt": "2026-05-13T21:08:37.331Z",
       "error": null
     },
     {
@@ -1727,7 +1671,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:48.500Z",
+      "fetchedAt": "2026-05-13T21:08:37.937Z",
       "error": null
     },
     {
@@ -1783,7 +1727,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:48.295Z",
+      "fetchedAt": "2026-05-13T21:08:37.866Z",
       "error": null
     },
     {
@@ -1848,7 +1792,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:48.383Z",
+      "fetchedAt": "2026-05-13T21:08:37.800Z",
       "error": null
     },
     {
@@ -1929,7 +1873,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.114Z",
+      "fetchedAt": "2026-05-13T21:08:38.935Z",
       "error": null
     },
     {
@@ -1938,7 +1882,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-13T18:01:48.904Z",
+      "fetchedAt": "2026-05-13T21:08:38.891Z",
       "error": "HTTP 404"
     },
     {
@@ -1947,7 +1891,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-13T18:01:48.654Z",
+      "fetchedAt": "2026-05-13T21:08:38.338Z",
       "error": "HTTP 403"
     },
     {
@@ -2027,7 +1971,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:48.752Z",
+      "fetchedAt": "2026-05-13T21:08:38.391Z",
       "error": null
     },
     {
@@ -2101,7 +2045,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.300Z",
+      "fetchedAt": "2026-05-13T21:08:39.284Z",
       "error": null
     },
     {
@@ -2120,7 +2064,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.196Z",
+      "fetchedAt": "2026-05-13T21:08:39.104Z",
       "error": null
     },
     {
@@ -2175,7 +2119,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.460Z",
+      "fetchedAt": "2026-05-13T21:08:39.301Z",
       "error": null
     },
     {
@@ -2260,7 +2204,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.544Z",
+      "fetchedAt": "2026-05-13T21:08:39.334Z",
       "error": null
     },
     {
@@ -2326,7 +2270,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oqbKWwUhh4Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.575Z",
+      "fetchedAt": "2026-05-13T21:08:39.400Z",
       "error": null
     },
     {
@@ -2391,7 +2335,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CzxTU7M2NIw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.817Z",
+      "fetchedAt": "2026-05-13T21:08:39.492Z",
       "error": null
     },
     {
@@ -2456,7 +2400,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zK0QrJzvvCg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.664Z",
+      "fetchedAt": "2026-05-13T21:08:39.472Z",
       "error": null
     },
     {
@@ -2522,7 +2466,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/usyxV6wQuyU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.690Z",
+      "fetchedAt": "2026-05-13T21:08:39.567Z",
       "error": null
     },
     {
@@ -2532,6 +2476,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
       "items": [
+        {
+          "title": "How to Remove Copilot Apps from Windows 11",
+          "link": "https://www.youtube.com/watch?v=2t6-NQxpyZ4",
+          "pubDate": "2026-05-13T18:29:46.000Z",
+          "summary": "Some Windows 11 deployments need Copilot removed for compliance, data handling, or organizational policy. In this video I walk through how to do it properly using the new Intune Settings Catalog policy for the AI CSP, then layer AppLocker on top so it doesn't come back on the next update. You'll lea",
+          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "2t6-NQxpyZ4",
+          "thumbnail": "https://i3.ytimg.com/vi/2t6-NQxpyZ4/hqdefault.jpg"
+        },
         {
           "title": "I found a couch with a wall at #mmsmoa #intune #microsoft #shorts",
           "link": "https://www.youtube.com/shorts/31c0n2NwlNk",
@@ -2575,20 +2530,9 @@
           "type": "video",
           "videoId": "vXJKiXkY_fo",
           "thumbnail": "https://i3.ytimg.com/vi/vXJKiXkY_fo/hqdefault.jpg"
-        },
-        {
-          "title": "Security Copilot for Intune: Save Hours in Minutes!",
-          "link": "https://www.youtube.com/shorts/v1i0bHTm330",
-          "pubDate": "2026-04-28T14:13:05.000Z",
-          "summary": "Security Copilot let's you use natural language to build Intune policy #intune #microsoft #copilot",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/v1i0bHTm330/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.828Z",
+      "fetchedAt": "2026-05-13T21:08:39.749Z",
       "error": null
     },
     {
@@ -2654,7 +2598,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3ob5Q7QTvVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.972Z",
+      "fetchedAt": "2026-05-13T21:08:39.682Z",
       "error": null
     },
     {
@@ -2719,7 +2663,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/ODu_A-V6J5c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.914Z",
+      "fetchedAt": "2026-05-13T21:08:39.645Z",
       "error": null
     },
     {
@@ -2785,7 +2729,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OIW24f9y040/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:49.827Z",
+      "fetchedAt": "2026-05-13T21:08:39.574Z",
       "error": null
     },
     {
@@ -2850,7 +2794,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oPLxoKkzKTI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:50.190Z",
+      "fetchedAt": "2026-05-13T21:08:39.838Z",
       "error": null
     },
     {
@@ -2915,7 +2859,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/vRZHcrgFnqk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:50.041Z",
+      "fetchedAt": "2026-05-13T21:08:39.844Z",
       "error": null
     },
     {
@@ -2980,7 +2924,137 @@
           "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:50.127Z",
+      "fetchedAt": "2026-05-13T21:08:39.879Z",
+      "error": null
+    },
+    {
+      "id": "yt-macadminseu",
+      "label": "Mac Admins EU",
+      "type": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCk6vrP4NESzLh0MWglD3DJQ",
+      "items": [
+        {
+          "title": "Securing Developer Workflows With the Tools They Already Love | Mac Admins Europe 2026",
+          "link": "https://www.youtube.com/watch?v=hRrSXQrtWmc",
+          "pubDate": "2026-05-12T20:09:50.000Z",
+          "summary": "David Starr from Workbrew explains how Apple admins can secure macOS developer workflows without slowing developers down. In this Mac Admins Europe 2026 session, David explores how developers use Homebrew, GitHub, and emerging AI-assisted tooling to manage their own machines, and how IT and security",
+          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "hRrSXQrtWmc",
+          "thumbnail": "https://i1.ytimg.com/vi/hRrSXQrtWmc/hqdefault.jpg"
+        },
+        {
+          "title": "The Perpetual Promise of Passkeys & Passwordless | Mac Admins Europe 2026",
+          "link": "https://www.youtube.com/watch?v=ZXdUnoX-YYo",
+          "pubDate": "2026-05-10T13:07:20.000Z",
+          "summary": "Weldon Dodd from Iru explains passkeys, passwordless authentication, and what Apple admins need to know before planning a passkey deployment. In this Mac Admins Europe 2026 session, Weldon explores what passkeys are, how they work, why they matter, and how they fit into Apple environments, MDM workf",
+          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "ZXdUnoX-YYo",
+          "thumbnail": "https://i3.ytimg.com/vi/ZXdUnoX-YYo/hqdefault.jpg"
+        },
+        {
+          "title": "There’s Something Strange in the Management Neighbourhood | Mac Admins Europe 2026",
+          "link": "https://www.youtube.com/watch?v=3PCKYq6KZZE",
+          "pubDate": "2026-05-10T13:05:40.000Z",
+          "summary": "Ulrik Aabye-Hansen explores Apple Business through a practical, real-world migration from Microsoft 365 to Apple’s new business platform. In this Mac Admins Europe 2026 session, Ulrik walks through the key features of Apple Business, including built-in mobile device management, email, calendar, cont",
+          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "3PCKYq6KZZE",
+          "thumbnail": "https://i4.ytimg.com/vi/3PCKYq6KZZE/hqdefault.jpg"
+        },
+        {
+          "title": "A Few of Our Favorite Mac Admin Things | Mac Admins Europe 2026",
+          "link": "https://www.youtube.com/watch?v=MKPJPUc_1x0",
+          "pubDate": "2026-05-10T13:04:11.000Z",
+          "summary": "Armin Briegel and Rob Potvin share practical tools, workflows, tips, and ideas from their lives as Mac admins. In this Mac Admins Europe 2026 session, Armin and Rob bring the kind of useful Mac admin knowledge that often gets shared in hallway conversations and put it on stage: helpful tools, intere",
+          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "MKPJPUc_1x0",
+          "thumbnail": "https://i2.ytimg.com/vi/MKPJPUc_1x0/hqdefault.jpg"
+        },
+        {
+          "title": "From Zero to Hero : Making Onboarding Magical | Mac Admins Europe 2026",
+          "link": "https://www.youtube.com/watch?v=e1yehdbIJqI",
+          "pubDate": "2026-05-10T13:04:11.000Z",
+          "summary": "Guillaume Gète explains how Apple admins can create a smoother, clearer, and more trustworthy macOS onboarding experience. In this Mac Admins Europe 2026 session, Guillaume explores how initial Mac setup can move from confusing prompts and notification fatigue to a guided onboarding journey that fee",
+          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "e1yehdbIJqI",
+          "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
+        }
+      ],
+      "fetchedAt": "2026-05-13T21:08:39.821Z",
+      "error": null
+    },
+    {
+      "id": "yt-mmsmoa",
+      "label": "Midwest Management Summit",
+      "type": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdLyCpZOXHLEU90qE3HzzNQ",
+      "items": [
+        {
+          "title": "MMS Music City // What's MMS's Theme Song?",
+          "link": "https://www.youtube.com/watch?v=j4OtEBpROuE",
+          "pubDate": "2025-11-17T15:09:01.000Z",
+          "summary": "www.mmsmoa.com",
+          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "j4OtEBpROuE",
+          "thumbnail": "https://i3.ytimg.com/vi/j4OtEBpROuE/hqdefault.jpg"
+        },
+        {
+          "title": "MMS Music City // What Musician Would You Get Dinner With?",
+          "link": "https://www.youtube.com/watch?v=go4yffK8qvg",
+          "pubDate": "2025-11-17T15:05:47.000Z",
+          "summary": "www.mmsmoa.com",
+          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "go4yffK8qvg",
+          "thumbnail": "https://i4.ytimg.com/vi/go4yffK8qvg/hqdefault.jpg"
+        },
+        {
+          "title": "MMS Music City // What's Your Guilty Pleasure Song?",
+          "link": "https://www.youtube.com/watch?v=QF9pYWeqhqg",
+          "pubDate": "2025-11-17T14:58:45.000Z",
+          "summary": "www.mmsmoa.com",
+          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "QF9pYWeqhqg",
+          "thumbnail": "https://i2.ytimg.com/vi/QF9pYWeqhqg/hqdefault.jpg"
+        },
+        {
+          "title": "MMS Music City Tuesday Recap",
+          "link": "https://www.youtube.com/watch?v=U44yQzH32lk",
+          "pubDate": "2025-11-17T14:52:39.000Z",
+          "summary": "www.mmsmoa.com",
+          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "U44yQzH32lk",
+          "thumbnail": "https://i2.ytimg.com/vi/U44yQzH32lk/hqdefault.jpg"
+        },
+        {
+          "title": "MMS Music City Monday Recap",
+          "link": "https://www.youtube.com/watch?v=HNUcTH7oTJc",
+          "pubDate": "2025-11-17T14:50:56.000Z",
+          "summary": "www.mmsmoa.com",
+          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "HNUcTH7oTJc",
+          "thumbnail": "https://i1.ytimg.com/vi/HNUcTH7oTJc/hqdefault.jpg"
+        }
+      ],
+      "fetchedAt": "2026-05-13T21:08:39.983Z",
       "error": null
     },
     {
@@ -3036,7 +3110,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:50.260Z",
+      "fetchedAt": "2026-05-13T21:08:41.219Z",
       "error": null
     },
     {
@@ -3046,7 +3120,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T18:01:50.514Z",
+      "fetchedAt": "2026-05-13T21:08:40.076Z",
       "error": null
     },
     {
@@ -3115,7 +3189,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:51.212Z",
+      "fetchedAt": "2026-05-13T21:08:40.508Z",
       "error": null
     },
     {
@@ -3171,7 +3245,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:50.900Z",
+      "fetchedAt": "2026-05-13T21:08:41.599Z",
       "error": null
     },
     {
@@ -3200,7 +3274,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:50.611Z",
+      "fetchedAt": "2026-05-13T21:08:41.804Z",
       "error": null
     },
     {
@@ -3256,7 +3330,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:51.896Z",
+      "fetchedAt": "2026-05-13T21:08:41.649Z",
       "error": null
     },
     {
@@ -3266,7 +3340,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-13T18:01:51.348Z",
+      "fetchedAt": "2026-05-13T21:08:41.550Z",
       "error": null
     },
     {
@@ -3322,7 +3396,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:51.847Z",
+      "fetchedAt": "2026-05-13T21:08:42.259Z",
       "error": null
     },
     {
@@ -3342,7 +3416,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:51.267Z",
+      "fetchedAt": "2026-05-13T21:08:41.883Z",
       "error": null
     },
     {
@@ -3398,7 +3472,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:56.570Z",
+      "fetchedAt": "2026-05-13T21:08:46.151Z",
       "error": null
     },
     {
@@ -3454,7 +3528,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:52.562Z",
+      "fetchedAt": "2026-05-13T21:08:42.581Z",
       "error": null
     },
     {
@@ -3509,7 +3583,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:52.043Z",
+      "fetchedAt": "2026-05-13T21:08:46.318Z",
       "error": null
     },
     {
@@ -3564,7 +3638,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:52.089Z",
+      "fetchedAt": "2026-05-13T21:08:46.291Z",
       "error": null
     },
     {
@@ -3629,7 +3703,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T18:01:57.437Z",
+      "fetchedAt": "2026-05-13T21:08:47.114Z",
       "error": null
     }
   ]
