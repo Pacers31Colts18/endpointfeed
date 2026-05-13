@@ -317,6 +317,18 @@ const FEEDS = [
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw",
   },
+  {
+    id: "yt-macadminseu",
+    label: "Mac Admins EU",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCk6vrP4NESzLh0MWglD3DJQ",
+  },
+  {
+    id: "yt-mmsmoa",
+    label: "Midwest Management Summit",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCdLyCpZOXHLEU90qE3HzzNQ",
+  },
 
   // ──Official ───────────────────────────────────────────────
   {
