@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T17:50:45.316Z",
+  "generatedAt": "2026-05-14T21:10:37.119Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -7,6 +7,34 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "DSC v3.2.0: new Windows resources, version pinning, and Bicep integration",
+          "link": "https://4sysops.com/archives/dsc-v3-2-0-new-windows-resources-version-pinning-and-bicep-integration/",
+          "pubDate": "2026-05-14T20:38:15.000Z",
+          "summary": "Microsoft Desired State Configuration (DSC) v3.2.0 reached general availability on April 29, 2026. DSC is a tool that lets you describe how a Windows or Linux system should be configured — services running, firewall rules in place, features installed — and then automatically apply or verify that con",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "deployment",
+            "remote management",
+            "powershell dsc"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft 365 Copilot: new entry points, smart suggestions, and keyboard shortcuts",
+          "link": "https://4sysops.com/archives/microsoft-365-copilot-new-entry-points-smart-suggestions-and-keyboard-shortcuts/",
+          "pubDate": "2026-05-14T20:37:59.000Z",
+          "summary": "Microsoft is simplifying how you access Copilot in Word, Excel, and PowerPoint by reducing the number of entry points to just two. A new floating icon sits in the bottom-right corner of the document canvas, and a contextual entry point appears when you interact with content. Proactive suggestions ar",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "blockchain",
+            "AI",
+            "copilot"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Cloud-Initiated Driver Recovery: automatic Windows Update rollback",
           "link": "https://4sysops.com/archives/cloud-initiated-driver-recovery-automatic-windows-update-rollback/",
@@ -29,10 +57,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "office",
             "microsoft 365",
             "AI",
-            "AI agents"
+            "AI agents",
+            "office"
           ],
           "type": "rss"
         },
@@ -48,37 +76,9 @@
             "AI agents"
           ],
           "type": "rss"
-        },
-        {
-          "title": "When Windows Update hangs: automatic recovery for update failures patches update experience",
-          "link": "https://4sysops.com/archives/when-windows-update-hangs-automatic-recovery-for-update-failures-patches-update-experience/",
-          "pubDate": "2026-05-11T20:28:15.000Z",
-          "summary": "In a blog post titled 'Your Windows Update experience just got updated,' Microsoft has discussed its new mechanism to handle update installation failures on Windows 11: Windows now attempts to repair a failing update in real time during installation rather than rolling back immediately. This feature",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "patch management",
-            "deployment",
-            "windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft Intune April-May 2026: app inventory, Linux SSO, and Apple ADE",
-          "link": "https://4sysops.com/archives/microsoft-intune-april-may-2026-app-inventory-linux-sso-and-apple-ade/",
-          "pubDate": "2026-05-11T20:27:49.000Z",
-          "summary": "Microsoft Intune's April and May 2026 updates deliver three areas of practical change for administrators: richer and more frequent app inventory for Windows devices, a redesigned single sign-on (SSO) experience for Linux endpoints that replaces an aging authentication component, and automated enroll",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "deployment",
-            "remote management",
-            "intune"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:24.168Z",
+      "fetchedAt": "2026-05-14T21:10:18.678Z",
       "error": null
     },
     {
@@ -162,7 +162,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:24.014Z",
+      "fetchedAt": "2026-05-14T21:10:18.630Z",
       "error": null
     },
     {
@@ -228,7 +228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:24.438Z",
+      "fetchedAt": "2026-05-14T21:10:19.003Z",
       "error": null
     },
     {
@@ -238,7 +238,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-14T17:50:23.885Z",
+      "fetchedAt": "2026-05-14T21:10:18.194Z",
       "error": "HTTP 403"
     },
     {
@@ -293,7 +293,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:24.776Z",
+      "fetchedAt": "2026-05-14T21:10:19.080Z",
       "error": null
     },
     {
@@ -358,7 +358,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:24.678Z",
+      "fetchedAt": "2026-05-14T21:10:19.241Z",
       "error": null
     },
     {
@@ -443,7 +443,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:24.618Z",
+      "fetchedAt": "2026-05-14T21:10:19.152Z",
       "error": null
     },
     {
@@ -516,7 +516,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:25.168Z",
+      "fetchedAt": "2026-05-14T21:10:19.845Z",
       "error": null
     },
     {
@@ -525,7 +525,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-14T17:50:25.282Z",
+      "fetchedAt": "2026-05-14T21:10:19.933Z",
       "error": "HTTP 403"
     },
     {
@@ -603,7 +603,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:26.720Z",
+      "fetchedAt": "2026-05-14T21:10:21.465Z",
       "error": null
     },
     {
@@ -612,7 +612,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-14T17:50:25.428Z",
+      "fetchedAt": "2026-05-14T21:10:20.295Z",
       "error": "certificate has expired"
     },
     {
@@ -688,7 +688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:25.755Z",
+      "fetchedAt": "2026-05-14T21:10:20.615Z",
       "error": null
     },
     {
@@ -765,7 +765,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:27.028Z",
+      "fetchedAt": "2026-05-14T21:10:21.706Z",
       "error": null
     },
     {
@@ -831,7 +831,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:30.967Z",
+      "fetchedAt": "2026-05-14T21:10:22.996Z",
       "error": null
     },
     {
@@ -886,7 +886,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:27.211Z",
+      "fetchedAt": "2026-05-14T21:10:21.910Z",
       "error": null
     },
     {
@@ -966,7 +966,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:26.930Z",
+      "fetchedAt": "2026-05-14T21:10:21.760Z",
       "error": null
     },
     {
@@ -1045,7 +1045,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:31.031Z",
+      "fetchedAt": "2026-05-14T21:10:23.087Z",
       "error": null
     },
     {
@@ -1125,7 +1125,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:32.586Z",
+      "fetchedAt": "2026-05-14T21:10:24.817Z",
       "error": null
     },
     {
@@ -1210,7 +1210,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:31.157Z",
+      "fetchedAt": "2026-05-14T21:10:23.194Z",
       "error": null
     },
     {
@@ -1266,7 +1266,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:31.188Z",
+      "fetchedAt": "2026-05-14T21:10:23.198Z",
       "error": null
     },
     {
@@ -1352,7 +1352,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:34.335Z",
+      "fetchedAt": "2026-05-14T21:10:26.075Z",
       "error": null
     },
     {
@@ -1438,7 +1438,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:32.704Z",
+      "fetchedAt": "2026-05-14T21:10:24.890Z",
       "error": null
     },
     {
@@ -1523,7 +1523,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:32.758Z",
+      "fetchedAt": "2026-05-14T21:10:24.987Z",
       "error": null
     },
     {
@@ -1578,7 +1578,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:32.748Z",
+      "fetchedAt": "2026-05-14T21:10:24.916Z",
       "error": null
     },
     {
@@ -1643,7 +1643,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:34.644Z",
+      "fetchedAt": "2026-05-14T21:10:26.277Z",
       "error": null
     },
     {
@@ -1728,7 +1728,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:34.934Z",
+      "fetchedAt": "2026-05-14T21:10:26.833Z",
       "error": null
     },
     {
@@ -1784,7 +1784,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:35.281Z",
+      "fetchedAt": "2026-05-14T21:10:26.686Z",
       "error": null
     },
     {
@@ -1849,7 +1849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:34.841Z",
+      "fetchedAt": "2026-05-14T21:10:26.700Z",
       "error": null
     },
     {
@@ -1930,7 +1930,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:36.743Z",
+      "fetchedAt": "2026-05-14T21:10:27.598Z",
       "error": null
     },
     {
@@ -1939,7 +1939,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-14T17:50:35.674Z",
+      "fetchedAt": "2026-05-14T21:10:27.422Z",
       "error": "HTTP 404"
     },
     {
@@ -1948,7 +1948,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-14T17:50:35.433Z",
+      "fetchedAt": "2026-05-14T21:10:27.028Z",
       "error": "HTTP 403"
     },
     {
@@ -2028,7 +2028,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:35.446Z",
+      "fetchedAt": "2026-05-14T21:10:27.083Z",
       "error": null
     },
     {
@@ -2102,7 +2102,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:36.927Z",
+      "fetchedAt": "2026-05-14T21:10:27.823Z",
       "error": null
     },
     {
@@ -2121,7 +2121,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:36.805Z",
+      "fetchedAt": "2026-05-14T21:10:27.820Z",
       "error": null
     },
     {
@@ -2176,7 +2176,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.080Z",
+      "fetchedAt": "2026-05-14T21:10:28.060Z",
       "error": null
     },
     {
@@ -2261,7 +2261,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:36.951Z",
+      "fetchedAt": "2026-05-14T21:10:28.396Z",
       "error": null
     },
     {
@@ -2327,7 +2327,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/wdYy3sLnfHA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.189Z",
+      "fetchedAt": "2026-05-14T21:10:29.032Z",
       "error": null
     },
     {
@@ -2392,7 +2392,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/G9aifjZOBRU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.285Z",
+      "fetchedAt": "2026-05-14T21:10:29.049Z",
       "error": null
     },
     {
@@ -2457,7 +2457,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zK0QrJzvvCg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.259Z",
+      "fetchedAt": "2026-05-14T21:10:29.062Z",
       "error": null
     },
     {
@@ -2523,7 +2523,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bfPlD2732_E/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.181Z",
+      "fetchedAt": "2026-05-14T21:10:28.428Z",
       "error": null
     },
     {
@@ -2589,7 +2589,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hGX5bCcnNJs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.438Z",
+      "fetchedAt": "2026-05-14T21:10:29.154Z",
       "error": null
     },
     {
@@ -2655,7 +2655,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3ob5Q7QTvVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.393Z",
+      "fetchedAt": "2026-05-14T21:10:29.345Z",
       "error": null
     },
     {
@@ -2720,7 +2720,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/ODu_A-V6J5c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.376Z",
+      "fetchedAt": "2026-05-14T21:10:29.214Z",
       "error": null
     },
     {
@@ -2786,7 +2786,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O7w-NoFtAZs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.367Z",
+      "fetchedAt": "2026-05-14T21:10:29.775Z",
       "error": null
     },
     {
@@ -2851,7 +2851,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oPLxoKkzKTI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.542Z",
+      "fetchedAt": "2026-05-14T21:10:29.865Z",
       "error": null
     },
     {
@@ -2916,7 +2916,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/vRZHcrgFnqk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.636Z",
+      "fetchedAt": "2026-05-14T21:10:29.924Z",
       "error": null
     },
     {
@@ -2981,7 +2981,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.536Z",
+      "fetchedAt": "2026-05-14T21:10:29.939Z",
       "error": null
     },
     {
@@ -3046,7 +3046,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.522Z",
+      "fetchedAt": "2026-05-14T21:10:29.857Z",
       "error": null
     },
     {
@@ -3111,7 +3111,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HNUcTH7oTJc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:37.803Z",
+      "fetchedAt": "2026-05-14T21:10:30.447Z",
       "error": null
     },
     {
@@ -3167,7 +3167,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:39.513Z",
+      "fetchedAt": "2026-05-14T21:10:30.124Z",
       "error": null
     },
     {
@@ -3177,7 +3177,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-14T17:50:37.995Z",
+      "fetchedAt": "2026-05-14T21:10:30.184Z",
       "error": null
     },
     {
@@ -3243,7 +3243,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:38.435Z",
+      "fetchedAt": "2026-05-14T21:10:30.950Z",
       "error": null
     },
     {
@@ -3299,7 +3299,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:40.059Z",
+      "fetchedAt": "2026-05-14T21:10:31.468Z",
       "error": null
     },
     {
@@ -3328,7 +3328,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:39.835Z",
+      "fetchedAt": "2026-05-14T21:10:31.641Z",
       "error": null
     },
     {
@@ -3384,7 +3384,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:40.090Z",
+      "fetchedAt": "2026-05-14T21:10:31.461Z",
       "error": null
     },
     {
@@ -3394,7 +3394,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-14T17:50:39.699Z",
+      "fetchedAt": "2026-05-14T21:10:31.222Z",
       "error": null
     },
     {
@@ -3404,6 +3404,15 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
+        {
+          "title": "New Platform SSO with registration during Automated Device Enrollment on macOS",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/new-platform-sso-with-registration-during-automated-device/ba-p/4519846",
+          "pubDate": "2026-05-14T19:32:47.000Z",
+          "summary": "<P><STRONG>By Iris Yuning Ye, Product Manager – Microsoft Intune &amp; Justin Ploegert, Principal Product Manager – Microsoft Entra</STRONG></P> <P>A new setting ‘Enable Registration During Setup’ for Platform single sign-on (PSSO) during Automated Device Enrollment (ADE) is now generally available ",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Known issue: Upgrading Microsoft Tunnel version 20260129.1",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/known-issue-upgrading-microsoft-tunnel-version-20260129-1/ba-p/4517935",
@@ -3439,18 +3448,9 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "As vulnerability discovery moves at AI speed, keeping current is foundational to reduce exposure",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/as-vulnerability-discovery-moves-at-ai-speed-keeping-current-is/ba-p/4513766",
-          "pubDate": "2026-04-22T22:35:25.000Z",
-          "summary": "<P>Recent advances in automation and AI are accelerating vulnerability discovery and shortening the window between disclosure and exploitation. As Microsoft outlined in our recent&nbsp;<A class=\"lia-external-url\" href=\"https://aka.ms/prioritizingdefense\" target=\"_blank\" rel=\"noopener\">Security blog<",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:40.588Z",
+      "fetchedAt": "2026-05-14T21:10:31.956Z",
       "error": null
     },
     {
@@ -3470,7 +3470,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:40.217Z",
+      "fetchedAt": "2026-05-14T21:10:31.663Z",
       "error": null
     },
     {
@@ -3526,7 +3526,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:44.411Z",
+      "fetchedAt": "2026-05-14T21:10:36.215Z",
       "error": null
     },
     {
@@ -3582,7 +3582,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:40.448Z",
+      "fetchedAt": "2026-05-14T21:10:32.335Z",
       "error": null
     },
     {
@@ -3637,7 +3637,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:44.541Z",
+      "fetchedAt": "2026-05-14T21:10:36.442Z",
       "error": null
     },
     {
@@ -3692,7 +3692,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:44.504Z",
+      "fetchedAt": "2026-05-14T21:10:36.286Z",
       "error": null
     },
     {
@@ -3757,7 +3757,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-14T17:50:45.316Z",
+      "fetchedAt": "2026-05-14T21:10:37.119Z",
       "error": null
     }
   ]
