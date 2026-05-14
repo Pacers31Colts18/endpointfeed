@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T21:25:55.731Z",
+  "generatedAt": "2026-05-14T03:29:45.154Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -29,10 +29,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "office",
             "microsoft 365",
             "AI",
-            "AI agents"
+            "AI agents",
+            "office"
           ],
           "type": "rss"
         },
@@ -57,9 +57,9 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
+            "patch management",
             "deployment",
-            "windows",
-            "patch management"
+            "windows"
           ],
           "type": "rss"
         },
@@ -78,7 +78,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:38.514Z",
+      "fetchedAt": "2026-05-14T03:29:28.061Z",
       "error": null
     },
     {
@@ -162,7 +162,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:38.435Z",
+      "fetchedAt": "2026-05-14T03:29:28.178Z",
       "error": null
     },
     {
@@ -228,7 +228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:38.524Z",
+      "fetchedAt": "2026-05-14T03:29:28.629Z",
       "error": null
     },
     {
@@ -238,7 +238,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-13T21:25:38.194Z",
+      "fetchedAt": "2026-05-14T03:29:27.649Z",
       "error": "HTTP 403"
     },
     {
@@ -293,7 +293,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:38.680Z",
+      "fetchedAt": "2026-05-14T03:29:28.906Z",
       "error": null
     },
     {
@@ -358,7 +358,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:38.738Z",
+      "fetchedAt": "2026-05-14T03:29:29.046Z",
       "error": null
     },
     {
@@ -443,7 +443,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:38.679Z",
+      "fetchedAt": "2026-05-14T03:29:28.975Z",
       "error": null
     },
     {
@@ -516,7 +516,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:39.208Z",
+      "fetchedAt": "2026-05-14T03:29:29.662Z",
       "error": null
     },
     {
@@ -525,7 +525,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T21:25:39.304Z",
+      "fetchedAt": "2026-05-14T03:29:29.923Z",
       "error": "HTTP 403"
     },
     {
@@ -603,7 +603,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:40.779Z",
+      "fetchedAt": "2026-05-14T03:29:31.429Z",
       "error": null
     },
     {
@@ -612,7 +612,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T21:25:39.477Z",
+      "fetchedAt": "2026-05-14T03:29:30.232Z",
       "error": "certificate has expired"
     },
     {
@@ -688,7 +688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:39.796Z",
+      "fetchedAt": "2026-05-14T03:29:30.672Z",
       "error": null
     },
     {
@@ -765,7 +765,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:41.261Z",
+      "fetchedAt": "2026-05-14T03:29:31.696Z",
       "error": null
     },
     {
@@ -774,65 +774,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
-          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
-          "pubDate": "2026-05-06T20:30:40.000Z",
-          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
-          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
-          "pubDate": "2026-04-27T15:00:17.000Z",
-          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Parsing Intune Remediation JSON Output",
-          "link": "https://www.deploymentresearch.com/parsing-intune-remediation-json-output/",
-          "pubDate": "2026-04-23T01:56:57.000Z",
-          "summary": "Recently we've been discussing Secure Boot Certificate updates a lot. There have been many new tools to help us as administrators report on the status of those updates across our fleets and one of the popular tools has been a remediation script released by Microsoft found here: Monitoring Secure Boo",
-          "author": "Andrew Johnson",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "To Use or Not to Use MDT",
-          "link": "https://www.deploymentresearch.com/to-use-or-not-to-use-mdt/",
-          "pubDate": "2026-03-20T23:15:22.000Z",
-          "summary": "Windows deployment isn’t going anywhere, no matter how often Microsoft talks about a cloud-only future. Out in the real world, imaging, task sequences, and controlled builds are still critical for many organizations. MDT hasn’t been developed since 2019, aside from a BIOS detection patch in 2020, an",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Speeding up File Copy in a Computer Lab",
-          "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
-          "pubDate": "2026-02-26T14:17:31.000Z",
-          "summary": "In our labs, we often need to copy large files to multiple lab machines. These days, we have 10 GBE network cards on all file servers, but it wasn't long ago that we had only a 1 Gbps connection between the file server and the switch that connected the clients. To minimize the time it […] The post S",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:44.018Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:31.704Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -886,7 +830,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:41.210Z",
+      "fetchedAt": "2026-05-14T03:29:31.868Z",
       "error": null
     },
     {
@@ -966,7 +910,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:41.091Z",
+      "fetchedAt": "2026-05-14T03:29:31.774Z",
       "error": null
     },
     {
@@ -1045,7 +989,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:44.113Z",
+      "fetchedAt": "2026-05-14T03:29:32.083Z",
       "error": null
     },
     {
@@ -1125,7 +1069,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:45.554Z",
+      "fetchedAt": "2026-05-14T03:29:33.746Z",
       "error": null
     },
     {
@@ -1210,7 +1154,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:44.144Z",
+      "fetchedAt": "2026-05-14T03:29:32.189Z",
       "error": null
     },
     {
@@ -1266,7 +1210,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:44.248Z",
+      "fetchedAt": "2026-05-14T03:29:32.213Z",
       "error": null
     },
     {
@@ -1352,7 +1296,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:46.683Z",
+      "fetchedAt": "2026-05-14T03:29:35.186Z",
       "error": null
     },
     {
@@ -1438,7 +1382,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:45.576Z",
+      "fetchedAt": "2026-05-14T03:29:33.935Z",
       "error": null
     },
     {
@@ -1522,7 +1466,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:45.672Z",
+      "fetchedAt": "2026-05-14T03:29:33.999Z",
       "error": null
     },
     {
@@ -1577,7 +1521,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:45.831Z",
+      "fetchedAt": "2026-05-14T03:29:34.077Z",
       "error": null
     },
     {
@@ -1642,7 +1586,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:46.790Z",
+      "fetchedAt": "2026-05-14T03:29:35.486Z",
       "error": null
     },
     {
@@ -1727,7 +1671,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:47.260Z",
+      "fetchedAt": "2026-05-14T03:29:35.979Z",
       "error": null
     },
     {
@@ -1783,7 +1727,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:47.146Z",
+      "fetchedAt": "2026-05-14T03:29:36.078Z",
       "error": null
     },
     {
@@ -1848,7 +1792,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:47.082Z",
+      "fetchedAt": "2026-05-14T03:29:35.841Z",
       "error": null
     },
     {
@@ -1929,7 +1873,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:47.798Z",
+      "fetchedAt": "2026-05-14T03:29:36.834Z",
       "error": null
     },
     {
@@ -1938,7 +1882,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-13T21:25:47.972Z",
+      "fetchedAt": "2026-05-14T03:29:36.852Z",
       "error": "HTTP 404"
     },
     {
@@ -1947,7 +1891,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-13T21:25:47.458Z",
+      "fetchedAt": "2026-05-14T03:29:36.338Z",
       "error": "HTTP 403"
     },
     {
@@ -2027,7 +1971,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:47.544Z",
+      "fetchedAt": "2026-05-14T03:29:36.361Z",
       "error": null
     },
     {
@@ -2101,7 +2045,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:48.148Z",
+      "fetchedAt": "2026-05-14T03:29:37.421Z",
       "error": null
     },
     {
@@ -2120,7 +2064,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:48.190Z",
+      "fetchedAt": "2026-05-14T03:29:37.127Z",
       "error": null
     },
     {
@@ -2175,7 +2119,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:48.308Z",
+      "fetchedAt": "2026-05-14T03:29:37.295Z",
       "error": null
     },
     {
@@ -2260,7 +2204,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:48.147Z",
+      "fetchedAt": "2026-05-14T03:29:37.228Z",
       "error": null
     },
     {
@@ -2269,130 +2213,18 @@
       "badge": "MVP",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
-      "items": [
-        {
-          "title": "Creating an Enterprise Data Virtualization Layer",
-          "link": "https://www.youtube.com/watch?v=J08rfw4UBfY",
-          "pubDate": "2026-05-11T09:18:13.000Z",
-          "summary": "Why a data virtualization layer for your entire organization is critical and how to do it! ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:31 - AI and the new pressure on data 04:50 - Silos of data 07:55 - Data virtualization layer 09:10 - Fabric OneLake 13:39 - Single namespace and workspac",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "J08rfw4UBfY",
-          "thumbnail": "https://i3.ytimg.com/vi/J08rfw4UBfY/hqdefault.jpg"
-        },
-        {
-          "title": "Enterprise Data Virtualization Short #data #ai",
-          "link": "https://www.youtube.com/shorts/oki2wlBK-bw",
-          "pubDate": "2026-05-11T09:17:08.000Z",
-          "summary": "Really quick overview of the need for a data virtualization layer!",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/oki2wlBK-bw/hqdefault.jpg"
-        },
-        {
-          "title": "Forest Tidy 9th May 2026",
-          "link": "https://www.youtube.com/watch?v=6vGmDdOx_24",
-          "pubDate": "2026-05-10T13:28:25.000Z",
-          "summary": "7 hours of forest cleanup at my Idahome in 5 minutes!",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "6vGmDdOx_24",
-          "thumbnail": "https://i3.ytimg.com/vi/6vGmDdOx_24/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Update 8th May 2026",
-          "link": "https://www.youtube.com/watch?v=wdYy3sLnfHA",
-          "pubDate": "2026-05-08T15:48:12.000Z",
-          "summary": "Nice selection of updates! 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queue never to be ",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "wdYy3sLnfHA",
-          "thumbnail": "https://i4.ytimg.com/vi/wdYy3sLnfHA/hqdefault.jpg"
-        },
-        {
-          "title": "How to change model behavior! Context engineering, fine-tuning and more",
-          "link": "https://www.youtube.com/watch?v=oqbKWwUhh4Y",
-          "pubDate": "2026-05-04T11:00:40.000Z",
-          "summary": "A look at context engineering, fine tuning, LoRA and more! ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:27 - Model 101 01:46 - Parameters 04:40 - Hidden layers and dimensions 05:35 - Embeddings 07:08 - Training phase 07:53 - Prompts and responses 09:12 - Changing the behavior 10:08 - Zero",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "oqbKWwUhh4Y",
-          "thumbnail": "https://i4.ytimg.com/vi/oqbKWwUhh4Y/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.334Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.535Z",
+      "error": "HTTP 404"
     },
     {
       "id": "yt-5bytes",
       "label": "5 Bytes Podcast",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw",
-      "items": [
-        {
-          "title": "Modern Print Architecture Change! Huge Move to Zoho Mail! Microsoft Vows to Win Back Customers!",
-          "link": "https://www.youtube.com/watch?v=HmDlBXlaSKA",
-          "pubDate": "2026-05-06T20:30:03.000Z",
-          "summary": "0:00 - Intro 0:18 - Issue Caused by Recent Windows Update 3:42 - Microsoft Defender Wrongly Flags DigiCert Certs 5:24 - Microsoft Testing Modern Windows Run 5:47 - Microsoft Rolling Out a Modern Print Architecture 7:14 - NHS Shutting Down Open Source Repos 8:15 - Claude AI agent Deleted Entire Compa",
-          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "HmDlBXlaSKA",
-          "thumbnail": "https://i1.ytimg.com/vi/HmDlBXlaSKA/hqdefault.jpg"
-        },
-        {
-          "title": "Bitwarden Security Incident! New Apple CEO Announced! Employee Buyout Expected at Microsoft!",
-          "link": "https://www.youtube.com/watch?v=s91JEJhw_G0",
-          "pubDate": "2026-04-27T18:00:06.000Z",
-          "summary": "0:00 - Intro 0:18 - Bitwarden Confirm Security Incident 3:15 - Edge Update Causing Microsoft Teams Issues 3:49 - New Ubuntu LTS Release 5:07 - New DeepSeek Models 6:34 - New GPT Model 7:52 - French Gov Agency Breached 9:03 - Young Man Killed in Concerning Telehealth Case 13:28 - Another Healthcare D",
-          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "s91JEJhw_G0",
-          "thumbnail": "https://i4.ytimg.com/vi/s91JEJhw_G0/hqdefault.jpg"
-        },
-        {
-          "title": "Issues with April Windows Updates! Server 2025 for AVD! New Citrix NetScaler Concerns!",
-          "link": "https://www.youtube.com/watch?v=N3yzcTd1kFA",
-          "pubDate": "2026-04-20T09:00:06.000Z",
-          "summary": "0:00 - Intro 0:19 - Secure Boot Certificates May Become Issue for Unsupported Win10 1:40 - Windows Update Failing to Install on Server 2025 2:18 - Updates Causing Bitlocker Recovery Prompts on Server 2025 and Win11 3:28 - Citrix Customers Warned of Issues on NetScaler SDX Appliances & VPX Post LAS M",
-          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "N3yzcTd1kFA",
-          "thumbnail": "https://i3.ytimg.com/vi/N3yzcTd1kFA/hqdefault.jpg"
-        },
-        {
-          "title": "Microsoft Paused Developer Accounts! Patch Tuesday News! Employees Admit to Actively Sabotaging AI!",
-          "link": "https://www.youtube.com/watch?v=G9aifjZOBRU",
-          "pubDate": "2026-04-15T22:44:49.000Z",
-          "summary": "0:00 - Intro 0:19 - Patch Tuesday News 4:25 - Microsoft Paused Development Accounts 5:45 - Gmail End to End Encryption 6:32 - Update on Rockstar Data Breach 8:47 - New ChatGPT Subscription Tier 10:25 - Employees Admit to Actively Sabotaging AI 12:32 - Mozilla Makes Further Claims of Microsoft Being ",
-          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "G9aifjZOBRU",
-          "thumbnail": "https://i4.ytimg.com/vi/G9aifjZOBRU/hqdefault.jpg"
-        },
-        {
-          "title": "Exploit Published for Unpatched Windows Flaw! Claude Code Leaked! AWS Regions Still Down!",
-          "link": "https://www.youtube.com/watch?v=CzxTU7M2NIw",
-          "pubDate": "2026-04-08T19:58:09.000Z",
-          "summary": "0:00 - Intro 0:18 - Oracle to Layoff Thousands of Employees 1:50 - Command Prompt Getting Terminal-Like Features 2:27 - Recent Windows Update Issue Resolved with Emergency Update 3:35 - Windows 11 25H2 Update to be Forced 4:39 - Outlook Issue Resolved and Other Potential Updated Related Issues 6:54 ",
-          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "CzxTU7M2NIw",
-          "thumbnail": "https://i4.ytimg.com/vi/CzxTU7M2NIw/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.415Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.661Z",
+      "error": "HTTP 404"
     },
     {
       "id": "yt-entrachat",
@@ -2456,7 +2288,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zK0QrJzvvCg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:48.430Z",
+      "fetchedAt": "2026-05-14T03:29:37.768Z",
       "error": null
     },
     {
@@ -2465,65 +2297,9 @@
       "badge": "MVP",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw",
-      "items": [
-        {
-          "title": "Secure Your PC: Unlock Hotpatch with Intune VBS Secrets! #shorts",
-          "link": "https://www.youtube.com/shorts/RAk3WkGUyco",
-          "pubDate": "2026-05-13T16:47:22.000Z",
-          "summary": "Ensure your devices are secured with Virtualization-Based Security (VBS) and Memory Integrity. Learn how to configure these essential settings with Intune for optimal update policies. #VBS #Intune #Cybersecurity #TechTips #DeviceSecurity",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/RAk3WkGUyco/hqdefault.jpg"
-        },
-        {
-          "title": "Intune: Ditch Group Policy for Windows 11 Policy Power! #shorts",
-          "link": "https://www.youtube.com/shorts/ZL3LYWewynk",
-          "pubDate": "2026-05-13T10:35:10.000Z",
-          "summary": "Master Windows 11 policy management. All applicable controls are accessible via Intune, including the Settings Catalog, device configuration templates, and CSPs. Streamline your IT administration. #Intune #Windows11 #PolicyManagement #ITAdmin #MicrosoftEndpointManager",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/ZL3LYWewynk/hqdefault.jpg"
-        },
-        {
-          "title": "Windows Hotpatch Explained: No More Rebooting! #shorts",
-          "link": "https://www.youtube.com/shorts/VnE-URaI7iQ",
-          "pubDate": "2026-05-12T21:12:26.000Z",
-          "summary": "Introducing Windows Hotpatch! Get faster, more frequent security updates for your organization without disruptive reboots. Learn about eligibility and keep your systems secure with minimal downtime. #WindowsUpdate #Hotpatching #ITManagement #Cybersecurity #TechTips",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/VnE-URaI7iQ/hqdefault.jpg"
-        },
-        {
-          "title": "Autopilot + Hybrid Join: A Tech Nightmare You Won't Believe! #shorts",
-          "link": "https://www.youtube.com/shorts/bfPlD2732_E",
-          "pubDate": "2026-05-12T20:07:29.000Z",
-          "summary": "Autopilot provisioning with hybrid join devices is extremely difficult, arguably broken. It's a feature that arguably should have never existed due to its inherent challenges. #HybridJoin #Autopilot #DeviceManagement #ITProblems",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/bfPlD2732_E/hqdefault.jpg"
-        },
-        {
-          "title": "Multi-Admin Approval in Intune Is Not Security. Here's Why.",
-          "link": "https://www.youtube.com/watch?v=usyxV6wQuyU",
-          "pubDate": "2026-05-12T19:42:52.000Z",
-          "summary": "Multi-Admin Approval (MAA) in Intune sounds like a security feature. The Intune admin center even recommends it to \"protect sensitive actions with additional approval.\" But here's the problem: MAA is not a security tool. It's a guardrail against accidental change, not an attacker. In this video I wa",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "usyxV6wQuyU",
-          "thumbnail": "https://i2.ytimg.com/vi/usyxV6wQuyU/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.488Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.745Z",
+      "error": "HTTP 500"
     },
     {
       "id": "yt-getrubix",
@@ -2531,65 +2307,9 @@
       "badge": "MVP",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
-      "items": [
-        {
-          "title": "How to Remove Copilot Apps from Windows 11",
-          "link": "https://www.youtube.com/watch?v=2t6-NQxpyZ4",
-          "pubDate": "2026-05-13T18:29:46.000Z",
-          "summary": "Some Windows 11 deployments need Copilot removed for compliance, data handling, or organizational policy. In this video I walk through how to do it properly using the new Intune Settings Catalog policy for the AI CSP, then layer AppLocker on top so it doesn't come back on the next update. You'll lea",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "2t6-NQxpyZ4",
-          "thumbnail": "https://i3.ytimg.com/vi/2t6-NQxpyZ4/hqdefault.jpg"
-        },
-        {
-          "title": "I found a couch with a wall at #mmsmoa #intune #microsoft #shorts",
-          "link": "https://www.youtube.com/shorts/31c0n2NwlNk",
-          "pubDate": "2026-05-05T00:42:42.000Z",
-          "summary": "",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/31c0n2NwlNk/hqdefault.jpg"
-        },
-        {
-          "title": "Found the most amazing thing so far at #mallofamerica #intune",
-          "link": "https://www.youtube.com/shorts/Aqtq1EeKly8",
-          "pubDate": "2026-05-03T13:44:43.000Z",
-          "summary": "",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/Aqtq1EeKly8/hqdefault.jpg"
-        },
-        {
-          "title": "Who’s coming to #MMS at Mall of America? I’m here early #intune",
-          "link": "https://www.youtube.com/shorts/hGX5bCcnNJs",
-          "pubDate": "2026-05-02T16:52:24.000Z",
-          "summary": "",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/hGX5bCcnNJs/hqdefault.jpg"
-        },
-        {
-          "title": "How to Configure Hotpatch Updates in Intune (2026 Change)",
-          "link": "https://www.youtube.com/watch?v=vXJKiXkY_fo",
-          "pubDate": "2026-04-29T22:56:27.000Z",
-          "summary": "Windows Autopatch is enabling hotpatch updates by default starting May 11, 2026 which means eligible Intune-managed devices will receive Windows security updates without requiring a restart. In this video, I walk through what hotpatch actually does, the full eligibility requirements, and exactly how",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "vXJKiXkY_fo",
-          "thumbnail": "https://i3.ytimg.com/vi/vXJKiXkY_fo/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.642Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.818Z",
+      "error": "HTTP 404"
     },
     {
       "id": "yt-bearded365",
@@ -2597,130 +2317,18 @@
       "badge": "MVP",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg",
-      "items": [
-        {
-          "title": "Recast Application Workspace: The Intune App Problem, Solved",
-          "link": "https://www.youtube.com/watch?v=vvBykszNXwU",
-          "pubDate": "2026-05-12T10:01:22.000Z",
-          "summary": "Getting apps onto a new laptop should not feel like a race against the clock. But if you manage application deployment through Intune, you know the pain: failed installs, packaging issues, slow policy syncs, and users who needed Adobe, Chrome, VPN, and line-of-business apps 30 minutes ago. In this s",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "vvBykszNXwU",
-          "thumbnail": "https://i3.ytimg.com/vi/vvBykszNXwU/hqdefault.jpg"
-        },
-        {
-          "title": "3 Conditional Access Policies Every Microsoft 365 Tenant Needs Day One",
-          "link": "https://www.youtube.com/watch?v=0sJtdDqiHwU",
-          "pubDate": "2026-05-08T10:00:08.000Z",
-          "summary": "Your Microsoft 365 tenant is wide open without these three Conditional Access policies. Download my FREE conditional access baseline - https://cabaseline.bearded365guy.com/ In this video I walk through the exact 3 Conditional Access policies that should be configured in every Microsoft 365 tenant on",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "0sJtdDqiHwU",
-          "thumbnail": "https://i1.ytimg.com/vi/0sJtdDqiHwU/hqdefault.jpg"
-        },
-        {
-          "title": "Stop Giving Users Admin Rights (And What To Do Instead)",
-          "link": "https://www.youtube.com/watch?v=q4P2rje-JiY",
-          "pubDate": "2026-05-04T10:01:19.000Z",
-          "summary": "Most organisations are handing out local admin rights like they're free. They're not - every user with admin access is a potential entry point for ransomware, lateral movement, and full network compromise. In this video, I'm covering Endpoint Privilege Management (EPM) - what it is, why it matters, ",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "q4P2rje-JiY",
-          "thumbnail": "https://i2.ytimg.com/vi/q4P2rje-JiY/hqdefault.jpg"
-        },
-        {
-          "title": "Why Your New Clients Are Drowning You in Tickets",
-          "link": "https://www.youtube.com/watch?v=EMqF4ncWduw",
-          "pubDate": "2026-05-01T10:00:21.000Z",
-          "summary": "Most MSPs take on a new client, install the RMM, send the welcome pack, and wait for tickets. And the tickets come - because they inherited a mess and never fixed it. This is the MSP advice nobody gives you: standardise everything, for every client, from day one. First in a monthly MSP advice series",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "EMqF4ncWduw",
-          "thumbnail": "https://i2.ytimg.com/vi/EMqF4ncWduw/hqdefault.jpg"
-        },
-        {
-          "title": "3 Reasons to Use Entra ID P2",
-          "link": "https://www.youtube.com/watch?v=3ob5Q7QTvVk",
-          "pubDate": "2026-04-24T10:16:17.000Z",
-          "summary": "If you've got Entra ID P2 licences assigned in your tenant - are you actually using what you're paying for? P2 gives you three genuinely powerful security features that most tenants have never touched: Privileged Identity Management, Identity Protection, and risk-based Conditional Access. In this vi",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "3ob5Q7QTvVk",
-          "thumbnail": "https://i4.ytimg.com/vi/3ob5Q7QTvVk/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.583Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.825Z",
+      "error": "HTTP 404"
     },
     {
       "id": "yt-patchmypc",
       "label": "Patch My PC",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
-      "items": [
-        {
-          "title": "Secure Boot Certificate Expiration 2026: Are you Actually Covered? | Patch My PC Webinar",
-          "link": "https://www.youtube.com/watch?v=CEXkZCSVRwQ",
-          "pubDate": "2026-05-05T21:33:44.000Z",
-          "summary": "A major change is on the horizon that could impact device security, system boot processes, and overall endpoint management. In this webinar, we break down everything you need to know about the upcoming Secure Boot certificate expiration, what it means for your environment, and how to stay protected.",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "CEXkZCSVRwQ",
-          "thumbnail": "https://i4.ytimg.com/vi/CEXkZCSVRwQ/hqdefault.jpg"
-        },
-        {
-          "title": "Patch Tuesday Just Got Interesting: What IT Teams Need to Watch | Patch Tuesday April 2026",
-          "link": "https://www.youtube.com/watch?v=398f_rK0tSk",
-          "pubDate": "2026-04-28T00:00:09.000Z",
-          "summary": "In this episode of the Patch Tuesday Support Group, we break down the most important security developments impacting enterprise IT teams. Highlights from this month include: • Key security vulnerabilities and zero-days to prioritize this month • Notable trends in third-party application updates and ",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "398f_rK0tSk",
-          "thumbnail": "https://i4.ytimg.com/vi/398f_rK0tSk/hqdefault.jpg"
-        },
-        {
-          "title": "Intune Certificate Expiry: Why Devices Don't Disconnect!",
-          "link": "https://www.youtube.com/shorts/xj7PmUZsSdA",
-          "pubDate": "2026-04-03T11:01:37.000Z",
-          "summary": "Why doesn’t an expired Intune certificate immediately disconnect a device? In this YouTube Short, we explain the surprising reason Intune may still allow a device to connect even after certificate expiry. Learn how the private key, certificate recovery, and last check-in timestamp all play a role in",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/xj7PmUZsSdA/hqdefault.jpg"
-        },
-        {
-          "title": "A World Where Intune Check-Ins Can’t Be Trusted | Patch and Rant Ep.24",
-          "link": "https://www.youtube.com/watch?v=ooXOIfeDNVE",
-          "pubDate": "2026-04-03T11:01:26.000Z",
-          "summary": "What if Intune’s “Last Check-In” is the one signal you should stop trusting? In this episode of Patch and Rant, Rudy uncovers why a device can look perfectly healthy in the Intune portal, even when its certificate is already expired and real management is effectively dead. We break down how the OMA-",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "ooXOIfeDNVE",
-          "thumbnail": "https://i4.ytimg.com/vi/ooXOIfeDNVE/hqdefault.jpg"
-        },
-        {
-          "title": "Expired Certificate Issues: Intune Device Management Broken",
-          "link": "https://www.youtube.com/shorts/ODu_A-V6J5c",
-          "pubDate": "2026-04-03T11:00:42.000Z",
-          "summary": "A device can still say hello to Intune while actual device management is completely broken. In this YouTube Short, we explain how an expired Intune certificate can stop policies, app deployments, and updates even though the portal still makes the device look alive. This is a critical lesson for Intu",
-          "author": "<name>Patch My PC</name>\n   <uri>https://www.youtube.com/channel/UCT9BKiLpbO1pGxXsU1-_zBg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/ODu_A-V6J5c/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.556Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.824Z",
+      "error": "HTTP 404"
     },
     {
       "id": "yt-travis",
@@ -2728,390 +2336,54 @@
       "badge": "MVP",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
-      "items": [
-        {
-          "title": "Azure Arc Onboarding at Scale: Service Principal Strategy #shorts",
-          "link": "https://www.youtube.com/shorts/XBwzqJAwTMs",
-          "pubDate": "2026-05-13T21:03:24.000Z",
-          "summary": "Full Video: https://youtu.be/O7w-NoFtAZs Learn how to efficiently onboard machines to Azure Arc at scale using Entra ID service principles. Enhance security with least-privileged access and enable onboarding without elevated Azure credentials. #AzureArc #Automation #Windows #Azure #HybridCloud #Mult",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/XBwzqJAwTMs/hqdefault.jpg"
-        },
-        {
-          "title": "Automate Azure Arc Onboarding with Service Principal Script #shorts",
-          "link": "https://www.youtube.com/shorts/Fs-DOV-RVEg",
-          "pubDate": "2026-05-08T15:00:31.000Z",
-          "summary": "Full Video: https://youtu.be/O7w-NoFtAZs Learn how to set up automatic machine authentication using a configured service principal. Download and run the basic script for seamless onboarding. #AzureArc #Automation #Windows #Azure #HybridCloud #MultiCloud #Microsoft #MVPBuzz",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/Fs-DOV-RVEg/hqdefault.jpg"
-        },
-        {
-          "title": "Secure Scripting & Scalable Azure Arc Script #shorts",
-          "link": "https://www.youtube.com/shorts/zVuP8gStJZI",
-          "pubDate": "2026-05-05T21:57:26.000Z",
-          "summary": "Full Video: https://youtu.be/O7w-NoFtAZs Onboard machines to Azure Arc with minimal interaction. Key takeaways: enhanced security without elevated Azure credentials and the need for scalable enterprise tools over PowerShell remoting. #AzureArc #Automation #Windows #Azure #HybridCloud #MultiCloud #Mi",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/zVuP8gStJZI/hqdefault.jpg"
-        },
-        {
-          "title": "AVD for Hybrid Workloads: The Best of Both Worlds for Remote Teams",
-          "link": "https://www.youtube.com/watch?v=0ssXGxWyR24",
-          "pubDate": "2026-05-05T13:37:43.000Z",
-          "summary": "Join Shabaz Darr and Travis Roberts to learn about the latest AVD Hybrid Update and how it enables organizations to leverage their on-premises hardware for remote work solutions. The Azure Virtual Desktop (AVD) Hybrid model allows businesses to utilize their existing infrastructure while still benef",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "0ssXGxWyR24",
-          "thumbnail": "https://i1.ytimg.com/vi/0ssXGxWyR24/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Arc Onboarding at Scale: Ditch Manual Logins!",
-          "link": "https://www.youtube.com/watch?v=O7w-NoFtAZs",
-          "pubDate": "2026-05-01T11:12:37.000Z",
-          "summary": "Automate Azure Arc onboarding for Windows servers and clients, secure, scalable, and no logins. Learn how to onboard Windows Server and Windows client systems, including Windows 11, to Azure Arc at scale using Automation and Entra ID service principals. This video shows how to eliminate interactive ",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "O7w-NoFtAZs",
-          "thumbnail": "https://i4.ytimg.com/vi/O7w-NoFtAZs/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.494Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.821Z",
+      "error": "HTTP 404"
     },
     {
       "id": "yt-viamonstra",
       "label": "ViaMonstra Online Academy",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g",
-      "items": [
-        {
-          "title": "OH CLIPS: MMS MOA - Secure Boot updates and certificates | how it affects firmware updates",
-          "link": "https://www.youtube.com/watch?v=AfYh9QFn9cg",
-          "pubDate": "2026-05-12T14:49:35.000Z",
-          "summary": "⚡LIVE from #MMSMOA! Catch this top highlight from our May 6 #ViaMonstraOfficeHours 👨‍💻 We had a great discussion around #SecureBoot updates and certificates, plus how it affects firmware updates 💻 #Intune #ConfigMgr #ViaMonstraAcademy Full Office Hours 5.6.26 ➡️ https://youtube.com/live/JZpdzL3_x",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "AfYh9QFn9cg",
-          "thumbnail": "https://i2.ytimg.com/vi/AfYh9QFn9cg/hqdefault.jpg"
-        },
-        {
-          "title": "UPDATES! 5.6.26 | New in Intune - New Report in Autopatch - GetCurrent M365 Hub - New Intune Report",
-          "link": "https://www.youtube.com/watch?v=AvtVvKDV6YM",
-          "pubDate": "2026-05-08T18:24:59.000Z",
-          "summary": "⚡UPDATES! LIVE FROM #MMSMOA! May 6 #ViaMonstraOfficeHours featuring Johan Arwidmark and Andrew Johnson 💻 What's new in #MSIntune, new report in #Autopatch, GetCurrent #M365 hub, new #Intune Report, and more! #ViaMonstraAcademy ---------------------------------------------------------------------- \ud83d",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "AvtVvKDV6YM",
-          "thumbnail": "https://i2.ytimg.com/vi/AvtVvKDV6YM/hqdefault.jpg"
-        },
-        {
-          "title": "5/6/26 LIVE from MMS MOA! ViaMonstra Academy OFFICE HOURS | Updates and Q&A on ConfigMgr/OSD/Intune",
-          "link": "https://www.youtube.com/watch?v=JZpdzL3_xYM",
-          "pubDate": "2026-05-07T11:43:39.000Z",
-          "summary": "LIVE from MMS MOA 👨‍💻! Join us for Q&A and roundtable discussion on anything related to Windows deployment, MDT, ConfigMgr, or Microsoft Intune. We bring the experts; you bring the questions. With co-hosts Johan Arwidmark and Andrew Johnson. LINKS BELOW ⬇️ -----------------------------------------",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "JZpdzL3_xYM",
-          "thumbnail": "https://i3.ytimg.com/vi/JZpdzL3_xYM/hqdefault.jpg"
-        },
-        {
-          "title": "OH 4 29 26 Clip Where is content for Win32Apps stored in Intune",
-          "link": "https://www.youtube.com/watch?v=TIW8kBmz7Ng",
-          "pubDate": "2026-05-05T16:03:00.000Z",
-          "summary": "⚡Here's a quick snippet from our April 29 #ViaMonstraOfficeHours 👨‍💻 \"When I create a #Win32App in #Intune where is the content hosted?\" 💻 #MSIntune #ViaMonstraAcademy 🔗Deploying Large Applications using Microsoft Intune https://www.deploymentresearch.com/deploying-large-applications-using-micro",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "TIW8kBmz7Ng",
-          "thumbnail": "https://i1.ytimg.com/vi/TIW8kBmz7Ng/hqdefault.jpg"
-        },
-        {
-          "title": "UPDATES! 2.29.26 | Windows Server Summit 2026 - Update for Entra GSA Client - EventLogExpert",
-          "link": "https://www.youtube.com/watch?v=oPLxoKkzKTI",
-          "pubDate": "2026-05-01T17:18:32.000Z",
-          "summary": "⚡UPDATES! April 29 #ViaMonstraOfficeHours featuring Johan Arwidmark 💻 #WindowsServerSummit 2026, update for the #Entra Global Secure Access (GSA) client, EventLogExpert, and more! #Intune #ConfigMgr #ViaMonstraAcademy ---------------------------------------------------------------------- 🔗Microsof",
-          "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "oPLxoKkzKTI",
-          "thumbnail": "https://i4.ytimg.com/vi/oPLxoKkzKTI/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.736Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:38.041Z",
+      "error": "HTTP 500"
     },
     {
       "id": "yt-ninjas",
       "label": "Workplace Ninjas Summit",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK_cRU36_m2d68BArcSbHcg",
-      "items": [
-        {
-          "title": "Cloud PCs, Security & Good Vibes – Dominiek Verham Joins the Ninja Summit Stage!",
-          "link": "https://www.youtube.com/watch?v=HA0z1ZnOrD8",
-          "pubDate": "2026-05-12T10:11:41.000Z",
-          "summary": "Dominiek Verham is back at the Workplace Ninja Summit - and this time he joined Frans remotely in the Workplace Ninja Studio for a chat about what he's bringing to Baden this September. Dominiek is a Windows 365 and Azure Virtual Desktop MVP from the Netherlands - and a Nerdio MVP as well. He's been",
-          "author": "<name>WorkPlace Ninja Summit</name>\n   <uri>https://www.youtube.com/channel/UCK_cRU36_m2d68BArcSbHcg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "HA0z1ZnOrD8",
-          "thumbnail": "https://i1.ytimg.com/vi/HA0z1ZnOrD8/hqdefault.jpg"
-        },
-        {
-          "title": "Interviewed in a Hummer EV – Sami Laiho Confirmed for the Ninja Summit 2026!",
-          "link": "https://www.youtube.com/watch?v=Eh96maNyydw",
-          "pubDate": "2026-04-28T09:00:30.000Z",
-          "summary": "Not your average speaker announcement. Peter caught up with Sami Laiho in a Hummer EV in the parking lot of Building 36 at the Microsoft campus in Redmond. An electric Hummer. Only at the MVP Summit! Sami is a Microsoft MVP since 2011 from Helsinki — Windows, devices and security MVP — and has been ",
-          "author": "<name>WorkPlace Ninja Summit</name>\n   <uri>https://www.youtube.com/channel/UCK_cRU36_m2d68BArcSbHcg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "Eh96maNyydw",
-          "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
-        },
-        {
-          "title": "Windows 365 in 30 Minutes – Dieter Kempeneers is Coming to Baden!",
-          "link": "https://www.youtube.com/watch?v=e8XW4_r5tbQ",
-          "pubDate": "2026-04-22T11:18:40.000Z",
-          "summary": "Did you know you can do a full Windows 365 feature setup in just 30 minutes? Dieter Kempeneers does — and he's coming to Baden this September to show you how! Stefan Beckman caught up with Dieter at the MVP Summit on the Microsoft campus in Redmond to talk about what he's bringing to the stage at th",
-          "author": "<name>WorkPlace Ninja Summit</name>\n   <uri>https://www.youtube.com/channel/UCK_cRU36_m2d68BArcSbHcg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "e8XW4_r5tbQ",
-          "thumbnail": "https://i2.ytimg.com/vi/e8XW4_r5tbQ/hqdefault.jpg"
-        },
-        {
-          "title": "From the Microsoft Mothership to Baden – Stefan Schörling Confirmed for 2026!",
-          "link": "https://www.youtube.com/watch?v=JeXuBZ9YHs8",
-          "pubDate": "2026-04-20T12:00:17.000Z",
-          "summary": "Peter caught up with Stefan Schörling right outside Building 36 at the Microsoft campus in Redmond - with a Cybertruck in the background. Because when you're talking cyber security, the setting has to match! Stefan has almost 25 years in security and will be bringing sessions on cyber security, thre",
-          "author": "<name>WorkPlace Ninja Summit</name>\n   <uri>https://www.youtube.com/channel/UCK_cRU36_m2d68BArcSbHcg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "JeXuBZ9YHs8",
-          "thumbnail": "https://i3.ytimg.com/vi/JeXuBZ9YHs8/hqdefault.jpg"
-        },
-        {
-          "title": "Mattias Borg has Been There Since Day One – And He's Back for 2026!",
-          "link": "https://www.youtube.com/watch?v=vRZHcrgFnqk",
-          "pubDate": "2026-04-15T11:01:02.000Z",
-          "summary": "Some speakers come and go. Mattias Borg has been with the Workplace Ninja Summit since the very beginning — and he's back again in Baden this September. Peter caught up with Mattias at the Microsoft campus in Redmond — right in the middle of MVP Summit week — to talk about what he's bringing to the ",
-          "author": "<name>WorkPlace Ninja Summit</name>\n   <uri>https://www.youtube.com/channel/UCK_cRU36_m2d68BArcSbHcg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "vRZHcrgFnqk",
-          "thumbnail": "https://i3.ytimg.com/vi/vRZHcrgFnqk/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.721Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.986Z",
+      "error": "HTTP 500"
     },
     {
       "id": "yt-windowsitpro",
       "label": "Windows IT Pro",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwGH_AJb4PfDbE1jdzUpzqw",
-      "items": [
-        {
-          "title": "Ask Microsoft Anything: Secure Boot",
-          "link": "https://www.youtube.com/watch?v=-l6Kncf1WLo",
-          "pubDate": "2026-04-23T16:09:31.000Z",
-          "summary": "Get answers to common (and uncommon) questions about updating Secure Boot certificates on Windows devices before they start expiring in June of 2026. Still need clarification? Join the next AMA live, May 18, 2026 at 8:00 a.m. PDT. Visit https://aka.ms/AMA/SecureBoot to save the date.",
-          "author": "<name>Windows At Work</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "-l6Kncf1WLo",
-          "thumbnail": "https://i2.ytimg.com/vi/-l6Kncf1WLo/hqdefault.jpg"
-        },
-        {
-          "title": "From box to business‑ready with Windows Autopilot",
-          "link": "https://www.youtube.com/watch?v=0BEdIf8HjTo",
-          "pubDate": "2026-04-22T03:58:49.000Z",
-          "summary": "Get practical, MSP-focused insights on using Windows Autopilot with Microsoft Intune to streamline device provisioning, reduce hands-on deployment time, and improve the onboarding experience for customers at scale. Learn real-world strategies that you can apply immediately, common pitfalls to avoid,",
-          "author": "<name>Windows At Work</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "0BEdIf8HjTo",
-          "thumbnail": "https://i1.ytimg.com/vi/0BEdIf8HjTo/hqdefault.jpg"
-        },
-        {
-          "title": "Get more done with Narrator",
-          "link": "https://www.youtube.com/watch?v=SV0qfjG1Vs4",
-          "pubDate": "2026-04-21T04:13:41.000Z",
-          "summary": "Join the Windows Accessibility team at Microsoft to explore how Narrator, the built-in screen reader in Windows, is evolving to better support your productivity. We’ve been listening to community feedback and have made meaningful improvements that we’d love to share with you. First, we'll show you h",
-          "author": "<name>Windows At Work</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "SV0qfjG1Vs4",
-          "thumbnail": "https://i4.ytimg.com/vi/SV0qfjG1Vs4/hqdefault.jpg"
-        },
-        {
-          "title": "Windows 365 AMA",
-          "link": "https://www.youtube.com/watch?v=8TJgSUhZ0Hc",
-          "pubDate": "2026-03-26T04:06:54.000Z",
-          "summary": "Post your questions now at https://aka.ms/AMA/Windows365/2603! Catch up on the latest capabilities for Windows 365 and get answers to your questions! Host Christian Montoya and members of the product and team provide answers and insights to help you configure, deploy, and manage Windows in the cloud",
-          "author": "<name>Windows At Work</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "8TJgSUhZ0Hc",
-          "thumbnail": "https://i1.ytimg.com/vi/8TJgSUhZ0Hc/hqdefault.jpg"
-        },
-        {
-          "title": "Transitioning to post-quantum cryptography",
-          "link": "https://www.youtube.com/watch?v=whMu082qhVk",
-          "pubDate": "2026-03-24T06:32:18.000Z",
-          "summary": "Cryptographic algorithms for encryption, hashing, signing, and key agreements are the fundamental building blocks of many secure communication systems. They are also undergoing a transformational change. Quantum computers can break traditional algorithms that have been in use for the last 20+ years,",
-          "author": "<name>Windows At Work</name>\n   <uri>https://www.youtube.com/channel/UCwGH_AJb4PfDbE1jdzUpzqw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "whMu082qhVk",
-          "thumbnail": "https://i4.ytimg.com/vi/whMu082qhVk/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.714Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:37.943Z",
+      "error": "HTTP 404"
     },
     {
       "id": "yt-macadminseu",
       "label": "Mac Admins EU",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCk6vrP4NESzLh0MWglD3DJQ",
-      "items": [
-        {
-          "title": "Securing Developer Workflows With the Tools They Already Love | Mac Admins Europe 2026",
-          "link": "https://www.youtube.com/watch?v=hRrSXQrtWmc",
-          "pubDate": "2026-05-12T20:09:50.000Z",
-          "summary": "David Starr from Workbrew explains how Apple admins can secure macOS developer workflows without slowing developers down. In this Mac Admins Europe 2026 session, David explores how developers use Homebrew, GitHub, and emerging AI-assisted tooling to manage their own machines, and how IT and security",
-          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "hRrSXQrtWmc",
-          "thumbnail": "https://i1.ytimg.com/vi/hRrSXQrtWmc/hqdefault.jpg"
-        },
-        {
-          "title": "The Perpetual Promise of Passkeys & Passwordless | Mac Admins Europe 2026",
-          "link": "https://www.youtube.com/watch?v=ZXdUnoX-YYo",
-          "pubDate": "2026-05-10T13:07:20.000Z",
-          "summary": "Weldon Dodd from Iru explains passkeys, passwordless authentication, and what Apple admins need to know before planning a passkey deployment. In this Mac Admins Europe 2026 session, Weldon explores what passkeys are, how they work, why they matter, and how they fit into Apple environments, MDM workf",
-          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "ZXdUnoX-YYo",
-          "thumbnail": "https://i3.ytimg.com/vi/ZXdUnoX-YYo/hqdefault.jpg"
-        },
-        {
-          "title": "There’s Something Strange in the Management Neighbourhood | Mac Admins Europe 2026",
-          "link": "https://www.youtube.com/watch?v=3PCKYq6KZZE",
-          "pubDate": "2026-05-10T13:05:40.000Z",
-          "summary": "Ulrik Aabye-Hansen explores Apple Business through a practical, real-world migration from Microsoft 365 to Apple’s new business platform. In this Mac Admins Europe 2026 session, Ulrik walks through the key features of Apple Business, including built-in mobile device management, email, calendar, cont",
-          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "3PCKYq6KZZE",
-          "thumbnail": "https://i4.ytimg.com/vi/3PCKYq6KZZE/hqdefault.jpg"
-        },
-        {
-          "title": "A Few of Our Favorite Mac Admin Things | Mac Admins Europe 2026",
-          "link": "https://www.youtube.com/watch?v=MKPJPUc_1x0",
-          "pubDate": "2026-05-10T13:04:11.000Z",
-          "summary": "Armin Briegel and Rob Potvin share practical tools, workflows, tips, and ideas from their lives as Mac admins. In this Mac Admins Europe 2026 session, Armin and Rob bring the kind of useful Mac admin knowledge that often gets shared in hallway conversations and put it on stage: helpful tools, intere",
-          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "MKPJPUc_1x0",
-          "thumbnail": "https://i2.ytimg.com/vi/MKPJPUc_1x0/hqdefault.jpg"
-        },
-        {
-          "title": "From Zero to Hero : Making Onboarding Magical | Mac Admins Europe 2026",
-          "link": "https://www.youtube.com/watch?v=e1yehdbIJqI",
-          "pubDate": "2026-05-10T13:04:11.000Z",
-          "summary": "Guillaume Gète explains how Apple admins can create a smoother, clearer, and more trustworthy macOS onboarding experience. In this Mac Admins Europe 2026 session, Guillaume explores how initial Mac setup can move from confusing prompts and notification fatigue to a guided onboarding journey that fee",
-          "author": "<name>Mac Admins EU</name>\n   <uri>https://www.youtube.com/channel/UCk6vrP4NESzLh0MWglD3DJQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "e1yehdbIJqI",
-          "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.696Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:38.038Z",
+      "error": "HTTP 404"
     },
     {
       "id": "yt-mmsmoa",
       "label": "Midwest Management Summit",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdLyCpZOXHLEU90qE3HzzNQ",
-      "items": [
-        {
-          "title": "MMS Music City // What's MMS's Theme Song?",
-          "link": "https://www.youtube.com/watch?v=j4OtEBpROuE",
-          "pubDate": "2025-11-17T15:09:01.000Z",
-          "summary": "www.mmsmoa.com",
-          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "j4OtEBpROuE",
-          "thumbnail": "https://i3.ytimg.com/vi/j4OtEBpROuE/hqdefault.jpg"
-        },
-        {
-          "title": "MMS Music City // What Musician Would You Get Dinner With?",
-          "link": "https://www.youtube.com/watch?v=go4yffK8qvg",
-          "pubDate": "2025-11-17T15:05:47.000Z",
-          "summary": "www.mmsmoa.com",
-          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "go4yffK8qvg",
-          "thumbnail": "https://i4.ytimg.com/vi/go4yffK8qvg/hqdefault.jpg"
-        },
-        {
-          "title": "MMS Music City // What's Your Guilty Pleasure Song?",
-          "link": "https://www.youtube.com/watch?v=QF9pYWeqhqg",
-          "pubDate": "2025-11-17T14:58:45.000Z",
-          "summary": "www.mmsmoa.com",
-          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "QF9pYWeqhqg",
-          "thumbnail": "https://i2.ytimg.com/vi/QF9pYWeqhqg/hqdefault.jpg"
-        },
-        {
-          "title": "MMS Music City Tuesday Recap",
-          "link": "https://www.youtube.com/watch?v=U44yQzH32lk",
-          "pubDate": "2025-11-17T14:52:39.000Z",
-          "summary": "www.mmsmoa.com",
-          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "U44yQzH32lk",
-          "thumbnail": "https://i2.ytimg.com/vi/U44yQzH32lk/hqdefault.jpg"
-        },
-        {
-          "title": "MMS Music City Monday Recap",
-          "link": "https://www.youtube.com/watch?v=HNUcTH7oTJc",
-          "pubDate": "2025-11-17T14:50:56.000Z",
-          "summary": "www.mmsmoa.com",
-          "author": "<name>Midwest Management Summit</name>\n   <uri>https://www.youtube.com/channel/UCdLyCpZOXHLEU90qE3HzzNQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "HNUcTH7oTJc",
-          "thumbnail": "https://i1.ytimg.com/vi/HNUcTH7oTJc/hqdefault.jpg"
-        }
-      ],
-      "fetchedAt": "2026-05-13T21:25:48.826Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-14T03:29:38.109Z",
+      "error": "HTTP 404"
     },
     {
       "id": "nerdio-blog",
@@ -3166,7 +2438,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:50.084Z",
+      "fetchedAt": "2026-05-14T03:29:38.249Z",
       "error": null
     },
     {
@@ -3176,7 +2448,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-13T21:25:48.820Z",
+      "fetchedAt": "2026-05-14T03:29:38.253Z",
       "error": null
     },
     {
@@ -3245,7 +2517,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:49.524Z",
+      "fetchedAt": "2026-05-14T03:29:39.491Z",
       "error": null
     },
     {
@@ -3301,7 +2573,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:50.644Z",
+      "fetchedAt": "2026-05-14T03:29:40.022Z",
       "error": null
     },
     {
@@ -3330,7 +2602,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:50.136Z",
+      "fetchedAt": "2026-05-14T03:29:39.976Z",
       "error": null
     },
     {
@@ -3386,7 +2658,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:50.781Z",
+      "fetchedAt": "2026-05-14T03:29:39.942Z",
       "error": null
     },
     {
@@ -3396,7 +2668,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-13T21:25:50.150Z",
+      "fetchedAt": "2026-05-14T03:29:39.844Z",
       "error": null
     },
     {
@@ -3452,7 +2724,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:51.316Z",
+      "fetchedAt": "2026-05-14T03:29:40.445Z",
       "error": null
     },
     {
@@ -3472,7 +2744,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:50.859Z",
+      "fetchedAt": "2026-05-14T03:29:40.056Z",
       "error": null
     },
     {
@@ -3528,7 +2800,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:55.026Z",
+      "fetchedAt": "2026-05-14T03:29:44.415Z",
       "error": null
     },
     {
@@ -3584,7 +2856,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:51.329Z",
+      "fetchedAt": "2026-05-14T03:29:40.917Z",
       "error": null
     },
     {
@@ -3639,7 +2911,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:55.176Z",
+      "fetchedAt": "2026-05-14T03:29:44.676Z",
       "error": null
     },
     {
@@ -3694,7 +2966,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:55.095Z",
+      "fetchedAt": "2026-05-14T03:29:44.548Z",
       "error": null
     },
     {
@@ -3703,6 +2975,17 @@
       "type": "audio",
       "url": "https://podcast.macadmins.org/feed/",
       "items": [
+        {
+          "title": "Episode 461: Apple Business 2026",
+          "link": "https://podcast.macadmins.org/2026/05/13/episode-461-apple-business-2026/",
+          "pubDate": "2026-05-13T21:49:54.000Z",
+          "summary": "",
+          "author": "James Smith",
+          "categories": [
+            "Episodes"
+          ],
+          "type": "audio"
+        },
         {
           "title": "Episode 460: Live at MacAD.UK 2026",
           "link": "https://podcast.macadmins.org/2026/05/05/episode-460-live-at-macad-uk-2026/",
@@ -3746,20 +3029,9 @@
             "Episodes"
           ],
           "type": "audio"
-        },
-        {
-          "title": "Episode 456: Patrick Wardle on iOS Security",
-          "link": "https://podcast.macadmins.org/2026/04/08/episode-456-patrick-wardle-on-ios-security/",
-          "pubDate": "2026-04-08T23:07:58.000Z",
-          "summary": "",
-          "author": "James Smith",
-          "categories": [
-            "Episodes"
-          ],
-          "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-13T21:25:55.731Z",
+      "fetchedAt": "2026-05-14T03:29:45.154Z",
       "error": null
     }
   ]
