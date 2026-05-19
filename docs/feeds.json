@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T18:06:15.960Z",
+  "generatedAt": "2026-05-19T21:19:46.910Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,6 +8,36 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
+          "title": "New Windows Autopatch Secure Boot status report in Intune admin center",
+          "link": "https://4sysops.com/archives/new-windows-autopatch-secure-boot-status-report-in-intune-admin-center/",
+          "pubDate": "2026-05-19T19:46:13.000Z",
+          "summary": "Windows Autopatch in the Intune admin center now includes an updated Secure Boot status report that provides device-level visibility into certificate readiness ahead of the 2026 expiry deadline. The report shows which devices have Secure Boot enabled, whether their certificates are up to date, and w",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "patch management",
+            "deployment",
+            "security",
+            "windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 SecureBoot folder: PowerShell scripts explained",
+          "link": "https://4sysops.com/archives/windows-11-secureboot-folder-powershell-scripts-explained/",
+          "pubDate": "2026-05-19T19:44:37.000Z",
+          "summary": "The May 2026 cumulative update KB5089549 added a new C:\\Windows\\SecureBoot\\ExampleRolloutScripts folder containing seven PowerShell scripts. These scripts are part of Microsoft's sample toolkit for managing Secure Boot certificate migration across enterprise environments. This article explains what ",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "deployment",
+            "powershell",
+            "security",
+            "windows"
+          ],
+          "type": "rss"
+        },
+        {
           "title": "Automate Platform SSO setup during macOS enrollment with Microsoft Intune",
           "link": "https://4sysops.com/archives/automate-platform-sso-setup-during-macos-enrollment-with-microsoft-intune/",
           "pubDate": "2026-05-18T19:11:43.000Z",
@@ -15,10 +45,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "password",
-            "deployment",
             "security",
-            "mac"
+            "mac",
+            "apple",
+            "intune"
           ],
           "type": "rss"
         },
@@ -48,37 +78,9 @@
             "powershell dsc"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Microsoft 365 Copilot: new entry points, smart suggestions, and keyboard shortcuts",
-          "link": "https://4sysops.com/archives/microsoft-365-copilot-new-entry-points-smart-suggestions-and-keyboard-shortcuts/",
-          "pubDate": "2026-05-14T20:37:59.000Z",
-          "summary": "Microsoft is simplifying how you access Copilot in Word, Excel, and PowerPoint by reducing the number of entry points to just two. A new floating icon sits in the bottom-right corner of the document canvas, and a contextual entry point appears when you interact with content. Proactive suggestions ar",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "AI",
-            "copilot",
-            "blockchain"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Cloud-Initiated Driver Recovery: automatic Windows Update rollback",
-          "link": "https://4sysops.com/archives/cloud-initiated-driver-recovery-automatic-windows-update-rollback/",
-          "pubDate": "2026-05-13T19:39:25.000Z",
-          "summary": "Microsoft is introducing Cloud-Initiated Driver Recovery, a mechanism that automatically rolls back a faulty driver on your devices via Windows Update, without requiring any action from you or your hardware vendor. The feature is aimed at closing a gap where a bad driver could linger on devices for ",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "patch management",
-            "wsus",
-            "deployment"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:55.645Z",
+      "fetchedAt": "2026-05-19T21:19:26.097Z",
       "error": null
     },
     {
@@ -161,7 +163,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:55.465Z",
+      "fetchedAt": "2026-05-19T21:19:25.997Z",
       "error": null
     },
     {
@@ -227,7 +229,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:55.821Z",
+      "fetchedAt": "2026-05-19T21:19:26.384Z",
       "error": null
     },
     {
@@ -237,7 +239,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-19T18:05:55.331Z",
+      "fetchedAt": "2026-05-19T21:19:25.707Z",
       "error": "HTTP 403"
     },
     {
@@ -292,7 +294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:56.111Z",
+      "fetchedAt": "2026-05-19T21:19:26.606Z",
       "error": null
     },
     {
@@ -357,7 +359,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:56.198Z",
+      "fetchedAt": "2026-05-19T21:19:26.583Z",
       "error": null
     },
     {
@@ -442,7 +444,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:56.021Z",
+      "fetchedAt": "2026-05-19T21:19:26.586Z",
       "error": null
     },
     {
@@ -515,7 +517,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:56.554Z",
+      "fetchedAt": "2026-05-19T21:19:27.211Z",
       "error": null
     },
     {
@@ -524,7 +526,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-19T18:05:56.670Z",
+      "fetchedAt": "2026-05-19T21:19:27.304Z",
       "error": "HTTP 403"
     },
     {
@@ -602,7 +604,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:58.174Z",
+      "fetchedAt": "2026-05-19T21:19:28.879Z",
       "error": null
     },
     {
@@ -611,7 +613,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-19T18:05:56.853Z",
+      "fetchedAt": "2026-05-19T21:19:27.575Z",
       "error": "certificate has expired"
     },
     {
@@ -687,7 +689,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:57.217Z",
+      "fetchedAt": "2026-05-19T21:19:28.090Z",
       "error": null
     },
     {
@@ -764,7 +766,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:58.514Z",
+      "fetchedAt": "2026-05-19T21:19:29.058Z",
       "error": null
     },
     {
@@ -830,7 +832,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:02.877Z",
+      "fetchedAt": "2026-05-19T21:19:31.942Z",
       "error": null
     },
     {
@@ -885,7 +887,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:58.612Z",
+      "fetchedAt": "2026-05-19T21:19:29.255Z",
       "error": null
     },
     {
@@ -964,7 +966,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:05:58.448Z",
+      "fetchedAt": "2026-05-19T21:19:29.511Z",
       "error": null
     },
     {
@@ -1043,7 +1045,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:02.953Z",
+      "fetchedAt": "2026-05-19T21:19:32.085Z",
       "error": null
     },
     {
@@ -1123,7 +1125,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:04.641Z",
+      "fetchedAt": "2026-05-19T21:19:33.573Z",
       "error": null
     },
     {
@@ -1208,7 +1210,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:03.023Z",
+      "fetchedAt": "2026-05-19T21:19:32.226Z",
       "error": null
     },
     {
@@ -1264,7 +1266,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:03.108Z",
+      "fetchedAt": "2026-05-19T21:19:32.238Z",
       "error": null
     },
     {
@@ -1350,7 +1352,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:05.997Z",
+      "fetchedAt": "2026-05-19T21:19:34.796Z",
       "error": null
     },
     {
@@ -1436,7 +1438,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:04.745Z",
+      "fetchedAt": "2026-05-19T21:19:33.705Z",
       "error": null
     },
     {
@@ -1519,7 +1521,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:04.845Z",
+      "fetchedAt": "2026-05-19T21:19:33.748Z",
       "error": null
     },
     {
@@ -1574,7 +1576,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:04.778Z",
+      "fetchedAt": "2026-05-19T21:19:33.741Z",
       "error": null
     },
     {
@@ -1639,7 +1641,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:06.119Z",
+      "fetchedAt": "2026-05-19T21:19:35.017Z",
       "error": null
     },
     {
@@ -1724,7 +1726,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:06.698Z",
+      "fetchedAt": "2026-05-19T21:19:35.473Z",
       "error": null
     },
     {
@@ -1780,7 +1782,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:06.757Z",
+      "fetchedAt": "2026-05-19T21:19:35.519Z",
       "error": null
     },
     {
@@ -1845,7 +1847,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:06.590Z",
+      "fetchedAt": "2026-05-19T21:19:35.374Z",
       "error": null
     },
     {
@@ -1926,7 +1928,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:07.355Z",
+      "fetchedAt": "2026-05-19T21:19:36.735Z",
       "error": null
     },
     {
@@ -1935,7 +1937,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-19T18:06:07.345Z",
+      "fetchedAt": "2026-05-19T21:19:36.042Z",
       "error": "HTTP 404"
     },
     {
@@ -1944,7 +1946,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-19T18:06:06.993Z",
+      "fetchedAt": "2026-05-19T21:19:35.623Z",
       "error": "HTTP 403"
     },
     {
@@ -2024,7 +2026,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:07.011Z",
+      "fetchedAt": "2026-05-19T21:19:35.746Z",
       "error": null
     },
     {
@@ -2097,7 +2099,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:07.521Z",
+      "fetchedAt": "2026-05-19T21:19:36.950Z",
       "error": null
     },
     {
@@ -2116,7 +2118,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:07.811Z",
+      "fetchedAt": "2026-05-19T21:19:36.999Z",
       "error": null
     },
     {
@@ -2171,7 +2173,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:07.816Z",
+      "fetchedAt": "2026-05-19T21:19:37.136Z",
       "error": null
     },
     {
@@ -2256,7 +2258,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:07.697Z",
+      "fetchedAt": "2026-05-19T21:19:37.196Z",
       "error": null
     },
     {
@@ -2322,7 +2324,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oki2wlBK-bw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:07.851Z",
+      "fetchedAt": "2026-05-19T21:19:37.298Z",
       "error": null
     },
     {
@@ -2387,7 +2389,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/G9aifjZOBRU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.025Z",
+      "fetchedAt": "2026-05-19T21:19:37.389Z",
       "error": null
     },
     {
@@ -2452,7 +2454,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iwEDhziZRJg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.026Z",
+      "fetchedAt": "2026-05-19T21:19:37.328Z",
       "error": null
     },
     {
@@ -2462,6 +2464,28 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw",
       "items": [
+        {
+          "title": "Multi-Admin Approval: Intune & Global Admin Setup Guide #shorts",
+          "link": "https://www.youtube.com/shorts/G9vcn3hZS_s",
+          "pubDate": "2026-05-19T20:09:36.000Z",
+          "summary": "Discover how to configure multi-admin approval in Intune. We'll guide you through setting up access policies with Intune and global admin roles for enhanced security. Or will we?#MultiAdminApproval #Intune #AccessPolicies #ITAdministration Full video: https://youtu.be/usyxV6wQuyU",
+          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/G9vcn3hZS_s/hqdefault.jpg"
+        },
+        {
+          "title": "Streaming Platform Fails: Don't Try These! #shorts",
+          "link": "https://www.youtube.com/shorts/CKyz-Ysc7fg",
+          "pubDate": "2026-05-19T18:18:29.000Z",
+          "summary": "Navigating the wild west of streaming platforms can be… an adventure. I've dabbled in quite a few, and let's just say some experiences were less than stellar. After some trial and error, Restream has emerged as the reliable contender, offering the compute power needed for a genuinely reliable stream",
+          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/CKyz-Ysc7fg/hqdefault.jpg"
+        },
         {
           "title": "Are Livesteams just the lazy option?",
           "link": "https://www.youtube.com/shorts/kFnhH3ItxMA",
@@ -2494,31 +2518,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i4.ytimg.com/vi/SOJQBug4dPk/hqdefault.jpg"
-        },
-        {
-          "title": "Experts Live UK 2026, Intune Academy Launch, and Why My Editor Is Ruining My Life",
-          "link": "https://www.youtube.com/watch?v=3WCh5WObyrU",
-          "pubDate": "2026-05-19T06:22:18.000Z",
-          "summary": "A bit of a different one today. My editor (Mark) is on holiday, so instead of fighting Da Vinci Resolve I jumped on a live stream to talk through a few things on my mind, including Experts Live UK 2026, the Intune Academy launch, and some upcoming video plans. What's covered: 00:00 Why this is a liv",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "3WCh5WObyrU",
-          "thumbnail": "https://i4.ytimg.com/vi/3WCh5WObyrU/hqdefault.jpg"
-        },
-        {
-          "title": "Intune Multi-Admin Approval: NOT a Security Tool! #shorts",
-          "link": "https://www.youtube.com/shorts/mtPIbBIQMwc",
-          "pubDate": "2026-05-15T15:03:36.000Z",
-          "summary": "Think Intune's Multi-Admin Approval is a security tool? Think again. It's like locking your windows but leaving the front door unlocked with a \"do not enter\" sign. Real security requires more. #Intune #Security #ITAdmin #Cybersecurity #TechTips",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/mtPIbBIQMwc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:07.929Z",
+      "fetchedAt": "2026-05-19T21:19:37.338Z",
       "error": null
     },
     {
@@ -2584,7 +2586,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hGX5bCcnNJs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.159Z",
+      "fetchedAt": "2026-05-19T21:19:37.398Z",
       "error": null
     },
     {
@@ -2650,7 +2652,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/q4P2rje-JiY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.138Z",
+      "fetchedAt": "2026-05-19T21:19:37.398Z",
       "error": null
     },
     {
@@ -2715,7 +2717,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/ooXOIfeDNVE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.121Z",
+      "fetchedAt": "2026-05-19T21:19:37.551Z",
       "error": null
     },
     {
@@ -2781,7 +2783,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0ssXGxWyR24/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.036Z",
+      "fetchedAt": "2026-05-19T21:19:37.543Z",
       "error": null
     },
     {
@@ -2846,7 +2848,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oPLxoKkzKTI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.255Z",
+      "fetchedAt": "2026-05-19T21:19:37.557Z",
       "error": null
     },
     {
@@ -2911,7 +2913,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JeXuBZ9YHs8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.291Z",
+      "fetchedAt": "2026-05-19T21:19:37.632Z",
       "error": null
     },
     {
@@ -2976,7 +2978,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/SV0qfjG1Vs4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.255Z",
+      "fetchedAt": "2026-05-19T21:19:37.560Z",
       "error": null
     },
     {
@@ -3041,7 +3043,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.228Z",
+      "fetchedAt": "2026-05-19T21:19:37.696Z",
       "error": null
     },
     {
@@ -3106,7 +3108,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/j4OtEBpROuE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.388Z",
+      "fetchedAt": "2026-05-19T21:19:37.808Z",
       "error": null
     },
     {
@@ -3135,6 +3137,24 @@
           "type": "official"
         },
         {
+          "title": "How to reduce AVD deployment time",
+          "link": "https://getnerdio.com/blog/how-to-reduce-avd-deployment-time/",
+          "pubDate": "2026-05-18T21:45:32.000Z",
+          "summary": "Blog How to reduce AVD deployment time from weeks to hours AVD deployments take weeks because of manual portal work.… The post How to reduce AVD deployment time appeared first on Nerdio. ]]>",
+          "author": "GrowthX Editor",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Windows 365 Frontline: What it is and when to use it",
+          "link": "https://getnerdio.com/blog/windows-365-frontline/",
+          "pubDate": "2026-05-18T21:00:10.000Z",
+          "summary": "Blog Windows 365 Frontline: What it is and when to use it Windows 365 Frontline lets shift workers share Cloud… The post Windows 365 Frontline: What it is and when to use it appeared first on Nerdio. ]]>",
+          "author": "GrowthX Editor",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "Explorando alternativas para Citrix con Nerdio + Microsoft Azure Virtual Desktop (AVD)",
           "link": "https://getnerdio.com/on-demand-webinar/explorando-alternativas-para-citrix-con-nerdio-microsoft-azure-virtual-desktop-avd/",
           "pubDate": "2026-05-18T13:31:04.000Z",
@@ -3142,27 +3162,9 @@
           "author": "Lauren Purdy",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "The Great VDI Migration: Your Path to a Cloud-First Workplace",
-          "link": "https://getnerdio.com/on-demand-webinar/the-great-vdi-migration-your-path-to-a-cloud-first-workplace/",
-          "pubDate": "2026-05-11T13:32:38.000Z",
-          "summary": "ON-DEMAND WEBINAR The Great VDI Migration: Your Path to a Cloud-First Workplace In this webinar, experts from Nerdio and Microsoft… The post The Great VDI Migration: Your Path to a Cloud-First Workplace appeared first on Nerdio. ]]>",
-          "author": "Lauren Purdy",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Announcing Nerdio Compass: Start your VDI modernization journey to Windows Cloud",
-          "link": "https://getnerdio.com/blog/announcing-nerdio-compass-start-your-vdi-modernization-journey-to-windows-cloud/",
-          "pubDate": "2026-05-05T16:20:43.000Z",
-          "summary": "Hybrid cloud Announcing Nerdio Compass: Start your VDI modernization journey to Windows Cloud Aaron Parker | May 5, 2026 |… The post Announcing Nerdio Compass: Start your VDI modernization journey to Windows Cloud appeared first on Nerdio. ]]>",
-          "author": "Lauren Purdy",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:08.435Z",
+      "fetchedAt": "2026-05-19T21:19:40.817Z",
       "error": null
     },
     {
@@ -3172,7 +3174,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-19T18:06:08.624Z",
+      "fetchedAt": "2026-05-19T21:19:37.961Z",
       "error": null
     },
     {
@@ -3238,7 +3240,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:09.902Z",
+      "fetchedAt": "2026-05-19T21:19:39.177Z",
       "error": null
     },
     {
@@ -3294,7 +3296,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:10.450Z",
+      "fetchedAt": "2026-05-19T21:19:41.175Z",
       "error": null
     },
     {
@@ -3323,7 +3325,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:10.237Z",
+      "fetchedAt": "2026-05-19T21:19:41.107Z",
       "error": null
     },
     {
@@ -3379,7 +3381,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:10.546Z",
+      "fetchedAt": "2026-05-19T21:19:41.275Z",
       "error": null
     },
     {
@@ -3389,7 +3391,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-19T18:06:10.118Z",
+      "fetchedAt": "2026-05-19T21:19:41.025Z",
       "error": null
     },
     {
@@ -3445,7 +3447,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:11.014Z",
+      "fetchedAt": "2026-05-19T21:19:41.691Z",
       "error": null
     },
     {
@@ -3465,7 +3467,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:10.644Z",
+      "fetchedAt": "2026-05-19T21:19:41.366Z",
       "error": null
     },
     {
@@ -3475,6 +3477,15 @@
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
       "items": [
+        {
+          "title": "MacBook Neo in K-12",
+          "link": "https://www.jamf.com/blog/macbook-neo-in-k-12/",
+          "pubDate": null,
+          "summary": "MacBook Neo brings powerful, affordable Mac computing to K-12 classrooms — and with Jamf, deploying and managing it alongside iPad has never been easier. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Jamf spotlighted in Okta Businesses at Work 2026 Report",
           "link": "https://www.jamf.com/blog/jamf-okta-businesses-at-work-2026/",
@@ -3510,18 +3521,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Gain faster updates and real-time fleet visibility with DDM",
-          "link": "https://www.jamf.com/blog/a-practical-guide-to-modern-apple-device-management-with-ddm/",
-          "pubDate": null,
-          "summary": "Read our e-book to discover how Declarative Device Management (DDM) can help your organization scale up with faster updates, proactive compliance and real-time fleet visibility. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:14.992Z",
+      "fetchedAt": "2026-05-19T21:19:45.991Z",
       "error": null
     },
     {
@@ -3577,7 +3579,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:11.228Z",
+      "fetchedAt": "2026-05-19T21:19:41.988Z",
       "error": null
     },
     {
@@ -3632,7 +3634,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:15.145Z",
+      "fetchedAt": "2026-05-19T21:19:46.214Z",
       "error": null
     },
     {
@@ -3687,7 +3689,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:15.083Z",
+      "fetchedAt": "2026-05-19T21:19:46.087Z",
       "error": null
     },
     {
@@ -3752,7 +3754,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-19T18:06:15.960Z",
+      "fetchedAt": "2026-05-19T21:19:46.910Z",
       "error": null
     }
   ]
