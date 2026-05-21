@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T17:59:05.821Z",
+  "generatedAt": "2026-05-21T21:27:40.728Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,6 +8,21 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
+          "title": "Free Windows Server 2025 hotpatching with Azure Arc",
+          "link": "https://4sysops.com/archives/free-windows-server-2025-hotpatching-with-azure-arc/",
+          "pubDate": "2026-05-21T21:01:03.000Z",
+          "summary": "Microsoft now offers Windows Server 2025 hotpatching through Azure Arc at no additional charge for eligible Azure Arc-enabled servers. Hotpatching installs Windows security updates without restarting the server in most months, but it does not eliminate all reboots. You still need Azure Arc, the Azur",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "patch management",
+            "azure",
+            "window server",
+            "window server 2025"
+          ],
+          "type": "rss"
+        },
+        {
           "title": "Admin Insights for Windows 365: Monitoring Cloud PCs in Intune",
           "link": "https://4sysops.com/archives/admin-insights-for-windows-365-monitoring-cloud-pcs-in-intune/",
           "pubDate": "2026-05-20T20:46:25.000Z",
@@ -15,10 +30,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "cloud computing",
             "remote desktop services",
             "windows",
-            "windows 365"
+            "windows 365",
+            "intune"
           ],
           "type": "rss"
         },
@@ -30,10 +45,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
+            "exchange",
             "active directory",
             "cloud computing",
-            "microsoft 365",
-            "entra"
+            "microsoft 365"
           ],
           "type": "rss"
         },
@@ -45,10 +60,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "intune",
             "patch management",
             "deployment",
-            "security"
+            "security",
+            "windows"
           ],
           "type": "rss"
         },
@@ -60,30 +75,15 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
+            "windows",
             "deployment",
             "powershell",
-            "security",
-            "windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Automate Platform SSO setup during macOS enrollment with Microsoft Intune",
-          "link": "https://4sysops.com/archives/automate-platform-sso-setup-during-macos-enrollment-with-microsoft-intune/",
-          "pubDate": "2026-05-18T19:11:43.000Z",
-          "summary": "Microsoft has made Platform Single Sign-On (PSSO) during Automated Device Enrollment (ADE) generally available for macOS. The new EnableRegistrationDuringSetup setting in Microsoft Intune completes device registration and SSO configuration automatically during Setup Assistant — the initial macOS set",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "password",
-            "deployment",
-            "security",
-            "mac"
+            "security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:46.354Z",
+      "fetchedAt": "2026-05-21T21:27:22.001Z",
       "error": null
     },
     {
@@ -166,7 +166,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:46.372Z",
+      "fetchedAt": "2026-05-21T21:27:21.878Z",
       "error": null
     },
     {
@@ -232,7 +232,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:46.804Z",
+      "fetchedAt": "2026-05-21T21:27:22.327Z",
       "error": null
     },
     {
@@ -242,7 +242,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-21T17:58:45.687Z",
+      "fetchedAt": "2026-05-21T21:27:21.637Z",
       "error": "HTTP 403"
     },
     {
@@ -297,7 +297,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:46.985Z",
+      "fetchedAt": "2026-05-21T21:27:22.550Z",
       "error": null
     },
     {
@@ -362,7 +362,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:47.230Z",
+      "fetchedAt": "2026-05-21T21:27:22.582Z",
       "error": null
     },
     {
@@ -447,7 +447,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:46.923Z",
+      "fetchedAt": "2026-05-21T21:27:22.879Z",
       "error": null
     },
     {
@@ -520,7 +520,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:47.831Z",
+      "fetchedAt": "2026-05-21T21:27:23.228Z",
       "error": null
     },
     {
@@ -529,7 +529,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-21T17:58:47.968Z",
+      "fetchedAt": "2026-05-21T21:27:23.357Z",
       "error": "HTTP 403"
     },
     {
@@ -607,7 +607,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:49.955Z",
+      "fetchedAt": "2026-05-21T21:27:24.979Z",
       "error": null
     },
     {
@@ -616,7 +616,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-21T17:58:48.401Z",
+      "fetchedAt": "2026-05-21T21:27:23.745Z",
       "error": "certificate has expired"
     },
     {
@@ -692,7 +692,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:48.867Z",
+      "fetchedAt": "2026-05-21T21:27:24.660Z",
       "error": null
     },
     {
@@ -769,7 +769,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:50.466Z",
+      "fetchedAt": "2026-05-21T21:27:25.249Z",
       "error": null
     },
     {
@@ -835,7 +835,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:50.971Z",
+      "fetchedAt": "2026-05-21T21:27:25.649Z",
       "error": null
     },
     {
@@ -890,7 +890,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:50.348Z",
+      "fetchedAt": "2026-05-21T21:27:25.420Z",
       "error": null
     },
     {
@@ -969,7 +969,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:51.088Z",
+      "fetchedAt": "2026-05-21T21:27:25.336Z",
       "error": null
     },
     {
@@ -1048,7 +1048,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:51.273Z",
+      "fetchedAt": "2026-05-21T21:27:25.824Z",
       "error": null
     },
     {
@@ -1128,7 +1128,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:53.336Z",
+      "fetchedAt": "2026-05-21T21:27:27.407Z",
       "error": null
     },
     {
@@ -1213,7 +1213,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:51.354Z",
+      "fetchedAt": "2026-05-21T21:27:25.984Z",
       "error": null
     },
     {
@@ -1269,7 +1269,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:51.468Z",
+      "fetchedAt": "2026-05-21T21:27:25.999Z",
       "error": null
     },
     {
@@ -1355,7 +1355,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:54.704Z",
+      "fetchedAt": "2026-05-21T21:27:29.043Z",
       "error": null
     },
     {
@@ -1441,7 +1441,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:53.404Z",
+      "fetchedAt": "2026-05-21T21:27:27.545Z",
       "error": null
     },
     {
@@ -1523,7 +1523,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:53.577Z",
+      "fetchedAt": "2026-05-21T21:27:27.644Z",
       "error": null
     },
     {
@@ -1578,7 +1578,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:53.546Z",
+      "fetchedAt": "2026-05-21T21:27:27.541Z",
       "error": null
     },
     {
@@ -1643,7 +1643,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:55.060Z",
+      "fetchedAt": "2026-05-21T21:27:29.358Z",
       "error": null
     },
     {
@@ -1728,7 +1728,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:55.687Z",
+      "fetchedAt": "2026-05-21T21:27:29.741Z",
       "error": null
     },
     {
@@ -1784,7 +1784,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:55.340Z",
+      "fetchedAt": "2026-05-21T21:27:29.583Z",
       "error": null
     },
     {
@@ -1849,7 +1849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:55.283Z",
+      "fetchedAt": "2026-05-21T21:27:29.808Z",
       "error": null
     },
     {
@@ -1930,7 +1930,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:56.494Z",
+      "fetchedAt": "2026-05-21T21:27:30.514Z",
       "error": null
     },
     {
@@ -1939,7 +1939,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-21T17:58:56.576Z",
+      "fetchedAt": "2026-05-21T21:27:30.825Z",
       "error": "HTTP 404"
     },
     {
@@ -1948,7 +1948,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-21T17:58:55.953Z",
+      "fetchedAt": "2026-05-21T21:27:30.092Z",
       "error": "HTTP 403"
     },
     {
@@ -2028,7 +2028,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:56.104Z",
+      "fetchedAt": "2026-05-21T21:27:30.140Z",
       "error": null
     },
     {
@@ -2101,7 +2101,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:56.817Z",
+      "fetchedAt": "2026-05-21T21:27:31.110Z",
       "error": null
     },
     {
@@ -2120,7 +2120,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.038Z",
+      "fetchedAt": "2026-05-21T21:27:31.082Z",
       "error": null
     },
     {
@@ -2175,7 +2175,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.115Z",
+      "fetchedAt": "2026-05-21T21:27:31.330Z",
       "error": null
     },
     {
@@ -2260,7 +2260,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:56.816Z",
+      "fetchedAt": "2026-05-21T21:27:31.180Z",
       "error": null
     },
     {
@@ -2326,7 +2326,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oki2wlBK-bw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.334Z",
+      "fetchedAt": "2026-05-21T21:27:31.428Z",
       "error": null
     },
     {
@@ -2391,7 +2391,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/G9aifjZOBRU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.298Z",
+      "fetchedAt": "2026-05-21T21:27:31.529Z",
       "error": null
     },
     {
@@ -2456,7 +2456,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iwEDhziZRJg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.377Z",
+      "fetchedAt": "2026-05-21T21:27:31.635Z",
       "error": null
     },
     {
@@ -2522,7 +2522,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DK5OgTXGob0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.346Z",
+      "fetchedAt": "2026-05-21T21:27:31.426Z",
       "error": null
     },
     {
@@ -2588,7 +2588,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Aqtq1EeKly8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.542Z",
+      "fetchedAt": "2026-05-21T21:27:31.649Z",
       "error": null
     },
     {
@@ -2654,7 +2654,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/q4P2rje-JiY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.520Z",
+      "fetchedAt": "2026-05-21T21:27:31.641Z",
       "error": null
     },
     {
@@ -2719,7 +2719,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xj7PmUZsSdA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.586Z",
+      "fetchedAt": "2026-05-21T21:27:31.864Z",
       "error": null
     },
     {
@@ -2785,7 +2785,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zVuP8gStJZI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.530Z",
+      "fetchedAt": "2026-05-21T21:27:31.788Z",
       "error": null
     },
     {
@@ -2850,7 +2850,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TIW8kBmz7Ng/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.912Z",
+      "fetchedAt": "2026-05-21T21:27:31.876Z",
       "error": null
     },
     {
@@ -2915,7 +2915,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JeXuBZ9YHs8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.799Z",
+      "fetchedAt": "2026-05-21T21:27:31.959Z",
       "error": null
     },
     {
@@ -2980,7 +2980,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/SV0qfjG1Vs4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.744Z",
+      "fetchedAt": "2026-05-21T21:27:31.944Z",
       "error": null
     },
     {
@@ -3045,7 +3045,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:57.725Z",
+      "fetchedAt": "2026-05-21T21:27:32.013Z",
       "error": null
     },
     {
@@ -3110,7 +3110,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/j4OtEBpROuE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:58.269Z",
+      "fetchedAt": "2026-05-21T21:27:32.175Z",
       "error": null
     },
     {
@@ -3166,7 +3166,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:58.248Z",
+      "fetchedAt": "2026-05-21T21:27:33.595Z",
       "error": null
     },
     {
@@ -3176,7 +3176,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-21T17:58:58.061Z",
+      "fetchedAt": "2026-05-21T21:27:32.309Z",
       "error": null
     },
     {
@@ -3242,7 +3242,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:59.032Z",
+      "fetchedAt": "2026-05-21T21:27:32.881Z",
       "error": null
     },
     {
@@ -3298,7 +3298,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:59.642Z",
+      "fetchedAt": "2026-05-21T21:27:33.679Z",
       "error": null
     },
     {
@@ -3327,7 +3327,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:59:00.344Z",
+      "fetchedAt": "2026-05-21T21:27:34.615Z",
       "error": null
     },
     {
@@ -3383,7 +3383,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:58:59.612Z",
+      "fetchedAt": "2026-05-21T21:27:34.031Z",
       "error": null
     },
     {
@@ -3393,7 +3393,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-21T17:58:59.302Z",
+      "fetchedAt": "2026-05-21T21:27:33.918Z",
       "error": null
     },
     {
@@ -3449,7 +3449,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:59:00.695Z",
+      "fetchedAt": "2026-05-21T21:27:34.627Z",
       "error": null
     },
     {
@@ -3469,7 +3469,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:59:00.479Z",
+      "fetchedAt": "2026-05-21T21:27:34.865Z",
       "error": null
     },
     {
@@ -3525,7 +3525,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:59:04.884Z",
+      "fetchedAt": "2026-05-21T21:27:38.904Z",
       "error": null
     },
     {
@@ -3581,7 +3581,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-21T17:59:01.547Z",
+      "fetchedAt": "2026-05-21T21:27:35.280Z",
       "error": null
     },
     {
@@ -3636,7 +3636,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-21T17:59:05.093Z",
+      "fetchedAt": "2026-05-21T21:27:38.991Z",
       "error": null
     },
     {
@@ -3691,7 +3691,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-21T17:59:04.976Z",
+      "fetchedAt": "2026-05-21T21:27:39.074Z",
       "error": null
     },
     {
@@ -3756,7 +3756,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-21T17:59:05.821Z",
+      "fetchedAt": "2026-05-21T21:27:40.728Z",
       "error": null
     }
   ]
