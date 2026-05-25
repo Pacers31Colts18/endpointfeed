@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T03:53:00.179Z",
+  "generatedAt": "2026-05-25T08:21:37.056Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -82,7 +82,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:42.547Z",
+      "fetchedAt": "2026-05-25T08:21:19.766Z",
       "error": null
     },
     {
@@ -165,7 +165,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:42.505Z",
+      "fetchedAt": "2026-05-25T08:21:19.679Z",
       "error": null
     },
     {
@@ -231,7 +231,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:42.809Z",
+      "fetchedAt": "2026-05-25T08:21:20.060Z",
       "error": null
     },
     {
@@ -241,7 +241,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-25T03:52:42.231Z",
+      "fetchedAt": "2026-05-25T08:21:19.283Z",
       "error": "HTTP 403"
     },
     {
@@ -296,7 +296,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:43.031Z",
+      "fetchedAt": "2026-05-25T08:21:20.282Z",
       "error": null
     },
     {
@@ -361,7 +361,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:42.979Z",
+      "fetchedAt": "2026-05-25T08:21:20.321Z",
       "error": null
     },
     {
@@ -446,7 +446,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:43.000Z",
+      "fetchedAt": "2026-05-25T08:21:20.325Z",
       "error": null
     },
     {
@@ -519,7 +519,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:43.603Z",
+      "fetchedAt": "2026-05-25T08:21:20.962Z",
       "error": null
     },
     {
@@ -528,7 +528,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-25T03:52:43.713Z",
+      "fetchedAt": "2026-05-25T08:21:21.089Z",
       "error": "HTTP 403"
     },
     {
@@ -606,7 +606,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:45.193Z",
+      "fetchedAt": "2026-05-25T08:21:22.581Z",
       "error": null
     },
     {
@@ -615,7 +615,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-25T03:52:43.865Z",
+      "fetchedAt": "2026-05-25T08:21:21.625Z",
       "error": "certificate has expired"
     },
     {
@@ -691,7 +691,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:44.325Z",
+      "fetchedAt": "2026-05-25T08:21:21.701Z",
       "error": null
     },
     {
@@ -768,7 +768,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:45.551Z",
+      "fetchedAt": "2026-05-25T08:21:22.830Z",
       "error": null
     },
     {
@@ -777,9 +777,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-05-25T03:52:45.540Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
+          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
+          "pubDate": "2026-05-19T05:58:43.000Z",
+          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
+          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
+          "pubDate": "2026-05-15T14:47:47.000Z",
+          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
+          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
+          "pubDate": "2026-05-06T20:30:40.000Z",
+          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
+          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
+          "pubDate": "2026-04-27T15:00:17.000Z",
+          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Parsing Intune Remediation JSON Output",
+          "link": "https://www.deploymentresearch.com/parsing-intune-remediation-json-output/",
+          "pubDate": "2026-04-23T01:56:57.000Z",
+          "summary": "Recently we've been discussing Secure Boot Certificate updates a lot. There have been many new tools to help us as administrators report on the status of those updates across our fleets and one of the popular tools has been a remediation script released by Microsoft found here: Monitoring Secure Boo",
+          "author": "Andrew Johnson",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-05-25T08:21:23.095Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -833,7 +889,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:45.642Z",
+      "fetchedAt": "2026-05-25T08:21:23.078Z",
       "error": null
     },
     {
@@ -912,7 +968,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:45.501Z",
+      "fetchedAt": "2026-05-25T08:21:23.387Z",
       "error": null
     },
     {
@@ -991,7 +1047,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:45.762Z",
+      "fetchedAt": "2026-05-25T08:21:23.561Z",
       "error": null
     },
     {
@@ -1071,7 +1127,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:47.240Z",
+      "fetchedAt": "2026-05-25T08:21:25.355Z",
       "error": null
     },
     {
@@ -1156,7 +1212,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:45.901Z",
+      "fetchedAt": "2026-05-25T08:21:23.733Z",
       "error": null
     },
     {
@@ -1212,7 +1268,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:45.997Z",
+      "fetchedAt": "2026-05-25T08:21:23.752Z",
       "error": null
     },
     {
@@ -1298,7 +1354,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:48.738Z",
+      "fetchedAt": "2026-05-25T08:21:26.539Z",
       "error": null
     },
     {
@@ -1384,7 +1440,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:47.313Z",
+      "fetchedAt": "2026-05-25T08:21:25.427Z",
       "error": null
     },
     {
@@ -1393,6 +1449,21 @@
       "type": "rss",
       "url": "https://office365itpros.com/feed/",
       "items": [
+        {
+          "title": "How to Send a Welcome Message to New Employees with Attachments for Calendar Events",
+          "link": "https://office365itpros.com/2026/05/25/online-meeting-ics-files/?utm_source=rss&utm_medium=rss&utm_campaign=online-meeting-ics-files",
+          "pubDate": "2026-05-25T07:00:00.000Z",
+          "summary": "",
+          "author": "Tony Redmond",
+          "categories": [
+            "Outlook",
+            "PowerShell",
+            "ICS",
+            "Microsoft Graph PowerShell SDK",
+            "Online Meeting"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Switching Data Loss Prevention Client-Side Checks for OWA",
           "link": "https://office365itpros.com/2026/05/22/data-loss-prevention-dcs/?utm_source=rss&utm_medium=rss&utm_campaign=data-loss-prevention-dcs",
@@ -1449,24 +1520,9 @@
             "Authoritative sites"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Search-UnifiedAuditLog Updated to Make Large Searches Easier to Manage",
-          "link": "https://office365itpros.com/2026/05/18/morerecordsavailable-property/?utm_source=rss&utm_medium=rss&utm_campaign=morerecordsavailable-property",
-          "pubDate": "2026-05-18T07:00:00.000Z",
-          "summary": "",
-          "author": "Tony Redmond",
-          "categories": [
-            "Compliance",
-            "Microsoft Purview",
-            "Audit log search",
-            "MoreRecordsAvailable",
-            "Search-UnifiedAuditLog"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:47.413Z",
+      "fetchedAt": "2026-05-25T08:21:25.805Z",
       "error": null
     },
     {
@@ -1521,7 +1577,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:47.395Z",
+      "fetchedAt": "2026-05-25T08:21:25.529Z",
       "error": null
     },
     {
@@ -1586,7 +1642,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:49.012Z",
+      "fetchedAt": "2026-05-25T08:21:26.731Z",
       "error": null
     },
     {
@@ -1671,7 +1727,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:49.496Z",
+      "fetchedAt": "2026-05-25T08:21:27.324Z",
       "error": null
     },
     {
@@ -1727,7 +1783,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:49.601Z",
+      "fetchedAt": "2026-05-25T08:21:26.924Z",
       "error": null
     },
     {
@@ -1792,7 +1848,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:49.194Z",
+      "fetchedAt": "2026-05-25T08:21:27.206Z",
       "error": null
     },
     {
@@ -1873,7 +1929,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.271Z",
+      "fetchedAt": "2026-05-25T08:21:28.936Z",
       "error": null
     },
     {
@@ -1882,7 +1938,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-25T03:52:50.303Z",
+      "fetchedAt": "2026-05-25T08:21:27.812Z",
       "error": "HTTP 404"
     },
     {
@@ -1891,7 +1947,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-25T03:52:49.753Z",
+      "fetchedAt": "2026-05-25T08:21:27.486Z",
       "error": "HTTP 403"
     },
     {
@@ -1971,7 +2027,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:49.761Z",
+      "fetchedAt": "2026-05-25T08:21:27.609Z",
       "error": null
     },
     {
@@ -2044,7 +2100,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.528Z",
+      "fetchedAt": "2026-05-25T08:21:29.168Z",
       "error": null
     },
     {
@@ -2063,7 +2119,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.394Z",
+      "fetchedAt": "2026-05-25T08:21:29.038Z",
       "error": null
     },
     {
@@ -2118,7 +2174,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.603Z",
+      "fetchedAt": "2026-05-25T08:21:29.314Z",
       "error": null
     },
     {
@@ -2203,7 +2259,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.579Z",
+      "fetchedAt": "2026-05-25T08:21:29.290Z",
       "error": null
     },
     {
@@ -2269,7 +2325,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/J08rfw4UBfY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.702Z",
+      "fetchedAt": "2026-05-25T08:21:29.579Z",
       "error": null
     },
     {
@@ -2334,7 +2390,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/N3yzcTd1kFA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.849Z",
+      "fetchedAt": "2026-05-25T08:21:29.460Z",
       "error": null
     },
     {
@@ -2399,7 +2455,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3Z9IxjL7B0Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.742Z",
+      "fetchedAt": "2026-05-25T08:21:29.513Z",
       "error": null
     },
     {
@@ -2465,7 +2521,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DK5OgTXGob0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.809Z",
+      "fetchedAt": "2026-05-25T08:21:29.579Z",
       "error": null
     },
     {
@@ -2531,7 +2587,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/31c0n2NwlNk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.930Z",
+      "fetchedAt": "2026-05-25T08:21:29.718Z",
       "error": null
     },
     {
@@ -2597,7 +2653,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/q4P2rje-JiY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:51.014Z",
+      "fetchedAt": "2026-05-25T08:21:29.689Z",
       "error": null
     },
     {
@@ -2662,7 +2718,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/398f_rK0tSk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.931Z",
+      "fetchedAt": "2026-05-25T08:21:29.680Z",
       "error": null
     },
     {
@@ -2728,7 +2784,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Fs-DOV-RVEg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:50.933Z",
+      "fetchedAt": "2026-05-25T08:21:29.745Z",
       "error": null
     },
     {
@@ -2793,7 +2849,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JZpdzL3_xYM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:51.084Z",
+      "fetchedAt": "2026-05-25T08:21:29.834Z",
       "error": null
     },
     {
@@ -2858,7 +2914,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JeXuBZ9YHs8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:51.125Z",
+      "fetchedAt": "2026-05-25T08:21:29.848Z",
       "error": null
     },
     {
@@ -2923,7 +2979,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/SV0qfjG1Vs4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:51.116Z",
+      "fetchedAt": "2026-05-25T08:21:29.832Z",
       "error": null
     },
     {
@@ -2988,7 +3044,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:51.117Z",
+      "fetchedAt": "2026-05-25T08:21:29.841Z",
       "error": null
     },
     {
@@ -3053,7 +3109,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/j4OtEBpROuE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:51.222Z",
+      "fetchedAt": "2026-05-25T08:21:29.974Z",
       "error": null
     },
     {
@@ -3109,7 +3165,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:51.395Z",
+      "fetchedAt": "2026-05-25T08:21:30.058Z",
       "error": null
     },
     {
@@ -3119,7 +3175,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-25T03:52:51.722Z",
+      "fetchedAt": "2026-05-25T08:21:30.117Z",
       "error": null
     },
     {
@@ -3185,7 +3241,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:51.996Z",
+      "fetchedAt": "2026-05-25T08:21:30.652Z",
       "error": null
     },
     {
@@ -3241,7 +3297,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:52.564Z",
+      "fetchedAt": "2026-05-25T08:21:30.708Z",
       "error": null
     },
     {
@@ -3270,7 +3326,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:52.276Z",
+      "fetchedAt": "2026-05-25T08:21:31.110Z",
       "error": null
     },
     {
@@ -3326,7 +3382,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:52.529Z",
+      "fetchedAt": "2026-05-25T08:21:31.072Z",
       "error": null
     },
     {
@@ -3336,7 +3392,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-25T03:52:52.172Z",
+      "fetchedAt": "2026-05-25T08:21:30.954Z",
       "error": null
     },
     {
@@ -3392,7 +3448,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:53.095Z",
+      "fetchedAt": "2026-05-25T08:21:31.510Z",
       "error": null
     },
     {
@@ -3412,7 +3468,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:52.582Z",
+      "fetchedAt": "2026-05-25T08:21:31.159Z",
       "error": null
     },
     {
@@ -3468,7 +3524,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:56.927Z",
+      "fetchedAt": "2026-05-25T08:21:35.332Z",
       "error": null
     },
     {
@@ -3524,7 +3580,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:53.235Z",
+      "fetchedAt": "2026-05-25T08:21:31.800Z",
       "error": null
     },
     {
@@ -3579,7 +3635,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:57.181Z",
+      "fetchedAt": "2026-05-25T08:21:35.447Z",
       "error": null
     },
     {
@@ -3634,7 +3690,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-25T03:52:57.070Z",
+      "fetchedAt": "2026-05-25T08:21:35.415Z",
       "error": null
     },
     {
@@ -3699,7 +3755,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-25T03:53:00.179Z",
+      "fetchedAt": "2026-05-25T08:21:37.056Z",
       "error": null
     }
   ]
