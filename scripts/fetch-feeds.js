@@ -329,6 +329,12 @@ const FEEDS = [
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCdLyCpZOXHLEU90qE3HzzNQ",
   },
+  {
+    id: "yt-macaduk",
+    label: "MacADUK",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCZP5rDzvqsbRMwGRexzfWuA",
+  },
 
   // ──Official ───────────────────────────────────────────────
   {
