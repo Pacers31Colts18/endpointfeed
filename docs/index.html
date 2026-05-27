@@ -591,6 +591,23 @@
     .day-range-pill:hover { border-color: var(--accent); color: var(--accent); }
     .day-range-pill.active { border-color: var(--accent); color: var(--accent); background: rgba(91,141,238,0.1); }
 
+    #source-select {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      font-family: 'Barlow', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      outline: none;
+      max-width: 210px;
+      transition: border-color 0.12s, color 0.12s;
+    }
+    #source-select:focus { border-color: var(--accent); }
+    #source-select.active { border-color: var(--accent); color: var(--accent); background: rgba(91,141,238,0.1); }
+
     /* ── LOADING ── */
     #loading {
       padding: 70px 0; text-align: center; color: var(--text-mute);
@@ -724,10 +741,11 @@ const ARTICLES_CAT = { id: 'articles', label: 'Blog Posts',  color: '#5b8dee' };
 const VENDOR_CAT   = { id: 'vendor',   label: 'Official',    color: '#7fba00' };
 
 
-let allFeeds = [];
-let openSet  = new Set(['articles', 'video', 'audio', 'vendor']);
-let allOpen  = false;
-let newDays  = 7;
+let allFeeds      = [];
+let openSet       = new Set(['articles', 'video', 'audio', 'vendor']);
+let allOpen       = false;
+let newDays       = 7;
+let selectedSource = null;
 
 /* ── Theme ──────────────────────────────────────────────── */
 function toggleTheme() {
@@ -749,6 +767,8 @@ try {
 function buildToolbar() {
   const bar = document.getElementById('toolbar');
   bar.querySelectorAll('.cat-pill, .toolbar-divider, .day-range-pill').forEach(e => e.remove());
+  const existingSel = bar.querySelector('#source-select');
+  if (existingSel) existingSel.remove();
   const sw = bar.querySelector('.search-wrap');
 
   bar.insertBefore(makePill(VENDOR_CAT.label, VENDOR_CAT.color, VENDOR_CAT.id), sw);
@@ -767,6 +787,54 @@ function buildToolbar() {
     };
     bar.insertBefore(btn, sw);
   });
+
+  // Source selector — bypasses date filter when a source is chosen
+  bar.insertBefore(makeDivider(), sw);
+  const sel = document.createElement('select');
+  sel.id = 'source-select';
+  if (selectedSource) sel.classList.add('active');
+
+  const defaultOpt = document.createElement('option');
+  defaultOpt.value = '';
+  defaultOpt.textContent = 'All sources';
+  sel.appendChild(defaultOpt);
+
+  const typeGroups = [
+    { label: 'Official',   type: 'official' },
+    { label: 'Blog Posts', type: 'rss'      },
+    { label: 'Video',      type: 'video'    },
+    { label: 'Podcasts',   type: 'audio'    },
+  ];
+  for (const g of typeGroups) {
+    const feeds = allFeeds.filter(f => f.type === g.type);
+    if (!feeds.length) continue;
+    const og = document.createElement('optgroup');
+    og.label = g.label;
+    feeds.forEach(f => {
+      const opt = document.createElement('option');
+      opt.value = f.label;
+      opt.textContent = f.label;
+      if (f.label === selectedSource) opt.selected = true;
+      og.appendChild(opt);
+    });
+    sel.appendChild(og);
+  }
+
+  function syncDayPillState() {
+    bar.querySelectorAll('.day-range-pill').forEach(b => {
+      b.style.opacity = selectedSource ? '0.35' : '';
+      b.style.pointerEvents = selectedSource ? 'none' : '';
+    });
+  }
+
+  sel.onchange = () => {
+    selectedSource = sel.value || null;
+    sel.classList.toggle('active', !!selectedSource);
+    syncDayPillState();
+    renderAll(document.getElementById('search').value.toLowerCase().trim());
+  };
+  syncDayPillState();
+  bar.insertBefore(sel, sw);
 }
 
 function makePill(label, color, catId) {
@@ -853,19 +921,21 @@ function renderAll(query) {
   let delay = 0;
 
   function withinWindow(item) {
+    if (selectedSource) return true;
     const pub = item.pubDate ? new Date(item.pubDate) : null;
     return pub && (now - pub.getTime()) < threshold;
   }
   function matchesQuery(item) {
     return !query || (item.title + ' ' + (item.summary||'')).toLowerCase().includes(query);
   }
+  const showEmpty = !query && !selectedSource;
 
   // Official (vendor) section — rendered first
-  const vendorFeeds = allFeeds.filter(f => f.type === 'official');
-  const vendorItems = vendorFeeds.flatMap(f =>
-    (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i))
-  );
-  if (vendorItems.length || !query) {
+  const vendorFeeds = allFeeds
+    .filter(f => f.type === 'official' && (!selectedSource || f.label === selectedSource))
+    .map(f => ({ ...f, items: (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i)) }));
+  const vendorItems = vendorFeeds.flatMap(f => f.items);
+  if (vendorItems.length || showEmpty) {
     container.appendChild(buildVendorSection(vendorFeeds, delay, query));
     delay += 45;
   }
@@ -874,13 +944,14 @@ function renderAll(query) {
   const articleItems = [];
   for (const feed of allFeeds) {
     if (feed.type !== 'rss') continue;
+    if (selectedSource && feed.label !== selectedSource) continue;
     for (const item of (feed.items || [])) {
       if (withinWindow(item) && matchesQuery(item))
         articleItems.push({ ...item, _feedLabel: feed.label, _feedBadge: feed.badge || null, _sectionColor: ARTICLES_CAT.color });
     }
   }
   articleItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  if (articleItems.length || !query) {
+  if (articleItems.length || showEmpty) {
     container.appendChild(buildBlogPostsSection(articleItems, delay, query));
     delay += 45;
   }
@@ -888,7 +959,7 @@ function renderAll(query) {
   // Audio and Video — per-source cards, filtered to newDays window
   for (const cat of CATEGORIES) {
     const feeds = allFeeds
-      .filter(f => f.type === cat.id)
+      .filter(f => f.type === cat.id && (!selectedSource || f.label === selectedSource))
       .map(f => ({ ...f, items: (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i)) }))
       .filter(f => f.items.length > 0);
     if (!feeds.length) continue;
