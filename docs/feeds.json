@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T21:52:09.648Z",
+  "generatedAt": "2026-05-30T03:28:04.744Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -15,10 +15,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
+            "mcp",
             "security",
             "AI",
-            "AI agents",
-            "mcp"
+            "AI agents"
           ],
           "type": "rss"
         },
@@ -45,10 +45,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
+            "deployment",
             "remote management",
             "remote control",
-            "intune",
-            "deployment"
+            "intune"
           ],
           "type": "rss"
         },
@@ -81,7 +81,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:52.662Z",
+      "fetchedAt": "2026-05-30T03:27:40.095Z",
       "error": null
     },
     {
@@ -89,84 +89,9 @@
       "label": "petervanderwoude.nl",
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
-      "items": [
-        {
-          "title": "Using sensitivity labels for protecting labeled content in Microsoft 365 online apps",
-          "link": "https://petervanderwoude.nl/post/using-sensitivity-labels-for-protecting-labeled-content-in-microsoft-365-online-apps/",
-          "pubDate": "2026-05-25T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Edge",
-            "Microsoft Edge for Business",
-            "Microsoft Edge management service",
-            "Microsoft Intune",
-            "Microsoft Purview"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Introducing enhanced app inventory for Windows devices",
-          "link": "https://petervanderwoude.nl/post/introducing-enhanced-app-inventory-for-windows-devices/",
-          "pubDate": "2026-05-18T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "App inventory",
-            "Device inventory",
-            "Microsoft Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Dynamically removing preinstalled Microsoft Store apps using native functionality",
-          "link": "https://petervanderwoude.nl/post/dynamically-removing-preinstalled-microsoft-store-apps-using-native-functionality/",
-          "pubDate": "2026-05-11T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Intune",
-            "Settings Catalog",
-            "Windows 11",
-            "ADMX",
-            "ADMX-backed"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Locking down Windows devices by suppressing key combinations",
-          "link": "https://petervanderwoude.nl/post/locking-down-windows-devices-by-suppressing-key-combinations/",
-          "pubDate": "2026-05-04T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Intune",
-            "Windows 11",
-            "Keyboard Filter",
-            "Powershell",
-            "Win32 app"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Introducing cross-tenant support for MAM on Windows devices",
-          "link": "https://petervanderwoude.nl/post/introducing-cross-tenant-support-for-mam-on-windows-devices/",
-          "pubDate": "2026-04-27T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "MAM",
-            "MAM for Windows",
-            "Microsoft Intune",
-            "Windows 11",
-            "Cross-tenant support"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-05-29T21:51:52.518Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-30T03:27:47.969Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "andrewstaylor",
@@ -231,7 +156,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:53.035Z",
+      "fetchedAt": "2026-05-30T03:27:40.383Z",
       "error": null
     },
     {
@@ -241,7 +166,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-29T21:51:52.272Z",
+      "fetchedAt": "2026-05-30T03:27:39.618Z",
       "error": "HTTP 403"
     },
     {
@@ -296,7 +221,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:53.300Z",
+      "fetchedAt": "2026-05-30T03:27:48.149Z",
       "error": null
     },
     {
@@ -361,7 +286,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:53.309Z",
+      "fetchedAt": "2026-05-30T03:27:48.248Z",
       "error": null
     },
     {
@@ -446,7 +371,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:53.512Z",
+      "fetchedAt": "2026-05-30T03:27:48.153Z",
       "error": null
     },
     {
@@ -454,73 +379,9 @@
       "label": "intunestuff.com",
       "type": "rss",
       "url": "https://joostgelijsteen.com/feed/",
-      "items": [
-        {
-          "title": "App Inventory in Intune just got a serious Upgrade",
-          "link": "https://joostgelijsteen.com/app-inventory-in-intune-just-got-a-upgrade/",
-          "pubDate": "2026-05-05T07:36:23.000Z",
-          "summary": "The old Discovered apps report had one fundamental problem. It refreshed on a seven-day cycle. By the time data reached you, it was already stale. Decisions made on week-old software inventory are decisions made with incomplete information, and in environments where applications install and change c",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "Intune",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Edge (MAM) on iOS Keeps removing the Work Account after Sign-in!: Why one Broken identity breaks it All",
-          "link": "https://joostgelijsteen.com/why-edge-mam-ios-keeps-removing-work-account/",
-          "pubDate": "2026-03-12T09:47:41.000Z",
-          "summary": "Right after enabling App Protection Policies (MAM) for iOS, one user suddenly couldn’t open any protected company data in Edge. Every time the user signed in with his work profile, the account appeared for a second, then vanished. Outlook and Teams still worked fine. Conditional Access wasn’t the is",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "Intune",
-            "MAM",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Designing an App Protection Policy that don’t backfire on your unmanaged devices",
-          "link": "https://joostgelijsteen.com/designing-app-protection-policy/",
-          "pubDate": "2026-03-06T08:25:50.000Z",
-          "summary": "An App Protection Policy for unmanaged devices is often described as a lighter form of device management. That description is inaccurate. It is not a reduced version of MDM. It exists because there is no device control in the first place. In an unmanaged scenario, the device is not enrolled. There i",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "MAM",
-            "Intune",
-            "security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Mobile Application Management Explained: How Intune MAM Works!",
-          "link": "https://joostgelijsteen.com/mobile-application-management-explained/",
-          "pubDate": "2026-02-23T09:32:35.000Z",
-          "summary": "Mobile Application Management protects corporate data inside mobile apps while leaving the device unmanaged. The protection boundary sits around the app, the signed in identity, and the work data, so you can secure information on personal, shared, partner, or contractor devices without enrollment or",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "Intune",
-            "MAM",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows device configuration policies are moving to Settings catalog template. What you need to know",
-          "link": "https://joostgelijsteen.com/settings-catalog-template/",
-          "pubDate": "2025-04-29T11:49:40.000Z",
-          "summary": "In recent months, Microsoft has been rolling out an important change that impacts how we configure Windows devices through Intune. If you’ve been using device configuration profiles based on the “Templates” (such as Endpoint Protection, Edition Upgrade, or Firewall settings), there’s now a shift und",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-05-29T21:51:53.977Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-30T03:27:48.537Z",
+      "error": ""
     },
     {
       "id": "zerotrust",
@@ -528,7 +389,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-29T21:51:54.068Z",
+      "fetchedAt": "2026-05-30T03:27:48.660Z",
       "error": "HTTP 403"
     },
     {
@@ -606,7 +467,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:55.657Z",
+      "fetchedAt": "2026-05-30T03:27:50.321Z",
       "error": null
     },
     {
@@ -615,7 +476,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-29T21:51:54.330Z",
+      "fetchedAt": "2026-05-30T03:27:48.947Z",
       "error": "certificate has expired"
     },
     {
@@ -691,7 +552,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:54.830Z",
+      "fetchedAt": "2026-05-30T03:27:49.356Z",
       "error": null
     },
     {
@@ -768,7 +629,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:55.911Z",
+      "fetchedAt": "2026-05-30T03:27:50.696Z",
       "error": null
     },
     {
@@ -777,65 +638,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
-          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
-          "pubDate": "2026-05-15T14:47:47.000Z",
-          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
-          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
-          "pubDate": "2026-05-06T20:30:40.000Z",
-          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
-          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
-          "pubDate": "2026-04-27T15:00:17.000Z",
-          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-05-29T21:51:56.201Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-30T03:27:50.485Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -889,7 +694,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:56.103Z",
+      "fetchedAt": "2026-05-30T03:27:50.766Z",
       "error": null
     },
     {
@@ -968,7 +773,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:56.508Z",
+      "fetchedAt": "2026-05-30T03:27:51.297Z",
       "error": null
     },
     {
@@ -1049,7 +854,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:56.620Z",
+      "fetchedAt": "2026-05-30T03:27:51.416Z",
       "error": null
     },
     {
@@ -1129,7 +934,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:58.167Z",
+      "fetchedAt": "2026-05-30T03:27:53.525Z",
       "error": null
     },
     {
@@ -1214,7 +1019,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:56.818Z",
+      "fetchedAt": "2026-05-30T03:27:51.534Z",
       "error": null
     },
     {
@@ -1270,7 +1075,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:56.896Z",
+      "fetchedAt": "2026-05-30T03:27:51.611Z",
       "error": null
     },
     {
@@ -1356,7 +1161,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:59.278Z",
+      "fetchedAt": "2026-05-30T03:27:54.694Z",
       "error": null
     },
     {
@@ -1442,7 +1247,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:58.215Z",
+      "fetchedAt": "2026-05-30T03:27:53.642Z",
       "error": null
     },
     {
@@ -1526,7 +1331,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:58.251Z",
+      "fetchedAt": "2026-05-30T03:27:53.796Z",
       "error": null
     },
     {
@@ -1581,7 +1386,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:58.238Z",
+      "fetchedAt": "2026-05-30T03:27:53.680Z",
       "error": null
     },
     {
@@ -1646,7 +1451,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:59.548Z",
+      "fetchedAt": "2026-05-30T03:27:55.031Z",
       "error": null
     },
     {
@@ -1731,7 +1536,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:00.072Z",
+      "fetchedAt": "2026-05-30T03:27:55.628Z",
       "error": null
     },
     {
@@ -1787,7 +1592,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:00.060Z",
+      "fetchedAt": "2026-05-30T03:27:55.441Z",
       "error": null
     },
     {
@@ -1852,7 +1657,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:51:59.955Z",
+      "fetchedAt": "2026-05-30T03:27:55.405Z",
       "error": null
     },
     {
@@ -1860,81 +1665,9 @@
       "label": "allthingscloud.blog",
       "type": "rss",
       "url": "https://allthingscloud.blog/feed/",
-      "items": [
-        {
-          "title": "macOS Impact Analysis with Intune: Measure Twice, Restrict Once",
-          "link": "https://allthingscloud.blog/macos-impact-analysis-intune/",
-          "pubDate": "2026-03-24T01:34:27.000Z",
-          "summary": "Last Updated on March 24, 2026 by Oktay Sari You have read the CIS benchmark. You have gone through BIO (Baseline Informatiebeveiliging Overheid). Maybe you even run the mSCP compliance audit. The recommendations are clear: disable iCloud Desktop & Documents Sync, disable AirDrop, block Apple Intell",
-          "author": "Oktay Sari",
-          "categories": [
-            "bash",
-            "CIS Benchmarks",
-            "Enterprise Mobility + Security",
-            "Intune",
-            "macOS"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Hunting Duplicate Device Records in Microsoft Defender",
-          "link": "https://allthingscloud.blog/duplicate-device-records-microsoft-defender-endpoint/",
-          "pubDate": "2026-02-19T18:08:54.000Z",
-          "summary": "Last Updated on February 20, 2026 by Oktay Sari “The same kind of script is sorely needed for Defender. It uses hostname as the unique identifier for Macs so any device name change creates a new record and uses up a license. It’s bonkers.” That was Luke on LinkedIn, commenting on my Entra ID duplica",
-          "author": "Oktay Sari",
-          "categories": [
-            "Cyber Security",
-            "Defender for Endpoint",
-            "macOS",
-            "PowerShell",
-            "Scripting"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "The Hidden Life of Duplicate macOS Device Records in Entra ID",
-          "link": "https://allthingscloud.blog/duplicate-macos-device-records-entra-id/",
-          "pubDate": "2026-02-13T20:45:06.000Z",
-          "summary": "Last Updated on February 14, 2026 by Oktay Sari Picture this; You open the Entra ID portal, search for one of your managed Macs, and find three device records staring back at you. One says “MacMDM,” another says “macOS,” and the third looks like it hasn’t checked in since last summer. Which one is r",
-          "author": "Oktay Sari",
-          "categories": [
-            "Enterprise Mobility + Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Auditing Homebrew Security with Microsoft Intune: Detect Supply Chain Risks on Your Mac Fleet",
-          "link": "https://allthingscloud.blog/auditing-homebrew-security-intune-mac-fleet/",
-          "pubDate": "2026-01-31T20:24:13.000Z",
-          "summary": "Last Updated on February 1, 2026 by Oktay Sari Let’s be real: Homebrew is amazing. It’s the missing package manager for macOS that every developer loves. However, in an enterprise environment, Homebrew can also be a security nightmare waiting to happen. World-writable binaries? Third-party taps from",
-          "author": "Oktay Sari",
-          "categories": [
-            "bash",
-            "Cyber Security",
-            "Enterprise Mobility + Security",
-            "Intune",
-            "macOS"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "How to Update Your Apple Account When Your Organization Reclaims the Domain",
-          "link": "https://allthingscloud.blog/update-apple-id-work-email/",
-          "pubDate": "2026-01-22T09:35:39.000Z",
-          "summary": "Last Updated on January 22, 2026 by Oktay Sari Your Work Email Can’t Be Your Apple Account Anymore: Here’s What to Do A step-by-step guide to updating your Apple Account when your organization reclaims their domain So you just got an email from Apple telling you to change your Apple ID email address",
-          "author": "Oktay Sari",
-          "categories": [
-            "Apple Business Manager",
-            "iOS",
-            "macOS",
-            "MDM",
-            "Microsoft Intune"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-05-29T21:52:01.775Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-05-30T03:27:56.035Z",
+      "error": ""
     },
     {
       "id": "macadminsnews",
@@ -1942,7 +1675,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-29T21:52:00.572Z",
+      "fetchedAt": "2026-05-30T03:27:56.273Z",
       "error": "HTTP 404"
     },
     {
@@ -1951,7 +1684,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-29T21:52:00.242Z",
+      "fetchedAt": "2026-05-30T03:27:55.901Z",
       "error": "HTTP 403"
     },
     {
@@ -2031,7 +1764,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:00.315Z",
+      "fetchedAt": "2026-05-30T03:27:55.974Z",
       "error": null
     },
     {
@@ -2104,7 +1837,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.052Z",
+      "fetchedAt": "2026-05-30T03:27:56.503Z",
       "error": null
     },
     {
@@ -2123,7 +1856,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.001Z",
+      "fetchedAt": "2026-05-30T03:27:56.581Z",
       "error": null
     },
     {
@@ -2178,7 +1911,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.234Z",
+      "fetchedAt": "2026-05-30T03:27:56.625Z",
       "error": null
     },
     {
@@ -2264,7 +1997,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.095Z",
+      "fetchedAt": "2026-05-30T03:27:56.931Z",
       "error": null
     },
     {
@@ -2330,7 +2063,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/a-yuXz_uV30/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.331Z",
+      "fetchedAt": "2026-05-30T03:27:57.252Z",
       "error": null
     },
     {
@@ -2395,7 +2128,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/s91JEJhw_G0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.507Z",
+      "fetchedAt": "2026-05-30T03:27:57.278Z",
       "error": null
     },
     {
@@ -2460,7 +2193,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3Z9IxjL7B0Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.422Z",
+      "fetchedAt": "2026-05-30T03:27:57.342Z",
       "error": null
     },
     {
@@ -2526,7 +2259,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CKyz-Ysc7fg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.483Z",
+      "fetchedAt": "2026-05-30T03:27:57.254Z",
       "error": null
     },
     {
@@ -2592,7 +2325,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/31c0n2NwlNk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.591Z",
+      "fetchedAt": "2026-05-30T03:27:57.463Z",
       "error": null
     },
     {
@@ -2658,7 +2391,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0sJtdDqiHwU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.593Z",
+      "fetchedAt": "2026-05-30T03:27:57.440Z",
       "error": null
     },
     {
@@ -2723,7 +2456,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/398f_rK0tSk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.598Z",
+      "fetchedAt": "2026-05-30T03:27:57.505Z",
       "error": null
     },
     {
@@ -2789,7 +2522,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/XBwzqJAwTMs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.753Z",
+      "fetchedAt": "2026-05-30T03:27:57.458Z",
       "error": null
     },
     {
@@ -2854,7 +2587,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/nMhBGuKBaRA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.842Z",
+      "fetchedAt": "2026-05-30T03:27:57.614Z",
       "error": null
     },
     {
@@ -2919,7 +2652,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.837Z",
+      "fetchedAt": "2026-05-30T03:27:57.641Z",
       "error": null
     },
     {
@@ -2984,7 +2717,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/SV0qfjG1Vs4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.829Z",
+      "fetchedAt": "2026-05-30T03:27:57.600Z",
       "error": null
     },
     {
@@ -3049,7 +2782,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.894Z",
+      "fetchedAt": "2026-05-30T03:27:57.629Z",
       "error": null
     },
     {
@@ -3114,7 +2847,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_oYViCGMr3U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:03.010Z",
+      "fetchedAt": "2026-05-30T03:27:57.786Z",
       "error": null
     },
     {
@@ -3179,7 +2912,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:02.983Z",
+      "fetchedAt": "2026-05-30T03:27:57.764Z",
       "error": null
     },
     {
@@ -3235,7 +2968,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:03.172Z",
+      "fetchedAt": "2026-05-30T03:27:57.885Z",
       "error": null
     },
     {
@@ -3245,7 +2978,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-29T21:52:03.112Z",
+      "fetchedAt": "2026-05-30T03:27:58.022Z",
       "error": null
     },
     {
@@ -3311,7 +3044,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:03.936Z",
+      "fetchedAt": "2026-05-30T03:27:59.409Z",
       "error": null
     },
     {
@@ -3367,7 +3100,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:03.757Z",
+      "fetchedAt": "2026-05-30T03:27:58.098Z",
       "error": null
     },
     {
@@ -3396,7 +3129,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:03.816Z",
+      "fetchedAt": "2026-05-30T03:27:58.562Z",
       "error": null
     },
     {
@@ -3452,7 +3185,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:03.703Z",
+      "fetchedAt": "2026-05-30T03:27:58.154Z",
       "error": null
     },
     {
@@ -3462,7 +3195,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-29T21:52:04.538Z",
+      "fetchedAt": "2026-05-30T03:27:59.751Z",
       "error": null
     },
     {
@@ -3518,7 +3251,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:04.416Z",
+      "fetchedAt": "2026-05-30T03:27:59.448Z",
       "error": null
     },
     {
@@ -3538,7 +3271,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:03.973Z",
+      "fetchedAt": "2026-05-30T03:27:59.496Z",
       "error": null
     },
     {
@@ -3594,7 +3327,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:08.483Z",
+      "fetchedAt": "2026-05-30T03:28:03.926Z",
       "error": null
     },
     {
@@ -3650,7 +3383,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:09.244Z",
+      "fetchedAt": "2026-05-30T03:28:04.657Z",
       "error": null
     },
     {
@@ -3705,7 +3438,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:08.643Z",
+      "fetchedAt": "2026-05-30T03:28:04.171Z",
       "error": null
     },
     {
@@ -3760,7 +3493,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:08.770Z",
+      "fetchedAt": "2026-05-30T03:28:04.151Z",
       "error": null
     },
     {
@@ -3825,7 +3558,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-29T21:52:09.648Z",
+      "fetchedAt": "2026-05-30T03:28:04.744Z",
       "error": null
     }
   ]
