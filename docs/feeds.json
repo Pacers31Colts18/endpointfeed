@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T07:46:30.367Z",
+  "generatedAt": "2026-05-31T10:16:30.208Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -45,10 +45,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "intune",
             "deployment",
             "remote management",
-            "remote control"
+            "remote control",
+            "intune"
           ],
           "type": "rss"
         },
@@ -60,10 +60,10 @@
           "author": "IT Experts",
           "categories": [
             "Articles",
-            "AI",
-            "AI agents",
             "cloud computing",
-            "database"
+            "database",
+            "AI",
+            "AI agents"
           ],
           "type": "rss"
         },
@@ -81,7 +81,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:06.881Z",
+      "fetchedAt": "2026-05-31T10:16:08.310Z",
       "error": null
     },
     {
@@ -165,7 +165,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:07.070Z",
+      "fetchedAt": "2026-05-31T10:16:08.450Z",
       "error": null
     },
     {
@@ -231,7 +231,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:07.367Z",
+      "fetchedAt": "2026-05-31T10:16:08.943Z",
       "error": null
     },
     {
@@ -241,7 +241,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-05-31T07:46:06.867Z",
+      "fetchedAt": "2026-05-31T10:16:07.903Z",
       "error": "HTTP 403"
     },
     {
@@ -296,7 +296,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:07.485Z",
+      "fetchedAt": "2026-05-31T10:16:09.108Z",
       "error": null
     },
     {
@@ -361,7 +361,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:07.790Z",
+      "fetchedAt": "2026-05-31T10:16:09.535Z",
       "error": null
     },
     {
@@ -446,7 +446,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:07.516Z",
+      "fetchedAt": "2026-05-31T10:16:09.090Z",
       "error": null
     },
     {
@@ -519,7 +519,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:08.109Z",
+      "fetchedAt": "2026-05-31T10:16:09.940Z",
       "error": null
     },
     {
@@ -528,7 +528,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-05-31T07:46:08.186Z",
+      "fetchedAt": "2026-05-31T10:16:09.996Z",
       "error": "HTTP 403"
     },
     {
@@ -606,7 +606,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:09.577Z",
+      "fetchedAt": "2026-05-31T10:16:11.798Z",
       "error": null
     },
     {
@@ -615,7 +615,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-31T07:46:08.365Z",
+      "fetchedAt": "2026-05-31T10:16:10.301Z",
       "error": "certificate has expired"
     },
     {
@@ -623,9 +623,76 @@
       "label": "Niall Brady - niallbrady.com",
       "type": "rss",
       "url": "https://www.niallbrady.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-05-31T07:46:16.456Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Using a Windows 365 Cloud PC via a USB-C connected iPhone",
+          "link": "https://www.niallbrady.com/2026/04/26/using-a-windows-365-cloud-pc-via-a-usb-c-connected-iphone/",
+          "pubDate": "2026-04-26T19:57:42.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [
+            "Surface Arc Mouse",
+            "USB-C connection via iPhone",
+            "Windows 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "First looks at resizing Frontline Dedicated Cloud PC’s",
+          "link": "https://www.niallbrady.com/2026/03/22/first-looks-at-resizing-frontline-dedicated-cloud-pcs/",
+          "pubDate": "2026-03-22T19:05:24.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [
+            "Frontline Dedicated",
+            "Windows 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "First looks at the Remote Desktop Client app migration tool",
+          "link": "https://www.niallbrady.com/2026/03/08/first-looks-at-the-remote-desktop-client-app-migration-tool/",
+          "pubDate": "2026-03-08T19:07:10.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [
+            "migration tool to windows app",
+            "remote desktop client migration",
+            "Windows 365",
+            "Windows app"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "First looks at Frontline Shared UES",
+          "link": "https://www.niallbrady.com/2026/02/02/first-looks-at-frontline-shared-ues/",
+          "pubDate": "2026-02-02T19:44:34.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [
+            "Windows 365",
+            "Windows 365 Frontline",
+            "cloud apps",
+            "cloud pc",
+            "frontline"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "January 2026 Cumulative Update breaks Windows app",
+          "link": "https://www.niallbrady.com/2026/01/19/january-2026-cumulative-update-breaks-windows-app/",
+          "pubDate": "2026-01-19T11:41:24.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [
+            "update breaks app",
+            "Windows 365"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-05-31T10:16:10.807Z",
+      "error": null
     },
     {
       "id": "garytown",
@@ -701,7 +768,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:16.827Z",
+      "fetchedAt": "2026-05-31T10:16:12.311Z",
       "error": null
     },
     {
@@ -710,9 +777,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-05-31T07:46:16.605Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
+          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
+          "pubDate": "2026-05-29T15:34:28.000Z",
+          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
+          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
+          "pubDate": "2026-05-19T05:58:43.000Z",
+          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
+          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
+          "pubDate": "2026-05-15T14:47:47.000Z",
+          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
+          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
+          "pubDate": "2026-05-06T20:30:40.000Z",
+          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
+          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
+          "pubDate": "2026-04-27T15:00:17.000Z",
+          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-05-31T10:16:12.418Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -766,7 +889,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:16.905Z",
+      "fetchedAt": "2026-05-31T10:16:12.157Z",
       "error": null
     },
     {
@@ -845,7 +968,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:16.777Z",
+      "fetchedAt": "2026-05-31T10:16:12.024Z",
       "error": null
     },
     {
@@ -926,7 +1049,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:17.026Z",
+      "fetchedAt": "2026-05-31T10:16:12.525Z",
       "error": null
     },
     {
@@ -1006,7 +1129,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:18.650Z",
+      "fetchedAt": "2026-05-31T10:16:14.404Z",
       "error": null
     },
     {
@@ -1091,7 +1214,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:17.181Z",
+      "fetchedAt": "2026-05-31T10:16:12.606Z",
       "error": null
     },
     {
@@ -1147,7 +1270,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:17.218Z",
+      "fetchedAt": "2026-05-31T10:16:12.737Z",
       "error": null
     },
     {
@@ -1233,7 +1356,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:19.815Z",
+      "fetchedAt": "2026-05-31T10:16:19.964Z",
       "error": null
     },
     {
@@ -1319,7 +1442,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:18.712Z",
+      "fetchedAt": "2026-05-31T10:16:14.453Z",
       "error": null
     },
     {
@@ -1403,7 +1526,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:18.827Z",
+      "fetchedAt": "2026-05-31T10:16:14.512Z",
       "error": null
     },
     {
@@ -1458,7 +1581,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:18.967Z",
+      "fetchedAt": "2026-05-31T10:16:14.582Z",
       "error": null
     },
     {
@@ -1523,7 +1646,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:20.106Z",
+      "fetchedAt": "2026-05-31T10:16:20.110Z",
       "error": null
     },
     {
@@ -1608,7 +1731,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:20.498Z",
+      "fetchedAt": "2026-05-31T10:16:20.954Z",
       "error": null
     },
     {
@@ -1664,7 +1787,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:20.363Z",
+      "fetchedAt": "2026-05-31T10:16:20.807Z",
       "error": null
     },
     {
@@ -1729,7 +1852,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:20.446Z",
+      "fetchedAt": "2026-05-31T10:16:20.373Z",
       "error": null
     },
     {
@@ -1810,7 +1933,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:21.139Z",
+      "fetchedAt": "2026-05-31T10:16:21.947Z",
       "error": null
     },
     {
@@ -1819,7 +1942,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-05-31T07:46:20.918Z",
+      "fetchedAt": "2026-05-31T10:16:21.606Z",
       "error": "HTTP 404"
     },
     {
@@ -1828,7 +1951,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-05-31T07:46:20.662Z",
+      "fetchedAt": "2026-05-31T10:16:21.070Z",
       "error": "HTTP 403"
     },
     {
@@ -1908,7 +2031,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:20.752Z",
+      "fetchedAt": "2026-05-31T10:16:21.120Z",
       "error": null
     },
     {
@@ -1981,7 +2104,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:21.297Z",
+      "fetchedAt": "2026-05-31T10:16:22.126Z",
       "error": null
     },
     {
@@ -2000,7 +2123,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:21.223Z",
+      "fetchedAt": "2026-05-31T10:16:22.003Z",
       "error": null
     },
     {
@@ -2055,7 +2178,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:21.532Z",
+      "fetchedAt": "2026-05-31T10:16:22.085Z",
       "error": null
     },
     {
@@ -2141,7 +2264,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:21.418Z",
+      "fetchedAt": "2026-05-31T10:16:22.119Z",
       "error": null
     },
     {
@@ -2207,7 +2330,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/a-yuXz_uV30/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:21.575Z",
+      "fetchedAt": "2026-05-31T10:16:22.276Z",
       "error": null
     },
     {
@@ -2272,7 +2395,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/s91JEJhw_G0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:22.785Z",
+      "fetchedAt": "2026-05-31T10:16:22.325Z",
       "error": null
     },
     {
@@ -2281,6 +2404,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ",
       "items": [
+        {
+          "title": "5 Passkey Rollout Lessons Every Identity Team Should Know",
+          "link": "https://www.youtube.com/watch?v=AVYTbkAtLk4",
+          "pubDate": "2026-05-31T08:08:52.000Z",
+          "summary": "Passkeys are one of those technologies that sound simple on paper. Turn them on. Users register them. Passwords go away. Everyone is more secure. But in the real world, passkey rollouts are not just an authentication setting. They are a product rollout, a user experience change, a support change, an",
+          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "AVYTbkAtLk4",
+          "thumbnail": "https://i2.ytimg.com/vi/AVYTbkAtLk4/hqdefault.jpg"
+        },
         {
           "title": "Deep Dive: The New Control Plane for Microsoft Entra Tenant Governance",
           "link": "https://www.youtube.com/watch?v=HW2Dizq2PU4",
@@ -2324,20 +2458,9 @@
           "type": "video",
           "videoId": "3QK8ro-Py8Q",
           "thumbnail": "https://i4.ytimg.com/vi/3QK8ro-Py8Q/hqdefault.jpg"
-        },
-        {
-          "title": "How to Secure Copilot Agents, Azure DevOps & Defender with Maester 2.1 (Full Breakdown)",
-          "link": "https://www.youtube.com/watch?v=3Z9IxjL7B0Y",
-          "pubDate": "2026-05-02T15:12:49.000Z",
-          "summary": "Maester 2.1 is here — and it’s one of the biggest community-driven release yet. In this episode of Entra Chat, Merill is joined by Microsoft MVP and Maester core maintainer Sam Erde, to break down everything new in the open-source Microsoft 365 & Entra ID security testing framework. Even if you only",
-          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "3Z9IxjL7B0Y",
-          "thumbnail": "https://i4.ytimg.com/vi/3Z9IxjL7B0Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:21.733Z",
+      "fetchedAt": "2026-05-31T10:16:22.285Z",
       "error": null
     },
     {
@@ -2403,7 +2526,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CKyz-Ysc7fg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:21.652Z",
+      "fetchedAt": "2026-05-31T10:16:22.269Z",
       "error": null
     },
     {
@@ -2469,7 +2592,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/31c0n2NwlNk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:22.957Z",
+      "fetchedAt": "2026-05-31T10:16:22.562Z",
       "error": null
     },
     {
@@ -2479,6 +2602,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg",
       "items": [
+        {
+          "title": "Entra ID Security Defaults: What They Are & When to Turn Them Off",
+          "link": "https://www.youtube.com/watch?v=y477nA75Mo0",
+          "pubDate": "2026-05-31T08:07:56.000Z",
+          "summary": "Security Defaults are Microsoft's built-in baseline protection for every Microsoft 365 tenant - but most IT admins either don't fully understand what they do, or disable them without replacing them with anything. Both are a problem. In this video I break down exactly what Security Defaults are, who ",
+          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "y477nA75Mo0",
+          "thumbnail": "https://i2.ytimg.com/vi/y477nA75Mo0/hqdefault.jpg"
+        },
         {
           "title": "The Microsoft 365 Backup That Puts YOU in Control | MSP360",
           "link": "https://www.youtube.com/watch?v=yUZj6Oh3L4k",
@@ -2522,20 +2656,9 @@
           "type": "video",
           "videoId": "vvBykszNXwU",
           "thumbnail": "https://i3.ytimg.com/vi/vvBykszNXwU/hqdefault.jpg"
-        },
-        {
-          "title": "3 Conditional Access Policies Every Microsoft 365 Tenant Needs Day One",
-          "link": "https://www.youtube.com/watch?v=0sJtdDqiHwU",
-          "pubDate": "2026-05-08T10:00:08.000Z",
-          "summary": "Your Microsoft 365 tenant is wide open without these three Conditional Access policies. Download my FREE conditional access baseline - https://cabaseline.bearded365guy.com/ In this video I walk through the exact 3 Conditional Access policies that should be configured in every Microsoft 365 tenant on",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "0sJtdDqiHwU",
-          "thumbnail": "https://i1.ytimg.com/vi/0sJtdDqiHwU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:22.903Z",
+      "fetchedAt": "2026-05-31T10:16:22.591Z",
       "error": null
     },
     {
@@ -2600,7 +2723,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/398f_rK0tSk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:22.898Z",
+      "fetchedAt": "2026-05-31T10:16:22.687Z",
       "error": null
     },
     {
@@ -2666,7 +2789,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/XBwzqJAwTMs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:22.957Z",
+      "fetchedAt": "2026-05-31T10:16:22.561Z",
       "error": null
     },
     {
@@ -2731,7 +2854,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/nMhBGuKBaRA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:23.041Z",
+      "fetchedAt": "2026-05-31T10:16:22.835Z",
       "error": null
     },
     {
@@ -2796,7 +2919,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:23.044Z",
+      "fetchedAt": "2026-05-31T10:16:22.799Z",
       "error": null
     },
     {
@@ -2861,7 +2984,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/SV0qfjG1Vs4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:23.116Z",
+      "fetchedAt": "2026-05-31T10:16:22.841Z",
       "error": null
     },
     {
@@ -2926,7 +3049,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:23.116Z",
+      "fetchedAt": "2026-05-31T10:16:22.869Z",
       "error": null
     },
     {
@@ -2991,7 +3114,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_oYViCGMr3U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:23.593Z",
+      "fetchedAt": "2026-05-31T10:16:23.111Z",
       "error": null
     },
     {
@@ -3056,7 +3179,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:23.333Z",
+      "fetchedAt": "2026-05-31T10:16:23.217Z",
       "error": null
     },
     {
@@ -3112,7 +3235,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:23.357Z",
+      "fetchedAt": "2026-05-31T10:16:23.090Z",
       "error": null
     },
     {
@@ -3122,7 +3245,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-05-31T07:46:23.313Z",
+      "fetchedAt": "2026-05-31T10:16:23.090Z",
       "error": null
     },
     {
@@ -3188,7 +3311,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:25.024Z",
+      "fetchedAt": "2026-05-31T10:16:24.700Z",
       "error": null
     },
     {
@@ -3244,7 +3367,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:24.088Z",
+      "fetchedAt": "2026-05-31T10:16:23.481Z",
       "error": null
     },
     {
@@ -3273,7 +3396,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:24.021Z",
+      "fetchedAt": "2026-05-31T10:16:23.469Z",
       "error": null
     },
     {
@@ -3329,7 +3452,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:24.120Z",
+      "fetchedAt": "2026-05-31T10:16:23.559Z",
       "error": null
     },
     {
@@ -3339,7 +3462,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-05-31T07:46:25.167Z",
+      "fetchedAt": "2026-05-31T10:16:24.817Z",
       "error": null
     },
     {
@@ -3395,7 +3518,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:25.462Z",
+      "fetchedAt": "2026-05-31T10:16:24.999Z",
       "error": null
     },
     {
@@ -3415,7 +3538,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:25.093Z",
+      "fetchedAt": "2026-05-31T10:16:24.721Z",
       "error": null
     },
     {
@@ -3471,7 +3594,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:29.352Z",
+      "fetchedAt": "2026-05-31T10:16:29.309Z",
       "error": null
     },
     {
@@ -3527,7 +3650,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:29.901Z",
+      "fetchedAt": "2026-05-31T10:16:30.208Z",
       "error": null
     },
     {
@@ -3582,7 +3705,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:29.579Z",
+      "fetchedAt": "2026-05-31T10:16:29.413Z",
       "error": null
     },
     {
@@ -3637,7 +3760,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:29.535Z",
+      "fetchedAt": "2026-05-31T10:16:29.394Z",
       "error": null
     },
     {
@@ -3702,7 +3825,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-05-31T07:46:30.367Z",
+      "fetchedAt": "2026-05-31T10:16:30.056Z",
       "error": null
     }
   ]
