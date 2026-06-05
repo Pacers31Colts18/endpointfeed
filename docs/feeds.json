@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T08:07:22.373Z",
+  "generatedAt": "2026-06-05T14:52:08.707Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,76 +8,77 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "AI pioneer Geoffrey Hinton warns of conscious superintelligence and existential risk",
-          "link": "https://4sysops.com/archives/ai-pioneer-geoffrey-hinton-warns-of-conscious-superintelligence-and-existential-risk/",
-          "pubDate": "2026-06-05T00:14:59.000Z",
-          "summary": "Geoffrey Hinton, a foundational figure in deep learning, asserts that modern artificial intelligence already possesses consciousness and real understanding rather than acting as a simple statistical parrot. He identifies a shift in AI capability that occurred in 2023, noting that digital intelligenc",
+          "title": "Cloudflare AI Gateway introduces spend limits and identity-based cost tracking",
+          "link": "https://4sysops.com/archives/cloudflare-ai-gateway-introduces-spend-limits-and-identity-based-cost-tracking/",
+          "pubDate": "2026-06-05T14:03:44.000Z",
+          "summary": "Cloudflare has launched new spend control features within its AI Gateway to help organizations manage rising costs associated with large language models. The tool acts as a proxy between applications and AI providers like OpenAI or Anthropic to provide visibility into token usage. It now supports th",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "systems management"
+            "cloud computing",
+            "security"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft Coreutils for Windows: native Linux command-line tools",
-          "link": "https://4sysops.com/archives/microsoft-coreutils-for-windows-native-linux-command-line-tools/",
-          "pubDate": "2026-06-04T23:20:05.000Z",
-          "summary": "Microsoft announced Coreutils for Windows at Build 2026, making a set of Unix-style command-line tools available as native Windows applications. Built on an open-source Rust reimplementation of GNU coreutils, the package ships as a single binary. It bundles the standard coreutils, findutils, and a G",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "commands",
-            "powershell",
-            "windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "GitHub Copilot in Visual Studio 2026 adds planning agent and context management",
-          "link": "https://4sysops.com/archives/github-copilot-in-visual-studio-2026-adds-planning-agent-and-context-management/",
-          "pubDate": "2026-06-04T20:19:11.000Z",
-          "summary": "The May update for GitHub Copilot in Visual Studio 2026 introduces a dedicated Plan agent designed to assist with pre-coding architecture. This tool analyzes the existing codebase to draft implementation strategies in markdown format before any actual code is written. Once the strategy is finalized,",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "microsoft",
-            "vscode"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Nvidia and Microsoft partner to bring agentic AI systems to PCs and data centers",
-          "link": "https://4sysops.com/archives/nvidia-and-microsoft-partner-to-bring-agentic-ai-systems-to-pcs-and-data-centers/",
-          "pubDate": "2026-06-04T20:19:09.000Z",
-          "summary": "Microsoft and Nvidia are collaborating to transition personal computers from simple tools into autonomous assistants capable of performing complex tasks independently. These modern AI PCs leverage high-performance hardware and integrated software stacks to run sophisticated reasoning models locally ",
+          "title": "Cisco IT eliminates network outages through observability consolidation",
+          "link": "https://4sysops.com/archives/cisco-it-eliminates-network-outages-through-observability-consolidation/",
+          "pubDate": "2026-06-05T14:03:41.000Z",
+          "summary": "Cisco IT successfully addressed frequent network outages by consolidating its fragmented observability tools into a single platform. Previously, critical diagnostic data was scattered across various systems like Elastic, Prometheus, and Grafana, preventing teams from correlating signals during major",
           "author": "IT News",
           "categories": [
             "News",
             "AI agents",
-            "cloud computing",
-            "windows server 2025"
+            "monitoring",
+            "networking"
           ],
           "type": "rss"
         },
         {
-          "title": "AI industry leaders urge Congress to regulate synthetic DNA to prevent bioweapons",
-          "link": "https://4sysops.com/archives/ai-industry-leaders-urge-congress-to-regulate-synthetic-dna-to-prevent-bioweapons/",
-          "pubDate": "2026-06-04T20:19:08.000Z",
-          "summary": "The CEOs of major artificial intelligence firms, including OpenAI, Anthropic, Microsoft, and Google DeepMind, have signed a public letter calling for stricter oversight of synthetic DNA. This initiative aims to prevent bad actors from using advanced AI models to design or acquire dangerous pathogens",
+          "title": "Microsoft Edge replaces master passwords with Windows Hello authentication",
+          "link": "https://4sysops.com/archives/microsoft-edge-replaces-master-passwords-with-windows-hello-authentication/",
+          "pubDate": "2026-06-05T14:03:39.000Z",
+          "summary": "Microsoft is phasing out the custom master password feature in the Edge browser's built-in password manager. Starting June 4, 2026, the browser will transition all users to device-based authentication methods for protecting saved credentials. This shift aims to eliminate the risks associated with st",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "browser",
+            "microsoft",
+            "security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Uber implements AI spending caps after exhausting annual budget in four months",
+          "link": "https://4sysops.com/archives/uber-implements-ai-spending-caps-after-exhausting-annual-budget-in-four-months/",
+          "pubDate": "2026-06-05T14:03:37.000Z",
+          "summary": "Uber recently exhausted its entire 2026 AI budget by April after aggressively deploying coding tools across its engineering department. This rapid consumption was fueled by internal leaderboards that incentivized employees to maximize their use of generative models. To regain financial control, the ",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "openai",
+            "anthropic",
+            "microsoft"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Let’s Encrypt adopts Merkle Tree Certificates for post-quantum security",
+          "link": "https://4sysops.com/archives/lets-encrypt-adopts-merkle-tree-certificates-for-post-quantum-security/",
+          "pubDate": "2026-06-05T13:42:46.000Z",
+          "summary": "Let’s Encrypt is developing a post-quantum-safe Web PKI infrastructure using Merkle Tree Certificates (MTCs) to address future cryptographic threats. This approach aims to provide post-quantum authentication without the significant performance penalties associated with standard post-quantum signatur",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "microsoft",
+            "networking",
             "security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:06.466Z",
+      "fetchedAt": "2026-06-05T14:51:52.235Z",
       "error": null
     },
     {
@@ -160,7 +161,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:06.559Z",
+      "fetchedAt": "2026-06-05T14:51:52.250Z",
       "error": null
     },
     {
@@ -170,6 +171,17 @@
       "type": "rss",
       "url": "https://andrewstaylor.com/feed/",
       "items": [
+        {
+          "title": "Intune Newsletter – 5th June 2026",
+          "link": "https://andrewstaylor.com/2026/06/05/intune-newsletter-5th-june-2026/",
+          "pubDate": "2026-06-05T11:02:03.000Z",
+          "summary": "Read more]]>",
+          "author": "Andrew Taylor",
+          "categories": [
+            "Newsletter"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Intune Newsletter – 29th May 2026",
           "link": "https://andrewstaylor.com/2026/05/29/intune-newsletter-29th-may-2026/",
@@ -213,20 +225,9 @@
             "Newsletter"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 1st May 2026",
-          "link": "https://andrewstaylor.com/2026/05/01/intune-newsletter-1st-may-2026/",
-          "pubDate": "2026-05-01T10:49:22.000Z",
-          "summary": "Read more]]>",
-          "author": "Andrew Taylor",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:06.880Z",
+      "fetchedAt": "2026-06-05T14:51:52.675Z",
       "error": null
     },
     {
@@ -236,7 +237,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-05T08:07:06.307Z",
+      "fetchedAt": "2026-06-05T14:51:52.034Z",
       "error": "HTTP 403"
     },
     {
@@ -291,7 +292,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:07.044Z",
+      "fetchedAt": "2026-06-05T14:51:52.853Z",
       "error": null
     },
     {
@@ -356,7 +357,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:07.090Z",
+      "fetchedAt": "2026-06-05T14:51:52.905Z",
       "error": null
     },
     {
@@ -441,7 +442,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:07.065Z",
+      "fetchedAt": "2026-06-05T14:51:52.852Z",
       "error": null
     },
     {
@@ -514,7 +515,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:07.641Z",
+      "fetchedAt": "2026-06-05T14:51:53.466Z",
       "error": null
     },
     {
@@ -523,7 +524,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-05T08:07:07.915Z",
+      "fetchedAt": "2026-06-05T14:51:53.587Z",
       "error": "HTTP 403"
     },
     {
@@ -601,7 +602,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:09.175Z",
+      "fetchedAt": "2026-06-05T14:51:54.967Z",
       "error": null
     },
     {
@@ -610,7 +611,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-05T08:07:07.913Z",
+      "fetchedAt": "2026-06-05T14:51:53.752Z",
       "error": "certificate has expired"
     },
     {
@@ -619,6 +620,19 @@
       "type": "rss",
       "url": "https://www.niallbrady.com/feed/",
       "items": [
+        {
+          "title": "update for Windows 365 Cloud PC via USB-C on an iPhone 15/16/17",
+          "link": "https://www.niallbrady.com/2026/06/05/update-for-windows-365-cloud-pc-via-usb-c-on-an-iphone-15-16-17/",
+          "pubDate": "2026-06-05T13:11:35.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [
+            "USB-C via iPhone",
+            "Windows 365",
+            "Windows app"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Secure boot certificates and older hardware",
           "link": "https://www.niallbrady.com/2026/05/31/secure-boot-certificates-and-older-hardware/",
@@ -668,24 +682,9 @@
             "Windows app"
           ],
           "type": "rss"
-        },
-        {
-          "title": "First looks at Frontline Shared UES",
-          "link": "https://www.niallbrady.com/2026/02/02/first-looks-at-frontline-shared-ues/",
-          "pubDate": "2026-02-02T19:44:34.000Z",
-          "summary": "Continue reading →]]>",
-          "author": "ncbrady",
-          "categories": [
-            "Windows 365",
-            "Windows 365 Frontline",
-            "cloud apps",
-            "cloud pc",
-            "frontline"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:08.259Z",
+      "fetchedAt": "2026-06-05T14:51:54.107Z",
       "error": null
     },
     {
@@ -762,7 +761,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:09.499Z",
+      "fetchedAt": "2026-06-05T14:51:55.338Z",
       "error": null
     },
     {
@@ -828,7 +827,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:09.606Z",
+      "fetchedAt": "2026-06-05T14:51:55.583Z",
       "error": null
     },
     {
@@ -883,7 +882,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:09.583Z",
+      "fetchedAt": "2026-06-05T14:51:55.431Z",
       "error": null
     },
     {
@@ -963,7 +962,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:09.377Z",
+      "fetchedAt": "2026-06-05T14:51:55.331Z",
       "error": null
     },
     {
@@ -1044,7 +1043,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:09.735Z",
+      "fetchedAt": "2026-06-05T14:51:55.729Z",
       "error": null
     },
     {
@@ -1124,7 +1123,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:11.095Z",
+      "fetchedAt": "2026-06-05T14:51:57.692Z",
       "error": null
     },
     {
@@ -1209,7 +1208,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:09.756Z",
+      "fetchedAt": "2026-06-05T14:51:55.802Z",
       "error": null
     },
     {
@@ -1265,7 +1264,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:09.809Z",
+      "fetchedAt": "2026-06-05T14:51:55.927Z",
       "error": null
     },
     {
@@ -1351,7 +1350,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:12.668Z",
+      "fetchedAt": "2026-06-05T14:51:59.160Z",
       "error": null
     },
     {
@@ -1437,7 +1436,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:11.194Z",
+      "fetchedAt": "2026-06-05T14:51:57.736Z",
       "error": null
     },
     {
@@ -1519,7 +1518,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:11.246Z",
+      "fetchedAt": "2026-06-05T14:51:57.821Z",
       "error": null
     },
     {
@@ -1574,7 +1573,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:11.222Z",
+      "fetchedAt": "2026-06-05T14:51:57.863Z",
       "error": null
     },
     {
@@ -1639,7 +1638,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:12.918Z",
+      "fetchedAt": "2026-06-05T14:51:59.312Z",
       "error": null
     },
     {
@@ -1724,7 +1723,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:13.417Z",
+      "fetchedAt": "2026-06-05T14:51:59.893Z",
       "error": null
     },
     {
@@ -1780,7 +1779,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:13.059Z",
+      "fetchedAt": "2026-06-05T14:51:59.607Z",
       "error": null
     },
     {
@@ -1845,7 +1844,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:13.071Z",
+      "fetchedAt": "2026-06-05T14:51:59.783Z",
       "error": null
     },
     {
@@ -1926,7 +1925,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:14.995Z",
+      "fetchedAt": "2026-06-05T14:52:00.443Z",
       "error": null
     },
     {
@@ -1935,7 +1934,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-05T08:07:14.230Z",
+      "fetchedAt": "2026-06-05T14:52:00.682Z",
       "error": "HTTP 404"
     },
     {
@@ -1944,7 +1943,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-05T08:07:13.550Z",
+      "fetchedAt": "2026-06-05T14:52:00.072Z",
       "error": "HTTP 403"
     },
     {
@@ -2024,7 +2023,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:13.619Z",
+      "fetchedAt": "2026-06-05T14:52:00.057Z",
       "error": null
     },
     {
@@ -2097,7 +2096,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.123Z",
+      "fetchedAt": "2026-06-05T14:52:01.543Z",
       "error": null
     },
     {
@@ -2116,7 +2115,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.106Z",
+      "fetchedAt": "2026-06-05T14:52:00.941Z",
       "error": null
     },
     {
@@ -2171,7 +2170,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.380Z",
+      "fetchedAt": "2026-06-05T14:52:01.179Z",
       "error": null
     },
     {
@@ -2257,7 +2256,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.394Z",
+      "fetchedAt": "2026-06-05T14:52:01.157Z",
       "error": null
     },
     {
@@ -2323,7 +2322,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iL3Y1ByujnI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.501Z",
+      "fetchedAt": "2026-06-05T14:52:01.713Z",
       "error": null
     },
     {
@@ -2388,7 +2387,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HmDlBXlaSKA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.547Z",
+      "fetchedAt": "2026-06-05T14:52:01.727Z",
       "error": null
     },
     {
@@ -2453,7 +2452,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3QK8ro-Py8Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.570Z",
+      "fetchedAt": "2026-06-05T14:52:01.723Z",
       "error": null
     },
     {
@@ -2519,7 +2518,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CKyz-Ysc7fg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.568Z",
+      "fetchedAt": "2026-06-05T14:52:01.641Z",
       "error": null
     },
     {
@@ -2585,7 +2584,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2t6-NQxpyZ4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.672Z",
+      "fetchedAt": "2026-06-05T14:52:01.844Z",
       "error": null
     },
     {
@@ -2595,6 +2594,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg",
       "items": [
+        {
+          "title": "Why MSPs Can't Afford to Charge Less Than They Think",
+          "link": "https://www.youtube.com/watch?v=iQzTgPtuElo",
+          "pubDate": "2026-06-05T10:00:16.000Z",
+          "summary": "If you're charging less than £40 per user per month for a full Microsoft 365 managed service - you're probably losing money. Not because your pricing is wrong. Because the work you're supposed to be doing for that price is being quietly skipped. This video is for MSPs who know something doesn't add ",
+          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "iQzTgPtuElo",
+          "thumbnail": "https://i2.ytimg.com/vi/iQzTgPtuElo/hqdefault.jpg"
+        },
         {
           "title": "3 Patching Disasters Every IT Admin Will Recognise",
           "link": "https://www.youtube.com/watch?v=JeTvC8FjEtw",
@@ -2638,20 +2648,9 @@
           "type": "video",
           "videoId": "s_gN0Zbi70k",
           "thumbnail": "https://i4.ytimg.com/vi/s_gN0Zbi70k/hqdefault.jpg"
-        },
-        {
-          "title": "Defender for Office 365: Preset Policies or Manual Config?",
-          "link": "https://www.youtube.com/watch?v=GuDtTFA1jUQ",
-          "pubDate": "2026-05-15T10:00:24.000Z",
-          "summary": "Defender for Office 365 protects your tenant from spam, phishing, malware and dodgy attachments - but there are 2 very different ways to configure it. Preset Security Policies (the 5-minute approach) or full manual configuration (the long weekend approach). In this video I break down both, show you ",
-          "author": "<name>Jonathan Edwards</name>\n   <uri>https://www.youtube.com/channel/UCsv09iEutfmPwHGm40og7dg</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "GuDtTFA1jUQ",
-          "thumbnail": "https://i4.ytimg.com/vi/GuDtTFA1jUQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.640Z",
+      "fetchedAt": "2026-06-05T14:52:01.836Z",
       "error": null
     },
     {
@@ -2716,7 +2715,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/398f_rK0tSk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.723Z",
+      "fetchedAt": "2026-06-05T14:52:01.806Z",
       "error": null
     },
     {
@@ -2782,7 +2781,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/U19eKoOysKM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.646Z",
+      "fetchedAt": "2026-06-05T14:52:01.815Z",
       "error": null
     },
     {
@@ -2847,7 +2846,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/goLXaWruMws/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.886Z",
+      "fetchedAt": "2026-06-05T14:52:01.936Z",
       "error": null
     },
     {
@@ -2912,7 +2911,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.805Z",
+      "fetchedAt": "2026-06-05T14:52:01.924Z",
       "error": null
     },
     {
@@ -2977,7 +2976,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/B23E_KNhvJI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.814Z",
+      "fetchedAt": "2026-06-05T14:52:01.934Z",
       "error": null
     },
     {
@@ -3042,7 +3041,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.808Z",
+      "fetchedAt": "2026-06-05T14:52:01.932Z",
       "error": null
     },
     {
@@ -3107,7 +3106,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_oYViCGMr3U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:16.133Z",
+      "fetchedAt": "2026-06-05T14:52:02.048Z",
       "error": null
     },
     {
@@ -3172,7 +3171,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/i7w2lHCp7wQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:15.949Z",
+      "fetchedAt": "2026-06-05T14:52:02.225Z",
       "error": null
     },
     {
@@ -3228,7 +3227,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:16.174Z",
+      "fetchedAt": "2026-06-05T14:52:02.238Z",
       "error": null
     },
     {
@@ -3238,7 +3237,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-05T08:07:15.973Z",
+      "fetchedAt": "2026-06-05T14:52:02.049Z",
       "error": null
     },
     {
@@ -3304,7 +3303,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:16.935Z",
+      "fetchedAt": "2026-06-05T14:52:03.224Z",
       "error": null
     },
     {
@@ -3360,7 +3359,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:16.209Z",
+      "fetchedAt": "2026-06-05T14:52:02.843Z",
       "error": null
     },
     {
@@ -3389,7 +3388,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:16.406Z",
+      "fetchedAt": "2026-06-05T14:52:02.557Z",
       "error": null
     },
     {
@@ -3445,7 +3444,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:16.215Z",
+      "fetchedAt": "2026-06-05T14:52:02.794Z",
       "error": null
     },
     {
@@ -3455,7 +3454,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-05T08:07:17.043Z",
+      "fetchedAt": "2026-06-05T14:52:03.338Z",
       "error": null
     },
     {
@@ -3511,7 +3510,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:16.947Z",
+      "fetchedAt": "2026-06-05T14:52:03.831Z",
       "error": null
     },
     {
@@ -3531,7 +3530,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:17.015Z",
+      "fetchedAt": "2026-06-05T14:52:03.276Z",
       "error": null
     },
     {
@@ -3587,7 +3586,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:21.289Z",
+      "fetchedAt": "2026-06-05T14:52:07.845Z",
       "error": null
     },
     {
@@ -3643,7 +3642,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:21.835Z",
+      "fetchedAt": "2026-06-05T14:52:08.465Z",
       "error": null
     },
     {
@@ -3698,7 +3697,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:21.504Z",
+      "fetchedAt": "2026-06-05T14:52:08.040Z",
       "error": null
     },
     {
@@ -3753,7 +3752,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:21.440Z",
+      "fetchedAt": "2026-06-05T14:52:08.017Z",
       "error": null
     },
     {
@@ -3818,7 +3817,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-05T08:07:22.373Z",
+      "fetchedAt": "2026-06-05T14:52:08.707Z",
       "error": null
     }
   ]
