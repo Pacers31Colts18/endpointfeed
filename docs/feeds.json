@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T17:15:19.543Z",
+  "generatedAt": "2026-06-06T21:05:16.719Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,77 +8,77 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "WSL container: Linux containers built into Windows",
-          "link": "https://4sysops.com/archives/wsl-container-linux-containers-built-into-windows/",
-          "pubDate": "2026-06-06T00:48:24.000Z",
-          "summary": "WSL container is a new feature coming to the Windows Subsystem for Linux (WSL), announced at Microsoft Build 2026. It provides a built-in way to run OCI-compatible Linux containers on Windows without third-party tools like Docker Desktop. The feature includes two parts: a command-line tool, wslc.exe",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "containers",
-            "devops",
-            "docker",
-            "windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Anthropic patches Claude Code vulnerability that exposed CI/CD secrets",
-          "link": "https://4sysops.com/archives/anthropic-patches-claude-code-vulnerability-that-exposed-ci-cd-secrets/",
-          "pubDate": "2026-06-06T00:34:45.000Z",
-          "summary": "Microsoft researchers discovered a vulnerability in Anthropic’s Claude Code GitHub Action that allowed attackers to exfiltrate sensitive CI/CD secrets. While the tool used sandboxing for command execution, its file-reading capabilities were not initially restricted by the same security boundaries. T",
+          "title": "Microsoft removes Edge Collections and Sidebar to prioritize Copilot AI",
+          "link": "https://4sysops.com/archives/microsoft-removes-edge-collections-and-sidebar-to-prioritize-copilot-ai/",
+          "pubDate": "2026-06-06T20:51:14.000Z",
+          "summary": "Microsoft has officially discontinued the Collections and Sidebar features in Edge version 149 to focus on AI integration. Collections previously allowed users to organize web research, shopping items, and travel plans with rich visual previews and notes. This change marks a significant shift in the",
           "author": "IT News",
           "categories": [
             "News",
-            "AI agents",
-            "anthropic",
-            "security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Anthropic research highlights shift toward autonomous recursive AI development",
-          "link": "https://4sysops.com/archives/anthropic-research-highlights-shift-toward-autonomous-recursive-ai-development/",
-          "pubDate": "2026-06-06T00:34:42.000Z",
-          "summary": "Anthropic reports that artificial intelligence is increasingly designing its own successor models through a process known as recursive self-improvement. Development trends show that AI agents are managing significantly longer tasks, with capabilities evolving from completing four-minute functions to",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "AI agents"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft faces scrutiny over clean data claims for MAI-Thinking-1",
-          "link": "https://4sysops.com/archives/microsoft-faces-scrutiny-over-clean-data-claims-for-mai-thinking-1/",
-          "pubDate": "2026-06-05T20:22:14.000Z",
-          "summary": "Source]]>",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "azure",
+            "browser",
+            "copilot",
             "microsoft"
           ],
           "type": "rss"
         },
         {
-          "title": "Managing the automatic rollout of Microsoft 365 Copilot on Windows systems",
-          "link": "https://4sysops.com/archives/managing-the-automatic-rollout-of-microsoft-365-copilot-on-windows-systems/",
-          "pubDate": "2026-06-05T20:22:12.000Z",
-          "summary": "Microsoft has resumed the automatic installation of the Copilot application on eligible Windows PCs that currently run Microsoft 365 desktop apps. This deployment is being executed in phases throughout June and early July, with a final completion date set for July 1. While the application will appea",
+          "title": "Miasma worm compromises 73 Microsoft GitHub repositories in supply chain attack",
+          "link": "https://4sysops.com/archives/miasma-worm-compromises-73-microsoft-github-repositories-in-supply-chain-attack/",
+          "pubDate": "2026-06-06T20:51:12.000Z",
+          "summary": "A self-replicating worm named Miasma has successfully compromised 73 Microsoft GitHub repositories across several organizations, including Azure and MicrosoftDocs. GitHub staff responded by disabling access to high-profile repositories such as the Azure Functions host and various Durable Task implem",
           "author": "IT News",
           "categories": [
             "News",
-            "copilot",
-            "group policy",
-            "windows 11"
+            "git",
+            "microsoft",
+            "security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "AI agents uncover long-standing zero-days as Chrome patches record 429 bugs",
+          "link": "https://4sysops.com/archives/ai-agents-uncover-long-standing-zero-days-as-chrome-patches-record-429-bugs/",
+          "pubDate": "2026-06-06T20:51:10.000Z",
+          "summary": "An autonomous AI agent recently discovered 21 previously unknown vulnerabilities in the FFmpeg media library, some of which had remained hidden for over 20 years. These flaws include heap and stack overflows in various parsers and decoders that are widely used across numerous video processing applic",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "browser",
+            "security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Google releases Gemma 4 QAT models for local AI on enterprise laptops",
+          "link": "https://4sysops.com/archives/google-releases-gemma-4-qat-models-for-local-ai-on-enterprise-laptops/",
+          "pubDate": "2026-06-06T20:51:08.000Z",
+          "summary": "Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "google cloud platform",
+            "hardware"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Hugging Face Transformers flaw enables RCE via malicious model configs",
+          "link": "https://4sysops.com/archives/hugging-face-transformers-flaw-enables-rce-via-malicious-model-configs/",
+          "pubDate": "2026-06-06T20:51:07.000Z",
+          "summary": "A critical vulnerability in the Hugging Face Transformers library, tracked as CVE-2026-4372, allows attackers to execute arbitrary code through specially crafted model configuration files. The flaw bypasses the standard security setting intended to block untrusted remote code by exploiting how the l",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "python",
+            "security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:14:59.303Z",
+      "fetchedAt": "2026-06-06T21:04:48.826Z",
       "error": null
     },
     {
@@ -86,83 +86,9 @@
       "label": "petervanderwoude.nl",
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
-      "items": [
-        {
-          "title": "Using Microsoft Edge secondary tiles in the Start layout and multi-app kiosk mode",
-          "link": "https://petervanderwoude.nl/post/using-microsoft-edge-secondary-tiles-in-the-start-layout-and-multi-app-kiosk-mode/",
-          "pubDate": "2026-05-29T18:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Edge",
-            "Microsoft Intune",
-            "Multi-app kiosk",
-            "Windows 11"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Using sensitivity labels for protecting labeled content in Microsoft 365 online apps",
-          "link": "https://petervanderwoude.nl/post/using-sensitivity-labels-for-protecting-labeled-content-in-microsoft-365-online-apps/",
-          "pubDate": "2026-05-25T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Edge",
-            "Microsoft Edge for Business",
-            "Microsoft Edge management service",
-            "Microsoft Intune",
-            "Microsoft Purview"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Introducing enhanced app inventory for Windows devices",
-          "link": "https://petervanderwoude.nl/post/introducing-enhanced-app-inventory-for-windows-devices/",
-          "pubDate": "2026-05-18T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "App inventory",
-            "Device inventory",
-            "Microsoft Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Dynamically removing preinstalled Microsoft Store apps using native functionality",
-          "link": "https://petervanderwoude.nl/post/dynamically-removing-preinstalled-microsoft-store-apps-using-native-functionality/",
-          "pubDate": "2026-05-11T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Intune",
-            "Settings Catalog",
-            "Windows 11",
-            "ADMX",
-            "ADMX-backed"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Locking down Windows devices by suppressing key combinations",
-          "link": "https://petervanderwoude.nl/post/locking-down-windows-devices-by-suppressing-key-combinations/",
-          "pubDate": "2026-05-04T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Intune",
-            "Windows 11",
-            "Keyboard Filter",
-            "Powershell",
-            "Win32 app"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-06-06T17:14:59.465Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-06-06T21:04:56.369Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "andrewstaylor",
@@ -227,7 +153,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:14:59.939Z",
+      "fetchedAt": "2026-06-06T21:04:49.419Z",
       "error": null
     },
     {
@@ -237,7 +163,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-06T17:14:58.744Z",
+      "fetchedAt": "2026-06-06T21:04:48.483Z",
       "error": "HTTP 403"
     },
     {
@@ -292,7 +218,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:00.096Z",
+      "fetchedAt": "2026-06-06T21:04:56.703Z",
       "error": null
     },
     {
@@ -357,7 +283,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:00.231Z",
+      "fetchedAt": "2026-06-06T21:04:56.762Z",
       "error": null
     },
     {
@@ -442,7 +368,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:00.038Z",
+      "fetchedAt": "2026-06-06T21:04:56.622Z",
       "error": null
     },
     {
@@ -515,7 +441,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:00.936Z",
+      "fetchedAt": "2026-06-06T21:04:57.301Z",
       "error": null
     },
     {
@@ -524,7 +450,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-06T17:15:00.991Z",
+      "fetchedAt": "2026-06-06T21:04:57.454Z",
       "error": "HTTP 403"
     },
     {
@@ -602,7 +528,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:03.753Z",
+      "fetchedAt": "2026-06-06T21:04:58.982Z",
       "error": null
     },
     {
@@ -611,7 +537,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-06T17:15:01.480Z",
+      "fetchedAt": "2026-06-06T21:04:57.726Z",
       "error": "certificate has expired"
     },
     {
@@ -684,7 +610,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:01.705Z",
+      "fetchedAt": "2026-06-06T21:04:58.112Z",
       "error": null
     },
     {
@@ -761,7 +687,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:04.220Z",
+      "fetchedAt": "2026-06-06T21:04:59.419Z",
       "error": null
     },
     {
@@ -770,65 +696,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
-          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
-          "pubDate": "2026-05-15T14:47:47.000Z",
-          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
-          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
-          "pubDate": "2026-05-06T20:30:40.000Z",
-          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
-          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
-          "pubDate": "2026-04-27T15:00:17.000Z",
-          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-06-06T17:15:05.657Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-06-06T21:04:59.263Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -882,7 +752,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:04.110Z",
+      "fetchedAt": "2026-06-06T21:04:59.402Z",
       "error": null
     },
     {
@@ -962,7 +832,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:04.143Z",
+      "fetchedAt": "2026-06-06T21:05:00.015Z",
       "error": null
     },
     {
@@ -1043,7 +913,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:05.756Z",
+      "fetchedAt": "2026-06-06T21:05:00.156Z",
       "error": null
     },
     {
@@ -1123,7 +993,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:07.641Z",
+      "fetchedAt": "2026-06-06T21:05:02.188Z",
       "error": null
     },
     {
@@ -1208,7 +1078,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:05.831Z",
+      "fetchedAt": "2026-06-06T21:05:00.200Z",
       "error": null
     },
     {
@@ -1264,7 +1134,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:05.834Z",
+      "fetchedAt": "2026-06-06T21:05:00.308Z",
       "error": null
     },
     {
@@ -1350,7 +1220,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:08.606Z",
+      "fetchedAt": "2026-06-06T21:05:03.268Z",
       "error": null
     },
     {
@@ -1436,7 +1306,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:07.747Z",
+      "fetchedAt": "2026-06-06T21:05:02.319Z",
       "error": null
     },
     {
@@ -1518,7 +1388,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:07.770Z",
+      "fetchedAt": "2026-06-06T21:05:02.422Z",
       "error": null
     },
     {
@@ -1573,7 +1443,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:07.848Z",
+      "fetchedAt": "2026-06-06T21:05:02.432Z",
       "error": null
     },
     {
@@ -1638,7 +1508,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:08.785Z",
+      "fetchedAt": "2026-06-06T21:05:03.620Z",
       "error": null
     },
     {
@@ -1723,7 +1593,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:09.581Z",
+      "fetchedAt": "2026-06-06T21:05:04.163Z",
       "error": null
     },
     {
@@ -1779,7 +1649,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:09.230Z",
+      "fetchedAt": "2026-06-06T21:05:03.999Z",
       "error": null
     },
     {
@@ -1844,7 +1714,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:09.101Z",
+      "fetchedAt": "2026-06-06T21:05:04.136Z",
       "error": null
     },
     {
@@ -1925,7 +1795,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.409Z",
+      "fetchedAt": "2026-06-06T21:05:06.081Z",
       "error": null
     },
     {
@@ -1934,7 +1804,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-06T17:15:10.215Z",
+      "fetchedAt": "2026-06-06T21:05:04.914Z",
       "error": "HTTP 404"
     },
     {
@@ -1943,7 +1813,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-06T17:15:09.665Z",
+      "fetchedAt": "2026-06-06T21:05:04.353Z",
       "error": "HTTP 403"
     },
     {
@@ -2014,16 +1884,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:09.713Z",
+      "fetchedAt": "2026-06-06T21:05:04.394Z",
       "error": null
     },
     {
@@ -2096,7 +1966,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.508Z",
+      "fetchedAt": "2026-06-06T21:05:06.277Z",
       "error": null
     },
     {
@@ -2115,7 +1985,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.555Z",
+      "fetchedAt": "2026-06-06T21:05:06.235Z",
       "error": null
     },
     {
@@ -2170,7 +2040,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.573Z",
+      "fetchedAt": "2026-06-06T21:05:06.356Z",
       "error": null
     },
     {
@@ -2256,7 +2126,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.605Z",
+      "fetchedAt": "2026-06-06T21:05:06.580Z",
       "error": null
     },
     {
@@ -2322,7 +2192,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/X9n5EYoWdNk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.778Z",
+      "fetchedAt": "2026-06-06T21:05:07.019Z",
       "error": null
     },
     {
@@ -2387,7 +2257,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HmDlBXlaSKA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.770Z",
+      "fetchedAt": "2026-06-06T21:05:06.803Z",
       "error": null
     },
     {
@@ -2452,7 +2322,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bzwOQo0XMB8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.811Z",
+      "fetchedAt": "2026-06-06T21:05:06.880Z",
       "error": null
     },
     {
@@ -2518,7 +2388,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CKyz-Ysc7fg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.767Z",
+      "fetchedAt": "2026-06-06T21:05:07.096Z",
       "error": null
     },
     {
@@ -2584,7 +2454,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2t6-NQxpyZ4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.065Z",
+      "fetchedAt": "2026-06-06T21:05:07.305Z",
       "error": null
     },
     {
@@ -2650,7 +2520,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/s_gN0Zbi70k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:10.818Z",
+      "fetchedAt": "2026-06-06T21:05:07.225Z",
       "error": null
     },
     {
@@ -2715,7 +2585,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/398f_rK0tSk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.071Z",
+      "fetchedAt": "2026-06-06T21:05:07.288Z",
       "error": null
     },
     {
@@ -2781,7 +2651,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/R0LyUpt8JwU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.055Z",
+      "fetchedAt": "2026-06-06T21:05:07.276Z",
       "error": null
     },
     {
@@ -2846,7 +2716,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/riafdVEdO3k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.214Z",
+      "fetchedAt": "2026-06-06T21:05:07.424Z",
       "error": null
     },
     {
@@ -2911,7 +2781,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.239Z",
+      "fetchedAt": "2026-06-06T21:05:07.412Z",
       "error": null
     },
     {
@@ -2976,7 +2846,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/B23E_KNhvJI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.215Z",
+      "fetchedAt": "2026-06-06T21:05:07.467Z",
       "error": null
     },
     {
@@ -3041,7 +2911,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.267Z",
+      "fetchedAt": "2026-06-06T21:05:07.482Z",
       "error": null
     },
     {
@@ -3106,7 +2976,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_oYViCGMr3U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.560Z",
+      "fetchedAt": "2026-06-06T21:05:07.719Z",
       "error": null
     },
     {
@@ -3171,7 +3041,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/i7w2lHCp7wQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:11.523Z",
+      "fetchedAt": "2026-06-06T21:05:07.767Z",
       "error": null
     },
     {
@@ -3227,7 +3097,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:12.833Z",
+      "fetchedAt": "2026-06-06T21:05:07.871Z",
       "error": null
     },
     {
@@ -3237,7 +3107,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-06T17:15:11.369Z",
+      "fetchedAt": "2026-06-06T21:05:07.700Z",
       "error": null
     },
     {
@@ -3303,7 +3173,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:14.048Z",
+      "fetchedAt": "2026-06-06T21:05:09.065Z",
       "error": null
     },
     {
@@ -3359,7 +3229,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:13.179Z",
+      "fetchedAt": "2026-06-06T21:05:07.946Z",
       "error": null
     },
     {
@@ -3388,7 +3258,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:13.194Z",
+      "fetchedAt": "2026-06-06T21:05:08.408Z",
       "error": null
     },
     {
@@ -3444,7 +3314,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:12.869Z",
+      "fetchedAt": "2026-06-06T21:05:08.411Z",
       "error": null
     },
     {
@@ -3454,7 +3324,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-06T17:15:14.190Z",
+      "fetchedAt": "2026-06-06T21:05:09.340Z",
       "error": null
     },
     {
@@ -3510,7 +3380,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:14.276Z",
+      "fetchedAt": "2026-06-06T21:05:09.435Z",
       "error": null
     },
     {
@@ -3530,7 +3400,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:14.076Z",
+      "fetchedAt": "2026-06-06T21:05:09.157Z",
       "error": null
     },
     {
@@ -3586,7 +3456,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:18.633Z",
+      "fetchedAt": "2026-06-06T21:05:13.549Z",
       "error": null
     },
     {
@@ -3642,7 +3512,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:19.543Z",
+      "fetchedAt": "2026-06-06T21:05:14.364Z",
       "error": null
     },
     {
@@ -3697,7 +3567,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:18.734Z",
+      "fetchedAt": "2026-06-06T21:05:13.752Z",
       "error": null
     },
     {
@@ -3752,7 +3622,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:18.708Z",
+      "fetchedAt": "2026-06-06T21:05:13.804Z",
       "error": null
     },
     {
@@ -3817,7 +3687,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-06T17:15:19.312Z",
+      "fetchedAt": "2026-06-06T21:05:16.719Z",
       "error": null
     }
   ]
