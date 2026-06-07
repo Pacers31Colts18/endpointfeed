@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T21:05:16.719Z",
+  "generatedAt": "2026-06-07T03:58:45.064Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -78,7 +78,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:48.826Z",
+      "fetchedAt": "2026-06-07T03:58:28.742Z",
       "error": null
     },
     {
@@ -87,8 +87,8 @@
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
       "items": [],
-      "fetchedAt": "2026-06-06T21:04:56.369Z",
-      "error": "Timeout after 8000ms"
+      "fetchedAt": "2026-06-07T03:58:28.569Z",
+      "error": "HTTP 415"
     },
     {
       "id": "andrewstaylor",
@@ -153,7 +153,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:49.419Z",
+      "fetchedAt": "2026-06-07T03:58:29.180Z",
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-06T21:04:48.483Z",
+      "fetchedAt": "2026-06-07T03:58:28.305Z",
       "error": "HTTP 403"
     },
     {
@@ -218,7 +218,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:56.703Z",
+      "fetchedAt": "2026-06-07T03:58:29.420Z",
       "error": null
     },
     {
@@ -283,7 +283,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:56.762Z",
+      "fetchedAt": "2026-06-07T03:58:29.436Z",
       "error": null
     },
     {
@@ -368,7 +368,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:56.622Z",
+      "fetchedAt": "2026-06-07T03:58:29.441Z",
       "error": null
     },
     {
@@ -441,7 +441,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:57.301Z",
+      "fetchedAt": "2026-06-07T03:58:29.992Z",
       "error": null
     },
     {
@@ -450,7 +450,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-06T21:04:57.454Z",
+      "fetchedAt": "2026-06-07T03:58:30.057Z",
       "error": "HTTP 403"
     },
     {
@@ -528,7 +528,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:58.982Z",
+      "fetchedAt": "2026-06-07T03:58:31.649Z",
       "error": null
     },
     {
@@ -537,7 +537,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-06T21:04:57.726Z",
+      "fetchedAt": "2026-06-07T03:58:30.495Z",
       "error": "certificate has expired"
     },
     {
@@ -610,7 +610,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:58.112Z",
+      "fetchedAt": "2026-06-07T03:58:30.681Z",
       "error": null
     },
     {
@@ -687,7 +687,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:59.419Z",
+      "fetchedAt": "2026-06-07T03:58:31.890Z",
       "error": null
     },
     {
@@ -697,7 +697,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-06-06T21:04:59.263Z",
+      "fetchedAt": "2026-06-07T03:58:33.385Z",
       "error": "HTTP 202"
     },
     {
@@ -752,7 +752,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:04:59.402Z",
+      "fetchedAt": "2026-06-07T03:58:31.992Z",
       "error": null
     },
     {
@@ -832,7 +832,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:00.015Z",
+      "fetchedAt": "2026-06-07T03:58:32.495Z",
       "error": null
     },
     {
@@ -913,7 +913,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:00.156Z",
+      "fetchedAt": "2026-06-07T03:58:33.477Z",
       "error": null
     },
     {
@@ -921,80 +921,9 @@
       "label": "ccmexec.com - Jörgen Nilsson",
       "type": "rss",
       "url": "https://ccmexec.com/feed/",
-      "items": [
-        {
-          "title": "Windows Backup for Organization – trigger backup using remediation",
-          "link": "https://ccmexec.com/2026/03/windows-backup-for-organization-trigger-backup-with-remediation/",
-          "pubDate": "2026-03-12T22:28:38.000Z",
-          "summary": "Windows Backup for Organizations is one of my favourite new features as it saves time for the end-users setting up their device after a restore or when they switch computer. For the end-user this is great and together with Onedrive known folder move and Enterprise State roaming the experience is gre",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "Intune",
-            "Windows 11",
-            "Intune remediation",
-            "Windows Backup for Ogranizations"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Creating better Driver update groups",
-          "link": "https://ccmexec.com/2026/01/creating-better-driver-update-groups/",
-          "pubDate": "2026-01-27T07:10:37.000Z",
-          "summary": "When working with Driver Updates in Intune creating groups with different models are a challenge, which we will look at. But let’s start with having a look at how driver updates in Intune works.I for one use driver updates as a mean of having an easy way of blocking a Driver update if it causes... T",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "Intune",
-            "Driver Updates",
-            "Intune Driver Updates"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 11 initial Start Menu with Intune",
-          "link": "https://ccmexec.com/2025/12/windows-11-initial-start-menu-with-intune/",
-          "pubDate": "2025-12-10T13:41:11.000Z",
-          "summary": "I have written more than more blog post on how to customize the Start Menu on Windows 10 and 11 using scripts and/or policies. I had to write a post on the new option we have of doing it. Now we have the possibility to use Intune to push out an initial Start Menu where... The post Windows 11 initial",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "Intune",
-            "Windows 11",
-            "Customize Windows 11 Start Menu",
-            "Start Menu"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Application Control for Business and the story of the unsigned WIX dll’s",
-          "link": "https://ccmexec.com/2025/11/application-control-for-business-and-the-story-of-the-unsigned-wix-dlls/",
-          "pubDate": "2025-11-10T07:10:20.000Z",
-          "summary": "When using Application Control for Business which is the ultimate dream from a security perspective to only allow signed and trusted executables to be executed on our Windows devices. That requires that all binaries are signed, both executables and dll files (which are executables). WIX Toolset is w",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "Intune",
-            "Windows 11",
-            "Appcontrol for Business",
-            "WDAC"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "MMUGSE – Meetup October 24 2026",
-          "link": "https://ccmexec.com/2025/10/mmugse-meetup-october-24-2026/",
-          "pubDate": "2025-10-22T05:30:02.000Z",
-          "summary": "On Friday the 24 of October we are hosting our next meetup! we have some really great sessions this time! Hope to see you there! Note: that the last session will be in Swedish. MMUGSE Agenda 24/108:30 -9:25 Your Mac is Lying to you: Exposing Hidden Security Risks – Oktay Sari & – Somesh PathakmacOS ",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "General",
-            "Intune",
-            "Meetup",
-            "MMUGSE",
-            "Powershell"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-06-06T21:05:02.188Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-06-07T03:58:34.748Z",
+      "error": "HTTP 415"
     },
     {
       "id": "krebs",
@@ -1078,7 +1007,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:00.200Z",
+      "fetchedAt": "2026-06-07T03:58:33.643Z",
       "error": null
     },
     {
@@ -1134,7 +1063,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:00.308Z",
+      "fetchedAt": "2026-06-07T03:58:33.736Z",
       "error": null
     },
     {
@@ -1220,7 +1149,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:03.268Z",
+      "fetchedAt": "2026-06-07T03:58:36.290Z",
       "error": null
     },
     {
@@ -1306,7 +1235,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:02.319Z",
+      "fetchedAt": "2026-06-07T03:58:34.888Z",
       "error": null
     },
     {
@@ -1388,7 +1317,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:02.422Z",
+      "fetchedAt": "2026-06-07T03:58:34.935Z",
       "error": null
     },
     {
@@ -1443,7 +1372,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:02.432Z",
+      "fetchedAt": "2026-06-07T03:58:35.083Z",
       "error": null
     },
     {
@@ -1508,7 +1437,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:03.620Z",
+      "fetchedAt": "2026-06-07T03:58:36.579Z",
       "error": null
     },
     {
@@ -1593,7 +1522,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:04.163Z",
+      "fetchedAt": "2026-06-07T03:58:37.025Z",
       "error": null
     },
     {
@@ -1602,55 +1531,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://conditionalaccess.uk/blog/feed/",
-      "items": [
-        {
-          "title": "What's included in M365 Business Premium?",
-          "link": "https://conditionalaccess.uk/blog/whats-included-in-m365-business-premium/",
-          "pubDate": "2026-03-12T20:11:24.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "What's the actual risk of using AI?",
-          "link": "https://conditionalaccess.uk/blog/whats-the-actual-risk-of-using-ai/",
-          "pubDate": "2026-02-27T18:12:18.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Does M365 E3 help a scaling business?",
-          "link": "https://conditionalaccess.uk/blog/does-m365-e3-help-a-scaling-business/",
-          "pubDate": "2026-02-27T18:12:17.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Some policies I use in Conditional Access",
-          "link": "https://conditionalaccess.uk/blog/some-policies-i-use-in-conditional-access/",
-          "pubDate": "2026-02-27T18:12:17.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "How to prevent ransomware attacks using M365 Business Premium",
-          "link": "https://conditionalaccess.uk/blog/how-to-prevent-ransomware-attacks-using-m365-business-premium/",
-          "pubDate": "2026-02-27T18:12:16.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-06-06T21:05:03.999Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-06-07T03:58:36.802Z",
+      "error": "HTTP 415"
     },
     {
       "id": "kandji",
@@ -1714,7 +1597,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:04.136Z",
+      "fetchedAt": "2026-06-07T03:58:36.944Z",
       "error": null
     },
     {
@@ -1795,7 +1678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:06.081Z",
+      "fetchedAt": "2026-06-07T03:58:37.915Z",
       "error": null
     },
     {
@@ -1804,7 +1687,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-06T21:05:04.914Z",
+      "fetchedAt": "2026-06-07T03:58:37.549Z",
       "error": "HTTP 404"
     },
     {
@@ -1813,7 +1696,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-06T21:05:04.353Z",
+      "fetchedAt": "2026-06-07T03:58:37.209Z",
       "error": "HTTP 403"
     },
     {
@@ -1893,7 +1776,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:04.394Z",
+      "fetchedAt": "2026-06-07T03:58:37.338Z",
       "error": null
     },
     {
@@ -1966,7 +1849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:06.277Z",
+      "fetchedAt": "2026-06-07T03:58:38.152Z",
       "error": null
     },
     {
@@ -1985,7 +1868,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:06.235Z",
+      "fetchedAt": "2026-06-07T03:58:38.147Z",
       "error": null
     },
     {
@@ -2040,7 +1923,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:06.356Z",
+      "fetchedAt": "2026-06-07T03:58:38.411Z",
       "error": null
     },
     {
@@ -2126,7 +2009,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:06.580Z",
+      "fetchedAt": "2026-06-07T03:58:38.407Z",
       "error": null
     },
     {
@@ -2192,7 +2075,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/X9n5EYoWdNk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.019Z",
+      "fetchedAt": "2026-06-07T03:58:38.601Z",
       "error": null
     },
     {
@@ -2257,7 +2140,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HmDlBXlaSKA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:06.803Z",
+      "fetchedAt": "2026-06-07T03:58:38.522Z",
       "error": null
     },
     {
@@ -2322,7 +2205,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bzwOQo0XMB8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:06.880Z",
+      "fetchedAt": "2026-06-07T03:58:38.518Z",
       "error": null
     },
     {
@@ -2388,7 +2271,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CKyz-Ysc7fg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.096Z",
+      "fetchedAt": "2026-06-07T03:58:38.440Z",
       "error": null
     },
     {
@@ -2454,7 +2337,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2t6-NQxpyZ4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.305Z",
+      "fetchedAt": "2026-06-07T03:58:38.704Z",
       "error": null
     },
     {
@@ -2520,7 +2403,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/s_gN0Zbi70k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.225Z",
+      "fetchedAt": "2026-06-07T03:58:38.712Z",
       "error": null
     },
     {
@@ -2585,7 +2468,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/398f_rK0tSk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.288Z",
+      "fetchedAt": "2026-06-07T03:58:38.748Z",
       "error": null
     },
     {
@@ -2651,7 +2534,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/R0LyUpt8JwU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.276Z",
+      "fetchedAt": "2026-06-07T03:58:38.771Z",
       "error": null
     },
     {
@@ -2716,7 +2599,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/riafdVEdO3k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.424Z",
+      "fetchedAt": "2026-06-07T03:58:38.878Z",
       "error": null
     },
     {
@@ -2781,7 +2664,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.412Z",
+      "fetchedAt": "2026-06-07T03:58:38.873Z",
       "error": null
     },
     {
@@ -2846,7 +2729,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/B23E_KNhvJI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.467Z",
+      "fetchedAt": "2026-06-07T03:58:38.849Z",
       "error": null
     },
     {
@@ -2911,7 +2794,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.482Z",
+      "fetchedAt": "2026-06-07T03:58:38.873Z",
       "error": null
     },
     {
@@ -2976,7 +2859,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_oYViCGMr3U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.719Z",
+      "fetchedAt": "2026-06-07T03:58:38.999Z",
       "error": null
     },
     {
@@ -3041,7 +2924,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/i7w2lHCp7wQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.767Z",
+      "fetchedAt": "2026-06-07T03:58:38.962Z",
       "error": null
     },
     {
@@ -3097,7 +2980,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.871Z",
+      "fetchedAt": "2026-06-07T03:58:39.052Z",
       "error": null
     },
     {
@@ -3107,7 +2990,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-06T21:05:07.700Z",
+      "fetchedAt": "2026-06-07T03:58:39.065Z",
       "error": null
     },
     {
@@ -3173,7 +3056,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:09.065Z",
+      "fetchedAt": "2026-06-07T03:58:39.681Z",
       "error": null
     },
     {
@@ -3229,7 +3112,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:07.946Z",
+      "fetchedAt": "2026-06-07T03:58:39.432Z",
       "error": null
     },
     {
@@ -3258,7 +3141,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:08.408Z",
+      "fetchedAt": "2026-06-07T03:58:39.519Z",
       "error": null
     },
     {
@@ -3314,7 +3197,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:08.411Z",
+      "fetchedAt": "2026-06-07T03:58:39.477Z",
       "error": null
     },
     {
@@ -3324,7 +3207,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-06T21:05:09.340Z",
+      "fetchedAt": "2026-06-07T03:58:39.950Z",
       "error": null
     },
     {
@@ -3380,7 +3263,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:09.435Z",
+      "fetchedAt": "2026-06-07T03:58:39.697Z",
       "error": null
     },
     {
@@ -3400,7 +3283,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:09.157Z",
+      "fetchedAt": "2026-06-07T03:58:39.718Z",
       "error": null
     },
     {
@@ -3456,7 +3339,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:13.549Z",
+      "fetchedAt": "2026-06-07T03:58:44.077Z",
       "error": null
     },
     {
@@ -3512,7 +3395,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:14.364Z",
+      "fetchedAt": "2026-06-07T03:58:44.859Z",
       "error": null
     },
     {
@@ -3567,7 +3450,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:13.752Z",
+      "fetchedAt": "2026-06-07T03:58:44.188Z",
       "error": null
     },
     {
@@ -3622,7 +3505,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:13.804Z",
+      "fetchedAt": "2026-06-07T03:58:44.272Z",
       "error": null
     },
     {
@@ -3687,7 +3570,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-06T21:05:16.719Z",
+      "fetchedAt": "2026-06-07T03:58:45.064Z",
       "error": null
     }
   ]
