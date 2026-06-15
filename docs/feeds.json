@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T13:55:47.930Z",
+  "generatedAt": "2026-06-15T19:48:09.387Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,74 +8,77 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "US federal government AI adoption surges by 70 percent amid transparency concerns",
-          "link": "https://4sysops.com/archives/us-federal-government-ai-adoption-surges-by-70-percent-amid-transparency-concerns/",
-          "pubDate": "2026-06-15T13:27:52.000Z",
-          "summary": "The United States federal government has reported a significant increase in the adoption of artificial intelligence to automate various administrative processes. A recent disclosure from the Office of Management and Budget reveals over 3,600 active or planned AI use cases across federal agencies. Th",
-          "author": "IT News",
+          "title": "DNS over HTTPS (DoH) for Windows Server 2025 DNS Server is generally available",
+          "link": "https://4sysops.com/archives/dns-over-https-doh-for-windows-server-2025-dns-server-is-generally-available/",
+          "pubDate": "2026-06-15T16:26:54.000Z",
+          "summary": "DNS over HTTPS (DoH) -- a protocol that encrypts DNS queries inside HTTPS connections -- is now generally available for the Windows Server DNS Server role. Starting with the June 9, 2026 cumulative update for Windows Server 2025, you can deploy DoH on your on-premises DNS infrastructure without a th",
+          "author": "IT Experts",
           "categories": [
-            "News",
-            "AI",
-            "security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Apple drops Intel support in macOS 27 Golden Gate to boost performance",
-          "link": "https://4sysops.com/archives/apple-drops-intel-support-in-macos-27-golden-gate-to-boost-performance/",
-          "pubDate": "2026-06-15T13:27:51.000Z",
-          "summary": "Apple is transitioning its desktop operating system to an ARM-only architecture with the upcoming release of macOS 27, codenamed Golden Gate. This update officially removes legacy Intel x86 code and APIs, meaning the software will run exclusively on machines powered by Apple Silicon. By shedding thi",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "apple",
-            "mac"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Apple is right. Technology must get out of the way",
-          "link": "https://4sysops.com/archives/apple-is-right-technology-must-get-out-of-the-way/",
-          "pubDate": "2026-06-15T13:27:50.000Z",
-          "summary": "Apple is positioning its artificial intelligence strategy as a tool for utility rather than a means to drive user engagement. Unlike many competitors that design chatbots to foster long-term dependence or emotional connections, Apple aims for its technology to assist and then disappear. This philoso",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "apple"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 11 July 2026 update introduces new security and performance tools",
-          "link": "https://4sysops.com/archives/windows-11-july-2026-update-introduces-new-security-and-performance-tools/",
-          "pubDate": "2026-06-15T13:19:41.000Z",
-          "summary": "Microsoft is rolling out the July 2026 security update, identified as KB5095093, for Windows 11 versions 24H2 and 25H2. While the update includes various fixes and system stability improvements, many new features are being deployed via a gradual rollout. To bypass this staggered release, administrat",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "patch management",
+            "Articles",
+            "dns",
+            "networking",
             "security",
-            "windows 11"
+            "window server"
           ],
           "type": "rss"
         },
         {
-          "title": "Beyond transformers: DeepMind’s multi-path strategy for artificial general intelligence",
-          "link": "https://4sysops.com/archives/beyond-transformers-deepminds-multi-path-strategy-for-artificial-general-intelligence/",
-          "pubDate": "2026-06-15T10:21:44.000Z",
-          "summary": "Google DeepMind is actively moving beyond standard transformer architectures to address scaling costs and memory limitations in modern AI. By developing alternatives like the Griffin architecture and Recurrent Gemma, they utilize \"index card\" states that synthesize past information rather than carry",
+          "title": "Instant access incremental snapshots for Azure Premium SSD v2 and Ultra Disk recovery",
+          "link": "https://4sysops.com/archives/instant-access-incremental-snapshots-for-azure-premium-ssd-v2-and-ultra-disk-recovery/",
+          "pubDate": "2026-06-15T16:26:34.000Z",
+          "summary": "Azure introduced instant access support for incremental snapshots of Premium SSD v2 and Ultra Disk, enabling immediate disk restores without waiting for the background data copy to finish. By specifying the InstantAccessDurationMins parameter at snapshot creation time, snapshots enter the InstantAcc",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "azure",
+            "backup",
+            "cloud computing",
+            "storage"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Morale collapses at Meta’s AI unit",
+          "link": "https://4sysops.com/archives/morale-collapses-at-metas-ai-unit/",
+          "pubDate": "2026-06-15T16:23:50.000Z",
+          "summary": "Meta has established a new Applied AI unit to support its Superintelligence Labs, but the transition has triggered significant internal turmoil. More than 1,600 employees have signed a petition protesting a new program that monitors clicks and keystrokes on work computers to gather training data. Th",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Scaling AI research with Amazon Bedrock AgentCore and deep agents",
+          "link": "https://4sysops.com/archives/scaling-ai-research-with-amazon-bedrock-agentcore-and-deep-agents/",
+          "pubDate": "2026-06-15T16:23:49.000Z",
+          "summary": "Amazon Bedrock AgentCore provides a specialized infrastructure for AI agents to perform deep research tasks within isolated environments. By utilizing LangChain Deep Agents, a coordinator agent can delegate complex work to ephemeral subagents that run in dedicated MicroVMs. This architecture prevent",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "cloud computing",
-            "microsoft"
+            "AWS",
+            "cloud computing"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Arch Linux suspends AUR registrations following massive supply chain attack",
+          "link": "https://4sysops.com/archives/arch-linux-suspends-aur-registrations-following-massive-supply-chain-attack/",
+          "pubDate": "2026-06-15T16:20:33.000Z",
+          "summary": "The Arch Linux security team has disabled new account registrations for the Arch User Repository (AUR) following a large-scale supply chain compromise. Attackers hijacked or created over 1,500 community-maintained packages to deliver malicious payloads, including information stealers and eBPF-based ",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "linux",
+            "rootkits",
+            "security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:14.393Z",
+      "fetchedAt": "2026-06-15T19:47:50.784Z",
       "error": null
     },
     {
@@ -83,9 +86,81 @@
       "label": "petervanderwoude.nl",
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
-      "items": [],
-      "fetchedAt": "2026-06-15T13:55:22.007Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Turning off account notifications in Start and multi-app kiosk mode",
+          "link": "https://petervanderwoude.nl/post/turning-off-account-notifications-in-start-and-multi-app-kiosk-mode/",
+          "pubDate": "2026-06-15T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "Kiosk",
+            "Microsoft Intune",
+            "Multi-app kiosk",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Hiding the recommended section from the Start layout and multi-app kiosk mode",
+          "link": "https://petervanderwoude.nl/post/hiding-the-recommended-section-from-the-start-layout-and-multi-app-kiosk-mode/",
+          "pubDate": "2026-06-08T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "Kiosk",
+            "Microsoft Intune",
+            "Multi-app kiosk",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Using Microsoft Edge secondary tiles in the Start layout and multi-app kiosk mode",
+          "link": "https://petervanderwoude.nl/post/using-microsoft-edge-secondary-tiles-in-the-start-layout-and-multi-app-kiosk-mode/",
+          "pubDate": "2026-06-01T18:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "Microsoft Edge",
+            "Microsoft Intune",
+            "Multi-app kiosk",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Using sensitivity labels for protecting labeled content in Microsoft 365 online apps",
+          "link": "https://petervanderwoude.nl/post/using-sensitivity-labels-for-protecting-labeled-content-in-microsoft-365-online-apps/",
+          "pubDate": "2026-05-25T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "Microsoft Edge",
+            "Microsoft Edge for Business",
+            "Microsoft Edge management service",
+            "Microsoft Intune",
+            "Microsoft Purview"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Introducing enhanced app inventory for Windows devices",
+          "link": "https://petervanderwoude.nl/post/introducing-enhanced-app-inventory-for-windows-devices/",
+          "pubDate": "2026-05-18T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "App inventory",
+            "Device inventory",
+            "Microsoft Intune",
+            "Windows 11"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-06-15T19:47:50.758Z",
+      "error": null
     },
     {
       "id": "andrewstaylor",
@@ -150,7 +225,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:14.938Z",
+      "fetchedAt": "2026-06-15T19:47:51.176Z",
       "error": null
     },
     {
@@ -160,7 +235,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-15T13:55:14.053Z",
+      "fetchedAt": "2026-06-15T19:47:50.570Z",
       "error": "HTTP 403"
     },
     {
@@ -215,7 +290,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:22.130Z",
+      "fetchedAt": "2026-06-15T19:47:51.316Z",
       "error": null
     },
     {
@@ -280,7 +355,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:22.260Z",
+      "fetchedAt": "2026-06-15T19:47:51.454Z",
       "error": null
     },
     {
@@ -365,7 +440,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:22.109Z",
+      "fetchedAt": "2026-06-15T19:47:51.404Z",
       "error": null
     },
     {
@@ -373,9 +448,73 @@
       "label": "intunestuff.com",
       "type": "rss",
       "url": "https://joostgelijsteen.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-06-15T13:55:22.535Z",
-      "error": ""
+      "items": [
+        {
+          "title": "App Inventory in Intune just got a serious Upgrade",
+          "link": "https://joostgelijsteen.com/app-inventory-in-intune-just-got-a-upgrade/",
+          "pubDate": "2026-05-05T07:36:23.000Z",
+          "summary": "The old Discovered apps report had one fundamental problem. It refreshed on a seven-day cycle. By the time data reached you, it was already stale. Decisions made on week-old software inventory are decisions made with incomplete information, and in environments where applications install and change c",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "Intune",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Edge (MAM) on iOS Keeps removing the Work Account after Sign-in!: Why one Broken identity breaks it All",
+          "link": "https://joostgelijsteen.com/why-edge-mam-ios-keeps-removing-work-account/",
+          "pubDate": "2026-03-12T09:47:41.000Z",
+          "summary": "Right after enabling App Protection Policies (MAM) for iOS, one user suddenly couldn’t open any protected company data in Edge. Every time the user signed in with his work profile, the account appeared for a second, then vanished. Outlook and Teams still worked fine. Conditional Access wasn’t the is",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "Intune",
+            "MAM",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Designing an App Protection Policy that don’t backfire on your unmanaged devices",
+          "link": "https://joostgelijsteen.com/designing-app-protection-policy/",
+          "pubDate": "2026-03-06T08:25:50.000Z",
+          "summary": "An App Protection Policy for unmanaged devices is often described as a lighter form of device management. That description is inaccurate. It is not a reduced version of MDM. It exists because there is no device control in the first place. In an unmanaged scenario, the device is not enrolled. There i",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "MAM",
+            "Intune",
+            "security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Mobile Application Management Explained: How Intune MAM Works!",
+          "link": "https://joostgelijsteen.com/mobile-application-management-explained/",
+          "pubDate": "2026-02-23T09:32:35.000Z",
+          "summary": "Mobile Application Management protects corporate data inside mobile apps while leaving the device unmanaged. The protection boundary sits around the app, the signed in identity, and the work data, so you can secure information on personal, shared, partner, or contractor devices without enrollment or",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "Intune",
+            "MAM",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows device configuration policies are moving to Settings catalog template. What you need to know",
+          "link": "https://joostgelijsteen.com/settings-catalog-template/",
+          "pubDate": "2025-04-29T11:49:40.000Z",
+          "summary": "In recent months, Microsoft has been rolling out an important change that impacts how we configure Windows devices through Intune. If you’ve been using device configuration profiles based on the “Templates” (such as Endpoint Protection, Edition Upgrade, or Firewall settings), there’s now a shift und",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "Intune",
+            "Windows 11"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-06-15T19:47:52.032Z",
+      "error": null
     },
     {
       "id": "zerotrust",
@@ -383,7 +522,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-15T13:55:22.607Z",
+      "fetchedAt": "2026-06-15T19:47:52.119Z",
       "error": "HTTP 403"
     },
     {
@@ -461,7 +600,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:24.140Z",
+      "fetchedAt": "2026-06-15T19:47:53.600Z",
       "error": null
     },
     {
@@ -470,7 +609,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-15T13:55:22.997Z",
+      "fetchedAt": "2026-06-15T19:47:52.440Z",
       "error": "certificate has expired"
     },
     {
@@ -543,7 +682,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:23.348Z",
+      "fetchedAt": "2026-06-15T19:47:52.854Z",
       "error": null
     },
     {
@@ -620,7 +759,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:24.421Z",
+      "fetchedAt": "2026-06-15T19:47:53.767Z",
       "error": null
     },
     {
@@ -686,7 +825,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:24.641Z",
+      "fetchedAt": "2026-06-15T19:47:54.131Z",
       "error": null
     },
     {
@@ -694,9 +833,55 @@
       "label": "mattzaske.com - Matt Zaske",
       "type": "rss",
       "url": "https://mattzaske.com/rss.xml",
-      "items": [],
-      "fetchedAt": "2026-06-15T13:55:32.379Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Get-RandomMustache: The Tale of an Unexpected Easter Egg",
+          "link": "https://mattzaske.com/blog/2026-06/get-randommustache-tale-unexpected-easter-egg",
+          "pubDate": "2026-06-08T13:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Get-RandomMustache: The Tale of an Unexpected Easter Egg</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/file",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Git Hooks: Using Git to Take Action",
+          "link": "https://mattzaske.com/blog/2026-03/git-hooks-using-git-take-action",
+          "pubDate": "2026-03-02T14:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Git Hooks: Using Git to Take Action</span> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>zaskem</span></span> <span class=\"field field--name-created field--type-created field--la",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Fire TV Power Control from Home Assistant!",
+          "link": "https://mattzaske.com/blog/2025-12/fire-tv-power-control-home-assistant",
+          "pubDate": "2025-12-15T14:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Fire TV Power Control from Home Assistant!</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/2025-12/adb-",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant",
+          "link": "https://mattzaske.com/blog/2025-07/configuringusing-awtrix-3-ulanzi-tc001-through-home-assistant",
+          "pubDate": "2025-07-14T13:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Home Assistant Notifications to Teams with Graph API",
+          "link": "https://mattzaske.com/blog/2025-06/home-assistant-notifications-teams-graph-api",
+          "pubDate": "2025-06-30T13:00:00.000Z",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Home Assistant Notifications to Teams with Graph API</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/20",
+          "author": "zaskem",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-06-15T19:47:53.957Z",
+      "error": null
     },
     {
       "id": "msendpointmgr",
@@ -776,7 +961,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:24.987Z",
+      "fetchedAt": "2026-06-15T19:47:54.378Z",
       "error": null
     },
     {
@@ -857,7 +1042,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:32.505Z",
+      "fetchedAt": "2026-06-15T19:47:54.532Z",
       "error": null
     },
     {
@@ -934,7 +1119,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:34.734Z",
+      "fetchedAt": "2026-06-15T19:47:56.926Z",
       "error": null
     },
     {
@@ -1019,7 +1204,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:32.650Z",
+      "fetchedAt": "2026-06-15T19:47:54.708Z",
       "error": null
     },
     {
@@ -1075,7 +1260,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:32.735Z",
+      "fetchedAt": "2026-06-15T19:47:54.774Z",
       "error": null
     },
     {
@@ -1161,7 +1346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:35.902Z",
+      "fetchedAt": "2026-06-15T19:47:58.140Z",
       "error": null
     },
     {
@@ -1247,7 +1432,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:34.870Z",
+      "fetchedAt": "2026-06-15T19:47:56.999Z",
       "error": null
     },
     {
@@ -1329,7 +1514,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:34.916Z",
+      "fetchedAt": "2026-06-15T19:47:57.145Z",
       "error": null
     },
     {
@@ -1384,7 +1569,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:34.873Z",
+      "fetchedAt": "2026-06-15T19:47:57.064Z",
       "error": null
     },
     {
@@ -1449,7 +1634,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:36.121Z",
+      "fetchedAt": "2026-06-15T19:47:58.443Z",
       "error": null
     },
     {
@@ -1534,7 +1719,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:36.737Z",
+      "fetchedAt": "2026-06-15T19:47:58.932Z",
       "error": null
     },
     {
@@ -1590,7 +1775,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:36.360Z",
+      "fetchedAt": "2026-06-15T19:47:58.795Z",
       "error": null
     },
     {
@@ -1655,7 +1840,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:36.389Z",
+      "fetchedAt": "2026-06-15T19:47:58.758Z",
       "error": null
     },
     {
@@ -1736,7 +1921,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:38.494Z",
+      "fetchedAt": "2026-06-15T19:48:00.457Z",
       "error": null
     },
     {
@@ -1745,7 +1930,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-15T13:55:37.326Z",
+      "fetchedAt": "2026-06-15T19:47:59.496Z",
       "error": "HTTP 404"
     },
     {
@@ -1754,7 +1939,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-15T13:55:36.904Z",
+      "fetchedAt": "2026-06-15T19:47:59.108Z",
       "error": "HTTP 403"
     },
     {
@@ -1834,7 +2019,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:37.026Z",
+      "fetchedAt": "2026-06-15T19:47:59.202Z",
       "error": null
     },
     {
@@ -1907,7 +2092,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:38.696Z",
+      "fetchedAt": "2026-06-15T19:48:00.707Z",
       "error": null
     },
     {
@@ -1926,7 +2111,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:38.749Z",
+      "fetchedAt": "2026-06-15T19:48:00.683Z",
       "error": null
     },
     {
@@ -1981,7 +2166,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:38.903Z",
+      "fetchedAt": "2026-06-15T19:48:00.875Z",
       "error": null
     },
     {
@@ -2066,7 +2251,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:38.864Z",
+      "fetchedAt": "2026-06-15T19:48:00.802Z",
       "error": null
     },
     {
@@ -2076,6 +2261,28 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "Overview of Azure HorizonDB",
+          "link": "https://www.youtube.com/watch?v=ZsLnWnjkJQw",
+          "pubDate": "2026-06-15T14:38:21.000Z",
+          "summary": "Overview of what HorizonDB is and how it works. ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:08 - PostgreSQL 04:06 - Cloud-native architecture 04:50 - Azure HorizonDB 06:33 - Architecture 16:15 - Standby replicas 19:42 - Other features 21:21 - Pricing 23:22 - Summary 24:12 - Close ▬▬▬▬▬▬ ",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "ZsLnWnjkJQw",
+          "thumbnail": "https://i3.ytimg.com/vi/ZsLnWnjkJQw/hqdefault.jpg"
+        },
+        {
+          "title": "HorizonDB Quick Overview #azure #postgresql #horizondb",
+          "link": "https://www.youtube.com/shorts/cbh6Uebsj70",
+          "pubDate": "2026-06-15T14:34:25.000Z",
+          "summary": "Really quick HorizonDB introduction.",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/cbh6Uebsj70/hqdefault.jpg"
+        },
         {
           "title": "Azure Update 12th June 2026",
           "link": "https://www.youtube.com/watch?v=0dOmMLqrlw0",
@@ -2108,31 +2315,9 @@
           "type": "video",
           "videoId": "10Se9jR-cR0",
           "thumbnail": "https://i2.ytimg.com/vi/10Se9jR-cR0/hqdefault.jpg"
-        },
-        {
-          "title": "Passkey Registration Campaign short #entraid #passkeys",
-          "link": "https://www.youtube.com/shorts/qGgVtkYADx8",
-          "pubDate": "2026-06-08T13:50:43.000Z",
-          "summary": "Quick overview of passkey registration campaign.",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/qGgVtkYADx8/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Update 6th June 2026 - BUILD SPECIAL",
-          "link": "https://www.youtube.com/watch?v=f1JZs2bYUss",
-          "pubDate": "2026-06-05T18:16:57.000Z",
-          "summary": "HUGE Update this week! Make sure to check out Build blog for details on anything mentioned. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read quest",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "f1JZs2bYUss",
-          "thumbnail": "https://i3.ytimg.com/vi/f1JZs2bYUss/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:38.954Z",
+      "fetchedAt": "2026-06-15T19:48:01.005Z",
       "error": null
     },
     {
@@ -2197,7 +2382,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/8cquBrTPjFU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.072Z",
+      "fetchedAt": "2026-06-15T19:48:01.004Z",
       "error": null
     },
     {
@@ -2262,7 +2447,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ye22J-MMY8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.049Z",
+      "fetchedAt": "2026-06-15T19:48:01.068Z",
       "error": null
     },
     {
@@ -2272,6 +2457,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw",
       "items": [
+        {
+          "title": "Microsoft Intune Suite in E3 vs E5: What's Included From July 2026",
+          "link": "https://www.youtube.com/watch?v=oD-st6f2YvA",
+          "pubDate": "2026-06-15T18:30:49.000Z",
+          "summary": "If you pay for the Microsoft Intune Suite as a separate add-on, you may be about to free up some budget. From around 1 July 2026, a big chunk of the Intune Suite is being bundled into Microsoft 365 E3 and E5 at no extra cost. In this video I break down exactly what lands in E3, what extra you get in",
+          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "oD-st6f2YvA",
+          "thumbnail": "https://i4.ytimg.com/vi/oD-st6f2YvA/hqdefault.jpg"
+        },
         {
           "title": "My Big Device View Epiphany #shorts",
           "link": "https://www.youtube.com/shorts/r_dfvNfkLOg",
@@ -2315,20 +2511,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i4.ytimg.com/vi/G9vcn3hZS_s/hqdefault.jpg"
-        },
-        {
-          "title": "Streaming Platform Fails: Don't Try These! #shorts",
-          "link": "https://www.youtube.com/shorts/CKyz-Ysc7fg",
-          "pubDate": "2026-05-19T18:18:29.000Z",
-          "summary": "Navigating the wild west of streaming platforms can be… an adventure. I've dabbled in quite a few, and let's just say some experiences were less than stellar. After some trial and error, Restream has emerged as the reliable contender, offering the compute power needed for a genuinely reliable stream",
-          "author": "<name>Dean Ellerby MVP</name>\n   <uri>https://www.youtube.com/channel/UCAmbRekXkFXq4kdbH5KTIYw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/CKyz-Ysc7fg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.044Z",
+      "fetchedAt": "2026-06-15T19:48:01.008Z",
       "error": null
     },
     {
@@ -2394,7 +2579,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/V1uSrRtwNVo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.187Z",
+      "fetchedAt": "2026-06-15T19:48:01.189Z",
       "error": null
     },
     {
@@ -2460,7 +2645,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yUZj6Oh3L4k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.178Z",
+      "fetchedAt": "2026-06-15T19:48:01.171Z",
       "error": null
     },
     {
@@ -2525,7 +2710,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CEXkZCSVRwQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.193Z",
+      "fetchedAt": "2026-06-15T19:48:01.186Z",
       "error": null
     },
     {
@@ -2591,7 +2776,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/eRLWDR1MsmA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.209Z",
+      "fetchedAt": "2026-06-15T19:48:01.215Z",
       "error": null
     },
     {
@@ -2656,7 +2841,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/BExEPz-_sxQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.361Z",
+      "fetchedAt": "2026-06-15T19:48:01.317Z",
       "error": null
     },
     {
@@ -2721,7 +2906,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.467Z",
+      "fetchedAt": "2026-06-15T19:48:01.452Z",
       "error": null
     },
     {
@@ -2786,7 +2971,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3wNoOKTxxy0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.326Z",
+      "fetchedAt": "2026-06-15T19:48:01.312Z",
       "error": null
     },
     {
@@ -2851,7 +3036,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.298Z",
+      "fetchedAt": "2026-06-15T19:48:01.405Z",
       "error": null
     },
     {
@@ -2916,7 +3101,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.582Z",
+      "fetchedAt": "2026-06-15T19:48:01.623Z",
       "error": null
     },
     {
@@ -2981,7 +3166,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:39.582Z",
+      "fetchedAt": "2026-06-15T19:48:01.570Z",
       "error": null
     },
     {
@@ -3037,7 +3222,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:41.061Z",
+      "fetchedAt": "2026-06-15T19:48:03.107Z",
       "error": null
     },
     {
@@ -3047,7 +3232,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-15T13:55:39.648Z",
+      "fetchedAt": "2026-06-15T19:48:01.552Z",
       "error": null
     },
     {
@@ -3057,6 +3242,28 @@
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Patch My PC Publisher Preview Version 2.2.2.224 Released",
+          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-2-2-224-released/",
+          "pubDate": "2026-06-15T18:52:35.000Z",
+          "summary": "This release contains a fix as noted below. Fixes The post Patch My PC Publisher Preview Version 2.2.2.224 Released appeared first on Patch My PC. ]]>",
+          "author": "Cody Mathis",
+          "categories": [
+            "Preview Release"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "Autopatch Client Broker Fails During Autopilot Pre-Provisioning",
+          "link": "https://patchmypc.com/blog/autopatch-client-broker-fails-during-autopilot-pre-provisioning/",
+          "pubDate": "2026-06-15T13:59:26.000Z",
+          "summary": "When Autopatch Client Broker runs as a blocking app during Autopilot Pre Provisioning, one small Environment check can take down the MSI. Windows already removed the TenantInfo, the custom action still expects it, and ESP ends with 1603. The post Autopatch Client Broker Fails During Autopilot Pre-Pr",
+          "author": "Rudy Ooms",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
         {
           "title": "Patch My PC Publisher Preview Version 2.2.2.217 Released",
           "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-2-2-217-released/",
@@ -3089,31 +3296,9 @@
             "Preview Release"
           ],
           "type": "official"
-        },
-        {
-          "title": "Intune Management Extension: Release Notes",
-          "link": "https://patchmypc.com/blog/intune-management-extension-release-notes/",
-          "pubDate": "2026-05-26T11:54:06.000Z",
-          "summary": "The IME does a lot more than most people think. This post is about automating Intune Management Extension Release Notes, so every new version shows what changed instead of leaving us guessing. The post Intune Management Extension: Release Notes appeared first on Patch My PC. ]]>",
-          "author": "Rudy Ooms",
-          "categories": [
-            "Blog"
-          ],
-          "type": "official"
-        },
-        {
-          "title": "The Illusion of Intune “Last Check-in”: When Devices Appear Active but Cannot Sync",
-          "link": "https://patchmypc.com/blog/intune-last-check-in-when-devices-appear-active-but-cannot-sync/",
-          "pubDate": "2026-05-19T07:48:49.000Z",
-          "summary": "The Intune portal can show a fresh Last check in even when the MDM certificate on the device has already expired. That timestamp only proves the device was able to touch the service. It does not prove that policy sync, app delivery, or real management is still working. The post The Illusion of Intun",
-          "author": "Rudy Ooms",
-          "categories": [
-            "Blog"
-          ],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:41.764Z",
+      "fetchedAt": "2026-06-15T19:48:03.861Z",
       "error": null
     },
     {
@@ -3169,7 +3354,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:41.105Z",
+      "fetchedAt": "2026-06-15T19:48:03.521Z",
       "error": null
     },
     {
@@ -3198,7 +3383,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:41.542Z",
+      "fetchedAt": "2026-06-15T19:48:03.615Z",
       "error": null
     },
     {
@@ -3254,7 +3439,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:41.629Z",
+      "fetchedAt": "2026-06-15T19:48:03.475Z",
       "error": null
     },
     {
@@ -3264,7 +3449,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-15T13:55:41.982Z",
+      "fetchedAt": "2026-06-15T19:48:04.041Z",
       "error": null
     },
     {
@@ -3274,6 +3459,15 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
+        {
+          "title": "How Enterprise App Management secures your App Catalog from ingestion to device",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/how-enterprise-app-management-secures-your-app-catalog-from/ba-p/4528361",
+          "pubDate": "2026-06-15T17:10:22.000Z",
+          "summary": "<P><STRONG>By: Joe Lurie, Sr. Product Manager | Microsoft Intune</STRONG></P> <P>One of the most common questions I get from customers when I talk about Enterprise App Management is some version of: <EM>\"Okay, but how do I know these apps are safe?\"</EM></P> <P>It's a fair question. You're trusting ",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "MDOP is out of support: What to do next with Microsoft Intune",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/mdop-is-out-of-support-what-to-do-next-with-microsoft-intune/ba-p/4526024",
@@ -3295,7 +3489,7 @@
         {
           "title": "Known issue: Upgrading Microsoft Tunnel version 20260129.1",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/known-issue-upgrading-microsoft-tunnel-version-20260129-1/ba-p/4517935",
-          "pubDate": "2026-05-08T23:05:24.000Z",
+          "pubDate": "2026-06-15T17:51:11.000Z",
           "summary": "<P>We identified an upgrade issue with the early March release of Microsoft Tunnel version 20260129.1 that caused servers to become stuck and unable to complete the upgrade. The issue can be resolved by uninstalling and reinstalling the server to a newer version (<A class=\"lia-external-url\" href=\"ht",
           "author": "Intune_Support_Team",
           "categories": [],
@@ -3309,18 +3503,9 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Speed where it matters: How Microsoft Intune helps IT prioritize time-sensitive actions",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/speed-where-it-matters-how-microsoft-intune-helps-it-prioritize/ba-p/4515942",
-          "pubDate": "2026-04-30T15:47:22.000Z",
-          "summary": "<P><STRONG>By: Albert Cabello Serrano | Principal Product Manager - Microsoft Intune</STRONG></P> <P><EM>A closer look at how Intune delivers updates to devices and the investments we’re making to help important changes move faster and more predictably.</EM></P> <P>A common concern we hear from IT a",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:42.110Z",
+      "fetchedAt": "2026-06-15T19:48:04.268Z",
       "error": null
     },
     {
@@ -3340,7 +3525,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:41.808Z",
+      "fetchedAt": "2026-06-15T19:48:03.883Z",
       "error": null
     },
     {
@@ -3355,6 +3540,15 @@
           "link": "https://www.jamf.com/blog/jnuc-2026-session-catalog/",
           "pubDate": null,
           "summary": "The JNUC 2026 session catalog is live — browse sessions, plan your agenda and register before Just in Time pricing ends July 1. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "AI governance for Mac: bringing AI under management",
+          "link": "https://www.jamf.com/blog/ai-governance-for-mac/",
+          "pubDate": null,
+          "summary": "Somewhere in your organization, an engineer is running Claude Code. A few desks over, someone in finance is drafting in Claude Desktop. The decision to adopt AI has, in practice, already been made by the business and by people quietly getting more done with it. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
@@ -3385,18 +3579,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Jamf After Dark: Why we moved 1,900+ Apple devices back to Jamf",
-          "link": "https://www.jamf.com/blog/jamf-government-apple-device-management-travis-county/",
-          "pubDate": null,
-          "summary": "Travis County ITS Senior Systems Engineer Billy Roberts shares how his team uses Jamf to secure a CJIS-compliant hybrid device fleet — cutting app vetting time, blocking phishing threats and enforcing compliance. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:46.132Z",
+      "fetchedAt": "2026-06-15T19:48:08.395Z",
       "error": null
     },
     {
@@ -3452,7 +3637,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:46.368Z",
+      "fetchedAt": "2026-06-15T19:48:09.133Z",
       "error": null
     },
     {
@@ -3507,7 +3692,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:46.281Z",
+      "fetchedAt": "2026-06-15T19:48:08.480Z",
       "error": null
     },
     {
@@ -3516,6 +3701,15 @@
       "type": "audio",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
       "items": [
+        {
+          "title": "PowerShell Universal and the Joy of Building with Adriano Carollo",
+          "link": "https://powershellpodcast.podbean.com/e/powershell-universal-and-the-joy-of-building/",
+          "pubDate": "2026-06-15T14:00:00.000Z",
+          "summary": "In this episode, Andrew chats with Adriano Carollo at PSConfEU about community, PowerShell Universal, AI, and what happens when you stop lurking and start talking to people. Adriano shares how PowerShell helped him grow from sysadmin into web apps, automation, and open source-style contribution, whi",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
         {
           "title": "Cookie Monster Has Entered the Teams Chat with Miriam Wiesner",
           "link": "https://powershellpodcast.podbean.com/e/cookie-monster-has-entered-the-teams-chat-with-miriam-wiesner/",
@@ -3551,18 +3745,9 @@
           "author": "",
           "categories": [],
           "type": "audio"
-        },
-        {
-          "title": "Splatting, Automation, and Chasing the Sun with Jess Pomfret",
-          "link": "https://powershellpodcast.podbean.com/e/splatting-automation-and-chasing-the-sun-with-jess-pomfret/",
-          "pubDate": "2026-05-11T14:00:00.000Z",
-          "summary": "Splatting is one of the most readable improvements you can make to your PowerShell code. Instead of chaining parameters into one long command, you load them into a hash table and pass that to your command with an @ symbol. Cleaner to write, easier to read, and especially useful when you're sharing c",
-          "author": "",
-          "categories": [],
-          "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:46.435Z",
+      "fetchedAt": "2026-06-15T19:48:08.515Z",
       "error": null
     },
     {
@@ -3627,7 +3812,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-15T13:55:47.930Z",
+      "fetchedAt": "2026-06-15T19:48:09.387Z",
       "error": null
     }
   ]
