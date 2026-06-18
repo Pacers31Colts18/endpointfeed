@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T11:50:37.429Z",
+  "generatedAt": "2026-06-18T15:24:44.737Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,75 +8,75 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Microsoft Edge to support Google account sign-in for data synchronization",
-          "link": "https://4sysops.com/archives/microsoft-edge-to-support-google-account-sign-in-for-data-synchronization/",
-          "pubDate": "2026-06-18T11:02:11.000Z",
-          "summary": "Microsoft is updating the Edge browser to allow users on Windows and macOS to sign in using a Google account. This change, scheduled for global rollout in July 2026, removes the strict requirement for a Microsoft account to manage browser profiles. Users will soon find the Google sign-in option dire",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "browser",
-            "windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Cloudflare launches Agents SDK and Flue framework for production AI agents",
-          "link": "https://4sysops.com/archives/cloudflare-launches-agents-sdk-and-flue-framework-for-production-ai-agents/",
-          "pubDate": "2026-06-18T11:02:10.000Z",
-          "summary": "Cloudflare has introduced the Agents SDK and the open-source Flue framework to help developers move AI agents from prototypes to production environments. The Agents SDK serves as a foundational platform layer that provides essential primitives like durable execution, state management, and secure com",
+          "title": "Americans embrace AI chatbot usage despite deep skepticism over societal impact",
+          "link": "https://4sysops.com/archives/americans-embrace-ai-chatbot-usage-despite-deep-skepticism-over-societal-impact/",
+          "pubDate": "2026-06-18T15:01:41.000Z",
+          "summary": "Recent data from Pew Research indicates that half of American adults now utilize AI chatbots, a significant increase from one-third just last year. OpenAI’s ChatGPT remains the dominant platform with 44% of the population reporting its use, followed by Google Gemini and Microsoft Copilot. Despite th",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "AI agents"
+            "openai",
+            "poll"
           ],
           "type": "rss"
         },
         {
-          "title": "Databricks addresses rising AI costs and governance with new agentic platforms",
-          "link": "https://4sysops.com/archives/databricks-addresses-rising-ai-costs-and-governance-with-new-agentic-platforms/",
-          "pubDate": "2026-06-18T11:02:09.000Z",
-          "summary": "Databricks is prioritizing the escalating costs of artificial intelligence as organizations struggle to manage token usage and resource consumption. The company warns that agentic AI development is significantly increasing IT infrastructure expenses for enterprises. To address these financial challe",
+          "title": "Anthropic eliminates static API keys with workload identity federation",
+          "link": "https://4sysops.com/archives/anthropic-eliminates-static-api-keys-with-workload-identity-federation/",
+          "pubDate": "2026-06-18T15:01:40.000Z",
+          "summary": "Anthropic has announced the general availability of Workload Identity Federation (WIF) on the Claude Platform. This feature supports any OpenID Connect (OIDC) compliant identity provider, including AWS IAM, Azure managed identities, and Google Cloud Platform service accounts. It applies to all Claud",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
             "AI agents",
-            "cloud computing"
+            "anthropic",
+            "authentication"
           ],
           "type": "rss"
         },
         {
-          "title": "Crypto clipper malware uses Tor and USB propagation to steal digital assets",
-          "link": "https://4sysops.com/archives/crypto-clipper-malware-uses-tor-and-usb-propagation-to-steal-digital-assets/",
-          "pubDate": "2026-06-18T11:02:08.000Z",
-          "summary": "A new Windows-based cryptocurrency clipper has been identified that uses worm-like propagation to spread via USB storage devices. The malware replaces legitimate document files on removable media with malicious shortcuts that execute a script-based payload. Once active, it establishes persistence th",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "antivirus",
-            "blockchain",
-            "powershell",
-            "security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Google introduces Agentic Resource Discovery for cross-platform AI tools",
-          "link": "https://4sysops.com/archives/google-introduces-agentic-resource-discovery-for-cross-platform-ai-tools/",
-          "pubDate": "2026-06-18T11:02:07.000Z",
-          "summary": "Google has released Agentic Resource Discovery, a new open specification designed to standardize how AI agents find and interact with external tools. Currently, AI capabilities are often siloed within specific platforms or organizational registries, making cross-environment collaboration difficult. ",
+          "title": "Rising AI memory chip costs force upcoming Apple price increases",
+          "link": "https://4sysops.com/archives/rising-ai-memory-chip-costs-force-upcoming-apple-price-increases/",
+          "pubDate": "2026-06-18T15:01:39.000Z",
+          "summary": "Apple plans to increase the prices of its products due to the surging costs of memory and storage chips. Chief Executive Officer Tim Cook stated that these price hikes are unavoidable because the current supply situation has become unsustainable for the company. The rising costs and subsequent chip ",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "AI agents"
+            "apple",
+            "hardware"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "TypeScript 7.0 RC arrives with Go-based compiler and 10x speed boost",
+          "link": "https://4sysops.com/archives/typescript-7-0-rc-arrives-with-go-based-compiler-and-10x-speed-boost/",
+          "pubDate": "2026-06-18T15:01:38.000Z",
+          "summary": "Microsoft has announced the Release Candidate for TypeScript 7.0, which features a significant architectural shift from a bootstrapped codebase to one written in Go. This new foundation leverages native code speed and shared memory parallelism to deliver performance that is often ten times faster th",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "devops"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Visual Studio Code 1.126 streamlines AI model customization and chat management",
+          "link": "https://4sysops.com/archives/visual-studio-code-1-126-streamlines-ai-model-customization-and-chat-management/",
+          "pubDate": "2026-06-18T15:01:37.000Z",
+          "summary": "Microsoft has released Visual Studio Code version 1.126 with several updates focused on the user interface and AI features. The update introduces visual enhancements to the chat session list items within the development environment. These list items now utilize a pixel spinner, which aligns the inte",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "vscode"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:12.890Z",
+      "fetchedAt": "2026-06-18T15:24:25.711Z",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:13.075Z",
+      "fetchedAt": "2026-06-18T15:24:25.746Z",
       "error": null
     },
     {
@@ -223,7 +223,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:13.450Z",
+      "fetchedAt": "2026-06-18T15:24:26.443Z",
       "error": null
     },
     {
@@ -233,7 +233,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-18T11:50:12.441Z",
+      "fetchedAt": "2026-06-18T15:24:25.497Z",
       "error": "HTTP 403"
     },
     {
@@ -288,7 +288,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:13.578Z",
+      "fetchedAt": "2026-06-18T15:24:26.749Z",
       "error": null
     },
     {
@@ -353,7 +353,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:13.863Z",
+      "fetchedAt": "2026-06-18T15:24:26.846Z",
       "error": null
     },
     {
@@ -436,7 +436,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:13.656Z",
+      "fetchedAt": "2026-06-18T15:24:26.831Z",
       "error": null
     },
     {
@@ -509,7 +509,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:14.452Z",
+      "fetchedAt": "2026-06-18T15:24:27.446Z",
       "error": null
     },
     {
@@ -518,7 +518,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-18T11:50:14.506Z",
+      "fetchedAt": "2026-06-18T15:24:27.573Z",
       "error": "HTTP 403"
     },
     {
@@ -596,7 +596,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:16.230Z",
+      "fetchedAt": "2026-06-18T15:24:29.104Z",
       "error": null
     },
     {
@@ -605,7 +605,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-18T11:50:15.066Z",
+      "fetchedAt": "2026-06-18T15:24:27.850Z",
       "error": "certificate has expired"
     },
     {
@@ -678,7 +678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:15.147Z",
+      "fetchedAt": "2026-06-18T15:24:28.232Z",
       "error": null
     },
     {
@@ -755,7 +755,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:16.686Z",
+      "fetchedAt": "2026-06-18T15:24:29.396Z",
       "error": null
     },
     {
@@ -821,7 +821,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:17.174Z",
+      "fetchedAt": "2026-06-18T15:24:30.043Z",
       "error": null
     },
     {
@@ -876,7 +876,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:16.741Z",
+      "fetchedAt": "2026-06-18T15:24:29.561Z",
       "error": null
     },
     {
@@ -957,7 +957,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:16.590Z",
+      "fetchedAt": "2026-06-18T15:24:29.889Z",
       "error": null
     },
     {
@@ -1038,7 +1038,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:17.239Z",
+      "fetchedAt": "2026-06-18T15:24:30.194Z",
       "error": null
     },
     {
@@ -1115,7 +1115,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:19.498Z",
+      "fetchedAt": "2026-06-18T15:24:31.902Z",
       "error": null
     },
     {
@@ -1200,7 +1200,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:17.330Z",
+      "fetchedAt": "2026-06-18T15:24:30.335Z",
       "error": null
     },
     {
@@ -1256,7 +1256,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:17.348Z",
+      "fetchedAt": "2026-06-18T15:24:30.372Z",
       "error": null
     },
     {
@@ -1342,7 +1342,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:20.481Z",
+      "fetchedAt": "2026-06-18T15:24:33.019Z",
       "error": null
     },
     {
@@ -1428,7 +1428,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:19.678Z",
+      "fetchedAt": "2026-06-18T15:24:32.089Z",
       "error": null
     },
     {
@@ -1512,7 +1512,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:19.612Z",
+      "fetchedAt": "2026-06-18T15:24:32.179Z",
       "error": null
     },
     {
@@ -1567,7 +1567,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:19.570Z",
+      "fetchedAt": "2026-06-18T15:24:32.137Z",
       "error": null
     },
     {
@@ -1632,7 +1632,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:20.890Z",
+      "fetchedAt": "2026-06-18T15:24:33.289Z",
       "error": null
     },
     {
@@ -1717,7 +1717,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:21.463Z",
+      "fetchedAt": "2026-06-18T15:24:34.136Z",
       "error": null
     },
     {
@@ -1773,7 +1773,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:21.118Z",
+      "fetchedAt": "2026-06-18T15:24:33.899Z",
       "error": null
     },
     {
@@ -1838,7 +1838,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:20.919Z",
+      "fetchedAt": "2026-06-18T15:24:33.801Z",
       "error": null
     },
     {
@@ -1919,7 +1919,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:22.320Z",
+      "fetchedAt": "2026-06-18T15:24:34.933Z",
       "error": null
     },
     {
@@ -1928,7 +1928,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-18T11:50:22.156Z",
+      "fetchedAt": "2026-06-18T15:24:34.999Z",
       "error": "HTTP 404"
     },
     {
@@ -1937,7 +1937,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-18T11:50:21.629Z",
+      "fetchedAt": "2026-06-18T15:24:34.520Z",
       "error": "HTTP 403"
     },
     {
@@ -2008,16 +2008,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:21.719Z",
+      "fetchedAt": "2026-06-18T15:24:34.393Z",
       "error": null
     },
     {
@@ -2090,7 +2090,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:22.420Z",
+      "fetchedAt": "2026-06-18T15:24:35.295Z",
       "error": null
     },
     {
@@ -2109,7 +2109,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:22.466Z",
+      "fetchedAt": "2026-06-18T15:24:35.297Z",
       "error": null
     },
     {
@@ -2164,7 +2164,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:22.478Z",
+      "fetchedAt": "2026-06-18T15:24:35.533Z",
       "error": null
     },
     {
@@ -2249,7 +2249,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:22.903Z",
+      "fetchedAt": "2026-06-18T15:24:35.444Z",
       "error": null
     },
     {
@@ -2315,7 +2315,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bzAH7Rrq9rM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:22.934Z",
+      "fetchedAt": "2026-06-18T15:24:36.240Z",
       "error": null
     },
     {
@@ -2380,7 +2380,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/a_CZ1EBXnro/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.085Z",
+      "fetchedAt": "2026-06-18T15:24:35.865Z",
       "error": null
     },
     {
@@ -2445,7 +2445,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ye22J-MMY8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:22.936Z",
+      "fetchedAt": "2026-06-18T15:24:35.841Z",
       "error": null
     },
     {
@@ -2511,7 +2511,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/G9vcn3hZS_s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.079Z",
+      "fetchedAt": "2026-06-18T15:24:35.743Z",
       "error": null
     },
     {
@@ -2577,7 +2577,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/gypoXJS_4k8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.365Z",
+      "fetchedAt": "2026-06-18T15:24:36.402Z",
       "error": null
     },
     {
@@ -2643,7 +2643,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yUZj6Oh3L4k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.397Z",
+      "fetchedAt": "2026-06-18T15:24:36.382Z",
       "error": null
     },
     {
@@ -2708,7 +2708,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CEXkZCSVRwQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.222Z",
+      "fetchedAt": "2026-06-18T15:24:36.368Z",
       "error": null
     },
     {
@@ -2774,7 +2774,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/eRLWDR1MsmA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.232Z",
+      "fetchedAt": "2026-06-18T15:24:36.380Z",
       "error": null
     },
     {
@@ -2784,10 +2784,10 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g",
       "items": [
         {
-          "title": "6/17/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
+          "title": "6/17/26 ViaMonstra Academy OFFICE HOURS | Updates and Q&A for anything about ConfigMgr, OSD, Intune",
           "link": "https://www.youtube.com/watch?v=3-hZMov8HiM",
           "pubDate": "2026-06-18T10:20:28.000Z",
-          "summary": "Join us every week for Updates, Q&A, and roundtable discussions on anything related to Windows deployment, MDT, ConfigMgr, or Intune. https://academy.viamonstra.com/courses/office-hours-community-edition #sccm #msintune #configmgr #mdt",
+          "summary": "Join us for Q&A and roundtable discussion on anything related to Windows deployment, MDT, ConfigMgr, or Microsoft Intune. We bring the experts; you bring the questions. With co-hosts Johan Arwidmark and Andrew Johnson. LINKS BELOW ⬇️ ------------------------------------------------------------------",
           "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
           "categories": [],
           "type": "video",
@@ -2839,7 +2839,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/jzTsepahfFU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.578Z",
+      "fetchedAt": "2026-06-18T15:24:36.570Z",
       "error": null
     },
     {
@@ -2904,7 +2904,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.564Z",
+      "fetchedAt": "2026-06-18T15:24:36.634Z",
       "error": null
     },
     {
@@ -2969,7 +2969,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3wNoOKTxxy0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.553Z",
+      "fetchedAt": "2026-06-18T15:24:36.539Z",
       "error": null
     },
     {
@@ -3034,7 +3034,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.523Z",
+      "fetchedAt": "2026-06-18T15:24:36.534Z",
       "error": null
     },
     {
@@ -3099,7 +3099,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.857Z",
+      "fetchedAt": "2026-06-18T15:24:36.807Z",
       "error": null
     },
     {
@@ -3164,7 +3164,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.824Z",
+      "fetchedAt": "2026-06-18T15:24:36.762Z",
       "error": null
     },
     {
@@ -3220,7 +3220,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:23.727Z",
+      "fetchedAt": "2026-06-18T15:24:38.381Z",
       "error": null
     },
     {
@@ -3230,7 +3230,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-18T11:50:23.669Z",
+      "fetchedAt": "2026-06-18T15:24:36.744Z",
       "error": null
     },
     {
@@ -3296,7 +3296,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:24.725Z",
+      "fetchedAt": "2026-06-18T15:24:39.430Z",
       "error": null
     },
     {
@@ -3352,7 +3352,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:24.217Z",
+      "fetchedAt": "2026-06-18T15:24:38.412Z",
       "error": null
     },
     {
@@ -3381,7 +3381,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:24.106Z",
+      "fetchedAt": "2026-06-18T15:24:38.805Z",
       "error": null
     },
     {
@@ -3437,7 +3437,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:24.207Z",
+      "fetchedAt": "2026-06-18T15:24:38.727Z",
       "error": null
     },
     {
@@ -3447,7 +3447,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-18T11:50:24.807Z",
+      "fetchedAt": "2026-06-18T15:24:39.652Z",
       "error": null
     },
     {
@@ -3503,7 +3503,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:25.021Z",
+      "fetchedAt": "2026-06-18T15:24:39.447Z",
       "error": null
     },
     {
@@ -3523,7 +3523,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:24.766Z",
+      "fetchedAt": "2026-06-18T15:24:39.719Z",
       "error": null
     },
     {
@@ -3579,7 +3579,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:29.266Z",
+      "fetchedAt": "2026-06-18T15:24:43.788Z",
       "error": null
     },
     {
@@ -3635,7 +3635,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:30.329Z",
+      "fetchedAt": "2026-06-18T15:24:44.737Z",
       "error": null
     },
     {
@@ -3690,7 +3690,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:29.466Z",
+      "fetchedAt": "2026-06-18T15:24:43.975Z",
       "error": null
     },
     {
@@ -3698,9 +3698,55 @@
       "label": "PowerShell Podcast",
       "type": "audio",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
-      "items": [],
-      "fetchedAt": "2026-06-18T11:50:37.429Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "PowerShell Universal and the Joy of Building with Adriano Carollo",
+          "link": "https://powershellpodcast.podbean.com/e/powershell-universal-and-the-joy-of-building/",
+          "pubDate": "2026-06-15T14:00:00.000Z",
+          "summary": "In this episode, Andrew chats with Adriano Carollo at PSConfEU about community, PowerShell Universal, AI, and what happens when you stop lurking and start talking to people. Adriano shares how PowerShell helped him grow from sysadmin into web apps, automation, and open source-style contribution, whi",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
+        {
+          "title": "Cookie Monster Has Entered the Teams Chat with Miriam Wiesner",
+          "link": "https://powershellpodcast.podbean.com/e/cookie-monster-has-entered-the-teams-chat-with-miriam-wiesner/",
+          "pubDate": "2026-06-08T14:00:00.000Z",
+          "summary": "Cookie-based identity attacks are an active and growing threat. Microsoft Teams, SharePoint, and OneDrive share session cookies, meaning a single cookie theft can give an attacker broad access across your organization's collaboration tools — no re-authentication required. Sophisticated threat actors",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
+        {
+          "title": "Betting on Yourself with Frank Lesniak",
+          "link": "https://powershellpodcast.podbean.com/e/betting-on-yourself-with-frank-lesniak/",
+          "pubDate": "2026-06-01T14:00:00.000Z",
+          "summary": "The PowerShell pipeline is one of the most commonly cited stumbling blocks for newcomers, especially those coming from text-based scripting backgrounds. Learning to visualize what your objects look like at each stage of the pipeline, using tools like Get-Member, is a skill that pays dividends long t",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
+        {
+          "title": "Solving Problems at the Root with Mark Littlefield",
+          "link": "https://powershellpodcast.podbean.com/e/solving-problems-at-the-root-with-mark-littlefield/",
+          "pubDate": "2026-05-25T14:00:00.000Z",
+          "summary": "Product management and PowerShell automation share a core philosophy: solve problems at the root, not just on the surface. Whether you're writing a script or building a feature, the goal is to eliminate a challenge entirely rather than patch around it. Understanding your customer requires more than ",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
+        {
+          "title": "PowerShell After Dark: OnRamp, IoT, and Finding Your People.",
+          "link": "https://powershellpodcast.podbean.com/e/powershell-after-dark-onramp-iot-and-finding-your-people/",
+          "pubDate": "2026-05-18T14:00:00.000Z",
+          "summary": "The OnRamp scholarship program is genuinely life-changing for early-career IT professionals. Josh Gratton's story, from service desk to systems engineer to Summit attendee, is a direct line from PowerShell to career transformation, and it started with applying for a scholarship he poured his heart i",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        }
+      ],
+      "fetchedAt": "2026-06-18T15:24:44.015Z",
+      "error": null
     },
     {
       "id": "pod-macadmins",
@@ -3764,7 +3810,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-18T11:50:30.109Z",
+      "fetchedAt": "2026-06-18T15:24:44.637Z",
       "error": null
     }
   ]
