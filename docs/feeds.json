@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T18:26:02.652Z",
+  "generatedAt": "2026-06-18T22:08:43.258Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,75 +8,76 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Americans embrace AI chatbot usage despite deep skepticism over societal impact",
-          "link": "https://4sysops.com/archives/americans-embrace-ai-chatbot-usage-despite-deep-skepticism-over-societal-impact/",
-          "pubDate": "2026-06-18T15:01:41.000Z",
-          "summary": "Recent data from Pew Research indicates that half of American adults now utilize AI chatbots, a significant increase from one-third just last year. OpenAI’s ChatGPT remains the dominant platform with 44% of the population reporting its use, followed by Google Gemini and Microsoft Copilot. Despite th",
-          "author": "IT News",
+          "title": "What is new in Microsoft Entra: June 2026 updates",
+          "link": "https://4sysops.com/archives/what-is-new-in-microsoft-entra-june-2026-updates/",
+          "pubDate": "2026-06-18T21:39:12.000Z",
+          "summary": "The Microsoft Entra June 2026 update adds phishing-resistant multifactor authentication for Linux desktops, expands passkey support on Windows, and changes how Self-Service Password Reset verifies identity. It also brings new Conditional Access enforcement during credential registration and a public",
+          "author": "IT Experts",
           "categories": [
-            "News",
-            "AI",
-            "openai",
-            "poll"
+            "Articles",
+            "active directory",
+            "entra",
+            "windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Anthropic eliminates static API keys with workload identity federation",
-          "link": "https://4sysops.com/archives/anthropic-eliminates-static-api-keys-with-workload-identity-federation/",
-          "pubDate": "2026-06-18T15:01:40.000Z",
-          "summary": "Anthropic has announced the general availability of Workload Identity Federation (WIF) on the Claude Platform. This feature supports any OpenID Connect (OIDC) compliant identity provider, including AWS IAM, Azure managed identities, and Google Cloud Platform service accounts. It applies to all Claud",
+          "title": "IBM and Microsoft partner to automate identity threat response",
+          "link": "https://4sysops.com/archives/ibm-and-microsoft-partner-to-automate-identity-threat-response/",
+          "pubDate": "2026-06-18T21:02:37.000Z",
+          "summary": "IBM and Microsoft have launched a collaborative service designed to bridge the gap between detecting identity-based threats and executing governed remediation. The partnership integrates Microsoft’s security telemetry with IBM’s managed response services to address the rising volume of credential-ba",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "AI agents",
-            "anthropic",
-            "authentication"
+            "entra",
+            "identity",
+            "security"
           ],
           "type": "rss"
         },
         {
-          "title": "Rising AI memory chip costs force upcoming Apple price increases",
-          "link": "https://4sysops.com/archives/rising-ai-memory-chip-costs-force-upcoming-apple-price-increases/",
-          "pubDate": "2026-06-18T15:01:39.000Z",
-          "summary": "Apple plans to increase the prices of its products due to the surging costs of memory and storage chips. Chief Executive Officer Tim Cook stated that these price hikes are unavoidable because the current supply situation has become unsustainable for the company. The rising costs and subsequent chip ",
+          "title": "Citrix DaaS Flex optimizes virtual desktop costs through user persona assessments",
+          "link": "https://4sysops.com/archives/citrix-daas-flex-optimizes-virtual-desktop-costs-through-user-persona-assessments/",
+          "pubDate": "2026-06-18T21:02:36.000Z",
+          "summary": "Citrix has launched DaaS Flex, a service designed to reduce virtualization costs by analyzing an organization's actual endpoint requirements. The tool assesses the existing fleet to identify where users are over-provisioned with expensive virtual machine instances. By evaluating hardware utilization",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "apple",
-            "hardware"
+            "azure",
+            "desktop virtualization",
+            "virtualization"
           ],
           "type": "rss"
         },
         {
-          "title": "TypeScript 7.0 RC arrives with Go-based compiler and 10x speed boost",
-          "link": "https://4sysops.com/archives/typescript-7-0-rc-arrives-with-go-based-compiler-and-10x-speed-boost/",
-          "pubDate": "2026-06-18T15:01:38.000Z",
-          "summary": "Microsoft has announced the Release Candidate for TypeScript 7.0, which features a significant architectural shift from a bootstrapped codebase to one written in Go. This new foundation leverages native code speed and shared memory parallelism to deliver performance that is often ten times faster th",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "devops"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Visual Studio Code 1.126 streamlines AI model customization and chat management",
-          "link": "https://4sysops.com/archives/visual-studio-code-1-126-streamlines-ai-model-customization-and-chat-management/",
-          "pubDate": "2026-06-18T15:01:37.000Z",
-          "summary": "Microsoft has released Visual Studio Code version 1.126 with several updates focused on the user interface and AI features. The update introduces visual enhancements to the chat session list items within the development environment. These list items now utilize a pixel spinner, which aligns the inte",
+          "title": "Building a model-agnostic harness for automated vulnerability scanning",
+          "link": "https://4sysops.com/archives/building-a-model-agnostic-harness-for-automated-vulnerability-scanning/",
+          "pubDate": "2026-06-18T21:02:35.000Z",
+          "summary": "Cloudflare has developed a specialized orchestration layer to manage fleet-wide security audits using interchangeable large language models. This architecture treats models as stateless compute engines to prevent context exhaustion and ensure that vulnerabilities are cross-verified by different logi",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "vscode"
+            "devops",
+            "security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "GLM-5.2 sets new open weights benchmark for AI coding and long context",
+          "link": "https://4sysops.com/archives/glm-5-2-sets-new-open-weights-benchmark-for-ai-coding-and-long-context/",
+          "pubDate": "2026-06-18T21:02:34.000Z",
+          "summary": "The Chinese AI lab Z.ai has released GLM-5.2, a new open-weights model that currently leads the Intelligence Index v4.1 for its category. This model is distributed under an MIT license, allowing administrators and developers to download, modify, and run the weights commercially without the restricti",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "AI agents"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:38.886Z",
+      "fetchedAt": "2026-06-18T22:08:19.771Z",
       "error": null
     },
     {
@@ -157,7 +158,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:38.844Z",
+      "fetchedAt": "2026-06-18T22:08:19.856Z",
       "error": null
     },
     {
@@ -223,7 +224,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:39.299Z",
+      "fetchedAt": "2026-06-18T22:08:20.140Z",
       "error": null
     },
     {
@@ -233,7 +234,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-18T18:25:38.455Z",
+      "fetchedAt": "2026-06-18T22:08:19.468Z",
       "error": "HTTP 403"
     },
     {
@@ -288,7 +289,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:39.520Z",
+      "fetchedAt": "2026-06-18T22:08:20.451Z",
       "error": null
     },
     {
@@ -353,7 +354,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:39.738Z",
+      "fetchedAt": "2026-06-18T22:08:20.508Z",
       "error": null
     },
     {
@@ -436,7 +437,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:39.509Z",
+      "fetchedAt": "2026-06-18T22:08:20.361Z",
       "error": null
     },
     {
@@ -509,7 +510,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:40.122Z",
+      "fetchedAt": "2026-06-18T22:08:20.918Z",
       "error": null
     },
     {
@@ -518,7 +519,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-18T18:25:40.210Z",
+      "fetchedAt": "2026-06-18T22:08:20.980Z",
       "error": "HTTP 403"
     },
     {
@@ -596,7 +597,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:41.659Z",
+      "fetchedAt": "2026-06-18T22:08:22.399Z",
       "error": null
     },
     {
@@ -605,7 +606,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-18T18:25:40.498Z",
+      "fetchedAt": "2026-06-18T22:08:21.184Z",
       "error": "certificate has expired"
     },
     {
@@ -678,7 +679,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:40.741Z",
+      "fetchedAt": "2026-06-18T22:08:21.404Z",
       "error": null
     },
     {
@@ -755,7 +756,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:42.199Z",
+      "fetchedAt": "2026-06-18T22:08:22.757Z",
       "error": null
     },
     {
@@ -764,120 +765,18 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
-          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
-          "pubDate": "2026-05-15T14:47:47.000Z",
-          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
-          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
-          "pubDate": "2026-05-06T20:30:40.000Z",
-          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
-          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
-          "pubDate": "2026-04-27T15:00:17.000Z",
-          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-06-18T18:25:42.715Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-06-18T22:08:22.534Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
       "label": "mattzaske.com - Matt Zaske",
       "type": "rss",
       "url": "https://mattzaske.com/rss.xml",
-      "items": [
-        {
-          "title": "Get-RandomMustache: The Tale of an Unexpected Easter Egg",
-          "link": "https://mattzaske.com/blog/2026-06/get-randommustache-tale-unexpected-easter-egg",
-          "pubDate": "2026-06-08T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Get-RandomMustache: The Tale of an Unexpected Easter Egg</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/file",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Git Hooks: Using Git to Take Action",
-          "link": "https://mattzaske.com/blog/2026-03/git-hooks-using-git-take-action",
-          "pubDate": "2026-03-02T14:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Git Hooks: Using Git to Take Action</span> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>zaskem</span></span> <span class=\"field field--name-created field--type-created field--la",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Fire TV Power Control from Home Assistant!",
-          "link": "https://mattzaske.com/blog/2025-12/fire-tv-power-control-home-assistant",
-          "pubDate": "2025-12-15T14:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Fire TV Power Control from Home Assistant!</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/2025-12/adb-",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant",
-          "link": "https://mattzaske.com/blog/2025-07/configuringusing-awtrix-3-ulanzi-tc001-through-home-assistant",
-          "pubDate": "2025-07-14T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Home Assistant Notifications to Teams with Graph API",
-          "link": "https://mattzaske.com/blog/2025-06/home-assistant-notifications-teams-graph-api",
-          "pubDate": "2025-06-30T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Home Assistant Notifications to Teams with Graph API</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/20",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-06-18T18:25:42.126Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-06-18T22:08:30.578Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "msendpointmgr",
@@ -957,7 +856,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:42.377Z",
+      "fetchedAt": "2026-06-18T22:08:22.683Z",
       "error": null
     },
     {
@@ -1038,7 +937,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:42.833Z",
+      "fetchedAt": "2026-06-18T22:08:30.657Z",
       "error": null
     },
     {
@@ -1115,7 +1014,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:44.483Z",
+      "fetchedAt": "2026-06-18T22:08:32.162Z",
       "error": null
     },
     {
@@ -1200,7 +1099,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:42.990Z",
+      "fetchedAt": "2026-06-18T22:08:30.677Z",
       "error": null
     },
     {
@@ -1256,7 +1155,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:43.079Z",
+      "fetchedAt": "2026-06-18T22:08:30.799Z",
       "error": null
     },
     {
@@ -1342,7 +1241,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:45.784Z",
+      "fetchedAt": "2026-06-18T22:08:33.248Z",
       "error": null
     },
     {
@@ -1428,7 +1327,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:44.620Z",
+      "fetchedAt": "2026-06-18T22:08:32.187Z",
       "error": null
     },
     {
@@ -1512,7 +1411,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:44.827Z",
+      "fetchedAt": "2026-06-18T22:08:32.239Z",
       "error": null
     },
     {
@@ -1567,7 +1466,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:44.731Z",
+      "fetchedAt": "2026-06-18T22:08:32.396Z",
       "error": null
     },
     {
@@ -1632,7 +1531,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:45.974Z",
+      "fetchedAt": "2026-06-18T22:08:33.532Z",
       "error": null
     },
     {
@@ -1717,7 +1616,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:46.513Z",
+      "fetchedAt": "2026-06-18T22:08:34.012Z",
       "error": null
     },
     {
@@ -1773,7 +1672,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:46.376Z",
+      "fetchedAt": "2026-06-18T22:08:33.752Z",
       "error": null
     },
     {
@@ -1838,7 +1737,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:46.332Z",
+      "fetchedAt": "2026-06-18T22:08:33.693Z",
       "error": null
     },
     {
@@ -1919,7 +1818,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.168Z",
+      "fetchedAt": "2026-06-18T22:08:34.781Z",
       "error": null
     },
     {
@@ -1928,7 +1827,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-18T18:25:46.989Z",
+      "fetchedAt": "2026-06-18T22:08:34.402Z",
       "error": "HTTP 404"
     },
     {
@@ -1937,7 +1836,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-18T18:25:46.673Z",
+      "fetchedAt": "2026-06-18T22:08:34.134Z",
       "error": "HTTP 403"
     },
     {
@@ -2017,7 +1916,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:46.716Z",
+      "fetchedAt": "2026-06-18T22:08:34.166Z",
       "error": null
     },
     {
@@ -2090,7 +1989,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.347Z",
+      "fetchedAt": "2026-06-18T22:08:34.950Z",
       "error": null
     },
     {
@@ -2109,7 +2008,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.309Z",
+      "fetchedAt": "2026-06-18T22:08:35.017Z",
       "error": null
     },
     {
@@ -2164,7 +2063,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.554Z",
+      "fetchedAt": "2026-06-18T22:08:35.193Z",
       "error": null
     },
     {
@@ -2249,7 +2148,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.401Z",
+      "fetchedAt": "2026-06-18T22:08:35.045Z",
       "error": null
     },
     {
@@ -2315,7 +2214,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bzAH7Rrq9rM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.590Z",
+      "fetchedAt": "2026-06-18T22:08:35.317Z",
       "error": null
     },
     {
@@ -2380,7 +2279,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/a_CZ1EBXnro/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.704Z",
+      "fetchedAt": "2026-06-18T22:08:35.310Z",
       "error": null
     },
     {
@@ -2445,7 +2344,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ye22J-MMY8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.957Z",
+      "fetchedAt": "2026-06-18T22:08:35.367Z",
       "error": null
     },
     {
@@ -2511,7 +2410,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/G9vcn3hZS_s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:47.703Z",
+      "fetchedAt": "2026-06-18T22:08:35.312Z",
       "error": null
     },
     {
@@ -2577,7 +2476,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/pN2L5QRrEeI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.108Z",
+      "fetchedAt": "2026-06-18T22:08:35.513Z",
       "error": null
     },
     {
@@ -2643,7 +2542,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yUZj6Oh3L4k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.131Z",
+      "fetchedAt": "2026-06-18T22:08:35.472Z",
       "error": null
     },
     {
@@ -2708,7 +2607,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CEXkZCSVRwQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.093Z",
+      "fetchedAt": "2026-06-18T22:08:35.466Z",
       "error": null
     },
     {
@@ -2774,7 +2673,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/fGHj1yXynM0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.277Z",
+      "fetchedAt": "2026-06-18T22:08:35.531Z",
       "error": null
     },
     {
@@ -2839,7 +2738,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/jzTsepahfFU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.455Z",
+      "fetchedAt": "2026-06-18T22:08:35.611Z",
       "error": null
     },
     {
@@ -2904,7 +2803,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.420Z",
+      "fetchedAt": "2026-06-18T22:08:35.630Z",
       "error": null
     },
     {
@@ -2969,7 +2868,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3wNoOKTxxy0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.372Z",
+      "fetchedAt": "2026-06-18T22:08:35.652Z",
       "error": null
     },
     {
@@ -3034,7 +2933,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.432Z",
+      "fetchedAt": "2026-06-18T22:08:35.628Z",
       "error": null
     },
     {
@@ -3099,7 +2998,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.473Z",
+      "fetchedAt": "2026-06-18T22:08:35.790Z",
       "error": null
     },
     {
@@ -3164,7 +3063,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:48.557Z",
+      "fetchedAt": "2026-06-18T22:08:35.762Z",
       "error": null
     },
     {
@@ -3220,7 +3119,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:49.901Z",
+      "fetchedAt": "2026-06-18T22:08:37.229Z",
       "error": null
     },
     {
@@ -3230,7 +3129,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-18T18:25:48.561Z",
+      "fetchedAt": "2026-06-18T22:08:35.969Z",
       "error": null
     },
     {
@@ -3296,7 +3195,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:50.645Z",
+      "fetchedAt": "2026-06-18T22:08:37.951Z",
       "error": null
     },
     {
@@ -3352,7 +3251,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:50.383Z",
+      "fetchedAt": "2026-06-18T22:08:37.262Z",
       "error": null
     },
     {
@@ -3381,7 +3280,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:50.529Z",
+      "fetchedAt": "2026-06-18T22:08:37.568Z",
       "error": null
     },
     {
@@ -3437,7 +3336,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:50.443Z",
+      "fetchedAt": "2026-06-18T22:08:37.791Z",
       "error": null
     },
     {
@@ -3447,7 +3346,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-18T18:25:50.942Z",
+      "fetchedAt": "2026-06-18T22:08:38.040Z",
       "error": null
     },
     {
@@ -3503,7 +3402,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:51.182Z",
+      "fetchedAt": "2026-06-18T22:08:38.201Z",
       "error": null
     },
     {
@@ -3523,7 +3422,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:50.740Z",
+      "fetchedAt": "2026-06-18T22:08:37.975Z",
       "error": null
     },
     {
@@ -3532,9 +3431,55 @@
       "type": "official",
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
-      "items": [],
-      "fetchedAt": "2026-06-18T18:25:58.760Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Klue Third-Party Cybersecurity Incident",
+          "link": "https://www.jamf.com/blog/klue-incident/",
+          "pubDate": null,
+          "summary": "The latest updates from Jamf on the Klue third-party cybersecurity incident. Here's what we know and what we're doing about it. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "AI adoption is high. Governance is lagging.",
+          "link": "https://www.jamf.com/blog/ai-adoption-governance-gap-apple-enterprise/",
+          "pubDate": null,
+          "summary": "New Jamf research finds AI governance gaps widen as organizations deepen their AI integration. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "The JNUC 2026 session catalog is live — and the clock is ticking",
+          "link": "https://www.jamf.com/blog/jnuc-2026-session-catalog/",
+          "pubDate": null,
+          "summary": "The JNUC 2026 session catalog is live — browse sessions, plan your agenda and register before Just in Time pricing ends July 1. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "AI governance for Mac: bringing AI under management",
+          "link": "https://www.jamf.com/blog/ai-governance-for-mac/",
+          "pubDate": null,
+          "summary": "Somewhere in your organization, an engineer is running Claude Code. A few desks over, someone in finance is drafting in Claude Desktop. The decision to adopt AI has, in practice, already been made by the business and by people quietly getting more done with it. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "WWDC26: Key takeaways for education institutions",
+          "link": "https://www.jamf.com/blog/wwdc26-key-takeaways-for-education-institutions/",
+          "pubDate": null,
+          "summary": "Every year, WWDC provides a glimpse into the future of Apple’s platforms. While individual announcements often focus on new features, the bigger story is usually found in the direction Apple is taking its ecosystem. This year, that direction is particularly relevant for education. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-06-18T22:08:42.388Z",
+      "error": null
     },
     {
       "id": "2pint",
@@ -3589,7 +3534,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:59.448Z",
+      "fetchedAt": "2026-06-18T22:08:42.965Z",
       "error": null
     },
     {
@@ -3644,7 +3589,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-18T18:26:02.652Z",
+      "fetchedAt": "2026-06-18T22:08:42.536Z",
       "error": null
     },
     {
@@ -3699,7 +3644,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:58.959Z",
+      "fetchedAt": "2026-06-18T22:08:42.476Z",
       "error": null
     },
     {
@@ -3764,7 +3709,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-18T18:25:59.642Z",
+      "fetchedAt": "2026-06-18T22:08:43.258Z",
       "error": null
     }
   ]
