@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T04:20:48.088Z",
+  "generatedAt": "2026-06-19T12:06:07.944Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,77 +8,76 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Are AI data centres in space realistic?",
-          "link": "https://4sysops.com/archives/are-ai-data-centres-in-space-realistic/",
-          "pubDate": "2026-06-18T22:12:01.000Z",
-          "summary": "The rapid expansion of AI is straining terrestrial resources, particularly in regions like Arizona where data centers face severe water and power shortages. To circumvent these physical limits, the tech industry is exploring orbital data centers equipped with high-performance processors like the Nvi",
+          "title": "AI war: EU vs US",
+          "link": "https://4sysops.com/archives/ai-war-eu-vs-us/",
+          "pubDate": "2026-06-19T10:55:33.000Z",
+          "summary": "The U.S. government's decision to block Anthropic from exporting its most powerful AI models has exposed Europe’s extreme vulnerability and dependence on American infrastructure. At the G7 summit, the shift in power was evident as world leaders competed for attention from AI executives rather than t",
           "author": "IT News",
           "categories": [
             "News",
-            "Newsletters",
             "AI",
+            "cloud computing",
+            "security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Building a hybrid AI pipeline for automated document extraction on Azure",
+          "link": "https://4sysops.com/archives/building-a-hybrid-ai-pipeline-for-automated-document-extraction-on-azure/",
+          "pubDate": "2026-06-19T10:51:19.000Z",
+          "summary": "Microsoft has detailed a hybrid architecture for automating the extraction of data from complex documents like construction drawings and contracts. The system combines deterministic models with generative AI to balance precision and cost-effectiveness. This approach aims to replace manual reviews wi",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "azure",
             "cloud computing"
           ],
           "type": "rss"
         },
         {
-          "title": "What is new in Microsoft Entra: June 2026 updates",
-          "link": "https://4sysops.com/archives/what-is-new-in-microsoft-entra-june-2026-updates/",
-          "pubDate": "2026-06-18T21:39:12.000Z",
-          "summary": "The Microsoft Entra June 2026 update adds phishing-resistant multifactor authentication for Linux desktops, expands passkey support on Windows, and changes how Self-Service Password Reset verifies identity. It also brings new Conditional Access enforcement during credential registration and a public",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "active directory",
-            "entra",
-            "windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "IBM and Microsoft partner to automate identity threat response",
-          "link": "https://4sysops.com/archives/ibm-and-microsoft-partner-to-automate-identity-threat-response/",
-          "pubDate": "2026-06-18T21:02:37.000Z",
-          "summary": "IBM and Microsoft have launched a collaborative service designed to bridge the gap between detecting identity-based threats and executing governed remediation. The partnership integrates Microsoft’s security telemetry with IBM’s managed response services to address the rising volume of credential-ba",
+          "title": "New Crypto Clipper malware uses USB drives and Tor to steal credentials",
+          "link": "https://4sysops.com/archives/new-crypto-clipper-malware-uses-usb-drives-and-tor-to-steal-credentials/",
+          "pubDate": "2026-06-19T10:51:18.000Z",
+          "summary": "Microsoft has identified a new self-propagating worm named Crypto Clipper that spreads primarily through infected USB drives. The malware monitors system clipboards for patterns matching cryptocurrency wallet addresses or recovery seed phrases. Once it detects sensitive financial data, the tool capt",
           "author": "IT News",
           "categories": [
             "News",
-            "entra",
-            "identity",
+            "monitoring",
+            "networking",
             "security"
           ],
           "type": "rss"
         },
         {
-          "title": "Citrix DaaS Flex optimizes virtual desktop costs through user persona assessments",
-          "link": "https://4sysops.com/archives/citrix-daas-flex-optimizes-virtual-desktop-costs-through-user-persona-assessments/",
-          "pubDate": "2026-06-18T21:02:36.000Z",
-          "summary": "Citrix has launched DaaS Flex, a service designed to reduce virtualization costs by analyzing an organization's actual endpoint requirements. The tool assesses the existing fleet to identify where users are over-provisioned with expensive virtual machine instances. By evaluating hardware utilization",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "azure",
-            "desktop virtualization",
-            "virtualization"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Building a model-agnostic harness for automated vulnerability scanning",
-          "link": "https://4sysops.com/archives/building-a-model-agnostic-harness-for-automated-vulnerability-scanning/",
-          "pubDate": "2026-06-18T21:02:35.000Z",
-          "summary": "Cloudflare has developed a specialized orchestration layer to manage fleet-wide security audits using interchangeable large language models. This architecture treats models as stateless compute engines to prevent context exhaustion and ensure that vulnerabilities are cross-verified by different logi",
+          "title": "Google Cloud and Thales to launch sovereign cloud in Germany by 2026",
+          "link": "https://4sysops.com/archives/google-cloud-and-thales-to-launch-sovereign-cloud-in-germany-by-2026/",
+          "pubDate": "2026-06-19T10:51:17.000Z",
+          "summary": "Google Cloud has announced a partnership with Thales to launch a sovereign cloud platform in Germany by the end of 2026. This initiative follows the Criteria Enabling Cloud Computing Autonomy (C3A) framework established by the German Federal Office for Information Security (BSI). The platform will b",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "devops",
+            "cloud computing",
             "security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Hidden dependencies and technical debt stall enterprise AI adoption",
+          "link": "https://4sysops.com/archives/hidden-dependencies-and-technical-debt-stall-enterprise-ai-adoption/",
+          "pubDate": "2026-06-19T10:51:16.000Z",
+          "summary": "A recent study reveals that only 10 percent of companies in the EMEA region fully understand their interconnections across AI providers, models, and infrastructure. This lack of visibility creates significant risks, as 81 percent of executives report that a week-long provider outage would cause crit",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "AI agents"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:22.424Z",
+      "fetchedAt": "2026-06-19T12:05:49.495Z",
       "error": null
     },
     {
@@ -86,9 +85,81 @@
       "label": "petervanderwoude.nl",
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
-      "items": [],
-      "fetchedAt": "2026-06-19T04:20:30.007Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Turning off account notifications in Start and multi-app kiosk mode",
+          "link": "https://petervanderwoude.nl/post/turning-off-account-notifications-in-start-and-multi-app-kiosk-mode/",
+          "pubDate": "2026-06-15T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "Kiosk",
+            "Microsoft Intune",
+            "Multi-app kiosk",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Hiding the recommended section from the Start layout and multi-app kiosk mode",
+          "link": "https://petervanderwoude.nl/post/hiding-the-recommended-section-from-the-start-layout-and-multi-app-kiosk-mode/",
+          "pubDate": "2026-06-08T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "Kiosk",
+            "Microsoft Intune",
+            "Multi-app kiosk",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Using Microsoft Edge secondary tiles in the Start layout and multi-app kiosk mode",
+          "link": "https://petervanderwoude.nl/post/using-microsoft-edge-secondary-tiles-in-the-start-layout-and-multi-app-kiosk-mode/",
+          "pubDate": "2026-06-01T18:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "Microsoft Edge",
+            "Microsoft Intune",
+            "Multi-app kiosk",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Using sensitivity labels for protecting labeled content in Microsoft 365 online apps",
+          "link": "https://petervanderwoude.nl/post/using-sensitivity-labels-for-protecting-labeled-content-in-microsoft-365-online-apps/",
+          "pubDate": "2026-05-25T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "Microsoft Edge",
+            "Microsoft Edge for Business",
+            "Microsoft Edge management service",
+            "Microsoft Intune",
+            "Microsoft Purview"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Introducing enhanced app inventory for Windows devices",
+          "link": "https://petervanderwoude.nl/post/introducing-enhanced-app-inventory-for-windows-devices/",
+          "pubDate": "2026-05-18T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "Peter van der Woude",
+          "categories": [
+            "App inventory",
+            "Device inventory",
+            "Microsoft Intune",
+            "Windows 11"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-06-19T12:05:49.552Z",
+      "error": null
     },
     {
       "id": "andrewstaylor",
@@ -97,6 +168,17 @@
       "type": "rss",
       "url": "https://andrewstaylor.com/feed/",
       "items": [
+        {
+          "title": "Intune Newsletter – 19th June 2026",
+          "link": "https://andrewstaylor.com/2026/06/19/intune-newsletter-19th-june-2026/",
+          "pubDate": "2026-06-19T10:59:19.000Z",
+          "summary": "Read more]]>",
+          "author": "Andrew Taylor",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Intune Newsletter – 12th June 2026",
           "link": "https://andrewstaylor.com/2026/06/12/intune-newsletter-12th-june-2026/",
@@ -140,20 +222,9 @@
             "Newsletter"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 15th May 2026",
-          "link": "https://andrewstaylor.com/2026/05/15/intune-newsletter-15th-may-2026/",
-          "pubDate": "2026-05-15T10:21:24.000Z",
-          "summary": "Read more]]>",
-          "author": "Andrew Taylor",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:22.474Z",
+      "fetchedAt": "2026-06-19T12:05:50.108Z",
       "error": null
     },
     {
@@ -163,7 +234,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-19T04:20:22.158Z",
+      "fetchedAt": "2026-06-19T12:05:48.912Z",
       "error": "HTTP 403"
     },
     {
@@ -218,7 +289,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:30.180Z",
+      "fetchedAt": "2026-06-19T12:05:50.372Z",
       "error": null
     },
     {
@@ -283,7 +354,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:30.271Z",
+      "fetchedAt": "2026-06-19T12:05:50.449Z",
       "error": null
     },
     {
@@ -292,6 +363,21 @@
       "type": "rss",
       "url": "https://intunestuff.com/feed/",
       "items": [
+        {
+          "title": "Advanced Intune capabilities are coming to Microsoft 365 E3 and E5 — what it actually means",
+          "link": "https://intunestuff.com/2026/06/19/microsoft-intune-suite-m365e5-e3/",
+          "pubDate": "2026-06-19T10:30:48.000Z",
+          "summary": "From 1 July 2026, advanced Intune Suite capabilities are included in Microsoft 365 E3 and E5 at no separate add-on cost. What \"eligible\" really means, the E3/E5 capability split, Security Copilot SCUs, and what to actually do before launch — clarified directly with the product team. The post Advance",
+          "author": "Joery Van den Bosch",
+          "categories": [
+            "AI",
+            "Device Management",
+            "Intune",
+            "Security",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
         {
           "title": "App inventory for Windows devices in Microsoft Intune",
           "link": "https://intunestuff.com/2026/05/11/intune-app-inventory/",
@@ -349,24 +435,9 @@
             "Intune Feature"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Migrate Your Intune Administrative Templates to Settings Catalog – The Easy Way",
-          "link": "https://intunestuff.com/2026/02/16/intune-administrative-templates/",
-          "pubDate": "2026-02-16T17:48:40.000Z",
-          "summary": "Microsoft has deprecated Administrative Templates in Intune. If you’re managing Windows devices, you’ve probably seen the warnings in the admin center. The direction is clear: Settings Catalog is the future, and Administrative Templates are on their way out. The problem? Migrating isn’t a one-click ",
-          "author": "IntuneStuff",
-          "categories": [
-            "Device Management",
-            "Intune",
-            "Security",
-            "Windows 11",
-            "Community"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:30.187Z",
+      "fetchedAt": "2026-06-19T12:05:50.293Z",
       "error": null
     },
     {
@@ -439,7 +510,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:30.702Z",
+      "fetchedAt": "2026-06-19T12:05:51.134Z",
       "error": null
     },
     {
@@ -448,7 +519,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-19T04:20:30.780Z",
+      "fetchedAt": "2026-06-19T12:05:51.204Z",
       "error": "HTTP 403"
     },
     {
@@ -526,7 +597,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:32.190Z",
+      "fetchedAt": "2026-06-19T12:05:52.939Z",
       "error": null
     },
     {
@@ -535,7 +606,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-19T04:20:30.999Z",
+      "fetchedAt": "2026-06-19T12:05:51.517Z",
       "error": "certificate has expired"
     },
     {
@@ -608,7 +679,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:31.351Z",
+      "fetchedAt": "2026-06-19T12:05:51.916Z",
       "error": null
     },
     {
@@ -685,7 +756,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:32.511Z",
+      "fetchedAt": "2026-06-19T12:05:53.579Z",
       "error": null
     },
     {
@@ -751,7 +822,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:32.777Z",
+      "fetchedAt": "2026-06-19T12:05:53.474Z",
       "error": null
     },
     {
@@ -806,7 +877,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:32.676Z",
+      "fetchedAt": "2026-06-19T12:05:53.298Z",
       "error": null
     },
     {
@@ -887,7 +958,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:32.509Z",
+      "fetchedAt": "2026-06-19T12:05:53.275Z",
       "error": null
     },
     {
@@ -968,7 +1039,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:32.885Z",
+      "fetchedAt": "2026-06-19T12:05:53.690Z",
       "error": null
     },
     {
@@ -1045,7 +1116,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:34.960Z",
+      "fetchedAt": "2026-06-19T12:05:55.777Z",
       "error": null
     },
     {
@@ -1130,7 +1201,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:32.982Z",
+      "fetchedAt": "2026-06-19T12:05:53.792Z",
       "error": null
     },
     {
@@ -1186,7 +1257,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:33.025Z",
+      "fetchedAt": "2026-06-19T12:05:53.784Z",
       "error": null
     },
     {
@@ -1272,7 +1343,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:36.345Z",
+      "fetchedAt": "2026-06-19T12:05:56.722Z",
       "error": null
     },
     {
@@ -1358,7 +1429,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:35.087Z",
+      "fetchedAt": "2026-06-19T12:05:55.835Z",
       "error": null
     },
     {
@@ -1367,6 +1438,20 @@
       "type": "rss",
       "url": "https://office365itpros.com/feed/",
       "items": [
+        {
+          "title": "Entra ID Tightens Conditional Access Processing for Baseline Scopes",
+          "link": "https://office365itpros.com/2026/06/19/baseline-scopes-ca/?utm_source=rss&utm_medium=rss&utm_campaign=baseline-scopes-ca",
+          "pubDate": "2026-06-19T07:00:00.000Z",
+          "summary": "",
+          "author": "Tony Redmond",
+          "categories": [
+            "Entra ID",
+            "Baseline scopes",
+            "Conditional access",
+            "MC1223829"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Microsoft Blocks Graph Access to Non-IPM Folders",
           "link": "https://office365itpros.com/2026/06/18/copilot-interaction-app/?utm_source=rss&utm_medium=rss&utm_campaign=copilot-interaction-app",
@@ -1426,23 +1511,9 @@
             "Get-MgUserChatMessage"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Microsoft to Delete Unlicensed OneDrive for Business Accounts",
-          "link": "https://office365itpros.com/2026/06/12/unlicensed-onedrive-for-business-2/?utm_source=rss&utm_medium=rss&utm_campaign=unlicensed-onedrive-for-business-2",
-          "pubDate": "2026-06-12T07:00:00.000Z",
-          "summary": "",
-          "author": "Tony Redmond",
-          "categories": [
-            "OneDrive for Business",
-            "Microsoft 365 Archive",
-            "Unlicensed OneDrive accounts",
-            "Unlicensed OneDrive for Business accounts"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:35.211Z",
+      "fetchedAt": "2026-06-19T12:05:55.895Z",
       "error": null
     },
     {
@@ -1497,7 +1568,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:35.105Z",
+      "fetchedAt": "2026-06-19T12:05:55.844Z",
       "error": null
     },
     {
@@ -1562,7 +1633,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:36.645Z",
+      "fetchedAt": "2026-06-19T12:05:57.116Z",
       "error": null
     },
     {
@@ -1647,7 +1718,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:37.067Z",
+      "fetchedAt": "2026-06-19T12:05:57.639Z",
       "error": null
     },
     {
@@ -1703,7 +1774,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:36.795Z",
+      "fetchedAt": "2026-06-19T12:05:57.585Z",
       "error": null
     },
     {
@@ -1768,7 +1839,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:36.832Z",
+      "fetchedAt": "2026-06-19T12:05:56.999Z",
       "error": null
     },
     {
@@ -1849,7 +1920,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:37.736Z",
+      "fetchedAt": "2026-06-19T12:05:59.722Z",
       "error": null
     },
     {
@@ -1858,7 +1929,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-19T04:20:37.848Z",
+      "fetchedAt": "2026-06-19T12:05:58.300Z",
       "error": "HTTP 404"
     },
     {
@@ -1867,7 +1938,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-19T04:20:37.448Z",
+      "fetchedAt": "2026-06-19T12:05:57.716Z",
       "error": "HTTP 403"
     },
     {
@@ -1938,16 +2009,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
-            "Security",
             "UEFI",
             "Windows 10",
-            "windows 11",
-            "Windows Server"
+            "Windows Server",
+            "Security",
+            "windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:37.444Z",
+      "fetchedAt": "2026-06-19T12:05:57.762Z",
       "error": null
     },
     {
@@ -2020,7 +2091,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.043Z",
+      "fetchedAt": "2026-06-19T12:05:59.907Z",
       "error": null
     },
     {
@@ -2039,7 +2110,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:37.970Z",
+      "fetchedAt": "2026-06-19T12:05:59.871Z",
       "error": null
     },
     {
@@ -2094,7 +2165,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.255Z",
+      "fetchedAt": "2026-06-19T12:05:59.950Z",
       "error": null
     },
     {
@@ -2179,7 +2250,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.241Z",
+      "fetchedAt": "2026-06-19T12:05:59.942Z",
       "error": null
     },
     {
@@ -2245,7 +2316,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bzAH7Rrq9rM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.302Z",
+      "fetchedAt": "2026-06-19T12:06:00.111Z",
       "error": null
     },
     {
@@ -2310,7 +2381,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/a_CZ1EBXnro/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.415Z",
+      "fetchedAt": "2026-06-19T12:06:00.152Z",
       "error": null
     },
     {
@@ -2375,7 +2446,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ye22J-MMY8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.384Z",
+      "fetchedAt": "2026-06-19T12:05:59.982Z",
       "error": null
     },
     {
@@ -2441,7 +2512,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/G9vcn3hZS_s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.520Z",
+      "fetchedAt": "2026-06-19T12:05:59.980Z",
       "error": null
     },
     {
@@ -2507,7 +2578,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/pN2L5QRrEeI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.626Z",
+      "fetchedAt": "2026-06-19T12:06:00.459Z",
       "error": null
     },
     {
@@ -2573,7 +2644,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yUZj6Oh3L4k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.628Z",
+      "fetchedAt": "2026-06-19T12:06:00.410Z",
       "error": null
     },
     {
@@ -2638,7 +2709,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CEXkZCSVRwQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.614Z",
+      "fetchedAt": "2026-06-19T12:06:00.297Z",
       "error": null
     },
     {
@@ -2704,7 +2775,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/fGHj1yXynM0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.612Z",
+      "fetchedAt": "2026-06-19T12:06:00.304Z",
       "error": null
     },
     {
@@ -2769,7 +2840,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/jzTsepahfFU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.741Z",
+      "fetchedAt": "2026-06-19T12:06:00.632Z",
       "error": null
     },
     {
@@ -2834,7 +2905,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.823Z",
+      "fetchedAt": "2026-06-19T12:06:00.717Z",
       "error": null
     },
     {
@@ -2899,7 +2970,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3wNoOKTxxy0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.711Z",
+      "fetchedAt": "2026-06-19T12:06:00.599Z",
       "error": null
     },
     {
@@ -2964,7 +3035,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.743Z",
+      "fetchedAt": "2026-06-19T12:06:00.603Z",
       "error": null
     },
     {
@@ -3029,7 +3100,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.952Z",
+      "fetchedAt": "2026-06-19T12:06:00.989Z",
       "error": null
     },
     {
@@ -3094,7 +3165,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:38.910Z",
+      "fetchedAt": "2026-06-19T12:06:01.004Z",
       "error": null
     },
     {
@@ -3150,7 +3221,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:40.442Z",
+      "fetchedAt": "2026-06-19T12:06:00.924Z",
       "error": null
     },
     {
@@ -3160,7 +3231,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-19T04:20:38.937Z",
+      "fetchedAt": "2026-06-19T12:06:00.824Z",
       "error": null
     },
     {
@@ -3170,6 +3241,18 @@
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Patch My PC Publisher Production Version 2.3.2.0 Released",
+          "link": "https://patchmypc.com/release-notes/production-release/patch-my-pc-publisher-production-version-2-3-2-0-released/",
+          "pubDate": "2026-06-19T07:29:57.000Z",
+          "summary": "This release contains a variety of improvements and fixes, as noted below. This will be made available via the self-update channel over the coming days. You can upgrade in place now by downloading the latest MSI installer. Improvements Fixes The post Patch My PC Publisher Production Version 2.3.2.0 ",
+          "author": "Cody Mathis",
+          "categories": [
+            "Production Release",
+            "Templates"
+          ],
+          "type": "official"
+        },
         {
           "title": "Patch My PC Publisher Preview Version 2.2.2.224 Released",
           "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-2-2-224-released/",
@@ -3213,20 +3296,9 @@
             "Blog"
           ],
           "type": "official"
-        },
-        {
-          "title": "Patch My PC Publisher Preview Version 2.2.2.98 Released",
-          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-2-2-98-released/",
-          "pubDate": "2026-06-02T16:40:46.000Z",
-          "summary": "This release contains a variety of fixes as noted below. Fixes The post Patch My PC Publisher Preview Version 2.2.2.98 Released appeared first on Patch My PC. ]]>",
-          "author": "Cody Mathis",
-          "categories": [
-            "Preview Release"
-          ],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:41.422Z",
+      "fetchedAt": "2026-06-19T12:06:01.914Z",
       "error": null
     },
     {
@@ -3282,7 +3354,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:40.509Z",
+      "fetchedAt": "2026-06-19T12:06:01.041Z",
       "error": null
     },
     {
@@ -3311,7 +3383,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:40.748Z",
+      "fetchedAt": "2026-06-19T12:06:01.242Z",
       "error": null
     },
     {
@@ -3367,7 +3439,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:41.090Z",
+      "fetchedAt": "2026-06-19T12:06:01.038Z",
       "error": null
     },
     {
@@ -3377,7 +3449,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-19T04:20:41.569Z",
+      "fetchedAt": "2026-06-19T12:06:02.033Z",
       "error": null
     },
     {
@@ -3433,7 +3505,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:41.959Z",
+      "fetchedAt": "2026-06-19T12:06:01.929Z",
       "error": null
     },
     {
@@ -3453,7 +3525,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:41.453Z",
+      "fetchedAt": "2026-06-19T12:06:01.934Z",
       "error": null
     },
     {
@@ -3509,7 +3581,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:45.968Z",
+      "fetchedAt": "2026-06-19T12:06:06.858Z",
       "error": null
     },
     {
@@ -3565,7 +3637,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:46.596Z",
+      "fetchedAt": "2026-06-19T12:06:07.944Z",
       "error": null
     },
     {
@@ -3620,7 +3692,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:46.125Z",
+      "fetchedAt": "2026-06-19T12:06:06.941Z",
       "error": null
     },
     {
@@ -3675,7 +3747,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:46.210Z",
+      "fetchedAt": "2026-06-19T12:06:06.924Z",
       "error": null
     },
     {
@@ -3740,7 +3812,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-19T04:20:48.088Z",
+      "fetchedAt": "2026-06-19T12:06:07.567Z",
       "error": null
     }
   ]
