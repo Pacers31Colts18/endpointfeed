@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T07:50:08.523Z",
+  "generatedAt": "2026-06-23T11:17:03.114Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,76 +8,76 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Download and install Windows 11 26H2 ISO",
-          "link": "https://4sysops.com/archives/download-and-install-windows-11-26h2-iso/",
-          "pubDate": "2026-06-22T20:58:51.000Z",
-          "summary": "Windows 11 version 26H2 is the next annual feature update for the operating system, expected to roll out in fall 2026. Microsoft confirmed that this release uses an enablement package (eKB), a small update that flips the version number without replacing the entire operating system. The update shares",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "Windows",
-            "Windows 11"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Homebrew 6.0 enhances supply chain security with tap trust and Linux sandboxing",
-          "link": "https://4sysops.com/archives/homebrew-6-0-enhances-supply-chain-security-with-tap-trust-and-linux-sandboxing/",
-          "pubDate": "2026-06-22T18:54:20.000Z",
-          "summary": "Homebrew 6.0 introduces a significant security overhaul designed to mitigate supply chain attacks by implementing a new \"tap trust\" mechanism. The package manager now blocks third-party repositories, known as taps, unless they are on a pre-approved list or have been manually vetted by the user. This",
+          "title": "Meta halts employee tracking program after AI training data leak",
+          "link": "https://4sysops.com/archives/meta-halts-employee-tracking-program-after-ai-training-data-leak/",
+          "pubDate": "2026-06-23T10:53:44.000Z",
+          "summary": "Meta has suspended an internal AI training initiative known as the Model Capability Initiative after sensitive employee data became accessible company-wide. The program was designed to improve AI models by recording the keystrokes and mouse movements of staff members during their daily work. This ma",
           "author": "IT News",
           "categories": [
             "News",
-            "Apple",
-            "Mac",
+            "AI",
+            "Monitoring",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Build a claw with the Microsoft Agent Framework",
-          "link": "https://4sysops.com/archives/build-a-claw-with-the-microsoft-agent-framework/",
-          "pubDate": "2026-06-22T18:54:19.000Z",
-          "summary": "Microsoft has introduced a new framework designed to help developers build autonomous agent harnesses and \"claws\" for specialized tasks. The system provides a minimal infrastructure that supports essential functions like web searching, task planning, and custom tool integration. This initial release",
+          "title": "China beats US in supercomputing with record-breaking LineShine system",
+          "link": "https://4sysops.com/archives/china-beats-us-in-supercomputing-with-record-breaking-lineshine-system/",
+          "pubDate": "2026-06-23T10:53:43.000Z",
+          "summary": "The 67th Top500 list reveals that China has overtaken the United States with its new Lineshine supercomputer, the first to exceed 2.2 exaflops in performance. This system, also known as Ling Chen, utilizes entirely domestic hardware developments to bypass international export restrictions on high-en",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "AI agents"
+            "Cloud Computing",
+            "Hardware"
           ],
           "type": "rss"
         },
         {
-          "title": "Managing persistent AI workflows with Codex subagents and context isolation",
-          "link": "https://4sysops.com/archives/managing-persistent-ai-workflows-with-codex-subagents-and-context-isolation/",
-          "pubDate": "2026-06-22T18:54:18.000Z",
-          "summary": "Organizations are increasingly utilizing OpenAI Codex to manage complex technical projects that extend far beyond a single prompt. This shift requires a persistent workspace strategy where the AI maintains context and manages multi-step workflows over long durations. System administrators can levera",
+          "title": "OpenAI shifts focus from vulnerability discovery to automated patch remediation",
+          "link": "https://4sysops.com/archives/openai-shifts-focus-from-vulnerability-discovery-to-automated-patch-remediation/",
+          "pubDate": "2026-06-23T10:25:10.000Z",
+          "summary": "OpenAI has expanded its Daybreak cybersecurity initiative to address the growing bottleneck in software remediation. While AI has significantly accelerated the discovery of security flaws, the manual process of fixing them often overwhelms development teams. The program aims to democratize patching ",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "AI agents",
-            "OpenAI"
+            "OpenAI",
+            "Patch Management"
           ],
           "type": "rss"
         },
         {
-          "title": "Anthropic introduces biometric identity verification for Claude users",
-          "link": "https://4sysops.com/archives/anthropic-introduces-biometric-identity-verification-for-claude-users/",
-          "pubDate": "2026-06-22T18:54:17.000Z",
-          "summary": "Anthropic has updated its privacy policy to include mandatory identity verification for consumer accounts under specific circumstances. Starting July 8, 2026, users of the Free, Pro, and Max plans may be required to submit government-issued identification and biometric data. This process involves ca",
+          "title": "Anthropic Mythos AI breaches NSA classified systems in hours during red team test",
+          "link": "https://4sysops.com/archives/anthropic-mythos-ai-breaches-nsa-classified-systems-in-hours-during-red-team-test/",
+          "pubDate": "2026-06-23T10:25:09.000Z",
+          "summary": "Anthropic’s advanced Mythos AI model reportedly compromised nearly all classified systems belonging to the NSA and U.S. Cyber Command during a security evaluation. General Joshua Rudd, head of both agencies, informed the Senate Intelligence Committee that the breach occurred within hours rather than",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
             "Anthropic",
-            "Identity",
             "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Managing macOS FileVault encryption and recovery keys with Microsoft Intune",
+          "link": "https://4sysops.com/archives/managing-macos-filevault-encryption-and-recovery-keys-with-microsoft-intune/",
+          "pubDate": "2026-06-23T10:25:08.000Z",
+          "summary": "Microsoft Intune allows administrators to deploy and manage FileVault full-disk encryption for macOS 10.13 and later. The platform supports multiple deployment methods, including standard interactive prompts and automated enforcement during the Setup Assistant for devices on macOS 14 or newer. Encry",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Intune",
+            "Security",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:50.112Z",
+      "fetchedAt": "2026-06-23T11:16:42.700Z",
       "error": null
     },
     {
@@ -156,7 +156,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:50.155Z",
+      "fetchedAt": "2026-06-23T11:16:42.811Z",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:50.688Z",
+      "fetchedAt": "2026-06-23T11:16:43.255Z",
       "error": null
     },
     {
@@ -232,7 +232,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-23T07:49:49.627Z",
+      "fetchedAt": "2026-06-23T11:16:42.572Z",
       "error": "HTTP 403"
     },
     {
@@ -287,7 +287,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:50.869Z",
+      "fetchedAt": "2026-06-23T11:16:43.824Z",
       "error": null
     },
     {
@@ -352,7 +352,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:51.270Z",
+      "fetchedAt": "2026-06-23T11:16:43.861Z",
       "error": null
     },
     {
@@ -435,7 +435,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:50.825Z",
+      "fetchedAt": "2026-06-23T11:16:43.619Z",
       "error": null
     },
     {
@@ -508,7 +508,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:51.660Z",
+      "fetchedAt": "2026-06-23T11:16:44.498Z",
       "error": null
     },
     {
@@ -517,7 +517,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-23T07:49:51.751Z",
+      "fetchedAt": "2026-06-23T11:16:44.780Z",
       "error": "HTTP 403"
     },
     {
@@ -595,7 +595,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:53.496Z",
+      "fetchedAt": "2026-06-23T11:16:46.348Z",
       "error": null
     },
     {
@@ -604,7 +604,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-23T07:49:52.343Z",
+      "fetchedAt": "2026-06-23T11:16:45.094Z",
       "error": "certificate has expired"
     },
     {
@@ -677,7 +677,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:52.375Z",
+      "fetchedAt": "2026-06-23T11:16:45.436Z",
       "error": null
     },
     {
@@ -754,7 +754,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:54.511Z",
+      "fetchedAt": "2026-06-23T11:16:47.808Z",
       "error": null
     },
     {
@@ -820,7 +820,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:54.113Z",
+      "fetchedAt": "2026-06-23T11:16:47.034Z",
       "error": null
     },
     {
@@ -875,7 +875,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:53.778Z",
+      "fetchedAt": "2026-06-23T11:16:46.684Z",
       "error": null
     },
     {
@@ -954,7 +954,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:54.559Z",
+      "fetchedAt": "2026-06-23T11:16:47.522Z",
       "error": null
     },
     {
@@ -1031,7 +1031,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:54.680Z",
+      "fetchedAt": "2026-06-23T11:16:47.920Z",
       "error": null
     },
     {
@@ -1108,7 +1108,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:56.547Z",
+      "fetchedAt": "2026-06-23T11:16:49.842Z",
       "error": null
     },
     {
@@ -1193,7 +1193,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:54.752Z",
+      "fetchedAt": "2026-06-23T11:16:47.981Z",
       "error": null
     },
     {
@@ -1249,7 +1249,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:54.871Z",
+      "fetchedAt": "2026-06-23T11:16:48.100Z",
       "error": null
     },
     {
@@ -1335,7 +1335,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:57.615Z",
+      "fetchedAt": "2026-06-23T11:16:50.825Z",
       "error": null
     },
     {
@@ -1421,7 +1421,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:56.644Z",
+      "fetchedAt": "2026-06-23T11:16:49.951Z",
       "error": null
     },
     {
@@ -1504,7 +1504,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:56.737Z",
+      "fetchedAt": "2026-06-23T11:16:50.020Z",
       "error": null
     },
     {
@@ -1559,7 +1559,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:56.692Z",
+      "fetchedAt": "2026-06-23T11:16:50.102Z",
       "error": null
     },
     {
@@ -1624,7 +1624,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:57.838Z",
+      "fetchedAt": "2026-06-23T11:16:51.030Z",
       "error": null
     },
     {
@@ -1709,7 +1709,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:58.598Z",
+      "fetchedAt": "2026-06-23T11:16:51.812Z",
       "error": null
     },
     {
@@ -1765,7 +1765,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:58.391Z",
+      "fetchedAt": "2026-06-23T11:16:51.762Z",
       "error": null
     },
     {
@@ -1830,7 +1830,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:58.322Z",
+      "fetchedAt": "2026-06-23T11:16:51.458Z",
       "error": null
     },
     {
@@ -1911,7 +1911,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:59.575Z",
+      "fetchedAt": "2026-06-23T11:16:52.806Z",
       "error": null
     },
     {
@@ -1920,7 +1920,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-23T07:49:59.526Z",
+      "fetchedAt": "2026-06-23T11:16:52.475Z",
       "error": "HTTP 404"
     },
     {
@@ -1929,7 +1929,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-23T07:49:59.020Z",
+      "fetchedAt": "2026-06-23T11:16:51.985Z",
       "error": "HTTP 403"
     },
     {
@@ -2009,7 +2009,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:59.027Z",
+      "fetchedAt": "2026-06-23T11:16:52.055Z",
       "error": null
     },
     {
@@ -2082,7 +2082,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:59.669Z",
+      "fetchedAt": "2026-06-23T11:16:52.966Z",
       "error": null
     },
     {
@@ -2101,7 +2101,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:59.975Z",
+      "fetchedAt": "2026-06-23T11:16:52.889Z",
       "error": null
     },
     {
@@ -2156,7 +2156,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.155Z",
+      "fetchedAt": "2026-06-23T11:16:53.315Z",
       "error": null
     },
     {
@@ -2241,7 +2241,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-23T07:49:59.850Z",
+      "fetchedAt": "2026-06-23T11:16:53.037Z",
       "error": null
     },
     {
@@ -2307,7 +2307,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/ZsLnWnjkJQw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.204Z",
+      "fetchedAt": "2026-06-23T11:16:53.372Z",
       "error": null
     },
     {
@@ -2372,7 +2372,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/a_CZ1EBXnro/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.393Z",
+      "fetchedAt": "2026-06-23T11:16:53.589Z",
       "error": null
     },
     {
@@ -2437,7 +2437,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/aZIyoaPl6Xk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.438Z",
+      "fetchedAt": "2026-06-23T11:16:53.376Z",
       "error": null
     },
     {
@@ -2503,7 +2503,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/G9vcn3hZS_s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.347Z",
+      "fetchedAt": "2026-06-23T11:16:53.377Z",
       "error": null
     },
     {
@@ -2569,7 +2569,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/pN2L5QRrEeI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.571Z",
+      "fetchedAt": "2026-06-23T11:16:53.803Z",
       "error": null
     },
     {
@@ -2635,7 +2635,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yUZj6Oh3L4k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.608Z",
+      "fetchedAt": "2026-06-23T11:16:53.741Z",
       "error": null
     },
     {
@@ -2700,7 +2700,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CEXkZCSVRwQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.591Z",
+      "fetchedAt": "2026-06-23T11:16:53.802Z",
       "error": null
     },
     {
@@ -2766,7 +2766,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/EWxcgaZ_KAM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.639Z",
+      "fetchedAt": "2026-06-23T11:16:53.820Z",
       "error": null
     },
     {
@@ -2831,7 +2831,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/79JOBOlG3OY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.838Z",
+      "fetchedAt": "2026-06-23T11:16:53.835Z",
       "error": null
     },
     {
@@ -2896,7 +2896,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.864Z",
+      "fetchedAt": "2026-06-23T11:16:53.971Z",
       "error": null
     },
     {
@@ -2961,7 +2961,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3wNoOKTxxy0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.837Z",
+      "fetchedAt": "2026-06-23T11:16:53.833Z",
       "error": null
     },
     {
@@ -3026,7 +3026,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:00.813Z",
+      "fetchedAt": "2026-06-23T11:16:53.967Z",
       "error": null
     },
     {
@@ -3091,7 +3091,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:01.093Z",
+      "fetchedAt": "2026-06-23T11:16:54.221Z",
       "error": null
     },
     {
@@ -3156,7 +3156,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:01.023Z",
+      "fetchedAt": "2026-06-23T11:16:54.192Z",
       "error": null
     },
     {
@@ -3212,7 +3212,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:01.138Z",
+      "fetchedAt": "2026-06-23T11:16:55.608Z",
       "error": null
     },
     {
@@ -3222,7 +3222,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-23T07:50:01.165Z",
+      "fetchedAt": "2026-06-23T11:16:54.153Z",
       "error": null
     },
     {
@@ -3289,7 +3289,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:02.699Z",
+      "fetchedAt": "2026-06-23T11:16:56.729Z",
       "error": null
     },
     {
@@ -3345,7 +3345,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:01.804Z",
+      "fetchedAt": "2026-06-23T11:16:55.738Z",
       "error": null
     },
     {
@@ -3374,7 +3374,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:01.533Z",
+      "fetchedAt": "2026-06-23T11:16:56.026Z",
       "error": null
     },
     {
@@ -3430,7 +3430,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:01.840Z",
+      "fetchedAt": "2026-06-23T11:16:55.755Z",
       "error": null
     },
     {
@@ -3440,7 +3440,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-23T07:50:02.855Z",
+      "fetchedAt": "2026-06-23T11:16:56.891Z",
       "error": null
     },
     {
@@ -3450,15 +3450,6 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
-        {
-          "title": "Exporting all Microsoft Intune Enterprise App Management catalog apps to CSV using Microsoft Graph",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/exporting-all-microsoft-intune-enterprise-app-management-catalog/ba-p/4529579",
-          "pubDate": "2026-06-22T17:59:40.000Z",
-          "summary": "<P><STRONG>By: Joe Lurie, Sr. Product Manager | Microsoft Intune</STRONG></P> <P>Managing applications at scale is one of the biggest time-consuming tasks for IT admins. Between packaging installers, writing detection rules, and keeping everything up to date - it adds up fast. That's exactly the pro",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        },
         {
           "title": "Deploying Platform SSO for pre macOS 26 with Microsoft Intune: Lessons Learned",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/deploying-platform-sso-for-pre-macos-26-with-microsoft-intune/ba-p/4521368",
@@ -3494,9 +3485,18 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
+        },
+        {
+          "title": "New Platform SSO with registration during Automated Device Enrollment on macOS",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/new-platform-sso-with-registration-during-automated-device/ba-p/4519846",
+          "pubDate": "2026-06-09T01:41:15.000Z",
+          "summary": "<P><STRONG>By Iris Yuning Ye, Product Manager – Microsoft Intune &amp; Justin Ploegert, Principal Product Manager – Microsoft Entra</STRONG></P> <P>A new setting ‘Enable Registration During Setup’ for Platform single sign-on (PSSO) during Automated Device Enrollment (ADE) is now generally available ",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:03.262Z",
+      "fetchedAt": "2026-06-23T11:16:56.775Z",
       "error": null
     },
     {
@@ -3516,7 +3516,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:02.744Z",
+      "fetchedAt": "2026-06-23T11:16:56.792Z",
       "error": null
     },
     {
@@ -3572,7 +3572,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:07.312Z",
+      "fetchedAt": "2026-06-23T11:17:01.181Z",
       "error": null
     },
     {
@@ -3628,7 +3628,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:08.523Z",
+      "fetchedAt": "2026-06-23T11:17:02.104Z",
       "error": null
     },
     {
@@ -3683,7 +3683,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:07.483Z",
+      "fetchedAt": "2026-06-23T11:17:01.309Z",
       "error": null
     },
     {
@@ -3738,7 +3738,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:07.543Z",
+      "fetchedAt": "2026-06-23T11:17:01.360Z",
       "error": null
     },
     {
@@ -3747,6 +3747,17 @@
       "type": "audio",
       "url": "https://podcast.macadmins.org/feed/",
       "items": [
+        {
+          "title": "Episode 467: Trust but verify",
+          "link": "https://podcast.macadmins.org/2026/06/23/episode-467-trust-but-verify/",
+          "pubDate": "2026-06-23T11:05:16.000Z",
+          "summary": "",
+          "author": "James Smith",
+          "categories": [
+            "Episodes"
+          ],
+          "type": "audio"
+        },
         {
           "title": "Episode 466: WWDC Wrap Up",
           "link": "https://podcast.macadmins.org/2026/06/16/episode-466-wwdc-wrap-up/",
@@ -3790,20 +3801,9 @@
             "Episodes"
           ],
           "type": "audio"
-        },
-        {
-          "title": "Episode 462: Live at Mac Admins Europe 2026",
-          "link": "https://podcast.macadmins.org/2026/05/20/episode-462-live-at-mac-admins-europe-2026/",
-          "pubDate": "2026-05-20T11:23:21.000Z",
-          "summary": "",
-          "author": "James Smith",
-          "categories": [
-            "Episodes"
-          ],
-          "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-23T07:50:08.069Z",
+      "fetchedAt": "2026-06-23T11:17:03.114Z",
       "error": null
     }
   ]
