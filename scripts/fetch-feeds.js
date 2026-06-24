@@ -246,6 +246,12 @@ const FEEDS = [
   },
 
   // ── Video ─────────────────────────────────────────────────────────────────
+    {
+    id: "yt-macdevopsyvr",
+    label: "MacDevOpsYRV",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCIZgKKNrG-ty72Bez8b2qHg",
+  },
   {
     id: "yt-savill",
     label: "John Savill Tech Training",
