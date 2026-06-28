@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T13:46:34.448Z",
+  "generatedAt": "2026-06-28T17:12:02.888Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -71,13 +71,14 @@
           "categories": [
             "News",
             "Azure",
+            "Cloud Computing",
             "Security",
             "Windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:16.533Z",
+      "fetchedAt": "2026-06-28T17:11:46.304Z",
       "error": null
     },
     {
@@ -156,7 +157,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:16.258Z",
+      "fetchedAt": "2026-06-28T17:11:45.796Z",
       "error": null
     },
     {
@@ -222,7 +223,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:16.728Z",
+      "fetchedAt": "2026-06-28T17:11:46.290Z",
       "error": null
     },
     {
@@ -232,7 +233,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-28T13:46:15.794Z",
+      "fetchedAt": "2026-06-28T17:11:45.449Z",
       "error": "HTTP 403"
     },
     {
@@ -287,7 +288,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:17.049Z",
+      "fetchedAt": "2026-06-28T17:11:46.552Z",
       "error": null
     },
     {
@@ -352,7 +353,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:17.076Z",
+      "fetchedAt": "2026-06-28T17:11:46.561Z",
       "error": null
     },
     {
@@ -435,7 +436,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:16.996Z",
+      "fetchedAt": "2026-06-28T17:11:46.542Z",
       "error": null
     },
     {
@@ -508,7 +509,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:17.733Z",
+      "fetchedAt": "2026-06-28T17:11:47.169Z",
       "error": null
     },
     {
@@ -517,7 +518,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-28T13:46:17.859Z",
+      "fetchedAt": "2026-06-28T17:11:47.253Z",
       "error": "HTTP 403"
     },
     {
@@ -595,7 +596,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:19.521Z",
+      "fetchedAt": "2026-06-28T17:11:48.789Z",
       "error": null
     },
     {
@@ -604,7 +605,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-28T13:46:18.259Z",
+      "fetchedAt": "2026-06-28T17:11:47.518Z",
       "error": "certificate has expired"
     },
     {
@@ -677,7 +678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:18.576Z",
+      "fetchedAt": "2026-06-28T17:11:47.966Z",
       "error": null
     },
     {
@@ -754,7 +755,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:19.933Z",
+      "fetchedAt": "2026-06-28T17:11:49.018Z",
       "error": null
     },
     {
@@ -763,9 +764,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-06-28T13:46:20.083Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
+          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
+          "pubDate": "2026-05-29T15:34:28.000Z",
+          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
+          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
+          "pubDate": "2026-05-19T05:58:43.000Z",
+          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
+          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
+          "pubDate": "2026-05-15T14:47:47.000Z",
+          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
+          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
+          "pubDate": "2026-05-06T20:30:40.000Z",
+          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
+          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
+          "pubDate": "2026-04-27T15:00:17.000Z",
+          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-06-28T17:11:49.317Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -819,7 +876,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:19.932Z",
+      "fetchedAt": "2026-06-28T17:11:49.283Z",
       "error": null
     },
     {
@@ -898,7 +955,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:20.492Z",
+      "fetchedAt": "2026-06-28T17:11:49.494Z",
       "error": null
     },
     {
@@ -975,7 +1032,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:20.678Z",
+      "fetchedAt": "2026-06-28T17:11:49.672Z",
       "error": null
     },
     {
@@ -1052,7 +1109,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:22.340Z",
+      "fetchedAt": "2026-06-28T17:11:51.235Z",
       "error": null
     },
     {
@@ -1060,8 +1117,84 @@
       "label": "krebsonsecurity.com - Brian Krebs",
       "type": "rss",
       "url": "https://krebsonsecurity.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-06-28T13:46:20.887Z",
+      "items": [
+        {
+          "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+          "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+          "pubDate": "2026-06-23T16:12:49.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [
+            "Ne'er-Do-Well News",
+            "Ransomware",
+            "BBC",
+            "Everlynn",
+            "Owen Flowers"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+          "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+          "pubDate": "2026-06-18T17:37:58.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [
+            "A Little Sunshine",
+            "Latest Warnings",
+            "The Coming Storm",
+            "Alarum Technologies Ltd",
+            "BadBox 2.0"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+          "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+          "pubDate": "2026-06-10T14:03:44.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [
+            "Breadcrumbs",
+            "Ne'er-Do-Well News",
+            "Ransomware",
+            "79127650004",
+            "Alexander Andreevich Yapaev"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "A Record-Breaking Patch Tuesday for June 2026",
+          "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+          "pubDate": "2026-06-09T22:07:28.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [
+            "Latest Warnings",
+            "Security Tools",
+            "The Coming Storm",
+            "Time to Patch",
+            "Adam Barnett"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+          "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+          "pubDate": "2026-06-01T17:32:50.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [
+            "A Little Sunshine",
+            "Latest Warnings",
+            "The Coming Storm",
+            "Web Fraud 2.0",
+            "Black Lotus Labs"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-06-28T17:11:49.839Z",
       "error": null
     },
     {
@@ -1117,7 +1250,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:20.864Z",
+      "fetchedAt": "2026-06-28T17:11:49.905Z",
       "error": null
     },
     {
@@ -1203,7 +1336,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:23.743Z",
+      "fetchedAt": "2026-06-28T17:11:52.473Z",
       "error": null
     },
     {
@@ -1289,7 +1422,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:22.459Z",
+      "fetchedAt": "2026-06-28T17:11:51.371Z",
       "error": null
     },
     {
@@ -1373,7 +1506,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:22.568Z",
+      "fetchedAt": "2026-06-28T17:11:51.412Z",
       "error": null
     },
     {
@@ -1428,7 +1561,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:22.680Z",
+      "fetchedAt": "2026-06-28T17:11:51.631Z",
       "error": null
     },
     {
@@ -1493,7 +1626,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:24.076Z",
+      "fetchedAt": "2026-06-28T17:11:52.664Z",
       "error": null
     },
     {
@@ -1578,7 +1711,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:24.616Z",
+      "fetchedAt": "2026-06-28T17:11:53.231Z",
       "error": null
     },
     {
@@ -1634,7 +1767,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:24.503Z",
+      "fetchedAt": "2026-06-28T17:11:52.860Z",
       "error": null
     },
     {
@@ -1699,7 +1832,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:24.678Z",
+      "fetchedAt": "2026-06-28T17:11:53.292Z",
       "error": null
     },
     {
@@ -1780,7 +1913,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:25.613Z",
+      "fetchedAt": "2026-06-28T17:11:53.901Z",
       "error": null
     },
     {
@@ -1789,7 +1922,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-28T13:46:25.740Z",
+      "fetchedAt": "2026-06-28T17:11:53.857Z",
       "error": "HTTP 404"
     },
     {
@@ -1798,7 +1931,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-28T13:46:25.059Z",
+      "fetchedAt": "2026-06-28T17:11:53.379Z",
       "error": "HTTP 403"
     },
     {
@@ -1878,7 +2011,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:25.144Z",
+      "fetchedAt": "2026-06-28T17:11:53.481Z",
       "error": null
     },
     {
@@ -1951,7 +2084,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.001Z",
+      "fetchedAt": "2026-06-28T17:11:54.120Z",
       "error": null
     },
     {
@@ -1970,7 +2103,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:25.997Z",
+      "fetchedAt": "2026-06-28T17:11:54.127Z",
       "error": null
     },
     {
@@ -2025,7 +2158,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.140Z",
+      "fetchedAt": "2026-06-28T17:11:54.370Z",
       "error": null
     },
     {
@@ -2110,7 +2243,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.114Z",
+      "fetchedAt": "2026-06-28T17:11:54.250Z",
       "error": null
     },
     {
@@ -2175,7 +2308,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/c8jfBhE1Zvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.574Z",
+      "fetchedAt": "2026-06-28T17:11:54.560Z",
       "error": null
     },
     {
@@ -2241,7 +2374,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iDqfCpGTdBc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.588Z",
+      "fetchedAt": "2026-06-28T17:11:54.691Z",
       "error": null
     },
     {
@@ -2306,7 +2439,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Jp__mgfnmKw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.607Z",
+      "fetchedAt": "2026-06-28T17:11:54.525Z",
       "error": null
     },
     {
@@ -2371,7 +2504,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3ldULIa0YNE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.664Z",
+      "fetchedAt": "2026-06-28T17:11:54.536Z",
       "error": null
     },
     {
@@ -2437,7 +2570,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/sxGzijYMYF8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.799Z",
+      "fetchedAt": "2026-06-28T17:11:54.788Z",
       "error": null
     },
     {
@@ -2503,7 +2636,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/pN2L5QRrEeI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.786Z",
+      "fetchedAt": "2026-06-28T17:11:54.789Z",
       "error": null
     },
     {
@@ -2569,7 +2702,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/y477nA75Mo0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.852Z",
+      "fetchedAt": "2026-06-28T17:11:54.799Z",
       "error": null
     },
     {
@@ -2634,7 +2767,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.811Z",
+      "fetchedAt": "2026-06-28T17:11:54.849Z",
       "error": null
     },
     {
@@ -2700,7 +2833,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xt6hJmNO9BE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:27.081Z",
+      "fetchedAt": "2026-06-28T17:11:55.005Z",
       "error": null
     },
     {
@@ -2765,7 +2898,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/-hzAvO9C6DY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:27.016Z",
+      "fetchedAt": "2026-06-28T17:11:55.040Z",
       "error": null
     },
     {
@@ -2830,7 +2963,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:26.984Z",
+      "fetchedAt": "2026-06-28T17:11:54.957Z",
       "error": null
     },
     {
@@ -2895,7 +3028,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3wNoOKTxxy0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:27.061Z",
+      "fetchedAt": "2026-06-28T17:11:54.946Z",
       "error": null
     },
     {
@@ -2960,7 +3093,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:27.275Z",
+      "fetchedAt": "2026-06-28T17:11:55.167Z",
       "error": null
     },
     {
@@ -3025,7 +3158,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:27.286Z",
+      "fetchedAt": "2026-06-28T17:11:55.164Z",
       "error": null
     },
     {
@@ -3090,7 +3223,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:27.218Z",
+      "fetchedAt": "2026-06-28T17:11:55.162Z",
       "error": null
     },
     {
@@ -3146,7 +3279,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:27.459Z",
+      "fetchedAt": "2026-06-28T17:11:55.253Z",
       "error": null
     },
     {
@@ -3156,7 +3289,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-28T13:46:27.686Z",
+      "fetchedAt": "2026-06-28T17:11:55.439Z",
       "error": null
     },
     {
@@ -3224,7 +3357,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:28.460Z",
+      "fetchedAt": "2026-06-28T17:11:55.979Z",
       "error": null
     },
     {
@@ -3233,9 +3366,55 @@
       "type": "official",
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog",
-      "items": [],
-      "fetchedAt": "2026-06-28T13:46:27.808Z",
-      "error": ""
+      "items": [
+        {
+          "title": "10 things to know before enabling Microsoft 365 Backup",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/10-things-to-know-before-enabling-microsoft-365-backup/ba-p/4529275",
+          "pubDate": "2026-06-26T16:22:32.000Z",
+          "summary": "<P><A href=\"https://aka.ms/m365backup\" target=\"_blank\">Microsoft 365 Backup</A> can help strengthen your organization’s native safety net; it’s built directly into the platform you already trust, designed to recover your Microsoft Exchange Online, SharePoint, and OneDrive data fast when it matters m",
+          "author": "Aditi_Gangwar",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Putting file-level archiving into practice with Microsoft 365 Archive and Syskit Point",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/putting-file-level-archiving-into-practice-with-microsoft-365/ba-p/4526459",
+          "pubDate": "2026-06-11T17:50:00.000Z",
+          "summary": "<P><SPAN data-contrast=\"auto\">Most&nbsp;Microsoft&nbsp;SharePoint sites&nbsp;don't&nbsp;go quiet&nbsp;all at once. They stay active, new files added, documents edited, teams collaborating, while years of completed projects, superseded drafts, and old reports accumulate quietly in the background. The",
+          "author": "Trent Green",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Update Health in Cloud Update is now Generally Available",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/update-health-in-cloud-update-is-now-generally-available/ba-p/4523063",
+          "pubDate": "2026-05-27T15:00:00.000Z",
+          "summary": "<P>Keeping Microsoft 365 Apps up to date is essential for security, reliability, and access to new features. When an update does not complete successfully, however, identifying the issue and understanding its impact across devices can take time.</P> <P>Today, we’re announcing general availability of",
+          "author": "BobClements",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "New investments to accelerate your migration to Microsoft 365",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/new-investments-to-accelerate-your-migration-to-microsoft-365/ba-p/4518349",
+          "pubDate": "2026-05-11T14:44:52.000Z",
+          "summary": "<P>Microsoft continues to power the digital transformation of customers with cutting edge, AI-enhanced productivity and collaboration tools. That's why we're excited to announce new investments to make it easier than ever to migrate your data to Microsoft 365 so you can take full advantage of these ",
+          "author": "TroyStarr",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Microsoft 365 E7 and Agent 365 are now generally available",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-e7-and-agent-365-are-now-generally-available/ba-p/4516295",
+          "pubDate": "2026-05-01T15:00:00.000Z",
+          "summary": "<P><SPAN data-contrast=\"auto\">Frontier&nbsp;Transformation&nbsp;is about&nbsp;fundamentally changing how&nbsp;organizations&nbsp;operate&nbsp;–&nbsp;embedding&nbsp;AI into everyday workflows&nbsp;to&nbsp;accelerate decisions,&nbsp;improve outcomes,&nbsp;and drive measurable&nbsp;business&nbsp;impact",
+          "author": "carolinestanford",
+          "categories": [],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-06-28T17:11:55.300Z",
+      "error": null
     },
     {
       "id": "officereleases",
@@ -3263,7 +3442,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:28.259Z",
+      "fetchedAt": "2026-06-28T17:11:55.749Z",
       "error": null
     },
     {
@@ -3319,7 +3498,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:28.480Z",
+      "fetchedAt": "2026-06-28T17:11:56.008Z",
       "error": null
     },
     {
@@ -3329,7 +3508,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-28T13:46:28.913Z",
+      "fetchedAt": "2026-06-28T17:11:56.373Z",
       "error": null
     },
     {
@@ -3385,7 +3564,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:28.486Z",
+      "fetchedAt": "2026-06-28T17:11:56.004Z",
       "error": null
     },
     {
@@ -3405,7 +3584,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:28.548Z",
+      "fetchedAt": "2026-06-28T17:11:56.073Z",
       "error": null
     },
     {
@@ -3461,7 +3640,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:33.583Z",
+      "fetchedAt": "2026-06-28T17:12:00.904Z",
       "error": null
     },
     {
@@ -3517,7 +3696,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:29.733Z",
+      "fetchedAt": "2026-06-28T17:11:57.090Z",
       "error": null
     },
     {
@@ -3572,7 +3751,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:29.201Z",
+      "fetchedAt": "2026-06-28T17:11:56.682Z",
       "error": null
     },
     {
@@ -3627,7 +3806,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:29.184Z",
+      "fetchedAt": "2026-06-28T17:11:56.460Z",
       "error": null
     },
     {
@@ -3692,7 +3871,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-28T13:46:34.448Z",
+      "fetchedAt": "2026-06-28T17:12:02.888Z",
       "error": null
     }
   ]
