@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:08:46.012Z",
+  "generatedAt": "2026-06-29T21:26:34.591Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,69 +8,76 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Microsoft sets final retirement date for SharePoint Online remote event receivers",
-          "link": "https://4sysops.com/archives/microsoft-sets-final-retirement-date-for-sharepoint-online-remote-event-receivers/",
-          "pubDate": "2026-06-29T17:04:45.000Z",
-          "summary": "Microsoft has announced that all Remote Event Receivers (RERs) in SharePoint Online will officially stop functioning on July 1, 2027. This retirement marks the end of a transition period for developers who previously relied on the SharePoint Add-in model and Azure Access Control Services. While some",
+          "title": "Microsoft extends rebootless hotpatching for Windows Server 2022 Azure Edition",
+          "link": "https://4sysops.com/archives/microsoft-extends-rebootless-hotpatching-for-windows-server-2022-azure-edition/",
+          "pubDate": "2026-06-29T21:21:44.000Z",
+          "summary": "Microsoft has extended hotpatching support for Windows Server 2022 Datacenter: Azure Edition until October 2027. This extension provides an additional year of rebootless security updates beyond the operating system's mainstream support expiration in October 2026. The policy change specifically targe",
           "author": "IT News",
           "categories": [
             "News",
-            "Microsoft 365"
+            "Azure",
+            "Security",
+            "Systems Management",
+            "Windows Server"
           ],
           "type": "rss"
         },
         {
-          "title": "Meta restricts rival AI coding tools to protect model training integrity",
-          "link": "https://4sysops.com/archives/meta-restricts-rival-ai-coding-tools-to-protect-model-training-integrity/",
-          "pubDate": "2026-06-29T17:04:44.000Z",
-          "summary": "Meta has implemented strict limitations on how its engineers use external AI coding assistants like Anthropic’s Claude Code and OpenAI’s Codex. The company aims to prevent the output of these rival models from inadvertently entering its own internal development pipelines and training datasets. This ",
+          "title": "OpenAI and Work Louder to launch dedicated hardware for Codex shortcuts",
+          "link": "https://4sysops.com/archives/openai-and-work-louder-to-launch-dedicated-hardware-for-codex-shortcuts/",
+          "pubDate": "2026-06-29T21:21:43.000Z",
+          "summary": "OpenAI has announced a July 15th release for a new hardware device designed to integrate with its Codex AI-powered coding tool. The teaser reveals a square-shaped mechanical macro pad featuring a 3x3 grid of buttons and side-mounted dials. This project is a collaboration with Work Louder, a manufact",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
+            "Hardware"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft Teams enhances meeting security with intelligent bot detection and controls",
+          "link": "https://4sysops.com/archives/microsoft-teams-enhances-meeting-security-with-intelligent-bot-detection-and-controls/",
+          "pubDate": "2026-06-29T21:21:42.000Z",
+          "summary": "Microsoft Teams has introduced new administrative policies to better manage how external bots access online meetings. These tools address security and privacy risks associated with AI note-takers and automated assistants that may join calls due to misconfiguration. Administrators can now enforce a p",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Microsoft 365",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "US offers $10 million reward for Russian hackers targeting Signal and WhatsApp",
-          "link": "https://4sysops.com/archives/us-offers-10-million-reward-for-russian-hackers-targeting-signal-and-whatsapp/",
-          "pubDate": "2026-06-29T17:04:43.000Z",
-          "summary": "The U.S. State Department is offering a $10 million bounty for information on Russian-linked hacker groups UNC5792 and UNC4221. These actors, associated with the FSB and Russian military intelligence, have successfully compromised thousands of messaging accounts worldwide. The campaign specifically ",
+          "title": "Microsoft launches WSL containers to enable native Linux orchestration on Windows",
+          "link": "https://4sysops.com/archives/microsoft-launches-wsl-containers-to-enable-native-linux-orchestration-on-windows/",
+          "pubDate": "2026-06-29T21:21:41.000Z",
+          "summary": "Microsoft has launched the public preview of WSL containers, a feature that allows Linux containers to run natively on Windows 11 without third-party tools like Docker Desktop. This integration introduces a new command-line interface called wslc.exe, which supports familiar container commands and in",
           "author": "IT News",
           "categories": [
             "News",
-            "Security"
+            "DevOps",
+            "Linux",
+            "Virtualization",
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "New macOS exploit abuses XPC trust caching to disable security tools",
-          "link": "https://4sysops.com/archives/new-macos-exploit-abuses-xpc-trust-caching-to-disable-security-tools/",
-          "pubDate": "2026-06-29T17:04:42.000Z",
-          "summary": "Security researchers have identified a technique that allows attackers to disable enterprise protection tools on macOS without requiring administrative credentials or kernel exploits. The method targets Apple’s Inter-Process Communication framework, known as XPC, which manages communication between ",
+          "title": "Developers challenge Microsoft over short .NET long term support cycles",
+          "link": "https://4sysops.com/archives/developers-challenge-microsoft-over-short-net-long-term-support-cycles/",
+          "pubDate": "2026-06-29T21:21:40.000Z",
+          "summary": "Microsoft's annual release cycle for modern .NET is facing renewed criticism from developers who argue the three-year Long-Term Support (LTS) window is insufficient for enterprise environments. Under the current policy, even-numbered versions receive three years of maintenance, while odd-numbered ve",
           "author": "IT News",
           "categories": [
             "News",
-            "Mac",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "OpenAI report maps automation risks and growth sectors across the European Union",
-          "link": "https://4sysops.com/archives/openai-report-maps-automation-risks-and-growth-sectors-across-the-european-union/",
-          "pubDate": "2026-06-29T17:04:41.000Z",
-          "summary": "OpenAI has released a comprehensive analysis mapping how artificial intelligence will likely reshape employment across the 27 European Union member states. The report utilizes the European Skills, Competences, Qualifications and Occupations taxonomy to categorize jobs into four distinct transition a",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI"
+            "Windows"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:29.150Z",
+      "fetchedAt": "2026-06-29T21:26:17.714Z",
       "error": null
     },
     {
@@ -148,7 +155,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:29.015Z",
+      "fetchedAt": "2026-06-29T21:26:17.450Z",
       "error": null
     },
     {
@@ -214,7 +221,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:28.908Z",
+      "fetchedAt": "2026-06-29T21:26:17.979Z",
       "error": null
     },
     {
@@ -224,7 +231,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-06-29T18:08:28.374Z",
+      "fetchedAt": "2026-06-29T21:26:16.903Z",
       "error": "HTTP 403"
     },
     {
@@ -279,7 +286,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:29.443Z",
+      "fetchedAt": "2026-06-29T21:26:18.304Z",
       "error": null
     },
     {
@@ -344,7 +351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:29.438Z",
+      "fetchedAt": "2026-06-29T21:26:18.338Z",
       "error": null
     },
     {
@@ -427,7 +434,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:29.299Z",
+      "fetchedAt": "2026-06-29T21:26:18.148Z",
       "error": null
     },
     {
@@ -500,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:30.146Z",
+      "fetchedAt": "2026-06-29T21:26:19.165Z",
       "error": null
     },
     {
@@ -509,7 +516,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-06-29T18:08:30.224Z",
+      "fetchedAt": "2026-06-29T21:26:19.221Z",
       "error": "HTTP 403"
     },
     {
@@ -587,7 +594,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:31.960Z",
+      "fetchedAt": "2026-06-29T21:26:20.931Z",
       "error": null
     },
     {
@@ -596,7 +603,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-29T18:08:30.773Z",
+      "fetchedAt": "2026-06-29T21:26:19.866Z",
       "error": "certificate has expired"
     },
     {
@@ -669,7 +676,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:30.844Z",
+      "fetchedAt": "2026-06-29T21:26:19.878Z",
       "error": null
     },
     {
@@ -746,7 +753,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:32.475Z",
+      "fetchedAt": "2026-06-29T21:26:21.470Z",
       "error": null
     },
     {
@@ -755,9 +762,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-06-29T18:08:32.081Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
+          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
+          "pubDate": "2026-05-29T15:34:28.000Z",
+          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
+          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
+          "pubDate": "2026-05-19T05:58:43.000Z",
+          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
+          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
+          "pubDate": "2026-05-15T14:47:47.000Z",
+          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
+          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
+          "pubDate": "2026-05-06T20:30:40.000Z",
+          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
+          "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
+          "pubDate": "2026-04-27T15:00:17.000Z",
+          "summary": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office Hours, my good friend And",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-06-29T21:26:21.655Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -811,7 +874,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:32.270Z",
+      "fetchedAt": "2026-06-29T21:26:21.387Z",
       "error": null
     },
     {
@@ -890,7 +953,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:32.321Z",
+      "fetchedAt": "2026-06-29T21:26:21.373Z",
       "error": null
     },
     {
@@ -967,7 +1030,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:32.579Z",
+      "fetchedAt": "2026-06-29T21:26:21.718Z",
       "error": null
     },
     {
@@ -1044,7 +1107,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:34.520Z",
+      "fetchedAt": "2026-06-29T21:26:23.706Z",
       "error": null
     },
     {
@@ -1129,7 +1192,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:32.674Z",
+      "fetchedAt": "2026-06-29T21:26:21.840Z",
       "error": null
     },
     {
@@ -1185,7 +1248,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:32.700Z",
+      "fetchedAt": "2026-06-29T21:26:21.887Z",
       "error": null
     },
     {
@@ -1271,7 +1334,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:35.550Z",
+      "fetchedAt": "2026-06-29T21:26:24.889Z",
       "error": null
     },
     {
@@ -1357,7 +1420,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:34.582Z",
+      "fetchedAt": "2026-06-29T21:26:23.886Z",
       "error": null
     },
     {
@@ -1440,7 +1503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:34.636Z",
+      "fetchedAt": "2026-06-29T21:26:23.825Z",
       "error": null
     },
     {
@@ -1495,7 +1558,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:34.706Z",
+      "fetchedAt": "2026-06-29T21:26:23.883Z",
       "error": null
     },
     {
@@ -1560,7 +1623,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:35.732Z",
+      "fetchedAt": "2026-06-29T21:26:25.065Z",
       "error": null
     },
     {
@@ -1645,7 +1708,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:37.514Z",
+      "fetchedAt": "2026-06-29T21:26:25.861Z",
       "error": null
     },
     {
@@ -1701,7 +1764,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:36.119Z",
+      "fetchedAt": "2026-06-29T21:26:25.699Z",
       "error": null
     },
     {
@@ -1766,7 +1829,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:35.935Z",
+      "fetchedAt": "2026-06-29T21:26:25.345Z",
       "error": null
     },
     {
@@ -1847,7 +1910,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.561Z",
+      "fetchedAt": "2026-06-29T21:26:26.684Z",
       "error": null
     },
     {
@@ -1856,7 +1919,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-06-29T18:08:38.174Z",
+      "fetchedAt": "2026-06-29T21:26:27.027Z",
       "error": "HTTP 404"
     },
     {
@@ -1865,7 +1928,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-06-29T18:08:37.594Z",
+      "fetchedAt": "2026-06-29T21:26:26.124Z",
       "error": "HTTP 403"
     },
     {
@@ -1945,7 +2008,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:37.641Z",
+      "fetchedAt": "2026-06-29T21:26:26.272Z",
       "error": null
     },
     {
@@ -2018,7 +2081,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.657Z",
+      "fetchedAt": "2026-06-29T21:26:27.268Z",
       "error": null
     },
     {
@@ -2037,7 +2100,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.709Z",
+      "fetchedAt": "2026-06-29T21:26:27.218Z",
       "error": null
     },
     {
@@ -2092,7 +2155,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.730Z",
+      "fetchedAt": "2026-06-29T21:26:27.334Z",
       "error": null
     },
     {
@@ -2177,7 +2240,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.729Z",
+      "fetchedAt": "2026-06-29T21:26:27.267Z",
       "error": null
     },
     {
@@ -2242,7 +2305,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5m8BkAfpFMg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.954Z",
+      "fetchedAt": "2026-06-29T21:26:27.516Z",
       "error": null
     },
     {
@@ -2308,7 +2371,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/kRG_3cWvQOg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.987Z",
+      "fetchedAt": "2026-06-29T21:26:27.522Z",
       "error": null
     },
     {
@@ -2373,7 +2436,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Jp__mgfnmKw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.983Z",
+      "fetchedAt": "2026-06-29T21:26:27.530Z",
       "error": null
     },
     {
@@ -2438,7 +2501,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3ldULIa0YNE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.792Z",
+      "fetchedAt": "2026-06-29T21:26:27.550Z",
       "error": null
     },
     {
@@ -2504,7 +2567,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/EY58CAnSGzQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:38.993Z",
+      "fetchedAt": "2026-06-29T21:26:27.556Z",
       "error": null
     },
     {
@@ -2570,7 +2633,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/pN2L5QRrEeI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.248Z",
+      "fetchedAt": "2026-06-29T21:26:27.840Z",
       "error": null
     },
     {
@@ -2636,7 +2699,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/y477nA75Mo0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.265Z",
+      "fetchedAt": "2026-06-29T21:26:27.762Z",
       "error": null
     },
     {
@@ -2701,7 +2764,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.135Z",
+      "fetchedAt": "2026-06-29T21:26:27.764Z",
       "error": null
     },
     {
@@ -2767,7 +2830,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xt6hJmNO9BE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.489Z",
+      "fetchedAt": "2026-06-29T21:26:28.049Z",
       "error": null
     },
     {
@@ -2832,7 +2895,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/-hzAvO9C6DY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.435Z",
+      "fetchedAt": "2026-06-29T21:26:27.855Z",
       "error": null
     },
     {
@@ -2897,7 +2960,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.454Z",
+      "fetchedAt": "2026-06-29T21:26:27.959Z",
       "error": null
     },
     {
@@ -2962,7 +3025,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3wNoOKTxxy0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.403Z",
+      "fetchedAt": "2026-06-29T21:26:27.866Z",
       "error": null
     },
     {
@@ -3027,7 +3090,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.673Z",
+      "fetchedAt": "2026-06-29T21:26:28.198Z",
       "error": null
     },
     {
@@ -3092,7 +3155,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.708Z",
+      "fetchedAt": "2026-06-29T21:26:28.239Z",
       "error": null
     },
     {
@@ -3157,7 +3220,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.702Z",
+      "fetchedAt": "2026-06-29T21:26:28.201Z",
       "error": null
     },
     {
@@ -3186,6 +3249,15 @@
           "type": "official"
         },
         {
+          "title": "Why Microsoft Intune should be a core MSP service in 2026",
+          "link": "https://getnerdio.com/blog/why-microsoft-intune-should-be-a-core-msp-service-in-2026/",
+          "pubDate": "2026-06-29T18:50:50.000Z",
+          "summary": "Nerdio Manager for MSP Why Microsoft Intune should be a core MSP service in 2026 Endpoint management has changed. Here’s… The post Why Microsoft Intune should be a core MSP service in 2026 appeared first on Nerdio. ]]>",
+          "author": "Lauren Purdy",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "How MSPs can build a scalable CMMC Level 2 Azure Virtual Desktop enclave before Phase 2",
           "link": "https://getnerdio.com/blog/how-msps-can-build-a-scalable-cmmc-level-2-azure-virtual-desktop-enclave-before-phase-2/",
           "pubDate": "2026-06-26T17:37:54.000Z",
@@ -3202,18 +3274,9 @@
           "author": "Lauren Purdy",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Intune Unlocked: App deployment at scale",
-          "link": "https://getnerdio.com/on-demand-webinar/intune-unlocked-app-deployment-at-scale/",
-          "pubDate": "2026-06-24T17:45:36.000Z",
-          "summary": "ON-DEMAND WEBINAR Intune Unlocked: App deployment at scale We’ll cover Win32 packaging, required vs. available apps, MAM, and the multi-tenant… The post Intune Unlocked: App deployment at scale appeared first on Nerdio. ]]>",
-          "author": "Lauren Purdy",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.707Z",
+      "fetchedAt": "2026-06-29T21:26:28.220Z",
       "error": null
     },
     {
@@ -3223,7 +3286,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-06-29T18:08:39.806Z",
+      "fetchedAt": "2026-06-29T21:26:28.344Z",
       "error": null
     },
     {
@@ -3291,7 +3354,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:40.830Z",
+      "fetchedAt": "2026-06-29T21:26:29.217Z",
       "error": null
     },
     {
@@ -3347,7 +3410,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:39.747Z",
+      "fetchedAt": "2026-06-29T21:26:28.302Z",
       "error": null
     },
     {
@@ -3376,7 +3439,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:40.304Z",
+      "fetchedAt": "2026-06-29T21:26:28.670Z",
       "error": null
     },
     {
@@ -3432,7 +3495,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:40.842Z",
+      "fetchedAt": "2026-06-29T21:26:29.242Z",
       "error": null
     },
     {
@@ -3442,7 +3505,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-06-29T18:08:40.932Z",
+      "fetchedAt": "2026-06-29T21:26:29.347Z",
       "error": null
     },
     {
@@ -3498,7 +3561,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:40.848Z",
+      "fetchedAt": "2026-06-29T21:26:29.238Z",
       "error": null
     },
     {
@@ -3511,14 +3574,14 @@
         {
           "title": "What's new in Microsoft Intune - Microsoft Intune",
           "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
-          "pubDate": "2026-06-25T12:34:00.000Z",
+          "pubDate": "2026-06-29T18:53:00.000Z",
           "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. You can also read: Important notices Past releases in the What's new archive Information about how Intune service updates are released Note Each monthly service update is roll",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:40.849Z",
+      "fetchedAt": "2026-06-29T21:26:29.246Z",
       "error": null
     },
     {
@@ -3574,7 +3637,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:45.358Z",
+      "fetchedAt": "2026-06-29T21:26:33.786Z",
       "error": null
     },
     {
@@ -3630,7 +3693,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:41.908Z",
+      "fetchedAt": "2026-06-29T21:26:30.279Z",
       "error": null
     },
     {
@@ -3685,7 +3748,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:41.040Z",
+      "fetchedAt": "2026-06-29T21:26:29.466Z",
       "error": null
     },
     {
@@ -3740,7 +3803,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:41.069Z",
+      "fetchedAt": "2026-06-29T21:26:29.437Z",
       "error": null
     },
     {
@@ -3805,7 +3868,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-06-29T18:08:46.012Z",
+      "fetchedAt": "2026-06-29T21:26:34.591Z",
       "error": null
     }
   ]
