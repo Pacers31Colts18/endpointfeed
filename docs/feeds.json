@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T14:01:18.713Z",
+  "generatedAt": "2026-07-02T17:48:05.482Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,78 +8,76 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Poll: Do you love or hate AI?",
-          "link": "https://4sysops.com/archives/poll-do-you-love-or-hate-ai/",
-          "pubDate": "2026-07-02T13:26:34.000Z",
-          "summary": "Do you love or hate AI? Vote and get opinionated in the comments below. Comments containing expletives will be deleted. Source]]>",
-          "author": "Michael Pietroforte",
-          "categories": [
-            "Articles",
-            "News",
-            "Poll",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft expands Intune Suite access for Microsoft 365 E3 and E5 subscribers",
-          "link": "https://4sysops.com/archives/microsoft-expands-intune-suite-access-for-microsoft-365-e3-and-e5-subscribers/",
-          "pubDate": "2026-07-02T08:57:06.000Z",
-          "summary": "Microsoft has officially integrated advanced Intune Suite capabilities into Microsoft 365 E3 and E5 licenses to streamline endpoint management. This change allows organizations to consolidate identity, security, and compliance tools within a single platform rather than relying on disconnected third-",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Microsoft 365",
-            "Systems Management"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 11 version 26H2 enters testing as Kerberos hardening reaches final phase",
-          "link": "https://4sysops.com/archives/windows-11-version-26h2-enters-testing-as-kerberos-hardening-reaches-final-phase/",
-          "pubDate": "2026-07-02T08:57:05.000Z",
-          "summary": "Microsoft has launched Windows 11 version 26H2 for early validation through the Windows Insider Program, utilizing an enablement package for streamlined deployment. This update coincides with the general availability of point-in-time restore, a recovery feature that allows users to roll back devices",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "DevOps",
-            "Security",
-            "Windows",
-            "Windows Server"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Managing local administrator passwords with Windows LAPS and Microsoft Intune",
-          "link": "https://4sysops.com/archives/managing-local-administrator-passwords-with-windows-laps-and-microsoft-intune/",
-          "pubDate": "2026-07-02T08:57:04.000Z",
-          "summary": "Microsoft Intune now integrates with the Windows Local Administrator Password Solution (LAPS) to manage local account security on enrolled devices. This integration utilizes the Windows LAPS Configuration Service Provider (CSP) to automate the management of local administrator accounts. Administrato",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Identity",
-            "Security",
-            "Systems Management",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Palantir CEO Alex Karp slams closed-weight AI providers OpenAI and Anthropic",
-          "link": "https://4sysops.com/archives/palantir-ceo-alex-karp-slams-closed-weight-ai-providers-openai-and-anthropic/",
-          "pubDate": "2026-07-02T08:57:03.000Z",
-          "summary": "Palantir CEO Alex Karp has launched a scathing critique of the AI industry, labeling the current trajectory of Silicon Valley’s leading labs as \"effing insane.\" He argues that enterprise customers are becoming increasingly livid over token-based pricing models that burn through budgets without deliv",
+          "title": "Anthropic brings Claude AI agents to Microsoft Teams and Azure Foundry",
+          "link": "https://4sysops.com/archives/anthropic-brings-claude-ai-agents-to-microsoft-teams-and-azure-foundry/",
+          "pubDate": "2026-07-02T14:56:29.000Z",
+          "summary": "Anthropic is expanding its enterprise presence by integrating Claude AI agents directly into the Microsoft ecosystem. While a native \"Claude Tag\" feature currently allows Slack users to mention the assistant in shared channels, Microsoft Teams users can now access similar capabilities through a dedi",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
+            "Azure",
+            "Microsoft 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Autonomous AI agent JADEPUFFER automates end-to-end database ransomware attack",
+          "link": "https://4sysops.com/archives/autonomous-ai-agent-jadepuffer-automates-end-to-end-database-ransomware-attack/",
+          "pubDate": "2026-07-02T14:56:28.000Z",
+          "summary": "A newly discovered threat actor named JADEPUFFER has conducted what researchers believe is the first fully autonomous ransomware attack driven by an AI agent. The operation exploited CVE-2025-3248, a remote code execution vulnerability in Langflow, an open-source framework used to design large langu",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Google tests camera-based hand gesture reCAPTCHA to verify human users",
+          "link": "https://4sysops.com/archives/google-tests-camera-based-hand-gesture-recaptcha-to-verify-human-users/",
+          "pubDate": "2026-07-02T14:56:27.000Z",
+          "summary": "Google is testing a new reCAPTCHA verification method that requires users to perform hand gestures in front of their webcams. The system utilizes machine learning to map 21 specific coordinates on the hand, including finger joints and palm geometry, to ensure a live person is present. This experimen",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Google Cloud",
+            "Identity",
             "Security",
-            "Sovereignty"
+            "Web"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft enhances Excel with multi-agent Copilot web research capabilities",
+          "link": "https://4sysops.com/archives/microsoft-enhances-excel-with-multi-agent-copilot-web-research-capabilities/",
+          "pubDate": "2026-07-02T14:56:26.000Z",
+          "summary": "Microsoft is upgrading Copilot in Excel with a multi-agent search system designed to handle complex web research directly within the spreadsheet interface. This new architecture replaces the previous single-query method with a coordinated team of sub-agents that investigate different facets of a pro",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Microsoft 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft restores missing Copilot buttons in classic Outlook for Windows",
+          "link": "https://4sysops.com/archives/microsoft-restores-missing-copilot-buttons-in-classic-outlook-for-windows/",
+          "pubDate": "2026-07-02T14:56:25.000Z",
+          "summary": "Microsoft has resolved a service-side bug that caused Copilot Chat buttons to disappear from the classic Outlook for Windows client. The issue primarily affected users with Copilot Chat (Basic) licenses, removing icons from the side navigation bar and the area above the ribbon. While the buttons wer",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Microsoft 365",
+            "Windows"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:00:59.858Z",
+      "fetchedAt": "2026-07-02T17:47:49.349Z",
       "error": null
     },
     {
@@ -157,7 +155,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:00:59.163Z",
+      "fetchedAt": "2026-07-02T17:47:48.992Z",
       "error": null
     },
     {
@@ -223,7 +221,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:00:59.541Z",
+      "fetchedAt": "2026-07-02T17:47:49.268Z",
       "error": null
     },
     {
@@ -233,7 +231,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-02T14:00:58.669Z",
+      "fetchedAt": "2026-07-02T17:47:48.885Z",
       "error": "HTTP 403"
     },
     {
@@ -288,7 +286,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:00.033Z",
+      "fetchedAt": "2026-07-02T17:47:49.505Z",
       "error": null
     },
     {
@@ -353,7 +351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:00.215Z",
+      "fetchedAt": "2026-07-02T17:47:49.527Z",
       "error": null
     },
     {
@@ -436,7 +434,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:00.038Z",
+      "fetchedAt": "2026-07-02T17:47:49.529Z",
       "error": null
     },
     {
@@ -509,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:00.742Z",
+      "fetchedAt": "2026-07-02T17:47:50.039Z",
       "error": null
     },
     {
@@ -518,7 +516,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-02T14:01:01.809Z",
+      "fetchedAt": "2026-07-02T17:47:50.137Z",
       "error": "HTTP 403"
     },
     {
@@ -596,7 +594,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:02.605Z",
+      "fetchedAt": "2026-07-02T17:47:51.526Z",
       "error": null
     },
     {
@@ -605,7 +603,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-02T14:01:01.278Z",
+      "fetchedAt": "2026-07-02T17:47:50.367Z",
       "error": "certificate has expired"
     },
     {
@@ -678,7 +676,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:01.733Z",
+      "fetchedAt": "2026-07-02T17:47:50.709Z",
       "error": null
     },
     {
@@ -755,7 +753,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:03.122Z",
+      "fetchedAt": "2026-07-02T17:47:51.846Z",
       "error": null
     },
     {
@@ -765,7 +763,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-07-02T14:01:02.928Z",
+      "fetchedAt": "2026-07-02T17:47:51.664Z",
       "error": "HTTP 202"
     },
     {
@@ -820,7 +818,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:03.019Z",
+      "fetchedAt": "2026-07-02T17:47:52.062Z",
       "error": null
     },
     {
@@ -899,7 +897,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:02.968Z",
+      "fetchedAt": "2026-07-02T17:47:51.792Z",
       "error": null
     },
     {
@@ -976,7 +974,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:03.347Z",
+      "fetchedAt": "2026-07-02T17:47:52.186Z",
       "error": null
     },
     {
@@ -1053,7 +1051,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:04.937Z",
+      "fetchedAt": "2026-07-02T17:47:53.767Z",
       "error": null
     },
     {
@@ -1138,7 +1136,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:03.425Z",
+      "fetchedAt": "2026-07-02T17:47:52.281Z",
       "error": null
     },
     {
@@ -1194,7 +1192,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:03.497Z",
+      "fetchedAt": "2026-07-02T17:47:52.366Z",
       "error": null
     },
     {
@@ -1280,7 +1278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:06.086Z",
+      "fetchedAt": "2026-07-02T17:47:54.964Z",
       "error": null
     },
     {
@@ -1366,7 +1364,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:05.029Z",
+      "fetchedAt": "2026-07-02T17:47:53.867Z",
       "error": null
     },
     {
@@ -1449,7 +1447,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:05.165Z",
+      "fetchedAt": "2026-07-02T17:47:53.915Z",
       "error": null
     },
     {
@@ -1504,7 +1502,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:05.106Z",
+      "fetchedAt": "2026-07-02T17:47:53.896Z",
       "error": null
     },
     {
@@ -1569,7 +1567,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:06.343Z",
+      "fetchedAt": "2026-07-02T17:47:55.099Z",
       "error": null
     },
     {
@@ -1654,7 +1652,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:06.980Z",
+      "fetchedAt": "2026-07-02T17:47:55.666Z",
       "error": null
     },
     {
@@ -1710,7 +1708,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:06.735Z",
+      "fetchedAt": "2026-07-02T17:47:55.513Z",
       "error": null
     },
     {
@@ -1775,7 +1773,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:07.186Z",
+      "fetchedAt": "2026-07-02T17:47:55.408Z",
       "error": null
     },
     {
@@ -1856,7 +1854,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.135Z",
+      "fetchedAt": "2026-07-02T17:47:56.205Z",
       "error": null
     },
     {
@@ -1865,7 +1863,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-02T14:01:08.177Z",
+      "fetchedAt": "2026-07-02T17:47:56.181Z",
       "error": "HTTP 404"
     },
     {
@@ -1874,7 +1872,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-02T14:01:07.451Z",
+      "fetchedAt": "2026-07-02T17:47:55.792Z",
       "error": "HTTP 403"
     },
     {
@@ -1954,7 +1952,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:07.494Z",
+      "fetchedAt": "2026-07-02T17:47:55.821Z",
       "error": null
     },
     {
@@ -2027,7 +2025,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.434Z",
+      "fetchedAt": "2026-07-02T17:47:56.369Z",
       "error": null
     },
     {
@@ -2046,7 +2044,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.328Z",
+      "fetchedAt": "2026-07-02T17:47:56.355Z",
       "error": null
     },
     {
@@ -2101,7 +2099,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.470Z",
+      "fetchedAt": "2026-07-02T17:47:56.635Z",
       "error": null
     },
     {
@@ -2186,7 +2184,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.518Z",
+      "fetchedAt": "2026-07-02T17:47:56.481Z",
       "error": null
     },
     {
@@ -2251,7 +2249,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/8v3zR6ob7Ds/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.907Z",
+      "fetchedAt": "2026-07-02T17:47:56.763Z",
       "error": null
     },
     {
@@ -2317,7 +2315,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/kRG_3cWvQOg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.942Z",
+      "fetchedAt": "2026-07-02T17:47:56.654Z",
       "error": null
     },
     {
@@ -2382,7 +2380,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/I78USEFsU4c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.947Z",
+      "fetchedAt": "2026-07-02T17:47:56.843Z",
       "error": null
     },
     {
@@ -2447,7 +2445,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3ldULIa0YNE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.923Z",
+      "fetchedAt": "2026-07-02T17:47:56.765Z",
       "error": null
     },
     {
@@ -2513,7 +2511,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/r_dfvNfkLOg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.089Z",
+      "fetchedAt": "2026-07-02T17:47:57.026Z",
       "error": null
     },
     {
@@ -2523,6 +2521,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
       "items": [
+        {
+          "title": "How to Set Up Intune Remote Help (Step by Step)",
+          "link": "https://www.youtube.com/watch?v=HkNBWrl08uI",
+          "pubDate": "2026-07-02T15:07:16.000Z",
+          "summary": "Learn how to set up Microsoft Intune Remote Help from start to finish. Now that Remote Help is included in Microsoft 365 E3 and E5, this walkthrough shows you how to enable it, deploy the app, scope access with role-based access control, and run a secure remote support session. No third-party remote",
+          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "HkNBWrl08uI",
+          "thumbnail": "https://i1.ytimg.com/vi/HkNBWrl08uI/hqdefault.jpg"
+        },
         {
           "title": "Secure mobile apps without Intune enrollment",
           "link": "https://www.youtube.com/shorts/xedgBrcW8a0",
@@ -2566,20 +2575,9 @@
           "type": "video",
           "videoId": "6j8Eg_RPq0I",
           "thumbnail": "https://i3.ytimg.com/vi/6j8Eg_RPq0I/hqdefault.jpg"
-        },
-        {
-          "title": "The New Intune App Inventory Part 2: 24 Hours Later",
-          "link": "https://www.youtube.com/watch?v=pN2L5QRrEeI",
-          "pubDate": "2026-05-22T16:31:02.000Z",
-          "summary": "24 hours after deploying the Properties Catalog policy, the new App Inventory in Intune is populated and the data is everything the old Discovered Apps report wasn't. Install paths, uninstall commands, size on disk, architecture, install scope- all of it, per device, across every user profile. This ",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "pN2L5QRrEeI",
-          "thumbnail": "https://i1.ytimg.com/vi/pN2L5QRrEeI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:09.962Z",
+      "fetchedAt": "2026-07-02T17:47:56.980Z",
       "error": null
     },
     {
@@ -2645,7 +2643,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iQzTgPtuElo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.114Z",
+      "fetchedAt": "2026-07-02T17:47:56.979Z",
       "error": null
     },
     {
@@ -2710,7 +2708,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.082Z",
+      "fetchedAt": "2026-07-02T17:47:56.983Z",
       "error": null
     },
     {
@@ -2776,7 +2774,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WUI69UitVgc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.353Z",
+      "fetchedAt": "2026-07-02T17:47:57.034Z",
       "error": null
     },
     {
@@ -2786,10 +2784,10 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g",
       "items": [
         {
-          "title": "7/1/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
+          "title": "7/1/26 ViaMonstra Academy OFFICE HOURS | Updates and Q&A for anything about ConfigMgr, OSD, Intune",
           "link": "https://www.youtube.com/watch?v=e_-g4K2YNpA",
           "pubDate": "2026-07-02T10:03:31.000Z",
-          "summary": "Join us every week for Updates, Q&A, and roundtable discussions on anything related to Windows deployment, MDT, ConfigMgr, or Intune. https://academy.viamonstra.com/courses/office-hours-community-edition #sccm #msintune #configmgr #mdt",
+          "summary": "Join us for Q&A and roundtable discussion on anything related to Windows deployment, MDT, ConfigMgr, or Microsoft Intune. We bring the experts; you bring the questions. With co-hosts Johan Arwidmark and Andrew Johnson. ---------------------------------------------------------------------- 👨‍💻ANNUA",
           "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
           "categories": [],
           "type": "video",
@@ -2841,7 +2839,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3-hZMov8HiM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.315Z",
+      "fetchedAt": "2026-07-02T17:47:57.131Z",
       "error": null
     },
     {
@@ -2906,7 +2904,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.289Z",
+      "fetchedAt": "2026-07-02T17:47:57.208Z",
       "error": null
     },
     {
@@ -2971,7 +2969,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/LQL6KA6lJus/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.232Z",
+      "fetchedAt": "2026-07-02T17:47:57.136Z",
       "error": null
     },
     {
@@ -3036,7 +3034,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.483Z",
+      "fetchedAt": "2026-07-02T17:47:57.395Z",
       "error": null
     },
     {
@@ -3101,7 +3099,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.505Z",
+      "fetchedAt": "2026-07-02T17:47:57.431Z",
       "error": null
     },
     {
@@ -3166,7 +3164,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.484Z",
+      "fetchedAt": "2026-07-02T17:47:57.457Z",
       "error": null
     },
     {
@@ -3222,7 +3220,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.726Z",
+      "fetchedAt": "2026-07-02T17:47:58.702Z",
       "error": null
     },
     {
@@ -3232,7 +3230,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-02T14:01:10.950Z",
+      "fetchedAt": "2026-07-02T17:47:59.012Z",
       "error": null
     },
     {
@@ -3299,7 +3297,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:12.270Z",
+      "fetchedAt": "2026-07-02T17:47:59.911Z",
       "error": null
     },
     {
@@ -3355,7 +3353,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:10.805Z",
+      "fetchedAt": "2026-07-02T17:47:58.742Z",
       "error": null
     },
     {
@@ -3384,7 +3382,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:11.351Z",
+      "fetchedAt": "2026-07-02T17:47:59.029Z",
       "error": null
     },
     {
@@ -3440,7 +3438,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:12.284Z",
+      "fetchedAt": "2026-07-02T17:47:59.924Z",
       "error": null
     },
     {
@@ -3450,7 +3448,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-02T14:01:12.560Z",
+      "fetchedAt": "2026-07-02T17:48:00.012Z",
       "error": null
     },
     {
@@ -3506,7 +3504,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:12.322Z",
+      "fetchedAt": "2026-07-02T17:47:59.947Z",
       "error": null
     },
     {
@@ -3519,14 +3517,14 @@
         {
           "title": "What's new in Microsoft Intune - Microsoft Intune",
           "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
-          "pubDate": "2026-07-02T11:20:00.000Z",
+          "pubDate": "2026-06-29T18:53:00.000Z",
           "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. You can also read: Important notices Past releases in the What's new archive Information about how Intune service updates are released Note Each monthly service update is roll",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:12.345Z",
+      "fetchedAt": "2026-07-02T17:47:59.970Z",
       "error": null
     },
     {
@@ -3582,7 +3580,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:17.042Z",
+      "fetchedAt": "2026-07-02T17:48:04.683Z",
       "error": null
     },
     {
@@ -3638,7 +3636,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:13.389Z",
+      "fetchedAt": "2026-07-02T17:48:00.632Z",
       "error": null
     },
     {
@@ -3693,7 +3691,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:12.845Z",
+      "fetchedAt": "2026-07-02T17:48:00.185Z",
       "error": null
     },
     {
@@ -3748,7 +3746,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:12.871Z",
+      "fetchedAt": "2026-07-02T17:48:00.203Z",
       "error": null
     },
     {
@@ -3813,7 +3811,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-02T14:01:18.712Z",
+      "fetchedAt": "2026-07-02T17:48:05.482Z",
       "error": null
     }
   ]
