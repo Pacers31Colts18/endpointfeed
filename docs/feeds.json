@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T10:09:34.392Z",
+  "generatedAt": "2026-07-04T13:26:11.022Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,67 +8,72 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Alibaba bans Anthropic Claude Code over hidden spyware",
-          "link": "https://4sysops.com/archives/alibaba-bans-anthropic-claude-code-over-hidden-spyware/",
-          "pubDate": "2026-07-03T19:41:44.000Z",
-          "summary": "Alibaba has prohibited its employees from using Anthropic's Claude Code in workplace environments starting July 10, citing security concerns. An internal notice classified the AI coding tool as \"high-risk software\" due to alleged backdoor risks. The ban requires staff to switch to domestic alternati",
+          "title": "AI server demand to strain supply chains and components through 2027",
+          "link": "https://4sysops.com/archives/ai-server-demand-to-strain-supply-chains-and-components-through-2027/",
+          "pubDate": "2026-07-04T10:47:20.000Z",
+          "summary": "Demand for AI servers is projected to remain robust through 2027, driven by aggressive data center investments from major cloud providers like Amazon, Google, and Microsoft. This sustained demand is shifting the primary industry challenge from a lack of AI chips to broader shortages across the hardw",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Security"
+            "Cloud Computing",
+            "Hardware"
           ],
           "type": "rss"
         },
         {
-          "title": "Dynamic thresholds for log search alerts in Azure Monitor",
-          "link": "https://4sysops.com/archives/dynamic-thresholds-for-log-search-alerts-in-azure-monitor/",
-          "pubDate": "2026-07-03T17:52:22.000Z",
-          "summary": "Microsoft announced general availability of dynamic thresholds for log search alerts in Azure Monitor on June 16, 2026. This feature uses machine learning to learn normal behavior from your historical log query results and automatically calculates alert thresholds, eliminating the need to configure ",
-          "author": "IT Experts",
-          "categories": [
-            "Articles"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft sets retirement dates for legacy SharePoint tools and event receivers",
-          "link": "https://4sysops.com/archives/microsoft-sets-retirement-dates-for-legacy-sharepoint-tools-and-event-receivers/",
-          "pubDate": "2026-07-03T17:28:11.000Z",
-          "summary": "Microsoft is retiring several legacy SharePoint Online components to modernize its extensibility platform and align with current security standards. SharePoint Designer 2013 and InfoPath 2013 will both reach the end of support on July 14, 2026. After this deadline, these tools will no longer receive",
+          "title": "OpenAI co-founder predicts a future without software interfaces",
+          "link": "https://4sysops.com/archives/openai-co-founder-predicts-a-future-without-software-interfaces/",
+          "pubDate": "2026-07-04T10:47:19.000Z",
+          "summary": "Greg Brockman, co-founder of OpenAI, recently acknowledged that the ChatGPT plugins heavily promoted in 2023 ultimately failed to gain traction. He attributes this failure to the underlying AI models not being sufficiently advanced at the time to support the plugin ecosystem effectively. The plugin ",
           "author": "IT News",
           "categories": [
             "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft merges Copilot apps and introduces autonomous AutoPilot agents",
+          "link": "https://4sysops.com/archives/microsoft-merges-copilot-apps-and-introduces-autonomous-autopilot-agents/",
+          "pubDate": "2026-07-04T10:34:17.000Z",
+          "summary": "Microsoft is consolidating its separate consumer and enterprise Copilot applications into a single unified app by August 2026, allowing users to switch between personal and work contexts within one interface. The company is simultaneously cutting underperforming features such as Copilot Podcasts and",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
             "Microsoft 365"
           ],
           "type": "rss"
         },
         {
-          "title": "Intel raises prices for Core Ultra and Xeon CPUs due to supply chain costs",
-          "link": "https://4sysops.com/archives/intel-raises-prices-for-core-ultra-and-xeon-cpus-due-to-supply-chain-costs/",
-          "pubDate": "2026-07-03T17:28:10.000Z",
-          "summary": "Intel has officially confirmed price increases for several consumer and server processor families, citing a combination of rising supply chain costs and high market demand. The adjustments affect the latest Core Ultra 200S Plus desktop chips, with recommended customer prices rising by $30 to $50 per",
+          "title": "Bad Epoll Linux kernel flaw grants root access to unprivileged users",
+          "link": "https://4sysops.com/archives/bad-epoll-linux-kernel-flaw-grants-root-access-to-unprivileged-users/",
+          "pubDate": "2026-07-04T10:34:16.000Z",
+          "summary": "A newly disclosed Linux kernel vulnerability named Bad Epoll (CVE-2026-46242) enables unprivileged local users to gain complete root access. The flaw is a use-after-free memory corruption issue located within the epoll subsystem, a core component heavily utilized by modern server applications and ne",
           "author": "IT News",
           "categories": [
             "News",
-            "Hardware"
+            "Linux",
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Meta reuses legacy DDR4 memory in new servers via custom CXL ASIC",
-          "link": "https://4sysops.com/archives/meta-reuses-legacy-ddr4-memory-in-new-servers-via-custom-cxl-asic/",
-          "pubDate": "2026-07-03T17:24:40.000Z",
-          "summary": "Meta has developed a custom ASIC named Vistara to repurpose DDR4 memory modules from decommissioned servers for use in modern DDR5-based machines. This initiative addresses a significant hardware lifecycle imbalance where memory modules typically remain functional for up to ten years, far outlasting",
+          "title": "Seven unpatched FatFs vulnerabilities expose millions of embedded devices",
+          "link": "https://4sysops.com/archives/seven-unpatched-fatfs-vulnerabilities-expose-millions-of-embedded-devices/",
+          "pubDate": "2026-07-04T10:34:15.000Z",
+          "summary": "Security firm runZero has disclosed seven vulnerabilities in FatFs, a widely used filesystem library that enables devices to read and write FAT and exFAT formats on USB drives and SD cards. The flaws affect FAT, exFAT, and GPT parsing, and they can be triggered by malicious media or mounted firmware",
           "author": "IT News",
           "categories": [
             "News",
-            "Hardware"
+            "Security",
+            "Storage"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:18.396Z",
+      "fetchedAt": "2026-07-04T13:25:54.694Z",
       "error": null
     },
     {
@@ -146,7 +151,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:18.346Z",
+      "fetchedAt": "2026-07-04T13:25:54.816Z",
       "error": null
     },
     {
@@ -212,7 +217,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:18.824Z",
+      "fetchedAt": "2026-07-04T13:25:55.264Z",
       "error": null
     },
     {
@@ -222,7 +227,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-04T10:09:17.958Z",
+      "fetchedAt": "2026-07-04T13:25:54.110Z",
       "error": "HTTP 403"
     },
     {
@@ -277,7 +282,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:19.124Z",
+      "fetchedAt": "2026-07-04T13:25:55.420Z",
       "error": null
     },
     {
@@ -342,7 +347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:19.123Z",
+      "fetchedAt": "2026-07-04T13:25:55.682Z",
       "error": null
     },
     {
@@ -425,7 +430,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:18.944Z",
+      "fetchedAt": "2026-07-04T13:25:55.477Z",
       "error": null
     },
     {
@@ -498,7 +503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:19.626Z",
+      "fetchedAt": "2026-07-04T13:25:56.351Z",
       "error": null
     },
     {
@@ -507,7 +512,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-04T10:09:19.704Z",
+      "fetchedAt": "2026-07-04T13:25:56.408Z",
       "error": "HTTP 403"
     },
     {
@@ -585,7 +590,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:21.238Z",
+      "fetchedAt": "2026-07-04T13:25:58.102Z",
       "error": null
     },
     {
@@ -594,7 +599,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-04T10:09:19.959Z",
+      "fetchedAt": "2026-07-04T13:25:56.904Z",
       "error": "certificate has expired"
     },
     {
@@ -664,7 +669,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:20.291Z",
+      "fetchedAt": "2026-07-04T13:25:57.073Z",
       "error": null
     },
     {
@@ -741,7 +746,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:21.517Z",
+      "fetchedAt": "2026-07-04T13:25:58.600Z",
       "error": null
     },
     {
@@ -807,7 +812,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:21.717Z",
+      "fetchedAt": "2026-07-04T13:25:58.760Z",
       "error": null
     },
     {
@@ -862,7 +867,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:21.640Z",
+      "fetchedAt": "2026-07-04T13:25:58.436Z",
       "error": null
     },
     {
@@ -938,7 +943,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:22.024Z",
+      "fetchedAt": "2026-07-04T13:25:58.313Z",
       "error": null
     },
     {
@@ -1015,7 +1020,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:22.199Z",
+      "fetchedAt": "2026-07-04T13:25:58.863Z",
       "error": null
     },
     {
@@ -1092,7 +1097,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:23.790Z",
+      "fetchedAt": "2026-07-04T13:26:00.787Z",
       "error": null
     },
     {
@@ -1177,7 +1182,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:22.297Z",
+      "fetchedAt": "2026-07-04T13:25:58.979Z",
       "error": null
     },
     {
@@ -1233,7 +1238,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:22.309Z",
+      "fetchedAt": "2026-07-04T13:25:58.987Z",
       "error": null
     },
     {
@@ -1319,7 +1324,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:24.845Z",
+      "fetchedAt": "2026-07-04T13:26:01.812Z",
       "error": null
     },
     {
@@ -1405,7 +1410,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:23.934Z",
+      "fetchedAt": "2026-07-04T13:26:00.850Z",
       "error": null
     },
     {
@@ -1488,7 +1493,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:23.913Z",
+      "fetchedAt": "2026-07-04T13:26:00.905Z",
       "error": null
     },
     {
@@ -1543,7 +1548,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:23.924Z",
+      "fetchedAt": "2026-07-04T13:26:00.844Z",
       "error": null
     },
     {
@@ -1608,7 +1613,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:25.047Z",
+      "fetchedAt": "2026-07-04T13:26:02.222Z",
       "error": null
     },
     {
@@ -1693,7 +1698,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:25.652Z",
+      "fetchedAt": "2026-07-04T13:26:02.823Z",
       "error": null
     },
     {
@@ -1749,7 +1754,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:25.345Z",
+      "fetchedAt": "2026-07-04T13:26:02.458Z",
       "error": null
     },
     {
@@ -1814,7 +1819,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:25.389Z",
+      "fetchedAt": "2026-07-04T13:26:02.230Z",
       "error": null
     },
     {
@@ -1895,7 +1900,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.481Z",
+      "fetchedAt": "2026-07-04T13:26:03.686Z",
       "error": null
     },
     {
@@ -1904,7 +1909,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-04T10:09:26.163Z",
+      "fetchedAt": "2026-07-04T13:26:03.458Z",
       "error": "HTTP 404"
     },
     {
@@ -1913,7 +1918,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-04T10:09:25.826Z",
+      "fetchedAt": "2026-07-04T13:26:02.916Z",
       "error": "HTTP 403"
     },
     {
@@ -1984,16 +1989,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
-            "Security",
             "UEFI",
             "Windows 10",
-            "windows 11",
-            "Windows Server"
+            "Windows Server",
+            "Security",
+            "windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:25.881Z",
+      "fetchedAt": "2026-07-04T13:26:03.001Z",
       "error": null
     },
     {
@@ -2066,7 +2071,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.741Z",
+      "fetchedAt": "2026-07-04T13:26:03.803Z",
       "error": null
     },
     {
@@ -2085,7 +2090,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.579Z",
+      "fetchedAt": "2026-07-04T13:26:03.742Z",
       "error": null
     },
     {
@@ -2140,7 +2145,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.798Z",
+      "fetchedAt": "2026-07-04T13:26:03.815Z",
       "error": null
     },
     {
@@ -2225,7 +2230,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.770Z",
+      "fetchedAt": "2026-07-04T13:26:03.821Z",
       "error": null
     },
     {
@@ -2290,7 +2295,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.931Z",
+      "fetchedAt": "2026-07-04T13:26:03.971Z",
       "error": null
     },
     {
@@ -2356,7 +2361,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/YpUSm0_7Lgs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.945Z",
+      "fetchedAt": "2026-07-04T13:26:03.851Z",
       "error": null
     },
     {
@@ -2421,7 +2426,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/I78USEFsU4c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.987Z",
+      "fetchedAt": "2026-07-04T13:26:04.013Z",
       "error": null
     },
     {
@@ -2430,6 +2435,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ",
       "items": [
+        {
+          "title": "Attackers Are Targeting The AI Ecosystem You Cannot See",
+          "link": "https://www.youtube.com/watch?v=L-QKiumLzO0",
+          "pubDate": "2026-07-04T12:24:32.000Z",
+          "summary": "AI agent security is not just about attackers using AI. It is also about attackers targeting the agent ecosystem most organizations cannot see clearly yet. In this episode of Entra.Chat, Merill sits down with Thomas Roccia, founder of Security Break and a former Microsoft threat researcher, to unpac",
+          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "L-QKiumLzO0",
+          "thumbnail": "https://i1.ytimg.com/vi/L-QKiumLzO0/hqdefault.jpg"
+        },
         {
           "title": "Merill Live",
           "link": "https://www.youtube.com/watch?v=5ovCvOcDjv4",
@@ -2473,20 +2489,9 @@
           "type": "video",
           "videoId": "xtDJqCbTdKU",
           "thumbnail": "https://i1.ytimg.com/vi/xtDJqCbTdKU/hqdefault.jpg"
-        },
-        {
-          "title": "Welcome to our live show!",
-          "link": "https://www.youtube.com/watch?v=5adoUKMFiZA",
-          "pubDate": "2026-06-12T22:09:38.000Z",
-          "summary": "Thanks for joining our exclusive live broadcast. Feel free to share your questions and interact with other participants in the chat.",
-          "author": "<name>Merill Fernando</name>\n   <uri>https://www.youtube.com/channel/UCb9SI6Qyx82z9ZAkIk5c8UQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "5adoUKMFiZA",
-          "thumbnail": "https://i2.ytimg.com/vi/5adoUKMFiZA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:27.961Z",
+      "fetchedAt": "2026-07-04T13:26:03.853Z",
       "error": null
     },
     {
@@ -2552,7 +2557,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/D4tQzkHz0F0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.075Z",
+      "fetchedAt": "2026-07-04T13:26:04.329Z",
       "error": null
     },
     {
@@ -2618,7 +2623,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/6j8Eg_RPq0I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.140Z",
+      "fetchedAt": "2026-07-04T13:26:04.176Z",
       "error": null
     },
     {
@@ -2684,7 +2689,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QCXMyxpSncg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.089Z",
+      "fetchedAt": "2026-07-04T13:26:04.173Z",
       "error": null
     },
     {
@@ -2749,7 +2754,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.082Z",
+      "fetchedAt": "2026-07-04T13:26:04.019Z",
       "error": null
     },
     {
@@ -2815,7 +2820,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Am1mXeOx6TA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.308Z",
+      "fetchedAt": "2026-07-04T13:26:04.552Z",
       "error": null
     },
     {
@@ -2880,7 +2885,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.251Z",
+      "fetchedAt": "2026-07-04T13:26:04.334Z",
       "error": null
     },
     {
@@ -2945,7 +2950,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.230Z",
+      "fetchedAt": "2026-07-04T13:26:04.676Z",
       "error": null
     },
     {
@@ -3010,7 +3015,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/LQL6KA6lJus/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.233Z",
+      "fetchedAt": "2026-07-04T13:26:04.463Z",
       "error": null
     },
     {
@@ -3075,7 +3080,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.404Z",
+      "fetchedAt": "2026-07-04T13:26:04.873Z",
       "error": null
     },
     {
@@ -3140,7 +3145,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.439Z",
+      "fetchedAt": "2026-07-04T13:26:04.882Z",
       "error": null
     },
     {
@@ -3205,7 +3210,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.417Z",
+      "fetchedAt": "2026-07-04T13:26:04.805Z",
       "error": null
     },
     {
@@ -3261,7 +3266,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.484Z",
+      "fetchedAt": "2026-07-04T13:26:04.889Z",
       "error": null
     },
     {
@@ -3271,7 +3276,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-04T10:09:28.631Z",
+      "fetchedAt": "2026-07-04T13:26:05.262Z",
       "error": null
     },
     {
@@ -3337,7 +3342,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:29.200Z",
+      "fetchedAt": "2026-07-04T13:26:06.015Z",
       "error": null
     },
     {
@@ -3393,7 +3398,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.544Z",
+      "fetchedAt": "2026-07-04T13:26:04.933Z",
       "error": null
     },
     {
@@ -3422,7 +3427,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:28.804Z",
+      "fetchedAt": "2026-07-04T13:26:05.239Z",
       "error": null
     },
     {
@@ -3478,7 +3483,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:29.235Z",
+      "fetchedAt": "2026-07-04T13:26:06.028Z",
       "error": null
     },
     {
@@ -3488,7 +3493,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-04T10:09:29.336Z",
+      "fetchedAt": "2026-07-04T13:26:06.097Z",
       "error": null
     },
     {
@@ -3544,7 +3549,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:29.219Z",
+      "fetchedAt": "2026-07-04T13:26:06.040Z",
       "error": null
     },
     {
@@ -3564,7 +3569,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:29.228Z",
+      "fetchedAt": "2026-07-04T13:26:06.041Z",
       "error": null
     },
     {
@@ -3620,7 +3625,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:33.665Z",
+      "fetchedAt": "2026-07-04T13:26:10.418Z",
       "error": null
     },
     {
@@ -3676,7 +3681,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:30.099Z",
+      "fetchedAt": "2026-07-04T13:26:07.009Z",
       "error": null
     },
     {
@@ -3731,7 +3736,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:29.617Z",
+      "fetchedAt": "2026-07-04T13:26:06.174Z",
       "error": null
     },
     {
@@ -3786,7 +3791,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:29.638Z",
+      "fetchedAt": "2026-07-04T13:26:06.190Z",
       "error": null
     },
     {
@@ -3851,7 +3856,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-04T10:09:34.392Z",
+      "fetchedAt": "2026-07-04T13:26:11.022Z",
       "error": null
     }
   ]
