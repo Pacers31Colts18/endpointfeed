@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T10:18:21.075Z",
+  "generatedAt": "2026-07-08T14:07:13.813Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,24 +8,49 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Windows telemetry and anti-piracy identifiers aid in ransomware investigation",
-          "link": "https://4sysops.com/archives/windows-telemetry-and-anti-piracy-identifiers-aid-in-ransomware-investigation/",
-          "pubDate": "2026-07-08T10:14:10.000Z",
-          "summary": "The U.S. Department of Justice recently utilized Microsoft Windows telemetry to track and arrest a suspected member of the Scattered Spider ransomware group. Investigators linked the suspect to criminal activity by leveraging the Global Device Identifier (GDID), a persistent ID designed to uniquely ",
+          "title": "GitHub Copilot adds Kimi K2.7 as first open-weight model for enterprise plans",
+          "link": "https://4sysops.com/archives/github-copilot-adds-kimi-k2-7-as-first-open-weight-model-for-enterprise-plans/",
+          "pubDate": "2026-07-08T10:26:49.000Z",
+          "summary": "GitHub has expanded the availability of Kimi K2.7 Code to Copilot Business and Enterprise plans following its initial rollout to individual tiers. This release marks the first time an open-weight model has been integrated as a selectable option within the Copilot model picker. The model is hosted di",
           "author": "IT News",
           "categories": [
             "News",
-            "Monitoring",
-            "Security",
+            "AI",
+            "DevOps"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 bug causes permission log to consume hundreds of gigabytes of storage",
+          "link": "https://4sysops.com/archives/windows-11-bug-causes-permission-log-to-consume-hundreds-of-gigabytes-of-storage/",
+          "pubDate": "2026-07-08T10:26:48.000Z",
+          "summary": "Microsoft has confirmed a defect in the Windows 11 Capability Access Manager (camsvc) that causes a specific log file to expand indefinitely. The file, named CapabilityAccessManager.db-wal, acts as a write-ahead log for a database that tracks when applications request access to sensitive resources l",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Storage",
             "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Meta launches Muse Image with advanced reasoning and social integration",
-          "link": "https://4sysops.com/archives/meta-launches-muse-image-with-advanced-reasoning-and-social-integration/",
-          "pubDate": "2026-07-08T10:14:09.000Z",
-          "summary": "Meta has officially released Muse Image, the first image-generation model developed by its Superintelligence Labs division to compete with leading AI industry rivals. This new model integrates with the existing Muse Spark text-and-reasoning engine to interpret complex prompts and plan visual layouts",
+          "title": "Microsoft prepares Visual Studio Code version 1.129 for Insiders testing",
+          "link": "https://4sysops.com/archives/microsoft-prepares-visual-studio-code-version-1-129-for-insiders-testing/",
+          "pubDate": "2026-07-08T10:26:47.000Z",
+          "summary": "Microsoft has initiated the rollout of Visual Studio Code version 1.129 for the Insiders channel to test experimental features. This release follows a structured \"endgame\" process designed to stabilize the codebase before it reaches the general public. The update allows developers to preview upcomin",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "DevOps",
+            "Web"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "US Commerce Department clears OpenAI GPT-5.6 for broad public release",
+          "link": "https://4sysops.com/archives/us-commerce-department-clears-openai-gpt-5-6-for-broad-public-release/",
+          "pubDate": "2026-07-08T10:26:46.000Z",
+          "summary": "The Department of Commerce has authorized OpenAI to proceed with a full public launch of its GPT-5.6 model family. This decision follows a period of restricted access where the Trump administration mandated a staggered rollout limited to government-vetted partners. The lifting of these restrictions ",
           "author": "IT News",
           "categories": [
             "News",
@@ -34,49 +59,19 @@
           "type": "rss"
         },
         {
-          "title": "Chrome Canary integrates native Google Drive picker into AI Mode",
-          "link": "https://4sysops.com/archives/chrome-canary-integrates-native-google-drive-picker-into-ai-mode/",
-          "pubDate": "2026-07-08T10:14:08.000Z",
-          "summary": "Google is enhancing the AI Mode in Chrome Canary by integrating a native Google Drive file picker directly into the interface. This update replaces the previously non-functional \"Add from Drive\" button with a comprehensive selection tool for cloud-based assets. Users can now browse their entire stor",
+          "title": "Meta launches Muse Image with agentic tool use and invisible watermarking",
+          "link": "https://4sysops.com/archives/meta-launches-muse-image-with-agentic-tool-use-and-invisible-watermarking/",
+          "pubDate": "2026-07-08T10:26:45.000Z",
+          "summary": "Meta has released Muse Image, an agentic image-generation model that utilizes search and coding tools to improve the accuracy of its visual outputs. Unlike traditional models that map prompts directly to pixels, this system can execute code to generate precise layouts or search the web for real-time",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "Google Cloud",
-            "Storage"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "GhostLock vulnerability enables root access and container escapes on Linux",
-          "link": "https://4sysops.com/archives/ghostlock-vulnerability-enables-root-access-and-container-escapes-on-linux/",
-          "pubDate": "2026-07-08T10:14:07.000Z",
-          "summary": "A critical use-after-free vulnerability known as GhostLock (CVE-2026-43499) has been discovered in the Linux kernel’s real-time mutex subsystem. This flaw originated in 2011 and affects nearly all mainstream distributions, allowing any locally logged-in user to gain full root privileges. The vulnera",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Linux",
-            "Security",
-            "Virtualization"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Automating Entra ID reporting for managers and direct reports using Microsoft Graph",
-          "link": "https://4sysops.com/archives/automating-entra-id-reporting-for-managers-and-direct-reports-using-microsoft-graph/",
-          "pubDate": "2026-07-08T10:14:06.000Z",
-          "summary": "Accurate reporting of organizational hierarchies in Entra ID depends entirely on the consistent population of the manager attribute within user profiles. While older methods relied on the Azure AD PowerShell module or Exchange Online cmdlets, modern workflows prioritize Microsoft Graph for better pe",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Azure",
-            "Identity",
-            "PowerShell"
+            "AI"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:02.505Z",
+      "fetchedAt": "2026-07-08T14:06:56.318Z",
       "error": null
     },
     {
@@ -152,7 +147,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:02.647Z",
+      "fetchedAt": "2026-07-08T14:06:56.274Z",
       "error": null
     },
     {
@@ -218,7 +213,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:03.006Z",
+      "fetchedAt": "2026-07-08T14:06:56.748Z",
       "error": null
     },
     {
@@ -228,7 +223,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-08T10:18:02.146Z",
+      "fetchedAt": "2026-07-08T14:06:56.027Z",
       "error": "HTTP 403"
     },
     {
@@ -283,7 +278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:03.093Z",
+      "fetchedAt": "2026-07-08T14:06:56.949Z",
       "error": null
     },
     {
@@ -348,7 +343,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:03.218Z",
+      "fetchedAt": "2026-07-08T14:06:56.942Z",
       "error": null
     },
     {
@@ -431,7 +426,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:03.164Z",
+      "fetchedAt": "2026-07-08T14:06:56.947Z",
       "error": null
     },
     {
@@ -504,7 +499,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:03.821Z",
+      "fetchedAt": "2026-07-08T14:06:57.631Z",
       "error": null
     },
     {
@@ -513,7 +508,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-08T10:18:03.913Z",
+      "fetchedAt": "2026-07-08T14:06:57.713Z",
       "error": "HTTP 403"
     },
     {
@@ -591,7 +586,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:05.417Z",
+      "fetchedAt": "2026-07-08T14:06:59.231Z",
       "error": null
     },
     {
@@ -600,7 +595,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-08T10:18:04.371Z",
+      "fetchedAt": "2026-07-08T14:06:57.989Z",
       "error": "certificate has expired"
     },
     {
@@ -670,7 +665,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:04.626Z",
+      "fetchedAt": "2026-07-08T14:06:58.436Z",
       "error": null
     },
     {
@@ -747,7 +742,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:05.673Z",
+      "fetchedAt": "2026-07-08T14:06:59.484Z",
       "error": null
     },
     {
@@ -813,7 +808,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:07.552Z",
+      "fetchedAt": "2026-07-08T14:06:59.799Z",
       "error": null
     },
     {
@@ -868,7 +863,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:05.910Z",
+      "fetchedAt": "2026-07-08T14:06:59.709Z",
       "error": null
     },
     {
@@ -944,7 +939,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:05.815Z",
+      "fetchedAt": "2026-07-08T14:06:59.977Z",
       "error": null
     },
     {
@@ -1021,7 +1016,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:07.645Z",
+      "fetchedAt": "2026-07-08T14:07:00.153Z",
       "error": null
     },
     {
@@ -1098,7 +1093,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:09.313Z",
+      "fetchedAt": "2026-07-08T14:07:01.820Z",
       "error": null
     },
     {
@@ -1107,6 +1102,21 @@
       "type": "rss",
       "url": "https://krebsonsecurity.com/feed/",
       "items": [
+        {
+          "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+          "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+          "pubDate": "2026-07-08T12:31:39.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [
+            "A Little Sunshine",
+            "Latest Warnings",
+            "Ne'er-Do-Well News",
+            "Calvexa Group LLC",
+            "IRIS C2"
+          ],
+          "type": "rss"
+        },
         {
           "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
           "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
@@ -1166,24 +1176,9 @@
             "Alexander Andreevich Yapaev"
           ],
           "type": "rss"
-        },
-        {
-          "title": "A Record-Breaking Patch Tuesday for June 2026",
-          "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-          "pubDate": "2026-06-09T22:07:28.000Z",
-          "summary": "",
-          "author": "BrianKrebs",
-          "categories": [
-            "Latest Warnings",
-            "Security Tools",
-            "The Coming Storm",
-            "Time to Patch",
-            "Adam Barnett"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:07.755Z",
+      "fetchedAt": "2026-07-08T14:07:00.330Z",
       "error": null
     },
     {
@@ -1239,7 +1234,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:07.820Z",
+      "fetchedAt": "2026-07-08T14:07:00.424Z",
       "error": null
     },
     {
@@ -1325,7 +1320,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:10.478Z",
+      "fetchedAt": "2026-07-08T14:07:03.344Z",
       "error": null
     },
     {
@@ -1411,7 +1406,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:09.447Z",
+      "fetchedAt": "2026-07-08T14:07:01.955Z",
       "error": null
     },
     {
@@ -1494,7 +1489,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:09.549Z",
+      "fetchedAt": "2026-07-08T14:07:01.948Z",
       "error": null
     },
     {
@@ -1549,7 +1544,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:09.554Z",
+      "fetchedAt": "2026-07-08T14:07:02.035Z",
       "error": null
     },
     {
@@ -1614,7 +1609,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:10.677Z",
+      "fetchedAt": "2026-07-08T14:07:03.501Z",
       "error": null
     },
     {
@@ -1699,7 +1694,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:11.249Z",
+      "fetchedAt": "2026-07-08T14:07:04.087Z",
       "error": null
     },
     {
@@ -1755,7 +1750,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:11.091Z",
+      "fetchedAt": "2026-07-08T14:07:04.122Z",
       "error": null
     },
     {
@@ -1820,7 +1815,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:11.421Z",
+      "fetchedAt": "2026-07-08T14:07:04.041Z",
       "error": null
     },
     {
@@ -1901,7 +1896,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:12.177Z",
+      "fetchedAt": "2026-07-08T14:07:04.883Z",
       "error": null
     },
     {
@@ -1910,7 +1905,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-08T10:18:12.090Z",
+      "fetchedAt": "2026-07-08T14:07:04.979Z",
       "error": "HTTP 404"
     },
     {
@@ -1919,7 +1914,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-08T10:18:11.673Z",
+      "fetchedAt": "2026-07-08T14:07:04.538Z",
       "error": "HTTP 403"
     },
     {
@@ -1999,7 +1994,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:11.793Z",
+      "fetchedAt": "2026-07-08T14:07:04.494Z",
       "error": null
     },
     {
@@ -2072,7 +2067,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:12.464Z",
+      "fetchedAt": "2026-07-08T14:07:05.192Z",
       "error": null
     },
     {
@@ -2091,7 +2086,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:12.355Z",
+      "fetchedAt": "2026-07-08T14:07:05.169Z",
       "error": null
     },
     {
@@ -2146,7 +2141,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:12.620Z",
+      "fetchedAt": "2026-07-08T14:07:05.439Z",
       "error": null
     },
     {
@@ -2231,7 +2226,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:12.932Z",
+      "fetchedAt": "2026-07-08T14:07:05.279Z",
       "error": null
     },
     {
@@ -2296,7 +2291,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.057Z",
+      "fetchedAt": "2026-07-08T14:07:05.571Z",
       "error": null
     },
     {
@@ -2362,7 +2357,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/80E-9rPsJIs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:12.972Z",
+      "fetchedAt": "2026-07-08T14:07:05.604Z",
       "error": null
     },
     {
@@ -2427,7 +2422,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/I78USEFsU4c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.149Z",
+      "fetchedAt": "2026-07-08T14:07:05.791Z",
       "error": null
     },
     {
@@ -2492,7 +2487,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/8kAO9TJBlYQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.065Z",
+      "fetchedAt": "2026-07-08T14:07:05.625Z",
       "error": null
     },
     {
@@ -2558,7 +2553,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/D4tQzkHz0F0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.244Z",
+      "fetchedAt": "2026-07-08T14:07:05.888Z",
       "error": null
     },
     {
@@ -2624,7 +2619,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/6j8Eg_RPq0I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.156Z",
+      "fetchedAt": "2026-07-08T14:07:05.927Z",
       "error": null
     },
     {
@@ -2690,7 +2685,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QCXMyxpSncg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.157Z",
+      "fetchedAt": "2026-07-08T14:07:05.934Z",
       "error": null
     },
     {
@@ -2755,7 +2750,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.261Z",
+      "fetchedAt": "2026-07-08T14:07:05.798Z",
       "error": null
     },
     {
@@ -2765,6 +2760,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Master Conditional Access in Entra ID: Assignments, Conditions, Controls!",
+          "link": "https://www.youtube.com/watch?v=zmisKsvbtQY",
+          "pubDate": "2026-07-08T11:39:36.000Z",
+          "summary": "Security Defaults have limits. Here is how to build your first Conditional Access policy. Conditional Access helps users stay productive from anywhere while protecting your organization with a Zero Trust approach. In this video, the second part of a Microsoft Entra ID security series, we build your ",
+          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "zmisKsvbtQY",
+          "thumbnail": "https://i3.ytimg.com/vi/zmisKsvbtQY/hqdefault.jpg"
+        },
         {
           "title": "Zero Trust Security Explained: The NEW IT Model #shorts",
           "link": "https://www.youtube.com/shorts/x6a_kktEXrQ",
@@ -2808,20 +2814,9 @@
           "type": "video",
           "videoId": "VVkQaDUp5og",
           "thumbnail": "https://i3.ytimg.com/vi/VVkQaDUp5og/hqdefault.jpg"
-        },
-        {
-          "title": "Save 80% on Azure with Spot VMs! #shorts",
-          "link": "https://www.youtube.com/shorts/1zGlzDFooPA",
-          "pubDate": "2026-06-25T17:54:43.000Z",
-          "summary": "Full Video: https://youtu.be/WUI69UitVgc Unlock massive Azure savings with Spot VMs! Get deeply discounted compute power on unused capacity. Just be aware they can be evicted when Azure needs the resources back. #Azure #CloudComputing #DevOps #CostSavings #SpotVMs",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/1zGlzDFooPA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.423Z",
+      "fetchedAt": "2026-07-08T14:07:06.056Z",
       "error": null
     },
     {
@@ -2886,7 +2881,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.406Z",
+      "fetchedAt": "2026-07-08T14:07:05.944Z",
       "error": null
     },
     {
@@ -2951,7 +2946,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.338Z",
+      "fetchedAt": "2026-07-08T14:07:06.047Z",
       "error": null
     },
     {
@@ -3016,7 +3011,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.364Z",
+      "fetchedAt": "2026-07-08T14:07:06.045Z",
       "error": null
     },
     {
@@ -3081,7 +3076,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.530Z",
+      "fetchedAt": "2026-07-08T14:07:06.251Z",
       "error": null
     },
     {
@@ -3146,7 +3141,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.431Z",
+      "fetchedAt": "2026-07-08T14:07:06.172Z",
       "error": null
     },
     {
@@ -3211,7 +3206,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:13.601Z",
+      "fetchedAt": "2026-07-08T14:07:06.147Z",
       "error": null
     },
     {
@@ -3240,6 +3235,15 @@
           "type": "official"
         },
         {
+          "title": "Copilot is a service, not a SKU: How MSPs are packaging AI enablement for real revenue",
+          "link": "https://getnerdio.com/blog/copilot-is-a-service-not-a-sku-how-msps-are-packaging-ai-enablement-for-real-revenue/",
+          "pubDate": "2026-07-08T13:00:18.000Z",
+          "summary": "Nerdio Manager for MSP Copilot is a service, not a SKU: How MSPs are packaging AI enablement for real revenue… The post Copilot is a service, not a SKU: How MSPs are packaging AI enablement for real revenue appeared first on Nerdio. ]]>",
+          "author": "Lauren Purdy",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "Intune Unlocked: Why your policies aren’t applying (and how to fix it)",
           "link": "https://getnerdio.com/on-demand-webinar/intune-unlocked-why-your-policies-arent-applying-and-how-to-fix-it/",
           "pubDate": "2026-07-01T16:24:04.000Z",
@@ -3256,18 +3260,9 @@
           "author": "Lauren Purdy",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Your M365 bill is going up in July: here’s what to tell your clients and how to come out ahead",
-          "link": "https://getnerdio.com/blog/your-m365-bill-is-going-up-in-july-heres-what-to-tell-your-clients-and-how-to-come-out-ahead/",
-          "pubDate": "2026-06-29T18:30:47.000Z",
-          "summary": "Nerdio Manager for MSP Your M365 bill is going up in July: here’s what to tell your clients and how… The post Your M365 bill is going up in July: here’s what to tell your clients and how to come out ahead appeared first on Nerdio. ]]>",
-          "author": "Lauren Purdy",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:14.872Z",
+      "fetchedAt": "2026-07-08T14:07:06.290Z",
       "error": null
     },
     {
@@ -3277,7 +3272,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-08T10:18:15.252Z",
+      "fetchedAt": "2026-07-08T14:07:06.509Z",
       "error": null
     },
     {
@@ -3344,7 +3339,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:15.629Z",
+      "fetchedAt": "2026-07-08T14:07:07.014Z",
       "error": null
     },
     {
@@ -3400,7 +3395,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:14.949Z",
+      "fetchedAt": "2026-07-08T14:07:06.911Z",
       "error": null
     },
     {
@@ -3429,7 +3424,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:15.292Z",
+      "fetchedAt": "2026-07-08T14:07:06.676Z",
       "error": null
     },
     {
@@ -3485,7 +3480,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:15.642Z",
+      "fetchedAt": "2026-07-08T14:07:07.081Z",
       "error": null
     },
     {
@@ -3495,7 +3490,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-08T10:18:15.854Z",
+      "fetchedAt": "2026-07-08T14:07:07.432Z",
       "error": null
     },
     {
@@ -3551,7 +3546,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:15.646Z",
+      "fetchedAt": "2026-07-08T14:07:07.045Z",
       "error": null
     },
     {
@@ -3571,7 +3566,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:15.664Z",
+      "fetchedAt": "2026-07-08T14:07:07.049Z",
       "error": null
     },
     {
@@ -3627,7 +3622,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:20.301Z",
+      "fetchedAt": "2026-07-08T14:07:11.900Z",
       "error": null
     },
     {
@@ -3683,7 +3678,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:16.659Z",
+      "fetchedAt": "2026-07-08T14:07:08.173Z",
       "error": null
     },
     {
@@ -3738,7 +3733,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:16.256Z",
+      "fetchedAt": "2026-07-08T14:07:07.663Z",
       "error": null
     },
     {
@@ -3793,7 +3788,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:16.120Z",
+      "fetchedAt": "2026-07-08T14:07:07.687Z",
       "error": null
     },
     {
@@ -3858,7 +3853,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-08T10:18:21.075Z",
+      "fetchedAt": "2026-07-08T14:07:13.813Z",
       "error": null
     }
   ]
