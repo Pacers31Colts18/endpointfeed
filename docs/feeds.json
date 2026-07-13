@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T14:34:03.236Z",
+  "generatedAt": "2026-07-13T17:54:51.232Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,74 +8,70 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Why local AI is the future of sovereign and specialized intelligence",
-          "link": "https://4sysops.com/archives/why-local-ai-is-the-future-of-sovereign-and-specialized-intelligence/",
-          "pubDate": "2026-07-13T10:34:37.000Z",
-          "summary": "The local AI landscape has reached a critical inflection point where high-performance models and sophisticated harnesses now allow frontier-level intelligence to run on consumer and workstation hardware. This shift is driven by the need for data sovereignty, cost predictability for \"always-on\" agent",
+          "title": "AI orchestration systems prioritize cost and efficiency over model size",
+          "link": "https://4sysops.com/archives/ai-orchestration-systems-prioritize-cost-and-efficiency-over-model-size/",
+          "pubDate": "2026-07-13T15:28:21.000Z",
+          "summary": "The artificial intelligence industry is transitioning from a race for larger models toward the development of integrated orchestration systems. These platforms function as a harness, automatically routing tasks to the most appropriate model based on complexity, cost, and required data access. This s",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Satya Nadella criticizes AI labs for restricting model distillation while training on everyone else’s data",
+          "link": "https://4sysops.com/archives/satya-nadella-criticizes-ai-labs-for-restricting-model-distillation-while-training-on-everyone-elses-data/",
+          "pubDate": "2026-07-13T15:28:20.000Z",
+          "summary": "Microsoft CEO Satya Nadella recently criticized leading AI laboratories for maintaining contradictory policies regarding data usage and model training. He specifically targeted the practice of banning model distillation, which allows smaller AI systems to learn from the outputs of more advanced mode",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "German AI consortium launches Soofi S 30B-A3B sovereign open-source model",
+          "link": "https://4sysops.com/archives/german-ai-consortium-launches-soofi-s-30b-a3b-sovereign-open-source-model/",
+          "pubDate": "2026-07-13T15:23:37.000Z",
+          "summary": "A German research consortium has released Soofi S 30B-A3B, an open-source large language model designed for high performance in both German and English. The model utilizes a Mixture-of-Experts (MoE) architecture, which contains 31.6 billion total parameters but only activates 3.2 billion per token t",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Cloud Computing",
-            "Hardware",
             "Sovereignty"
           ],
           "type": "rss"
         },
         {
-          "title": "US and allies warn of Russian hackers targeting critical infrastructure routers",
-          "link": "https://4sysops.com/archives/us-and-allies-warn-of-russian-hackers-targeting-critical-infrastructure-routers/",
-          "pubDate": "2026-07-13T10:34:36.000Z",
-          "summary": "Cybersecurity agencies from the United States and eight allied nations have issued a joint advisory regarding Russian state-sponsored hacking activity. The warning identifies hackers from the Russian Federal Security Service (FSB) who are actively targeting vulnerable and poorly configured routers. ",
+          "title": "OAuth client ID spoofing allows stealthy Microsoft Entra account enumeration",
+          "link": "https://4sysops.com/archives/oauth-client-id-spoofing-allows-stealthy-microsoft-entra-account-enumeration/",
+          "pubDate": "2026-07-13T15:23:36.000Z",
+          "summary": "Attackers are exploiting a novel technique called OAuth client ID spoofing to bypass traditional detection mechanisms in Microsoft Entra ID. By sending authentication requests with fabricated or random client identifiers, threat actors can perform account enumeration and password validation without ",
           "author": "IT News",
           "categories": [
             "News",
-            "Networking",
+            "Identity",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "SAP eases on-premises support rules following EU antitrust investigation",
-          "link": "https://4sysops.com/archives/sap-eases-on-premises-support-rules-following-eu-antitrust-investigation/",
-          "pubDate": "2026-07-13T10:34:35.000Z",
-          "summary": "SAP is implementing global changes to its on-premises maintenance and support policies to resolve a European Commission competition investigation. The new rules allow organizations to partition their software installations and select different support levels for specific components. This flexibility",
+          "title": "New HTTP QUERY method standardizes complex read-only requests",
+          "link": "https://4sysops.com/archives/new-http-query-method-standardizes-complex-read-only-requests/",
+          "pubDate": "2026-07-13T15:23:35.000Z",
+          "summary": "The IETF has officially standardized the HTTP QUERY method under RFC 10008 to address long-standing limitations in web communication. This new verb serves as a middle ground between GET and POST by allowing request data to be sent in the body rather than the URL. It is specifically designed for comp",
           "author": "IT News",
           "categories": [
             "News",
-            "Systems Management"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft Teams screen sharing bug impacts macOS users in government clouds",
-          "link": "https://4sysops.com/archives/microsoft-teams-screen-sharing-bug-impacts-macos-users-in-government-clouds/",
-          "pubDate": "2026-07-13T10:00:26.000Z",
-          "summary": "Microsoft has identified a persistent bug in Teams for macOS that causes screen-sharing sessions to freeze, fail, or display as a blank black screen. The issue predominantly affects organizations operating within Microsoft 365 Government environments, including GCC, GCC High, and DoD tenants. While ",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Mac",
-            "Microsoft 365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Anthropic adds sandboxed web browser to Claude Code for autonomous web tasks",
-          "link": "https://4sysops.com/archives/anthropic-adds-sandboxed-web-browser-to-claude-code-for-autonomous-web-tasks/",
-          "pubDate": "2026-07-13T10:00:25.000Z",
-          "summary": "Anthropic has integrated a built-in, sandboxed web browser into the Claude Code desktop application to streamline development workflows. This feature allows the AI assistant to navigate documentation, interact with issue trackers, and extract data from external websites without leaving the terminal ",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Security",
+            "DevOps",
             "Web"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:47.552Z",
+      "fetchedAt": "2026-07-13T17:54:30.267Z",
       "error": null
     },
     {
@@ -151,7 +147,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:47.538Z",
+      "fetchedAt": "2026-07-13T17:54:30.174Z",
       "error": null
     },
     {
@@ -217,7 +213,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:48.044Z",
+      "fetchedAt": "2026-07-13T17:54:30.272Z",
       "error": null
     },
     {
@@ -227,7 +223,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-13T14:33:47.153Z",
+      "fetchedAt": "2026-07-13T17:54:29.850Z",
       "error": "HTTP 403"
     },
     {
@@ -282,7 +278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:48.200Z",
+      "fetchedAt": "2026-07-13T17:54:30.354Z",
       "error": null
     },
     {
@@ -347,7 +343,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:48.297Z",
+      "fetchedAt": "2026-07-13T17:54:30.737Z",
       "error": null
     },
     {
@@ -430,7 +426,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:48.207Z",
+      "fetchedAt": "2026-07-13T17:54:30.427Z",
       "error": null
     },
     {
@@ -503,7 +499,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:48.890Z",
+      "fetchedAt": "2026-07-13T17:54:30.981Z",
       "error": null
     },
     {
@@ -512,7 +508,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-13T14:33:48.963Z",
+      "fetchedAt": "2026-07-13T17:54:31.099Z",
       "error": "HTTP 403"
     },
     {
@@ -590,7 +586,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:50.473Z",
+      "fetchedAt": "2026-07-13T17:54:32.503Z",
       "error": null
     },
     {
@@ -599,7 +595,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-13T14:33:49.352Z",
+      "fetchedAt": "2026-07-13T17:54:31.310Z",
       "error": "certificate has expired"
     },
     {
@@ -669,7 +665,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:49.749Z",
+      "fetchedAt": "2026-07-13T17:54:31.608Z",
       "error": null
     },
     {
@@ -746,7 +742,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:50.730Z",
+      "fetchedAt": "2026-07-13T17:54:32.874Z",
       "error": null
     },
     {
@@ -755,9 +751,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-07-13T14:33:50.592Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
+          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
+          "pubDate": "2026-07-13T04:18:01.000Z",
+          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
+          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
+          "pubDate": "2026-05-29T15:34:28.000Z",
+          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
+          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
+          "pubDate": "2026-05-19T05:58:43.000Z",
+          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
+          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
+          "pubDate": "2026-05-15T14:47:47.000Z",
+          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
+          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
+          "pubDate": "2026-05-06T20:30:40.000Z",
+          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-07-13T17:54:33.304Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -811,7 +863,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:50.852Z",
+      "fetchedAt": "2026-07-13T17:54:33.114Z",
       "error": null
     },
     {
@@ -887,7 +939,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:50.805Z",
+      "fetchedAt": "2026-07-13T17:54:32.821Z",
       "error": null
     },
     {
@@ -964,7 +1016,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:51.071Z",
+      "fetchedAt": "2026-07-13T17:54:33.448Z",
       "error": null
     },
     {
@@ -1041,7 +1093,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:52.542Z",
+      "fetchedAt": "2026-07-13T17:54:35.019Z",
       "error": null
     },
     {
@@ -1050,6 +1102,21 @@
       "type": "rss",
       "url": "https://krebsonsecurity.com/feed/",
       "items": [
+        {
+          "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+          "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+          "pubDate": "2026-07-13T15:03:28.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [
+            "A Little Sunshine",
+            "Data Breaches",
+            "Latest Warnings",
+            "Brad Libbey",
+            "Cybersecurity and Infrastructure Security Agency"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
           "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
@@ -1109,24 +1176,9 @@
             "BadBox 2.0"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-          "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-          "pubDate": "2026-06-10T14:03:44.000Z",
-          "summary": "",
-          "author": "BrianKrebs",
-          "categories": [
-            "Breadcrumbs",
-            "Ne'er-Do-Well News",
-            "Ransomware",
-            "79127650004",
-            "Alexander Andreevich Yapaev"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:51.134Z",
+      "fetchedAt": "2026-07-13T17:54:33.530Z",
       "error": null
     },
     {
@@ -1182,7 +1234,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:51.236Z",
+      "fetchedAt": "2026-07-13T17:54:33.660Z",
       "error": null
     },
     {
@@ -1268,7 +1320,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:53.624Z",
+      "fetchedAt": "2026-07-13T17:54:36.361Z",
       "error": null
     },
     {
@@ -1354,7 +1406,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:52.714Z",
+      "fetchedAt": "2026-07-13T17:54:35.138Z",
       "error": null
     },
     {
@@ -1434,7 +1486,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:52.780Z",
+      "fetchedAt": "2026-07-13T17:54:35.213Z",
       "error": null
     },
     {
@@ -1489,7 +1541,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:52.790Z",
+      "fetchedAt": "2026-07-13T17:54:35.164Z",
       "error": null
     },
     {
@@ -1554,7 +1606,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:53.917Z",
+      "fetchedAt": "2026-07-13T17:54:36.580Z",
       "error": null
     },
     {
@@ -1639,7 +1691,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:54.479Z",
+      "fetchedAt": "2026-07-13T17:54:37.045Z",
       "error": null
     },
     {
@@ -1695,7 +1747,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:54.209Z",
+      "fetchedAt": "2026-07-13T17:54:36.879Z",
       "error": null
     },
     {
@@ -1760,7 +1812,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:54.402Z",
+      "fetchedAt": "2026-07-13T17:54:36.666Z",
       "error": null
     },
     {
@@ -1841,7 +1893,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.119Z",
+      "fetchedAt": "2026-07-13T17:54:38.520Z",
       "error": null
     },
     {
@@ -1850,7 +1902,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-13T14:33:55.303Z",
+      "fetchedAt": "2026-07-13T17:54:37.844Z",
       "error": "HTTP 404"
     },
     {
@@ -1859,7 +1911,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-13T14:33:54.671Z",
+      "fetchedAt": "2026-07-13T17:54:37.284Z",
       "error": "HTTP 403"
     },
     {
@@ -1939,7 +1991,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:54.691Z",
+      "fetchedAt": "2026-07-13T17:54:37.276Z",
       "error": null
     },
     {
@@ -2012,7 +2064,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.576Z",
+      "fetchedAt": "2026-07-13T17:54:38.658Z",
       "error": null
     },
     {
@@ -2031,7 +2083,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.505Z",
+      "fetchedAt": "2026-07-13T17:54:38.687Z",
       "error": null
     },
     {
@@ -2086,7 +2138,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.779Z",
+      "fetchedAt": "2026-07-13T17:54:38.918Z",
       "error": null
     },
     {
@@ -2171,7 +2223,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.639Z",
+      "fetchedAt": "2026-07-13T17:54:38.834Z",
       "error": null
     },
     {
@@ -2236,7 +2288,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.889Z",
+      "fetchedAt": "2026-07-13T17:54:39.096Z",
       "error": null
     },
     {
@@ -2302,7 +2354,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/qXPTJDgbbPg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.810Z",
+      "fetchedAt": "2026-07-13T17:54:39.103Z",
       "error": null
     },
     {
@@ -2367,7 +2419,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/g73lu--S2jw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.939Z",
+      "fetchedAt": "2026-07-13T17:54:39.167Z",
       "error": null
     },
     {
@@ -2432,7 +2484,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WVgmnNBmzxM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:55.997Z",
+      "fetchedAt": "2026-07-13T17:54:39.056Z",
       "error": null
     },
     {
@@ -2498,7 +2550,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.096Z",
+      "fetchedAt": "2026-07-13T17:54:39.263Z",
       "error": null
     },
     {
@@ -2564,7 +2616,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/UetCd8j6txw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.006Z",
+      "fetchedAt": "2026-07-13T17:54:39.262Z",
       "error": null
     },
     {
@@ -2630,7 +2682,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/g2i4-VsIpbk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.160Z",
+      "fetchedAt": "2026-07-13T17:54:39.267Z",
       "error": null
     },
     {
@@ -2695,7 +2747,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.106Z",
+      "fetchedAt": "2026-07-13T17:54:39.286Z",
       "error": null
     },
     {
@@ -2761,7 +2813,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/1wYf3B8uw08/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.251Z",
+      "fetchedAt": "2026-07-13T17:54:39.478Z",
       "error": null
     },
     {
@@ -2826,7 +2878,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.293Z",
+      "fetchedAt": "2026-07-13T17:54:39.398Z",
       "error": null
     },
     {
@@ -2891,7 +2943,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.245Z",
+      "fetchedAt": "2026-07-13T17:54:39.387Z",
       "error": null
     },
     {
@@ -2956,7 +3008,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.342Z",
+      "fetchedAt": "2026-07-13T17:54:39.372Z",
       "error": null
     },
     {
@@ -3021,7 +3073,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.449Z",
+      "fetchedAt": "2026-07-13T17:54:39.588Z",
       "error": null
     },
     {
@@ -3086,7 +3138,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.467Z",
+      "fetchedAt": "2026-07-13T17:54:39.643Z",
       "error": null
     },
     {
@@ -3151,7 +3203,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.443Z",
+      "fetchedAt": "2026-07-13T17:54:39.577Z",
       "error": null
     },
     {
@@ -3207,7 +3259,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.570Z",
+      "fetchedAt": "2026-07-13T17:54:40.759Z",
       "error": null
     },
     {
@@ -3217,7 +3269,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-13T14:33:56.692Z",
+      "fetchedAt": "2026-07-13T17:54:40.860Z",
       "error": null
     },
     {
@@ -3227,6 +3279,17 @@
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Patch My PC Publisher Preview Version 2.3.2.287 Released",
+          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-3-2-287-released/",
+          "pubDate": "2026-07-13T17:32:44.000Z",
+          "summary": "This release contains a variety of improvements and fixes, as noted below. New Features and Improvements User Interface Enhancements Intune Improvements Bug Fixes Publishing and Synchronization Application and Service Reliability User Interface Accessibility Improvements Keyboard Navigation The post",
+          "author": "Brian Hall",
+          "categories": [
+            "Preview Release"
+          ],
+          "type": "official"
+        },
         {
           "title": "Deploying Claude Desktop Device-Wide: MSIX as a Custom App in Patch My PC",
           "link": "https://patchmypc.com/kb/deploying-claude-desktop-device-wide-msix-as-a-custom-app-in-patch-my-pc/",
@@ -3271,20 +3334,9 @@
             "Blog"
           ],
           "type": "official"
-        },
-        {
-          "title": "ARM64 update may show as Installed on x64 devices",
-          "link": "https://patchmypc.com/kb/arm64-update-may-show-as-installed-on-x64-devices/",
-          "pubDate": "2026-07-03T12:50:40.000Z",
-          "summary": "Why the Edge ARM64 update can show Installed on x64 devices in Intune, and the recommended filter workaround The post ARM64 update may show as Installed on x64 devices appeared first on Patch My PC. ]]>",
-          "author": "Ben Whitmore",
-          "categories": [
-            "Knowledge Base"
-          ],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:57.517Z",
+      "fetchedAt": "2026-07-13T17:54:41.574Z",
       "error": null
     },
     {
@@ -3340,7 +3392,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:56.634Z",
+      "fetchedAt": "2026-07-13T17:54:40.807Z",
       "error": null
     },
     {
@@ -3369,7 +3421,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:57.039Z",
+      "fetchedAt": "2026-07-13T17:54:46.146Z",
       "error": null
     },
     {
@@ -3425,7 +3477,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:57.546Z",
+      "fetchedAt": "2026-07-13T17:54:46.191Z",
       "error": null
     },
     {
@@ -3435,7 +3487,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-13T14:33:57.674Z",
+      "fetchedAt": "2026-07-13T17:54:46.266Z",
       "error": null
     },
     {
@@ -3491,7 +3543,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:57.537Z",
+      "fetchedAt": "2026-07-13T17:54:46.188Z",
       "error": null
     },
     {
@@ -3511,7 +3563,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:57.610Z",
+      "fetchedAt": "2026-07-13T17:54:46.216Z",
       "error": null
     },
     {
@@ -3521,6 +3573,15 @@
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
       "items": [
+        {
+          "title": "Jamf Nation Live 2026 in London and Berlin: Jamf platform is built for what’s next",
+          "link": "https://www.jamf.com/blog/jamf-nation-live-2026-london-berlin/",
+          "pubDate": null,
+          "summary": "Bringing together customers, channel partners and technology partners, Jamf Nation celebrated its annual community event in Europe this June. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "CrashStealer: C++ macOS infostealer posing as crash reporter",
           "link": "https://www.jamf.com/blog/crashstealer-macos-infostealer-analysis/",
@@ -3556,18 +3617,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "PamStealer: a Rust-based macOS infostealer that validates credentials through PAM",
-          "link": "https://www.jamf.com/blog/pamstealer-macos-infostealer-applescript-rust/",
-          "pubDate": null,
-          "summary": "Jamf Threat Labs investigates PamStealer, a macOS infostealer disguised as the legitimate Maccy clipboard manager that uses a two-stage attack chain to silently harvest data and clipboard contents while evading detection. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:34:02.465Z",
+      "fetchedAt": "2026-07-13T17:54:50.467Z",
       "error": null
     },
     {
@@ -3623,7 +3675,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:58.397Z",
+      "fetchedAt": "2026-07-13T17:54:46.892Z",
       "error": null
     },
     {
@@ -3678,7 +3730,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:57.982Z",
+      "fetchedAt": "2026-07-13T17:54:46.602Z",
       "error": null
     },
     {
@@ -3733,7 +3785,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-13T14:33:57.873Z",
+      "fetchedAt": "2026-07-13T17:54:46.476Z",
       "error": null
     },
     {
@@ -3798,7 +3850,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-13T14:34:03.236Z",
+      "fetchedAt": "2026-07-13T17:54:51.232Z",
       "error": null
     }
   ]
