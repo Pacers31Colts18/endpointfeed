@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T13:43:05.913Z",
+  "generatedAt": "2026-07-14T17:14:28.484Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,76 +8,72 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "The tacit AI wall and the limits of AI",
-          "link": "https://4sysops.com/archives/the-tacit-ai-wall-and-the-limits-of-ai/",
-          "pubDate": "2026-07-14T13:29:08.000Z",
-          "summary": "The concept of a tacit AI wall suggests that human expertise relies on embodied, contextual, and experiential knowledge that cannot be captured by formal data models. This theory posits that common sense and emotional intelligence are unencodable, creating a permanent barrier to achieving true human",
-          "author": "IT News",
+          "title": "Configure Microsoft Entra Backup and Recovery",
+          "link": "https://4sysops.com/archives/configure-microsoft-entra-backup-and-recovery/",
+          "pubDate": "2026-07-14T16:55:40.000Z",
+          "summary": "Microsoft Entra Backup and Recovery is a built-in solution for Microsoft Entra ID that became generally available on June 30, 2026. It automatically backs up critical directory objects daily, allowing you to restore them to a previous state after accidental changes or a security compromise. This art",
+          "author": "IT Experts",
           "categories": [
             "Articles",
+            "Backup",
+            "Identity"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Jailbroken Gemini AI automates 90 percent of C2 server deployment for fraudster",
+          "link": "https://4sysops.com/archives/jailbroken-gemini-ai-automates-90-percent-of-c2-server-deployment-for-fraudster/",
+          "pubDate": "2026-07-14T16:20:06.000Z",
+          "summary": "A TrendAI investigation revealed that a Russian fraudster used a jailbroken version of Google’s Gemini model to automate the majority of a credential-stealing operation. The attacker bypassed safety protocols by instructing the AI to act as an \"authorized pentester,\" allowing it to handle coding, sy",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Google Cloud",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "New phishing kits Jalisco and OmegaLord bypass MFA for Microsoft 365 access",
+          "link": "https://4sysops.com/archives/new-phishing-kits-jalisco-and-omegalord-bypass-mfa-for-microsoft-365-access/",
+          "pubDate": "2026-07-14T16:20:05.000Z",
+          "summary": "Two new phishing kits, Jalisco and OmegaLord, have emerged to target Microsoft 365 accounts by circumventing multi-factor authentication (MFA). Jalisco utilizes the OAuth 2.0 device-code flow, a mechanism intended for devices without browsers, to trick users into authorizing an attacker's session. B",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Microsoft 365",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Musk pledges data purge after Grok Build secretly downloaded entire Git repositories",
+          "link": "https://4sysops.com/archives/musk-pledges-data-purge-after-grok-build-secretly-downloaded-entire-git-repositories/",
+          "pubDate": "2026-07-14T16:20:04.000Z",
+          "summary": "Security researchers discovered that xAI’s Grok Build CLI was silently packaging and downloading entire Git repositories to a Google Cloud storage bucket. The tool captured full version histories and unredacted secrets, even when users issued prompts specifically instructing the AI not to open any l",
+          "author": "IT News",
+          "categories": [
+            "News",
             "AI"
           ],
           "type": "rss"
         },
         {
-          "title": "DeepMind CEO faces skepticism over U.S.-led global AI watchdog proposal",
-          "link": "https://4sysops.com/archives/deepmind-ceo-faces-skepticism-over-u-s-led-global-ai-watchdog-proposal/",
-          "pubDate": "2026-07-14T12:34:09.000Z",
-          "summary": "Demis Hassabis, CEO of Google DeepMind, is pushing for a global AI regulatory body to oversee the development of frontier models. This proposed watchdog would be led by the United States, utilizing its economic and technical standing to enforce international safety standards. Hassabis argues that Am",
+          "title": "Oracle expands Fusion AI Agent Studio with pro-code development tools",
+          "link": "https://4sysops.com/archives/oracle-expands-fusion-ai-agent-studio-with-pro-code-development-tools/",
+          "pubDate": "2026-07-14T16:20:03.000Z",
+          "summary": "Oracle has updated its Fusion AI Agent Studio to support professional developers by integrating pro-code tools into the existing low-code framework. This expansion allows developers to build agentic applications using familiar environments such as Visual Studio Code, command-line interfaces, and Git",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Security",
-            "Sovereignty"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Apple accelerates silicon roadmap to prioritize on-device AI performance",
-          "link": "https://4sysops.com/archives/apple-accelerates-silicon-roadmap-to-prioritize-on-device-ai-performance/",
-          "pubDate": "2026-07-14T12:34:08.000Z",
-          "summary": "Apple is restructuring its silicon roadmap to prioritize artificial intelligence, reportedly skipping planned M6 Pro and Max variants to fast-track the M7 generation. While a base M6 chip is expected for entry-level Macs in late 2026, the company is shifting resources toward an AI-optimized M7 famil",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Hardware",
-            "Mac"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "CISA contractor exposes AWS GovCloud keys and internal credentials on GitHub",
-          "link": "https://4sysops.com/archives/cisa-contractor-exposes-aws-govcloud-keys-and-internal-credentials-on-github/",
-          "pubDate": "2026-07-14T11:53:18.000Z",
-          "summary": "A contractor for the Cybersecurity and Infrastructure Security Agency (CISA) inadvertently published 844 MB of sensitive data to a public GitHub repository. The exposure included administrative credentials for three AWS GovCloud instances, which are isolated cloud regions designed to host sensitive ",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AWS",
-            "Cloud Computing",
-            "Identity",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "ShinyHunters abuse Salesforce OAuth trust to exfiltrate data without exploits",
-          "link": "https://4sysops.com/archives/shinyhunters-abuse-salesforce-oauth-trust-to-exfiltrate-data-without-exploits/",
-          "pubDate": "2026-07-14T11:53:17.000Z",
-          "summary": "Microsoft research has detailed a year-long campaign by the ShinyHunters extortion group that compromised numerous Salesforce environments by abusing trusted OAuth relationships. The attackers did not exploit software vulnerabilities but instead relied on three distinct paths to gain access: voice-p",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Cloud Computing",
-            "Identity",
-            "Security"
+            "DevOps"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:49.158Z",
+      "fetchedAt": "2026-07-14T17:14:10.950Z",
       "error": null
     },
     {
@@ -153,7 +149,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:49.170Z",
+      "fetchedAt": "2026-07-14T17:14:11.004Z",
       "error": null
     },
     {
@@ -219,7 +215,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:49.637Z",
+      "fetchedAt": "2026-07-14T17:14:11.130Z",
       "error": null
     },
     {
@@ -229,7 +225,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-14T13:42:48.872Z",
+      "fetchedAt": "2026-07-14T17:14:10.622Z",
       "error": "HTTP 403"
     },
     {
@@ -284,7 +280,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:49.683Z",
+      "fetchedAt": "2026-07-14T17:14:11.378Z",
       "error": null
     },
     {
@@ -349,7 +345,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:49.854Z",
+      "fetchedAt": "2026-07-14T17:14:11.340Z",
       "error": null
     },
     {
@@ -432,7 +428,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:49.867Z",
+      "fetchedAt": "2026-07-14T17:14:11.270Z",
       "error": null
     },
     {
@@ -505,7 +501,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:50.316Z",
+      "fetchedAt": "2026-07-14T17:14:12.003Z",
       "error": null
     },
     {
@@ -514,7 +510,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-14T13:42:50.419Z",
+      "fetchedAt": "2026-07-14T17:14:12.078Z",
       "error": "HTTP 403"
     },
     {
@@ -592,7 +588,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:51.828Z",
+      "fetchedAt": "2026-07-14T17:14:13.579Z",
       "error": null
     },
     {
@@ -601,7 +597,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-14T13:42:50.619Z",
+      "fetchedAt": "2026-07-14T17:14:12.331Z",
       "error": "certificate has expired"
     },
     {
@@ -671,7 +667,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:51.001Z",
+      "fetchedAt": "2026-07-14T17:14:12.593Z",
       "error": null
     },
     {
@@ -748,7 +744,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:52.178Z",
+      "fetchedAt": "2026-07-14T17:14:13.877Z",
       "error": null
     },
     {
@@ -814,7 +810,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:52.300Z",
+      "fetchedAt": "2026-07-14T17:14:14.039Z",
       "error": null
     },
     {
@@ -869,7 +865,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:52.385Z",
+      "fetchedAt": "2026-07-14T17:14:14.069Z",
       "error": null
     },
     {
@@ -945,7 +941,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:52.088Z",
+      "fetchedAt": "2026-07-14T17:14:13.833Z",
       "error": null
     },
     {
@@ -1022,7 +1018,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:52.528Z",
+      "fetchedAt": "2026-07-14T17:14:14.230Z",
       "error": null
     },
     {
@@ -1099,7 +1095,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:54.010Z",
+      "fetchedAt": "2026-07-14T17:14:16.024Z",
       "error": null
     },
     {
@@ -1184,7 +1180,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:52.558Z",
+      "fetchedAt": "2026-07-14T17:14:14.346Z",
       "error": null
     },
     {
@@ -1240,7 +1236,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:52.637Z",
+      "fetchedAt": "2026-07-14T17:14:14.535Z",
       "error": null
     },
     {
@@ -1326,7 +1322,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:55.568Z",
+      "fetchedAt": "2026-07-14T17:14:17.416Z",
       "error": null
     },
     {
@@ -1412,7 +1408,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:54.035Z",
+      "fetchedAt": "2026-07-14T17:14:16.172Z",
       "error": null
     },
     {
@@ -1494,7 +1490,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:54.083Z",
+      "fetchedAt": "2026-07-14T17:14:16.185Z",
       "error": null
     },
     {
@@ -1549,7 +1545,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:54.178Z",
+      "fetchedAt": "2026-07-14T17:14:16.298Z",
       "error": null
     },
     {
@@ -1614,7 +1610,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:55.759Z",
+      "fetchedAt": "2026-07-14T17:14:17.630Z",
       "error": null
     },
     {
@@ -1699,7 +1695,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:56.318Z",
+      "fetchedAt": "2026-07-14T17:14:18.198Z",
       "error": null
     },
     {
@@ -1755,7 +1751,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:56.199Z",
+      "fetchedAt": "2026-07-14T17:14:18.126Z",
       "error": null
     },
     {
@@ -1820,7 +1816,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:56.029Z",
+      "fetchedAt": "2026-07-14T17:14:18.127Z",
       "error": null
     },
     {
@@ -1901,7 +1897,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:56.876Z",
+      "fetchedAt": "2026-07-14T17:14:18.827Z",
       "error": null
     },
     {
@@ -1910,7 +1906,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-14T13:42:56.947Z",
+      "fetchedAt": "2026-07-14T17:14:19.402Z",
       "error": "HTTP 404"
     },
     {
@@ -1919,7 +1915,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-14T13:42:56.492Z",
+      "fetchedAt": "2026-07-14T17:14:18.465Z",
       "error": "HTTP 403"
     },
     {
@@ -1999,7 +1995,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:56.492Z",
+      "fetchedAt": "2026-07-14T17:14:18.470Z",
       "error": null
     },
     {
@@ -2072,7 +2068,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.105Z",
+      "fetchedAt": "2026-07-14T17:14:19.642Z",
       "error": null
     },
     {
@@ -2091,7 +2087,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.098Z",
+      "fetchedAt": "2026-07-14T17:14:19.576Z",
       "error": null
     },
     {
@@ -2146,7 +2142,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.339Z",
+      "fetchedAt": "2026-07-14T17:14:19.833Z",
       "error": null
     },
     {
@@ -2231,7 +2227,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.340Z",
+      "fetchedAt": "2026-07-14T17:14:19.941Z",
       "error": null
     },
     {
@@ -2296,7 +2292,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.453Z",
+      "fetchedAt": "2026-07-14T17:14:20.138Z",
       "error": null
     },
     {
@@ -2362,7 +2358,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/qXPTJDgbbPg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.464Z",
+      "fetchedAt": "2026-07-14T17:14:20.001Z",
       "error": null
     },
     {
@@ -2427,7 +2423,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/g73lu--S2jw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.455Z",
+      "fetchedAt": "2026-07-14T17:14:20.136Z",
       "error": null
     },
     {
@@ -2492,7 +2488,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WVgmnNBmzxM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.558Z",
+      "fetchedAt": "2026-07-14T17:14:20.178Z",
       "error": null
     },
     {
@@ -2558,7 +2554,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.731Z",
+      "fetchedAt": "2026-07-14T17:14:20.361Z",
       "error": null
     },
     {
@@ -2624,7 +2620,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/UetCd8j6txw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.700Z",
+      "fetchedAt": "2026-07-14T17:14:20.341Z",
       "error": null
     },
     {
@@ -2690,7 +2686,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/g2i4-VsIpbk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.655Z",
+      "fetchedAt": "2026-07-14T17:14:20.378Z",
       "error": null
     },
     {
@@ -2755,7 +2751,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.569Z",
+      "fetchedAt": "2026-07-14T17:14:20.335Z",
       "error": null
     },
     {
@@ -2765,6 +2761,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Conditional Access: Avoid Tenant Lockout & Exposure! #shorts",
+          "link": "https://www.youtube.com/shorts/GzfklqDwz-0",
+          "pubDate": "2026-07-14T16:04:33.000Z",
+          "summary": "Full Video: https://youtu.be/zmisKsvbtQY Before building Conditional Access policies, disable Security Defaults in Entra ID. Crucial step to avoid conflicts and maintain MFA protection. Test in a lab first! #Microsoft #EntraID #CloudSecurity #Azure #MFA #ZeroTrust #MVPBuzz",
+          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/GzfklqDwz-0/hqdefault.jpg"
+        },
         {
           "title": "Conditional Access: NEVER Turn On Policy Immediately! #shorts",
           "link": "https://www.youtube.com/shorts/zuAcA_l4zD4",
@@ -2808,20 +2815,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/x6a_kktEXrQ/hqdefault.jpg"
-        },
-        {
-          "title": "Entra ID: Secure Your Accounts from Data Breaches #shorts",
-          "link": "https://www.youtube.com/shorts/1wYf3B8uw08",
-          "pubDate": "2026-07-04T14:56:47.000Z",
-          "summary": "Full Video: https://youtu.be/VVkQaDUp5og Millions of credentials are stolen daily. Learn how to easily turn on Microsoft 365's built-in security to prevent data breaches and protect your accounts. #Microsoft #EntraID #MFA #Entra #ZeroTrust #CyberSecurity #MVPBuzz",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/1wYf3B8uw08/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.823Z",
+      "fetchedAt": "2026-07-14T17:14:20.532Z",
       "error": null
     },
     {
@@ -2886,7 +2882,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.824Z",
+      "fetchedAt": "2026-07-14T17:14:20.490Z",
       "error": null
     },
     {
@@ -2951,7 +2947,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.837Z",
+      "fetchedAt": "2026-07-14T17:14:20.478Z",
       "error": null
     },
     {
@@ -3016,7 +3012,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.893Z",
+      "fetchedAt": "2026-07-14T17:14:20.471Z",
       "error": null
     },
     {
@@ -3081,7 +3077,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.998Z",
+      "fetchedAt": "2026-07-14T17:14:20.654Z",
       "error": null
     },
     {
@@ -3146,7 +3142,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:58.016Z",
+      "fetchedAt": "2026-07-14T17:14:20.726Z",
       "error": null
     },
     {
@@ -3211,7 +3207,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:57.982Z",
+      "fetchedAt": "2026-07-14T17:14:20.679Z",
       "error": null
     },
     {
@@ -3267,7 +3263,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:59.579Z",
+      "fetchedAt": "2026-07-14T17:14:22.187Z",
       "error": null
     },
     {
@@ -3277,7 +3273,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-14T13:42:59.688Z",
+      "fetchedAt": "2026-07-14T17:14:22.312Z",
       "error": null
     },
     {
@@ -3344,7 +3340,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:00.509Z",
+      "fetchedAt": "2026-07-14T17:14:22.866Z",
       "error": null
     },
     {
@@ -3400,7 +3396,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:59.625Z",
+      "fetchedAt": "2026-07-14T17:14:22.274Z",
       "error": null
     },
     {
@@ -3429,7 +3425,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:42:59.890Z",
+      "fetchedAt": "2026-07-14T17:14:22.631Z",
       "error": null
     },
     {
@@ -3485,7 +3481,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:00.523Z",
+      "fetchedAt": "2026-07-14T17:14:22.896Z",
       "error": null
     },
     {
@@ -3495,7 +3491,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-14T13:43:00.576Z",
+      "fetchedAt": "2026-07-14T17:14:23.256Z",
       "error": null
     },
     {
@@ -3551,7 +3547,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:00.535Z",
+      "fetchedAt": "2026-07-14T17:14:22.927Z",
       "error": null
     },
     {
@@ -3571,7 +3567,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:00.620Z",
+      "fetchedAt": "2026-07-14T17:14:22.923Z",
       "error": null
     },
     {
@@ -3627,7 +3623,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:05.095Z",
+      "fetchedAt": "2026-07-14T17:14:27.653Z",
       "error": null
     },
     {
@@ -3683,7 +3679,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:01.195Z",
+      "fetchedAt": "2026-07-14T17:14:24.023Z",
       "error": null
     },
     {
@@ -3738,7 +3734,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:00.869Z",
+      "fetchedAt": "2026-07-14T17:14:23.402Z",
       "error": null
     },
     {
@@ -3793,7 +3789,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:00.760Z",
+      "fetchedAt": "2026-07-14T17:14:23.374Z",
       "error": null
     },
     {
@@ -3858,7 +3854,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-14T13:43:05.913Z",
+      "fetchedAt": "2026-07-14T17:14:28.484Z",
       "error": null
     }
   ]
