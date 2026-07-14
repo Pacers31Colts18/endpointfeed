@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T09:58:17.703Z",
+  "generatedAt": "2026-07-14T13:43:05.913Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,73 +8,76 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "OpenAI GPT-5.6 family arrives on Amazon Bedrock with tiered reasoning",
-          "link": "https://4sysops.com/archives/openai-gpt-5-6-family-arrives-on-amazon-bedrock-with-tiered-reasoning/",
-          "pubDate": "2026-07-14T07:18:56.000Z",
-          "summary": "Amazon Bedrock has added general availability for the OpenAI GPT-5.6 model family, consisting of the Sol, Terra, and Luna tiers. Sol serves as the flagship model for complex reasoning and autonomous coding, while Terra offers balanced performance for everyday production tasks. Luna provides a high-s",
+          "title": "The tacit AI wall and the limits of AI",
+          "link": "https://4sysops.com/archives/the-tacit-ai-wall-and-the-limits-of-ai/",
+          "pubDate": "2026-07-14T13:29:08.000Z",
+          "summary": "The concept of a tacit AI wall suggests that human expertise relies on embodied, contextual, and experiential knowledge that cannot be captured by formal data models. This theory posits that common sense and emotional intelligence are unencodable, creating a permanent barrier to achieving true human",
           "author": "IT News",
           "categories": [
-            "News",
-            "AI",
-            "AWS",
-            "Cloud Computing"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "How US export controls fueled China’s dominance in the AI market",
-          "link": "https://4sysops.com/archives/how-us-export-controls-fueled-chinas-dominance-in-the-ai-market/",
-          "pubDate": "2026-07-14T07:18:55.000Z",
-          "summary": "Chinese AI models now process the majority of traffic on major developer marketplaces, marking a massive shift from American dominance just one year ago. While US frontier models maintain a lead in complex reasoning, Chinese providers like DeepSeek and Alibaba have captured the high-volume market by",
-          "author": "IT News",
-          "categories": [
-            "News",
+            "Articles",
             "AI"
           ],
           "type": "rss"
         },
         {
-          "title": "Anthropic tokenizer update increases hidden costs for AI coding tasks",
-          "link": "https://4sysops.com/archives/anthropic-tokenizer-update-increases-hidden-costs-for-ai-coding-tasks/",
-          "pubDate": "2026-07-14T07:18:54.000Z",
-          "summary": "Anthropic has introduced a new tokenizer for its Claude Sonnet 5 and Opus models that significantly increases the number of tokens generated for the same input text. Tokenizers are essential components that translate human language or code into numerical integers that large language models can proce",
+          "title": "DeepMind CEO faces skepticism over U.S.-led global AI watchdog proposal",
+          "link": "https://4sysops.com/archives/deepmind-ceo-faces-skepticism-over-u-s-led-global-ai-watchdog-proposal/",
+          "pubDate": "2026-07-14T12:34:09.000Z",
+          "summary": "Demis Hassabis, CEO of Google DeepMind, is pushing for a global AI regulatory body to oversee the development of frontier models. This proposed watchdog would be led by the United States, utilizing its economic and technical standing to enforce international safety standards. Hassabis argues that Am",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "DevOps"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Balancing digital sovereignty with the rising demands of AI and cloud infrastructure",
-          "link": "https://4sysops.com/archives/balancing-digital-sovereignty-with-the-rising-demands-of-ai-and-cloud-infrastructure/",
-          "pubDate": "2026-07-14T07:18:53.000Z",
-          "summary": "Organizations are increasingly seeking to reclaim control over their digital infrastructure to reduce dependency on global technology giants and non-European legal frameworks. This shift toward digital sovereignty is driven by concerns over data privacy, national security, and legal mandates like th",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
+            "Security",
             "Sovereignty"
           ],
           "type": "rss"
         },
         {
-          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna models launch on Amazon Bedrock",
-          "link": "https://4sysops.com/archives/openai-gpt-5-6-sol-terra-and-luna-models-launch-on-amazon-bedrock/",
-          "pubDate": "2026-07-14T07:18:52.000Z",
-          "summary": "Source]]>",
+          "title": "Apple accelerates silicon roadmap to prioritize on-device AI performance",
+          "link": "https://4sysops.com/archives/apple-accelerates-silicon-roadmap-to-prioritize-on-device-ai-performance/",
+          "pubDate": "2026-07-14T12:34:08.000Z",
+          "summary": "Apple is restructuring its silicon roadmap to prioritize artificial intelligence, reportedly skipping planned M6 Pro and Max variants to fast-track the M7 generation. While a base M6 chip is expected for entry-level Macs in late 2026, the company is shifting resources toward an AI-optimized M7 famil",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
+            "Hardware",
+            "Mac"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "CISA contractor exposes AWS GovCloud keys and internal credentials on GitHub",
+          "link": "https://4sysops.com/archives/cisa-contractor-exposes-aws-govcloud-keys-and-internal-credentials-on-github/",
+          "pubDate": "2026-07-14T11:53:18.000Z",
+          "summary": "A contractor for the Cybersecurity and Infrastructure Security Agency (CISA) inadvertently published 844 MB of sensitive data to a public GitHub repository. The exposure included administrative credentials for three AWS GovCloud instances, which are isolated cloud regions designed to host sensitive ",
+          "author": "IT News",
+          "categories": [
+            "News",
             "AWS",
-            "Cloud Computing"
+            "Cloud Computing",
+            "Identity",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "ShinyHunters abuse Salesforce OAuth trust to exfiltrate data without exploits",
+          "link": "https://4sysops.com/archives/shinyhunters-abuse-salesforce-oauth-trust-to-exfiltrate-data-without-exploits/",
+          "pubDate": "2026-07-14T11:53:17.000Z",
+          "summary": "Microsoft research has detailed a year-long campaign by the ShinyHunters extortion group that compromised numerous Salesforce environments by abusing trusted OAuth relationships. The attackers did not exploit software vulnerabilities but instead relied on three distinct paths to gain access: voice-p",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Cloud Computing",
+            "Identity",
+            "Security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:57:58.788Z",
+      "fetchedAt": "2026-07-14T13:42:49.158Z",
       "error": null
     },
     {
@@ -150,7 +153,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:57:59.027Z",
+      "fetchedAt": "2026-07-14T13:42:49.170Z",
       "error": null
     },
     {
@@ -216,7 +219,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:57:59.236Z",
+      "fetchedAt": "2026-07-14T13:42:49.637Z",
       "error": null
     },
     {
@@ -226,7 +229,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-14T09:57:58.374Z",
+      "fetchedAt": "2026-07-14T13:42:48.872Z",
       "error": "HTTP 403"
     },
     {
@@ -281,7 +284,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:57:59.323Z",
+      "fetchedAt": "2026-07-14T13:42:49.683Z",
       "error": null
     },
     {
@@ -346,7 +349,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:57:59.460Z",
+      "fetchedAt": "2026-07-14T13:42:49.854Z",
       "error": null
     },
     {
@@ -429,7 +432,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:57:59.329Z",
+      "fetchedAt": "2026-07-14T13:42:49.867Z",
       "error": null
     },
     {
@@ -502,7 +505,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:00.045Z",
+      "fetchedAt": "2026-07-14T13:42:50.316Z",
       "error": null
     },
     {
@@ -511,7 +514,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-14T09:58:00.113Z",
+      "fetchedAt": "2026-07-14T13:42:50.419Z",
       "error": "HTTP 403"
     },
     {
@@ -589,7 +592,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:01.647Z",
+      "fetchedAt": "2026-07-14T13:42:51.828Z",
       "error": null
     },
     {
@@ -598,7 +601,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-14T09:58:00.438Z",
+      "fetchedAt": "2026-07-14T13:42:50.619Z",
       "error": "certificate has expired"
     },
     {
@@ -668,7 +671,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:00.888Z",
+      "fetchedAt": "2026-07-14T13:42:51.001Z",
       "error": null
     },
     {
@@ -745,7 +748,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:01.928Z",
+      "fetchedAt": "2026-07-14T13:42:52.178Z",
       "error": null
     },
     {
@@ -811,7 +814,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:02.196Z",
+      "fetchedAt": "2026-07-14T13:42:52.300Z",
       "error": null
     },
     {
@@ -866,7 +869,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:02.148Z",
+      "fetchedAt": "2026-07-14T13:42:52.385Z",
       "error": null
     },
     {
@@ -942,7 +945,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:02.464Z",
+      "fetchedAt": "2026-07-14T13:42:52.088Z",
       "error": null
     },
     {
@@ -1019,7 +1022,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:02.640Z",
+      "fetchedAt": "2026-07-14T13:42:52.528Z",
       "error": null
     },
     {
@@ -1096,7 +1099,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:07.619Z",
+      "fetchedAt": "2026-07-14T13:42:54.010Z",
       "error": null
     },
     {
@@ -1181,7 +1184,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:02.716Z",
+      "fetchedAt": "2026-07-14T13:42:52.558Z",
       "error": null
     },
     {
@@ -1237,7 +1240,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:02.788Z",
+      "fetchedAt": "2026-07-14T13:42:52.637Z",
       "error": null
     },
     {
@@ -1323,7 +1326,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:08.802Z",
+      "fetchedAt": "2026-07-14T13:42:55.568Z",
       "error": null
     },
     {
@@ -1409,7 +1412,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:07.692Z",
+      "fetchedAt": "2026-07-14T13:42:54.035Z",
       "error": null
     },
     {
@@ -1491,7 +1494,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:07.797Z",
+      "fetchedAt": "2026-07-14T13:42:54.083Z",
       "error": null
     },
     {
@@ -1546,7 +1549,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:07.894Z",
+      "fetchedAt": "2026-07-14T13:42:54.178Z",
       "error": null
     },
     {
@@ -1611,7 +1614,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:09.308Z",
+      "fetchedAt": "2026-07-14T13:42:55.759Z",
       "error": null
     },
     {
@@ -1696,7 +1699,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:09.629Z",
+      "fetchedAt": "2026-07-14T13:42:56.318Z",
       "error": null
     },
     {
@@ -1752,7 +1755,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:09.401Z",
+      "fetchedAt": "2026-07-14T13:42:56.199Z",
       "error": null
     },
     {
@@ -1817,7 +1820,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:09.504Z",
+      "fetchedAt": "2026-07-14T13:42:56.029Z",
       "error": null
     },
     {
@@ -1898,7 +1901,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:10.406Z",
+      "fetchedAt": "2026-07-14T13:42:56.876Z",
       "error": null
     },
     {
@@ -1907,7 +1910,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-14T09:58:10.419Z",
+      "fetchedAt": "2026-07-14T13:42:56.947Z",
       "error": "HTTP 404"
     },
     {
@@ -1916,7 +1919,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-14T09:58:09.843Z",
+      "fetchedAt": "2026-07-14T13:42:56.492Z",
       "error": "HTTP 403"
     },
     {
@@ -1996,7 +1999,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:09.885Z",
+      "fetchedAt": "2026-07-14T13:42:56.492Z",
       "error": null
     },
     {
@@ -2069,7 +2072,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:10.659Z",
+      "fetchedAt": "2026-07-14T13:42:57.105Z",
       "error": null
     },
     {
@@ -2088,7 +2091,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:10.609Z",
+      "fetchedAt": "2026-07-14T13:42:57.098Z",
       "error": null
     },
     {
@@ -2143,7 +2146,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:10.874Z",
+      "fetchedAt": "2026-07-14T13:42:57.339Z",
       "error": null
     },
     {
@@ -2228,7 +2231,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:10.933Z",
+      "fetchedAt": "2026-07-14T13:42:57.340Z",
       "error": null
     },
     {
@@ -2293,7 +2296,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.110Z",
+      "fetchedAt": "2026-07-14T13:42:57.453Z",
       "error": null
     },
     {
@@ -2359,7 +2362,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/qXPTJDgbbPg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.067Z",
+      "fetchedAt": "2026-07-14T13:42:57.464Z",
       "error": null
     },
     {
@@ -2424,7 +2427,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/g73lu--S2jw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.132Z",
+      "fetchedAt": "2026-07-14T13:42:57.455Z",
       "error": null
     },
     {
@@ -2489,7 +2492,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WVgmnNBmzxM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.057Z",
+      "fetchedAt": "2026-07-14T13:42:57.558Z",
       "error": null
     },
     {
@@ -2555,7 +2558,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.218Z",
+      "fetchedAt": "2026-07-14T13:42:57.731Z",
       "error": null
     },
     {
@@ -2621,7 +2624,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/UetCd8j6txw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.294Z",
+      "fetchedAt": "2026-07-14T13:42:57.700Z",
       "error": null
     },
     {
@@ -2687,7 +2690,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/g2i4-VsIpbk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.139Z",
+      "fetchedAt": "2026-07-14T13:42:57.655Z",
       "error": null
     },
     {
@@ -2752,7 +2755,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.319Z",
+      "fetchedAt": "2026-07-14T13:42:57.569Z",
       "error": null
     },
     {
@@ -2818,7 +2821,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/1wYf3B8uw08/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.324Z",
+      "fetchedAt": "2026-07-14T13:42:57.823Z",
       "error": null
     },
     {
@@ -2883,7 +2886,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.420Z",
+      "fetchedAt": "2026-07-14T13:42:57.824Z",
       "error": null
     },
     {
@@ -2948,7 +2951,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.419Z",
+      "fetchedAt": "2026-07-14T13:42:57.837Z",
       "error": null
     },
     {
@@ -3013,7 +3016,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.415Z",
+      "fetchedAt": "2026-07-14T13:42:57.893Z",
       "error": null
     },
     {
@@ -3078,7 +3081,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.525Z",
+      "fetchedAt": "2026-07-14T13:42:57.998Z",
       "error": null
     },
     {
@@ -3143,7 +3146,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.625Z",
+      "fetchedAt": "2026-07-14T13:42:58.016Z",
       "error": null
     },
     {
@@ -3208,7 +3211,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.515Z",
+      "fetchedAt": "2026-07-14T13:42:57.982Z",
       "error": null
     },
     {
@@ -3237,6 +3240,15 @@
           "type": "official"
         },
         {
+          "title": "Making AVD costs defensible to clients: the story behind the invoice",
+          "link": "https://getnerdio.com/blog/making-avd-costs-defensible-to-clients-the-story-behind-the-invoice/",
+          "pubDate": "2026-07-14T13:00:32.000Z",
+          "summary": "Nerdio Manager for MSP Making AVD costs defensible to clients: the story behind the invoice July 10, 2026 | 5… The post Making AVD costs defensible to clients: the story behind the invoice appeared first on Nerdio. ]]>",
+          "author": "Lauren Purdy",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "What’s tarnishing your golden image six months in?",
           "link": "https://getnerdio.com/blog/whats-tarnishing-your-golden-image-six-months-in/",
           "pubDate": "2026-07-13T13:00:40.000Z",
@@ -3253,18 +3265,9 @@
           "author": "Lauren Purdy",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Thin client vs. desktop vs. laptop (choosing the right endpoint for your environment)",
-          "link": "https://getnerdio.com/blog/thin-client-vs-desktop/",
-          "pubDate": "2026-07-10T15:10:27.000Z",
-          "summary": "Blog Thin client vs. desktop vs. laptop (choosing the right endpoint for your environment) Compare thin client vs. desktop vs.… The post Thin client vs. desktop vs. laptop (choosing the right endpoint for your environment) appeared first on Nerdio. ]]>",
-          "author": "GrowthX Editor",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.684Z",
+      "fetchedAt": "2026-07-14T13:42:59.579Z",
       "error": null
     },
     {
@@ -3274,7 +3277,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-14T09:58:11.804Z",
+      "fetchedAt": "2026-07-14T13:42:59.688Z",
       "error": null
     },
     {
@@ -3341,7 +3344,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:12.430Z",
+      "fetchedAt": "2026-07-14T13:43:00.509Z",
       "error": null
     },
     {
@@ -3397,7 +3400,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:11.772Z",
+      "fetchedAt": "2026-07-14T13:42:59.625Z",
       "error": null
     },
     {
@@ -3426,7 +3429,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:12.175Z",
+      "fetchedAt": "2026-07-14T13:42:59.890Z",
       "error": null
     },
     {
@@ -3482,7 +3485,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:12.464Z",
+      "fetchedAt": "2026-07-14T13:43:00.523Z",
       "error": null
     },
     {
@@ -3492,7 +3495,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-14T09:58:12.610Z",
+      "fetchedAt": "2026-07-14T13:43:00.576Z",
       "error": null
     },
     {
@@ -3548,7 +3551,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:12.451Z",
+      "fetchedAt": "2026-07-14T13:43:00.535Z",
       "error": null
     },
     {
@@ -3568,7 +3571,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:12.472Z",
+      "fetchedAt": "2026-07-14T13:43:00.620Z",
       "error": null
     },
     {
@@ -3624,7 +3627,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:16.927Z",
+      "fetchedAt": "2026-07-14T13:43:05.095Z",
       "error": null
     },
     {
@@ -3680,7 +3683,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:13.258Z",
+      "fetchedAt": "2026-07-14T13:43:01.195Z",
       "error": null
     },
     {
@@ -3735,7 +3738,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:12.825Z",
+      "fetchedAt": "2026-07-14T13:43:00.869Z",
       "error": null
     },
     {
@@ -3790,7 +3793,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:12.834Z",
+      "fetchedAt": "2026-07-14T13:43:00.760Z",
       "error": null
     },
     {
@@ -3855,7 +3858,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-14T09:58:17.703Z",
+      "fetchedAt": "2026-07-14T13:43:05.913Z",
       "error": null
     }
   ]
