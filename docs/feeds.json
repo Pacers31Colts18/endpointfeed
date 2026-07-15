@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T17:17:38.409Z",
+  "generatedAt": "2026-07-15T21:00:21.919Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,73 +8,74 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "OpenAI’s new AI companion device",
-          "link": "https://4sysops.com/archives/openais-new-ai-companion-device/",
-          "pubDate": "2026-07-15T15:34:27.000Z",
-          "summary": "OpenAI is developing a screenless, mobile smart speaker designed to function as a human-like AI companion for the home. The device features mechanical elements that allow it to move autonomously, creating a more lifelike presence than traditional smart speakers. It utilizes integrated cameras and se",
+          "title": "Windows Server vNext preview: ReFS boot, NVMe-oF initiator, and Quick Machine Recovery",
+          "link": "https://4sysops.com/archives/windows-server-vnext-preview-refs-boot-nvme-of-initiator-and-quick-machine-recovery/",
+          "pubDate": "2026-07-15T20:38:37.000Z",
+          "summary": "Microsoft's Windows Server vNext preview program has introduced three significant features since build 29531, released on February 12, 2026: boot support for the Resilient File System (ReFS), a built-in NVMe-over-Fabrics (NVMe-oF) initiator for high-performance network storage, and Quick Machine Rec",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "Backup",
+            "Storage",
+            "Windows Server"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "PrismML releases Bonsai 27B to run large language models on smartphones",
+          "link": "https://4sysops.com/archives/prismml-releases-bonsai-27b-to-run-large-language-models-on-smartphones/",
+          "pubDate": "2026-07-15T19:39:34.000Z",
+          "summary": "PrismML has launched Bonsai 27B, a 27-billion-parameter model based on Alibaba’s Qwen 3.6 that utilizes extreme quantization to run locally on consumer hardware. The release includes a 3.9 GB 1-bit binary variant designed for mobile devices and a 5.9 GB ternary variant optimized for laptops. By redu",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Hardware"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "OpenAI coding model GPT-5.6 Sol reportedly deletes user files and databases",
-          "link": "https://4sysops.com/archives/openai-coding-model-gpt-5-6-sol-reportedly-deletes-user-files-and-databases/",
-          "pubDate": "2026-07-15T15:29:31.000Z",
-          "summary": "OpenAI’s latest flagship model, GPT-5.6 Sol, is facing scrutiny following multiple reports of unauthorized and destructive data deletions. High-profile users and developers allege the AI autonomously erased local Mac files and wiped entire production databases during coding tasks. These incidents hi",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Critical security updates released for Chrome, Firefox, Adobe, and VMware",
-          "link": "https://4sysops.com/archives/critical-security-updates-released-for-chrome-firefox-adobe-and-vmware/",
-          "pubDate": "2026-07-15T15:29:30.000Z",
-          "summary": "Mozilla has released Firefox 152.0.6 to address two critical vulnerabilities involving an invalid pointer in WebAssembly and a site isolation flaw. Although no active attacks have been reported, the vendor warned that public exploit code is already available for both defects. These patches are also ",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Security",
-            "Virtualization",
-            "Web"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Apple evaluates PrismML technology to run 27B parameter AI models on iPhone",
-          "link": "https://4sysops.com/archives/apple-evaluates-prismml-technology-to-run-27b-parameter-ai-models-on-iphone/",
-          "pubDate": "2026-07-15T14:17:20.000Z",
-          "summary": "Apple is exploring a partnership with PrismML, a Caltech spinout, to integrate extreme model-compression technology into future iPhone hardware. The startup utilizes ultra-low-bit weight architectures, such as 1-bit and ternary representations, to drastically reduce the memory footprint of large lan",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Hardware",
             "Mobile"
           ],
           "type": "rss"
         },
         {
-          "title": "New York imposes nation’s first moratorium on hyperscale data centers",
-          "link": "https://4sysops.com/archives/new-york-imposes-nations-first-moratorium-on-hyperscale-data-centers/",
-          "pubDate": "2026-07-15T14:17:19.000Z",
-          "summary": "New York Governor Kathy Hochul has signed an executive order establishing a one-year moratorium on the construction of large-scale data centers. This first-in-the-nation freeze specifically targets \"hyperscale\" facilities, which are defined as projects requiring 50 megawatts of power or more. The st",
+          "title": "CISA warns of actively exploited SharePoint Server vulnerabilities",
+          "link": "https://4sysops.com/archives/cisa-warns-of-actively-exploited-sharepoint-server-vulnerabilities/",
+          "pubDate": "2026-07-15T19:39:33.000Z",
+          "summary": "CISA has issued an urgent warning regarding three vulnerabilities in on-premises SharePoint Server versions that are currently being exploited in the wild. The affected software includes SharePoint Server 2016, 2019, and the Subscription Edition. Threat actors are chaining these flaws to bypass secu",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Microsoft 365",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "OpenAI Codex encryption update obscures agent audit trails for administrators",
+          "link": "https://4sysops.com/archives/openai-codex-encryption-update-obscures-agent-audit-trails-for-administrators/",
+          "pubDate": "2026-07-15T19:39:32.000Z",
+          "summary": "OpenAI has updated its Codex AI agent to encrypt messages sent between primary agents and sub-agents using the MultiAgentV2 protocol. This security measure ensures that sensitive task instructions are encrypted on the backend and never reach the local machine in clear-text format. While this prevent",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Cloud Computing"
+            "DevOps",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Automating third-party software updates with Windows Package Manager",
+          "link": "https://4sysops.com/archives/automating-third-party-software-updates-with-windows-package-manager/",
+          "pubDate": "2026-07-15T19:39:31.000Z",
+          "summary": "The Windows Package Manager, or winget, provides a command-line interface for managing software installations and updates across both the Microsoft Store and community repositories. By executing a single upgrade command with the all flag, users can trigger a batch update for every recognized applica",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Systems Management",
+            "Windows"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:21.017Z",
+      "fetchedAt": "2026-07-15T21:00:02.074Z",
       "error": null
     },
     {
@@ -150,7 +151,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:21.139Z",
+      "fetchedAt": "2026-07-15T21:00:02.109Z",
       "error": null
     },
     {
@@ -216,7 +217,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:21.430Z",
+      "fetchedAt": "2026-07-15T21:00:02.617Z",
       "error": null
     },
     {
@@ -226,7 +227,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-15T17:17:20.614Z",
+      "fetchedAt": "2026-07-15T21:00:01.647Z",
       "error": "HTTP 403"
     },
     {
@@ -281,7 +282,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:21.522Z",
+      "fetchedAt": "2026-07-15T21:00:02.780Z",
       "error": null
     },
     {
@@ -346,7 +347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:21.691Z",
+      "fetchedAt": "2026-07-15T21:00:02.981Z",
       "error": null
     },
     {
@@ -429,7 +430,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:21.520Z",
+      "fetchedAt": "2026-07-15T21:00:02.797Z",
       "error": null
     },
     {
@@ -502,7 +503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:22.224Z",
+      "fetchedAt": "2026-07-15T21:00:03.518Z",
       "error": null
     },
     {
@@ -511,7 +512,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-15T17:17:22.309Z",
+      "fetchedAt": "2026-07-15T21:00:03.663Z",
       "error": "HTTP 403"
     },
     {
@@ -589,7 +590,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:23.850Z",
+      "fetchedAt": "2026-07-15T21:00:05.376Z",
       "error": null
     },
     {
@@ -598,7 +599,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-15T17:17:22.580Z",
+      "fetchedAt": "2026-07-15T21:00:04.013Z",
       "error": "certificate has expired"
     },
     {
@@ -668,7 +669,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:22.957Z",
+      "fetchedAt": "2026-07-15T21:00:04.324Z",
       "error": null
     },
     {
@@ -745,7 +746,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:24.054Z",
+      "fetchedAt": "2026-07-15T21:00:05.856Z",
       "error": null
     },
     {
@@ -755,7 +756,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-07-15T17:17:24.035Z",
+      "fetchedAt": "2026-07-15T21:00:05.664Z",
       "error": "HTTP 202"
     },
     {
@@ -810,7 +811,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:24.288Z",
+      "fetchedAt": "2026-07-15T21:00:05.827Z",
       "error": null
     },
     {
@@ -886,7 +887,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:24.264Z",
+      "fetchedAt": "2026-07-15T21:00:05.785Z",
       "error": null
     },
     {
@@ -963,7 +964,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:24.384Z",
+      "fetchedAt": "2026-07-15T21:00:06.035Z",
       "error": null
     },
     {
@@ -1040,7 +1041,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:26.073Z",
+      "fetchedAt": "2026-07-15T21:00:07.863Z",
       "error": null
     },
     {
@@ -1125,7 +1126,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:24.574Z",
+      "fetchedAt": "2026-07-15T21:00:06.129Z",
       "error": null
     },
     {
@@ -1181,7 +1182,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:24.588Z",
+      "fetchedAt": "2026-07-15T21:00:06.237Z",
       "error": null
     },
     {
@@ -1267,7 +1268,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:27.632Z",
+      "fetchedAt": "2026-07-15T21:00:09.097Z",
       "error": null
     },
     {
@@ -1353,7 +1354,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:26.212Z",
+      "fetchedAt": "2026-07-15T21:00:07.971Z",
       "error": null
     },
     {
@@ -1435,7 +1436,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:26.199Z",
+      "fetchedAt": "2026-07-15T21:00:08.116Z",
       "error": null
     },
     {
@@ -1490,7 +1491,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:26.264Z",
+      "fetchedAt": "2026-07-15T21:00:08.170Z",
       "error": null
     },
     {
@@ -1555,7 +1556,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:27.877Z",
+      "fetchedAt": "2026-07-15T21:00:09.301Z",
       "error": null
     },
     {
@@ -1640,7 +1641,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:28.315Z",
+      "fetchedAt": "2026-07-15T21:00:10.510Z",
       "error": null
     },
     {
@@ -1696,7 +1697,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:28.171Z",
+      "fetchedAt": "2026-07-15T21:00:09.603Z",
       "error": null
     },
     {
@@ -1761,7 +1762,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:28.573Z",
+      "fetchedAt": "2026-07-15T21:00:10.056Z",
       "error": null
     },
     {
@@ -1842,7 +1843,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.260Z",
+      "fetchedAt": "2026-07-15T21:00:11.969Z",
       "error": null
     },
     {
@@ -1851,7 +1852,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-15T17:17:29.405Z",
+      "fetchedAt": "2026-07-15T21:00:11.616Z",
       "error": "HTTP 404"
     },
     {
@@ -1860,7 +1861,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-15T17:17:28.865Z",
+      "fetchedAt": "2026-07-15T21:00:10.729Z",
       "error": "HTTP 403"
     },
     {
@@ -1940,7 +1941,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:28.969Z",
+      "fetchedAt": "2026-07-15T21:00:10.768Z",
       "error": null
     },
     {
@@ -2013,7 +2014,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.467Z",
+      "fetchedAt": "2026-07-15T21:00:12.093Z",
       "error": null
     },
     {
@@ -2032,7 +2033,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.394Z",
+      "fetchedAt": "2026-07-15T21:00:12.151Z",
       "error": null
     },
     {
@@ -2087,7 +2088,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.693Z",
+      "fetchedAt": "2026-07-15T21:00:12.258Z",
       "error": null
     },
     {
@@ -2172,7 +2173,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.653Z",
+      "fetchedAt": "2026-07-15T21:00:12.429Z",
       "error": null
     },
     {
@@ -2237,7 +2238,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.950Z",
+      "fetchedAt": "2026-07-15T21:00:12.830Z",
       "error": null
     },
     {
@@ -2303,7 +2304,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/qXPTJDgbbPg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.852Z",
+      "fetchedAt": "2026-07-15T21:00:12.828Z",
       "error": null
     },
     {
@@ -2368,7 +2369,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/g73lu--S2jw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.849Z",
+      "fetchedAt": "2026-07-15T21:00:12.837Z",
       "error": null
     },
     {
@@ -2433,7 +2434,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WVgmnNBmzxM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:30.851Z",
+      "fetchedAt": "2026-07-15T21:00:12.839Z",
       "error": null
     },
     {
@@ -2499,7 +2500,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.167Z",
+      "fetchedAt": "2026-07-15T21:00:12.975Z",
       "error": null
     },
     {
@@ -2509,6 +2510,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
       "items": [
+        {
+          "title": "How to Enable the New Device View in Microsoft Intune",
+          "link": "https://www.youtube.com/watch?v=xKSJ70iRWOI",
+          "pubDate": "2026-07-15T19:55:23.000Z",
+          "summary": "The new device view in Microsoft Intune is in public preview, and it changes how you work a single device in the admin center. In this walkthrough I cover the old device page, how to turn the new view on, and what lives in each tab so you know exactly where everything moved. WHAT'S COVERED - The old",
+          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "xKSJ70iRWOI",
+          "thumbnail": "https://i1.ytimg.com/vi/xKSJ70iRWOI/hqdefault.jpg"
+        },
         {
           "title": "Intune Device Query Find Your Worst PCs FAST!",
           "link": "https://www.youtube.com/shorts/OdYq8lQQYIY",
@@ -2552,20 +2564,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/xedgBrcW8a0/hqdefault.jpg"
-        },
-        {
-          "title": "How to Setup Intune App Protection Policies, Without Enrollment",
-          "link": "https://www.youtube.com/watch?v=UetCd8j6txw",
-          "pubDate": "2026-06-17T13:47:52.000Z",
-          "summary": "Learn how to set up Mobile App Management without enrollment (MAM-WE) in Microsoft Intune using app protection policies and Conditional Access, so only mobile devices with app protection can reach company resources. No device enrollment, no MDM, the phone stays unmanaged and the data stays protected",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "UetCd8j6txw",
-          "thumbnail": "https://i2.ytimg.com/vi/UetCd8j6txw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.072Z",
+      "fetchedAt": "2026-07-15T21:00:12.972Z",
       "error": null
     },
     {
@@ -2631,7 +2632,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/g2i4-VsIpbk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.152Z",
+      "fetchedAt": "2026-07-15T21:00:12.979Z",
       "error": null
     },
     {
@@ -2696,7 +2697,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Bqf9pEKfdzY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.099Z",
+      "fetchedAt": "2026-07-15T21:00:12.971Z",
       "error": null
     },
     {
@@ -2762,7 +2763,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/x6a_kktEXrQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.304Z",
+      "fetchedAt": "2026-07-15T21:00:13.177Z",
       "error": null
     },
     {
@@ -2827,7 +2828,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.274Z",
+      "fetchedAt": "2026-07-15T21:00:13.182Z",
       "error": null
     },
     {
@@ -2892,7 +2893,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.290Z",
+      "fetchedAt": "2026-07-15T21:00:13.177Z",
       "error": null
     },
     {
@@ -2957,7 +2958,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.364Z",
+      "fetchedAt": "2026-07-15T21:00:13.194Z",
       "error": null
     },
     {
@@ -3022,7 +3023,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.540Z",
+      "fetchedAt": "2026-07-15T21:00:13.385Z",
       "error": null
     },
     {
@@ -3087,7 +3088,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.498Z",
+      "fetchedAt": "2026-07-15T21:00:13.353Z",
       "error": null
     },
     {
@@ -3152,7 +3153,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.484Z",
+      "fetchedAt": "2026-07-15T21:00:13.365Z",
       "error": null
     },
     {
@@ -3181,6 +3182,15 @@
           "type": "official"
         },
         {
+          "title": "Actionable intelligence: Nerdio Insights in action",
+          "link": "https://getnerdio.com/on-demand-webinar/actionable-intelligence-nerdio-insights-in-action/",
+          "pubDate": "2026-07-15T19:37:57.000Z",
+          "summary": "ON-DEMAND WEBINAR Actionable intelligence: Nerdio Insights in action This session is part of the NerdioCon 2026 on demand series—replays of our… The post Actionable intelligence: Nerdio Insights in action appeared first on Nerdio. ]]>",
+          "author": "Lauren Purdy",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "End user experience monitoring for Windows 365 and AVD (tools and best practices)",
           "link": "https://getnerdio.com/blog/end-user-experience-monitoring/",
           "pubDate": "2026-07-14T20:09:22.000Z",
@@ -3197,18 +3207,9 @@
           "author": "GrowthX Editor",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Making AVD costs defensible to clients: the story behind the invoice",
-          "link": "https://getnerdio.com/blog/making-avd-costs-defensible-to-clients-the-story-behind-the-invoice/",
-          "pubDate": "2026-07-14T13:00:32.000Z",
-          "summary": "Nerdio Manager for MSP Making AVD costs defensible to clients: the story behind the invoice July 10, 2026 | 5… The post Making AVD costs defensible to clients: the story behind the invoice appeared first on Nerdio. ]]>",
-          "author": "Lauren Purdy",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.539Z",
+      "fetchedAt": "2026-07-15T21:00:13.604Z",
       "error": null
     },
     {
@@ -3218,7 +3219,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-15T17:17:31.822Z",
+      "fetchedAt": "2026-07-15T21:00:13.848Z",
       "error": null
     },
     {
@@ -3285,7 +3286,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:32.385Z",
+      "fetchedAt": "2026-07-15T21:00:16.040Z",
       "error": null
     },
     {
@@ -3341,7 +3342,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.603Z",
+      "fetchedAt": "2026-07-15T21:00:13.696Z",
       "error": null
     },
     {
@@ -3355,7 +3356,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
+          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
           "author": "",
           "categories": [],
           "type": "official"
@@ -3370,7 +3371,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:31.836Z",
+      "fetchedAt": "2026-07-15T21:00:14.165Z",
       "error": null
     },
     {
@@ -3426,7 +3427,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:32.412Z",
+      "fetchedAt": "2026-07-15T21:00:16.055Z",
       "error": null
     },
     {
@@ -3436,7 +3437,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-15T17:17:32.542Z",
+      "fetchedAt": "2026-07-15T21:00:16.529Z",
       "error": null
     },
     {
@@ -3492,7 +3493,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:32.406Z",
+      "fetchedAt": "2026-07-15T21:00:16.061Z",
       "error": null
     },
     {
@@ -3512,7 +3513,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:32.450Z",
+      "fetchedAt": "2026-07-15T21:00:16.113Z",
       "error": null
     },
     {
@@ -3568,7 +3569,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:37.047Z",
+      "fetchedAt": "2026-07-15T21:00:21.122Z",
       "error": null
     },
     {
@@ -3624,7 +3625,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:33.310Z",
+      "fetchedAt": "2026-07-15T21:00:17.284Z",
       "error": null
     },
     {
@@ -3679,7 +3680,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:32.721Z",
+      "fetchedAt": "2026-07-15T21:00:16.820Z",
       "error": null
     },
     {
@@ -3734,7 +3735,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:32.814Z",
+      "fetchedAt": "2026-07-15T21:00:16.804Z",
       "error": null
     },
     {
@@ -3799,7 +3800,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-15T17:17:38.409Z",
+      "fetchedAt": "2026-07-15T21:00:21.919Z",
       "error": null
     }
   ]
