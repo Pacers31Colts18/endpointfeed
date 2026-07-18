@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T09:25:16.669Z",
+  "generatedAt": "2026-07-18T13:14:54.211Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,10 +8,10 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "If you are an AI skeptic, have you also been an Internet skeptic?",
-          "link": "https://4sysops.com/archives/if-you-are-an-ai-skeptic-have-you-also-been-an-internet-skeptic/",
-          "pubDate": "2026-07-17T22:06:40.000Z",
-          "summary": "In this 1995 interview, Bill Gates describes the emerging internet as a revolutionary platform for publishing personal homepages and exchanging electronic mail. David Letterman questions the necessity of the technology, comparing digital broadcasts to traditional mediums like radio and tape recorder",
+          "title": "Chinese open-source model Kimmy K3 is now the most intelligent model on the planet",
+          "link": "https://4sysops.com/archives/chinese-open-source-model-kimmy-k3-is-now-the-most-intelligent-model-on-the-planet/",
+          "pubDate": "2026-07-18T10:21:52.000Z",
+          "summary": "Moonshot AI has launched Kimi K3, a massive 2.8 trillion parameter model that currently leads several front-end development and web engineering benchmarks. This open-weights release from the Chinese AI lab challenges the dominance of proprietary models like GPT-5.6 and Claude 3.5 Sonnet in specializ",
           "author": "IT News",
           "categories": [
             "News",
@@ -20,10 +20,23 @@
           "type": "rss"
         },
         {
-          "title": "Cloudflare WAF blocks critical unauthenticated RCE and SQLi in WordPress",
-          "link": "https://4sysops.com/archives/cloudflare-waf-blocks-critical-unauthenticated-rce-and-sqli-in-wordpress/",
-          "pubDate": "2026-07-17T21:04:06.000Z",
-          "summary": "Cloudflare has deployed specialized Web Application Firewall (WAF) rules to mitigate two high-severity vulnerabilities discovered in the WordPress core. These flaws include a critical unauthenticated remote code execution (RCE) bug in the REST API and a high-severity SQL injection vulnerability. The",
+          "title": "Hugging Face detects autonomous AI agent executing multi-stage production breach",
+          "link": "https://4sysops.com/archives/hugging-face-detects-autonomous-ai-agent-executing-multi-stage-production-breach/",
+          "pubDate": "2026-07-18T10:16:24.000Z",
+          "summary": "Hugging Face recently disclosed a high-velocity cyberattack on its production infrastructure carried out by an autonomous AI agent. The intrusion began when a malicious dataset exploited two code-execution paths within the platform's data-processing pipeline. Once inside, the agent escalated privile",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Critical wp2shell vulnerability enables unauthenticated RCE in WordPress core",
+          "link": "https://4sysops.com/archives/critical-wp2shell-vulnerability-enables-unauthenticated-rce-in-wordpress-core/",
+          "pubDate": "2026-07-18T10:16:23.000Z",
+          "summary": "A critical vulnerability chain dubbed wp2shell allows unauthenticated attackers to execute arbitrary code on stock WordPress installations. The exploit combines a REST API batch-route confusion (CVE-2026-63030) with a SQL injection flaw in the core author query parameter (CVE-2026-60137). Because th",
           "author": "IT News",
           "categories": [
             "News",
@@ -33,46 +46,36 @@
           "type": "rss"
         },
         {
-          "title": "Anthropic in preliminary talks to lease Meta data center capacity for AI training",
-          "link": "https://4sysops.com/archives/anthropic-in-preliminary-talks-to-lease-meta-data-center-capacity-for-ai-training/",
-          "pubDate": "2026-07-17T20:56:56.000Z",
-          "summary": "Anthropic is in early discussions with Meta to lease GPU-based computing capacity from the social media giant’s data centers. The potential deal is valued at approximately $10 billion over a two-year period, with payments structured as monthly installments. While negotiations are in a nascent stage ",
+          "title": "Microsoft and OEMs clarify Secure Boot certificate updates ahead of 2026 deadline",
+          "link": "https://4sysops.com/archives/microsoft-and-oems-clarify-secure-boot-certificate-updates-ahead-of-2026-deadline/",
+          "pubDate": "2026-07-18T10:16:22.000Z",
+          "summary": "Microsoft and major hardware manufacturers recently held a technical session to address challenges regarding the transition from 2011 to 2023 Secure Boot certificates. Engineers confirmed that while some certificates have already expired, the final compliance deadline is October 19, 2026, after whic",
           "author": "IT News",
           "categories": [
             "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Apple overtakes Nvidia as most valuable company",
-          "link": "https://4sysops.com/archives/apple-overtakes-nvidia-as-most-valuable-company/",
-          "pubDate": "2026-07-17T20:56:55.000Z",
-          "summary": "Apple reclaimed its position as the world’s most valuable company on July 17, 2026, reaching a market valuation of approximately $4.88 trillion. This shift occurred as Nvidia shares fell by more than 3%, dropping the chipmaker's valuation to roughly $4.84 trillion. The change marks the first time Ap",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
             "Hardware",
-            "Mac",
-            "Mobile"
+            "Security",
+            "Systems Management",
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "2026-07-28 Model Context Protocol (MCP): stateless, multi-round-trip, routable headers, authorization hardening",
-          "link": "https://4sysops.com/archives/2026-07-28-model-context-protocol-mcp-stateless-multi-round-trip-routable-headers-authorization-hardening/",
-          "pubDate": "2026-07-17T20:42:14.000Z",
-          "summary": "The Model Context Protocol (MCP) specification dated July 28, 2026, introduces the largest revision of the protocol since its launch. The update transitions the protocol core to a stateless architecture by eliminating session state, while adding new request patterns, strengthening authorization, and",
-          "author": "IT Experts",
+          "title": "Internal Dell document warns against force-installing problematic Windows update",
+          "link": "https://4sysops.com/archives/internal-dell-document-warns-against-force-installing-problematic-windows-update/",
+          "pubDate": "2026-07-18T10:16:21.000Z",
+          "summary": "Microsoft has halted the deployment of the July 2026 mandatory security update, KB5101650, for specific Dell computer models. The pause stems from a compatibility conflict between a new Windows USB-C Connection Manager interface and Intel Innovation Platform Framework (IPF) drivers. Affected devices",
+          "author": "IT News",
           "categories": [
-            "Articles",
-            "AI"
+            "News",
+            "Hardware",
+            "Systems Management",
+            "Windows"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:01.390Z",
+      "fetchedAt": "2026-07-18T13:14:38.812Z",
       "error": null
     },
     {
@@ -148,7 +151,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:01.314Z",
+      "fetchedAt": "2026-07-18T13:14:38.728Z",
       "error": null
     },
     {
@@ -214,7 +217,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:01.455Z",
+      "fetchedAt": "2026-07-18T13:14:39.185Z",
       "error": null
     },
     {
@@ -224,7 +227,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-18T09:25:01.193Z",
+      "fetchedAt": "2026-07-18T13:14:38.604Z",
       "error": "HTTP 403"
     },
     {
@@ -279,7 +282,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:01.700Z",
+      "fetchedAt": "2026-07-18T13:14:39.231Z",
       "error": null
     },
     {
@@ -344,7 +347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:01.633Z",
+      "fetchedAt": "2026-07-18T13:14:39.341Z",
       "error": null
     },
     {
@@ -428,7 +431,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:01.669Z",
+      "fetchedAt": "2026-07-18T13:14:39.295Z",
       "error": null
     },
     {
@@ -501,7 +504,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:02.204Z",
+      "fetchedAt": "2026-07-18T13:14:39.769Z",
       "error": null
     },
     {
@@ -510,7 +513,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-18T09:25:02.290Z",
+      "fetchedAt": "2026-07-18T13:14:39.868Z",
       "error": "HTTP 403"
     },
     {
@@ -588,7 +591,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:03.666Z",
+      "fetchedAt": "2026-07-18T13:14:41.318Z",
       "error": null
     },
     {
@@ -597,7 +600,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-18T09:25:02.462Z",
+      "fetchedAt": "2026-07-18T13:14:40.090Z",
       "error": "certificate has expired"
     },
     {
@@ -667,7 +670,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:02.789Z",
+      "fetchedAt": "2026-07-18T13:14:40.433Z",
       "error": null
     },
     {
@@ -743,7 +746,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:04.002Z",
+      "fetchedAt": "2026-07-18T13:14:41.558Z",
       "error": null
     },
     {
@@ -809,7 +812,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:04.498Z",
+      "fetchedAt": "2026-07-18T13:14:41.897Z",
       "error": null
     },
     {
@@ -864,7 +867,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:04.142Z",
+      "fetchedAt": "2026-07-18T13:14:41.808Z",
       "error": null
     },
     {
@@ -940,7 +943,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:03.967Z",
+      "fetchedAt": "2026-07-18T13:14:41.513Z",
       "error": null
     },
     {
@@ -1017,7 +1020,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:04.582Z",
+      "fetchedAt": "2026-07-18T13:14:41.952Z",
       "error": null
     },
     {
@@ -1094,7 +1097,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:06.139Z",
+      "fetchedAt": "2026-07-18T13:14:43.480Z",
       "error": null
     },
     {
@@ -1179,7 +1182,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:04.653Z",
+      "fetchedAt": "2026-07-18T13:14:42.017Z",
       "error": null
     },
     {
@@ -1235,7 +1238,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:04.696Z",
+      "fetchedAt": "2026-07-18T13:14:42.108Z",
       "error": null
     },
     {
@@ -1321,7 +1324,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:07.303Z",
+      "fetchedAt": "2026-07-18T13:14:44.620Z",
       "error": null
     },
     {
@@ -1407,7 +1410,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:06.256Z",
+      "fetchedAt": "2026-07-18T13:14:43.518Z",
       "error": null
     },
     {
@@ -1491,7 +1494,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:06.365Z",
+      "fetchedAt": "2026-07-18T13:14:43.606Z",
       "error": null
     },
     {
@@ -1546,7 +1549,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:06.275Z",
+      "fetchedAt": "2026-07-18T13:14:43.594Z",
       "error": null
     },
     {
@@ -1611,7 +1614,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:07.614Z",
+      "fetchedAt": "2026-07-18T13:14:44.755Z",
       "error": null
     },
     {
@@ -1620,7 +1623,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-18T09:25:07.460Z",
+      "fetchedAt": "2026-07-18T13:14:44.708Z",
       "error": "HTTP 404"
     },
     {
@@ -1676,7 +1679,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:07.888Z",
+      "fetchedAt": "2026-07-18T13:14:45.211Z",
       "error": null
     },
     {
@@ -1741,7 +1744,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:07.735Z",
+      "fetchedAt": "2026-07-18T13:14:44.957Z",
       "error": null
     },
     {
@@ -1822,7 +1825,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:08.481Z",
+      "fetchedAt": "2026-07-18T13:14:45.781Z",
       "error": null
     },
     {
@@ -1831,7 +1834,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-18T09:25:08.775Z",
+      "fetchedAt": "2026-07-18T13:14:45.978Z",
       "error": "HTTP 404"
     },
     {
@@ -1840,7 +1843,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-18T09:25:08.049Z",
+      "fetchedAt": "2026-07-18T13:14:45.376Z",
       "error": "HTTP 403"
     },
     {
@@ -1920,7 +1923,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:08.091Z",
+      "fetchedAt": "2026-07-18T13:14:45.448Z",
       "error": null
     },
     {
@@ -1993,7 +1996,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:08.997Z",
+      "fetchedAt": "2026-07-18T13:14:46.141Z",
       "error": null
     },
     {
@@ -2012,7 +2015,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:08.873Z",
+      "fetchedAt": "2026-07-18T13:14:46.104Z",
       "error": null
     },
     {
@@ -2067,7 +2070,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.115Z",
+      "fetchedAt": "2026-07-18T13:14:46.411Z",
       "error": null
     },
     {
@@ -2152,7 +2155,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.044Z",
+      "fetchedAt": "2026-07-18T13:14:46.213Z",
       "error": null
     },
     {
@@ -2217,7 +2220,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.242Z",
+      "fetchedAt": "2026-07-18T13:14:46.621Z",
       "error": null
     },
     {
@@ -2283,7 +2286,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RQmWSjKIQJY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.238Z",
+      "fetchedAt": "2026-07-18T13:14:46.431Z",
       "error": null
     },
     {
@@ -2348,7 +2351,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JV6dNBHveHY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.236Z",
+      "fetchedAt": "2026-07-18T13:14:46.509Z",
       "error": null
     },
     {
@@ -2413,7 +2416,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WVgmnNBmzxM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.237Z",
+      "fetchedAt": "2026-07-18T13:14:46.524Z",
       "error": null
     },
     {
@@ -2479,7 +2482,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.339Z",
+      "fetchedAt": "2026-07-18T13:14:46.732Z",
       "error": null
     },
     {
@@ -2545,7 +2548,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xedgBrcW8a0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.342Z",
+      "fetchedAt": "2026-07-18T13:14:46.726Z",
       "error": null
     },
     {
@@ -2611,7 +2614,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oa59A6xpZyg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.362Z",
+      "fetchedAt": "2026-07-18T13:14:46.713Z",
       "error": null
     },
     {
@@ -2676,7 +2679,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.343Z",
+      "fetchedAt": "2026-07-18T13:14:46.710Z",
       "error": null
     },
     {
@@ -2742,7 +2745,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zmisKsvbtQY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.459Z",
+      "fetchedAt": "2026-07-18T13:14:46.836Z",
       "error": null
     },
     {
@@ -2807,7 +2810,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.452Z",
+      "fetchedAt": "2026-07-18T13:14:46.827Z",
       "error": null
     },
     {
@@ -2872,7 +2875,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.451Z",
+      "fetchedAt": "2026-07-18T13:14:46.817Z",
       "error": null
     },
     {
@@ -2937,7 +2940,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.474Z",
+      "fetchedAt": "2026-07-18T13:14:46.902Z",
       "error": null
     },
     {
@@ -3002,7 +3005,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.633Z",
+      "fetchedAt": "2026-07-18T13:14:47.046Z",
       "error": null
     },
     {
@@ -3067,7 +3070,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.579Z",
+      "fetchedAt": "2026-07-18T13:14:47.076Z",
       "error": null
     },
     {
@@ -3132,7 +3135,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.566Z",
+      "fetchedAt": "2026-07-18T13:14:46.984Z",
       "error": null
     },
     {
@@ -3188,7 +3191,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.739Z",
+      "fetchedAt": "2026-07-18T13:14:47.059Z",
       "error": null
     },
     {
@@ -3198,7 +3201,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-18T09:25:09.819Z",
+      "fetchedAt": "2026-07-18T13:14:47.157Z",
       "error": null
     },
     {
@@ -3208,6 +3211,17 @@
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Intune Custom Compliance Policies and the Hourly Cadence Fix",
+          "link": "https://patchmypc.com/blog/custom-compliance-policies-and-the-eight-hour-waiting-fix/",
+          "pubDate": "2026-07-18T10:36:57.000Z",
+          "summary": "Custom compliance in Intune can leave devices reporting stale results for up to eight hours. IME 1.103.101.0 appears to introduce a new hourly cadence that could rerun discovery scripts and send fresh PolicyResult data back to Intune much sooner. The post Intune Custom Compliance Policies and the Ho",
+          "author": "Rudy Ooms",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
         {
           "title": "Autopilot Required Apps No Longer Need to Wait 60 Minutes",
           "link": "https://patchmypc.com/blog/autopilot-required-apps-no-longer-need-to-wait-60-minutes/",
@@ -3251,20 +3265,9 @@
             "Knowledge Base"
           ],
           "type": "official"
-        },
-        {
-          "title": "The Intune MDM Device Certificate KSP Renewal Bug: Why the Bit4id Provider Caused it",
-          "link": "https://patchmypc.com/blog/the-intune-mdm-device-certificate-ksp-renewal-bug-why-23h2-devices-stopped-renewing/",
-          "pubDate": "2026-07-12T08:28:14.000Z",
-          "summary": "A third party smart card KSP caused the Intune MDM certificate renewal flow in Windows 11 to fail before the actual renewal checks even started, leaving devices with expired certificates and almost no useful errors. This blog explains why only specific devices were affected, how the November update ",
-          "author": "Rudy Ooms",
-          "categories": [
-            "Blog"
-          ],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:11.518Z",
+      "fetchedAt": "2026-07-18T13:14:48.667Z",
       "error": null
     },
     {
@@ -3320,7 +3323,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:09.831Z",
+      "fetchedAt": "2026-07-18T13:14:47.110Z",
       "error": null
     },
     {
@@ -3349,7 +3352,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:10.120Z",
+      "fetchedAt": "2026-07-18T13:14:47.368Z",
       "error": null
     },
     {
@@ -3405,7 +3408,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:11.553Z",
+      "fetchedAt": "2026-07-18T13:14:48.680Z",
       "error": null
     },
     {
@@ -3415,7 +3418,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-18T09:25:11.632Z",
+      "fetchedAt": "2026-07-18T13:14:48.846Z",
       "error": null
     },
     {
@@ -3471,7 +3474,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:11.606Z",
+      "fetchedAt": "2026-07-18T13:14:48.686Z",
       "error": null
     },
     {
@@ -3491,7 +3494,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:11.548Z",
+      "fetchedAt": "2026-07-18T13:14:48.696Z",
       "error": null
     },
     {
@@ -3547,7 +3550,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:15.809Z",
+      "fetchedAt": "2026-07-18T13:14:53.366Z",
       "error": null
     },
     {
@@ -3603,7 +3606,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:12.254Z",
+      "fetchedAt": "2026-07-18T13:14:49.441Z",
       "error": null
     },
     {
@@ -3658,7 +3661,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:11.970Z",
+      "fetchedAt": "2026-07-18T13:14:49.018Z",
       "error": null
     },
     {
@@ -3713,7 +3716,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:11.892Z",
+      "fetchedAt": "2026-07-18T13:14:49.033Z",
       "error": null
     },
     {
@@ -3778,7 +3781,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-18T09:25:16.669Z",
+      "fetchedAt": "2026-07-18T13:14:54.211Z",
       "error": null
     }
   ]
