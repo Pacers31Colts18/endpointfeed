@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T18:02:51.469Z",
+  "generatedAt": "2026-07-20T21:11:52.310Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -7,6 +7,61 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Fake GitHub repos turn AI agents into malware delivery tools",
+          "link": "https://4sysops.com/archives/fake-github-repos-turn-ai-agents-into-malware-delivery-tools/",
+          "pubDate": "2026-07-20T20:48:36.000Z",
+          "summary": "Malicious GitHub activity dubbed FakeGit has spread across nearly 7,600 repositories, with more than 800 impersonating AI skills or Model Context Protocol (MCP) servers. The campaign uses copied projects, lookalike developer profiles, convincing READMEs, and malicious ZIP files to lure victims into ",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Autoscale for Azure Event Grid",
+          "link": "https://4sysops.com/archives/autoscale-for-azure-event-grid/",
+          "pubDate": "2026-07-20T20:42:13.000Z",
+          "summary": "Azure Event Grid namespaces now feature Autoscale, currently in public preview. This feature automatically adjusts Throughput Units based on real-time workload utilization. It eliminates the need for manual capacity provisioning and helps maintain consistent performance during traffic spikes. By dyn",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "Azure",
+            "Cloud Computing"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft adopts AMD Helios on Azure as Anthropic tests AMD chips",
+          "link": "https://4sysops.com/archives/microsoft-adopts-amd-helios-on-azure-as-anthropic-tests-amd-chips/",
+          "pubDate": "2026-07-20T18:25:57.000Z",
+          "summary": "Microsoft will deploy AMD's Helios rack-scale AI platform on Azure beginning in the second half of 2026 to run large AI models for its own use, customers, and Azure AI services. Helios combines AMD GPUs, CPUs, networking chips, and software as a full-system alternative to Nvidia's dominant rack-scal",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Azure",
+            "Cloud Computing",
+            "Hardware"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Trump administration weighs curbs on Chinese AI after Kimi K3",
+          "link": "https://4sysops.com/archives/trump-administration-weighs-curbs-on-chinese-ai-after-kimi-k3/",
+          "pubDate": "2026-07-20T18:25:56.000Z",
+          "summary": "The Trump administration is renewing efforts to restrict Chinese artificial-intelligence models after Moonshot AI released its open-weight Kimi K3 system, a large model positioned as a lower-cost rival to leading U.S. offerings. Officials cite cybersecurity risks, including possible backdoors, and h",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Security",
+            "Sovereignty"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Hugging Face turns to Chinese open model after US LLMs block breach forensics",
           "link": "https://4sysops.com/archives/hugging-face-turns-to-chinese-open-model-after-us-llms-block-breach-forensics/",
@@ -19,60 +74,9 @@
             "Security"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Some firms splurge on frontier AI",
-          "link": "https://4sysops.com/archives/some-firms-splurge-on-frontier-ai/",
-          "pubDate": "2026-07-20T17:32:38.000Z",
-          "summary": "As some organizations cut AI costs with cheaper options, others fully commit to advanced frontier systems from providers like OpenAI and Anthropic despite steep prices. These frontier models prove expensive partly because they demand heavy compute resources and process large volumes of tokens. They ",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Copilot Business and Enterprise users can track AI credits per cycle",
-          "link": "https://4sysops.com/archives/copilot-business-and-enterprise-users-can-track-ai-credits-per-cycle/",
-          "pubDate": "2026-07-20T17:32:37.000Z",
-          "summary": "GitHub has updated the Copilot usage page so Business and Enterprise users can monitor AI credit consumption for the current billing cycle. The information appears in GitHub settings on the Copilot usage page and is available even when no individual budget exists. This gives organizations clearer in",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Japan builds world’s first national AI factory for robotics using Nvidia Rubin GPUs",
-          "link": "https://4sysops.com/archives/japan-builds-worlds-first-national-ai-factory-for-robotics-using-nvidia-rubin-gpus/",
-          "pubDate": "2026-07-20T17:15:42.000Z",
-          "summary": "Japan is establishing a state-funded AI factory to serve as the primary compute infrastructure for the national FRONTia program. The facility will utilize 382 Vera Rubin NVL72 racks, integrating 27,500 Nvidia Rubin GPUs and 13,750 Vera CPUs. This massive deployment is designed to draw 140 megawatts ",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Hardware"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "AI uncovers pre-auth WordPress RCE chain dubbed wp2shell in ten hours",
-          "link": "https://4sysops.com/archives/ai-uncovers-pre-auth-wordpress-rce-chain-dubbed-wp2shell-in-ten-hours/",
-          "pubDate": "2026-07-20T16:18:34.000Z",
-          "summary": "Security researchers tasked the frontier model GPT-5.6 Sol Ultra with probing the WordPress core codebase to locate a full pre-authentication remote code execution chain. The model quickly discovered a read-only SQL injection and confirmed it by extracting an administrator email address from a stock",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Security",
-            "Web"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:32.059Z",
+      "fetchedAt": "2026-07-20T21:11:37.084Z",
       "error": null
     },
     {
@@ -148,7 +152,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:32.330Z",
+      "fetchedAt": "2026-07-20T21:11:37.243Z",
       "error": null
     },
     {
@@ -214,7 +218,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:32.889Z",
+      "fetchedAt": "2026-07-20T21:11:37.620Z",
       "error": null
     },
     {
@@ -224,7 +228,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-20T18:02:31.685Z",
+      "fetchedAt": "2026-07-20T21:11:36.858Z",
       "error": "HTTP 403"
     },
     {
@@ -279,7 +283,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:33.007Z",
+      "fetchedAt": "2026-07-20T21:11:37.694Z",
       "error": null
     },
     {
@@ -344,7 +348,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:33.428Z",
+      "fetchedAt": "2026-07-20T21:11:37.986Z",
       "error": null
     },
     {
@@ -428,7 +432,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:32.969Z",
+      "fetchedAt": "2026-07-20T21:11:37.775Z",
       "error": null
     },
     {
@@ -501,7 +505,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:33.824Z",
+      "fetchedAt": "2026-07-20T21:11:38.369Z",
       "error": null
     },
     {
@@ -510,7 +514,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-20T18:02:34.153Z",
+      "fetchedAt": "2026-07-20T21:11:38.448Z",
       "error": "HTTP 403"
     },
     {
@@ -588,7 +592,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:35.723Z",
+      "fetchedAt": "2026-07-20T21:11:39.879Z",
       "error": null
     },
     {
@@ -597,7 +601,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-20T18:02:34.470Z",
+      "fetchedAt": "2026-07-20T21:11:38.738Z",
       "error": "certificate has expired"
     },
     {
@@ -667,7 +671,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:34.831Z",
+      "fetchedAt": "2026-07-20T21:11:38.935Z",
       "error": null
     },
     {
@@ -743,7 +747,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:36.213Z",
+      "fetchedAt": "2026-07-20T21:11:40.204Z",
       "error": null
     },
     {
@@ -752,9 +756,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-07-20T18:02:35.920Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
+          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
+          "pubDate": "2026-07-13T04:18:01.000Z",
+          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
+          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
+          "pubDate": "2026-05-29T15:34:28.000Z",
+          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
+          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
+          "pubDate": "2026-05-19T05:58:43.000Z",
+          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
+          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
+          "pubDate": "2026-05-15T14:47:47.000Z",
+          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
+          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
+          "pubDate": "2026-05-06T20:30:40.000Z",
+          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-07-20T21:11:40.446Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -808,7 +868,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:36.047Z",
+      "fetchedAt": "2026-07-20T21:11:40.383Z",
       "error": null
     },
     {
@@ -884,7 +944,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:35.962Z",
+      "fetchedAt": "2026-07-20T21:11:40.189Z",
       "error": null
     },
     {
@@ -961,7 +1021,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:36.332Z",
+      "fetchedAt": "2026-07-20T21:11:40.603Z",
       "error": null
     },
     {
@@ -1038,7 +1098,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:38.780Z",
+      "fetchedAt": "2026-07-20T21:11:42.155Z",
       "error": null
     },
     {
@@ -1123,7 +1183,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:36.431Z",
+      "fetchedAt": "2026-07-20T21:11:40.725Z",
       "error": null
     },
     {
@@ -1179,7 +1239,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:36.436Z",
+      "fetchedAt": "2026-07-20T21:11:40.759Z",
       "error": null
     },
     {
@@ -1265,7 +1325,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:40.005Z",
+      "fetchedAt": "2026-07-20T21:11:43.284Z",
       "error": null
     },
     {
@@ -1351,7 +1411,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:38.839Z",
+      "fetchedAt": "2026-07-20T21:11:42.270Z",
       "error": null
     },
     {
@@ -1435,7 +1495,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:38.885Z",
+      "fetchedAt": "2026-07-20T21:11:42.311Z",
       "error": null
     },
     {
@@ -1490,7 +1550,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:38.832Z",
+      "fetchedAt": "2026-07-20T21:11:42.313Z",
       "error": null
     },
     {
@@ -1555,7 +1615,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:40.363Z",
+      "fetchedAt": "2026-07-20T21:11:43.440Z",
       "error": null
     },
     {
@@ -1564,7 +1624,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-20T18:02:40.150Z",
+      "fetchedAt": "2026-07-20T21:11:43.419Z",
       "error": "HTTP 404"
     },
     {
@@ -1620,7 +1680,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:40.933Z",
+      "fetchedAt": "2026-07-20T21:11:43.659Z",
       "error": null
     },
     {
@@ -1685,7 +1745,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:40.351Z",
+      "fetchedAt": "2026-07-20T21:11:43.821Z",
       "error": null
     },
     {
@@ -1766,7 +1826,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:41.774Z",
+      "fetchedAt": "2026-07-20T21:11:44.774Z",
       "error": null
     },
     {
@@ -1775,7 +1835,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-20T18:02:41.761Z",
+      "fetchedAt": "2026-07-20T21:11:44.602Z",
       "error": "HTTP 404"
     },
     {
@@ -1784,7 +1844,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-20T18:02:41.028Z",
+      "fetchedAt": "2026-07-20T21:11:44.159Z",
       "error": "HTTP 403"
     },
     {
@@ -1855,16 +1915,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:41.068Z",
+      "fetchedAt": "2026-07-20T21:11:44.192Z",
       "error": null
     },
     {
@@ -1937,7 +1997,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:41.925Z",
+      "fetchedAt": "2026-07-20T21:11:44.938Z",
       "error": null
     },
     {
@@ -1956,7 +2016,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:41.833Z",
+      "fetchedAt": "2026-07-20T21:11:44.869Z",
       "error": null
     },
     {
@@ -2011,7 +2071,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:41.947Z",
+      "fetchedAt": "2026-07-20T21:11:45.123Z",
       "error": null
     },
     {
@@ -2096,7 +2156,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.080Z",
+      "fetchedAt": "2026-07-20T21:11:45.043Z",
       "error": null
     },
     {
@@ -2161,7 +2221,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.239Z",
+      "fetchedAt": "2026-07-20T21:11:45.302Z",
       "error": null
     },
     {
@@ -2227,7 +2287,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RKEvu6asHd4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.135Z",
+      "fetchedAt": "2026-07-20T21:11:45.157Z",
       "error": null
     },
     {
@@ -2292,7 +2352,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JV6dNBHveHY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.298Z",
+      "fetchedAt": "2026-07-20T21:11:45.253Z",
       "error": null
     },
     {
@@ -2357,7 +2417,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5ovCvOcDjv4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.277Z",
+      "fetchedAt": "2026-07-20T21:11:45.339Z",
       "error": null
     },
     {
@@ -2423,7 +2483,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.638Z",
+      "fetchedAt": "2026-07-20T21:11:45.507Z",
       "error": null
     },
     {
@@ -2489,7 +2549,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xedgBrcW8a0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.553Z",
+      "fetchedAt": "2026-07-20T21:11:45.435Z",
       "error": null
     },
     {
@@ -2555,7 +2615,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oa59A6xpZyg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.551Z",
+      "fetchedAt": "2026-07-20T21:11:45.430Z",
       "error": null
     },
     {
@@ -2620,7 +2680,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.523Z",
+      "fetchedAt": "2026-07-20T21:11:45.504Z",
       "error": null
     },
     {
@@ -2686,7 +2746,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/q5mVXMiIar8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.839Z",
+      "fetchedAt": "2026-07-20T21:11:45.628Z",
       "error": null
     },
     {
@@ -2751,7 +2811,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.908Z",
+      "fetchedAt": "2026-07-20T21:11:45.595Z",
       "error": null
     },
     {
@@ -2816,7 +2876,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.833Z",
+      "fetchedAt": "2026-07-20T21:11:45.611Z",
       "error": null
     },
     {
@@ -2881,7 +2941,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:42.813Z",
+      "fetchedAt": "2026-07-20T21:11:45.599Z",
       "error": null
     },
     {
@@ -2946,7 +3006,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:43.078Z",
+      "fetchedAt": "2026-07-20T21:11:45.754Z",
       "error": null
     },
     {
@@ -3011,7 +3071,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:43.094Z",
+      "fetchedAt": "2026-07-20T21:11:45.858Z",
       "error": null
     },
     {
@@ -3076,7 +3136,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:43.092Z",
+      "fetchedAt": "2026-07-20T21:11:45.816Z",
       "error": null
     },
     {
@@ -3105,6 +3165,15 @@
           "type": "official"
         },
         {
+          "title": "Windows 365 limitations and workload-fit trade-offs",
+          "link": "https://getnerdio.com/blog/windows-365-limitations/",
+          "pubDate": "2026-07-20T20:13:27.000Z",
+          "summary": "Blog Windows 365 limitations and workload-fit trade-offs Learn how Windows 365 limitations around fixed sizing, flat-rate billing, and Intune overhead… The post Windows 365 limitations and workload-fit trade-offs appeared first on Nerdio. ]]>",
+          "author": "GrowthX Editor",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "The Citrix exit playbook: Real talk from a UK MSP",
           "link": "https://getnerdio.com/on-demand-webinar/the-citrix-exit-playbook-real-talk-from-a-uk-msp/",
           "pubDate": "2026-07-15T21:06:18.000Z",
@@ -3121,18 +3190,9 @@
           "author": "Lauren Purdy",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "End user experience monitoring for Windows 365 and AVD (tools and best practices)",
-          "link": "https://getnerdio.com/blog/end-user-experience-monitoring/",
-          "pubDate": "2026-07-14T20:09:22.000Z",
-          "summary": "Blog End user experience monitoring for Windows 365 and AVD (tools and best practices) Learn end user experience monitoring for… The post End user experience monitoring for Windows 365 and AVD (tools and best practices) appeared first on Nerdio. ]]>",
-          "author": "GrowthX Editor",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:43.166Z",
+      "fetchedAt": "2026-07-20T21:11:45.828Z",
       "error": null
     },
     {
@@ -3142,7 +3202,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-20T18:02:43.333Z",
+      "fetchedAt": "2026-07-20T21:11:46.008Z",
       "error": null
     },
     {
@@ -3208,7 +3268,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:45.146Z",
+      "fetchedAt": "2026-07-20T21:11:46.735Z",
       "error": null
     },
     {
@@ -3264,7 +3324,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:43.196Z",
+      "fetchedAt": "2026-07-20T21:11:45.916Z",
       "error": null
     },
     {
@@ -3278,7 +3338,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
+          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
           "author": "",
           "categories": [],
           "type": "official"
@@ -3293,7 +3353,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:43.490Z",
+      "fetchedAt": "2026-07-20T21:11:46.193Z",
       "error": null
     },
     {
@@ -3349,7 +3409,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:45.186Z",
+      "fetchedAt": "2026-07-20T21:11:46.766Z",
       "error": null
     },
     {
@@ -3359,7 +3419,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-20T18:02:45.331Z",
+      "fetchedAt": "2026-07-20T21:11:47.018Z",
       "error": null
     },
     {
@@ -3415,7 +3475,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:45.164Z",
+      "fetchedAt": "2026-07-20T21:11:47.271Z",
       "error": null
     },
     {
@@ -3435,7 +3495,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:45.169Z",
+      "fetchedAt": "2026-07-20T21:11:46.778Z",
       "error": null
     },
     {
@@ -3491,7 +3551,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:49.817Z",
+      "fetchedAt": "2026-07-20T21:11:51.463Z",
       "error": null
     },
     {
@@ -3547,7 +3607,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:46.330Z",
+      "fetchedAt": "2026-07-20T21:11:47.846Z",
       "error": null
     },
     {
@@ -3602,7 +3662,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:45.476Z",
+      "fetchedAt": "2026-07-20T21:11:47.505Z",
       "error": null
     },
     {
@@ -3657,7 +3717,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:45.393Z",
+      "fetchedAt": "2026-07-20T21:11:47.421Z",
       "error": null
     },
     {
@@ -3722,7 +3782,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-20T18:02:51.469Z",
+      "fetchedAt": "2026-07-20T21:11:52.310Z",
       "error": null
     }
   ]
