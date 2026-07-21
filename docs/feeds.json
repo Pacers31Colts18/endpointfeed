@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T13:50:25.274Z",
+  "generatedAt": "2026-07-21T17:19:44.569Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,75 +8,71 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Overdue a password health-check? Audit your AD with Specops Password Auditor",
-          "link": "https://4sysops.com/archives/overdue-a-password-health-check-audit-your-ad-with-specops-password-auditor-2/",
-          "pubDate": "2026-07-21T10:20:49.000Z",
-          "summary": "Get a free, read-only audit tool to scan your Active Directory for password vulnerabilities and receive an easy-to-understand interactive report - your first step to stronger password security! Source]]>",
-          "author": "Sponsor",
+          "title": "Google releases Gemini 3.6 Flash, Gemini 3.5 Flash-Lite and Gemini 3.5 Flash Cyber",
+          "link": "https://4sysops.com/archives/google-releases-gemini-3-6-flash-gemini-3-5-flash-lite-and-gemini-3-5-flash-cyber/",
+          "pubDate": "2026-07-21T16:39:09.000Z",
+          "summary": "Google has released Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, and a restricted Gemini 3.5 Flash Cyber variant to reduce latency and token costs for enterprise AI agents. The main focus is not raw model size but throughput, with Google aiming to make multi-step agent workflows cheaper and faster to ru",
+          "author": "IT News",
           "categories": [
-            "Articles",
             "News",
-            "Newsletters",
-            "Vendors"
+            "AI"
           ],
           "type": "rss"
         },
         {
-          "title": "WordPress wp2shell flaws are being chained for rapid site takeover",
-          "link": "https://4sysops.com/archives/wordpress-wp2shell-flaws-are-being-chained-for-rapid-site-takeover/",
-          "pubDate": "2026-07-21T09:41:54.000Z",
-          "summary": "Two WordPress core flaws were patched and then rapidly weaponized into an exploit chain dubbed wp2shell. Chaining the SQL injection bug with a REST API batch-route confusion flaw lets an attacker bypass authentication and reach remote code execution on vulnerable sites. Source]]>",
+          "title": "Dell’s GB10 boxes make a small, quiet 256GB local AI cluster possible",
+          "link": "https://4sysops.com/archives/dells-gb10-boxes-make-a-small-quiet-256gb-local-ai-cluster-possible/",
+          "pubDate": "2026-07-21T16:31:32.000Z",
+          "summary": "Dell’s Pro Max GB10 is a compact AI workstation built around Nvidia’s Grace Blackwell GB10 platform with 128GB of unified memory, a 4TB SSD, and Nvidia DGX OS. The article’s main point is that two of these systems can be linked into a local cluster, effectively giving a home lab or small team 256GB ",
           "author": "IT News",
           "categories": [
             "News",
+            "AI",
+            "Hardware"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Nvidia’s Vera CPU targets AI servers with custom 88-core Olympus design",
+          "link": "https://4sysops.com/archives/nvidias-vera-cpu-targets-ai-servers-with-custom-88-core-olympus-design/",
+          "pubDate": "2026-07-21T16:31:31.000Z",
+          "summary": "Nvidia has released more details on Vera, its first CPU with a fully custom core design for data center AI systems. The chip is aimed at the growing market for agentic AI infrastructure rather than a direct head-to-head fight with AMD and Intel in traditional cloud servers. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Hardware"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 Beta gets a more customizable Start menu, but the taskbar stays put",
+          "link": "https://4sysops.com/archives/windows-11-beta-gets-a-more-customizable-start-menu-but-the-taskbar-stays-put/",
+          "pubDate": "2026-07-21T16:31:30.000Z",
+          "summary": "Microsoft is rolling out more of the redesigned Start menu to Windows 11 Beta with build 26220.8925. The update adds small and large Start menu size options, keeps the existing automatic layout, and lets users independently show or hide the Pinned, Recent, and All sections. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "SharePoint RCE CVE-2026-50522 exploited after public proof of concept",
+          "link": "https://4sysops.com/archives/sharepoint-rce-cve-2026-50522-exploited-after-public-proof-of-concept/",
+          "pubDate": "2026-07-21T16:31:29.000Z",
+          "summary": "Microsoft’s CVE-2026-50522 is a critical SharePoint Server remote code execution flaw with a CVSS score of 9.8. It affects supported on-premises SharePoint Server versions and stems from deserialization of untrusted data. Microsoft rated exploitation as more likely and patched the issue in its July ",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Microsoft 365",
             "Security",
             "Web"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Windows 11 KB5101684 adds voice isolation, external fingerprint support, and polish",
-          "link": "https://4sysops.com/archives/windows-11-kb5101684-adds-voice-isolation-external-fingerprint-support-and-polish/",
-          "pubDate": "2026-07-21T09:41:53.000Z",
-          "summary": "Microsoft is rolling out Windows 11 build 26200.8942/26100.8942 as KB5101684 in the Release Preview channel ahead of the August 2026 security update. The preview covers Windows 11 24H2 and 25H2 and is being phased in rather than delivered to everyone at once. Alongside a long list of fixes, Microsof",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Hardware",
-            "Security",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Hardware encryption on laptop drives needs verification, not trust",
-          "link": "https://4sysops.com/archives/hardware-encryption-on-laptop-drives-needs-verification-not-trust/",
-          "pubDate": "2026-07-21T09:41:52.000Z",
-          "summary": "Hardware-encrypted SSDs sold under the TCG Opal2 standard cannot be assumed safe just because they ship with encryption features turned on. Researchers tested 38 drives from multiple vendors and found broken or weak behavior, including predictable random numbers, flawed PSID reset tokens, and, on so",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Linux",
-            "Security",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Google Cloud outage exposes hidden single-datacenter dependencies",
-          "link": "https://4sysops.com/archives/google-cloud-outage-exposes-hidden-single-datacenter-dependencies/",
-          "pubDate": "2026-07-21T09:41:51.000Z",
-          "summary": "Google Cloud suffered a 15-hour outage that affected only three specialized services in europe-west4-a: VMware Engine, NetApp Volumes, and Bare Metal Solutions. The disruption started with a power failure at a datacenter serving those services, which then led to a cooling failure and forced Google t",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Cloud Computing",
-            "Google Cloud"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:08.380Z",
+      "fetchedAt": "2026-07-21T17:19:26.686Z",
       "error": null
     },
     {
@@ -152,7 +148,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:08.618Z",
+      "fetchedAt": "2026-07-21T17:19:26.892Z",
       "error": null
     },
     {
@@ -218,7 +214,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:09.243Z",
+      "fetchedAt": "2026-07-21T17:19:27.244Z",
       "error": null
     },
     {
@@ -228,7 +224,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-21T13:50:08.152Z",
+      "fetchedAt": "2026-07-21T17:19:26.689Z",
       "error": "HTTP 403"
     },
     {
@@ -283,7 +279,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:09.568Z",
+      "fetchedAt": "2026-07-21T17:19:27.498Z",
       "error": null
     },
     {
@@ -348,7 +344,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:09.523Z",
+      "fetchedAt": "2026-07-21T17:19:27.969Z",
       "error": null
     },
     {
@@ -432,7 +428,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:09.387Z",
+      "fetchedAt": "2026-07-21T17:19:27.434Z",
       "error": null
     },
     {
@@ -505,7 +501,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:10.376Z",
+      "fetchedAt": "2026-07-21T17:19:27.985Z",
       "error": null
     },
     {
@@ -514,7 +510,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-21T13:50:10.432Z",
+      "fetchedAt": "2026-07-21T17:19:28.083Z",
       "error": "HTTP 403"
     },
     {
@@ -592,7 +588,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:12.327Z",
+      "fetchedAt": "2026-07-21T17:19:29.515Z",
       "error": null
     },
     {
@@ -601,7 +597,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-21T13:50:10.991Z",
+      "fetchedAt": "2026-07-21T17:19:28.285Z",
       "error": "certificate has expired"
     },
     {
@@ -671,7 +667,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:11.206Z",
+      "fetchedAt": "2026-07-21T17:19:28.638Z",
       "error": null
     },
     {
@@ -747,7 +743,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:12.818Z",
+      "fetchedAt": "2026-07-21T17:19:29.872Z",
       "error": null
     },
     {
@@ -813,7 +809,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:12.852Z",
+      "fetchedAt": "2026-07-21T17:19:31.222Z",
       "error": null
     },
     {
@@ -868,7 +864,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:12.845Z",
+      "fetchedAt": "2026-07-21T17:19:29.998Z",
       "error": null
     },
     {
@@ -944,7 +940,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:12.556Z",
+      "fetchedAt": "2026-07-21T17:19:29.834Z",
       "error": null
     },
     {
@@ -1021,7 +1017,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:12.929Z",
+      "fetchedAt": "2026-07-21T17:19:31.435Z",
       "error": null
     },
     {
@@ -1098,7 +1094,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:14.903Z",
+      "fetchedAt": "2026-07-21T17:19:32.899Z",
       "error": null
     },
     {
@@ -1183,7 +1179,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:13.016Z",
+      "fetchedAt": "2026-07-21T17:19:31.514Z",
       "error": null
     },
     {
@@ -1239,7 +1235,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:13.026Z",
+      "fetchedAt": "2026-07-21T17:19:31.598Z",
       "error": null
     },
     {
@@ -1325,7 +1321,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:15.860Z",
+      "fetchedAt": "2026-07-21T17:19:34.119Z",
       "error": null
     },
     {
@@ -1411,7 +1407,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:14.963Z",
+      "fetchedAt": "2026-07-21T17:19:32.997Z",
       "error": null
     },
     {
@@ -1494,7 +1490,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:15.020Z",
+      "fetchedAt": "2026-07-21T17:19:32.976Z",
       "error": null
     },
     {
@@ -1549,7 +1545,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:14.984Z",
+      "fetchedAt": "2026-07-21T17:19:33.003Z",
       "error": null
     },
     {
@@ -1614,7 +1610,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:16.032Z",
+      "fetchedAt": "2026-07-21T17:19:34.229Z",
       "error": null
     },
     {
@@ -1623,7 +1619,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-21T13:50:15.942Z",
+      "fetchedAt": "2026-07-21T17:19:34.237Z",
       "error": "HTTP 404"
     },
     {
@@ -1679,7 +1675,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:16.533Z",
+      "fetchedAt": "2026-07-21T17:19:34.790Z",
       "error": null
     },
     {
@@ -1744,7 +1740,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:16.129Z",
+      "fetchedAt": "2026-07-21T17:19:34.568Z",
       "error": null
     },
     {
@@ -1825,7 +1821,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:17.587Z",
+      "fetchedAt": "2026-07-21T17:19:35.381Z",
       "error": null
     },
     {
@@ -1834,7 +1830,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-21T13:50:17.393Z",
+      "fetchedAt": "2026-07-21T17:19:35.482Z",
       "error": "HTTP 404"
     },
     {
@@ -1843,7 +1839,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-21T13:50:16.667Z",
+      "fetchedAt": "2026-07-21T17:19:34.908Z",
       "error": "HTTP 403"
     },
     {
@@ -1914,16 +1910,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:16.762Z",
+      "fetchedAt": "2026-07-21T17:19:34.962Z",
       "error": null
     },
     {
@@ -1996,7 +1992,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:17.721Z",
+      "fetchedAt": "2026-07-21T17:19:35.660Z",
       "error": null
     },
     {
@@ -2015,7 +2011,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:17.697Z",
+      "fetchedAt": "2026-07-21T17:19:35.661Z",
       "error": null
     },
     {
@@ -2070,7 +2066,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:17.867Z",
+      "fetchedAt": "2026-07-21T17:19:35.970Z",
       "error": null
     },
     {
@@ -2155,7 +2151,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:17.738Z",
+      "fetchedAt": "2026-07-21T17:19:35.771Z",
       "error": null
     },
     {
@@ -2220,7 +2216,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.086Z",
+      "fetchedAt": "2026-07-21T17:19:36.187Z",
       "error": null
     },
     {
@@ -2286,7 +2282,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RKEvu6asHd4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:17.902Z",
+      "fetchedAt": "2026-07-21T17:19:35.998Z",
       "error": null
     },
     {
@@ -2351,7 +2347,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JV6dNBHveHY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.065Z",
+      "fetchedAt": "2026-07-21T17:19:36.081Z",
       "error": null
     },
     {
@@ -2416,7 +2412,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/L-QKiumLzO0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.078Z",
+      "fetchedAt": "2026-07-21T17:19:36.123Z",
       "error": null
     },
     {
@@ -2482,7 +2478,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.344Z",
+      "fetchedAt": "2026-07-21T17:19:36.283Z",
       "error": null
     },
     {
@@ -2548,7 +2544,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xedgBrcW8a0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.433Z",
+      "fetchedAt": "2026-07-21T17:19:36.283Z",
       "error": null
     },
     {
@@ -2614,7 +2610,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oa59A6xpZyg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.350Z",
+      "fetchedAt": "2026-07-21T17:19:36.368Z",
       "error": null
     },
     {
@@ -2679,7 +2675,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.239Z",
+      "fetchedAt": "2026-07-21T17:19:36.290Z",
       "error": null
     },
     {
@@ -2689,6 +2685,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Fortify Admin Accounts: UNBREAKABLE MFA for Privileged Roles #shorts",
+          "link": "https://www.youtube.com/shorts/73N-CL4IeC4",
+          "pubDate": "2026-07-21T15:01:26.000Z",
+          "summary": "Full video: https://youtu.be/6y8UdDp9fyA Protect your most critical accounts like Global Administrators and Security Administrators. This policy enforces MFA on every sign-in, with no exceptions for trusted locations or devices. Every login is verified. #Microsoft #EntraID #CyberSecurity #Entra #MFA",
+          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/73N-CL4IeC4/hqdefault.jpg"
+        },
         {
           "title": "Global Admins Locked Out? The Break Glass Account Solution! #shorts",
           "link": "https://www.youtube.com/shorts/XCsN13-7Mw8",
@@ -2732,20 +2739,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/zuAcA_l4zD4/hqdefault.jpg"
-        },
-        {
-          "title": "Avoid Lockout: Essential Conditional Access Policy Tip! #shorts",
-          "link": "https://www.youtube.com/shorts/q5mVXMiIar8",
-          "pubDate": "2026-07-11T17:58:28.000Z",
-          "summary": "Full Video: https://youtu.be/zmisKsvbtQY Setting up Conditional Access? A policy misconfiguration could lock everyone out, including admins. Always exclude a backup account to prevent lockout scenarios. #Microsoft #EntraID #CloudSecurity #Azure #MFA #ZeroTrust #MVPBuzz",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/q5mVXMiIar8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.596Z",
+      "fetchedAt": "2026-07-21T17:19:36.507Z",
       "error": null
     },
     {
@@ -2810,7 +2806,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.581Z",
+      "fetchedAt": "2026-07-21T17:19:36.527Z",
       "error": null
     },
     {
@@ -2875,7 +2871,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.595Z",
+      "fetchedAt": "2026-07-21T17:19:36.450Z",
       "error": null
     },
     {
@@ -2940,7 +2936,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.580Z",
+      "fetchedAt": "2026-07-21T17:19:36.511Z",
       "error": null
     },
     {
@@ -3005,7 +3001,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.885Z",
+      "fetchedAt": "2026-07-21T17:19:36.620Z",
       "error": null
     },
     {
@@ -3070,7 +3066,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.907Z",
+      "fetchedAt": "2026-07-21T17:19:36.679Z",
       "error": null
     },
     {
@@ -3135,7 +3131,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.602Z",
+      "fetchedAt": "2026-07-21T17:19:36.615Z",
       "error": null
     },
     {
@@ -3164,6 +3160,15 @@
           "type": "official"
         },
         {
+          "title": "The complete guide to Citrix to Azure Virtual Desktop migration",
+          "link": "https://getnerdio.com/guide/citrix-to-avd-migration/",
+          "pubDate": "2026-07-21T17:17:44.000Z",
+          "summary": "Blog The complete guide to Citrix to Azure Virtual Desktop migration A five-phase Citrix to AVD migration guide: assessment, architecture,… The post The complete guide to Citrix to Azure Virtual Desktop migration appeared first on Nerdio. ]]>",
+          "author": "GrowthX Editor",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "The offboarding step you forgot is your next security incident",
           "link": "https://getnerdio.com/blog/the-offboarding-step-you-forgot-is-your-next-security-incident/",
           "pubDate": "2026-07-21T13:00:54.000Z",
@@ -3180,18 +3185,9 @@
           "author": "GrowthX Editor",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "The Citrix exit playbook: Real talk from a UK MSP",
-          "link": "https://getnerdio.com/on-demand-webinar/the-citrix-exit-playbook-real-talk-from-a-uk-msp/",
-          "pubDate": "2026-07-15T21:06:18.000Z",
-          "summary": "ON-DEMAND WEBINAR The Citrix exit playbook: Real talk from a UK MSP Most MSPs still on Citrix know the clock… The post The Citrix exit playbook: Real talk from a UK MSP appeared first on Nerdio. ]]>",
-          "author": "Lauren Purdy",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.766Z",
+      "fetchedAt": "2026-07-21T17:19:38.133Z",
       "error": null
     },
     {
@@ -3201,7 +3197,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-21T13:50:19.076Z",
+      "fetchedAt": "2026-07-21T17:19:38.365Z",
       "error": null
     },
     {
@@ -3267,7 +3263,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:19.836Z",
+      "fetchedAt": "2026-07-21T17:19:38.957Z",
       "error": null
     },
     {
@@ -3323,7 +3319,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:18.956Z",
+      "fetchedAt": "2026-07-21T17:19:38.207Z",
       "error": null
     },
     {
@@ -3337,7 +3333,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
+          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
           "author": "",
           "categories": [],
           "type": "official"
@@ -3352,7 +3348,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:19.232Z",
+      "fetchedAt": "2026-07-21T17:19:38.474Z",
       "error": null
     },
     {
@@ -3408,7 +3404,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:19.878Z",
+      "fetchedAt": "2026-07-21T17:19:38.972Z",
       "error": null
     },
     {
@@ -3418,7 +3414,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-21T13:50:19.916Z",
+      "fetchedAt": "2026-07-21T17:19:39.246Z",
       "error": null
     },
     {
@@ -3474,7 +3470,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:19.853Z",
+      "fetchedAt": "2026-07-21T17:19:38.979Z",
       "error": null
     },
     {
@@ -3494,7 +3490,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:19.858Z",
+      "fetchedAt": "2026-07-21T17:19:38.985Z",
       "error": null
     },
     {
@@ -3504,6 +3500,15 @@
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
       "items": [
+        {
+          "title": "AI deleted a production database. Prevent this with AI Governance.",
+          "link": "https://www.jamf.com/blog/ai-coding-agent-deleted-production-database/",
+          "pubDate": null,
+          "summary": "Recently, an AI coding agent deleted a production database — a failure that can be avoided by proper configuration. Jamf's AI Governance locks down which permissions AI agents can reach across your fleet before a misconfiguration becomes an incident. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "AI in K-12: Practical use cases schools are already using",
           "link": "https://www.jamf.com/blog/ai-in-k12-practical-use-cases/",
@@ -3539,18 +3544,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "5 security gaps hiding in plain sight across your Apple fleet",
-          "link": "https://www.jamf.com/blog/mac-security-gaps-apple-fleet/",
-          "pubDate": null,
-          "summary": "Whether you’re starting from scratch or adding Apple devices to your existing tech stack, managing and securing your growing Apple fleet can be a challenge. Discover five common Mac security gaps before they turn into bigger problems. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:24.683Z",
+      "fetchedAt": "2026-07-21T17:19:43.640Z",
       "error": null
     },
     {
@@ -3606,7 +3602,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:20.858Z",
+      "fetchedAt": "2026-07-21T17:19:39.860Z",
       "error": null
     },
     {
@@ -3661,7 +3657,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:20.010Z",
+      "fetchedAt": "2026-07-21T17:19:39.370Z",
       "error": null
     },
     {
@@ -3716,7 +3712,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:19.985Z",
+      "fetchedAt": "2026-07-21T17:19:39.388Z",
       "error": null
     },
     {
@@ -3781,7 +3777,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-21T13:50:25.274Z",
+      "fetchedAt": "2026-07-21T17:19:44.569Z",
       "error": null
     }
   ]
