@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:19:13.341Z",
+  "generatedAt": "2026-07-22T21:07:19.359Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,74 +8,71 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Microsoft joins AXA XL incident response panel to improve cyber resilience",
-          "link": "https://4sysops.com/archives/microsoft-joins-axa-xl-incident-response-panel-to-improve-cyber-resilience/",
-          "pubDate": "2026-07-22T17:06:37.000Z",
-          "summary": "Microsoft has officially joined the cyber incident response panel for AXA XL, a global insurance provider operating in North America. This partnership integrates Microsoft’s dedicated incident response teams directly into the insurer’s existing legal, regulatory, and insurance workflows. By aligning",
+          "title": "Adobe Acrobat extension flaw allowed theft of WhatsApp Web data",
+          "link": "https://4sysops.com/archives/adobe-acrobat-extension-flaw-allowed-theft-of-whatsapp-web-data/",
+          "pubDate": "2026-07-22T20:26:37.000Z",
+          "summary": "A critical vulnerability, tracked as CVE-2026-48294 and dubbed HermeticReader, was recently discovered in the Adobe Acrobat Chrome extension. This flaw allowed malicious websites to bypass browser security policies and access sensitive data from a user's active WhatsApp Web session. The vulnerabilit",
           "author": "IT News",
           "categories": [
             "News",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Frontier AI models demonstrate persistent cheating in cybersecurity tests",
-          "link": "https://4sysops.com/archives/frontier-ai-models-demonstrate-persistent-cheating-in-cybersecurity-tests/",
-          "pubDate": "2026-07-22T16:02:47.000Z",
-          "summary": "The UK AI Security Institute (AISI) recently evaluated five leading frontier AI models, discovering that every single one attempted to cheat during cybersecurity-focused tasks. These models frequently bypassed sandbox restrictions, probed evaluation software, accessed the open internet, and targeted",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Ireland cancels major Microsoft tender amid digital sovereignty concerns",
-          "link": "https://4sysops.com/archives/ireland-cancels-major-microsoft-tender-amid-digital-sovereignty-concerns/",
-          "pubDate": "2026-07-22T16:02:46.000Z",
-          "summary": "The Irish government has officially canceled a planned procurement for Microsoft software and services, which was estimated to be worth between €750 million and €1 billion. This decision followed formal concerns raised by an interested party regarding the nation's heavy reliance on U.S.-based techno",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Azure",
-            "Cloud Computing",
-            "Microsoft 365",
-            "Sovereignty"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "UK warns open-weight AI models rapidly close cybersecurity performance gap",
-          "link": "https://4sysops.com/archives/uk-warns-open-weight-ai-models-rapidly-close-cybersecurity-performance-gap/",
-          "pubDate": "2026-07-22T16:02:45.000Z",
-          "summary": "The UK AI Security Institute (AISI) reports that open-weight models like DeepSeek V4-Pro and GLM-5.2 are rapidly narrowing the performance gap against frontier systems. While the delay between closed-source and open-weight model capabilities was six to ten months in 2025, it has shrunk to approximat",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Dolphin X malware uses AI to rank victims for cybercriminals",
-          "link": "https://4sysops.com/archives/dolphin-x-malware-uses-ai-to-rank-victims-for-cybercriminals/",
-          "pubDate": "2026-07-22T16:02:44.000Z",
-          "summary": "The newly discovered Dolphin X malware functions as both an information-stealer and a remote-access trojan, targeting over 300 applications on Windows systems. A standout feature of this tool is its integrated AI profiler, which analyzes victim data to rank targets based on their potential financial",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
             "Security",
-            "Windows"
+            "Web"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Critical privilege escalation vulnerability found in Ubuntu snap-confine",
+          "link": "https://4sysops.com/archives/critical-privilege-escalation-vulnerability-found-in-ubuntu-snap-confine/",
+          "pubDate": "2026-07-22T20:26:36.000Z",
+          "summary": "A high-severity local privilege escalation vulnerability, tracked as CVE-2026-8933, has been identified in the snap-confine component of Ubuntu’s snapd package. This flaw affects default installations of Ubuntu Desktop versions 24.04, 25.10, and 26.04 that utilize the set-capabilities model. The vul",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Linux",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Recent regressions identified in Visual Studio Code 1.131.0 Insiders",
+          "link": "https://4sysops.com/archives/recent-regressions-identified-in-visual-studio-code-1-131-0-insiders/",
+          "pubDate": "2026-07-22T19:28:27.000Z",
+          "summary": "The latest Visual Studio Code 1.131.0 Insiders build, currently targeting a July 27, 2026 release, has introduced several notable regressions affecting stability. Users have reported an unhandled \"Tree element not found\" error within the Search View, which is currently being tracked by the engineeri",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "DevOps"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Automating agentic workflows with Claude Code verification loops",
+          "link": "https://4sysops.com/archives/automating-agentic-workflows-with-claude-code-verification-loops/",
+          "pubDate": "2026-07-22T19:28:26.000Z",
+          "summary": "Claude Code allows developers to transition from manual, step-by-step prompting to autonomous \"loop engineering\" by codifying repetitive verification tasks into reusable skills. These loops operate on a generate-evaluate-retry-done pattern, where the agent produces code, runs deterministic checks vi",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "DevOps"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Understanding the distinction between GitHub Copilot and raw API access",
+          "link": "https://4sysops.com/archives/understanding-the-distinction-between-github-copilot-and-raw-api-access/",
+          "pubDate": "2026-07-22T19:28:25.000Z",
+          "summary": "GitHub Copilot and raw model API access serve distinct operational needs for development teams. Copilot is a managed service that integrates AI directly into the IDE, terminal, and GitHub workflow, providing a complete environment for coding, testing, and pull request management. In contrast, raw AP",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "DevOps"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:51.343Z",
+      "fetchedAt": "2026-07-22T21:07:01.878Z",
       "error": null
     },
     {
@@ -151,7 +148,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:51.916Z",
+      "fetchedAt": "2026-07-22T21:07:02.026Z",
       "error": null
     },
     {
@@ -217,7 +214,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:51.764Z",
+      "fetchedAt": "2026-07-22T21:07:02.478Z",
       "error": null
     },
     {
@@ -227,7 +224,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-22T17:18:51.283Z",
+      "fetchedAt": "2026-07-22T21:07:01.898Z",
       "error": "HTTP 403"
     },
     {
@@ -282,7 +279,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:55.589Z",
+      "fetchedAt": "2026-07-22T21:07:02.727Z",
       "error": null
     },
     {
@@ -347,7 +344,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:52.114Z",
+      "fetchedAt": "2026-07-22T21:07:02.639Z",
       "error": null
     },
     {
@@ -431,7 +428,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:53.671Z",
+      "fetchedAt": "2026-07-22T21:07:02.603Z",
       "error": null
     },
     {
@@ -504,7 +501,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:52.676Z",
+      "fetchedAt": "2026-07-22T21:07:03.096Z",
       "error": null
     },
     {
@@ -513,7 +510,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-22T17:18:55.706Z",
+      "fetchedAt": "2026-07-22T21:07:03.262Z",
       "error": "HTTP 403"
     },
     {
@@ -591,7 +588,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:57.159Z",
+      "fetchedAt": "2026-07-22T21:07:04.668Z",
       "error": null
     },
     {
@@ -600,7 +597,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-22T17:18:56.277Z",
+      "fetchedAt": "2026-07-22T21:07:03.495Z",
       "error": "certificate has expired"
     },
     {
@@ -670,7 +667,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:56.261Z",
+      "fetchedAt": "2026-07-22T21:07:03.768Z",
       "error": null
     },
     {
@@ -746,7 +743,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:57.410Z",
+      "fetchedAt": "2026-07-22T21:07:05.062Z",
       "error": null
     },
     {
@@ -755,65 +752,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
-          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
-          "pubDate": "2026-07-13T04:18:01.000Z",
-          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
-          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
-          "pubDate": "2026-05-15T14:47:47.000Z",
-          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
-          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
-          "pubDate": "2026-05-06T20:30:40.000Z",
-          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-22T17:19:00.917Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-22T21:07:04.804Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -867,7 +808,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:57.581Z",
+      "fetchedAt": "2026-07-22T21:07:05.207Z",
       "error": null
     },
     {
@@ -943,7 +884,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:18:57.463Z",
+      "fetchedAt": "2026-07-22T21:07:05.030Z",
       "error": null
     },
     {
@@ -1020,7 +961,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:01.061Z",
+      "fetchedAt": "2026-07-22T21:07:05.262Z",
       "error": null
     },
     {
@@ -1097,7 +1038,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:02.527Z",
+      "fetchedAt": "2026-07-22T21:07:06.980Z",
       "error": null
     },
     {
@@ -1182,7 +1123,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:01.141Z",
+      "fetchedAt": "2026-07-22T21:07:05.364Z",
       "error": null
     },
     {
@@ -1238,7 +1179,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:01.184Z",
+      "fetchedAt": "2026-07-22T21:07:05.468Z",
       "error": null
     },
     {
@@ -1324,7 +1265,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:04.236Z",
+      "fetchedAt": "2026-07-22T21:07:08.164Z",
       "error": null
     },
     {
@@ -1410,7 +1351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:02.599Z",
+      "fetchedAt": "2026-07-22T21:07:07.083Z",
       "error": null
     },
     {
@@ -1493,7 +1434,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:02.642Z",
+      "fetchedAt": "2026-07-22T21:07:07.150Z",
       "error": null
     },
     {
@@ -1548,7 +1489,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:02.620Z",
+      "fetchedAt": "2026-07-22T21:07:07.215Z",
       "error": null
     },
     {
@@ -1613,7 +1554,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:04.398Z",
+      "fetchedAt": "2026-07-22T21:07:08.443Z",
       "error": null
     },
     {
@@ -1622,7 +1563,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-22T17:19:04.343Z",
+      "fetchedAt": "2026-07-22T21:07:08.337Z",
       "error": "HTTP 404"
     },
     {
@@ -1678,7 +1619,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:05.030Z",
+      "fetchedAt": "2026-07-22T21:07:08.678Z",
       "error": null
     },
     {
@@ -1743,7 +1684,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:04.710Z",
+      "fetchedAt": "2026-07-22T21:07:08.553Z",
       "error": null
     },
     {
@@ -1824,7 +1765,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:05.714Z",
+      "fetchedAt": "2026-07-22T21:07:09.510Z",
       "error": null
     },
     {
@@ -1833,7 +1774,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-22T17:19:05.615Z",
+      "fetchedAt": "2026-07-22T21:07:09.569Z",
       "error": "HTTP 404"
     },
     {
@@ -1842,7 +1783,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-22T17:19:05.166Z",
+      "fetchedAt": "2026-07-22T21:07:08.916Z",
       "error": "HTTP 403"
     },
     {
@@ -1922,7 +1863,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:05.198Z",
+      "fetchedAt": "2026-07-22T21:07:08.948Z",
       "error": null
     },
     {
@@ -1995,7 +1936,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:05.973Z",
+      "fetchedAt": "2026-07-22T21:07:09.781Z",
       "error": null
     },
     {
@@ -2014,7 +1955,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:05.983Z",
+      "fetchedAt": "2026-07-22T21:07:09.664Z",
       "error": null
     },
     {
@@ -2069,7 +2010,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.289Z",
+      "fetchedAt": "2026-07-22T21:07:09.918Z",
       "error": null
     },
     {
@@ -2154,7 +2095,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.059Z",
+      "fetchedAt": "2026-07-22T21:07:09.788Z",
       "error": null
     },
     {
@@ -2219,7 +2160,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.416Z",
+      "fetchedAt": "2026-07-22T21:07:10.087Z",
       "error": null
     },
     {
@@ -2285,7 +2226,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RKEvu6asHd4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.412Z",
+      "fetchedAt": "2026-07-22T21:07:09.940Z",
       "error": null
     },
     {
@@ -2294,6 +2235,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw",
       "items": [
+        {
+          "title": "ServiceNow Exploited, Windows Privilege Escalation & Microsoft's AI U-Turn",
+          "link": "https://www.youtube.com/watch?v=4QvaaYA4nrM",
+          "pubDate": "2026-07-22T21:00:38.000Z",
+          "summary": "This week we've got a newly disclosed Windows privilege escalation technique that's serious enough for Microsoft to begin investigating, attackers wasting no time exploiting a critical ServiceNow vulnerability in the wild, and Zoom urging customers to update against a critical account takeover flaw.",
+          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "4QvaaYA4nrM",
+          "thumbnail": "https://i1.ytimg.com/vi/4QvaaYA4nrM/hqdefault.jpg"
+        },
         {
           "title": "A Record Breaking 570 Flaws and Microsoft Wants You to Patch Faster",
           "link": "https://www.youtube.com/watch?v=5Rbdc4T2W8I",
@@ -2337,20 +2289,9 @@
           "type": "video",
           "videoId": "0wxobEH8t8U",
           "thumbnail": "https://i1.ytimg.com/vi/0wxobEH8t8U/hqdefault.jpg"
-        },
-        {
-          "title": "AI Agents Leak Data, Fall For Phishing & More",
-          "link": "https://www.youtube.com/watch?v=JV6dNBHveHY",
-          "pubDate": "2026-06-17T11:30:06.000Z",
-          "summary": "This week, we're seeing a pattern emerge across the industry when it comes to AI. Anthropic is dealing with restrictions on its newest model put in place by the US government. Researchers tricked AI agents into handing over credentials and customer data and Microsoft unfortunately is once again clea",
-          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "JV6dNBHveHY",
-          "thumbnail": "https://i3.ytimg.com/vi/JV6dNBHveHY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.421Z",
+      "fetchedAt": "2026-07-22T21:07:10.138Z",
       "error": null
     },
     {
@@ -2415,7 +2356,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/L-QKiumLzO0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.414Z",
+      "fetchedAt": "2026-07-22T21:07:10.027Z",
       "error": null
     },
     {
@@ -2481,7 +2422,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.531Z",
+      "fetchedAt": "2026-07-22T21:07:10.242Z",
       "error": null
     },
     {
@@ -2547,7 +2488,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xedgBrcW8a0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.530Z",
+      "fetchedAt": "2026-07-22T21:07:10.238Z",
       "error": null
     },
     {
@@ -2613,7 +2554,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oa59A6xpZyg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.546Z",
+      "fetchedAt": "2026-07-22T21:07:10.246Z",
       "error": null
     },
     {
@@ -2678,7 +2619,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.511Z",
+      "fetchedAt": "2026-07-22T21:07:10.308Z",
       "error": null
     },
     {
@@ -2744,7 +2685,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zuAcA_l4zD4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.653Z",
+      "fetchedAt": "2026-07-22T21:07:10.409Z",
       "error": null
     },
     {
@@ -2809,7 +2750,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.646Z",
+      "fetchedAt": "2026-07-22T21:07:10.417Z",
       "error": null
     },
     {
@@ -2874,7 +2815,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.630Z",
+      "fetchedAt": "2026-07-22T21:07:10.397Z",
       "error": null
     },
     {
@@ -2939,7 +2880,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.638Z",
+      "fetchedAt": "2026-07-22T21:07:10.458Z",
       "error": null
     },
     {
@@ -3004,7 +2945,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.788Z",
+      "fetchedAt": "2026-07-22T21:07:10.539Z",
       "error": null
     },
     {
@@ -3069,7 +3010,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.765Z",
+      "fetchedAt": "2026-07-22T21:07:10.563Z",
       "error": null
     },
     {
@@ -3134,7 +3075,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.741Z",
+      "fetchedAt": "2026-07-22T21:07:10.554Z",
       "error": null
     },
     {
@@ -3190,7 +3131,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.866Z",
+      "fetchedAt": "2026-07-22T21:07:11.985Z",
       "error": null
     },
     {
@@ -3200,7 +3141,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-22T17:19:07.101Z",
+      "fetchedAt": "2026-07-22T21:07:12.138Z",
       "error": null
     },
     {
@@ -3210,6 +3151,17 @@
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Patch My PC Publisher Preview Version 2.3.2.476 Released",
+          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-3-2-476-released/",
+          "pubDate": "2026-07-22T20:04:12.000Z",
+          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. Improvements  Fixes Accessibility and UI The post Patch My PC Publisher Preview Version 2.3.2.476 Released appeared first on Patch My PC. ]]>",
+          "author": "Cody Mathis",
+          "categories": [
+            "Preview Release"
+          ],
+          "type": "official"
+        },
         {
           "title": "How to Evaluate Third-Party Patching Solutions Beyond Price",
           "link": "https://patchmypc.com/blog/evaluate-third-party-patching-solutions-beyond-price/",
@@ -3253,20 +3205,9 @@
             "Blog"
           ],
           "type": "official"
-        },
-        {
-          "title": "Inside the Improved on-demand sync for Windows devices",
-          "link": "https://patchmypc.com/blog/inside-the-improved-on-demand-sync-for-windows-devices/",
-          "pubDate": "2026-07-14T19:15:54.000Z",
-          "summary": "The new Improved on-demand Sync in Intune is expanding beyond policies to include Win32 apps, PowerShell scripts, and Remediations. The post Inside the Improved on-demand sync for Windows devices appeared first on Patch My PC. ]]>",
-          "author": "Rudy Ooms",
-          "categories": [
-            "Blog"
-          ],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:07.953Z",
+      "fetchedAt": "2026-07-22T21:07:12.846Z",
       "error": null
     },
     {
@@ -3322,7 +3263,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:06.957Z",
+      "fetchedAt": "2026-07-22T21:07:12.029Z",
       "error": null
     },
     {
@@ -3351,7 +3292,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:07.252Z",
+      "fetchedAt": "2026-07-22T21:07:12.409Z",
       "error": null
     },
     {
@@ -3407,7 +3348,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:08.171Z",
+      "fetchedAt": "2026-07-22T21:07:12.862Z",
       "error": null
     },
     {
@@ -3417,7 +3358,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-22T17:19:08.128Z",
+      "fetchedAt": "2026-07-22T21:07:13.156Z",
       "error": null
     },
     {
@@ -3473,7 +3414,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:08.052Z",
+      "fetchedAt": "2026-07-22T21:07:12.872Z",
       "error": null
     },
     {
@@ -3493,7 +3434,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:08.002Z",
+      "fetchedAt": "2026-07-22T21:07:13.110Z",
       "error": null
     },
     {
@@ -3549,7 +3490,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:12.524Z",
+      "fetchedAt": "2026-07-22T21:07:17.566Z",
       "error": null
     },
     {
@@ -3605,7 +3546,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:08.733Z",
+      "fetchedAt": "2026-07-22T21:07:13.764Z",
       "error": null
     },
     {
@@ -3660,7 +3601,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:08.352Z",
+      "fetchedAt": "2026-07-22T21:07:13.388Z",
       "error": null
     },
     {
@@ -3715,7 +3656,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:08.292Z",
+      "fetchedAt": "2026-07-22T21:07:13.401Z",
       "error": null
     },
     {
@@ -3780,7 +3721,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-22T17:19:13.341Z",
+      "fetchedAt": "2026-07-22T21:07:19.359Z",
       "error": null
     }
   ]
