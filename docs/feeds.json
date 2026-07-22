@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T21:09:22.740Z",
+  "generatedAt": "2026-07-22T02:39:02.203Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,37 +8,24 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Disable SSO permission prompts in Windows 11",
-          "link": "https://4sysops.com/archives/disable-sso-permission-prompts-in-windows-11/",
-          "pubDate": "2026-07-21T20:58:59.000Z",
-          "summary": "Microsoft recently introduced a new registry policy that allows you to automatically approve single sign-on (SSO) permissions on managed Windows devices. This change addresses recent regulatory updates in the European Economic Area (EEA) that require users to explicitly consent to using their Window",
-          "author": "IT Experts",
-          "categories": [
-            "Articles",
-            "Security",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft and Mistral expand partnership to boost European AI infrastructure",
-          "link": "https://4sysops.com/archives/microsoft-and-mistral-expand-partnership-to-boost-european-ai-infrastructure/",
-          "pubDate": "2026-07-21T20:50:50.000Z",
-          "summary": "Microsoft has committed a multibillion-dollar investment to support Mistral AI in constructing new data center infrastructure across Europe. This expanded partnership aims to accelerate the deployment of advanced AI models while addressing regional demands for data control and regulatory compliance.",
+          "title": "Should the US ban Chinese open-source AI models?",
+          "link": "https://4sysops.com/archives/should-the-us-ban-chinese-open-source-ai-models/",
+          "pubDate": "2026-07-21T22:17:00.000Z",
+          "summary": "Chinese open-source AI as a policy flashpoint The video centers on the release of Kimmy K3, a Chinese open-source model presented as comparable to leading models from OpenAI and Anthropic. That performance has triggered debate over whether the US should block or restrict Chinese open-weight AI syste",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Azure",
+            "Security",
             "Sovereignty"
           ],
           "type": "rss"
         },
         {
-          "title": "OpenAI prepares for federal oversight of upcoming AI models",
-          "link": "https://4sysops.com/archives/openai-prepares-for-federal-oversight-of-upcoming-ai-models/",
-          "pubDate": "2026-07-21T20:50:49.000Z",
-          "summary": "OpenAI CEO Sam Altman is scheduled to meet with the Trump administration and members of Congress next week to discuss the company's next generation of artificial intelligence models. These briefings are intended to provide transparency as the U.S. government finalizes a formal framework for safety r",
+          "title": "OpenAI and Hugging Face contain agent-driven exploit during model testing",
+          "link": "https://4sysops.com/archives/openai-and-hugging-face-contain-agent-driven-exploit-during-model-testing/",
+          "pubDate": "2026-07-21T21:30:36.000Z",
+          "summary": "OpenAI and Hugging Face jointly responded to a security incident that occurred during an internal model evaluation focused on advanced cyber capabilities. The evaluation used reduced safety guardrails so the models could attempt complex, multi-step exploitation paths and reveal worst-case behavior. ",
           "author": "IT News",
           "categories": [
             "News",
@@ -48,31 +35,46 @@
           "type": "rss"
         },
         {
-          "title": "Microsoft confirms final end date for Exchange Server 2016 and 2019 support",
-          "link": "https://4sysops.com/archives/microsoft-confirms-final-end-date-for-exchange-server-2016-and-2019-support/",
-          "pubDate": "2026-07-21T20:50:48.000Z",
-          "summary": "Microsoft has officially confirmed that the Extended Security Update (ESU) program for Exchange Server 2016 and 2019 will conclude in October 2026. Despite previous adjustments that led to a second period of coverage, the company stated there will be no further extensions beyond this date. Once this",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "OpenAI launches ChatGPT for small business program with GPT-5.6",
-          "link": "https://4sysops.com/archives/openai-launches-chatgpt-for-small-business-program-with-gpt-5-6/",
-          "pubDate": "2026-07-21T20:50:47.000Z",
-          "summary": "OpenAI has introduced a new initiative designed to help small businesses scale operations by leveraging the capabilities of ChatGPT Work. This program provides lean teams with specialized resources, including virtual training webinars and in-person AI academies held across the United States. Partici",
+          "title": "Microsoft evaluates Chinese AI model integration to reduce Copilot costs",
+          "link": "https://4sysops.com/archives/microsoft-evaluates-chinese-ai-model-integration-to-reduce-copilot-costs/",
+          "pubDate": "2026-07-21T21:21:12.000Z",
+          "summary": "Microsoft is exploring the integration of Moonshot AI’s Kimi K3 model into its Copilot service as a potential replacement for current offerings from OpenAI and Anthropic. Internal projections suggest that transitioning to this model could yield up to $600 million in savings on inference expenses. Th",
           "author": "IT News",
           "categories": [
             "News",
             "AI"
           ],
           "type": "rss"
+        },
+        {
+          "title": "Google develops Frozen v2 chip to hardwire Gemini architecture into silicon",
+          "link": "https://4sysops.com/archives/google-develops-frozen-v2-chip-to-hardwire-gemini-architecture-into-silicon/",
+          "pubDate": "2026-07-21T21:21:11.000Z",
+          "summary": "Google is developing a specialized server chip, internally codenamed \"Frozen v2,\" designed to embed the structural blueprint of its Gemini AI model directly into silicon. By hard-wiring the model’s core architectural logic into the hardware, the chip aims to eliminate the compute overhead and data m",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Google Cloud",
+            "Hardware"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft integrates Copilot into Windows 11 File Explorer and Settings",
+          "link": "https://4sysops.com/archives/microsoft-integrates-copilot-into-windows-11-file-explorer-and-settings/",
+          "pubDate": "2026-07-21T21:21:10.000Z",
+          "summary": "Microsoft is expanding the presence of Copilot within the Windows 11 ecosystem by introducing a dedicated button directly into the File Explorer Home interface. This new feature aims to allow users to initiate AI-powered analysis of selected files through a quick-action hover menu. While currently i",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Windows"
+          ],
+          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:05.332Z",
+      "fetchedAt": "2026-07-22T02:38:46.457Z",
       "error": null
     },
     {
@@ -80,76 +82,9 @@
       "label": "petervanderwoude.nl",
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
-      "items": [
-        {
-          "title": "Customizing the power options in Start layout",
-          "link": "https://petervanderwoude.nl/post/customizing-the-power-options-in-start-layout/",
-          "pubDate": "2026-07-06T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Getting started with Android Enterprise personally owned devices with work profile",
-          "link": "https://petervanderwoude.nl/post/getting-started-with-android-enterprise-personally-owned-devices-with-work-profile/",
-          "pubDate": "2026-06-29T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Android",
-            "Android Enterprise",
-            "Android Enterprise personally-owned work profile",
-            "Microsoft Intune"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Customizing the account settings in Start layout",
-          "link": "https://petervanderwoude.nl/post/customizing-the-account-settings-in-start-layout/",
-          "pubDate": "2026-06-22T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Microsoft Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Turning off account notifications in Start and multi-app kiosk mode",
-          "link": "https://petervanderwoude.nl/post/turning-off-account-notifications-in-start-and-multi-app-kiosk-mode/",
-          "pubDate": "2026-06-15T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Kiosk",
-            "Microsoft Intune",
-            "Multi-app kiosk",
-            "Windows 11"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Hiding the recommended section from the Start layout and multi-app kiosk mode",
-          "link": "https://petervanderwoude.nl/post/hiding-the-recommended-section-from-the-start-layout-and-multi-app-kiosk-mode/",
-          "pubDate": "2026-06-08T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "Peter van der Woude",
-          "categories": [
-            "Kiosk",
-            "Microsoft Intune",
-            "Multi-app kiosk",
-            "Windows 11"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-21T21:09:05.627Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-22T02:38:46.524Z",
+      "error": "HTTP 415"
     },
     {
       "id": "andrewstaylor",
@@ -214,7 +149,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:06.036Z",
+      "fetchedAt": "2026-07-22T02:38:47.128Z",
       "error": null
     },
     {
@@ -224,7 +159,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-21T21:09:05.184Z",
+      "fetchedAt": "2026-07-22T02:38:46.250Z",
       "error": "HTTP 403"
     },
     {
@@ -279,7 +214,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:06.184Z",
+      "fetchedAt": "2026-07-22T02:38:47.354Z",
       "error": null
     },
     {
@@ -344,7 +279,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:06.370Z",
+      "fetchedAt": "2026-07-22T02:38:47.672Z",
       "error": null
     },
     {
@@ -428,7 +363,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:06.244Z",
+      "fetchedAt": "2026-07-22T02:38:47.366Z",
       "error": null
     },
     {
@@ -501,7 +436,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:06.908Z",
+      "fetchedAt": "2026-07-22T02:38:48.111Z",
       "error": null
     },
     {
@@ -510,7 +445,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-21T21:09:07.007Z",
+      "fetchedAt": "2026-07-22T02:38:48.216Z",
       "error": "HTTP 403"
     },
     {
@@ -588,7 +523,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:08.593Z",
+      "fetchedAt": "2026-07-22T02:38:49.741Z",
       "error": null
     },
     {
@@ -597,7 +532,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-21T21:09:07.289Z",
+      "fetchedAt": "2026-07-22T02:38:48.486Z",
       "error": "certificate has expired"
     },
     {
@@ -667,7 +602,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:07.688Z",
+      "fetchedAt": "2026-07-22T02:38:48.844Z",
       "error": null
     },
     {
@@ -743,7 +678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:08.918Z",
+      "fetchedAt": "2026-07-22T02:38:50.385Z",
       "error": null
     },
     {
@@ -809,7 +744,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:09.597Z",
+      "fetchedAt": "2026-07-22T02:38:50.421Z",
       "error": null
     },
     {
@@ -864,7 +799,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:09.071Z",
+      "fetchedAt": "2026-07-22T02:38:50.303Z",
       "error": null
     },
     {
@@ -940,7 +875,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:08.991Z",
+      "fetchedAt": "2026-07-22T02:38:50.137Z",
       "error": null
     },
     {
@@ -1017,7 +952,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:09.792Z",
+      "fetchedAt": "2026-07-22T02:38:50.580Z",
       "error": null
     },
     {
@@ -1025,77 +960,9 @@
       "label": "ccmexec.com - Jörgen Nilsson",
       "type": "rss",
       "url": "https://ccmexec.com/feed/",
-      "items": [
-        {
-          "title": "Microsoft Intune Endpoint Privilege Management – Overview",
-          "link": "https://ccmexec.com/2026/06/microsoft-intune-endpoint-privilege-management-overview/",
-          "pubDate": "2026-06-14T14:44:18.000Z",
-          "summary": "Microsoft Intune Endpoint Privilege Management has been around for a couple of years now and address the challenge of removing local administrative privileges for users without interrupting productivity.In December 2025 Microsoft announced that they will add Microsoft Intune Endpoint Privilege Manag",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "Configuration Manager"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "MMUGSE – Summer 2026 meetup",
-          "link": "https://ccmexec.com/2026/06/mmugse-summer-2026-meetup/",
-          "pubDate": "2026-06-10T06:03:41.000Z",
-          "summary": "On the 18th of June 2026 we will host a Microsoft Management User Group (MMUGSE) Meetup. We have a great session and speaker lineup for the day! MMUGSE Agenda 18/6Agenda:8:30 -9:30 Device Management update – Jörgen Nilsson & Nicklas AhlbergVi summerar de senaste nyheterna inom device management, Win",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "General",
-            "Intune",
-            "Meetup",
-            "MMUGSE",
-            "User Group"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows Backup for Organization – trigger backup using remediation",
-          "link": "https://ccmexec.com/2026/03/windows-backup-for-organization-trigger-backup-with-remediation/",
-          "pubDate": "2026-03-12T22:28:38.000Z",
-          "summary": "Windows Backup for Organizations is one of my favourite new features as it saves time for the end-users setting up their device after a restore or when they switch computer. For the end-user this is great and together with Onedrive known folder move and Enterprise State roaming the experience is gre",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "Intune",
-            "Windows 11",
-            "Intune remediation",
-            "Windows Backup for Ogranizations"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Creating better Driver update groups",
-          "link": "https://ccmexec.com/2026/01/creating-better-driver-update-groups/",
-          "pubDate": "2026-01-27T07:10:37.000Z",
-          "summary": "When working with Driver Updates in Intune creating groups with different models are a challenge, which we will look at. But let’s start with having a look at how driver updates in Intune works.I for one use driver updates as a mean of having an easy way of blocking a Driver update if it causes... T",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "Intune",
-            "Driver Updates",
-            "Intune Driver Updates"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 11 initial Start Menu with Intune",
-          "link": "https://ccmexec.com/2025/12/windows-11-initial-start-menu-with-intune/",
-          "pubDate": "2025-12-10T13:41:11.000Z",
-          "summary": "I have written more than more blog post on how to customize the Start Menu on Windows 10 and 11 using scripts and/or policies. I had to write a post on the new option we have of doing it. Now we have the possibility to use Intune to push out an initial Start Menu where... The post Windows 11 initial",
-          "author": "Jörgen Nilsson",
-          "categories": [
-            "Intune",
-            "Windows 11",
-            "Customize Windows 11 Start Menu",
-            "Start Menu"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-21T21:09:11.857Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-22T02:38:51.039Z",
+      "error": "HTTP 415"
     },
     {
       "id": "krebs",
@@ -1103,6 +970,21 @@
       "type": "rss",
       "url": "https://krebsonsecurity.com/feed/",
       "items": [
+        {
+          "title": "LG to Ban Residential Proxies from Smart TV Apps",
+          "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+          "pubDate": "2026-07-22T01:10:38.000Z",
+          "summary": "",
+          "author": "BrianKrebs",
+          "categories": [
+            "A Little Sunshine",
+            "Internet of Things (IoT)",
+            "The Coming Storm",
+            "Bright Data",
+            "John Taylor"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Microsoft Patches a Record 570 Security Flaws",
           "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
@@ -1162,24 +1044,9 @@
             "Benjamin Brundage"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-          "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-          "pubDate": "2026-06-23T16:12:49.000Z",
-          "summary": "",
-          "author": "BrianKrebs",
-          "categories": [
-            "Ne'er-Do-Well News",
-            "Ransomware",
-            "BBC",
-            "Everlynn",
-            "Owen Flowers"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:10.000Z",
+      "fetchedAt": "2026-07-22T02:38:50.784Z",
       "error": null
     },
     {
@@ -1235,7 +1102,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:10.053Z",
+      "fetchedAt": "2026-07-22T02:38:50.847Z",
       "error": null
     },
     {
@@ -1321,7 +1188,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:13.003Z",
+      "fetchedAt": "2026-07-22T02:38:52.194Z",
       "error": null
     },
     {
@@ -1407,7 +1274,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:11.981Z",
+      "fetchedAt": "2026-07-22T02:38:51.168Z",
       "error": null
     },
     {
@@ -1490,7 +1357,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:12.064Z",
+      "fetchedAt": "2026-07-22T02:38:51.311Z",
       "error": null
     },
     {
@@ -1545,7 +1412,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:12.261Z",
+      "fetchedAt": "2026-07-22T02:38:51.443Z",
       "error": null
     },
     {
@@ -1610,7 +1477,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:13.197Z",
+      "fetchedAt": "2026-07-22T02:38:52.461Z",
       "error": null
     },
     {
@@ -1619,7 +1486,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-21T21:09:13.155Z",
+      "fetchedAt": "2026-07-22T02:38:52.398Z",
       "error": "HTTP 404"
     },
     {
@@ -1628,55 +1495,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://conditionalaccess.uk/blog/feed/",
-      "items": [
-        {
-          "title": "Microsoft 365 Business Standard vs Business Premium",
-          "link": "https://conditionalaccess.uk/blog/microsoft-365-business-standard-vs-business-premium/",
-          "pubDate": "2026-07-07T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Should I use Autopilot Device Preparation?",
-          "link": "https://conditionalaccess.uk/blog/should-i-use-autopilot-device-preparation/",
-          "pubDate": "2026-07-01T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft 365 Tenant Security Checklist",
-          "link": "https://conditionalaccess.uk/blog/m365-tenant-security-checklist/",
-          "pubDate": "2026-06-20T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft Defender is good enough",
-          "link": "https://conditionalaccess.uk/blog/microsoft-defender-is-good-enough/",
-          "pubDate": "2026-06-11T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "What's included in M365 Business Premium?",
-          "link": "https://conditionalaccess.uk/blog/whats-included-in-m365-business-premium/",
-          "pubDate": "2026-03-12T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-21T21:09:13.609Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-22T02:38:52.634Z",
+      "error": "HTTP 415"
     },
     {
       "id": "kandji",
@@ -1740,7 +1561,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:13.773Z",
+      "fetchedAt": "2026-07-22T02:38:53.201Z",
       "error": null
     },
     {
@@ -1821,7 +1642,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:14.628Z",
+      "fetchedAt": "2026-07-22T02:38:53.900Z",
       "error": null
     },
     {
@@ -1830,7 +1651,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-21T21:09:14.721Z",
+      "fetchedAt": "2026-07-22T02:38:54.400Z",
       "error": "HTTP 404"
     },
     {
@@ -1839,7 +1660,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-21T21:09:13.949Z",
+      "fetchedAt": "2026-07-22T02:38:53.466Z",
       "error": "HTTP 403"
     },
     {
@@ -1919,7 +1740,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:14.040Z",
+      "fetchedAt": "2026-07-22T02:38:53.595Z",
       "error": null
     },
     {
@@ -1992,7 +1813,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:14.958Z",
+      "fetchedAt": "2026-07-22T02:38:54.727Z",
       "error": null
     },
     {
@@ -2011,7 +1832,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:14.924Z",
+      "fetchedAt": "2026-07-22T02:38:54.551Z",
       "error": null
     },
     {
@@ -2019,55 +1840,9 @@
       "label": "z-nerd.com - Nathan Ziehnert",
       "type": "rss",
       "url": "https://z-nerd.com/index.xml",
-      "items": [
-        {
-          "title": "Advent of Code 2025 - Day Five",
-          "link": "https://z-nerd.com/posts/2026/04/03/aoc-2025-day-five/",
-          "pubDate": "2026-04-03T00:00:00.000Z",
-          "summary": "You gotta pump those numbers up. Those are rookie numbers.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Advent of Code 2025 - Day Four",
-          "link": "https://z-nerd.com/posts/2026/03/27/aoc-2025-day-four/",
-          "pubDate": "2026-03-27T00:00:00.000Z",
-          "summary": "Killed my streak last week. Forgot to blog while curling. Dang.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Keeping The Streak: Just Under The Wire. Something, Something, Error Handling.",
-          "link": "https://z-nerd.com/posts/2026/03/13/just-under-the-wire/",
-          "pubDate": "2026-03-13T00:00:00.000Z",
-          "summary": "We spend a bit of time this week talking about error handling in PowerShell. All because I spent the day staring at roller coaster procedures and electronics instead of the animals at Seaworld.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Advent of Code 2025 - Day Three",
-          "link": "https://z-nerd.com/posts/2026/03/06/aoc-2025-day-three/",
-          "pubDate": "2026-03-06T00:00:00.000Z",
-          "summary": "Electrical surges. Should have bought a bigger surge protector.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Advent of Code 2025 - Day Two",
-          "link": "https://z-nerd.com/posts/2026/02/27/aoc-2025-day-two/",
-          "pubDate": "2026-02-27T00:00:00.000Z",
-          "summary": "Kids are dumb. Adults who let kids play on production systems are dumber.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-21T21:09:15.219Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-22T02:38:54.901Z",
+      "error": "HTTP 415"
     },
     {
       "id": "jorgeasaur",
@@ -2151,7 +1926,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.116Z",
+      "fetchedAt": "2026-07-22T02:38:54.822Z",
       "error": null
     },
     {
@@ -2216,7 +1991,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.360Z",
+      "fetchedAt": "2026-07-22T02:38:55.078Z",
       "error": null
     },
     {
@@ -2282,7 +2057,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RKEvu6asHd4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.374Z",
+      "fetchedAt": "2026-07-22T02:38:54.981Z",
       "error": null
     },
     {
@@ -2347,7 +2122,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JV6dNBHveHY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.581Z",
+      "fetchedAt": "2026-07-22T02:38:55.125Z",
       "error": null
     },
     {
@@ -2412,7 +2187,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/L-QKiumLzO0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.379Z",
+      "fetchedAt": "2026-07-22T02:38:55.152Z",
       "error": null
     },
     {
@@ -2478,7 +2253,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.705Z",
+      "fetchedAt": "2026-07-22T02:38:55.406Z",
       "error": null
     },
     {
@@ -2544,7 +2319,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xedgBrcW8a0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.696Z",
+      "fetchedAt": "2026-07-22T02:38:55.287Z",
       "error": null
     },
     {
@@ -2610,7 +2385,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oa59A6xpZyg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.705Z",
+      "fetchedAt": "2026-07-22T02:38:55.371Z",
       "error": null
     },
     {
@@ -2675,7 +2450,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.737Z",
+      "fetchedAt": "2026-07-22T02:38:55.313Z",
       "error": null
     },
     {
@@ -2741,7 +2516,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zuAcA_l4zD4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.862Z",
+      "fetchedAt": "2026-07-22T02:38:55.593Z",
       "error": null
     },
     {
@@ -2806,7 +2581,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2RvAZiga1UY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.933Z",
+      "fetchedAt": "2026-07-22T02:38:55.598Z",
       "error": null
     },
     {
@@ -2871,7 +2646,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.858Z",
+      "fetchedAt": "2026-07-22T02:38:55.580Z",
       "error": null
     },
     {
@@ -2936,7 +2711,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:15.910Z",
+      "fetchedAt": "2026-07-22T02:38:55.524Z",
       "error": null
     },
     {
@@ -3001,7 +2776,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:16.055Z",
+      "fetchedAt": "2026-07-22T02:38:55.786Z",
       "error": null
     },
     {
@@ -3066,7 +2841,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:16.153Z",
+      "fetchedAt": "2026-07-22T02:38:55.781Z",
       "error": null
     },
     {
@@ -3131,7 +2906,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:16.044Z",
+      "fetchedAt": "2026-07-22T02:38:55.747Z",
       "error": null
     },
     {
@@ -3187,7 +2962,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:16.272Z",
+      "fetchedAt": "2026-07-22T02:38:55.917Z",
       "error": null
     },
     {
@@ -3197,7 +2972,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-21T21:09:16.443Z",
+      "fetchedAt": "2026-07-22T02:38:56.013Z",
       "error": null
     },
     {
@@ -3263,7 +3038,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:17.011Z",
+      "fetchedAt": "2026-07-22T02:38:56.844Z",
       "error": null
     },
     {
@@ -3319,7 +3094,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:16.316Z",
+      "fetchedAt": "2026-07-22T02:38:55.963Z",
       "error": null
     },
     {
@@ -3348,7 +3123,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:16.851Z",
+      "fetchedAt": "2026-07-22T02:38:56.279Z",
       "error": null
     },
     {
@@ -3404,7 +3179,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:17.403Z",
+      "fetchedAt": "2026-07-22T02:38:56.857Z",
       "error": null
     },
     {
@@ -3414,7 +3189,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-21T21:09:17.174Z",
+      "fetchedAt": "2026-07-22T02:38:57.002Z",
       "error": null
     },
     {
@@ -3470,7 +3245,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:17.040Z",
+      "fetchedAt": "2026-07-22T02:38:56.864Z",
       "error": null
     },
     {
@@ -3490,7 +3265,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:17.202Z",
+      "fetchedAt": "2026-07-22T02:38:57.011Z",
       "error": null
     },
     {
@@ -3546,7 +3321,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:21.924Z",
+      "fetchedAt": "2026-07-22T02:39:01.525Z",
       "error": null
     },
     {
@@ -3602,7 +3377,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:18.156Z",
+      "fetchedAt": "2026-07-22T02:38:57.768Z",
       "error": null
     },
     {
@@ -3611,6 +3386,15 @@
       "type": "audio",
       "url": "https://feeds.simplecast.com/cRTTfxcT",
       "items": [
+        {
+          "title": "Security Begins at Procurement with Jessie Schofer",
+          "link": "https://runasradio.com/Shows/Show/1046",
+          "pubDate": "2026-07-22T00:00:00.000Z",
+          "summary": "Bringing new software or SaaS into your organization is a security risk - how do you assess it? Richard chats with Jessie Schofer about her experiences in HR software acquisition, which led to the creation of secureless.ai. Jessie tells the story of evaluating various SaaS and other software product",
+          "author": "info@runasradio.com (Richard Campbell, Jessie Schofer)",
+          "categories": [],
+          "type": "audio"
+        },
         {
           "title": "Finding Security Vulnerabilities using AI with Sami Laiho",
           "link": "https://runasradio.com/Shows/Show/1045",
@@ -3646,18 +3430,9 @@
           "author": "info@runasradio.com (Richard Campbell, Tanya Janca)",
           "categories": [],
           "type": "audio"
-        },
-        {
-          "title": "47 Day Certificates with Todd Gardner",
-          "link": "https://runasradio.com/Shows/Show/1041",
-          "pubDate": "2026-06-17T00:00:00.000Z",
-          "summary": "The 47-day certificate is coming! While at NDC in Toronto, Richard received an update from Todd Gardner about his show last year: certificate authorities are moving toward SSL certificates that last only 47 days! Todd talks about the first decrease in duration that has already passed - as of March 2",
-          "author": "info@runasradio.com (Richard Campbell, Todd Gardner)",
-          "categories": [],
-          "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:17.718Z",
+      "fetchedAt": "2026-07-22T02:38:57.397Z",
       "error": null
     },
     {
@@ -3712,7 +3487,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:17.663Z",
+      "fetchedAt": "2026-07-22T02:38:57.282Z",
       "error": null
     },
     {
@@ -3777,7 +3552,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-21T21:09:22.740Z",
+      "fetchedAt": "2026-07-22T02:39:02.203Z",
       "error": null
     }
   ]
