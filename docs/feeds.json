@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T10:22:45.118Z",
+  "generatedAt": "2026-07-23T13:59:23.843Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,37 +8,36 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Managing permissions creep in the Microsoft Graph PowerShell SDK",
-          "link": "https://4sysops.com/archives/managing-permissions-creep-in-the-microsoft-graph-powershell-sdk/",
-          "pubDate": "2026-07-23T10:11:53.000Z",
-          "summary": "The Microsoft Graph PowerShell SDK relies on a service principal to manage delegated permissions, which are granted during interactive sessions via the `Connect-MgGraph` cmdlet. Over time, administrators often accumulate excessive permissions, a phenomenon known as permissions creep, as new scopes a",
+          "title": "Chaos ransomware uses browser-based C2 to evade network detection",
+          "link": "https://4sysops.com/archives/chaos-ransomware-uses-browser-based-c2-to-evade-network-detection/",
+          "pubDate": "2026-07-23T13:32:15.000Z",
+          "summary": "The Chaos ransomware group has deployed a new Rust-based remote access trojan, msaRAT, which disguises command-and-control traffic by routing it through legitimate web browsers. By launching Chrome or Microsoft Edge in headless mode with remote debugging enabled, the malware utilizes the Chrome DevT",
           "author": "IT News",
           "categories": [
             "News",
-            "DevOps",
-            "Microsoft 365",
-            "PowerShell",
-            "Security"
+            "Security",
+            "Web"
           ],
           "type": "rss"
         },
         {
-          "title": "Critical authentication bypass in Check Point SmartConsole under active exploitation",
-          "link": "https://4sysops.com/archives/critical-authentication-bypass-in-check-point-smartconsole-under-active-exploitation/",
-          "pubDate": "2026-07-23T10:11:52.000Z",
-          "summary": "Check Point has disclosed a critical zero-day vulnerability, tracked as CVE-2026-16232, affecting its SmartConsole GUI admin panel. This flaw allows unauthenticated remote attackers to obtain an application login token, granting them full administrative control over Security Management and Multi-Dom",
+          "title": "Mozilla releases Firefox 153 and Thunderbird 153 as new ESR versions",
+          "link": "https://4sysops.com/archives/mozilla-releases-firefox-153-and-thunderbird-153-as-new-esr-versions/",
+          "pubDate": "2026-07-23T13:32:14.000Z",
+          "summary": "Mozilla has launched Firefox 153, which serves as the latest Extended Support Release (ESR) and introduces native support for Multi-Account Containers. This feature allows users to isolate credentials and browsing sessions into distinct categories, such as work and personal, directly within the brow",
           "author": "IT News",
           "categories": [
             "News",
-            "Security"
+            "Security",
+            "Web"
           ],
           "type": "rss"
         },
         {
-          "title": "Managing the Windows 11 update toggle to prevent unwanted installations",
-          "link": "https://4sysops.com/archives/managing-the-windows-11-update-toggle-to-prevent-unwanted-installations/",
-          "pubDate": "2026-07-23T10:11:51.000Z",
-          "summary": "The \"Get the latest updates as soon as they’re available\" toggle in Windows 11 settings is designed to prioritize devices for early access to non-security patches and feature rollouts. While this setting helps users receive enhancements faster, it also causes the automatic installation of out-of-ban",
+          "title": "Microsoft forces LG to stop pushing McAfee ads via Windows Update",
+          "link": "https://4sysops.com/archives/microsoft-forces-lg-to-stop-pushing-mcafee-ads-via-windows-update/",
+          "pubDate": "2026-07-23T13:32:13.000Z",
+          "summary": "LG has agreed to disable McAfee trial advertisements within its \"LG Monitor App Installer\" following significant public backlash and intervention from Microsoft leadership. The software, which was silently installed on user systems via the Windows Update hardware-support mechanism, triggered persist",
           "author": "IT News",
           "categories": [
             "News",
@@ -47,32 +46,34 @@
           "type": "rss"
         },
         {
-          "title": "Microsoft addresses Exchange Online mailbox quarantine incident",
-          "link": "https://4sysops.com/archives/microsoft-addresses-exchange-online-mailbox-quarantine-incident/",
-          "pubDate": "2026-07-23T10:11:50.000Z",
-          "summary": "Microsoft is currently resolving a service incident, tracked as EX1436407, which has caused Exchange Online mailboxes to be incorrectly quarantined since July 19. The issue stems from a recent infrastructure change that triggered excessive memory consumption during indexing, leading to an out-of-mem",
+          "title": "Critical RefluXFS vulnerability allows local privilege escalation on XFS filesystems",
+          "link": "https://4sysops.com/archives/critical-refluxfs-vulnerability-allows-local-privilege-escalation-on-xfs-filesystems/",
+          "pubDate": "2026-07-23T13:32:12.000Z",
+          "summary": "The RefluXFS vulnerability, tracked as CVE-2026-64600, is a serious race-condition flaw residing in the Linux kernel’s XFS filesystem copy-on-write path. Affecting kernel versions 4.11 and later, the bug allows an unprivileged local user to overwrite protected system files by exploiting a timing win",
           "author": "IT News",
           "categories": [
             "News",
-            "Microsoft 365"
+            "Linux",
+            "Security",
+            "Storage"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft Edge introduces AI-driven Copilot automation and tab management",
-          "link": "https://4sysops.com/archives/microsoft-edge-introduces-ai-driven-copilot-automation-and-tab-management/",
-          "pubDate": "2026-07-23T10:11:49.000Z",
-          "summary": "Microsoft Edge Beta has introduced a new \"Actions\" mode for Copilot, enabling users to perform browser-based tasks through natural language commands. This feature allows the AI to manage tab layouts by closing specific tabs, opening multiple websites simultaneously, and organizing related pages into",
+          "title": "Compromised GitHub repositories weaponized to attack cPanel and WHM servers",
+          "link": "https://4sysops.com/archives/compromised-github-repositories-weaponized-to-attack-cpanel-and-whm-servers/",
+          "pubDate": "2026-07-23T13:32:11.000Z",
+          "summary": "Attackers have compromised numerous GitHub repositories to deploy malicious GitHub Actions workflows that function as a distributed attack platform. These automated workflows trigger GitHub-hosted runners to download Linux payloads from a centralized command-and-control server. The primary objective",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "Web"
+            "DevOps",
+            "Security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:22.986Z",
+      "fetchedAt": "2026-07-23T13:59:03.705Z",
       "error": null
     },
     {
@@ -148,7 +149,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:23.148Z",
+      "fetchedAt": "2026-07-23T13:59:03.927Z",
       "error": null
     },
     {
@@ -214,7 +215,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:23.699Z",
+      "fetchedAt": "2026-07-23T13:59:04.444Z",
       "error": null
     },
     {
@@ -224,7 +225,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-23T10:22:22.768Z",
+      "fetchedAt": "2026-07-23T13:59:03.494Z",
       "error": "HTTP 403"
     },
     {
@@ -279,7 +280,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:23.860Z",
+      "fetchedAt": "2026-07-23T13:59:04.589Z",
       "error": null
     },
     {
@@ -344,7 +345,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:24.042Z",
+      "fetchedAt": "2026-07-23T13:59:04.757Z",
       "error": null
     },
     {
@@ -428,7 +429,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:23.895Z",
+      "fetchedAt": "2026-07-23T13:59:04.615Z",
       "error": null
     },
     {
@@ -501,7 +502,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:24.640Z",
+      "fetchedAt": "2026-07-23T13:59:05.343Z",
       "error": null
     },
     {
@@ -510,7 +511,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-23T10:22:24.938Z",
+      "fetchedAt": "2026-07-23T13:59:05.484Z",
       "error": "HTTP 403"
     },
     {
@@ -588,7 +589,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:26.375Z",
+      "fetchedAt": "2026-07-23T13:59:07.080Z",
       "error": null
     },
     {
@@ -597,7 +598,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-23T10:22:25.093Z",
+      "fetchedAt": "2026-07-23T13:59:05.746Z",
       "error": "certificate has expired"
     },
     {
@@ -667,7 +668,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:25.629Z",
+      "fetchedAt": "2026-07-23T13:59:06.151Z",
       "error": null
     },
     {
@@ -743,7 +744,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:26.628Z",
+      "fetchedAt": "2026-07-23T13:59:07.491Z",
       "error": null
     },
     {
@@ -809,7 +810,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:27.412Z",
+      "fetchedAt": "2026-07-23T13:59:07.859Z",
       "error": null
     },
     {
@@ -864,7 +865,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:26.805Z",
+      "fetchedAt": "2026-07-23T13:59:07.486Z",
       "error": null
     },
     {
@@ -940,7 +941,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:26.735Z",
+      "fetchedAt": "2026-07-23T13:59:07.440Z",
       "error": null
     },
     {
@@ -1015,7 +1016,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:27.641Z",
+      "fetchedAt": "2026-07-23T13:59:08.038Z",
       "error": null
     },
     {
@@ -1092,7 +1093,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:29.203Z",
+      "fetchedAt": "2026-07-23T13:59:09.964Z",
       "error": null
     },
     {
@@ -1177,7 +1178,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:27.764Z",
+      "fetchedAt": "2026-07-23T13:59:08.089Z",
       "error": null
     },
     {
@@ -1233,7 +1234,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:27.775Z",
+      "fetchedAt": "2026-07-23T13:59:08.159Z",
       "error": null
     },
     {
@@ -1319,7 +1320,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:30.431Z",
+      "fetchedAt": "2026-07-23T13:59:11.051Z",
       "error": null
     },
     {
@@ -1405,7 +1406,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:29.327Z",
+      "fetchedAt": "2026-07-23T13:59:10.072Z",
       "error": null
     },
     {
@@ -1488,7 +1489,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:29.411Z",
+      "fetchedAt": "2026-07-23T13:59:10.203Z",
       "error": null
     },
     {
@@ -1543,7 +1544,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:29.554Z",
+      "fetchedAt": "2026-07-23T13:59:10.303Z",
       "error": null
     },
     {
@@ -1608,7 +1609,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:30.708Z",
+      "fetchedAt": "2026-07-23T13:59:11.477Z",
       "error": null
     },
     {
@@ -1617,7 +1618,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-23T10:22:30.675Z",
+      "fetchedAt": "2026-07-23T13:59:11.363Z",
       "error": "HTTP 404"
     },
     {
@@ -1673,7 +1674,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:30.972Z",
+      "fetchedAt": "2026-07-23T13:59:11.575Z",
       "error": null
     },
     {
@@ -1738,7 +1739,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:31.241Z",
+      "fetchedAt": "2026-07-23T13:59:11.823Z",
       "error": null
     },
     {
@@ -1819,7 +1820,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.097Z",
+      "fetchedAt": "2026-07-23T13:59:13.376Z",
       "error": null
     },
     {
@@ -1828,7 +1829,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-23T10:22:32.195Z",
+      "fetchedAt": "2026-07-23T13:59:12.924Z",
       "error": "HTTP 404"
     },
     {
@@ -1837,7 +1838,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-23T10:22:31.433Z",
+      "fetchedAt": "2026-07-23T13:59:12.047Z",
       "error": "HTTP 403"
     },
     {
@@ -1917,7 +1918,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:31.570Z",
+      "fetchedAt": "2026-07-23T13:59:12.095Z",
       "error": null
     },
     {
@@ -1990,7 +1991,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.435Z",
+      "fetchedAt": "2026-07-23T13:59:13.679Z",
       "error": null
     },
     {
@@ -2009,7 +2010,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.476Z",
+      "fetchedAt": "2026-07-23T13:59:13.566Z",
       "error": null
     },
     {
@@ -2064,7 +2065,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.623Z",
+      "fetchedAt": "2026-07-23T13:59:13.766Z",
       "error": null
     },
     {
@@ -2149,7 +2150,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.634Z",
+      "fetchedAt": "2026-07-23T13:59:13.843Z",
       "error": null
     },
     {
@@ -2214,7 +2215,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.843Z",
+      "fetchedAt": "2026-07-23T13:59:14.425Z",
       "error": null
     },
     {
@@ -2280,7 +2281,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RKEvu6asHd4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.879Z",
+      "fetchedAt": "2026-07-23T13:59:14.355Z",
       "error": null
     },
     {
@@ -2345,7 +2346,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0wxobEH8t8U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.895Z",
+      "fetchedAt": "2026-07-23T13:59:14.404Z",
       "error": null
     },
     {
@@ -2410,7 +2411,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/L-QKiumLzO0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:33.903Z",
+      "fetchedAt": "2026-07-23T13:59:14.454Z",
       "error": null
     },
     {
@@ -2476,7 +2477,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.119Z",
+      "fetchedAt": "2026-07-23T13:59:14.593Z",
       "error": null
     },
     {
@@ -2486,6 +2487,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
       "items": [
+        {
+          "title": "How to Enable Enterprise App Management Auto-Updates in Intune",
+          "link": "https://www.youtube.com/watch?v=tb-pqlYUkZk",
+          "pubDate": "2026-07-23T13:17:48.000Z",
+          "summary": "Microsoft Intune Enterprise App Management auto-updates are now generally available. In this video I show you how to enable automatic updates for Enterprise App Catalog apps in Intune, so your Win32 apps stay on the latest version without manual packaging or supersedence. We cover what Enterprise Ap",
+          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "tb-pqlYUkZk",
+          "thumbnail": "https://i1.ytimg.com/vi/tb-pqlYUkZk/hqdefault.jpg"
+        },
         {
           "title": "How to Enable the New Device View in Microsoft Intune",
           "link": "https://www.youtube.com/watch?v=xKSJ70iRWOI",
@@ -2529,20 +2541,9 @@
           "type": "video",
           "videoId": "HkNBWrl08uI",
           "thumbnail": "https://i1.ytimg.com/vi/HkNBWrl08uI/hqdefault.jpg"
-        },
-        {
-          "title": "Secure mobile apps without Intune enrollment",
-          "link": "https://www.youtube.com/shorts/xedgBrcW8a0",
-          "pubDate": "2026-06-18T17:55:01.000Z",
-          "summary": "Learn how to implement Intune app protection policies to secure corporate data without Intune enrollment.",
-          "author": "<name>Get Rubix</name>\n   <uri>https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/xedgBrcW8a0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.172Z",
+      "fetchedAt": "2026-07-23T13:59:14.602Z",
       "error": null
     },
     {
@@ -2608,7 +2609,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oa59A6xpZyg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.114Z",
+      "fetchedAt": "2026-07-23T13:59:14.764Z",
       "error": null
     },
     {
@@ -2673,7 +2674,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.193Z",
+      "fetchedAt": "2026-07-23T13:59:14.741Z",
       "error": null
     },
     {
@@ -2739,7 +2740,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GzfklqDwz-0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.347Z",
+      "fetchedAt": "2026-07-23T13:59:14.942Z",
       "error": null
     },
     {
@@ -2751,7 +2752,7 @@
         {
           "title": "7/22/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
           "link": "https://www.youtube.com/watch?v=WRKgptD-d4Y",
-          "pubDate": "2026-07-22T21:31:22.000Z",
+          "pubDate": "2026-07-23T10:22:41.000Z",
           "summary": "Join us for Q&A and a roundtable discussion on anything related to Windows deployment, MDT, ConfigMgr, or Microsoft Intune. We bring the experts; you bring the questions. With co-hosts Johan Arwidmark and Andrew Johnson. LINKS BELOW ⬇️ 💥UPDATES ------------------------------------------------------",
           "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
           "categories": [],
@@ -2804,7 +2805,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QAhNsuIZ9qs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.416Z",
+      "fetchedAt": "2026-07-23T13:59:14.967Z",
       "error": null
     },
     {
@@ -2869,7 +2870,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.355Z",
+      "fetchedAt": "2026-07-23T13:59:14.941Z",
       "error": null
     },
     {
@@ -2934,7 +2935,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.336Z",
+      "fetchedAt": "2026-07-23T13:59:14.915Z",
       "error": null
     },
     {
@@ -2999,7 +3000,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.594Z",
+      "fetchedAt": "2026-07-23T13:59:15.240Z",
       "error": null
     },
     {
@@ -3064,7 +3065,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.622Z",
+      "fetchedAt": "2026-07-23T13:59:15.247Z",
       "error": null
     },
     {
@@ -3129,7 +3130,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:34.629Z",
+      "fetchedAt": "2026-07-23T13:59:15.217Z",
       "error": null
     },
     {
@@ -3185,7 +3186,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:36.318Z",
+      "fetchedAt": "2026-07-23T13:59:16.883Z",
       "error": null
     },
     {
@@ -3195,7 +3196,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-23T10:22:36.522Z",
+      "fetchedAt": "2026-07-23T13:59:17.182Z",
       "error": null
     },
     {
@@ -3261,7 +3262,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:37.159Z",
+      "fetchedAt": "2026-07-23T13:59:18.148Z",
       "error": null
     },
     {
@@ -3317,7 +3318,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:36.379Z",
+      "fetchedAt": "2026-07-23T13:59:16.933Z",
       "error": null
     },
     {
@@ -3331,7 +3332,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
+          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
           "author": "",
           "categories": [],
           "type": "official"
@@ -3346,7 +3347,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:36.829Z",
+      "fetchedAt": "2026-07-23T13:59:17.493Z",
       "error": null
     },
     {
@@ -3402,7 +3403,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:37.177Z",
+      "fetchedAt": "2026-07-23T13:59:18.166Z",
       "error": null
     },
     {
@@ -3412,7 +3413,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-23T10:22:37.445Z",
+      "fetchedAt": "2026-07-23T13:59:18.434Z",
       "error": null
     },
     {
@@ -3468,7 +3469,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:37.186Z",
+      "fetchedAt": "2026-07-23T13:59:18.164Z",
       "error": null
     },
     {
@@ -3488,7 +3489,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:37.222Z",
+      "fetchedAt": "2026-07-23T13:59:18.285Z",
       "error": null
     },
     {
@@ -3544,7 +3545,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:41.831Z",
+      "fetchedAt": "2026-07-23T13:59:22.839Z",
       "error": null
     },
     {
@@ -3600,7 +3601,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:38.241Z",
+      "fetchedAt": "2026-07-23T13:59:19.327Z",
       "error": null
     },
     {
@@ -3655,7 +3656,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:37.728Z",
+      "fetchedAt": "2026-07-23T13:59:18.876Z",
       "error": null
     },
     {
@@ -3710,7 +3711,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:37.645Z",
+      "fetchedAt": "2026-07-23T13:59:18.680Z",
       "error": null
     },
     {
@@ -3775,7 +3776,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-23T10:22:45.118Z",
+      "fetchedAt": "2026-07-23T13:59:23.843Z",
       "error": null
     }
   ]
