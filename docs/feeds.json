@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T13:59:23.843Z",
+  "generatedAt": "2026-07-23T17:23:00.246Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,72 +8,73 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Chaos ransomware uses browser-based C2 to evade network detection",
-          "link": "https://4sysops.com/archives/chaos-ransomware-uses-browser-based-c2-to-evade-network-detection/",
-          "pubDate": "2026-07-23T13:32:15.000Z",
-          "summary": "The Chaos ransomware group has deployed a new Rust-based remote access trojan, msaRAT, which disguises command-and-control traffic by routing it through legitimate web browsers. By launching Chrome or Microsoft Edge in headless mode with remote debugging enabled, the malware utilizes the Chrome DevT",
+          "title": "Microsoft and Databricks extend strategic partnership into the 2030s",
+          "link": "https://4sysops.com/archives/microsoft-and-databricks-extend-strategic-partnership-into-the-2030s/",
+          "pubDate": "2026-07-23T16:18:14.000Z",
+          "summary": "Microsoft and Databricks have announced a long-term extension of their strategic partnership, committing to collaboration through the 2030s. This agreement deepens Databricks' reliance on the Azure platform for its core business operations and the development of its unified data lakehouse. The initi",
           "author": "IT News",
           "categories": [
             "News",
-            "Security",
-            "Web"
+            "Azure",
+            "Cloud Computing"
           ],
           "type": "rss"
         },
         {
-          "title": "Mozilla releases Firefox 153 and Thunderbird 153 as new ESR versions",
-          "link": "https://4sysops.com/archives/mozilla-releases-firefox-153-and-thunderbird-153-as-new-esr-versions/",
-          "pubDate": "2026-07-23T13:32:14.000Z",
-          "summary": "Mozilla has launched Firefox 153, which serves as the latest Extended Support Release (ESR) and introduces native support for Multi-Account Containers. This feature allows users to isolate credentials and browsing sessions into distinct categories, such as work and personal, directly within the brow",
+          "title": "Security flaw in Claude Cowork allows AI agent to escape sandbox on macOS",
+          "link": "https://4sysops.com/archives/security-flaw-in-claude-cowork-allows-ai-agent-to-escape-sandbox-on-macos/",
+          "pubDate": "2026-07-23T16:18:13.000Z",
+          "summary": "A critical vulnerability known as SharedRoot allows AI agents within Anthropic’s Claude Cowork to break out of their Linux virtual machine sandbox on macOS. By exploiting a kernel flaw, an agent can gain unauthorized read and write access to the host file system, potentially exposing sensitive data ",
           "author": "IT News",
           "categories": [
             "News",
-            "Security",
-            "Web"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft forces LG to stop pushing McAfee ads via Windows Update",
-          "link": "https://4sysops.com/archives/microsoft-forces-lg-to-stop-pushing-mcafee-ads-via-windows-update/",
-          "pubDate": "2026-07-23T13:32:13.000Z",
-          "summary": "LG has agreed to disable McAfee trial advertisements within its \"LG Monitor App Installer\" following significant public backlash and intervention from Microsoft leadership. The software, which was silently installed on user systems via the Windows Update hardware-support mechanism, triggered persist",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Critical RefluXFS vulnerability allows local privilege escalation on XFS filesystems",
-          "link": "https://4sysops.com/archives/critical-refluxfs-vulnerability-allows-local-privilege-escalation-on-xfs-filesystems/",
-          "pubDate": "2026-07-23T13:32:12.000Z",
-          "summary": "The RefluXFS vulnerability, tracked as CVE-2026-64600, is a serious race-condition flaw residing in the Linux kernel’s XFS filesystem copy-on-write path. Affecting kernel versions 4.11 and later, the bug allows an unprivileged local user to overwrite protected system files by exploiting a timing win",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Linux",
-            "Security",
-            "Storage"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Compromised GitHub repositories weaponized to attack cPanel and WHM servers",
-          "link": "https://4sysops.com/archives/compromised-github-repositories-weaponized-to-attack-cpanel-and-whm-servers/",
-          "pubDate": "2026-07-23T13:32:11.000Z",
-          "summary": "Attackers have compromised numerous GitHub repositories to deploy malicious GitHub Actions workflows that function as a distributed attack platform. These automated workflows trigger GitHub-hosted runners to download Linux payloads from a centralized command-and-control server. The primary objective",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "DevOps",
+            "AI",
+            "Mac",
             "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Widespread Microsoft 365 outage impacts North American users",
+          "link": "https://4sysops.com/archives/widespread-microsoft-365-outage-impacts-north-american-users/",
+          "pubDate": "2026-07-23T16:18:12.000Z",
+          "summary": "On July 23, 2026, a significant service disruption began shortly after 10:30 a.m. ET, affecting a broad range of Microsoft platforms. Users across North America reported widespread issues accessing core services, including Microsoft 365, Teams, Outlook, SharePoint, OneDrive, and Azure. The outage al",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Microsoft 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft: Email threat landscape in Q2 2026",
+          "link": "https://4sysops.com/archives/microsoft-email-threat-landscape-in-q2-2026/",
+          "pubDate": "2026-07-23T16:18:11.000Z",
+          "summary": "The email threat landscape in Q2 2026 shifted toward trust-centric attacks, as adversaries increasingly leveraged AI-generated content, deepfake impersonations, and voice-phishing to bypass traditional security cues. While Microsoft’s disruption of the Tycoon2FA platform led to a 92% decline in asso",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Microsoft 365",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "AI is killing off IBM’s mainframe business",
+          "link": "https://4sysops.com/archives/ai-is-killing-off-ibms-mainframe-business/",
+          "pubDate": "2026-07-23T14:00:39.000Z",
+          "summary": "IBM’s latest quarter was hurt by a sharp drop in mainframe sales, and management said the decline came from customers shifting budgets into other data center hardware instead of buying new Z systems now. The company said the AI boom is inflating prices for servers, storage, memory, and PCs, which pu",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Hardware"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:03.705Z",
+      "fetchedAt": "2026-07-23T17:22:39.153Z",
       "error": null
     },
     {
@@ -149,7 +150,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:03.927Z",
+      "fetchedAt": "2026-07-23T17:22:39.393Z",
       "error": null
     },
     {
@@ -215,7 +216,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:04.444Z",
+      "fetchedAt": "2026-07-23T17:22:40.049Z",
       "error": null
     },
     {
@@ -225,7 +226,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-23T13:59:03.494Z",
+      "fetchedAt": "2026-07-23T17:22:38.842Z",
       "error": "HTTP 403"
     },
     {
@@ -280,7 +281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:04.589Z",
+      "fetchedAt": "2026-07-23T17:22:40.372Z",
       "error": null
     },
     {
@@ -345,7 +346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:04.757Z",
+      "fetchedAt": "2026-07-23T17:22:40.423Z",
       "error": null
     },
     {
@@ -429,7 +430,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:04.615Z",
+      "fetchedAt": "2026-07-23T17:22:40.210Z",
       "error": null
     },
     {
@@ -502,7 +503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:05.343Z",
+      "fetchedAt": "2026-07-23T17:22:41.111Z",
       "error": null
     },
     {
@@ -511,7 +512,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-23T13:59:05.484Z",
+      "fetchedAt": "2026-07-23T17:22:41.268Z",
       "error": "HTTP 403"
     },
     {
@@ -589,7 +590,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:07.080Z",
+      "fetchedAt": "2026-07-23T17:22:42.992Z",
       "error": null
     },
     {
@@ -598,7 +599,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-23T13:59:05.746Z",
+      "fetchedAt": "2026-07-23T17:22:41.544Z",
       "error": "certificate has expired"
     },
     {
@@ -668,7 +669,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:06.151Z",
+      "fetchedAt": "2026-07-23T17:22:42.038Z",
       "error": null
     },
     {
@@ -744,7 +745,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:07.491Z",
+      "fetchedAt": "2026-07-23T17:22:43.573Z",
       "error": null
     },
     {
@@ -810,7 +811,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:07.859Z",
+      "fetchedAt": "2026-07-23T17:22:43.614Z",
       "error": null
     },
     {
@@ -865,7 +866,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:07.486Z",
+      "fetchedAt": "2026-07-23T17:22:43.328Z",
       "error": null
     },
     {
@@ -941,7 +942,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:07.440Z",
+      "fetchedAt": "2026-07-23T17:22:44.145Z",
       "error": null
     },
     {
@@ -1016,7 +1017,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:08.038Z",
+      "fetchedAt": "2026-07-23T17:22:44.326Z",
       "error": null
     },
     {
@@ -1093,7 +1094,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:09.964Z",
+      "fetchedAt": "2026-07-23T17:22:46.154Z",
       "error": null
     },
     {
@@ -1178,7 +1179,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:08.089Z",
+      "fetchedAt": "2026-07-23T17:22:44.401Z",
       "error": null
     },
     {
@@ -1234,7 +1235,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:08.159Z",
+      "fetchedAt": "2026-07-23T17:22:44.660Z",
       "error": null
     },
     {
@@ -1320,7 +1321,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:11.051Z",
+      "fetchedAt": "2026-07-23T17:22:47.163Z",
       "error": null
     },
     {
@@ -1406,7 +1407,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:10.072Z",
+      "fetchedAt": "2026-07-23T17:22:46.249Z",
       "error": null
     },
     {
@@ -1489,7 +1490,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:10.203Z",
+      "fetchedAt": "2026-07-23T17:22:46.590Z",
       "error": null
     },
     {
@@ -1544,7 +1545,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:10.303Z",
+      "fetchedAt": "2026-07-23T17:22:46.643Z",
       "error": null
     },
     {
@@ -1609,7 +1610,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:11.477Z",
+      "fetchedAt": "2026-07-23T17:22:47.383Z",
       "error": null
     },
     {
@@ -1618,7 +1619,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-23T13:59:11.363Z",
+      "fetchedAt": "2026-07-23T17:22:47.387Z",
       "error": "HTTP 404"
     },
     {
@@ -1674,7 +1675,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:11.575Z",
+      "fetchedAt": "2026-07-23T17:22:47.722Z",
       "error": null
     },
     {
@@ -1739,7 +1740,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:11.823Z",
+      "fetchedAt": "2026-07-23T17:22:47.848Z",
       "error": null
     },
     {
@@ -1820,7 +1821,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:13.376Z",
+      "fetchedAt": "2026-07-23T17:22:48.694Z",
       "error": null
     },
     {
@@ -1829,7 +1830,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-23T13:59:12.924Z",
+      "fetchedAt": "2026-07-23T17:22:48.903Z",
       "error": "HTTP 404"
     },
     {
@@ -1838,7 +1839,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-23T13:59:12.047Z",
+      "fetchedAt": "2026-07-23T17:22:48.042Z",
       "error": "HTTP 403"
     },
     {
@@ -1909,16 +1910,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
-            "Security",
             "UEFI",
             "Windows 10",
-            "windows 11",
-            "Windows Server"
+            "Windows Server",
+            "Security",
+            "windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:12.095Z",
+      "fetchedAt": "2026-07-23T17:22:48.175Z",
       "error": null
     },
     {
@@ -1991,7 +1992,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:13.679Z",
+      "fetchedAt": "2026-07-23T17:22:49.182Z",
       "error": null
     },
     {
@@ -2010,7 +2011,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:13.566Z",
+      "fetchedAt": "2026-07-23T17:22:49.097Z",
       "error": null
     },
     {
@@ -2065,7 +2066,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:13.766Z",
+      "fetchedAt": "2026-07-23T17:22:49.669Z",
       "error": null
     },
     {
@@ -2150,7 +2151,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:13.843Z",
+      "fetchedAt": "2026-07-23T17:22:49.357Z",
       "error": null
     },
     {
@@ -2215,7 +2216,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.425Z",
+      "fetchedAt": "2026-07-23T17:22:50.017Z",
       "error": null
     },
     {
@@ -2225,6 +2226,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "Quick Introduction to Windows Sandbox",
+          "link": "https://www.youtube.com/watch?v=v7crnKhSLws",
+          "pubDate": "2026-07-23T15:38:26.000Z",
+          "summary": "Run to run some app or process in an isolated environment fast, Windows Sandbox could be your best friend! ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:25 - Windows Sandbox (WSB) 01:17 - Installing 01:39 - Architecture 02:47 - Customizing the environment 04:36 - Documentation and command ",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "v7crnKhSLws",
+          "thumbnail": "https://i3.ytimg.com/vi/v7crnKhSLws/hqdefault.jpg"
+        },
         {
           "title": "Microsoft IQ Overview",
           "link": "https://www.youtube.com/watch?v=LrIS9lcSbko",
@@ -2268,20 +2280,9 @@
           "type": "video",
           "videoId": "6bIsgofHE_c",
           "thumbnail": "https://i3.ytimg.com/vi/6bIsgofHE_c/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Monitor Health Model Overview",
-          "link": "https://www.youtube.com/watch?v=RKEvu6asHd4",
-          "pubDate": "2026-07-08T14:17:36.000Z",
-          "summary": "Overview of Copilot Cowork usage-based billing. How to estimate, plan, control and observe. ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:06 - Resource health challenges 01:34 - Azure Health Models 06:41 - Demo 11:23 - Summary 11:46 - Close ▬▬▬▬▬▬ Want to learn more? 🚀 ▬▬▬▬▬▬ 📖 Recommend",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "RKEvu6asHd4",
-          "thumbnail": "https://i3.ytimg.com/vi/RKEvu6asHd4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.355Z",
+      "fetchedAt": "2026-07-23T17:22:50.091Z",
       "error": null
     },
     {
@@ -2346,7 +2347,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0wxobEH8t8U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.404Z",
+      "fetchedAt": "2026-07-23T17:22:50.109Z",
       "error": null
     },
     {
@@ -2411,7 +2412,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/L-QKiumLzO0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.454Z",
+      "fetchedAt": "2026-07-23T17:22:50.107Z",
       "error": null
     },
     {
@@ -2477,7 +2478,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.593Z",
+      "fetchedAt": "2026-07-23T17:22:50.228Z",
       "error": null
     },
     {
@@ -2543,7 +2544,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HkNBWrl08uI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.602Z",
+      "fetchedAt": "2026-07-23T17:22:50.246Z",
       "error": null
     },
     {
@@ -2609,7 +2610,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oa59A6xpZyg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.764Z",
+      "fetchedAt": "2026-07-23T17:22:50.286Z",
       "error": null
     },
     {
@@ -2674,7 +2675,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.741Z",
+      "fetchedAt": "2026-07-23T17:22:50.253Z",
       "error": null
     },
     {
@@ -2740,7 +2741,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GzfklqDwz-0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.942Z",
+      "fetchedAt": "2026-07-23T17:22:50.552Z",
       "error": null
     },
     {
@@ -2805,7 +2806,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QAhNsuIZ9qs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.967Z",
+      "fetchedAt": "2026-07-23T17:22:50.539Z",
       "error": null
     },
     {
@@ -2870,7 +2871,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.941Z",
+      "fetchedAt": "2026-07-23T17:22:50.553Z",
       "error": null
     },
     {
@@ -2935,7 +2936,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:14.915Z",
+      "fetchedAt": "2026-07-23T17:22:50.496Z",
       "error": null
     },
     {
@@ -3000,7 +3001,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:15.240Z",
+      "fetchedAt": "2026-07-23T17:22:50.674Z",
       "error": null
     },
     {
@@ -3065,7 +3066,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:15.247Z",
+      "fetchedAt": "2026-07-23T17:22:50.690Z",
       "error": null
     },
     {
@@ -3130,7 +3131,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:15.217Z",
+      "fetchedAt": "2026-07-23T17:22:50.654Z",
       "error": null
     },
     {
@@ -3186,7 +3187,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:16.883Z",
+      "fetchedAt": "2026-07-23T17:22:52.223Z",
       "error": null
     },
     {
@@ -3196,7 +3197,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-23T13:59:17.182Z",
+      "fetchedAt": "2026-07-23T17:22:52.512Z",
       "error": null
     },
     {
@@ -3262,7 +3263,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:18.148Z",
+      "fetchedAt": "2026-07-23T17:22:53.404Z",
       "error": null
     },
     {
@@ -3318,7 +3319,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:16.933Z",
+      "fetchedAt": "2026-07-23T17:22:52.434Z",
       "error": null
     },
     {
@@ -3347,7 +3348,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:17.493Z",
+      "fetchedAt": "2026-07-23T17:22:52.635Z",
       "error": null
     },
     {
@@ -3403,7 +3404,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:18.166Z",
+      "fetchedAt": "2026-07-23T17:22:53.702Z",
       "error": null
     },
     {
@@ -3413,7 +3414,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-23T13:59:18.434Z",
+      "fetchedAt": "2026-07-23T17:22:53.827Z",
       "error": null
     },
     {
@@ -3423,6 +3424,15 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
+        {
+          "title": "Designing Intune enrollment for frontline workers: Choosing the right path for real-world devices",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/designing-intune-enrollment-for-frontline-workers-choosing-the/ba-p/4540144",
+          "pubDate": "2026-07-23T16:59:40.000Z",
+          "summary": "<P><STRONG>By: Shawn Catlin – Senior Product Manager | Microsoft Intune and Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune)</STRONG></P> <P><EM>Practitioner perspective from Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune), with deep experience in secure frontline mobility",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Build a patch strategy for today’s threat pace with Microsoft",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/build-a-patch-strategy-for-today-s-threat-pace-with-microsoft/ba-p/4535115",
@@ -3458,18 +3468,9 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "How to Configure macOS Privacy Preferences Policy Control (PPPC) Using the Intune Settings Catalog",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-configure-macos-privacy-preferences-policy-control-pppc/ba-p/4530406",
-          "pubDate": "2026-06-24T18:14:31.000Z",
-          "summary": "<P><STRONG>By: Chris Kunze - Principal Product Manager | Microsoft Intune</STRONG></P> <P><A href=\"https://support.apple.com/guide/deployment/privacy-preferences-policy-control-payload-dep38df53c2a/web\" target=\"_blank\" rel=\"noopener\">Privacy Preferences Policy Control (PPPC)</A> settings on macOS ar",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:18.164Z",
+      "fetchedAt": "2026-07-23T17:22:53.796Z",
       "error": null
     },
     {
@@ -3489,7 +3490,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:18.285Z",
+      "fetchedAt": "2026-07-23T17:22:53.488Z",
       "error": null
     },
     {
@@ -3499,6 +3500,15 @@
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
       "items": [
+        {
+          "title": "Jamf telemetry basics",
+          "link": "https://www.jamf.com/blog/mac-telemetry-basics/",
+          "pubDate": null,
+          "summary": "Get a deep dive into understanding Mac telemetry at Jamf, including how it works, why it matters and how Mac admins can use it today. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "AI deleted a production database. Prevent this with AI Governance.",
           "link": "https://www.jamf.com/blog/ai-coding-agent-deleted-production-database/",
@@ -3534,18 +3544,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Jamf Nation Live 2026 in London and Berlin: Jamf platform is built for what’s next",
-          "link": "https://www.jamf.com/blog/jamf-nation-live-2026-london-berlin/",
-          "pubDate": null,
-          "summary": "Bringing together customers, channel partners and technology partners, Jamf Nation celebrated its annual community event in Europe this June. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:22.839Z",
+      "fetchedAt": "2026-07-23T17:22:58.287Z",
       "error": null
     },
     {
@@ -3601,7 +3602,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:19.327Z",
+      "fetchedAt": "2026-07-23T17:22:54.831Z",
       "error": null
     },
     {
@@ -3656,7 +3657,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:18.876Z",
+      "fetchedAt": "2026-07-23T17:22:54.096Z",
       "error": null
     },
     {
@@ -3711,7 +3712,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:18.680Z",
+      "fetchedAt": "2026-07-23T17:22:54.025Z",
       "error": null
     },
     {
@@ -3776,7 +3777,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-23T13:59:23.843Z",
+      "fetchedAt": "2026-07-23T17:23:00.246Z",
       "error": null
     }
   ]
