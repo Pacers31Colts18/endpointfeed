@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T02:47:28.148Z",
+  "generatedAt": "2026-07-26T06:36:48.296Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -74,7 +74,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:00.134Z",
+      "fetchedAt": "2026-07-26T06:36:21.515Z",
       "error": null
     },
     {
@@ -150,7 +150,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:00.299Z",
+      "fetchedAt": "2026-07-26T06:36:22.155Z",
       "error": null
     },
     {
@@ -216,7 +216,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:00.675Z",
+      "fetchedAt": "2026-07-26T06:36:22.332Z",
       "error": null
     },
     {
@@ -226,7 +226,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-26T02:46:59.930Z",
+      "fetchedAt": "2026-07-26T06:36:21.326Z",
       "error": "HTTP 403"
     },
     {
@@ -281,7 +281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:00.724Z",
+      "fetchedAt": "2026-07-26T06:36:22.620Z",
       "error": null
     },
     {
@@ -346,7 +346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:00.809Z",
+      "fetchedAt": "2026-07-26T06:36:22.697Z",
       "error": null
     },
     {
@@ -430,7 +430,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:00.749Z",
+      "fetchedAt": "2026-07-26T06:36:22.576Z",
       "error": null
     },
     {
@@ -503,7 +503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:01.270Z",
+      "fetchedAt": "2026-07-26T06:36:23.337Z",
       "error": null
     },
     {
@@ -512,7 +512,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-26T02:47:01.376Z",
+      "fetchedAt": "2026-07-26T06:36:23.434Z",
       "error": "HTTP 403"
     },
     {
@@ -590,7 +590,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:02.798Z",
+      "fetchedAt": "2026-07-26T06:36:25.157Z",
       "error": null
     },
     {
@@ -599,7 +599,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-26T02:47:01.558Z",
+      "fetchedAt": "2026-07-26T06:36:23.735Z",
       "error": "certificate has expired"
     },
     {
@@ -669,7 +669,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:01.930Z",
+      "fetchedAt": "2026-07-26T06:36:24.171Z",
       "error": null
     },
     {
@@ -745,7 +745,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:03.131Z",
+      "fetchedAt": "2026-07-26T06:36:25.725Z",
       "error": null
     },
     {
@@ -754,120 +754,18 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
-          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
-          "pubDate": "2026-07-13T04:18:01.000Z",
-          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
-          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
-          "pubDate": "2026-05-15T14:47:47.000Z",
-          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
-          "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
-          "pubDate": "2026-05-06T20:30:40.000Z",
-          "summary": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's MakeWinPEMedia /bootex automat",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-26T02:47:03.347Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-26T06:36:25.379Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
       "label": "mattzaske.com - Matt Zaske",
       "type": "rss",
       "url": "https://mattzaske.com/rss.xml",
-      "items": [
-        {
-          "title": "Get-RandomMustache: The Tale of an Unexpected Easter Egg",
-          "link": "https://mattzaske.com/blog/2026-06/get-randommustache-tale-unexpected-easter-egg",
-          "pubDate": "2026-06-08T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Get-RandomMustache: The Tale of an Unexpected Easter Egg</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/file",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Git Hooks: Using Git to Take Action",
-          "link": "https://mattzaske.com/blog/2026-03/git-hooks-using-git-take-action",
-          "pubDate": "2026-03-02T14:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Git Hooks: Using Git to Take Action</span> <span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span>zaskem</span></span> <span class=\"field field--name-created field--type-created field--la",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Fire TV Power Control from Home Assistant!",
-          "link": "https://mattzaske.com/blog/2025-12/fire-tv-power-control-home-assistant",
-          "pubDate": "2025-12-15T14:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Fire TV Power Control from Home Assistant!</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/2025-12/adb-",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant",
-          "link": "https://mattzaske.com/blog/2025-07/configuringusing-awtrix-3-ulanzi-tc001-through-home-assistant",
-          "pubDate": "2025-07-14T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Configuring/Using AWTRIX 3 on the Ulanzi TC001 Through Home Assistant</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Home Assistant Notifications to Teams with Graph API",
-          "link": "https://mattzaske.com/blog/2025-06/home-assistant-notifications-teams-graph-api",
-          "pubDate": "2025-06-30T13:00:00.000Z",
-          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Home Assistant Notifications to Teams with Graph API</span> <div class=\"field field--name-field-image field--type-image field--label-hidden field__item\"> <img loading=\"lazy\" src=\"https://mattzaske.com/sites/default/files/20",
-          "author": "zaskem",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-26T02:47:03.378Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-26T06:36:33.321Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "msendpointmgr",
@@ -942,7 +840,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:03.051Z",
+      "fetchedAt": "2026-07-26T06:36:26.211Z",
       "error": null
     },
     {
@@ -1018,7 +916,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:03.509Z",
+      "fetchedAt": "2026-07-26T06:36:33.405Z",
       "error": null
     },
     {
@@ -1095,7 +993,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:05.046Z",
+      "fetchedAt": "2026-07-26T06:36:35.249Z",
       "error": null
     },
     {
@@ -1180,7 +1078,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:03.571Z",
+      "fetchedAt": "2026-07-26T06:36:33.488Z",
       "error": null
     },
     {
@@ -1236,7 +1134,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:03.591Z",
+      "fetchedAt": "2026-07-26T06:36:33.607Z",
       "error": null
     },
     {
@@ -1322,7 +1220,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:06.116Z",
+      "fetchedAt": "2026-07-26T06:36:36.223Z",
       "error": null
     },
     {
@@ -1408,7 +1306,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:05.110Z",
+      "fetchedAt": "2026-07-26T06:36:35.332Z",
       "error": null
     },
     {
@@ -1492,7 +1390,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:05.157Z",
+      "fetchedAt": "2026-07-26T06:36:35.392Z",
       "error": null
     },
     {
@@ -1547,7 +1445,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:05.310Z",
+      "fetchedAt": "2026-07-26T06:36:35.584Z",
       "error": null
     },
     {
@@ -1612,7 +1510,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:06.220Z",
+      "fetchedAt": "2026-07-26T06:36:36.591Z",
       "error": null
     },
     {
@@ -1621,7 +1519,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-26T02:47:06.254Z",
+      "fetchedAt": "2026-07-26T06:36:36.404Z",
       "error": "HTTP 404"
     },
     {
@@ -1677,7 +1575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:06.658Z",
+      "fetchedAt": "2026-07-26T06:36:37.173Z",
       "error": null
     },
     {
@@ -1742,7 +1640,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:06.601Z",
+      "fetchedAt": "2026-07-26T06:36:37.642Z",
       "error": null
     },
     {
@@ -1823,7 +1721,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:07.253Z",
+      "fetchedAt": "2026-07-26T06:36:38.584Z",
       "error": null
     },
     {
@@ -1832,7 +1730,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-26T02:47:07.399Z",
+      "fetchedAt": "2026-07-26T06:36:38.726Z",
       "error": "HTTP 404"
     },
     {
@@ -1841,7 +1739,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-26T02:47:06.837Z",
+      "fetchedAt": "2026-07-26T06:36:37.980Z",
       "error": "HTTP 403"
     },
     {
@@ -1912,16 +1810,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
-            "Security",
             "UEFI",
             "Windows 10",
-            "windows 11",
-            "Windows Server"
+            "Windows Server",
+            "Security",
+            "windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:06.870Z",
+      "fetchedAt": "2026-07-26T06:36:37.971Z",
       "error": null
     },
     {
@@ -1994,7 +1892,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:07.601Z",
+      "fetchedAt": "2026-07-26T06:36:38.909Z",
       "error": null
     },
     {
@@ -2002,19 +1900,9 @@
       "label": "emptygarden.info - Matthew Teegarden",
       "type": "rss",
       "url": "https://emptygarden.info/feed/",
-      "items": [
-        {
-          "title": "Edge – Enterprise Preview Mode",
-          "link": "https://emptygarden.info/edge-enterprise-preview-mode/",
-          "pubDate": "2026-02-28T21:33:55.000Z",
-          "summary": "Some people choose to install Edge and then Edge Beta or Edge Dev to preview prerelease features. Those are all separate installs that can be found here – Become a Microsoft Edge Insider There is a new feature in Edge version 145 called Enterprise Preview that allows prerelease builds directly in Ed",
-          "author": "Matthew Teegarden",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-26T02:47:07.631Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-26T06:36:38.920Z",
+      "error": "HTTP 403"
     },
     {
       "id": "z-nerd",
@@ -2068,7 +1956,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:07.826Z",
+      "fetchedAt": "2026-07-26T06:36:39.384Z",
       "error": null
     },
     {
@@ -2154,7 +2042,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:07.842Z",
+      "fetchedAt": "2026-07-26T06:36:39.031Z",
       "error": null
     },
     {
@@ -2219,7 +2107,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.038Z",
+      "fetchedAt": "2026-07-26T06:36:39.769Z",
       "error": null
     },
     {
@@ -2285,7 +2173,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bemRBrJnYvA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:07.863Z",
+      "fetchedAt": "2026-07-26T06:36:39.842Z",
       "error": null
     },
     {
@@ -2350,7 +2238,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0wxobEH8t8U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:07.998Z",
+      "fetchedAt": "2026-07-26T06:36:39.771Z",
       "error": null
     },
     {
@@ -2415,7 +2303,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/L-QKiumLzO0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:07.978Z",
+      "fetchedAt": "2026-07-26T06:36:39.783Z",
       "error": null
     },
     {
@@ -2481,7 +2369,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.152Z",
+      "fetchedAt": "2026-07-26T06:36:39.957Z",
       "error": null
     },
     {
@@ -2547,7 +2435,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HkNBWrl08uI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.248Z",
+      "fetchedAt": "2026-07-26T06:36:39.977Z",
       "error": null
     },
     {
@@ -2613,7 +2501,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RyOUvOtTnWM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.160Z",
+      "fetchedAt": "2026-07-26T06:36:39.976Z",
       "error": null
     },
     {
@@ -2678,7 +2566,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.215Z",
+      "fetchedAt": "2026-07-26T06:36:40.022Z",
       "error": null
     },
     {
@@ -2744,7 +2632,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GzfklqDwz-0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.369Z",
+      "fetchedAt": "2026-07-26T06:36:40.231Z",
       "error": null
     },
     {
@@ -2809,7 +2697,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QAhNsuIZ9qs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.368Z",
+      "fetchedAt": "2026-07-26T06:36:40.234Z",
       "error": null
     },
     {
@@ -2874,7 +2762,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.366Z",
+      "fetchedAt": "2026-07-26T06:36:40.214Z",
       "error": null
     },
     {
@@ -2939,7 +2827,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.361Z",
+      "fetchedAt": "2026-07-26T06:36:40.222Z",
       "error": null
     },
     {
@@ -3004,7 +2892,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.523Z",
+      "fetchedAt": "2026-07-26T06:36:40.465Z",
       "error": null
     },
     {
@@ -3069,7 +2957,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.575Z",
+      "fetchedAt": "2026-07-26T06:36:40.436Z",
       "error": null
     },
     {
@@ -3134,7 +3022,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.462Z",
+      "fetchedAt": "2026-07-26T06:36:40.389Z",
       "error": null
     },
     {
@@ -3190,7 +3078,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.553Z",
+      "fetchedAt": "2026-07-26T06:36:40.501Z",
       "error": null
     },
     {
@@ -3200,7 +3088,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-26T02:47:08.986Z",
+      "fetchedAt": "2026-07-26T06:36:40.723Z",
       "error": null
     },
     {
@@ -3209,9 +3097,65 @@
       "type": "official",
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
-      "items": [],
-      "fetchedAt": "2026-07-26T02:47:21.761Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Patch My PC Publisher Preview Version 2.3.2.476 Released",
+          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-2-3-2-476-released/",
+          "pubDate": "2026-07-22T20:04:12.000Z",
+          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. Improvements  Fixes Accessibility and UI The post Patch My PC Publisher Preview Version 2.3.2.476 Released appeared first on Patch My PC. ]]>",
+          "author": "Cody Mathis",
+          "categories": [
+            "Preview Release"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "How to Evaluate Third-Party Patching Solutions Beyond Price",
+          "link": "https://patchmypc.com/blog/evaluate-third-party-patching-solutions-beyond-price/",
+          "pubDate": "2026-07-21T17:20:32.000Z",
+          "summary": "Comparing third-party patching solutions based solely on licensing cost can lead to expensive mistakes. This article explores the key questions IT teams should ask when evaluating patching vendors and explains why the cheapest option on paper may not be the most cost-effective choice in practice. Th",
+          "author": "Cory Mathis",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "Company Portal: Error Loading Apps",
+          "link": "https://patchmypc.com/blog/company-portal-error-loading-apps/",
+          "pubDate": "2026-07-20T14:16:30.000Z",
+          "summary": "Some time ago, the Company Portal suddenly failed to load its apps. In this blog, I explain what happened behind the scenes, how the IWService path works, why the issue could affect only one Intune Azure Scale Unit, and how you can check that tenant specific service path yourself. The post Company P",
+          "author": "Rudy Ooms",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "Intune Custom Compliance Policies and the Hourly Cadence Fix",
+          "link": "https://patchmypc.com/blog/custom-compliance-policies-and-the-eight-hour-waiting-fix/",
+          "pubDate": "2026-07-18T10:36:57.000Z",
+          "summary": "Custom compliance in Intune can leave devices reporting stale results for up to eight hours. IME 1.103.101.0 appears to introduce a new hourly cadence that could rerun discovery scripts and send fresh PolicyResult data back to Intune much sooner. The post Intune Custom Compliance Policies and the Ho",
+          "author": "Rudy Ooms",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
+        {
+          "title": "Inside the Improved on-demand sync for Windows devices",
+          "link": "https://patchmypc.com/blog/inside-the-improved-on-demand-sync-for-windows-devices/",
+          "pubDate": "2026-07-14T19:15:54.000Z",
+          "summary": "The new Improved on-demand Sync in Intune is expanding beyond policies to include Win32 apps, PowerShell scripts, and Remediations. The post Inside the Improved on-demand sync for Windows devices appeared first on Patch My PC. ]]>",
+          "author": "Rudy Ooms",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        }
+      ],
+      "fetchedAt": "2026-07-26T06:36:42.493Z",
+      "error": null
     },
     {
       "id": "microsoft365blog",
@@ -3266,7 +3210,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.618Z",
+      "fetchedAt": "2026-07-26T06:36:41.026Z",
       "error": null
     },
     {
@@ -3280,7 +3224,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
+          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
           "author": "",
           "categories": [],
           "type": "official"
@@ -3295,7 +3239,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:08.835Z",
+      "fetchedAt": "2026-07-26T06:36:40.822Z",
       "error": null
     },
     {
@@ -3351,7 +3295,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:21.805Z",
+      "fetchedAt": "2026-07-26T06:36:43.058Z",
       "error": null
     },
     {
@@ -3361,7 +3305,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-26T02:47:21.890Z",
+      "fetchedAt": "2026-07-26T06:36:42.655Z",
       "error": null
     },
     {
@@ -3371,6 +3315,15 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
+        {
+          "title": "From hours to minutes: Rethinking Microsoft Intune compliance reporting with the Export API",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/from-hours-to-minutes-rethinking-microsoft-intune-compliance/ba-p/4540554",
+          "pubDate": "2026-07-24T19:07:28.000Z",
+          "summary": "<P><STRONG>By: Daniel Gerrity – Principal Product Manager | Microsoft Intune</STRONG></P> <P>If you manage a large device fleet with Microsoft Intune, you’ve almost certainly needed to get reporting data out of the service at scale — compliance state, device inventory, app status, endpoint analytics",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Designing Intune enrollment for frontline workers: Choosing the right path for real-world devices",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/designing-intune-enrollment-for-frontline-workers-choosing-the/ba-p/4540144",
@@ -3406,18 +3359,9 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Microsoft Intune and Apple platform updates: What to expect after WWDC 2026",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/microsoft-intune-and-apple-platform-updates-what-to-expect-after/ba-p/4531058",
-          "pubDate": "2026-06-25T18:33:03.000Z",
-          "summary": "<P><STRONG>By Benjamin Flamm | Product Manager, Iris Yuning Ye | Product Manager - Microsoft Intune</STRONG></P> <P>Apple’s Worldwide Developers Conference (WWDC) is the annual starting point for the next wave of Apple platform changes. For Microsoft Intune customers, WWDC is also the moment when IT",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:21.811Z",
+      "fetchedAt": "2026-07-26T06:36:42.913Z",
       "error": null
     },
     {
@@ -3437,7 +3381,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:21.820Z",
+      "fetchedAt": "2026-07-26T06:36:42.545Z",
       "error": null
     },
     {
@@ -3493,7 +3437,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:26.269Z",
+      "fetchedAt": "2026-07-26T06:36:47.583Z",
       "error": null
     },
     {
@@ -3549,7 +3493,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:22.451Z",
+      "fetchedAt": "2026-07-26T06:36:44.115Z",
       "error": null
     },
     {
@@ -3604,7 +3548,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:22.198Z",
+      "fetchedAt": "2026-07-26T06:36:43.164Z",
       "error": null
     },
     {
@@ -3659,7 +3603,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:21.975Z",
+      "fetchedAt": "2026-07-26T06:36:43.248Z",
       "error": null
     },
     {
@@ -3724,7 +3668,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-26T02:47:28.148Z",
+      "fetchedAt": "2026-07-26T06:36:48.296Z",
       "error": null
     }
   ]
