@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T13:22:05.305Z",
+  "generatedAt": "2026-07-26T17:01:44.942Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,10 +8,24 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "AI jobs apocalypse stalls, but entry-level roles are already under pressure",
-          "link": "https://4sysops.com/archives/ai-jobs-apocalypse-stalls-but-entry-level-roles-are-already-under-pressure/",
-          "pubDate": "2026-07-25T13:33:11.000Z",
-          "summary": "New labor-market analyses are finding no broad employment shock from generative AI, even as companies rapidly expand their investment in the technology. The Yale Budget Lab, Federal Reserve Board, and New York Fed report no discernible economy-wide disruption or reduction in firm-level job postings ",
+          "title": "AWS EC2 adds short-term GPU reservations as AI workloads reshape compute",
+          "link": "https://4sysops.com/archives/aws-ec2-adds-short-term-gpu-reservations-as-ai-workloads-reshape-compute/",
+          "pubDate": "2026-07-26T16:51:43.000Z",
+          "summary": "Amazon EC2 Capacity Blocks for machine learning are now generally available in the US East (Ohio) Region, allowing customers to reserve NVIDIA GPU clusters for short, defined periods. The option targets training and inference jobs that need predictable capacity but do not justify a permanent GPU com",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "AWS",
+            "Cloud Computing"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Claude Opus 5 scores nearly four times higher than GPT-5.6 Sol on ARC-AGI-3",
+          "link": "https://4sysops.com/archives/claude-opus-5-scores-nearly-four-times-higher-than-gpt-5-6-sol-on-arc-agi-3/",
+          "pubDate": "2026-07-26T16:51:42.000Z",
+          "summary": "Claude Opus 5 has widened the gap on ARC-AGI-3, scoring 30.2 percent versus the previous record of 7.8 percent set by OpenAI’s GPT-5.6 Sol. It solved five environments that no earlier model had completed, with four reaching or exceeding reported human performance. ARC-AGI-3 tests whether a model can",
           "author": "IT News",
           "categories": [
             "News",
@@ -20,61 +34,46 @@
           "type": "rss"
         },
         {
-          "title": "MacBook Ultra new features include the first Mac touchscreen and OLED display",
-          "link": "https://4sysops.com/archives/macbook-ultra-new-features-include-the-first-mac-touchscreen-and-oled-display/",
-          "pubDate": "2026-07-25T13:33:10.000Z",
-          "summary": "Apple is preparing a significant overhaul of its high-end laptop lineup with the rumored MacBook Ultra, though a global memory chip shortage may push the release into early 2027. This new tier is expected to sit above the MacBook Pro, introducing the first OLED displays to the Mac family for improve",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Hardware",
-            "Mac"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "iOS 27 iCloud features add AI camera summaries and cross-platform sharing",
-          "link": "https://4sysops.com/archives/ios-27-icloud-features-add-ai-camera-summaries-and-cross-platform-sharing/",
-          "pubDate": "2026-07-25T13:33:09.000Z",
-          "summary": "Apple’s iOS 27 iCloud update brings major new benefits to iCloud+ subscribers, including AI-generated HomeKit Secure Video summaries, higher Apple Intelligence usage limits, and 4K camera recording. HomeKit Secure Video can describe detected activity, make events searchable in the playback timeline,",
+          "title": "Debian opens a four-way fight over AI-assisted contributions",
+          "link": "https://4sysops.com/archives/debian-opens-a-four-way-fight-over-ai-assisted-contributions/",
+          "pubDate": "2026-07-26T16:51:41.000Z",
+          "summary": "Debian has formally opened a General Resolution debate that could ban AI-assisted contributions across much of the project, rather than merely issuing guidance. The resolution, submitted July 22, 2026, covers Debian source packages, packaging work, Debian-maintained software such as lintian, web res",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Cloud Computing",
-            "Mobile",
-            "Storage"
+            "Linux"
           ],
           "type": "rss"
         },
         {
-          "title": "OpenAI’s hacking model was active on the internet for several days",
-          "link": "https://4sysops.com/archives/openais-hacking-model-was-active-on-the-internet-for-several-days/",
-          "pubDate": "2026-07-25T13:33:08.000Z",
-          "summary": "OpenAI waited roughly ten days to tell Hugging Face that its cybersecurity models were behind the July 11 intrusion, after the platform had already disclosed the breach without identifying the attacker. Hugging Face contained the attack in about two days, but the models reportedly remained active on",
+          "title": "GitHub and PyPI add delays to slow supply-chain attacks",
+          "link": "https://4sysops.com/archives/github-and-pypi-add-delays-to-slow-supply-chain-attacks/",
+          "pubDate": "2026-07-26T16:51:40.000Z",
+          "summary": "GitHub and PyPI are adding time-based barriers that make it harder for malicious package releases to reach developers immediately or be inserted into trusted versions later. GitHub’s Dependabot, the service that opens pull requests for dependency updates, now waits 72 hours by default before proposi",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
+            "DevOps",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Claude Opus 5 hits zero prompt-injection success in browser tests—with a catch",
-          "link": "https://4sysops.com/archives/claude-opus-5-hits-zero-prompt-injection-success-in-browser-tests-with-a-catch/",
-          "pubDate": "2026-07-25T13:12:28.000Z",
-          "summary": "Anthropic’s Claude Opus 5 recorded a 0% attacker success rate in 129 browser-agent prompt-injection tests—but only when Claude’s Auto Mode was enabled. That mode combines a pre-processing scanner that removes hidden instructions from incoming content with an execution-time blocker that stops unsafe ",
+          "title": "Cursor’s agent swarm cuts coding costs by putting frontier AI in the planner seat",
+          "link": "https://4sysops.com/archives/cursors-agent-swarm-cuts-coding-costs-by-putting-frontier-ai-in-the-planner-seat/",
+          "pubDate": "2026-07-26T16:51:39.000Z",
+          "summary": "Cursor’s new agent-swarm design shows that expensive frontier models may not need to write most of the code. The system assigns frontier models to planning and decomposition, while faster, cheaper worker agents implement the resulting instructions within narrowly defined tasks. In a four-hour test r",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Security"
+            "DevOps"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:48.735Z",
+      "fetchedAt": "2026-07-26T17:01:29.456Z",
       "error": null
     },
     {
@@ -150,7 +149,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:48.875Z",
+      "fetchedAt": "2026-07-26T17:01:29.885Z",
       "error": null
     },
     {
@@ -216,7 +215,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:49.352Z",
+      "fetchedAt": "2026-07-26T17:01:30.074Z",
       "error": null
     },
     {
@@ -226,7 +225,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-26T13:21:48.523Z",
+      "fetchedAt": "2026-07-26T17:01:29.327Z",
       "error": "HTTP 403"
     },
     {
@@ -281,7 +280,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:49.454Z",
+      "fetchedAt": "2026-07-26T17:01:30.118Z",
       "error": null
     },
     {
@@ -346,7 +345,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:49.482Z",
+      "fetchedAt": "2026-07-26T17:01:30.261Z",
       "error": null
     },
     {
@@ -430,7 +429,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:49.502Z",
+      "fetchedAt": "2026-07-26T17:01:30.188Z",
       "error": null
     },
     {
@@ -503,7 +502,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:49.968Z",
+      "fetchedAt": "2026-07-26T17:01:30.713Z",
       "error": null
     },
     {
@@ -512,7 +511,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-26T13:21:50.063Z",
+      "fetchedAt": "2026-07-26T17:01:31.049Z",
       "error": "HTTP 403"
     },
     {
@@ -590,7 +589,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:51.591Z",
+      "fetchedAt": "2026-07-26T17:01:32.205Z",
       "error": null
     },
     {
@@ -599,7 +598,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-26T13:21:50.297Z",
+      "fetchedAt": "2026-07-26T17:01:31.062Z",
       "error": "certificate has expired"
     },
     {
@@ -669,7 +668,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:50.705Z",
+      "fetchedAt": "2026-07-26T17:01:31.449Z",
       "error": null
     },
     {
@@ -745,7 +744,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:52.030Z",
+      "fetchedAt": "2026-07-26T17:01:32.661Z",
       "error": null
     },
     {
@@ -755,7 +754,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-07-26T13:21:51.745Z",
+      "fetchedAt": "2026-07-26T17:01:32.472Z",
       "error": "HTTP 202"
     },
     {
@@ -810,7 +809,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:52.090Z",
+      "fetchedAt": "2026-07-26T17:01:32.691Z",
       "error": null
     },
     {
@@ -886,7 +885,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:51.901Z",
+      "fetchedAt": "2026-07-26T17:01:32.455Z",
       "error": null
     },
     {
@@ -962,7 +961,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:52.377Z",
+      "fetchedAt": "2026-07-26T17:01:32.770Z",
       "error": null
     },
     {
@@ -1039,7 +1038,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:53.857Z",
+      "fetchedAt": "2026-07-26T17:01:34.285Z",
       "error": null
     },
     {
@@ -1124,7 +1123,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:52.437Z",
+      "fetchedAt": "2026-07-26T17:01:32.886Z",
       "error": null
     },
     {
@@ -1180,7 +1179,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:52.500Z",
+      "fetchedAt": "2026-07-26T17:01:32.948Z",
       "error": null
     },
     {
@@ -1266,7 +1265,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:54.938Z",
+      "fetchedAt": "2026-07-26T17:01:35.346Z",
       "error": null
     },
     {
@@ -1352,7 +1351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:53.957Z",
+      "fetchedAt": "2026-07-26T17:01:34.337Z",
       "error": null
     },
     {
@@ -1436,7 +1435,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:53.972Z",
+      "fetchedAt": "2026-07-26T17:01:34.356Z",
       "error": null
     },
     {
@@ -1491,7 +1490,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:53.977Z",
+      "fetchedAt": "2026-07-26T17:01:34.491Z",
       "error": null
     },
     {
@@ -1556,7 +1555,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:55.233Z",
+      "fetchedAt": "2026-07-26T17:01:35.451Z",
       "error": null
     },
     {
@@ -1565,7 +1564,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-26T13:21:55.089Z",
+      "fetchedAt": "2026-07-26T17:01:35.456Z",
       "error": "HTTP 404"
     },
     {
@@ -1621,7 +1620,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:55.479Z",
+      "fetchedAt": "2026-07-26T17:01:35.681Z",
       "error": null
     },
     {
@@ -1686,7 +1685,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:55.511Z",
+      "fetchedAt": "2026-07-26T17:01:35.921Z",
       "error": null
     },
     {
@@ -1767,7 +1766,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.003Z",
+      "fetchedAt": "2026-07-26T17:01:36.784Z",
       "error": null
     },
     {
@@ -1776,7 +1775,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-26T13:21:56.383Z",
+      "fetchedAt": "2026-07-26T17:01:36.807Z",
       "error": "HTTP 404"
     },
     {
@@ -1785,7 +1784,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-26T13:21:55.751Z",
+      "fetchedAt": "2026-07-26T17:01:36.305Z",
       "error": "HTTP 403"
     },
     {
@@ -1865,7 +1864,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:55.748Z",
+      "fetchedAt": "2026-07-26T17:01:36.375Z",
       "error": null
     },
     {
@@ -1938,7 +1937,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.211Z",
+      "fetchedAt": "2026-07-26T17:01:36.951Z",
       "error": null
     },
     {
@@ -1957,7 +1956,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.234Z",
+      "fetchedAt": "2026-07-26T17:01:37.035Z",
       "error": null
     },
     {
@@ -2012,7 +2011,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.412Z",
+      "fetchedAt": "2026-07-26T17:01:37.216Z",
       "error": null
     },
     {
@@ -2098,7 +2097,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.338Z",
+      "fetchedAt": "2026-07-26T17:01:37.096Z",
       "error": null
     },
     {
@@ -2163,7 +2162,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.520Z",
+      "fetchedAt": "2026-07-26T17:01:37.462Z",
       "error": null
     },
     {
@@ -2229,7 +2228,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bemRBrJnYvA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.595Z",
+      "fetchedAt": "2026-07-26T17:01:37.356Z",
       "error": null
     },
     {
@@ -2294,7 +2293,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0wxobEH8t8U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.579Z",
+      "fetchedAt": "2026-07-26T17:01:37.413Z",
       "error": null
     },
     {
@@ -2359,7 +2358,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/L-QKiumLzO0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.520Z",
+      "fetchedAt": "2026-07-26T17:01:37.357Z",
       "error": null
     },
     {
@@ -2425,7 +2424,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.722Z",
+      "fetchedAt": "2026-07-26T17:01:37.589Z",
       "error": null
     },
     {
@@ -2491,7 +2490,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HkNBWrl08uI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.689Z",
+      "fetchedAt": "2026-07-26T17:01:37.590Z",
       "error": null
     },
     {
@@ -2557,7 +2556,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/RyOUvOtTnWM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.690Z",
+      "fetchedAt": "2026-07-26T17:01:37.638Z",
       "error": null
     },
     {
@@ -2622,7 +2621,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.778Z",
+      "fetchedAt": "2026-07-26T17:01:37.629Z",
       "error": null
     },
     {
@@ -2688,7 +2687,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GzfklqDwz-0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.846Z",
+      "fetchedAt": "2026-07-26T17:01:37.751Z",
       "error": null
     },
     {
@@ -2753,7 +2752,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QAhNsuIZ9qs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.875Z",
+      "fetchedAt": "2026-07-26T17:01:37.753Z",
       "error": null
     },
     {
@@ -2818,7 +2817,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.859Z",
+      "fetchedAt": "2026-07-26T17:01:37.813Z",
       "error": null
     },
     {
@@ -2883,7 +2882,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:57.968Z",
+      "fetchedAt": "2026-07-26T17:01:37.740Z",
       "error": null
     },
     {
@@ -2948,7 +2947,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:58.114Z",
+      "fetchedAt": "2026-07-26T17:01:38.009Z",
       "error": null
     },
     {
@@ -3013,7 +3012,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:58.099Z",
+      "fetchedAt": "2026-07-26T17:01:37.948Z",
       "error": null
     },
     {
@@ -3078,7 +3077,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:58.131Z",
+      "fetchedAt": "2026-07-26T17:01:38.014Z",
       "error": null
     },
     {
@@ -3134,7 +3133,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:58.154Z",
+      "fetchedAt": "2026-07-26T17:01:38.019Z",
       "error": null
     },
     {
@@ -3144,7 +3143,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-26T13:21:58.293Z",
+      "fetchedAt": "2026-07-26T17:01:38.134Z",
       "error": null
     },
     {
@@ -3210,7 +3209,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:59.739Z",
+      "fetchedAt": "2026-07-26T17:01:39.631Z",
       "error": null
     },
     {
@@ -3266,7 +3265,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:58.197Z",
+      "fetchedAt": "2026-07-26T17:01:38.078Z",
       "error": null
     },
     {
@@ -3295,7 +3294,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:58.399Z",
+      "fetchedAt": "2026-07-26T17:01:38.371Z",
       "error": null
     },
     {
@@ -3351,7 +3350,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:59.757Z",
+      "fetchedAt": "2026-07-26T17:01:39.645Z",
       "error": null
     },
     {
@@ -3361,7 +3360,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-26T13:22:00.071Z",
+      "fetchedAt": "2026-07-26T17:01:39.760Z",
       "error": null
     },
     {
@@ -3417,7 +3416,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:59.761Z",
+      "fetchedAt": "2026-07-26T17:01:39.653Z",
       "error": null
     },
     {
@@ -3437,7 +3436,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:21:59.762Z",
+      "fetchedAt": "2026-07-26T17:01:39.674Z",
       "error": null
     },
     {
@@ -3493,7 +3492,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:22:04.419Z",
+      "fetchedAt": "2026-07-26T17:01:43.988Z",
       "error": null
     },
     {
@@ -3549,7 +3548,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-26T13:22:00.648Z",
+      "fetchedAt": "2026-07-26T17:01:40.364Z",
       "error": null
     },
     {
@@ -3604,7 +3603,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-26T13:22:00.195Z",
+      "fetchedAt": "2026-07-26T17:01:39.900Z",
       "error": null
     },
     {
@@ -3659,7 +3658,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-26T13:22:00.219Z",
+      "fetchedAt": "2026-07-26T17:01:39.914Z",
       "error": null
     },
     {
@@ -3724,7 +3723,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-26T13:22:05.305Z",
+      "fetchedAt": "2026-07-26T17:01:44.942Z",
       "error": null
     }
   ]
