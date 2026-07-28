@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T17:27:38.248Z",
+  "generatedAt": "2026-07-28T21:07:57.056Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,64 +8,59 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "The Microsoft 365 Admin angent offers a glimpse into the future of system administration.",
-          "link": "https://4sysops.com/archives/the-microsoft-365-admin-angent-offers-a-glimpse-into-the-future-of-system-administration/",
-          "pubDate": "2026-07-28T17:10:22.000Z",
-          "summary": "The Microsoft 365 Admin agent is now generally available for all Microsoft 365 administrators. This AI-powered tool lets you manage Microsoft 365 services using natural language prompts instead of navigating complex menus. It provides a unified experience across the Microsoft 365 admin center and Mi",
-          "author": "IT Experts",
+          "title": "Claude to support MCP 2026-07-28",
+          "link": "https://4sysops.com/archives/claude-to-support-mcp-2026-07-28/",
+          "pubDate": "2026-07-28T18:38:08.000Z",
+          "summary": "The MCP 2026-07-28 specification is now live, replacing session-based protocol behavior with a stateless request/response core. Claude is beginning support across its products, while developers gain standardized extensions, stronger OAuth/OIDC integration, and a simpler path to scaling MCP servers o",
+          "author": "IT News",
           "categories": [
-            "Articles",
-            "AI",
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Nadella warns companies that trust one AI may not survive",
+          "link": "https://4sysops.com/archives/nadella-warns-companies-that-trust-one-ai-may-not-survive/",
+          "pubDate": "2026-07-28T18:38:07.000Z",
+          "summary": "Satya Nadella is urging companies to keep their prompts, usage data, memory, and AI coding workflows under their own control instead of handing them to one proprietary AI provider. His proposed defense is an AI gateway that lets businesses switch models, reduce lock-in, and eventually train their ow",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Teams status stuck on Out of Office? Clear the Outlook sync",
+          "link": "https://4sysops.com/archives/teams-status-stuck-on-out-of-office-clear-the-outlook-sync/",
+          "pubDate": "2026-07-28T18:16:58.000Z",
+          "summary": "Microsoft Teams can continue showing Out of Office after you return because the presence state is synchronized with Outlook’s automatic-reply settings. Turning it off in Teams may not be enough: clear the setting in Outlook as well to remove the stale status and automatic replies. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
             "Microsoft 365"
           ],
           "type": "rss"
         },
         {
-          "title": "Snowflake’s Cortex AI Gateway puts AI agents under one control plane",
-          "link": "https://4sysops.com/archives/snowflakes-cortex-ai-gateway-puts-ai-agents-under-one-control-plane/",
-          "pubDate": "2026-07-28T16:20:10.000Z",
-          "summary": "Snowflake has introduced Cortex AI Gateway, a centralized control layer for governing enterprise AI agents across models, tools, MCP servers, and internal systems. The gateway combines access policies, activity monitoring, and token-cost tracking for Snowflake agents and third-party tools such as Cl",
+          "title": "Claude finds flaws in cryptographic algorithms—not just code",
+          "link": "https://4sysops.com/archives/claude-finds-flaws-in-cryptographic-algorithms-not-just-code/",
+          "pubDate": "2026-07-28T18:16:57.000Z",
+          "summary": "Claude Mythos Preview has moved beyond finding implementation bugs: Anthropic says it discovered mathematical weaknesses in cryptographic designs themselves. The findings affect a post-quantum signature candidate and a reduced-round AES variant, but do not currently require changes to production sys",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Monitoring",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "1Password Privileged Access removes standing access for AI agents",
-          "link": "https://4sysops.com/archives/1password-privileged-access-removes-standing-access-for-ai-agents/",
-          "pubDate": "2026-07-28T16:20:09.000Z",
-          "summary": "1Password has launched Privileged Access, a just-in-time access control feature that gives engineers and AI agents only the permissions required for a specific task. Access is automatically removed when the session ends, reducing the risk of forgotten privileges and exposed credentials. Source]]>",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Identity",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 11 August update adds TPM-secured KMS activation and AI controls",
-          "link": "https://4sysops.com/archives/windows-11-august-update-adds-tpm-secured-kms-activation-and-ai-controls/",
-          "pubDate": "2026-07-28T16:20:08.000Z",
-          "summary": "Microsoft’s August 2026 Windows 11 update is expected to add TPM-backed verification for KMS hosts, making it harder for unauthorized or cloned activation servers to pass as legitimate. The release also gives users more control over AI components and expands Windows Hello Enhanced Sign-in Security t",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Security",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Anthropic rejects open-weights models ban, calls for chip controls and testing",
-          "link": "https://4sysops.com/archives/anthropic-rejects-open-weights-models-ban-calls-for-chip-controls-and-testing/",
-          "pubDate": "2026-07-28T15:22:23.000Z",
-          "summary": "Anthropic CEO Dario Amodei says the company does not support a blanket ban on open-weights models, despite recent criticism and an industry pushback against tighter restrictions. He instead wants policymakers to target powerful AI chips, industrial-scale model distillation, and safety risks across b",
+          "title": "MCP 2026-07-28 goes stateless, removing session overhead at scale",
+          "link": "https://4sysops.com/archives/mcp-2026-07-28-goes-stateless-removing-session-overhead-at-scale/",
+          "pubDate": "2026-07-28T18:16:56.000Z",
+          "summary": "MCP 2026-07-28 turns the Model Context Protocol into a stateless request/response system by removing its initialization handshake and session ID. The change lets administrators run MCP servers behind ordinary round-robin load balancers without sticky sessions or shared session storage, while new aut",
           "author": "IT News",
           "categories": [
             "News",
@@ -74,7 +69,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:04.500Z",
+      "fetchedAt": "2026-07-28T21:07:31.269Z",
       "error": null
     },
     {
@@ -150,7 +145,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:04.664Z",
+      "fetchedAt": "2026-07-28T21:07:31.610Z",
       "error": null
     },
     {
@@ -216,7 +211,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:05.150Z",
+      "fetchedAt": "2026-07-28T21:07:31.815Z",
       "error": null
     },
     {
@@ -226,7 +221,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-28T17:27:04.204Z",
+      "fetchedAt": "2026-07-28T21:07:30.965Z",
       "error": "HTTP 403"
     },
     {
@@ -281,7 +276,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:05.327Z",
+      "fetchedAt": "2026-07-28T21:07:31.909Z",
       "error": null
     },
     {
@@ -346,7 +341,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:05.505Z",
+      "fetchedAt": "2026-07-28T21:07:31.987Z",
       "error": null
     },
     {
@@ -430,7 +425,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:05.372Z",
+      "fetchedAt": "2026-07-28T21:07:31.886Z",
       "error": null
     },
     {
@@ -438,73 +433,9 @@
       "label": "intunestuff.com",
       "type": "rss",
       "url": "https://joostgelijsteen.com/feed/",
-      "items": [
-        {
-          "title": "App Inventory in Intune just got a serious Upgrade",
-          "link": "https://joostgelijsteen.com/app-inventory-in-intune-just-got-a-upgrade/",
-          "pubDate": "2026-05-05T07:36:23.000Z",
-          "summary": "The old Discovered apps report had one fundamental problem. It refreshed on a seven-day cycle. By the time data reached you, it was already stale. Decisions made on week-old software inventory are decisions made with incomplete information, and in environments where applications install and change c",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "Intune",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Edge (MAM) on iOS Keeps removing the Work Account after Sign-in!: Why one Broken identity breaks it All",
-          "link": "https://joostgelijsteen.com/why-edge-mam-ios-keeps-removing-work-account/",
-          "pubDate": "2026-03-12T09:47:41.000Z",
-          "summary": "Right after enabling App Protection Policies (MAM) for iOS, one user suddenly couldn’t open any protected company data in Edge. Every time the user signed in with his work profile, the account appeared for a second, then vanished. Outlook and Teams still worked fine. Conditional Access wasn’t the is",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "Intune",
-            "MAM",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Designing an App Protection Policy that don’t backfire on your unmanaged devices",
-          "link": "https://joostgelijsteen.com/designing-app-protection-policy/",
-          "pubDate": "2026-03-06T08:25:50.000Z",
-          "summary": "An App Protection Policy for unmanaged devices is often described as a lighter form of device management. That description is inaccurate. It is not a reduced version of MDM. It exists because there is no device control in the first place. In an unmanaged scenario, the device is not enrolled. There i",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "MAM",
-            "Intune",
-            "security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Mobile Application Management Explained: How Intune MAM Works!",
-          "link": "https://joostgelijsteen.com/mobile-application-management-explained/",
-          "pubDate": "2026-02-23T09:32:35.000Z",
-          "summary": "Mobile Application Management protects corporate data inside mobile apps while leaving the device unmanaged. The protection boundary sits around the app, the signed in identity, and the work data, so you can secure information on personal, shared, partner, or contractor devices without enrollment or",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "Intune",
-            "MAM",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows device configuration policies are moving to Settings catalog template. What you need to know",
-          "link": "https://joostgelijsteen.com/settings-catalog-template/",
-          "pubDate": "2025-04-29T11:49:40.000Z",
-          "summary": "In recent months, Microsoft has been rolling out an important change that impacts how we configure Windows devices through Intune. If you’ve been using device configuration profiles based on the “Templates” (such as Endpoint Protection, Edition Upgrade, or Firewall settings), there’s now a shift und",
-          "author": "Joost Gelijsteen",
-          "categories": [
-            "Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-07-28T17:27:06.089Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-28T21:07:40.280Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "zerotrust",
@@ -512,7 +443,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-28T17:27:06.229Z",
+      "fetchedAt": "2026-07-28T21:07:40.377Z",
       "error": "HTTP 403"
     },
     {
@@ -590,7 +521,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:07.957Z",
+      "fetchedAt": "2026-07-28T21:07:41.988Z",
       "error": null
     },
     {
@@ -599,7 +530,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-28T17:27:06.616Z",
+      "fetchedAt": "2026-07-28T21:07:40.707Z",
       "error": "certificate has expired"
     },
     {
@@ -669,7 +600,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:06.922Z",
+      "fetchedAt": "2026-07-28T21:07:40.937Z",
       "error": null
     },
     {
@@ -745,7 +676,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:08.296Z",
+      "fetchedAt": "2026-07-28T21:07:42.243Z",
       "error": null
     },
     {
@@ -811,7 +742,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:08.545Z",
+      "fetchedAt": "2026-07-28T21:07:42.602Z",
       "error": null
     },
     {
@@ -866,7 +797,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:08.374Z",
+      "fetchedAt": "2026-07-28T21:07:42.441Z",
       "error": null
     },
     {
@@ -942,7 +873,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:08.335Z",
+      "fetchedAt": "2026-07-28T21:07:42.273Z",
       "error": null
     },
     {
@@ -1018,7 +949,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:08.719Z",
+      "fetchedAt": "2026-07-28T21:07:42.738Z",
       "error": null
     },
     {
@@ -1095,7 +1026,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:10.456Z",
+      "fetchedAt": "2026-07-28T21:07:44.334Z",
       "error": null
     },
     {
@@ -1180,7 +1111,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:08.769Z",
+      "fetchedAt": "2026-07-28T21:07:42.855Z",
       "error": null
     },
     {
@@ -1236,7 +1167,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:08.844Z",
+      "fetchedAt": "2026-07-28T21:07:42.878Z",
       "error": null
     },
     {
@@ -1322,7 +1253,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:11.561Z",
+      "fetchedAt": "2026-07-28T21:07:45.460Z",
       "error": null
     },
     {
@@ -1408,7 +1339,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:10.562Z",
+      "fetchedAt": "2026-07-28T21:07:44.475Z",
       "error": null
     },
     {
@@ -1492,7 +1423,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:10.711Z",
+      "fetchedAt": "2026-07-28T21:07:44.750Z",
       "error": null
     },
     {
@@ -1547,7 +1478,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:10.968Z",
+      "fetchedAt": "2026-07-28T21:07:44.480Z",
       "error": null
     },
     {
@@ -1612,7 +1543,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:11.900Z",
+      "fetchedAt": "2026-07-28T21:07:45.725Z",
       "error": null
     },
     {
@@ -1621,7 +1552,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-28T17:27:11.754Z",
+      "fetchedAt": "2026-07-28T21:07:45.595Z",
       "error": "HTTP 404"
     },
     {
@@ -1677,7 +1608,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:12.337Z",
+      "fetchedAt": "2026-07-28T21:07:46.285Z",
       "error": null
     },
     {
@@ -1742,7 +1673,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:12.537Z",
+      "fetchedAt": "2026-07-28T21:07:46.068Z",
       "error": null
     },
     {
@@ -1823,7 +1754,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:14.311Z",
+      "fetchedAt": "2026-07-28T21:07:47.010Z",
       "error": null
     },
     {
@@ -1832,7 +1763,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-28T17:27:13.803Z",
+      "fetchedAt": "2026-07-28T21:07:47.153Z",
       "error": "HTTP 404"
     },
     {
@@ -1841,7 +1772,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-28T17:27:12.914Z",
+      "fetchedAt": "2026-07-28T21:07:46.412Z",
       "error": "HTTP 403"
     },
     {
@@ -1921,7 +1852,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:12.970Z",
+      "fetchedAt": "2026-07-28T21:07:46.477Z",
       "error": null
     },
     {
@@ -1994,7 +1925,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:14.574Z",
+      "fetchedAt": "2026-07-28T21:07:47.381Z",
       "error": null
     },
     {
@@ -2013,7 +1944,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.054Z",
+      "fetchedAt": "2026-07-28T21:07:47.446Z",
       "error": null
     },
     {
@@ -2068,7 +1999,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:14.726Z",
+      "fetchedAt": "2026-07-28T21:07:47.586Z",
       "error": null
     },
     {
@@ -2154,7 +2085,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:14.960Z",
+      "fetchedAt": "2026-07-28T21:07:47.565Z",
       "error": null
     },
     {
@@ -2219,7 +2150,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.455Z",
+      "fetchedAt": "2026-07-28T21:07:47.709Z",
       "error": null
     },
     {
@@ -2285,7 +2216,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/LrIS9lcSbko/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.500Z",
+      "fetchedAt": "2026-07-28T21:07:47.618Z",
       "error": null
     },
     {
@@ -2350,7 +2281,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0wxobEH8t8U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.293Z",
+      "fetchedAt": "2026-07-28T21:07:47.861Z",
       "error": null
     },
     {
@@ -2415,7 +2346,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/BacvR47vC9E/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.603Z",
+      "fetchedAt": "2026-07-28T21:07:47.839Z",
       "error": null
     },
     {
@@ -2481,7 +2412,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.722Z",
+      "fetchedAt": "2026-07-28T21:07:47.959Z",
       "error": null
     },
     {
@@ -2547,7 +2478,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HkNBWrl08uI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.791Z",
+      "fetchedAt": "2026-07-28T21:07:47.972Z",
       "error": null
     },
     {
@@ -2613,7 +2544,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/h5AAo1FFiAw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.723Z",
+      "fetchedAt": "2026-07-28T21:07:47.978Z",
       "error": null
     },
     {
@@ -2678,7 +2609,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.774Z",
+      "fetchedAt": "2026-07-28T21:07:47.982Z",
       "error": null
     },
     {
@@ -2744,7 +2675,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/73N-CL4IeC4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.936Z",
+      "fetchedAt": "2026-07-28T21:07:48.119Z",
       "error": null
     },
     {
@@ -2809,7 +2740,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QAhNsuIZ9qs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.945Z",
+      "fetchedAt": "2026-07-28T21:07:48.092Z",
       "error": null
     },
     {
@@ -2874,7 +2805,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:16.029Z",
+      "fetchedAt": "2026-07-28T21:07:48.083Z",
       "error": null
     },
     {
@@ -2939,7 +2870,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:15.932Z",
+      "fetchedAt": "2026-07-28T21:07:48.074Z",
       "error": null
     },
     {
@@ -3004,7 +2935,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:16.211Z",
+      "fetchedAt": "2026-07-28T21:07:48.238Z",
       "error": null
     },
     {
@@ -3069,7 +3000,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:16.191Z",
+      "fetchedAt": "2026-07-28T21:07:48.313Z",
       "error": null
     },
     {
@@ -3134,7 +3065,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:16.160Z",
+      "fetchedAt": "2026-07-28T21:07:48.218Z",
       "error": null
     },
     {
@@ -3190,7 +3121,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:18.644Z",
+      "fetchedAt": "2026-07-28T21:07:50.084Z",
       "error": null
     },
     {
@@ -3200,7 +3131,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-28T17:27:18.921Z",
+      "fetchedAt": "2026-07-28T21:07:50.295Z",
       "error": null
     },
     {
@@ -3266,7 +3197,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:32.413Z",
+      "fetchedAt": "2026-07-28T21:07:51.114Z",
       "error": null
     },
     {
@@ -3322,7 +3253,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:18.753Z",
+      "fetchedAt": "2026-07-28T21:07:50.155Z",
       "error": null
     },
     {
@@ -3351,7 +3282,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:19.054Z",
+      "fetchedAt": "2026-07-28T21:07:50.497Z",
       "error": null
     },
     {
@@ -3407,7 +3338,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:32.443Z",
+      "fetchedAt": "2026-07-28T21:07:51.429Z",
       "error": null
     },
     {
@@ -3417,7 +3348,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-28T17:27:32.686Z",
+      "fetchedAt": "2026-07-28T21:07:51.399Z",
       "error": null
     },
     {
@@ -3473,7 +3404,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:32.448Z",
+      "fetchedAt": "2026-07-28T21:07:51.172Z",
       "error": null
     },
     {
@@ -3493,7 +3424,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:32.499Z",
+      "fetchedAt": "2026-07-28T21:07:51.790Z",
       "error": null
     },
     {
@@ -3549,7 +3480,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:37.368Z",
+      "fetchedAt": "2026-07-28T21:07:56.197Z",
       "error": null
     },
     {
@@ -3605,7 +3536,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:33.516Z",
+      "fetchedAt": "2026-07-28T21:07:52.505Z",
       "error": null
     },
     {
@@ -3660,7 +3591,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:32.953Z",
+      "fetchedAt": "2026-07-28T21:07:51.965Z",
       "error": null
     },
     {
@@ -3715,7 +3646,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:32.983Z",
+      "fetchedAt": "2026-07-28T21:07:52.219Z",
       "error": null
     },
     {
@@ -3780,7 +3711,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-28T17:27:38.248Z",
+      "fetchedAt": "2026-07-28T21:07:57.056Z",
       "error": null
     }
   ]
