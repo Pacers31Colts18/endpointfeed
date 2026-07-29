@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T17:14:45.394Z",
+  "generatedAt": "2026-07-29T20:55:50.817Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,72 +8,72 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Microsoft Whiteboard migration deadline arrives before permanent deletion",
-          "link": "https://4sysops.com/archives/microsoft-whiteboard-migration-deadline-arrives-before-permanent-deletion/",
-          "pubDate": "2026-07-29T16:47:25.000Z",
-          "summary": "Microsoft is ending enterprise Microsoft Whiteboard migrations on August 22, 2026, leaving organizations only a short window to move legacy boards. Unmigrated whiteboards will be permanently deleted after September 5, while the standalone Windows 11 and mobile apps will lose support on September 14.",
+          "title": "Moonshot has paused Kimi K3 signups due to overwhelming demand",
+          "link": "https://4sysops.com/archives/moonshot-has-paused-kimi-k3-signups-due-to-overwhelming-demand/",
+          "pubDate": "2026-07-29T19:53:41.000Z",
+          "summary": "Moonshot AI has paused new subscriptions to Kimi K3 less than 48 hours after launching the open-weight model, after demand pushed its GPU infrastructure close to capacity. The Chinese startup is splitting access into consumer and coding tiers as it rations compute while pursuing new funding and a po",
           "author": "IT News",
           "categories": [
             "News",
-            "Microsoft 365"
+            "AI"
           ],
           "type": "rss"
         },
         {
-          "title": "VMware patches vCenter auth bypass and critical VM escape",
-          "link": "https://4sysops.com/archives/vmware-patches-vcenter-auth-bypass-and-critical-vm-escape/",
-          "pubDate": "2026-07-29T16:47:24.000Z",
-          "summary": "Broadcom has patched three critical VMware vulnerabilities, including a CVSS 9.8 vCenter authentication bypass and a VMXNET3 flaw that can let an attacker escape from a guest VM to the ESX host. No exploitation has been reported, but exposed or poorly segmented vCenter servers require urgent attenti",
+          "title": "Microsoft’s MAI-Cyber-1-Flash targets 90% of security work at half the cost",
+          "link": "https://4sysops.com/archives/microsofts-mai-cyber-1-flash-targets-90-of-security-work-at-half-the-cost/",
+          "pubDate": "2026-07-29T19:53:40.000Z",
+          "summary": "Microsoft says its new MAI-Cyber-1-Flash model can handle up to 90% of vulnerability-hunting tasks while cutting the cost of its AI security system by about half. The model will enter Project Perception’s public preview on August 3, with the hardest cases escalated to OpenAI’s GPT-5.4. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
-            "Security",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft: Least privilege for AI agents needs more than narrow roles",
+          "link": "https://4sysops.com/archives/microsoft-least-privilege-for-ai-agents-needs-more-than-narrow-roles/",
+          "pubDate": "2026-07-29T19:34:59.000Z",
+          "summary": "AI agents need dedicated identities, task-scoped permissions, approved tool allowlists, and fast revocation—not broad service-account access. New guidance also emphasizes short-lived entitlements, context-aware authorization, and mandatory human approval for high-impact actions. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Identity",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft brings Azure VMware Solution migration sessions to VMware Explore 2026",
+          "link": "https://4sysops.com/archives/microsoft-brings-azure-vmware-solution-migration-sessions-to-vmware-explore-2026/",
+          "pubDate": "2026-07-29T19:34:58.000Z",
+          "summary": "Microsoft will staff a booth and host six Azure VMware Solution sessions at VMware Explore 2026 in Las Vegas from August 31 to September 3. The program targets organizations planning VMware migrations, security improvements, and AI initiatives on Azure. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Azure",
+            "Cloud Computing",
             "Virtualization"
           ],
           "type": "rss"
         },
         {
-          "title": "Kimi K3 lands in Microsoft Foundry with Fireworks AI deployment",
-          "link": "https://4sysops.com/archives/kimi-k3-lands-in-microsoft-foundry-with-fireworks-ai-deployment/",
-          "pubDate": "2026-07-29T15:31:50.000Z",
-          "summary": "Kimi K3 is now deployable through Microsoft Foundry using Fireworks AI’s optimized inference infrastructure. The integration gives Azure customers access to Moonshot AI’s 2.8-trillion-parameter open-weight model alongside Foundry’s enterprise deployment, governance, security, and monitoring capabili",
+          "title": "Anthropic is facing a growing backlash in Silicon Valley",
+          "link": "https://4sysops.com/archives/anthropic-is-facing-a-growing-backlash-in-silicon-valley/",
+          "pubDate": "2026-07-29T19:34:57.000Z",
+          "summary": "Anthropic is facing a growing trust problem as startup founders and researchers move toward cheaper open-weight AI models. The backlash intensified after Claude Design was viewed as a potential threat to Figma, an Anthropic partner, and culminated in a San Francisco protest against frontier labs’ co",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "Azure"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "AI agents can pass safety checks and still leak secrets through handoffs",
-          "link": "https://4sysops.com/archives/ai-agents-can-pass-safety-checks-and-still-leak-secrets-through-handoffs/",
-          "pubDate": "2026-07-29T14:44:16.000Z",
-          "summary": "A new assessment of Anthropic, Google, and OpenAI agent workflows found that secure-looking defaults can still expose secrets when one processing stage trusts another. The attacks did not require the agent to violate an obvious safety rule: approved commands, shared workspaces, and automatic output ",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft Purview DLP can now hide external email from Copilot",
-          "link": "https://4sysops.com/archives/microsoft-purview-dlp-can-now-hide-external-email-from-copilot/",
-          "pubDate": "2026-07-29T14:44:15.000Z",
-          "summary": "Microsoft Purview’s new DLP rule prevents Microsoft 365 Copilot and Copilot Chat from using external emails as grounding data. The block also applies retroactively to existing messages, helping reduce prompt-injection risks but potentially changing Copilot’s answers without any new mail arriving. So",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Microsoft 365",
-            "Security"
+            "AI"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:27.321Z",
+      "fetchedAt": "2026-07-29T20:55:26.858Z",
       "error": null
     },
     {
@@ -149,7 +149,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:27.564Z",
+      "fetchedAt": "2026-07-29T20:55:27.020Z",
       "error": null
     },
     {
@@ -215,7 +215,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:28.133Z",
+      "fetchedAt": "2026-07-29T20:55:27.515Z",
       "error": null
     },
     {
@@ -225,7 +225,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-29T17:14:27.065Z",
+      "fetchedAt": "2026-07-29T20:55:26.589Z",
       "error": "HTTP 403"
     },
     {
@@ -280,7 +280,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:28.437Z",
+      "fetchedAt": "2026-07-29T20:55:27.824Z",
       "error": null
     },
     {
@@ -345,7 +345,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:28.508Z",
+      "fetchedAt": "2026-07-29T20:55:27.854Z",
       "error": null
     },
     {
@@ -429,7 +429,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:28.376Z",
+      "fetchedAt": "2026-07-29T20:55:27.874Z",
       "error": null
     },
     {
@@ -502,7 +502,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:29.388Z",
+      "fetchedAt": "2026-07-29T20:55:28.462Z",
       "error": null
     },
     {
@@ -511,7 +511,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-29T17:14:29.442Z",
+      "fetchedAt": "2026-07-29T20:55:28.593Z",
       "error": "HTTP 403"
     },
     {
@@ -589,7 +589,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:31.319Z",
+      "fetchedAt": "2026-07-29T20:55:30.173Z",
       "error": null
     },
     {
@@ -598,7 +598,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-29T17:14:29.758Z",
+      "fetchedAt": "2026-07-29T20:55:28.860Z",
       "error": "certificate has expired"
     },
     {
@@ -668,7 +668,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:30.140Z",
+      "fetchedAt": "2026-07-29T20:55:29.153Z",
       "error": null
     },
     {
@@ -744,7 +744,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:31.938Z",
+      "fetchedAt": "2026-07-29T20:55:30.632Z",
       "error": null
     },
     {
@@ -810,7 +810,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:31.916Z",
+      "fetchedAt": "2026-07-29T20:55:31.473Z",
       "error": null
     },
     {
@@ -865,7 +865,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:31.722Z",
+      "fetchedAt": "2026-07-29T20:55:30.640Z",
       "error": null
     },
     {
@@ -941,7 +941,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:31.676Z",
+      "fetchedAt": "2026-07-29T20:55:31.093Z",
       "error": null
     },
     {
@@ -1017,7 +1017,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:32.055Z",
+      "fetchedAt": "2026-07-29T20:55:31.716Z",
       "error": null
     },
     {
@@ -1094,7 +1094,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:34.092Z",
+      "fetchedAt": "2026-07-29T20:55:33.503Z",
       "error": null
     },
     {
@@ -1179,7 +1179,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:32.175Z",
+      "fetchedAt": "2026-07-29T20:55:31.868Z",
       "error": null
     },
     {
@@ -1235,7 +1235,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:32.198Z",
+      "fetchedAt": "2026-07-29T20:55:31.941Z",
       "error": null
     },
     {
@@ -1321,7 +1321,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:35.267Z",
+      "fetchedAt": "2026-07-29T20:55:34.676Z",
       "error": null
     },
     {
@@ -1407,7 +1407,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:34.177Z",
+      "fetchedAt": "2026-07-29T20:55:33.615Z",
       "error": null
     },
     {
@@ -1491,7 +1491,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:34.248Z",
+      "fetchedAt": "2026-07-29T20:55:33.780Z",
       "error": null
     },
     {
@@ -1546,7 +1546,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:34.439Z",
+      "fetchedAt": "2026-07-29T20:55:33.859Z",
       "error": null
     },
     {
@@ -1611,7 +1611,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:35.628Z",
+      "fetchedAt": "2026-07-29T20:55:34.896Z",
       "error": null
     },
     {
@@ -1620,7 +1620,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-29T17:14:35.379Z",
+      "fetchedAt": "2026-07-29T20:55:34.916Z",
       "error": "HTTP 404"
     },
     {
@@ -1676,7 +1676,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:35.917Z",
+      "fetchedAt": "2026-07-29T20:55:35.528Z",
       "error": null
     },
     {
@@ -1741,7 +1741,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:35.801Z",
+      "fetchedAt": "2026-07-29T20:55:35.580Z",
       "error": null
     },
     {
@@ -1822,7 +1822,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:36.820Z",
+      "fetchedAt": "2026-07-29T20:55:37.134Z",
       "error": null
     },
     {
@@ -1831,7 +1831,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-29T17:14:36.724Z",
+      "fetchedAt": "2026-07-29T20:55:36.445Z",
       "error": "HTTP 404"
     },
     {
@@ -1840,7 +1840,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-29T17:14:36.022Z",
+      "fetchedAt": "2026-07-29T20:55:35.867Z",
       "error": "HTTP 403"
     },
     {
@@ -1911,16 +1911,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:36.064Z",
+      "fetchedAt": "2026-07-29T20:55:35.866Z",
       "error": null
     },
     {
@@ -1993,7 +1993,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.095Z",
+      "fetchedAt": "2026-07-29T20:55:37.315Z",
       "error": null
     },
     {
@@ -2012,7 +2012,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.007Z",
+      "fetchedAt": "2026-07-29T20:55:37.335Z",
       "error": null
     },
     {
@@ -2067,7 +2067,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.190Z",
+      "fetchedAt": "2026-07-29T20:55:37.704Z",
       "error": null
     },
     {
@@ -2153,7 +2153,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.081Z",
+      "fetchedAt": "2026-07-29T20:55:37.457Z",
       "error": null
     },
     {
@@ -2218,7 +2218,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.236Z",
+      "fetchedAt": "2026-07-29T20:55:37.832Z",
       "error": null
     },
     {
@@ -2284,7 +2284,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/LrIS9lcSbko/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.236Z",
+      "fetchedAt": "2026-07-29T20:55:37.858Z",
       "error": null
     },
     {
@@ -2349,7 +2349,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0wxobEH8t8U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.390Z",
+      "fetchedAt": "2026-07-29T20:55:37.892Z",
       "error": null
     },
     {
@@ -2414,7 +2414,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/BacvR47vC9E/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.467Z",
+      "fetchedAt": "2026-07-29T20:55:37.767Z",
       "error": null
     },
     {
@@ -2480,7 +2480,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.663Z",
+      "fetchedAt": "2026-07-29T20:55:37.996Z",
       "error": null
     },
     {
@@ -2546,7 +2546,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HkNBWrl08uI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.690Z",
+      "fetchedAt": "2026-07-29T20:55:38.017Z",
       "error": null
     },
     {
@@ -2612,7 +2612,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/h5AAo1FFiAw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.475Z",
+      "fetchedAt": "2026-07-29T20:55:38.009Z",
       "error": null
     },
     {
@@ -2677,7 +2677,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.604Z",
+      "fetchedAt": "2026-07-29T20:55:38.013Z",
       "error": null
     },
     {
@@ -2743,7 +2743,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/73N-CL4IeC4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.900Z",
+      "fetchedAt": "2026-07-29T20:55:38.209Z",
       "error": null
     },
     {
@@ -2808,7 +2808,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QAhNsuIZ9qs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.910Z",
+      "fetchedAt": "2026-07-29T20:55:38.179Z",
       "error": null
     },
     {
@@ -2873,7 +2873,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.926Z",
+      "fetchedAt": "2026-07-29T20:55:38.194Z",
       "error": null
     },
     {
@@ -2938,7 +2938,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:37.821Z",
+      "fetchedAt": "2026-07-29T20:55:38.031Z",
       "error": null
     },
     {
@@ -3003,7 +3003,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:38.124Z",
+      "fetchedAt": "2026-07-29T20:55:38.313Z",
       "error": null
     },
     {
@@ -3068,7 +3068,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:38.228Z",
+      "fetchedAt": "2026-07-29T20:55:38.490Z",
       "error": null
     },
     {
@@ -3133,7 +3133,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:38.241Z",
+      "fetchedAt": "2026-07-29T20:55:38.330Z",
       "error": null
     },
     {
@@ -3189,7 +3189,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:38.141Z",
+      "fetchedAt": "2026-07-29T20:55:39.937Z",
       "error": null
     },
     {
@@ -3199,7 +3199,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-29T17:14:38.516Z",
+      "fetchedAt": "2026-07-29T20:55:40.246Z",
       "error": null
     },
     {
@@ -3265,7 +3265,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:39.928Z",
+      "fetchedAt": "2026-07-29T20:55:41.649Z",
       "error": null
     },
     {
@@ -3321,7 +3321,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:38.322Z",
+      "fetchedAt": "2026-07-29T20:55:39.996Z",
       "error": null
     },
     {
@@ -3350,7 +3350,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:38.689Z",
+      "fetchedAt": "2026-07-29T20:55:40.597Z",
       "error": null
     },
     {
@@ -3406,7 +3406,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:39.941Z",
+      "fetchedAt": "2026-07-29T20:55:41.666Z",
       "error": null
     },
     {
@@ -3416,7 +3416,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-29T17:14:40.077Z",
+      "fetchedAt": "2026-07-29T20:55:41.929Z",
       "error": null
     },
     {
@@ -3426,6 +3426,15 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
+        {
+          "title": "Registry Inventory in Microsoft Intune: Verifying What’s on Your Devices",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/registry-inventory-in-microsoft-intune-verifying-what-s-on-your/ba-p/4541312",
+          "pubDate": "2026-07-28T20:59:27.000Z",
+          "summary": "<P><STRONG>By: Madison Cooks, Product Manager | Microsoft Intune</STRONG></P> <P>IT admins need a reliable way to confirm how Windows devices are configured, especially when troubleshooting, validating compliance, or investigating security posture. Policy assignment alone doesn’t always show what’s ",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "From hours to minutes: Rethinking Microsoft Intune compliance reporting with the Export API",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/from-hours-to-minutes-rethinking-microsoft-intune-compliance/ba-p/4540554",
@@ -3461,18 +3470,9 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Streamlining macOS security: Automatically enable AutoFill after Platform SSO registration",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/streamlining-macos-security-automatically-enable-autofill-after/ba-p/4531908",
-          "pubDate": "2026-06-29T18:31:55.000Z",
-          "summary": "<P><STRONG>By: Chris Kunze - Principal Product Manager | Microsoft Intune</STRONG></P> <P>Platform single sign-on (SSO) improves how macOS devices establish identity with Microsoft Entra ID, enabling a more secure and streamlined authentication experience. However, completing Platform SSO registrati",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:39.951Z",
+      "fetchedAt": "2026-07-29T20:55:41.673Z",
       "error": null
     },
     {
@@ -3492,7 +3492,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:39.955Z",
+      "fetchedAt": "2026-07-29T20:55:41.896Z",
       "error": null
     },
     {
@@ -3501,55 +3501,9 @@
       "type": "official",
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
-      "items": [
-        {
-          "title": "The EU AI Act: what it is, how to prepare and where to learn more",
-          "link": "https://www.jamf.com/blog/eu-ai-act-2026-deadlines-it-compliance-guide/",
-          "pubDate": null,
-          "summary": "The EU AI Act's high-risk deadlines just moved. Here's what stayed, what changed and what to do now. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Managed doesn’t mean secure",
-          "link": "https://www.jamf.com/blog/mdm-vs-endpoint-security-visibility-gap/",
-          "pubDate": null,
-          "summary": "Discover why \"managed\" doesn't mean \"secure.\" See where MDM-only environments leave blind spots and how integrating endpoint security closes them. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Lost in translation: when your bank texts you — but it isn’t your bank",
-          "link": "https://www.jamf.com/blog/sms-spoofing-via-email-thread-injection/",
-          "pubDate": null,
-          "summary": "Discover how bad actors exploit the connection between email and messaging apps and why it matters to IT. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Jamf telemetry basics",
-          "link": "https://www.jamf.com/blog/mac-telemetry-basics/",
-          "pubDate": null,
-          "summary": "Get a deep dive into understanding Mac telemetry at Jamf, including how it works, why it matters and how Mac admins can use it today. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "AI deleted a production database. Prevent this with AI Governance.",
-          "link": "https://www.jamf.com/blog/ai-coding-agent-deleted-production-database/",
-          "pubDate": null,
-          "summary": "Recently, an AI coding agent deleted a production database — a failure that can be avoided by proper configuration. Jamf's AI Governance locks down which permissions AI agents can reach across your fleet before a misconfiguration becomes an incident. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        }
-      ],
-      "fetchedAt": "2026-07-29T17:14:44.541Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-07-29T20:55:50.027Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "2pint",
@@ -3604,7 +3558,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:41.095Z",
+      "fetchedAt": "2026-07-29T20:55:42.851Z",
       "error": null
     },
     {
@@ -3659,7 +3613,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:40.182Z",
+      "fetchedAt": "2026-07-29T20:55:42.201Z",
       "error": null
     },
     {
@@ -3714,7 +3668,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:40.321Z",
+      "fetchedAt": "2026-07-29T20:55:42.112Z",
       "error": null
     },
     {
@@ -3779,7 +3733,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-29T17:14:45.394Z",
+      "fetchedAt": "2026-07-29T20:55:50.817Z",
       "error": null
     }
   ]
