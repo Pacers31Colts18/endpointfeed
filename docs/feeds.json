@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:26:50.295Z",
+  "generatedAt": "2026-07-30T21:09:56.257Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,74 +8,73 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "UK watchdog investigates Microsoft 365 Copilot price increases",
-          "link": "https://4sysops.com/archives/uk-watchdog-investigates-microsoft-365-copilot-price-increases/",
-          "pubDate": "2026-07-30T15:21:55.000Z",
-          "summary": "The UK Competition and Markets Authority (CMA) is investigating whether Microsoft gave Microsoft 365 Personal and Family customers enough information about cheaper subscription options before renewals. The probe centers on the addition of Copilot and the possibility that customers were moved to more",
+          "title": "MAI-Code-1-Flash beats larger coding models on efficiency in VS Code",
+          "link": "https://4sysops.com/archives/mai-code-1-flash-beats-larger-coding-models-on-efficiency-in-vs-code/",
+          "pubDate": "2026-07-30T20:34:53.000Z",
+          "summary": "Microsoft’s MAI-Code-1-Flash is showing a notable advantage in real VS Code and GitHub Copilot workflows: lower usage costs without sacrificing coding quality. Production data indicates the 5-billion-parameter model outperforms Claude Haiku 4.5 and GPT-5.4 Mini on code survival, commit survival, and",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Microsoft 365"
+            "DevOps"
           ],
           "type": "rss"
         },
         {
-          "title": "Windows 11’s slow context menus are getting a faster, customizable overhaul",
-          "link": "https://4sysops.com/archives/windows-11s-slow-context-menus-are-getting-a-faster-customizable-overhaul/",
-          "pubDate": "2026-07-30T15:21:54.000Z",
-          "summary": "Microsoft is developing a new compact context menu for Windows 11 that should open faster by prioritizing common commands instead of loading every third-party action immediately. A separate customization feature will let users hide, reorder, and choose which apps and commands appear in right-click m",
+          "title": "Microsoft boosts AI spending to $41 billion as Azure growth hits 43%",
+          "link": "https://4sysops.com/archives/microsoft-boosts-ai-spending-to-41-billion-as-azure-growth-hits-43/",
+          "pubDate": "2026-07-30T20:34:52.000Z",
+          "summary": "Microsoft’s AI infrastructure spending is accelerating faster than its cloud business, with quarterly capital expenditures reaching $41 billion. Azure revenue growth nevertheless surged 43%, suggesting Microsoft is beginning to turn its data-center expansion into measurable demand. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
+            "AI",
+            "Azure",
+            "Cloud Computing"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Deploying Kimi K3 on AWS",
+          "link": "https://4sysops.com/archives/deploying-kimi-k3-on-aws/",
+          "pubDate": "2026-07-30T20:34:51.000Z",
+          "summary": "Kimi K3 can now be self-hosted on AWS, but its 2.8 trillion parameters put the model far beyond ordinary GPU servers. The official deployment uses an eight-GPU NVIDIA B300 instance and requires organizations to reserve capacity before they can launch an endpoint. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "AWS",
+            "Cloud Computing"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Resolve now in Microsoft Security Exposure Management dashboard in Defender Portal",
+          "link": "https://4sysops.com/archives/resolve-now-in-microsoft-security-exposure-management-dashboard-in-defender-portal/",
+          "pubDate": "2026-07-30T20:32:50.000Z",
+          "summary": "Microsoft has introduced a redesigned Microsoft Security Exposure Management dashboard in the Microsoft Defender Portal, which is currently in public preview. This new interface helps you consolidate security findings and prioritize critical exposures across your environment. The new Resolve Now fea",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "Security",
             "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft eliminates Cosmos Master Key after critical Azure Cosmos DB vulnerability",
-          "link": "https://4sysops.com/archives/microsoft-eliminates-cosmos-master-key-after-critical-azure-cosmos-db-vulnerability/",
-          "pubDate": "2026-07-30T15:21:53.000Z",
-          "summary": "Microsoft has completed a global remediation for CosmosEscape, a critical Azure Cosmos DB vulnerability that could have exposed databases across customer tenants. The fix removes the platform-wide signing key, and Microsoft says its investigation found no unauthorized customer activity or need for c",
+          "title": "Amazon accidentally spent $1.8 million on Anthropic Claude Sonnet",
+          "link": "https://4sysops.com/archives/amazon-accidentally-spent-1-8-million-on-anthropic-claude-sonnet/",
+          "pubDate": "2026-07-30T19:34:43.000Z",
+          "summary": "Amazon engineers are building automated spending guardrails after internal reviews found that AI deployments had generated millions of dollars in unexpected costs. One failed Anthropic Claude Sonnet project ran 860% over budget before Amazon detected the problem five months later. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
-            "Azure",
-            "Cloud Computing",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft 365 Copilot Word worm survives model updates",
-          "link": "https://4sysops.com/archives/microsoft-365-copilot-word-worm-survives-model-updates/",
-          "pubDate": "2026-07-30T09:36:35.000Z",
-          "summary": "A self-propagating Word worm can still alter documents and copy hidden instructions into new files after Microsoft 365 Copilot mitigations, including a model upgrade, failed to close the broader vulnerability class. The attack requires no macros, executable code, or access to a victim’s Microsoft 36",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Microsoft 365",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "GPT-5.6 Sol blocked a Linux bug hunt, while open models found the trail",
-          "link": "https://4sysops.com/archives/gpt-5-6-sol-blocked-a-linux-bug-hunt-while-open-models-found-the-trail/",
-          "pubDate": "2026-07-30T09:36:34.000Z",
-          "summary": "OpenAI’s GPT-5.6 Sol was not the problem during a researcher’s ripgrep investigation—the separate cybersecurity classifier was. After repeated refusals, Daniel Fox Franke switched to Z’ai GLM 5.2 and Moonshot AI’s Kimi K3, which helped trace the recurring segmentation fault to a suspected Linux kern",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Linux",
-            "Security"
+            "AI"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:31.376Z",
+      "fetchedAt": "2026-07-30T21:09:38.971Z",
       "error": null
     },
     {
@@ -151,7 +150,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:31.461Z",
+      "fetchedAt": "2026-07-30T21:09:39.218Z",
       "error": null
     },
     {
@@ -217,7 +216,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:31.953Z",
+      "fetchedAt": "2026-07-30T21:09:39.835Z",
       "error": null
     },
     {
@@ -227,7 +226,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:31.325Z",
+      "fetchedAt": "2026-07-30T21:09:38.588Z",
       "error": "HTTP 403"
     },
     {
@@ -282,7 +281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:32.214Z",
+      "fetchedAt": "2026-07-30T21:09:39.982Z",
       "error": null
     },
     {
@@ -347,7 +346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:32.331Z",
+      "fetchedAt": "2026-07-30T21:09:40.378Z",
       "error": null
     },
     {
@@ -431,7 +430,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:32.198Z",
+      "fetchedAt": "2026-07-30T21:09:39.952Z",
       "error": null
     },
     {
@@ -504,7 +503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:32.764Z",
+      "fetchedAt": "2026-07-30T21:09:40.925Z",
       "error": null
     },
     {
@@ -513,7 +512,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:32.874Z",
+      "fetchedAt": "2026-07-30T21:09:41.018Z",
       "error": "HTTP 403"
     },
     {
@@ -591,7 +590,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:34.388Z",
+      "fetchedAt": "2026-07-30T21:09:42.890Z",
       "error": null
     },
     {
@@ -600,7 +599,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:33.350Z",
+      "fetchedAt": "2026-07-30T21:09:41.358Z",
       "error": "certificate has expired"
     },
     {
@@ -609,6 +608,19 @@
       "type": "rss",
       "url": "https://www.niallbrady.com/feed/",
       "items": [
+        {
+          "title": "Following up on Windows 365 Reserve",
+          "link": "https://www.niallbrady.com/2026/07/30/following-up-on-windows-365-reserve/",
+          "pubDate": "2026-07-30T18:19:42.000Z",
+          "summary": "Continue reading →]]>",
+          "author": "ncbrady",
+          "categories": [
+            "Windows 365",
+            "Windows 365 Reserve",
+            "Windows app"
+          ],
+          "type": "rss"
+        },
         {
           "title": "First looks at Windows 365 Reserve",
           "link": "https://www.niallbrady.com/2026/07/13/first-looks-at-windows-365-reserve/",
@@ -655,22 +667,9 @@
             "Secure Boot Status report"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Using a Windows 365 Cloud PC via a USB-C connected iPhone",
-          "link": "https://www.niallbrady.com/2026/04/26/using-a-windows-365-cloud-pc-via-a-usb-c-connected-iphone/",
-          "pubDate": "2026-04-26T19:57:42.000Z",
-          "summary": "Continue reading →]]>",
-          "author": "ncbrady",
-          "categories": [
-            "Surface Arc Mouse",
-            "USB-C connection via iPhone",
-            "Windows 365"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:33.595Z",
+      "fetchedAt": "2026-07-30T21:09:41.735Z",
       "error": null
     },
     {
@@ -746,7 +745,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:34.719Z",
+      "fetchedAt": "2026-07-30T21:09:43.430Z",
       "error": null
     },
     {
@@ -756,7 +755,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:34.574Z",
+      "fetchedAt": "2026-07-30T21:09:43.123Z",
       "error": "HTTP 202"
     },
     {
@@ -811,7 +810,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:35.119Z",
+      "fetchedAt": "2026-07-30T21:09:43.357Z",
       "error": null
     },
     {
@@ -885,7 +884,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:34.695Z",
+      "fetchedAt": "2026-07-30T21:09:43.307Z",
       "error": null
     },
     {
@@ -961,7 +960,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:35.363Z",
+      "fetchedAt": "2026-07-30T21:09:43.521Z",
       "error": null
     },
     {
@@ -1038,7 +1037,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:37.264Z",
+      "fetchedAt": "2026-07-30T21:09:45.611Z",
       "error": null
     },
     {
@@ -1123,7 +1122,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:35.482Z",
+      "fetchedAt": "2026-07-30T21:09:43.627Z",
       "error": null
     },
     {
@@ -1179,7 +1178,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:35.554Z",
+      "fetchedAt": "2026-07-30T21:09:43.691Z",
       "error": null
     },
     {
@@ -1265,7 +1264,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:38.375Z",
+      "fetchedAt": "2026-07-30T21:09:46.896Z",
       "error": null
     },
     {
@@ -1351,7 +1350,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:37.348Z",
+      "fetchedAt": "2026-07-30T21:09:45.703Z",
       "error": null
     },
     {
@@ -1435,7 +1434,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:37.442Z",
+      "fetchedAt": "2026-07-30T21:09:45.757Z",
       "error": null
     },
     {
@@ -1490,7 +1489,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:37.420Z",
+      "fetchedAt": "2026-07-30T21:09:45.696Z",
       "error": null
     },
     {
@@ -1555,7 +1554,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:38.518Z",
+      "fetchedAt": "2026-07-30T21:09:47.076Z",
       "error": null
     },
     {
@@ -1564,7 +1563,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:38.567Z",
+      "fetchedAt": "2026-07-30T21:09:47.067Z",
       "error": "HTTP 404"
     },
     {
@@ -1620,7 +1619,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:38.963Z",
+      "fetchedAt": "2026-07-30T21:09:47.431Z",
       "error": null
     },
     {
@@ -1685,7 +1684,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:38.793Z",
+      "fetchedAt": "2026-07-30T21:09:47.328Z",
       "error": null
     },
     {
@@ -1766,7 +1765,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.295Z",
+      "fetchedAt": "2026-07-30T21:09:48.372Z",
       "error": null
     },
     {
@@ -1775,7 +1774,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:39.687Z",
+      "fetchedAt": "2026-07-30T21:09:48.413Z",
       "error": "HTTP 404"
     },
     {
@@ -1784,7 +1783,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:39.147Z",
+      "fetchedAt": "2026-07-30T21:09:47.671Z",
       "error": "HTTP 403"
     },
     {
@@ -1855,16 +1854,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
-            "Security",
             "UEFI",
             "Windows 10",
-            "windows 11",
-            "Windows Server"
+            "Windows Server",
+            "Security",
+            "windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:39.220Z",
+      "fetchedAt": "2026-07-30T21:09:47.706Z",
       "error": null
     },
     {
@@ -1937,7 +1936,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.423Z",
+      "fetchedAt": "2026-07-30T21:09:48.642Z",
       "error": null
     },
     {
@@ -1956,7 +1955,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.586Z",
+      "fetchedAt": "2026-07-30T21:09:48.644Z",
       "error": null
     },
     {
@@ -2011,7 +2010,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.722Z",
+      "fetchedAt": "2026-07-30T21:09:48.735Z",
       "error": null
     },
     {
@@ -2097,7 +2096,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.711Z",
+      "fetchedAt": "2026-07-30T21:09:48.725Z",
       "error": null
     },
     {
@@ -2162,7 +2161,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.963Z",
+      "fetchedAt": "2026-07-30T21:09:48.813Z",
       "error": null
     },
     {
@@ -2228,7 +2227,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/LrIS9lcSbko/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.905Z",
+      "fetchedAt": "2026-07-30T21:09:48.766Z",
       "error": null
     },
     {
@@ -2293,7 +2292,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Z9NeYANlgoY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.956Z",
+      "fetchedAt": "2026-07-30T21:09:49.005Z",
       "error": null
     },
     {
@@ -2358,7 +2357,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A_8zVGifIlc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:40.854Z",
+      "fetchedAt": "2026-07-30T21:09:48.928Z",
       "error": null
     },
     {
@@ -2424,7 +2423,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.112Z",
+      "fetchedAt": "2026-07-30T21:09:49.288Z",
       "error": null
     },
     {
@@ -2490,7 +2489,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3VE8Ii3bng4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.054Z",
+      "fetchedAt": "2026-07-30T21:09:49.151Z",
       "error": null
     },
     {
@@ -2556,7 +2555,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/h5AAo1FFiAw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.067Z",
+      "fetchedAt": "2026-07-30T21:09:49.263Z",
       "error": null
     },
     {
@@ -2621,7 +2620,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.058Z",
+      "fetchedAt": "2026-07-30T21:09:49.152Z",
       "error": null
     },
     {
@@ -2687,7 +2686,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JASvAHNszGI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.209Z",
+      "fetchedAt": "2026-07-30T21:09:49.431Z",
       "error": null
     },
     {
@@ -2752,7 +2751,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_BGwgGgMTI4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.233Z",
+      "fetchedAt": "2026-07-30T21:09:49.427Z",
       "error": null
     },
     {
@@ -2817,7 +2816,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.201Z",
+      "fetchedAt": "2026-07-30T21:09:49.431Z",
       "error": null
     },
     {
@@ -2882,7 +2881,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.296Z",
+      "fetchedAt": "2026-07-30T21:09:49.472Z",
       "error": null
     },
     {
@@ -2947,7 +2946,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.415Z",
+      "fetchedAt": "2026-07-30T21:09:49.631Z",
       "error": null
     },
     {
@@ -3012,7 +3011,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.467Z",
+      "fetchedAt": "2026-07-30T21:09:49.769Z",
       "error": null
     },
     {
@@ -3077,7 +3076,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:41.388Z",
+      "fetchedAt": "2026-07-30T21:09:49.481Z",
       "error": null
     },
     {
@@ -3133,7 +3132,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:42.938Z",
+      "fetchedAt": "2026-07-30T21:09:49.738Z",
       "error": null
     },
     {
@@ -3143,7 +3142,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:43.098Z",
+      "fetchedAt": "2026-07-30T21:09:50.142Z",
       "error": null
     },
     {
@@ -3209,7 +3208,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:44.623Z",
+      "fetchedAt": "2026-07-30T21:09:51.337Z",
       "error": null
     },
     {
@@ -3265,7 +3264,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:43.002Z",
+      "fetchedAt": "2026-07-30T21:09:49.821Z",
       "error": null
     },
     {
@@ -3279,7 +3278,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
+          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
           "author": "",
           "categories": [],
           "type": "official"
@@ -3294,7 +3293,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:43.257Z",
+      "fetchedAt": "2026-07-30T21:09:50.029Z",
       "error": null
     },
     {
@@ -3350,7 +3349,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:44.655Z",
+      "fetchedAt": "2026-07-30T21:09:51.350Z",
       "error": null
     },
     {
@@ -3360,7 +3359,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-30T17:26:44.871Z",
+      "fetchedAt": "2026-07-30T21:09:51.446Z",
       "error": null
     },
     {
@@ -3416,7 +3415,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:45.088Z",
+      "fetchedAt": "2026-07-30T21:09:51.363Z",
       "error": null
     },
     {
@@ -3436,7 +3435,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:44.676Z",
+      "fetchedAt": "2026-07-30T21:09:51.357Z",
       "error": null
     },
     {
@@ -3492,7 +3491,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:49.373Z",
+      "fetchedAt": "2026-07-30T21:09:55.732Z",
       "error": null
     },
     {
@@ -3548,7 +3547,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:45.751Z",
+      "fetchedAt": "2026-07-30T21:09:52.355Z",
       "error": null
     },
     {
@@ -3603,7 +3602,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:45.230Z",
+      "fetchedAt": "2026-07-30T21:09:51.614Z",
       "error": null
     },
     {
@@ -3658,7 +3657,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:45.252Z",
+      "fetchedAt": "2026-07-30T21:09:51.598Z",
       "error": null
     },
     {
@@ -3723,7 +3722,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-30T17:26:50.295Z",
+      "fetchedAt": "2026-07-30T21:09:56.257Z",
       "error": null
     }
   ]
