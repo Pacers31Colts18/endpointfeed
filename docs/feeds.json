@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T21:09:56.257Z",
+  "generatedAt": "2026-07-31T02:49:07.237Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -74,7 +74,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:38.971Z",
+      "fetchedAt": "2026-07-31T02:48:47.210Z",
       "error": null
     },
     {
@@ -150,7 +150,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:39.218Z",
+      "fetchedAt": "2026-07-31T02:48:47.382Z",
       "error": null
     },
     {
@@ -216,7 +216,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:39.835Z",
+      "fetchedAt": "2026-07-31T02:48:48.043Z",
       "error": null
     },
     {
@@ -226,7 +226,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-07-30T21:09:38.588Z",
+      "fetchedAt": "2026-07-31T02:48:46.953Z",
       "error": "HTTP 403"
     },
     {
@@ -281,7 +281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:39.982Z",
+      "fetchedAt": "2026-07-31T02:48:48.479Z",
       "error": null
     },
     {
@@ -346,7 +346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:40.378Z",
+      "fetchedAt": "2026-07-31T02:48:48.379Z",
       "error": null
     },
     {
@@ -430,7 +430,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:39.952Z",
+      "fetchedAt": "2026-07-31T02:48:48.268Z",
       "error": null
     },
     {
@@ -503,7 +503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:40.925Z",
+      "fetchedAt": "2026-07-31T02:48:49.061Z",
       "error": null
     },
     {
@@ -512,7 +512,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-07-30T21:09:41.018Z",
+      "fetchedAt": "2026-07-31T02:48:49.186Z",
       "error": "HTTP 403"
     },
     {
@@ -590,7 +590,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:42.890Z",
+      "fetchedAt": "2026-07-31T02:48:50.887Z",
       "error": null
     },
     {
@@ -599,7 +599,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-30T21:09:41.358Z",
+      "fetchedAt": "2026-07-31T02:48:49.496Z",
       "error": "certificate has expired"
     },
     {
@@ -669,7 +669,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:41.735Z",
+      "fetchedAt": "2026-07-31T02:48:49.923Z",
       "error": null
     },
     {
@@ -745,7 +745,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:43.430Z",
+      "fetchedAt": "2026-07-31T02:48:52.035Z",
       "error": null
     },
     {
@@ -754,9 +754,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-07-30T21:09:43.123Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Uninstalling Windows 11 Updates",
+          "link": "https://www.deploymentresearch.com/uninstalling-windows-11-updates/",
+          "pubDate": "2026-07-27T02:54:54.000Z",
+          "summary": "Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell models. Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell […] ",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
+          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
+          "pubDate": "2026-07-13T04:18:01.000Z",
+          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
+          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
+          "pubDate": "2026-05-29T15:34:28.000Z",
+          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
+          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
+          "pubDate": "2026-05-19T05:58:43.000Z",
+          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
+          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
+          "pubDate": "2026-05-15T14:47:47.000Z",
+          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-07-31T02:48:52.956Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -810,7 +866,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:43.357Z",
+      "fetchedAt": "2026-07-31T02:48:51.236Z",
       "error": null
     },
     {
@@ -884,7 +940,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:43.307Z",
+      "fetchedAt": "2026-07-31T02:48:52.159Z",
       "error": null
     },
     {
@@ -960,7 +1016,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:43.521Z",
+      "fetchedAt": "2026-07-31T02:48:53.099Z",
       "error": null
     },
     {
@@ -1037,7 +1093,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:45.611Z",
+      "fetchedAt": "2026-07-31T02:48:54.966Z",
       "error": null
     },
     {
@@ -1122,7 +1178,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:43.627Z",
+      "fetchedAt": "2026-07-31T02:48:54.095Z",
       "error": null
     },
     {
@@ -1178,7 +1234,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:43.691Z",
+      "fetchedAt": "2026-07-31T02:48:53.285Z",
       "error": null
     },
     {
@@ -1264,7 +1320,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:46.896Z",
+      "fetchedAt": "2026-07-31T02:48:56.030Z",
       "error": null
     },
     {
@@ -1350,7 +1406,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:45.703Z",
+      "fetchedAt": "2026-07-31T02:48:55.077Z",
       "error": null
     },
     {
@@ -1434,7 +1490,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:45.757Z",
+      "fetchedAt": "2026-07-31T02:48:55.135Z",
       "error": null
     },
     {
@@ -1489,7 +1545,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:45.696Z",
+      "fetchedAt": "2026-07-31T02:48:55.260Z",
       "error": null
     },
     {
@@ -1554,7 +1610,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:47.076Z",
+      "fetchedAt": "2026-07-31T02:48:56.216Z",
       "error": null
     },
     {
@@ -1563,7 +1619,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-07-30T21:09:47.067Z",
+      "fetchedAt": "2026-07-31T02:48:56.229Z",
       "error": "HTTP 404"
     },
     {
@@ -1619,7 +1675,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:47.431Z",
+      "fetchedAt": "2026-07-31T02:48:56.935Z",
       "error": null
     },
     {
@@ -1684,7 +1740,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:47.328Z",
+      "fetchedAt": "2026-07-31T02:48:56.597Z",
       "error": null
     },
     {
@@ -1765,7 +1821,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:48.372Z",
+      "fetchedAt": "2026-07-31T02:48:57.690Z",
       "error": null
     },
     {
@@ -1774,7 +1830,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-07-30T21:09:48.413Z",
+      "fetchedAt": "2026-07-31T02:48:58.164Z",
       "error": "HTTP 404"
     },
     {
@@ -1783,7 +1839,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-07-30T21:09:47.671Z",
+      "fetchedAt": "2026-07-31T02:48:57.222Z",
       "error": "HTTP 403"
     },
     {
@@ -1863,7 +1919,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:47.706Z",
+      "fetchedAt": "2026-07-31T02:48:57.273Z",
       "error": null
     },
     {
@@ -1936,7 +1992,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:48.642Z",
+      "fetchedAt": "2026-07-31T02:48:58.343Z",
       "error": null
     },
     {
@@ -1955,7 +2011,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:48.644Z",
+      "fetchedAt": "2026-07-31T02:48:58.361Z",
       "error": null
     },
     {
@@ -2010,7 +2066,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:48.735Z",
+      "fetchedAt": "2026-07-31T02:48:58.752Z",
       "error": null
     },
     {
@@ -2096,7 +2152,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:48.725Z",
+      "fetchedAt": "2026-07-31T02:48:58.553Z",
       "error": null
     },
     {
@@ -2161,7 +2217,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:48.813Z",
+      "fetchedAt": "2026-07-31T02:48:59.138Z",
       "error": null
     },
     {
@@ -2227,7 +2283,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/LrIS9lcSbko/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:48.766Z",
+      "fetchedAt": "2026-07-31T02:48:59.142Z",
       "error": null
     },
     {
@@ -2292,7 +2348,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Z9NeYANlgoY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.005Z",
+      "fetchedAt": "2026-07-31T02:48:59.236Z",
       "error": null
     },
     {
@@ -2357,7 +2413,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A_8zVGifIlc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:48.928Z",
+      "fetchedAt": "2026-07-31T02:48:59.102Z",
       "error": null
     },
     {
@@ -2423,7 +2479,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.288Z",
+      "fetchedAt": "2026-07-31T02:48:59.481Z",
       "error": null
     },
     {
@@ -2489,7 +2545,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3VE8Ii3bng4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.151Z",
+      "fetchedAt": "2026-07-31T02:48:59.367Z",
       "error": null
     },
     {
@@ -2555,7 +2611,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/h5AAo1FFiAw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.263Z",
+      "fetchedAt": "2026-07-31T02:48:59.445Z",
       "error": null
     },
     {
@@ -2620,7 +2676,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.152Z",
+      "fetchedAt": "2026-07-31T02:48:59.363Z",
       "error": null
     },
     {
@@ -2686,7 +2742,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JASvAHNszGI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.431Z",
+      "fetchedAt": "2026-07-31T02:48:59.603Z",
       "error": null
     },
     {
@@ -2751,7 +2807,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_BGwgGgMTI4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.427Z",
+      "fetchedAt": "2026-07-31T02:48:59.662Z",
       "error": null
     },
     {
@@ -2816,7 +2872,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.431Z",
+      "fetchedAt": "2026-07-31T02:48:59.615Z",
       "error": null
     },
     {
@@ -2881,7 +2937,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.472Z",
+      "fetchedAt": "2026-07-31T02:48:59.601Z",
       "error": null
     },
     {
@@ -2946,7 +3002,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.631Z",
+      "fetchedAt": "2026-07-31T02:48:59.840Z",
       "error": null
     },
     {
@@ -3011,7 +3067,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.769Z",
+      "fetchedAt": "2026-07-31T02:48:59.974Z",
       "error": null
     },
     {
@@ -3076,7 +3132,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.481Z",
+      "fetchedAt": "2026-07-31T02:48:59.856Z",
       "error": null
     },
     {
@@ -3132,7 +3188,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.738Z",
+      "fetchedAt": "2026-07-31T02:48:59.954Z",
       "error": null
     },
     {
@@ -3142,7 +3198,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-07-30T21:09:50.142Z",
+      "fetchedAt": "2026-07-31T02:49:00.296Z",
       "error": null
     },
     {
@@ -3208,7 +3264,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:51.337Z",
+      "fetchedAt": "2026-07-31T02:49:01.559Z",
       "error": null
     },
     {
@@ -3264,7 +3320,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:49.821Z",
+      "fetchedAt": "2026-07-31T02:49:00.119Z",
       "error": null
     },
     {
@@ -3293,7 +3349,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:50.029Z",
+      "fetchedAt": "2026-07-31T02:49:00.339Z",
       "error": null
     },
     {
@@ -3349,7 +3405,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:51.350Z",
+      "fetchedAt": "2026-07-31T02:49:02.065Z",
       "error": null
     },
     {
@@ -3359,7 +3415,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-07-30T21:09:51.446Z",
+      "fetchedAt": "2026-07-31T02:49:01.700Z",
       "error": null
     },
     {
@@ -3415,7 +3471,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:51.363Z",
+      "fetchedAt": "2026-07-31T02:49:01.639Z",
       "error": null
     },
     {
@@ -3435,7 +3491,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:51.357Z",
+      "fetchedAt": "2026-07-31T02:49:01.604Z",
       "error": null
     },
     {
@@ -3491,7 +3547,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:55.732Z",
+      "fetchedAt": "2026-07-31T02:49:06.340Z",
       "error": null
     },
     {
@@ -3547,7 +3603,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:52.355Z",
+      "fetchedAt": "2026-07-31T02:49:03.042Z",
       "error": null
     },
     {
@@ -3602,7 +3658,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:51.614Z",
+      "fetchedAt": "2026-07-31T02:49:02.270Z",
       "error": null
     },
     {
@@ -3657,7 +3713,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:51.598Z",
+      "fetchedAt": "2026-07-31T02:49:02.294Z",
       "error": null
     },
     {
@@ -3722,7 +3778,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-07-30T21:09:56.257Z",
+      "fetchedAt": "2026-07-31T02:49:07.237Z",
       "error": null
     }
   ]
