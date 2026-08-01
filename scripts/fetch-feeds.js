@@ -37,6 +37,13 @@ const FEEDS = [
     url: "https://andrewstaylor.com/feed/",
   },
   {
+    id: "cybercloudops",
+    label: "cybercloudops.com - Ricard Barbosa",
+    badge: 'MVP',
+    type: "rss",
+    url: "https://cybercloudops.com/rss.xml",
+  },
+  {
     id: "skiptotheendpoint",
     label: "skiptotheendpoint.co.uk",
     badge: 'MVP',
