@@ -30,6 +30,27 @@ const FEEDS = [
     url: "https://petervanderwoude.nl/feed/",
   },
   {
+    id: "manishbangia",
+    label: "manishbangia.com",
+    badge: 'MVP',
+    type: "rss",
+    url: "https://www.manishbangia.com/feed/",
+  },
+  {
+    id: "evil365",
+    label: "evil365.com - Mads Johansen",
+    badge: 'MVP',
+    type: "rss",
+    url: "https://evil365.com/feed.xml",
+  },
+  {
+    id: "powershellisfun",
+    label: "powershellisfun.com - Harm Veenstra",
+    badge: 'MVP',
+    type: "rss",
+    url: "https://powershellisfun.com/feed/",
+  },
+  {
     id: "smbtothecloud",
     label: "smbtothecloud.com - Gannon Novak",
     badge: 'MVP',
