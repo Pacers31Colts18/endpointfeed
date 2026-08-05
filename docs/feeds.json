@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:34:35.151Z",
+  "generatedAt": "2026-08-05T14:08:27.422Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,52 +8,50 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Microsoft: MSIX Remove is not uninstall",
-          "link": "https://4sysops.com/archives/microsoft-msix-remove-is-not-uninstall/",
-          "pubDate": "2026-08-05T10:10:06.000Z",
-          "summary": "MSIX “Remove” does not guarantee that an application’s binaries are deleted from disk. The operation deregisters the app for a user, while Windows only removes the package payload when no users, processes, or other references still depend on it. Source]]>",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Systems Management",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Amazon S3 Vectors reaches AWS European Sovereign Cloud",
-          "link": "https://4sysops.com/archives/amazon-s3-vectors-reaches-aws-european-sovereign-cloud/",
-          "pubDate": "2026-08-05T10:10:05.000Z",
-          "summary": "Source]]>",
+          "title": "Chrome’s on-device AI now needs 20 GB of free disk space",
+          "link": "https://4sysops.com/archives/chromes-on-device-ai-now-needs-20-gb-of-free-disk-space/",
+          "pubDate": "2026-08-05T13:19:54.000Z",
+          "summary": "Google has quietly expanded Chrome’s on-device AI documentation with concrete download requirements, including approximately 20 GB of free storage. Chrome may download its roughly 4 GB Gemini Nano model only on supported hardware with enough processing capacity and an unmetered internet connection. ",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "AWS",
-            "Cloud Computing",
-            "Sovereignty"
+            "Web"
           ],
           "type": "rss"
         },
         {
-          "title": "Amazon Bedrock adds in-region Web Search for OpenAI GPT models",
-          "link": "https://4sysops.com/archives/amazon-bedrock-adds-in-region-web-search-for-openai-gpt-models/",
-          "pubDate": "2026-08-05T10:10:04.000Z",
-          "summary": "Source]]>",
+          "title": "VS Code 1.132 eliminates centralized control over the agent host and introduces side chats",
+          "link": "https://4sysops.com/archives/vs-code-1-132-eliminates-centralized-control-over-the-agent-host-and-introduces-side-chats/",
+          "pubDate": "2026-08-05T13:19:53.000Z",
+          "summary": "Visual Studio Code 1.132 is now stable, but it changes an important administrative control: the `ChatAgentHostEnabled` policy has been removed. Administrators can no longer centrally disable the agent host, although developers can still manage it with `chat.agentHost.enabled`. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "AWS",
-            "Cloud Computing"
+            "DevOps"
           ],
           "type": "rss"
         },
         {
-          "title": "Open Secure AI Alliance opens SAFE rules for sharing AI incidents",
-          "link": "https://4sysops.com/archives/open-secure-ai-alliance-opens-safe-rules-for-sharing-ai-incidents/",
-          "pubDate": "2026-08-05T09:44:16.000Z",
-          "summary": "The Open Secure AI Alliance is a coalition led by NVIDIA and supported by prominent members including Microsoft, IBM, Cisco, CrowdStrike, Hugging Face, Palantir, Dell Technologies, Red Hat, and the Linux Foundation. Formed in late July 2026 to develop and share open tools for securing AI models, age",
+          "title": "Microsoft pulls Copilot Domain Exclusion after launch",
+          "link": "https://4sysops.com/archives/microsoft-pulls-copilot-domain-exclusion-after-launch/",
+          "pubDate": "2026-08-05T13:19:52.000Z",
+          "summary": "Microsoft has withdrawn Microsoft 365 Copilot’s Domain Exclusion feature only about a week after beginning its rollout. The administrator control, designed to block up to 1,000 websites from Copilot’s web-grounding results, has also been removed from organizations that already received it. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Microsoft 365",
+            "PowerShell"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "AI agent deception targets real people in UK cyber tests",
+          "link": "https://4sysops.com/archives/ai-agent-deception-targets-real-people-in-uk-cyber-tests/",
+          "pubDate": "2026-08-05T13:19:51.000Z",
+          "summary": "Anthropic’s Mythos 5 and OpenAI’s GPT-5.6-Sol agents carried out sustained, unauthorized actions against real people and organizations during UK cybersecurity evaluations. The agents created fake identities, attempted a supply-chain attack, and used social engineering without being explicitly told t",
           "author": "IT News",
           "categories": [
             "News",
@@ -63,10 +61,10 @@
           "type": "rss"
         },
         {
-          "title": "ChainDrop npm worm now targets CI/CD OIDC tokens and developer tools",
-          "link": "https://4sysops.com/archives/chaindrop-npm-worm-now-targets-ci-cd-oidc-tokens-and-developer-tools/",
-          "pubDate": "2026-08-05T09:44:15.000Z",
-          "summary": "ChainDrop is more than a malicious npm package outbreak: its worm can steal CI/CD credentials, abuse GitHub Actions OIDC publishing access, and plant persistence in Claude and Visual Studio Code repositories. Microsoft says organizations that installed an affected release should treat developer work",
+          "title": "Critical Gitea Org-mode flaw exposes server files without authentication",
+          "link": "https://4sysops.com/archives/critical-gitea-org-mode-flaw-exposes-server-files-without-authentication/",
+          "pubDate": "2026-08-05T13:19:50.000Z",
+          "summary": "A critical Gitea vulnerability lets unauthenticated attackers read files accessible to the service account through crafted Org-mode markup. CVE-2026-59774 affects versions 1.22.1 through 1.27.0 and is fixed in Gitea 1.27.1. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
@@ -76,7 +74,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:14.208Z",
+      "fetchedAt": "2026-08-05T14:08:06.365Z",
       "error": null
     },
     {
@@ -152,7 +150,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:14.313Z",
+      "fetchedAt": "2026-08-05T14:08:06.730Z",
       "error": null
     },
     {
@@ -228,7 +226,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:15.805Z",
+      "fetchedAt": "2026-08-05T14:08:08.141Z",
       "error": null
     },
     {
@@ -314,7 +312,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:14.207Z",
+      "fetchedAt": "2026-08-05T14:08:07.185Z",
       "error": null
     },
     {
@@ -388,7 +386,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:15.982Z",
+      "fetchedAt": "2026-08-05T14:08:08.914Z",
       "error": null
     },
     {
@@ -457,7 +455,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:16.168Z",
+      "fetchedAt": "2026-08-05T14:08:08.643Z",
       "error": null
     },
     {
@@ -531,7 +529,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:16.014Z",
+      "fetchedAt": "2026-08-05T14:08:08.333Z",
       "error": null
     },
     {
@@ -612,7 +610,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:16.977Z",
+      "fetchedAt": "2026-08-05T14:08:09.322Z",
       "error": null
     },
     {
@@ -697,7 +695,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:17.253Z",
+      "fetchedAt": "2026-08-05T14:08:09.486Z",
       "error": null
     },
     {
@@ -770,7 +768,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:17.309Z",
+      "fetchedAt": "2026-08-05T14:08:09.722Z",
       "error": null
     },
     {
@@ -852,7 +850,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:17.245Z",
+      "fetchedAt": "2026-08-05T14:08:09.576Z",
       "error": null
     },
     {
@@ -918,7 +916,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:18.184Z",
+      "fetchedAt": "2026-08-05T14:08:10.484Z",
       "error": null
     },
     {
@@ -989,7 +987,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:18.513Z",
+      "fetchedAt": "2026-08-05T14:08:10.779Z",
       "error": null
     },
     {
@@ -1069,7 +1067,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:19.004Z",
+      "fetchedAt": "2026-08-05T14:08:11.292Z",
       "error": null
     },
     {
@@ -1124,7 +1122,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:18.383Z",
+      "fetchedAt": "2026-08-05T14:08:10.612Z",
       "error": null
     },
     {
@@ -1189,7 +1187,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:18.504Z",
+      "fetchedAt": "2026-08-05T14:08:10.773Z",
       "error": null
     },
     {
@@ -1273,7 +1271,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:19.193Z",
+      "fetchedAt": "2026-08-05T14:08:11.407Z",
       "error": null
     },
     {
@@ -1281,9 +1279,73 @@
       "label": "intunestuff.com",
       "type": "rss",
       "url": "https://joostgelijsteen.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-08-05T10:34:19.480Z",
-      "error": ""
+      "items": [
+        {
+          "title": "App Inventory in Intune just got a serious Upgrade",
+          "link": "https://joostgelijsteen.com/app-inventory-in-intune-just-got-a-upgrade/",
+          "pubDate": "2026-05-05T07:36:23.000Z",
+          "summary": "The old Discovered apps report had one fundamental problem. It refreshed on a seven-day cycle. By the time data reached you, it was already stale. Decisions made on week-old software inventory are decisions made with incomplete information, and in environments where applications install and change c",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "Intune",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Edge (MAM) on iOS Keeps removing the Work Account after Sign-in!: Why one Broken identity breaks it All",
+          "link": "https://joostgelijsteen.com/why-edge-mam-ios-keeps-removing-work-account/",
+          "pubDate": "2026-03-12T09:47:41.000Z",
+          "summary": "Right after enabling App Protection Policies (MAM) for iOS, one user suddenly couldn’t open any protected company data in Edge. Every time the user signed in with his work profile, the account appeared for a second, then vanished. Outlook and Teams still worked fine. Conditional Access wasn’t the is",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "Intune",
+            "MAM",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Designing an App Protection Policy that don’t backfire on your unmanaged devices",
+          "link": "https://joostgelijsteen.com/designing-app-protection-policy/",
+          "pubDate": "2026-03-06T08:25:50.000Z",
+          "summary": "An App Protection Policy for unmanaged devices is often described as a lighter form of device management. That description is inaccurate. It is not a reduced version of MDM. It exists because there is no device control in the first place. In an unmanaged scenario, the device is not enrolled. There i",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "MAM",
+            "Intune",
+            "security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Mobile Application Management Explained: How Intune MAM Works!",
+          "link": "https://joostgelijsteen.com/mobile-application-management-explained/",
+          "pubDate": "2026-02-23T09:32:35.000Z",
+          "summary": "Mobile Application Management protects corporate data inside mobile apps while leaving the device unmanaged. The protection boundary sits around the app, the signed in identity, and the work data, so you can secure information on personal, shared, partner, or contractor devices without enrollment or",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "Intune",
+            "MAM",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows device configuration policies are moving to Settings catalog template. What you need to know",
+          "link": "https://joostgelijsteen.com/settings-catalog-template/",
+          "pubDate": "2025-04-29T11:49:40.000Z",
+          "summary": "In recent months, Microsoft has been rolling out an important change that impacts how we configure Windows devices through Intune. If you’ve been using device configuration profiles based on the “Templates” (such as Endpoint Protection, Edition Upgrade, or Firewall settings), there’s now a shift und",
+          "author": "Joost Gelijsteen",
+          "categories": [
+            "Intune",
+            "Windows 11"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-08-05T14:08:12.007Z",
+      "error": null
     },
     {
       "id": "zerotrust",
@@ -1291,7 +1353,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-05T10:34:19.219Z",
+      "fetchedAt": "2026-08-05T14:08:11.482Z",
       "error": "HTTP 403"
     },
     {
@@ -1369,7 +1431,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:20.950Z",
+      "fetchedAt": "2026-08-05T14:08:13.028Z",
       "error": null
     },
     {
@@ -1378,7 +1440,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-05T10:34:21.276Z",
+      "fetchedAt": "2026-08-05T14:08:13.310Z",
       "error": "certificate has expired"
     },
     {
@@ -1448,7 +1510,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:21.611Z",
+      "fetchedAt": "2026-08-05T14:08:13.609Z",
       "error": null
     },
     {
@@ -1524,7 +1586,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:21.255Z",
+      "fetchedAt": "2026-08-05T14:08:13.476Z",
       "error": null
     },
     {
@@ -1590,7 +1652,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:21.759Z",
+      "fetchedAt": "2026-08-05T14:08:13.638Z",
       "error": null
     },
     {
@@ -1645,7 +1707,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:22.138Z",
+      "fetchedAt": "2026-08-05T14:08:13.914Z",
       "error": null
     },
     {
@@ -1716,7 +1778,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:21.993Z",
+      "fetchedAt": "2026-08-05T14:08:13.822Z",
       "error": null
     },
     {
@@ -1792,7 +1854,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:21.962Z",
+      "fetchedAt": "2026-08-05T14:08:13.815Z",
       "error": null
     },
     {
@@ -1869,7 +1931,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:23.844Z",
+      "fetchedAt": "2026-08-05T14:08:15.418Z",
       "error": null
     },
     {
@@ -1954,7 +2016,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:24.082Z",
+      "fetchedAt": "2026-08-05T14:08:15.633Z",
       "error": null
     },
     {
@@ -2010,7 +2072,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:24.038Z",
+      "fetchedAt": "2026-08-05T14:08:15.503Z",
       "error": null
     },
     {
@@ -2096,7 +2158,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:25.151Z",
+      "fetchedAt": "2026-08-05T14:08:16.682Z",
       "error": null
     },
     {
@@ -2182,7 +2244,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:24.092Z",
+      "fetchedAt": "2026-08-05T14:08:15.744Z",
       "error": null
     },
     {
@@ -2266,7 +2328,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:25.296Z",
+      "fetchedAt": "2026-08-05T14:08:16.813Z",
       "error": null
     },
     {
@@ -2275,6 +2337,15 @@
       "type": "rss",
       "url": "https://dirkjanm.io/feed.xml",
       "items": [
+        {
+          "title": "Borrowing Windows Hello keys for authentication and persistence",
+          "link": "https://dirkjanm.io/borrowing-windows-hello-keys/",
+          "pubDate": "2026-08-05T12:00:57.000Z",
+          "summary": "",
+          "author": "<name>Dirk-jan Mollema</name>",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Bypassing Conditional Access policies that have a resource exclusion",
           "link": "https://dirkjanm.io/bypassing-conditional-access-with-resource-exclusion/",
@@ -2310,18 +2381,9 @@
           "author": "<name>Dirk-jan Mollema</name>",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Lateral movement and on-prem NT hash dumping with Microsoft Entra Temporary Access Passes",
-          "link": "https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra/",
-          "pubDate": "2024-05-06T13:00:57.000Z",
-          "summary": "",
-          "author": "<name>Dirk-jan Mollema</name>",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:25.271Z",
+      "fetchedAt": "2026-08-05T14:08:16.742Z",
       "error": null
     },
     {
@@ -2386,7 +2448,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:25.489Z",
+      "fetchedAt": "2026-08-05T14:08:16.962Z",
       "error": null
     },
     {
@@ -2395,7 +2457,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-05T10:34:25.414Z",
+      "fetchedAt": "2026-08-05T14:08:16.981Z",
       "error": "HTTP 404"
     },
     {
@@ -2451,7 +2513,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.103Z",
+      "fetchedAt": "2026-08-05T14:08:17.347Z",
       "error": null
     },
     {
@@ -2516,7 +2578,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.193Z",
+      "fetchedAt": "2026-08-05T14:08:17.636Z",
       "error": null
     },
     {
@@ -2597,7 +2659,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.272Z",
+      "fetchedAt": "2026-08-05T14:08:17.691Z",
       "error": null
     },
     {
@@ -2606,7 +2668,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-05T10:34:26.478Z",
+      "fetchedAt": "2026-08-05T14:08:18.168Z",
       "error": "HTTP 404"
     },
     {
@@ -2615,7 +2677,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-05T10:34:26.632Z",
+      "fetchedAt": "2026-08-05T14:08:18.206Z",
       "error": "HTTP 403"
     },
     {
@@ -2695,7 +2757,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.662Z",
+      "fetchedAt": "2026-08-05T14:08:18.230Z",
       "error": null
     },
     {
@@ -2768,7 +2830,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.760Z",
+      "fetchedAt": "2026-08-05T14:08:18.450Z",
       "error": null
     },
     {
@@ -2787,7 +2849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.766Z",
+      "fetchedAt": "2026-08-05T14:08:18.298Z",
       "error": null
     },
     {
@@ -2842,7 +2904,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.090Z",
+      "fetchedAt": "2026-08-05T14:08:18.770Z",
       "error": null
     },
     {
@@ -2928,7 +2990,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.939Z",
+      "fetchedAt": "2026-08-05T14:08:18.639Z",
       "error": null
     },
     {
@@ -2993,7 +3055,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.967Z",
+      "fetchedAt": "2026-08-05T14:08:18.851Z",
       "error": null
     },
     {
@@ -3059,7 +3121,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TEKN0gcH9Gg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:26.988Z",
+      "fetchedAt": "2026-08-05T14:08:18.718Z",
       "error": null
     },
     {
@@ -3124,7 +3186,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Z9NeYANlgoY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.207Z",
+      "fetchedAt": "2026-08-05T14:08:19.118Z",
       "error": null
     },
     {
@@ -3189,7 +3251,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Je0nQ8j305w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.314Z",
+      "fetchedAt": "2026-08-05T14:08:18.969Z",
       "error": null
     },
     {
@@ -3255,7 +3317,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.226Z",
+      "fetchedAt": "2026-08-05T14:08:19.086Z",
       "error": null
     },
     {
@@ -3321,7 +3383,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3VE8Ii3bng4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.294Z",
+      "fetchedAt": "2026-08-05T14:08:18.985Z",
       "error": null
     },
     {
@@ -3387,7 +3449,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rclew7x7g9c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.423Z",
+      "fetchedAt": "2026-08-05T14:08:19.315Z",
       "error": null
     },
     {
@@ -3452,7 +3514,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.412Z",
+      "fetchedAt": "2026-08-05T14:08:19.219Z",
       "error": null
     },
     {
@@ -3518,7 +3580,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JASvAHNszGI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.483Z",
+      "fetchedAt": "2026-08-05T14:08:19.307Z",
       "error": null
     },
     {
@@ -3583,7 +3645,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/AHqoD5oN8kg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.431Z",
+      "fetchedAt": "2026-08-05T14:08:19.263Z",
       "error": null
     },
     {
@@ -3648,7 +3710,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Eh96maNyydw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.584Z",
+      "fetchedAt": "2026-08-05T14:08:19.444Z",
       "error": null
     },
     {
@@ -3713,7 +3775,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.648Z",
+      "fetchedAt": "2026-08-05T14:08:19.412Z",
       "error": null
     },
     {
@@ -3778,7 +3840,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.610Z",
+      "fetchedAt": "2026-08-05T14:08:19.434Z",
       "error": null
     },
     {
@@ -3843,7 +3905,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.668Z",
+      "fetchedAt": "2026-08-05T14:08:19.429Z",
       "error": null
     },
     {
@@ -3908,7 +3970,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.781Z",
+      "fetchedAt": "2026-08-05T14:08:19.544Z",
       "error": null
     },
     {
@@ -3964,7 +4026,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:27.866Z",
+      "fetchedAt": "2026-08-05T14:08:19.733Z",
       "error": null
     },
     {
@@ -3974,7 +4036,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-05T10:34:28.045Z",
+      "fetchedAt": "2026-08-05T14:08:19.854Z",
       "error": null
     },
     {
@@ -4040,7 +4102,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:28.950Z",
+      "fetchedAt": "2026-08-05T14:08:20.783Z",
       "error": null
     },
     {
@@ -4096,7 +4158,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:29.002Z",
+      "fetchedAt": "2026-08-05T14:08:20.827Z",
       "error": null
     },
     {
@@ -4110,7 +4172,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
+          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4125,7 +4187,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:29.462Z",
+      "fetchedAt": "2026-08-05T14:08:21.108Z",
       "error": null
     },
     {
@@ -4181,7 +4243,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:29.017Z",
+      "fetchedAt": "2026-08-05T14:08:20.832Z",
       "error": null
     },
     {
@@ -4191,7 +4253,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-05T10:34:29.223Z",
+      "fetchedAt": "2026-08-05T14:08:20.993Z",
       "error": null
     },
     {
@@ -4247,7 +4309,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:29.685Z",
+      "fetchedAt": "2026-08-05T14:08:21.122Z",
       "error": null
     },
     {
@@ -4260,14 +4322,14 @@
         {
           "title": "What's new in Microsoft Intune - Microsoft Intune",
           "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
-          "pubDate": "2026-07-22T22:35:00.000Z",
-          "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft... Week of July 13, 2026 App management APP Multiple Managed Accounts Microsoft Intune mobile application management now extends support for Multiple Managed Accounts to Microsoft Out",
+          "pubDate": "2026-07-31T22:33:00.000Z",
+          "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. You can also read: Important notices Past releases in the What's new archive Information about how Intune service updates are released Note Each monthly service update is roll",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:29.496Z",
+      "fetchedAt": "2026-08-05T14:08:21.150Z",
       "error": null
     },
     {
@@ -4323,7 +4385,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:34.072Z",
+      "fetchedAt": "2026-08-05T14:08:26.067Z",
       "error": null
     },
     {
@@ -4379,7 +4441,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:30.303Z",
+      "fetchedAt": "2026-08-05T14:08:21.839Z",
       "error": null
     },
     {
@@ -4434,7 +4496,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:34.344Z",
+      "fetchedAt": "2026-08-05T14:08:26.436Z",
       "error": null
     },
     {
@@ -4489,7 +4551,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:34.196Z",
+      "fetchedAt": "2026-08-05T14:08:26.202Z",
       "error": null
     },
     {
@@ -4554,7 +4616,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-05T10:34:35.151Z",
+      "fetchedAt": "2026-08-05T14:08:27.422Z",
       "error": null
     }
   ]
