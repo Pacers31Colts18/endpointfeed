@@ -24,6 +24,19 @@ const FEEDS = [
     url: "https://4sysops.com/feed/",
   },
   {
+    id: "AndreiShchetkin",
+    label: "shchetkin.dev - Andrei Shchetkin",
+    type: "rss",
+    url: "https://shchetkin.dev/rss/",
+  },
+  {
+    id: "emsroute",
+    label: "emsroute.com - Shehan Perera",
+    type: "rss",
+    label: "mvp",
+    url: "https://emsroute.com/feed/",
+  },
+  {
     id: "petervanderwoude",
     label: "petervanderwoude.nl",
     type: "rss",
