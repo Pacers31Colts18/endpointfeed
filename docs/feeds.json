@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T13:02:40.063Z",
+  "generatedAt": "2026-08-07T16:54:27.176Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,69 +8,167 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "ByteDance is training a 10 trillion-parameter AI model, the largest ever built",
-          "link": "https://4sysops.com/archives/bytedance-is-training-a-10-trillion-parameter-ai-model-the-largest-ever-built/",
-          "pubDate": "2026-08-07T10:08:59.000Z",
-          "summary": "ByteDance, the Chinese tech company behind TikTok and other content platforms, is developing a potential AI model with 10 trillion parameters, making it roughly 2 trillion parameters larger than Anthropic's Mythos, according to sources familiar with the project. Source]]>",
+          "title": "Microsoft finds another way to push Copilot into Outlook",
+          "link": "https://4sysops.com/archives/microsoft-finds-another-way-to-push-copilot-into-outlook/",
+          "pubDate": "2026-08-07T16:47:12.000Z",
+          "summary": "Microsoft is adding a “Wrap up your day” prompt to New Outlook that launches Copilot without requiring users to start a chat. The feature scans recent email activity, produces an evening briefing, and suggests priorities for the next day—while offering no dedicated switch to disable the prompt. Sour",
           "author": "IT News",
           "categories": [
             "News",
-            "AI"
+            "AI",
+            "Microsoft 365"
           ],
           "type": "rss"
         },
         {
-          "title": "Cloudflare shares jump 17% after Q2 beat and raised 2026 guidance",
-          "link": "https://4sysops.com/archives/cloudflare-shares-jump-17-after-q2-beat-and-raised-2026-guidance/",
-          "pubDate": "2026-08-07T10:08:58.000Z",
-          "summary": "Cloudflare shares surged 17% after hours after the web security and connectivity provider beat second-quarter 2026 revenue and earnings estimates and raised its full-year outlook. Revenue increased 36% year over year to $696.1 million, sending the stock above its previous 52-week high. Source]]>",
+          "title": "AWS tells engineers to cut CPU waste as agentic AI strains EC2 capacity",
+          "link": "https://4sysops.com/archives/aws-tells-engineers-to-cut-cpu-waste-as-agentic-ai-strains-ec2-capacity/",
+          "pubDate": "2026-08-07T16:47:11.000Z",
+          "summary": "AWS is asking engineers to shut down idle EC2 instances and reduce CPU waste as demand from agentic AI workloads tightens capacity. About 65% of EC2 instances reportedly average less than 20% CPU utilization over 30 days, while some engineers now wait days for capacity that was previously available ",
           "author": "IT News",
           "categories": [
             "News",
+            "AI",
+            "AWS",
+            "Cloud Computing"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Claude Opus 5 wipes a Windows profile after mistaking `/c/Users` for a backup path",
+          "link": "https://4sysops.com/archives/claude-opus-5-wipes-a-windows-profile-after-mistaking-c-users-for-a-backup-path/",
+          "pubDate": "2026-08-07T16:13:42.000Z",
+          "summary": "A Claude Opus 5 session reportedly erased an entire Windows user profile after misreading a Unix-style `/c/Users/...` path and issuing `rm -rf` against it. The incident highlights how quickly an AI coding agent can turn a routine backup task into irreversible data loss when it has unrestricted files",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "DevOps"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft starts warning Entra tenants about the 2027 SMS MFA cutoff",
+          "link": "https://4sysops.com/archives/microsoft-starts-warning-entra-tenants-about-the-2027-sms-mfa-cutoff/",
+          "pubDate": "2026-08-07T16:13:41.000Z",
+          "summary": "Microsoft has begun emailing Entra ID organizations that still rely on Microsoft-provided SMS or voice MFA. Those tenants have until February 1, 2027, to move users to passkeys or another phishing-resistant method—or arrange their own telecom service. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Identity",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Google’s surprising AI downfall",
-          "link": "https://4sysops.com/archives/googles-surprising-ai-downfall/",
-          "pubDate": "2026-08-07T10:08:57.000Z",
-          "summary": "Google helped create many of the technologies behind modern artificial intelligence, yet the company appears to have struggled to turn that advantage into sustained product leadership. Matthew argues that Google’s dependence on Search, caution about disrupting its advertising business, and internal ",
+          "title": "18-year-old SCTPhantom Linux flaw lets local users gain root and escape containers",
+          "link": "https://4sysops.com/archives/18-year-old-sctphantom-linux-flaw-lets-local-users-gain-root-and-escape-containers/",
+          "pubDate": "2026-08-07T16:13:40.000Z",
+          "summary": "A Linux kernel use-after-free flaw in SCTP, tracked as CVE-2026-64564 and dubbed SCTPhantom, has been used to escape containers and obtain root on the underlying host. Tencent Zhuque Lab reports six successful host-root escapes in eight attempts, even with the default seccomp profile and without `CA",
           "author": "IT News",
           "categories": [
             "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "CISA adds WinRAR CVE-2025-8088 to ransomware warning",
-          "link": "https://4sysops.com/archives/cisa-adds-winrar-cve-2025-8088-to-ransomware-warning/",
-          "pubDate": "2026-08-07T09:59:31.000Z",
-          "summary": "CISA has confirmed that attackers are using the WinRAR vulnerability CVE-2025-8088 in ransomware attacks, months after adding the flaw to its actively exploited list. Organizations still running versions older than WinRAR 7.13 should treat archive handling as a potential ransomware entry point. Sour",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Security",
-            "Storage",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Proxmox VE 9.2 brings official Arm64 support",
-          "link": "https://4sysops.com/archives/proxmox-ve-9-2-brings-official-arm64-support/",
-          "pubDate": "2026-08-07T09:59:30.000Z",
-          "summary": "Proxmox VE 9.2 is the first release to offer official Arm64 support, extending its KVM, LXC, storage, clustering, and management platform beyond x86-64. The initial support is narrowly targeted at Nvidia Grace Hopper and Vera-based servers, not Raspberry Pi or other single-board systems. Source]]>",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Virtualization"
+            "Linux",
+            "Security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:15.812Z",
+      "fetchedAt": "2026-08-07T16:53:58.927Z",
+      "error": null
+    },
+    {
+      "id": "AndreiShchetkin",
+      "label": "shchetkin.dev - Andrei Shchetkin",
+      "type": "rss",
+      "url": "https://shchetkin.dev/rss/",
+      "items": [],
+      "fetchedAt": "2026-08-07T16:54:06.696Z",
+      "error": "Timeout after 8000ms"
+    },
+    {
+      "id": "emsroute",
+      "label": "mvp",
+      "type": "rss",
+      "url": "https://emsroute.com/feed/",
+      "items": [
+        {
+          "title": "System-Preferred Authentication and September 1st Passkey Change",
+          "link": "https://emsroute.com/2026/08/06/system-preferred-authentication-and-passkeys/",
+          "pubDate": "2026-08-06T00:27:04.000Z",
+          "summary": "Continue reading System-Preferred Authentication and September 1st Passkey Change]]>",
+          "author": "Shehan Perera",
+          "categories": [
+            "Entra",
+            "Azure MFA",
+            "cybersecurity",
+            "Entra ID",
+            "Identity and Access"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "5 Years in The Program and Renewed! 🚀",
+          "link": "https://emsroute.com/2026/07/17/5-years-in-the-program-and-renewed-%f0%9f%9a%80/",
+          "pubDate": "2026-07-16T22:33:00.000Z",
+          "summary": "Continue reading 5 Years in The Program and Renewed! 🚀]]>",
+          "author": "Shehan Perera",
+          "categories": [
+            "Entra",
+            "Microsoft",
+            "Microsoft 365",
+            "Microsoft Intune",
+            "Microsoft MVP"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Dissecting a Microsoft Purview Insider Risk Management Policy",
+          "link": "https://emsroute.com/2026/05/28/dissecting-a-microsoft-purview-insider-risk-management-policy/",
+          "pubDate": "2026-05-28T01:24:37.000Z",
+          "summary": "Continue reading Dissecting a Microsoft Purview Insider Risk Management Policy]]>",
+          "author": "Shehan Perera",
+          "categories": [
+            "Entra",
+            "cybersecurity",
+            "Data Loss Protetction",
+            "DLP",
+            "Information Protetction"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "The Missing Link: Entra Backup and Recovery",
+          "link": "https://emsroute.com/2026/04/27/the-missing-link-entra-backup-and-recovery/",
+          "pubDate": "2026-04-26T22:17:03.000Z",
+          "summary": "Continue reading The Missing Link: Entra Backup and Recovery]]>",
+          "author": "Shehan Perera",
+          "categories": [
+            "Entra",
+            "Backup",
+            "backup and Recovery",
+            "Entra ID",
+            "Identity and Access"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "A Beginner’s Deep Dive Guide to Entra Passkeys",
+          "link": "https://emsroute.com/2026/03/19/passkeys-beginners-101/",
+          "pubDate": "2026-03-18T14:31:47.000Z",
+          "summary": "Continue reading A Beginner’s Deep Dive Guide to Entra Passkeys]]>",
+          "author": "Shehan Perera",
+          "categories": [
+            "Entra",
+            "1Password",
+            "Azure",
+            "cybersecurity",
+            "Entra Passkeys"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-08-07T16:53:58.783Z",
       "error": null
     },
     {
@@ -146,7 +244,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:15.878Z",
+      "fetchedAt": "2026-08-07T16:53:59.615Z",
       "error": null
     },
     {
@@ -222,7 +320,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:16.977Z",
+      "fetchedAt": "2026-08-07T16:54:08.566Z",
       "error": null
     },
     {
@@ -308,7 +406,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:15.920Z",
+      "fetchedAt": "2026-08-07T16:54:06.871Z",
       "error": null
     },
     {
@@ -380,7 +478,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:17.185Z",
+      "fetchedAt": "2026-08-07T16:54:06.884Z",
       "error": null
     },
     {
@@ -449,7 +547,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:17.193Z",
+      "fetchedAt": "2026-08-07T16:54:07.300Z",
       "error": null
     },
     {
@@ -523,7 +621,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:17.264Z",
+      "fetchedAt": "2026-08-07T16:54:08.665Z",
       "error": null
     },
     {
@@ -604,7 +702,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:18.791Z",
+      "fetchedAt": "2026-08-07T16:54:09.604Z",
       "error": null
     },
     {
@@ -689,7 +787,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:20.987Z",
+      "fetchedAt": "2026-08-07T16:54:08.994Z",
       "error": null
     },
     {
@@ -762,7 +860,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:19.087Z",
+      "fetchedAt": "2026-08-07T16:54:09.084Z",
       "error": null
     },
     {
@@ -844,7 +942,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:19.112Z",
+      "fetchedAt": "2026-08-07T16:54:09.671Z",
       "error": null
     },
     {
@@ -910,7 +1008,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:20.160Z",
+      "fetchedAt": "2026-08-07T16:54:10.576Z",
       "error": null
     },
     {
@@ -979,7 +1077,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:21.558Z",
+      "fetchedAt": "2026-08-07T16:54:10.011Z",
       "error": null
     },
     {
@@ -1059,7 +1157,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:22.222Z",
+      "fetchedAt": "2026-08-07T16:54:10.400Z",
       "error": null
     },
     {
@@ -1114,7 +1212,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:21.241Z",
+      "fetchedAt": "2026-08-07T16:54:10.651Z",
       "error": null
     },
     {
@@ -1179,7 +1277,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:21.459Z",
+      "fetchedAt": "2026-08-07T16:54:10.789Z",
       "error": null
     },
     {
@@ -1263,7 +1361,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:22.417Z",
+      "fetchedAt": "2026-08-07T16:54:10.735Z",
       "error": null
     },
     {
@@ -1336,7 +1434,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:23.161Z",
+      "fetchedAt": "2026-08-07T16:54:11.333Z",
       "error": null
     },
     {
@@ -1345,7 +1443,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-07T13:02:22.509Z",
+      "fetchedAt": "2026-08-07T16:54:11.454Z",
       "error": "HTTP 403"
     },
     {
@@ -1423,7 +1521,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:24.569Z",
+      "fetchedAt": "2026-08-07T16:54:12.932Z",
       "error": null
     },
     {
@@ -1432,7 +1530,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-07T13:02:24.980Z",
+      "fetchedAt": "2026-08-07T16:54:11.906Z",
       "error": "certificate has expired"
     },
     {
@@ -1502,7 +1600,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:25.422Z",
+      "fetchedAt": "2026-08-07T16:54:12.324Z",
       "error": null
     },
     {
@@ -1578,7 +1676,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:25.385Z",
+      "fetchedAt": "2026-08-07T16:54:13.504Z",
       "error": null
     },
     {
@@ -1644,7 +1742,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:25.815Z",
+      "fetchedAt": "2026-08-07T16:54:13.581Z",
       "error": null
     },
     {
@@ -1699,7 +1797,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:26.127Z",
+      "fetchedAt": "2026-08-07T16:54:13.702Z",
       "error": null
     },
     {
@@ -1770,7 +1868,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:26.830Z",
+      "fetchedAt": "2026-08-07T16:54:13.375Z",
       "error": null
     },
     {
@@ -1846,7 +1944,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:26.061Z",
+      "fetchedAt": "2026-08-07T16:54:13.995Z",
       "error": null
     },
     {
@@ -1923,7 +2021,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:28.011Z",
+      "fetchedAt": "2026-08-07T16:54:15.434Z",
       "error": null
     },
     {
@@ -2008,7 +2106,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:28.190Z",
+      "fetchedAt": "2026-08-07T16:54:14.069Z",
       "error": null
     },
     {
@@ -2064,7 +2162,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:28.294Z",
+      "fetchedAt": "2026-08-07T16:54:14.108Z",
       "error": null
     },
     {
@@ -2150,7 +2248,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:29.266Z",
+      "fetchedAt": "2026-08-07T16:54:16.658Z",
       "error": null
     },
     {
@@ -2236,7 +2334,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:28.356Z",
+      "fetchedAt": "2026-08-07T16:54:15.495Z",
       "error": null
     },
     {
@@ -2318,7 +2416,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:29.668Z",
+      "fetchedAt": "2026-08-07T16:54:15.610Z",
       "error": null
     },
     {
@@ -2373,7 +2471,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:29.479Z",
+      "fetchedAt": "2026-08-07T16:54:15.656Z",
       "error": null
     },
     {
@@ -2438,7 +2536,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:29.470Z",
+      "fetchedAt": "2026-08-07T16:54:16.859Z",
       "error": null
     },
     {
@@ -2447,7 +2545,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-07T13:02:29.597Z",
+      "fetchedAt": "2026-08-07T16:54:16.833Z",
       "error": "HTTP 404"
     },
     {
@@ -2457,6 +2555,15 @@
       "type": "rss",
       "url": "https://conditionalaccess.uk/blog/feed/",
       "items": [
+        {
+          "title": "Defender for Office tips and tricks guide",
+          "link": "https://conditionalaccess.uk/blog/defender-for-office-guide/",
+          "pubDate": "2026-08-07T00:00:00.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "Microsoft 365 Business Standard vs Business Premium",
           "link": "https://conditionalaccess.uk/blog/microsoft-365-business-standard-vs-business-premium/",
@@ -2492,18 +2599,9 @@
           "author": "",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "What's included in M365 Business Premium?",
-          "link": "https://conditionalaccess.uk/blog/whats-included-in-m365-business-premium/",
-          "pubDate": "2026-03-12T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:30.183Z",
+      "fetchedAt": "2026-08-07T16:54:17.296Z",
       "error": null
     },
     {
@@ -2568,7 +2666,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:30.258Z",
+      "fetchedAt": "2026-08-07T16:54:17.201Z",
       "error": null
     },
     {
@@ -2649,7 +2747,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:30.516Z",
+      "fetchedAt": "2026-08-07T16:54:17.962Z",
       "error": null
     },
     {
@@ -2658,7 +2756,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-07T13:02:30.826Z",
+      "fetchedAt": "2026-08-07T16:54:17.882Z",
       "error": "HTTP 404"
     },
     {
@@ -2667,7 +2765,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-07T13:02:31.021Z",
+      "fetchedAt": "2026-08-07T16:54:17.440Z",
       "error": "HTTP 403"
     },
     {
@@ -2738,16 +2836,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:30.940Z",
+      "fetchedAt": "2026-08-07T16:54:17.460Z",
       "error": null
     },
     {
@@ -2820,7 +2918,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.045Z",
+      "fetchedAt": "2026-08-07T16:54:18.106Z",
       "error": null
     },
     {
@@ -2839,7 +2937,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.159Z",
+      "fetchedAt": "2026-08-07T16:54:18.292Z",
       "error": null
     },
     {
@@ -2894,7 +2992,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.769Z",
+      "fetchedAt": "2026-08-07T16:54:18.364Z",
       "error": null
     },
     {
@@ -2980,7 +3078,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.343Z",
+      "fetchedAt": "2026-08-07T16:54:18.555Z",
       "error": null
     },
     {
@@ -3045,7 +3143,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.611Z",
+      "fetchedAt": "2026-08-07T16:54:18.661Z",
       "error": null
     },
     {
@@ -3055,6 +3153,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "Azure Update 7th August 2026",
+          "link": "https://www.youtube.com/watch?v=nys8Uj16gbI",
+          "pubDate": "2026-08-07T15:21:36.000Z",
+          "summary": "Yay, Friday! 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queue never to be seen so please",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "nys8Uj16gbI",
+          "thumbnail": "https://i3.ytimg.com/vi/nys8Uj16gbI/hqdefault.jpg"
+        },
         {
           "title": "Microsoft AI Update July 2026",
           "link": "https://www.youtube.com/watch?v=2GpTcz6JVhQ",
@@ -3098,20 +3207,9 @@
           "type": "video",
           "videoId": "565Oh4RH_Nc",
           "thumbnail": "https://i2.ytimg.com/vi/565Oh4RH_Nc/hqdefault.jpg"
-        },
-        {
-          "title": "Rayfin and Fabric Apps Overview",
-          "link": "https://www.youtube.com/watch?v=TEKN0gcH9Gg",
-          "pubDate": "2026-07-27T17:22:54.000Z",
-          "summary": "Quick overview of Rayfin and Fabric Apps. ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:10 - The challenge today 03:12 - Rayfin 05:09 - Data model 10:05 - App hosting 14:57 - Demo 19:28 - Key focus points 20:07 - PowerBI and vibe coding 21:25 - Summary 21:49 - Close ▬▬▬▬▬▬ K E Y L I N K S ",
-          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "TEKN0gcH9Gg",
-          "thumbnail": "https://i1.ytimg.com/vi/TEKN0gcH9Gg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.646Z",
+      "fetchedAt": "2026-08-07T16:54:18.589Z",
       "error": null
     },
     {
@@ -3176,7 +3274,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/IOEXWANA8GE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.921Z",
+      "fetchedAt": "2026-08-07T16:54:18.778Z",
       "error": null
     },
     {
@@ -3241,7 +3339,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Je0nQ8j305w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.910Z",
+      "fetchedAt": "2026-08-07T16:54:18.690Z",
       "error": null
     },
     {
@@ -3307,7 +3405,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.893Z",
+      "fetchedAt": "2026-08-07T16:54:18.895Z",
       "error": null
     },
     {
@@ -3373,7 +3471,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OdYq8lQQYIY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:31.898Z",
+      "fetchedAt": "2026-08-07T16:54:18.945Z",
       "error": null
     },
     {
@@ -3439,7 +3537,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DIDtDTEU3-I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.114Z",
+      "fetchedAt": "2026-08-07T16:54:18.896Z",
       "error": null
     },
     {
@@ -3504,7 +3602,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.182Z",
+      "fetchedAt": "2026-08-07T16:54:18.877Z",
       "error": null
     },
     {
@@ -3570,7 +3668,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WCZDPfivACQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.198Z",
+      "fetchedAt": "2026-08-07T16:54:19.040Z",
       "error": null
     },
     {
@@ -3635,7 +3733,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WRKgptD-d4Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.099Z",
+      "fetchedAt": "2026-08-07T16:54:19.116Z",
       "error": null
     },
     {
@@ -3700,7 +3798,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HA0z1ZnOrD8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.314Z",
+      "fetchedAt": "2026-08-07T16:54:19.051Z",
       "error": null
     },
     {
@@ -3765,7 +3863,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.296Z",
+      "fetchedAt": "2026-08-07T16:54:19.067Z",
       "error": null
     },
     {
@@ -3830,7 +3928,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.336Z",
+      "fetchedAt": "2026-08-07T16:54:19.274Z",
       "error": null
     },
     {
@@ -3895,7 +3993,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.362Z",
+      "fetchedAt": "2026-08-07T16:54:19.224Z",
       "error": null
     },
     {
@@ -3960,7 +4058,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:32.520Z",
+      "fetchedAt": "2026-08-07T16:54:19.203Z",
       "error": null
     },
     {
@@ -3998,6 +4096,15 @@
           "type": "official"
         },
         {
+          "title": "Mastering the MSP optimization journey: Streamline, scale, and automate your operations",
+          "link": "https://getnerdio.com/on-demand-webinar/mastering-the-msp-optimization-journey-streamline-scale-and-automate-your-operations/",
+          "pubDate": "2026-08-07T16:07:32.000Z",
+          "summary": "ON-DEMAND WEBINAR Mastering the MSP optimization journey: Streamline, scale, and automate your operations Adding clients shouldn’t mean adding headcount. But… The post Mastering the MSP optimization journey: Streamline, scale, and automate your operations appeared first on Nerdio. ]]>",
+          "author": "Lauren Purdy",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "Nerdio Masterclass episode 5: Are you Intune with Nerdio?",
           "link": "https://getnerdio.com/on-demand-webinar/nerdio-masterclass-episode-5-are-you-intune-with-nerdio/",
           "pubDate": "2026-08-05T17:26:12.000Z",
@@ -4005,18 +4112,9 @@
           "author": "Lauren Purdy",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Nerdio Manager for Enterprise 8.1: more control for Windows Cloud at scale",
-          "link": "https://getnerdio.com/blog/nerdio-manager-for-enterprise-8-1-more-control-for-windows-cloud-at-scale/",
-          "pubDate": "2026-08-04T12:00:03.000Z",
-          "summary": "New releases Nerdio Manager for Enterprise 8.1: more control for Windows Cloud at scale Ashley Battle | July 23, 2026… The post Nerdio Manager for Enterprise 8.1: more control for Windows Cloud at scale appeared first on Nerdio. ]]>",
-          "author": "Lauren Purdy",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:33.866Z",
+      "fetchedAt": "2026-08-07T16:54:20.667Z",
       "error": null
     },
     {
@@ -4026,7 +4124,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-07T13:02:32.670Z",
+      "fetchedAt": "2026-08-07T16:54:20.930Z",
       "error": null
     },
     {
@@ -4092,7 +4190,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:33.525Z",
+      "fetchedAt": "2026-08-07T16:54:21.520Z",
       "error": null
     },
     {
@@ -4148,7 +4246,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:33.943Z",
+      "fetchedAt": "2026-08-07T16:54:20.721Z",
       "error": null
     },
     {
@@ -4162,7 +4260,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
+          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4177,7 +4275,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:34.213Z",
+      "fetchedAt": "2026-08-07T16:54:20.757Z",
       "error": null
     },
     {
@@ -4233,7 +4331,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:33.953Z",
+      "fetchedAt": "2026-08-07T16:54:21.584Z",
       "error": null
     },
     {
@@ -4243,7 +4341,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-07T13:02:34.033Z",
+      "fetchedAt": "2026-08-07T16:54:21.640Z",
       "error": null
     },
     {
@@ -4299,7 +4397,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:34.240Z",
+      "fetchedAt": "2026-08-07T16:54:21.544Z",
       "error": null
     },
     {
@@ -4319,7 +4417,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:34.246Z",
+      "fetchedAt": "2026-08-07T16:54:21.554Z",
       "error": null
     },
     {
@@ -4375,7 +4473,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:38.870Z",
+      "fetchedAt": "2026-08-07T16:54:26.416Z",
       "error": null
     },
     {
@@ -4431,7 +4529,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:35.320Z",
+      "fetchedAt": "2026-08-07T16:54:22.266Z",
       "error": null
     },
     {
@@ -4486,7 +4584,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:39.284Z",
+      "fetchedAt": "2026-08-07T16:54:21.942Z",
       "error": null
     },
     {
@@ -4541,7 +4639,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:39.099Z",
+      "fetchedAt": "2026-08-07T16:54:21.926Z",
       "error": null
     },
     {
@@ -4606,7 +4704,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-07T13:02:40.063Z",
+      "fetchedAt": "2026-08-07T16:54:27.176Z",
       "error": null
     }
   ]
