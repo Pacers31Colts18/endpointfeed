@@ -33,7 +33,7 @@ const FEEDS = [
     id: "emsroute",
     label: "emsroute.com - Shehan Perera",
     type: "rss",
-    label: "mvp",
+    badge: "MVP",
     url: "https://emsroute.com/feed/",
   },
   {
