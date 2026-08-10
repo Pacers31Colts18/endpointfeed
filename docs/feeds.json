@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:26:15.785Z",
+  "generatedAt": "2026-08-10T09:20:54.126Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,73 +8,71 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "CSS attacks still break webmail defenses and steal passwords, tokens",
-          "link": "https://4sysops.com/archives/css-attacks-still-break-webmail-defenses-and-steal-passwords-tokens/",
-          "pubDate": "2026-08-09T11:31:19.000Z",
-          "summary": "CSS attacks against Outlook, Gmail, Fastmail, Yahoo Mail, AOL Mail, and other webmail services can cross the boundary between an email and the trusted inbox interface. Public proof-of-concept attacks demonstrated password capture, session-token theft, UI hijacking, and manipulation of AI tools conne",
+          "title": "Hewlett Packard Enterprise and EigenQ offer PCIe retrofit for post-quantum security",
+          "link": "https://4sysops.com/archives/hewlett-packard-enterprise-and-eigenq-offer-pcie-retrofit-for-post-quantum-security/",
+          "pubDate": "2026-08-10T08:54:37.000Z",
+          "summary": "Hewlett Packard Enterprise (HPE) and EigenQ (a cybersecurity company focused on post-quantum security) are taking a retrofit-first approach to post-quantum security, allowing organizations to add quantum-resistant protection to existing server infrastructure instead of replacing entire estates. The ",
           "author": "IT News",
           "categories": [
             "News",
-            "Security",
-            "Web"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Claude Code sessions can now talk across terminals—but Windows is excluded",
-          "link": "https://4sysops.com/archives/claude-code-sessions-can-now-talk-across-terminals-but-windows-is-excluded/",
-          "pubDate": "2026-08-09T11:31:18.000Z",
-          "summary": "Claude Code v2.1.224 lets separate sessions exchange short text summaries, reducing the need to copy context between terminals. The feature works on macOS, Linux, and Linux under WSL 2, but not native Windows or several hosted AI platforms. Source]]>",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "DevOps"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Claude Code will enable Auto Mode by default on August 14",
-          "link": "https://4sysops.com/archives/claude-code-will-enable-auto-mode-by-default-on-august-14/",
-          "pubDate": "2026-08-09T11:31:17.000Z",
-          "summary": "Claude Code will switch Auto Mode on by default for Pro, Max, and Team subscribers on August 14, 2026. Anthropic says a safety classifier can identify dangerous commands more reliably than developers repeatedly approving prompts, while Enterprise customers will still need to opt in. Source]]>",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
+            "Hardware",
+            "Quantum Computing",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft tells Windows 10 Enterprise LTSC 2021 users to upgrade now",
-          "link": "https://4sysops.com/archives/microsoft-tells-windows-10-enterprise-ltsc-2021-users-to-upgrade-now/",
-          "pubDate": "2026-08-09T11:31:16.000Z",
-          "summary": "Microsoft is urging organizations running Windows 10 Enterprise LTSC 2021 to move to Windows 11 Enterprise LTSC 2024 rather than rely on Extended Security Updates. Support ends in January 2027, while ESU will cost businesses up to $61 per device. Source]]>",
+          "title": "Microsoft’s redesigned Planner UI starts rolling out in September 2026",
+          "link": "https://4sysops.com/archives/microsofts-redesigned-planner-ui-starts-rolling-out-in-september-2026/",
+          "pubDate": "2026-08-10T08:54:36.000Z",
+          "summary": "Microsoft will begin rolling out the redesigned Planner UI in September 2026. The refresh brings improved navigation, responsive layouts, and a more consistent experience across Planner for the web and Microsoft Teams, while Goals will be available in basic plans. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
-            "Security",
+            "Microsoft 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11’s unwanted OneDrive Photos app will finally get a safe uninstall",
+          "link": "https://4sysops.com/archives/windows-11s-unwanted-onedrive-photos-app-will-finally-get-a-safe-uninstall/",
+          "pubDate": "2026-08-10T08:54:35.000Z",
+          "summary": "Microsoft will add a separate uninstall option for the OneDrive Photos experience in September 2026. Windows 11 users will be able to remove the unwanted app without deleting the OneDrive sync client, interrupting file synchronization, or removing cloud-stored photos and files. Source]]>",
+          "author": "IT News",
+          "categories": [
+            "News",
             "Systems Management",
             "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Dell expands Windows update bug list to 245 PC models",
-          "link": "https://4sysops.com/archives/dell-expands-windows-update-bug-list-to-245-pc-models/",
-          "pubDate": "2026-08-08T08:14:49.000Z",
-          "summary": "Dell has identified roughly 245 PC models affected by a Windows update conflict, far more than the small group initially disclosed. The issue caused shutdowns, overheating, poor performance, and battery drain, but Microsoft’s KB5121767 update has resolved it on systems running the corrected builds. ",
+          "title": "Linux 7.2-rc7: AI reviews help make oversized kernel releases the new normal",
+          "link": "https://4sysops.com/archives/linux-7-2-rc7-ai-reviews-help-make-oversized-kernel-releases-the-new-normal/",
+          "pubDate": "2026-08-10T08:54:34.000Z",
+          "summary": "Linux 7.2-rc7 is unusually large, but Linus Torvalds says the volume of small fixes—many prompted by AI-assisted code reviews—is becoming the “new normal.” Nothing appears serious enough to delay the stable Linux 7.2 release expected next week. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
-            "Hardware",
-            "Windows"
+            "Linux"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Chainloop puts build policy verdicts inside signed supply-chain evidence",
+          "link": "https://4sysops.com/archives/chainloop-puts-build-policy-verdicts-inside-signed-supply-chain-evidence/",
+          "pubDate": "2026-08-10T08:54:33.000Z",
+          "summary": "A Software Bill of Materials, or SBOM, is an ingredient list for software that shows which libraries and other components are included in a product. As the EU Cyber Resilience Act brings greater attention to software supply-chain transparency, Chainloop helps organizations collect, sign, and verify ",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "DevOps",
+            "Security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:53.651Z",
+      "fetchedAt": "2026-08-10T09:20:29.295Z",
       "error": null
     },
     {
@@ -117,7 +115,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:53.888Z",
+      "fetchedAt": "2026-08-10T09:20:29.626Z",
       "error": null
     },
     {
@@ -203,7 +201,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:53.489Z",
+      "fetchedAt": "2026-08-10T09:20:28.904Z",
       "error": null
     },
     {
@@ -279,7 +277,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:54.068Z",
+      "fetchedAt": "2026-08-10T09:20:29.686Z",
       "error": null
     },
     {
@@ -355,7 +353,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:55.974Z",
+      "fetchedAt": "2026-08-10T09:20:31.189Z",
       "error": null
     },
     {
@@ -441,7 +439,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:54.266Z",
+      "fetchedAt": "2026-08-10T09:20:29.923Z",
       "error": null
     },
     {
@@ -513,7 +511,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:54.331Z",
+      "fetchedAt": "2026-08-10T09:20:30.006Z",
       "error": null
     },
     {
@@ -582,7 +580,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:54.751Z",
+      "fetchedAt": "2026-08-10T09:20:30.125Z",
       "error": null
     },
     {
@@ -656,7 +654,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:56.035Z",
+      "fetchedAt": "2026-08-10T09:20:31.258Z",
       "error": null
     },
     {
@@ -737,7 +735,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:57.028Z",
+      "fetchedAt": "2026-08-10T09:20:32.727Z",
       "error": null
     },
     {
@@ -821,7 +819,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:56.116Z",
+      "fetchedAt": "2026-08-10T09:20:31.407Z",
       "error": null
     },
     {
@@ -894,7 +892,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:56.278Z",
+      "fetchedAt": "2026-08-10T09:20:31.650Z",
       "error": null
     },
     {
@@ -976,7 +974,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:57.090Z",
+      "fetchedAt": "2026-08-10T09:20:32.873Z",
       "error": null
     },
     {
@@ -1042,7 +1040,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:57.568Z",
+      "fetchedAt": "2026-08-10T09:20:34.019Z",
       "error": null
     },
     {
@@ -1111,7 +1109,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:57.303Z",
+      "fetchedAt": "2026-08-10T09:20:33.155Z",
       "error": null
     },
     {
@@ -1191,7 +1189,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:57.969Z",
+      "fetchedAt": "2026-08-10T09:20:33.962Z",
       "error": null
     },
     {
@@ -1246,7 +1244,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:58.212Z",
+      "fetchedAt": "2026-08-10T09:20:34.208Z",
       "error": null
     },
     {
@@ -1311,7 +1309,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:58.183Z",
+      "fetchedAt": "2026-08-10T09:20:34.369Z",
       "error": null
     },
     {
@@ -1395,7 +1393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:58.130Z",
+      "fetchedAt": "2026-08-10T09:20:34.112Z",
       "error": null
     },
     {
@@ -1468,7 +1466,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:58.749Z",
+      "fetchedAt": "2026-08-10T09:20:34.962Z",
       "error": null
     },
     {
@@ -1477,7 +1475,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-10T05:25:58.842Z",
+      "fetchedAt": "2026-08-10T09:20:35.014Z",
       "error": "HTTP 403"
     },
     {
@@ -1555,7 +1553,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:00.264Z",
+      "fetchedAt": "2026-08-10T09:20:36.843Z",
       "error": null
     },
     {
@@ -1564,7 +1562,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-10T05:25:59.199Z",
+      "fetchedAt": "2026-08-10T09:20:35.330Z",
       "error": "certificate has expired"
     },
     {
@@ -1634,7 +1632,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:25:59.338Z",
+      "fetchedAt": "2026-08-10T09:20:35.704Z",
       "error": null
     },
     {
@@ -1710,7 +1708,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:00.511Z",
+      "fetchedAt": "2026-08-10T09:20:39.128Z",
       "error": null
     },
     {
@@ -1720,7 +1718,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-08-10T05:26:02.271Z",
+      "fetchedAt": "2026-08-10T09:20:36.942Z",
       "error": "HTTP 202"
     },
     {
@@ -1775,7 +1773,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:00.757Z",
+      "fetchedAt": "2026-08-10T09:20:37.140Z",
       "error": null
     },
     {
@@ -1845,7 +1843,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:00.472Z",
+      "fetchedAt": "2026-08-10T09:20:37.060Z",
       "error": null
     },
     {
@@ -1921,7 +1919,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:02.418Z",
+      "fetchedAt": "2026-08-10T09:20:39.190Z",
       "error": null
     },
     {
@@ -1998,7 +1996,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:03.972Z",
+      "fetchedAt": "2026-08-10T09:20:41.365Z",
       "error": null
     },
     {
@@ -2083,7 +2081,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:02.508Z",
+      "fetchedAt": "2026-08-10T09:20:39.249Z",
       "error": null
     },
     {
@@ -2139,7 +2137,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:02.554Z",
+      "fetchedAt": "2026-08-10T09:20:39.322Z",
       "error": null
     },
     {
@@ -2225,7 +2223,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:05.053Z",
+      "fetchedAt": "2026-08-10T09:20:42.290Z",
       "error": null
     },
     {
@@ -2311,7 +2309,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:04.024Z",
+      "fetchedAt": "2026-08-10T09:20:41.427Z",
       "error": null
     },
     {
@@ -2320,6 +2318,21 @@
       "type": "rss",
       "url": "https://office365itpros.com/feed/",
       "items": [
+        {
+          "title": "How to Bulk Transfer Meeting Ownership Between Mailboxes",
+          "link": "https://office365itpros.com/2026/08/10/invoke-changemeetingorganizer-bulk/?utm_source=rss&utm_medium=rss&utm_campaign=invoke-changemeetingorganizer-bulk",
+          "pubDate": "2026-08-10T07:00:00.000Z",
+          "summary": "",
+          "author": "Tony Redmond",
+          "categories": [
+            "Exchange Online",
+            "Microsoft Graph",
+            "PowerShell",
+            "Invoke-ChangeMeetingOrganizer",
+            "Microsoft Graph PowerShell SDK"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Entra ID Drops the memberOf Rule Operator for Dynamic Groups and Dynamic Admin Units",
           "link": "https://office365itpros.com/2026/08/07/memberof-rule-operator/?utm_source=rss&utm_medium=rss&utm_campaign=memberof-rule-operator",
@@ -2377,23 +2390,9 @@
             "Microsoft Defemder for Office 365"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Entra ID Enables Blocking for Nested Security Groups",
-          "link": "https://office365itpros.com/2026/08/03/blocking-for-nested-security-groups/?utm_source=rss&utm_medium=rss&utm_campaign=blocking-for-nested-security-groups",
-          "pubDate": "2026-08-03T07:00:00.000Z",
-          "summary": "",
-          "author": "Tony Redmond",
-          "categories": [
-            "Entra ID",
-            "Disable nesting",
-            "disableNesting",
-            "Security Groups"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:04.051Z",
+      "fetchedAt": "2026-08-10T09:20:41.532Z",
       "error": null
     },
     {
@@ -2448,7 +2447,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:04.039Z",
+      "fetchedAt": "2026-08-10T09:20:41.425Z",
       "error": null
     },
     {
@@ -2513,7 +2512,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:05.231Z",
+      "fetchedAt": "2026-08-10T09:20:42.711Z",
       "error": null
     },
     {
@@ -2522,7 +2521,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-10T05:26:05.201Z",
+      "fetchedAt": "2026-08-10T09:20:42.382Z",
       "error": "HTTP 404"
     },
     {
@@ -2578,7 +2577,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:05.679Z",
+      "fetchedAt": "2026-08-10T09:20:42.808Z",
       "error": null
     },
     {
@@ -2643,7 +2642,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:05.578Z",
+      "fetchedAt": "2026-08-10T09:20:42.872Z",
       "error": null
     },
     {
@@ -2724,7 +2723,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.226Z",
+      "fetchedAt": "2026-08-10T09:20:43.740Z",
       "error": null
     },
     {
@@ -2733,7 +2732,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-10T05:26:06.350Z",
+      "fetchedAt": "2026-08-10T09:20:43.938Z",
       "error": "HTTP 404"
     },
     {
@@ -2742,7 +2741,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-10T05:26:05.792Z",
+      "fetchedAt": "2026-08-10T09:20:43.072Z",
       "error": "HTTP 403"
     },
     {
@@ -2813,16 +2812,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
-            "Security",
             "UEFI",
             "Windows 10",
-            "windows 11",
-            "Windows Server"
+            "Windows Server",
+            "Security",
+            "windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:05.874Z",
+      "fetchedAt": "2026-08-10T09:20:43.129Z",
       "error": null
     },
     {
@@ -2895,7 +2894,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.325Z",
+      "fetchedAt": "2026-08-10T09:20:44.109Z",
       "error": null
     },
     {
@@ -2914,7 +2913,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.405Z",
+      "fetchedAt": "2026-08-10T09:20:44.181Z",
       "error": null
     },
     {
@@ -2969,7 +2968,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.572Z",
+      "fetchedAt": "2026-08-10T09:20:44.203Z",
       "error": null
     },
     {
@@ -3055,7 +3054,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.549Z",
+      "fetchedAt": "2026-08-10T09:20:44.233Z",
       "error": null
     },
     {
@@ -3120,7 +3119,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.743Z",
+      "fetchedAt": "2026-08-10T09:20:44.489Z",
       "error": null
     },
     {
@@ -3186,7 +3185,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/565Oh4RH_Nc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.685Z",
+      "fetchedAt": "2026-08-10T09:20:44.280Z",
       "error": null
     },
     {
@@ -3251,7 +3250,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/IOEXWANA8GE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.680Z",
+      "fetchedAt": "2026-08-10T09:20:44.509Z",
       "error": null
     },
     {
@@ -3316,7 +3315,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/Je0nQ8j305w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.825Z",
+      "fetchedAt": "2026-08-10T09:20:44.281Z",
       "error": null
     },
     {
@@ -3382,7 +3381,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.921Z",
+      "fetchedAt": "2026-08-10T09:20:44.697Z",
       "error": null
     },
     {
@@ -3448,7 +3447,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OdYq8lQQYIY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.924Z",
+      "fetchedAt": "2026-08-10T09:20:44.717Z",
       "error": null
     },
     {
@@ -3514,7 +3513,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DIDtDTEU3-I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.929Z",
+      "fetchedAt": "2026-08-10T09:20:44.515Z",
       "error": null
     },
     {
@@ -3579,7 +3578,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.921Z",
+      "fetchedAt": "2026-08-10T09:20:44.698Z",
       "error": null
     },
     {
@@ -3645,7 +3644,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WCZDPfivACQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:07.935Z",
+      "fetchedAt": "2026-08-10T09:20:44.966Z",
       "error": null
     },
     {
@@ -3710,7 +3709,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WRKgptD-d4Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:08.015Z",
+      "fetchedAt": "2026-08-10T09:20:44.946Z",
       "error": null
     },
     {
@@ -3775,7 +3774,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HA0z1ZnOrD8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:08.050Z",
+      "fetchedAt": "2026-08-10T09:20:44.941Z",
       "error": null
     },
     {
@@ -3840,7 +3839,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:08.033Z",
+      "fetchedAt": "2026-08-10T09:20:44.854Z",
       "error": null
     },
     {
@@ -3905,7 +3904,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:08.152Z",
+      "fetchedAt": "2026-08-10T09:20:45.162Z",
       "error": null
     },
     {
@@ -3970,7 +3969,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:08.149Z",
+      "fetchedAt": "2026-08-10T09:20:45.150Z",
       "error": null
     },
     {
@@ -4035,7 +4034,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:08.123Z",
+      "fetchedAt": "2026-08-10T09:20:45.143Z",
       "error": null
     },
     {
@@ -4091,7 +4090,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:09.639Z",
+      "fetchedAt": "2026-08-10T09:20:46.583Z",
       "error": null
     },
     {
@@ -4101,7 +4100,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-10T05:26:09.773Z",
+      "fetchedAt": "2026-08-10T09:20:46.791Z",
       "error": null
     },
     {
@@ -4167,7 +4166,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:10.365Z",
+      "fetchedAt": "2026-08-10T09:20:47.633Z",
       "error": null
     },
     {
@@ -4223,7 +4222,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:09.683Z",
+      "fetchedAt": "2026-08-10T09:20:46.634Z",
       "error": null
     },
     {
@@ -4237,7 +4236,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
+          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4252,7 +4251,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:09.968Z",
+      "fetchedAt": "2026-08-10T09:20:46.861Z",
       "error": null
     },
     {
@@ -4308,7 +4307,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:10.377Z",
+      "fetchedAt": "2026-08-10T09:20:47.672Z",
       "error": null
     },
     {
@@ -4318,7 +4317,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-10T05:26:10.479Z",
+      "fetchedAt": "2026-08-10T09:20:47.695Z",
       "error": null
     },
     {
@@ -4374,7 +4373,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:10.384Z",
+      "fetchedAt": "2026-08-10T09:20:47.652Z",
       "error": null
     },
     {
@@ -4394,7 +4393,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:10.390Z",
+      "fetchedAt": "2026-08-10T09:20:47.660Z",
       "error": null
     },
     {
@@ -4450,7 +4449,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:14.842Z",
+      "fetchedAt": "2026-08-10T09:20:52.200Z",
       "error": null
     },
     {
@@ -4506,7 +4505,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:11.024Z",
+      "fetchedAt": "2026-08-10T09:20:48.736Z",
       "error": null
     },
     {
@@ -4561,7 +4560,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:10.597Z",
+      "fetchedAt": "2026-08-10T09:20:47.854Z",
       "error": null
     },
     {
@@ -4616,7 +4615,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:10.582Z",
+      "fetchedAt": "2026-08-10T09:20:47.819Z",
       "error": null
     },
     {
@@ -4681,7 +4680,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-10T05:26:15.785Z",
+      "fetchedAt": "2026-08-10T09:20:54.126Z",
       "error": null
     }
   ]
