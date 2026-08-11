@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:04:39.141Z",
+  "generatedAt": "2026-08-11T16:57:10.330Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,72 +8,71 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Singapore’s AI boom challenges the hype myth",
-          "link": "https://4sysops.com/archives/singapores-ai-boom-challenges-the-hype-myth/",
-          "pubDate": "2026-08-11T11:23:33.000Z",
-          "summary": "Singapore has raised its 2026 GDP growth forecast to 4.5%–5.5%, up sharply from the previous 2%–4% range. The upgrade offers further evidence that artificial intelligence is not merely an overhyped technology with little real-world economic impact. Source]]>",
+          "title": "Public exploits target Cisco Secure Endpoint Connector via ClamAV flaws",
+          "link": "https://4sysops.com/archives/public-exploits-target-cisco-secure-endpoint-connector-via-clamav-flaws/",
+          "pubDate": "2026-08-11T16:45:08.000Z",
+          "summary": "Public proof-of-concept exploits are now available for two high-severity ClamAV vulnerabilities affecting Cisco Secure Endpoint Connector. Crafted ZIP files can crash the antivirus scanning process, with Windows systems at higher risk because the scanner runs with privileged access. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
-            "AI"
+            "Security",
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft Entra makes passkeys default as SMS and voice MFA face retirement",
-          "link": "https://4sysops.com/archives/microsoft-entra-makes-passkeys-default-as-sms-and-voice-mfa-face-retirement/",
-          "pubDate": "2026-08-11T11:19:25.000Z",
-          "summary": "Microsoft Entra will make passkeys the default authentication method on September 1, 2026, automatically enabling them for users who currently rely on SMS or voice MFA. Microsoft-provided SMS and voice MFA will be retired on February 1, 2027, giving administrators a limited window to prepare authent",
+          "title": "GhostSplice splits MCP attacks to trick AI coding agents into leaking secrets",
+          "link": "https://4sysops.com/archives/ghostsplice-splits-mcp-attacks-to-trick-ai-coding-agents-into-leaking-secrets/",
+          "pubDate": "2026-08-11T16:45:07.000Z",
+          "summary": "A malicious MCP server can bypass an AI coding assistant’s refusal safeguards by splitting a data-theft request across tool descriptions, results, and server-initiated sampling. The GhostSplice technique caused sharply higher compliance in controlled tests, potentially exposing SSH keys, `.env` file",
           "author": "IT News",
           "categories": [
             "News",
-            "Identity",
+            "AI",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Exchange Online will remove the EAC “Other features” page in 2026",
-          "link": "https://4sysops.com/archives/exchange-online-will-remove-the-eac-other-features-page-in-2026/",
-          "pubDate": "2026-08-11T11:19:24.000Z",
-          "summary": "Exchange Online administrators will lose the “Other features” page in the Exchange admin center between September 2026 and February 2027. Microsoft says the change removes only a legacy navigation page—not the administrative tools linked from it—so teams should update bookmarks, documentation, and p",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "Microsoft 365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 10 still runs one in six enterprise PCs",
-          "link": "https://4sysops.com/archives/windows-10-still-runs-one-in-six-enterprise-pcs/",
-          "pubDate": "2026-08-11T11:10:21.000Z",
-          "summary": "Windows 10 remains installed on 16.9% of enterprise PCs nearly a year after support ended, according to Lansweeper data. The remaining systems are concentrated in sectors such as healthcare, retail, and small businesses, where Windows 10 now has a substantially larger vulnerability burden than Windo",
+          "title": "A new Plug and Play Windows 11 attack",
+          "link": "https://4sysops.com/archives/a-new-plug-and-play-windows-11-attack/",
+          "pubDate": "2026-08-11T16:45:06.000Z",
+          "summary": "A new Plug and Play attack chain turns Windows 11’s automatic USB driver installation into SYSTEM-level code execution, even on a fully patched system. The researchers also demonstrated a remote variant over RDP when Plug and Play or low-level USB redirection is enabled. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
             "Security",
-            "Systems Management",
             "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft: FruitStone gives Midnight Blizzard a control panel for hotel Wi-Fi attacks",
-          "link": "https://4sysops.com/archives/microsoft-fruitstone-gives-midnight-blizzard-a-control-panel-for-hotel-wi-fi-attacks/",
-          "pubDate": "2026-08-11T11:10:20.000Z",
-          "summary": "Microsoft has uncovered FruitStone, a web-based control panel used to manage the CaptiveCrunch campaign attributed to Midnight Blizzard. The operation hijacks hotel and other captive-portal networks to target travelers with CornFlake and ChocoShell malware, or with device-code phishing that can stea",
+          "title": "CISA confirms SharePoint flaw is now fueling ransomware attacks",
+          "link": "https://4sysops.com/archives/cisa-confirms-sharepoint-flaw-is-now-fueling-ransomware-attacks/",
+          "pubDate": "2026-08-11T16:45:05.000Z",
+          "summary": "CISA has confirmed that ransomware groups are exploiting CVE-2026-45659, a high-severity remote code execution flaw in Microsoft SharePoint Server. More than 200 internet-exposed SharePoint servers remain unpatched, making the warning especially urgent for organizations running on-premises deploymen",
           "author": "IT News",
           "categories": [
             "News",
-            "Networking",
-            "Security",
-            "Windows"
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "IT infrastructure shortages deepen: how to cope while data centers stall",
+          "link": "https://4sysops.com/archives/it-infrastructure-shortages-deepen-how-to-cope-while-data-centers-stall/",
+          "pubDate": "2026-08-11T16:45:04.000Z",
+          "summary": "Only 802 of nearly 4,000 announced US data center projects are currently under construction, highlighting why IT infrastructure shortages may persist despite massive planned investment. Administrators face long waits and rising prices for servers, storage, and networking equipment while AI demand al",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI",
+            "Hardware"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:12.668Z",
+      "fetchedAt": "2026-08-11T16:56:33.497Z",
       "error": null
     },
     {
@@ -116,7 +115,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:12.886Z",
+      "fetchedAt": "2026-08-11T16:56:33.865Z",
       "error": null
     },
     {
@@ -202,7 +201,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:12.221Z",
+      "fetchedAt": "2026-08-11T16:56:33.258Z",
       "error": null
     },
     {
@@ -277,7 +276,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:12.966Z",
+      "fetchedAt": "2026-08-11T16:56:33.822Z",
       "error": null
     },
     {
@@ -353,7 +352,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:14.496Z",
+      "fetchedAt": "2026-08-11T16:56:35.691Z",
       "error": null
     },
     {
@@ -439,7 +438,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:13.268Z",
+      "fetchedAt": "2026-08-11T16:56:34.183Z",
       "error": null
     },
     {
@@ -511,7 +510,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:13.212Z",
+      "fetchedAt": "2026-08-11T16:56:34.176Z",
       "error": null
     },
     {
@@ -580,7 +579,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:13.630Z",
+      "fetchedAt": "2026-08-11T16:56:34.525Z",
       "error": null
     },
     {
@@ -654,7 +653,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:14.576Z",
+      "fetchedAt": "2026-08-11T16:56:35.848Z",
       "error": null
     },
     {
@@ -735,7 +734,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:15.930Z",
+      "fetchedAt": "2026-08-11T16:56:36.984Z",
       "error": null
     },
     {
@@ -819,7 +818,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:14.618Z",
+      "fetchedAt": "2026-08-11T16:56:35.952Z",
       "error": null
     },
     {
@@ -892,7 +891,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:14.983Z",
+      "fetchedAt": "2026-08-11T16:56:36.438Z",
       "error": null
     },
     {
@@ -974,7 +973,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:16.001Z",
+      "fetchedAt": "2026-08-11T16:56:37.114Z",
       "error": null
     },
     {
@@ -983,65 +982,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://andrewstaylor.com/feed/",
-      "items": [
-        {
-          "title": "Intune Newsletter – 7th August 2026",
-          "link": "https://andrewstaylor.com/2026/08/07/intune-newsletter-7th-august-2026/",
-          "pubDate": "2026-08-07T10:59:51.000Z",
-          "summary": "Read more]]>",
-          "author": "Andrew Taylor",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 31st July 2026",
-          "link": "https://andrewstaylor.com/2026/07/31/intune-newsletter-31st-july-2026/",
-          "pubDate": "2026-07-31T10:48:08.000Z",
-          "summary": "Read more]]>",
-          "author": "Andrew Taylor",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 24th July 2026",
-          "link": "https://andrewstaylor.com/2026/07/24/intune-newsletter-24th-july-2026/",
-          "pubDate": "2026-07-24T09:32:26.000Z",
-          "summary": "Read more]]>",
-          "author": "Andrew Taylor",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 10th July 2026",
-          "link": "https://andrewstaylor.com/2026/07/10/intune-newsletter-10th-july-2026/",
-          "pubDate": "2026-07-10T10:24:35.000Z",
-          "summary": "Read more]]>",
-          "author": "Andrew Taylor",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 3rd July 2026",
-          "link": "https://andrewstaylor.com/2026/07/03/intune-newsletter-3rd-july-2026/",
-          "pubDate": "2026-07-03T10:58:01.000Z",
-          "summary": "Read more]]>",
-          "author": "Andrew Taylor",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-11T13:04:17.180Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-11T16:56:45.079Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "cybercloudops",
@@ -1109,7 +1052,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:16.314Z",
+      "fetchedAt": "2026-08-11T16:56:37.420Z",
       "error": null
     },
     {
@@ -1189,7 +1132,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:17.036Z",
+      "fetchedAt": "2026-08-11T16:56:37.843Z",
       "error": null
     },
     {
@@ -1244,7 +1187,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:17.306Z",
+      "fetchedAt": "2026-08-11T16:56:45.363Z",
       "error": null
     },
     {
@@ -1309,7 +1252,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:17.523Z",
+      "fetchedAt": "2026-08-11T16:56:45.414Z",
       "error": null
     },
     {
@@ -1393,7 +1336,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:17.266Z",
+      "fetchedAt": "2026-08-11T16:56:45.345Z",
       "error": null
     },
     {
@@ -1466,7 +1409,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:18.178Z",
+      "fetchedAt": "2026-08-11T16:56:46.090Z",
       "error": null
     },
     {
@@ -1475,7 +1418,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-11T13:04:18.236Z",
+      "fetchedAt": "2026-08-11T16:56:46.195Z",
       "error": "HTTP 403"
     },
     {
@@ -1553,7 +1496,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:20.075Z",
+      "fetchedAt": "2026-08-11T16:56:47.817Z",
       "error": null
     },
     {
@@ -1562,7 +1505,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-11T13:04:18.547Z",
+      "fetchedAt": "2026-08-11T16:56:46.470Z",
       "error": "certificate has expired"
     },
     {
@@ -1632,7 +1575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:18.911Z",
+      "fetchedAt": "2026-08-11T16:56:46.987Z",
       "error": null
     },
     {
@@ -1708,7 +1651,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:20.520Z",
+      "fetchedAt": "2026-08-11T16:56:48.198Z",
       "error": null
     },
     {
@@ -1717,9 +1660,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-08-11T13:04:20.184Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Uninstalling Windows 11 Updates",
+          "link": "https://www.deploymentresearch.com/uninstalling-windows-11-updates/",
+          "pubDate": "2026-07-27T02:54:54.000Z",
+          "summary": "Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell models. Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell […] ",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
+          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
+          "pubDate": "2026-07-13T04:18:01.000Z",
+          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
+          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
+          "pubDate": "2026-05-29T15:34:28.000Z",
+          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
+          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
+          "pubDate": "2026-05-19T05:58:43.000Z",
+          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
+          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
+          "pubDate": "2026-05-15T14:47:47.000Z",
+          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
+          "author": "Johan Arwidmark",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-08-11T16:56:48.544Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -1773,7 +1772,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:20.433Z",
+      "fetchedAt": "2026-08-11T16:56:48.257Z",
       "error": null
     },
     {
@@ -1843,7 +1842,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:20.381Z",
+      "fetchedAt": "2026-08-11T16:56:48.123Z",
       "error": null
     },
     {
@@ -1922,7 +1921,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:20.580Z",
+      "fetchedAt": "2026-08-11T16:56:48.749Z",
       "error": null
     },
     {
@@ -1999,7 +1998,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:22.589Z",
+      "fetchedAt": "2026-08-11T16:56:50.598Z",
       "error": null
     },
     {
@@ -2084,7 +2083,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:20.688Z",
+      "fetchedAt": "2026-08-11T16:56:48.877Z",
       "error": null
     },
     {
@@ -2140,7 +2139,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:20.680Z",
+      "fetchedAt": "2026-08-11T16:56:48.865Z",
       "error": null
     },
     {
@@ -2150,6 +2149,21 @@
       "type": "rss",
       "url": "https://mobile-jon.com/feed/",
       "items": [
+        {
+          "title": "Farewell SMS, Passkeys ARE the New Standard: Getting Ready to Ditch Legacy Authentication Methods",
+          "link": "https://mobile-jon.com/2026/08/11/farewell-sms-passkeys-are-the-new-standard-getting-ready-to-ditch-legacy-authentication-methods/",
+          "pubDate": "2026-08-11T15:20:28.000Z",
+          "summary": "",
+          "author": "MobileJon",
+          "categories": [
+            "Entra",
+            "IAM",
+            "Security",
+            "conditional access",
+            "entra"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Managing Secure Boot Certificate Lifecycle with Intune",
           "link": "https://mobile-jon.com/2026/05/28/managing-secure-boot-certificate-lifecycle-with-intune/",
@@ -2209,24 +2223,9 @@
             "modern device management"
           ],
           "type": "rss"
-        },
-        {
-          "title": "ControlUp Elevates Digital Employee Experience with Live Visibility of Endpoints",
-          "link": "https://mobile-jon.com/2026/02/03/controlup-elevates-digital-employee-experience-with-live-visibility-of-endpoints/",
-          "pubDate": "2026-02-03T17:43:11.000Z",
-          "summary": "",
-          "author": "MobileJon",
-          "categories": [
-            "ControlUp",
-            "Windows",
-            "controlup",
-            "DEX",
-            "Troubleshooting"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:23.560Z",
+      "fetchedAt": "2026-08-11T16:56:51.727Z",
       "error": null
     },
     {
@@ -2312,7 +2311,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:22.651Z",
+      "fetchedAt": "2026-08-11T16:56:51.102Z",
       "error": null
     },
     {
@@ -2395,7 +2394,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:22.705Z",
+      "fetchedAt": "2026-08-11T16:56:50.952Z",
       "error": null
     },
     {
@@ -2450,7 +2449,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:22.774Z",
+      "fetchedAt": "2026-08-11T16:56:50.761Z",
       "error": null
     },
     {
@@ -2515,7 +2514,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:23.720Z",
+      "fetchedAt": "2026-08-11T16:56:51.992Z",
       "error": null
     },
     {
@@ -2524,7 +2523,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-11T13:04:23.656Z",
+      "fetchedAt": "2026-08-11T16:56:51.899Z",
       "error": "HTTP 404"
     },
     {
@@ -2580,7 +2579,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:24.374Z",
+      "fetchedAt": "2026-08-11T16:56:52.187Z",
       "error": null
     },
     {
@@ -2645,7 +2644,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:23.947Z",
+      "fetchedAt": "2026-08-11T16:56:52.665Z",
       "error": null
     },
     {
@@ -2726,7 +2725,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:26.180Z",
+      "fetchedAt": "2026-08-11T16:56:53.339Z",
       "error": null
     },
     {
@@ -2735,7 +2734,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-11T13:04:25.217Z",
+      "fetchedAt": "2026-08-11T16:56:53.392Z",
       "error": "HTTP 404"
     },
     {
@@ -2744,7 +2743,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-11T13:04:24.498Z",
+      "fetchedAt": "2026-08-11T16:56:52.917Z",
       "error": "HTTP 403"
     },
     {
@@ -2815,16 +2814,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:24.595Z",
+      "fetchedAt": "2026-08-11T16:56:53.027Z",
       "error": null
     },
     {
@@ -2897,7 +2896,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:26.355Z",
+      "fetchedAt": "2026-08-11T16:56:53.692Z",
       "error": null
     },
     {
@@ -2916,7 +2915,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:26.457Z",
+      "fetchedAt": "2026-08-11T16:56:53.567Z",
       "error": null
     },
     {
@@ -2924,9 +2923,55 @@
       "label": "z-nerd.com - Nathan Ziehnert",
       "type": "rss",
       "url": "https://z-nerd.com/index.xml",
-      "items": [],
-      "fetchedAt": "2026-08-11T13:04:31.296Z",
-      "error": "HTTP 525"
+      "items": [
+        {
+          "title": "Advent of Code 2025 - Day Five",
+          "link": "https://z-nerd.com/posts/2026/04/03/aoc-2025-day-five/",
+          "pubDate": "2026-04-03T00:00:00.000Z",
+          "summary": "You gotta pump those numbers up. Those are rookie numbers.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Advent of Code 2025 - Day Four",
+          "link": "https://z-nerd.com/posts/2026/03/27/aoc-2025-day-four/",
+          "pubDate": "2026-03-27T00:00:00.000Z",
+          "summary": "Killed my streak last week. Forgot to blog while curling. Dang.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Keeping The Streak: Just Under The Wire. Something, Something, Error Handling.",
+          "link": "https://z-nerd.com/posts/2026/03/13/just-under-the-wire/",
+          "pubDate": "2026-03-13T00:00:00.000Z",
+          "summary": "We spend a bit of time this week talking about error handling in PowerShell. All because I spent the day staring at roller coaster procedures and electronics instead of the animals at Seaworld.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Advent of Code 2025 - Day Three",
+          "link": "https://z-nerd.com/posts/2026/03/06/aoc-2025-day-three/",
+          "pubDate": "2026-03-06T00:00:00.000Z",
+          "summary": "Electrical surges. Should have bought a bigger surge protector.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Advent of Code 2025 - Day Two",
+          "link": "https://z-nerd.com/posts/2026/02/27/aoc-2025-day-two/",
+          "pubDate": "2026-02-27T00:00:00.000Z",
+          "summary": "Kids are dumb. Adults who let kids play on production systems are dumber.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-08-11T16:56:53.743Z",
+      "error": null
     },
     {
       "id": "jorgeasaur",
@@ -3011,7 +3056,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:26.419Z",
+      "fetchedAt": "2026-08-11T16:56:53.725Z",
       "error": null
     },
     {
@@ -3076,7 +3121,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.462Z",
+      "fetchedAt": "2026-08-11T16:56:53.879Z",
       "error": null
     },
     {
@@ -3142,7 +3187,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GtPXsMxflh4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.339Z",
+      "fetchedAt": "2026-08-11T16:56:53.892Z",
       "error": null
     },
     {
@@ -3207,7 +3252,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/IOEXWANA8GE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.490Z",
+      "fetchedAt": "2026-08-11T16:56:53.911Z",
       "error": null
     },
     {
@@ -3272,7 +3317,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dyD8aJIwnRc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.511Z",
+      "fetchedAt": "2026-08-11T16:56:54.015Z",
       "error": null
     },
     {
@@ -3338,7 +3383,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/DhQ2VLfGPWI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.516Z",
+      "fetchedAt": "2026-08-11T16:56:54.127Z",
       "error": null
     },
     {
@@ -3404,7 +3449,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OdYq8lQQYIY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.785Z",
+      "fetchedAt": "2026-08-11T16:56:54.136Z",
       "error": null
     },
     {
@@ -3470,7 +3515,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2TLFxEUT1Dg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.666Z",
+      "fetchedAt": "2026-08-11T16:56:54.034Z",
       "error": null
     },
     {
@@ -3535,7 +3580,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.644Z",
+      "fetchedAt": "2026-08-11T16:56:54.134Z",
       "error": null
     },
     {
@@ -3601,7 +3646,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0Zq-ed-tAcU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.946Z",
+      "fetchedAt": "2026-08-11T16:56:54.312Z",
       "error": null
     },
     {
@@ -3666,7 +3711,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WRKgptD-d4Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:32.025Z",
+      "fetchedAt": "2026-08-11T16:56:54.266Z",
       "error": null
     },
     {
@@ -3731,7 +3776,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HA0z1ZnOrD8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:32.058Z",
+      "fetchedAt": "2026-08-11T16:56:54.236Z",
       "error": null
     },
     {
@@ -3796,7 +3841,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:31.925Z",
+      "fetchedAt": "2026-08-11T16:56:54.237Z",
       "error": null
     },
     {
@@ -3861,7 +3906,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:32.323Z",
+      "fetchedAt": "2026-08-11T16:56:54.408Z",
       "error": null
     },
     {
@@ -3926,7 +3971,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:32.317Z",
+      "fetchedAt": "2026-08-11T16:56:54.431Z",
       "error": null
     },
     {
@@ -3991,7 +4036,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:32.229Z",
+      "fetchedAt": "2026-08-11T16:56:54.415Z",
       "error": null
     },
     {
@@ -4047,7 +4092,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:32.279Z",
+      "fetchedAt": "2026-08-11T16:56:56.194Z",
       "error": null
     },
     {
@@ -4057,7 +4102,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-11T13:04:32.532Z",
+      "fetchedAt": "2026-08-11T16:56:56.456Z",
       "error": null
     },
     {
@@ -4123,7 +4168,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:33.388Z",
+      "fetchedAt": "2026-08-11T16:56:57.116Z",
       "error": null
     },
     {
@@ -4179,7 +4224,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:32.360Z",
+      "fetchedAt": "2026-08-11T16:56:56.370Z",
       "error": null
     },
     {
@@ -4193,7 +4238,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-07-14T22:46:00.000Z",
-          "summary": "... Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microso",
+          "summary": "...rticle These release notes provide information about new features and nonsecurity updatesImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual Enterprise Channel and Monthly Enterprise Channel into a single enterprise-focused channel for Microsoft",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4208,7 +4253,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:32.628Z",
+      "fetchedAt": "2026-08-11T16:56:56.599Z",
       "error": null
     },
     {
@@ -4264,7 +4309,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:33.401Z",
+      "fetchedAt": "2026-08-11T16:56:57.138Z",
       "error": null
     },
     {
@@ -4274,7 +4319,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-11T13:04:33.460Z",
+      "fetchedAt": "2026-08-11T16:56:57.471Z",
       "error": null
     },
     {
@@ -4330,7 +4375,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:33.408Z",
+      "fetchedAt": "2026-08-11T16:56:57.196Z",
       "error": null
     },
     {
@@ -4350,7 +4395,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:33.414Z",
+      "fetchedAt": "2026-08-11T16:56:57.304Z",
       "error": null
     },
     {
@@ -4406,7 +4451,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:38.296Z",
+      "fetchedAt": "2026-08-11T16:57:02.163Z",
       "error": null
     },
     {
@@ -4462,7 +4507,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:34.429Z",
+      "fetchedAt": "2026-08-11T16:56:58.262Z",
       "error": null
     },
     {
@@ -4517,7 +4562,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:33.562Z",
+      "fetchedAt": "2026-08-11T16:56:57.652Z",
       "error": null
     },
     {
@@ -4572,7 +4617,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-11T13:04:33.527Z",
+      "fetchedAt": "2026-08-11T16:56:57.677Z",
       "error": null
     },
     {
@@ -4580,65 +4625,9 @@
       "label": "MacAdmins Podcast",
       "type": "audio",
       "url": "https://podcast.macadmins.org/feed/",
-      "items": [
-        {
-          "title": "Episode 473: Erin Merchant on IT Hiring in the age of AI",
-          "link": "https://podcast.macadmins.org/2026/08/05/episode-473-erin-merchant-on-it-hiring-in-the-age-of-ai/",
-          "pubDate": "2026-08-05T23:14:40.000Z",
-          "summary": "",
-          "author": "James Smith",
-          "categories": [
-            "Episodes"
-          ],
-          "type": "audio"
-        },
-        {
-          "title": "Episode 472: Just Us",
-          "link": "https://podcast.macadmins.org/2026/07/28/episode-472-just-us/",
-          "pubDate": "2026-07-28T11:40:09.000Z",
-          "summary": "",
-          "author": "James Smith",
-          "categories": [
-            "Episodes"
-          ],
-          "type": "audio"
-        },
-        {
-          "title": "Episode 471: Mac Admins LATAM",
-          "link": "https://podcast.macadmins.org/2026/07/22/episode-471-mac-admins-latam/",
-          "pubDate": "2026-07-22T11:04:31.000Z",
-          "summary": "",
-          "author": "James Smith",
-          "categories": [
-            "Episodes"
-          ],
-          "type": "audio"
-        },
-        {
-          "title": "Episode 470: What identity does an Agent have?",
-          "link": "https://podcast.macadmins.org/2026/07/17/episode-470-what-identity-does-an-agent-have/",
-          "pubDate": "2026-07-17T23:36:01.000Z",
-          "summary": "",
-          "author": "James Smith",
-          "categories": [
-            "Episodes"
-          ],
-          "type": "audio"
-        },
-        {
-          "title": "Episode 469: PSSO Updates with Okta",
-          "link": "https://podcast.macadmins.org/2026/07/11/episode-469-psso-updates-with-okta/",
-          "pubDate": "2026-07-11T05:07:46.000Z",
-          "summary": "",
-          "author": "James Smith",
-          "categories": [
-            "Episodes"
-          ],
-          "type": "audio"
-        }
-      ],
-      "fetchedAt": "2026-08-11T13:04:39.141Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-11T16:57:10.330Z",
+      "error": "Timeout after 8000ms"
     }
   ]
 }
