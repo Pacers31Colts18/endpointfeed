@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:08:41.781Z",
+  "generatedAt": "2026-08-12T16:56:14.733Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,50 +8,50 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Your first shortened TLS certificates expire in September",
-          "link": "https://4sysops.com/archives/your-first-shortened-tls-certificates-expire-in-september/",
-          "pubDate": "2026-08-12T10:19:55.000Z",
-          "summary": "Public TLS validity dropped from 398 days to 200 days on March 15, 2026, the first of three cuts on the way to 47 days in March 2029. Most CAs moved early, so certificates issued from late February onward begin expiring in September and through October. By 2029 that works out to roughly eight renewa",
-          "author": "Sponsor",
-          "categories": [
-            "News",
-            "Newsletters",
-            "Vendors",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Fake job interviews deliver a trojanized WireGuard VPN client to IT pros",
-          "link": "https://4sysops.com/archives/fake-job-interviews-deliver-a-trojanized-wireguard-vpn-client-to-it-pros/",
-          "pubDate": "2026-08-12T10:12:27.000Z",
-          "summary": "Sandworm-linked attackers are using fake IT recruitment campaigns to trick system administrators into installing a modified WireGuard VPN client. The malware targets both Windows and Linux, decrypts hidden code, and downloads additional payloads after the victim connects to the supposed corporate VP",
+          "title": "CVE-2026-68820 puts Windows 10, 11 and Server users on a patch deadline",
+          "link": "https://4sysops.com/archives/cve-2026-68820-puts-windows-10-11-and-server-users-on-a-patch-deadline/",
+          "pubDate": "2026-08-12T15:12:14.000Z",
+          "summary": "Source]]>",
           "author": "IT News",
           "categories": [
             "News",
-            "PowerShell",
-            "Security"
+            "Security",
+            "Windows",
+            "Windows Server"
           ],
           "type": "rss"
         },
         {
-          "title": "ChatGPT desktop app finally lands on Linux with x64 and ARM64 packages",
-          "link": "https://4sysops.com/archives/chatgpt-desktop-app-finally-lands-on-linux-with-x64-and-arm64-packages/",
-          "pubDate": "2026-08-12T10:12:26.000Z",
-          "summary": "OpenAI has released a preview of its official ChatGPT desktop app for Linux, ending the platform’s reliance on browser access. Native `.deb` and `.rpm` packages support x64 and ARM64 systems running Ubuntu, Debian, or Fedora. Source]]>",
+          "title": "516 malicious Chrome VPN extensions remain active after proxy campaign",
+          "link": "https://4sysops.com/archives/516-malicious-chrome-vpn-extensions-remain-active-after-proxy-campaign/",
+          "pubDate": "2026-08-12T15:12:13.000Z",
+          "summary": "More than 500 malicious Chrome VPN extensions remain available after researchers uncovered a campaign that routed browser traffic through attacker-controlled SOCKS5 proxies. The extensions impersonated major VPN brands and had accumulated 75,486 installs. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "Linux"
+            "Security",
+            "Web"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft cuts MAI-Code-1.1-Flash pricing by 75% in GitHub Copilot",
-          "link": "https://4sysops.com/archives/microsoft-cuts-mai-code-1-1-flash-pricing-by-75-in-github-copilot/",
-          "pubDate": "2026-08-12T10:12:25.000Z",
-          "summary": "Microsoft has released MAI-Code-1.1-Flash, a faster and cheaper coding model for GitHub Copilot. It improves Terminal-Bench 2.1 performance by 22%, uses 25% fewer tokens, and costs one-quarter as much as the original MAI-Code-1-Flash. Source]]>",
+          "title": "Exchange Server August 2026 update disables OWA Light and fixes Pwn2Own bug",
+          "link": "https://4sysops.com/archives/exchange-server-august-2026-update-disables-owa-light-and-fixes-pwn2own-bug/",
+          "pubDate": "2026-08-12T13:56:37.000Z",
+          "summary": "Microsoft’s August 2026 Exchange Server security update permanently disables OWA Light and addresses an authentication-bypass vulnerability that security researchers demonstrated at Pwn2Own. The release also determines whether Exchange Server 2016 and 2019 customers can continue receiving updates: o",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Security",
+            "Systems Management"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "VS Code 1.134.0 Insiders crashes in Copilot agent sessions",
+          "link": "https://4sysops.com/archives/vs-code-1-134-0-insiders-crashes-in-copilot-agent-sessions/",
+          "pubDate": "2026-08-12T13:56:36.000Z",
+          "summary": "Visual Studio Code 1.134.0 Insiders has a reproducible crash affecting GitHub Copilot agent sessions on Windows 11. The Node.js utility process fails with a 0xC0000005 access violation, making the build risky for users testing agent workflows. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
@@ -61,20 +61,19 @@
           "type": "rss"
         },
         {
-          "title": "PentestGPT turns Claude Code and Codex into an autonomous pentester",
-          "link": "https://4sysops.com/archives/pentestgpt-turns-claude-code-and-codex-into-an-autonomous-pentester/",
-          "pubDate": "2026-08-12T10:12:24.000Z",
-          "summary": "PentestGPT is now available as an open-source agentic penetration-testing framework that can run reconnaissance, exploitation, and reporting without a human directing each command. It uses Claude Code or Codex to select tools, execute commands, interpret results, and decide what to try next. Source]",
+          "title": "AI job destruction hasn’t arrived—but hiring has fallen 24%",
+          "link": "https://4sysops.com/archives/ai-job-destruction-hasnt-arrived-but-hiring-has-fallen-24/",
+          "pubDate": "2026-08-12T13:56:35.000Z",
+          "summary": "AI has not yet caused the mass job losses predicted by technology executives, but new workforce data points to a quieter shift: companies are hiring fewer people and changing which skills they value. Entry-level workers face a higher barrier to entry as AI takes over routine tasks and employers favo",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "Security"
+            "AI"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:18.140Z",
+      "fetchedAt": "2026-08-12T16:55:51.664Z",
       "error": null
     },
     {
@@ -117,7 +116,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:18.416Z",
+      "fetchedAt": "2026-08-12T16:55:52.145Z",
       "error": null
     },
     {
@@ -203,7 +202,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:17.972Z",
+      "fetchedAt": "2026-08-12T16:55:51.450Z",
       "error": null
     },
     {
@@ -278,7 +277,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:18.533Z",
+      "fetchedAt": "2026-08-12T16:55:52.051Z",
       "error": null
     },
     {
@@ -354,7 +353,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:20.473Z",
+      "fetchedAt": "2026-08-12T16:55:56.357Z",
       "error": null
     },
     {
@@ -440,7 +439,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:18.753Z",
+      "fetchedAt": "2026-08-12T16:55:52.483Z",
       "error": null
     },
     {
@@ -450,6 +449,18 @@
       "type": "rss",
       "url": "https://powershellisfun.com/feed/",
       "items": [
+        {
+          "title": "750.000 Visitors!",
+          "link": "https://powershellisfun.com/2026/08/12/750000-visitors/",
+          "pubDate": "2026-08-12T13:58:46.000Z",
+          "summary": "",
+          "author": "Harm Veenstra",
+          "categories": [
+            "Fun",
+            "PowerShell"
+          ],
+          "type": "rss"
+        },
         {
           "title": "PowerShell Typing Speed Tester",
           "link": "https://powershellisfun.com/2026/08/05/powershell-typing-speed-tester/",
@@ -499,20 +510,9 @@
             "PowerShell"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Using ErrorAction in PowerShell",
-          "link": "https://powershellisfun.com/2026/07/10/using-erroraction-in-powershell/",
-          "pubDate": "2026-07-10T17:52:02.000Z",
-          "summary": "",
-          "author": "Harm Veenstra",
-          "categories": [
-            "PowerShell"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:18.790Z",
+      "fetchedAt": "2026-08-12T16:55:52.483Z",
       "error": null
     },
     {
@@ -581,7 +581,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:19.178Z",
+      "fetchedAt": "2026-08-12T16:55:52.981Z",
       "error": null
     },
     {
@@ -655,7 +655,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:20.574Z",
+      "fetchedAt": "2026-08-12T16:55:56.465Z",
       "error": null
     },
     {
@@ -736,7 +736,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:21.600Z",
+      "fetchedAt": "2026-08-12T16:55:57.488Z",
       "error": null
     },
     {
@@ -820,7 +820,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:20.549Z",
+      "fetchedAt": "2026-08-12T16:55:56.582Z",
       "error": null
     },
     {
@@ -893,7 +893,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:20.812Z",
+      "fetchedAt": "2026-08-12T16:55:56.841Z",
       "error": null
     },
     {
@@ -975,7 +975,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:21.726Z",
+      "fetchedAt": "2026-08-12T16:55:57.682Z",
       "error": null
     },
     {
@@ -1041,7 +1041,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:22.522Z",
+      "fetchedAt": "2026-08-12T16:55:58.436Z",
       "error": null
     },
     {
@@ -1109,7 +1109,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:21.978Z",
+      "fetchedAt": "2026-08-12T16:55:57.914Z",
       "error": null
     },
     {
@@ -1189,7 +1189,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:22.405Z",
+      "fetchedAt": "2026-08-12T16:55:58.385Z",
       "error": null
     },
     {
@@ -1244,7 +1244,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:22.791Z",
+      "fetchedAt": "2026-08-12T16:55:58.610Z",
       "error": null
     },
     {
@@ -1309,7 +1309,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:22.899Z",
+      "fetchedAt": "2026-08-12T16:55:58.929Z",
       "error": null
     },
     {
@@ -1393,7 +1393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:22.634Z",
+      "fetchedAt": "2026-08-12T16:55:58.672Z",
       "error": null
     },
     {
@@ -1466,7 +1466,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:23.262Z",
+      "fetchedAt": "2026-08-12T16:55:59.200Z",
       "error": null
     },
     {
@@ -1475,7 +1475,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-12T13:08:23.347Z",
+      "fetchedAt": "2026-08-12T16:55:59.310Z",
       "error": "HTTP 403"
     },
     {
@@ -1553,7 +1553,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:24.930Z",
+      "fetchedAt": "2026-08-12T16:56:00.874Z",
       "error": null
     },
     {
@@ -1562,7 +1562,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-12T13:08:23.770Z",
+      "fetchedAt": "2026-08-12T16:55:59.644Z",
       "error": "certificate has expired"
     },
     {
@@ -1632,7 +1632,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:23.955Z",
+      "fetchedAt": "2026-08-12T16:55:59.972Z",
       "error": null
     },
     {
@@ -1708,7 +1708,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:25.140Z",
+      "fetchedAt": "2026-08-12T16:56:01.197Z",
       "error": null
     },
     {
@@ -1774,7 +1774,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:28.662Z",
+      "fetchedAt": "2026-08-12T16:56:01.474Z",
       "error": null
     },
     {
@@ -1829,7 +1829,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:25.321Z",
+      "fetchedAt": "2026-08-12T16:56:01.283Z",
       "error": null
     },
     {
@@ -1899,7 +1899,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:25.728Z",
+      "fetchedAt": "2026-08-12T16:56:01.167Z",
       "error": null
     },
     {
@@ -1978,7 +1978,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:28.759Z",
+      "fetchedAt": "2026-08-12T16:56:01.620Z",
       "error": null
     },
     {
@@ -2055,7 +2055,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:30.538Z",
+      "fetchedAt": "2026-08-12T16:56:03.423Z",
       "error": null
     },
     {
@@ -2140,7 +2140,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:28.958Z",
+      "fetchedAt": "2026-08-12T16:56:01.753Z",
       "error": null
     },
     {
@@ -2196,7 +2196,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:29.026Z",
+      "fetchedAt": "2026-08-12T16:56:01.800Z",
       "error": null
     },
     {
@@ -2282,7 +2282,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:31.612Z",
+      "fetchedAt": "2026-08-12T16:56:04.519Z",
       "error": null
     },
     {
@@ -2368,7 +2368,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:30.677Z",
+      "fetchedAt": "2026-08-12T16:56:03.538Z",
       "error": null
     },
     {
@@ -2451,7 +2451,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:30.708Z",
+      "fetchedAt": "2026-08-12T16:56:03.672Z",
       "error": null
     },
     {
@@ -2506,7 +2506,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:30.804Z",
+      "fetchedAt": "2026-08-12T16:56:03.703Z",
       "error": null
     },
     {
@@ -2571,7 +2571,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:31.770Z",
+      "fetchedAt": "2026-08-12T16:56:04.728Z",
       "error": null
     },
     {
@@ -2580,7 +2580,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-12T13:08:31.778Z",
+      "fetchedAt": "2026-08-12T16:56:04.779Z",
       "error": "HTTP 404"
     },
     {
@@ -2636,7 +2636,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:32.420Z",
+      "fetchedAt": "2026-08-12T16:56:05.000Z",
       "error": null
     },
     {
@@ -2701,7 +2701,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:32.246Z",
+      "fetchedAt": "2026-08-12T16:56:05.441Z",
       "error": null
     },
     {
@@ -2782,7 +2782,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:33.845Z",
+      "fetchedAt": "2026-08-12T16:56:06.155Z",
       "error": null
     },
     {
@@ -2791,7 +2791,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-12T13:08:33.506Z",
+      "fetchedAt": "2026-08-12T16:56:06.582Z",
       "error": "HTTP 404"
     },
     {
@@ -2800,7 +2800,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-12T13:08:32.621Z",
+      "fetchedAt": "2026-08-12T16:56:05.780Z",
       "error": "HTTP 403"
     },
     {
@@ -2880,7 +2880,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:32.756Z",
+      "fetchedAt": "2026-08-12T16:56:05.827Z",
       "error": null
     },
     {
@@ -2953,7 +2953,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.077Z",
+      "fetchedAt": "2026-08-12T16:56:06.939Z",
       "error": null
     },
     {
@@ -2972,7 +2972,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.102Z",
+      "fetchedAt": "2026-08-12T16:56:06.732Z",
       "error": null
     },
     {
@@ -3027,7 +3027,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.381Z",
+      "fetchedAt": "2026-08-12T16:56:06.999Z",
       "error": null
     },
     {
@@ -3113,7 +3113,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.222Z",
+      "fetchedAt": "2026-08-12T16:56:06.955Z",
       "error": null
     },
     {
@@ -3178,7 +3178,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.601Z",
+      "fetchedAt": "2026-08-12T16:56:07.207Z",
       "error": null
     },
     {
@@ -3244,7 +3244,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GtPXsMxflh4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.417Z",
+      "fetchedAt": "2026-08-12T16:56:07.215Z",
       "error": null
     },
     {
@@ -3253,6 +3253,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw",
       "items": [
+        {
+          "title": "400 Microsoft Flaws, Rogue Wi-Fi at 30,000 Feet & GPT-5.6 Cyber",
+          "link": "https://www.youtube.com/watch?v=KnRJLYNb0N0",
+          "pubDate": "2026-08-12T12:20:37.000Z",
+          "summary": "Coming up this week, Microsoft patches 400 vulnerabilities, including an actively exploited zero-day. Microsoft accidentally pushes a new OneDrive app to Windows 11 PCs, DEF CON attendees are accused of causing Wi-Fi chaos on a Delta flight, and OpenAI rolls out a powerful new AI model specifically ",
+          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "KnRJLYNb0N0",
+          "thumbnail": "https://i4.ytimg.com/vi/KnRJLYNb0N0/hqdefault.jpg"
+        },
         {
           "title": "AI Gets Smarter, Cheaper... and Harder to Contain",
           "link": "https://www.youtube.com/watch?v=yReE92MfZgM",
@@ -3296,20 +3307,9 @@
           "type": "video",
           "videoId": "5Rbdc4T2W8I",
           "thumbnail": "https://i2.ytimg.com/vi/5Rbdc4T2W8I/hqdefault.jpg"
-        },
-        {
-          "title": "Microsoft Cuts 4,800 Jobs, Claude AI Backlash & T-Mobile's Great Escape from VMware",
-          "link": "https://www.youtube.com/watch?v=IOEXWANA8GE",
-          "pubDate": "2026-07-08T21:45:09.000Z",
-          "summary": "Unfortunately, there are some audio issues this week. I was unable to remedy them but will make sure they are sorted next week but on this week's episode: Microsoft is cutting nearly 5,000 jobs, with Xbox among the businesses being restructured — and employees here in Ireland are also being impacted",
-          "author": "<name>5bytespodcast</name>\n   <uri>https://www.youtube.com/channel/UC5CI6Etl3fmyhcmxovhowtw</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": "IOEXWANA8GE",
-          "thumbnail": "https://i2.ytimg.com/vi/IOEXWANA8GE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.543Z",
+      "fetchedAt": "2026-08-12T16:56:07.342Z",
       "error": null
     },
     {
@@ -3374,7 +3374,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dyD8aJIwnRc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.530Z",
+      "fetchedAt": "2026-08-12T16:56:07.181Z",
       "error": null
     },
     {
@@ -3440,7 +3440,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.698Z",
+      "fetchedAt": "2026-08-12T16:56:07.453Z",
       "error": null
     },
     {
@@ -3506,7 +3506,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OdYq8lQQYIY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.705Z",
+      "fetchedAt": "2026-08-12T16:56:07.463Z",
       "error": null
     },
     {
@@ -3572,7 +3572,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2TLFxEUT1Dg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.621Z",
+      "fetchedAt": "2026-08-12T16:56:07.632Z",
       "error": null
     },
     {
@@ -3637,7 +3637,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.699Z",
+      "fetchedAt": "2026-08-12T16:56:07.473Z",
       "error": null
     },
     {
@@ -3703,7 +3703,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/eZTkB3zJkes/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.859Z",
+      "fetchedAt": "2026-08-12T16:56:07.774Z",
       "error": null
     },
     {
@@ -3768,7 +3768,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JrDcmyf4LFs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.832Z",
+      "fetchedAt": "2026-08-12T16:56:07.761Z",
       "error": null
     },
     {
@@ -3833,7 +3833,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HA0z1ZnOrD8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.798Z",
+      "fetchedAt": "2026-08-12T16:56:07.761Z",
       "error": null
     },
     {
@@ -3898,7 +3898,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.824Z",
+      "fetchedAt": "2026-08-12T16:56:07.750Z",
       "error": null
     },
     {
@@ -3963,7 +3963,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:35.000Z",
+      "fetchedAt": "2026-08-12T16:56:07.892Z",
       "error": null
     },
     {
@@ -4028,7 +4028,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.997Z",
+      "fetchedAt": "2026-08-12T16:56:07.906Z",
       "error": null
     },
     {
@@ -4093,7 +4093,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:34.965Z",
+      "fetchedAt": "2026-08-12T16:56:07.912Z",
       "error": null
     },
     {
@@ -4149,7 +4149,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:35.011Z",
+      "fetchedAt": "2026-08-12T16:56:08.023Z",
       "error": null
     },
     {
@@ -4159,7 +4159,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-12T13:08:35.220Z",
+      "fetchedAt": "2026-08-12T16:56:08.367Z",
       "error": null
     },
     {
@@ -4225,7 +4225,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:35.699Z",
+      "fetchedAt": "2026-08-12T16:56:08.911Z",
       "error": null
     },
     {
@@ -4281,7 +4281,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:35.053Z",
+      "fetchedAt": "2026-08-12T16:56:08.159Z",
       "error": null
     },
     {
@@ -4295,7 +4295,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-08-12T03:17:00.000Z",
-          "summary": "Release notes for Semi-Annual Enterprise Channel Summarize this article for me In this article These release notes provide information about new features and nonsecurity updates that are inc... Important Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4310,7 +4310,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:35.393Z",
+      "fetchedAt": "2026-08-12T16:56:08.588Z",
       "error": null
     },
     {
@@ -4366,7 +4366,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:35.712Z",
+      "fetchedAt": "2026-08-12T16:56:09.214Z",
       "error": null
     },
     {
@@ -4376,7 +4376,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-12T13:08:36.154Z",
+      "fetchedAt": "2026-08-12T16:56:09.195Z",
       "error": null
     },
     {
@@ -4432,7 +4432,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:35.769Z",
+      "fetchedAt": "2026-08-12T16:56:08.931Z",
       "error": null
     },
     {
@@ -4452,7 +4452,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:35.735Z",
+      "fetchedAt": "2026-08-12T16:56:09.122Z",
       "error": null
     },
     {
@@ -4508,7 +4508,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:41.002Z",
+      "fetchedAt": "2026-08-12T16:56:14.038Z",
       "error": null
     },
     {
@@ -4564,7 +4564,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:36.857Z",
+      "fetchedAt": "2026-08-12T16:56:09.996Z",
       "error": null
     },
     {
@@ -4619,7 +4619,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:36.443Z",
+      "fetchedAt": "2026-08-12T16:56:09.418Z",
       "error": null
     },
     {
@@ -4674,7 +4674,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:36.372Z",
+      "fetchedAt": "2026-08-12T16:56:09.460Z",
       "error": null
     },
     {
@@ -4739,7 +4739,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-12T13:08:41.781Z",
+      "fetchedAt": "2026-08-12T16:56:14.733Z",
       "error": null
     }
   ]
