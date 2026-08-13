@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:56:01.076Z",
+  "generatedAt": "2026-08-13T20:42:29.111Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,72 +8,73 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Zoom patches ‘Zoomsday’ flaw after AI-built exploit takes over meeting devices",
-          "link": "https://4sysops.com/archives/zoom-patches-zoomsday-flaw-after-ai-built-exploit-takes-over-meeting-devices/",
-          "pubDate": "2026-08-13T16:20:03.000Z",
-          "summary": "A critical Zoom annotation flaw let any meeting participant silently take over other attendees’ devices, and researchers built a working exploit with fewer than 20 AI prompts in less than a day. Earlier Zoom security coverage focused on a separate Windows account-takeover bug in an earlier vulnerabi",
+          "title": "Configure Azure Private Link over IPv6",
+          "link": "https://4sysops.com/archives/configure-azure-private-link-over-ipv6/",
+          "pubDate": "2026-08-13T20:37:25.000Z",
+          "summary": "Azure Private Link over IPv6 is a public preview that lets an IPv6 client reach selected Azure platform-as-a-service (PaaS) resources through a private endpoint. A private endpoint is a network interface with a private address in your Azure virtual network that represents a specific service resource",
+          "author": "IT Experts",
+          "categories": [
+            "Articles",
+            "Azure",
+            "Cloud Computing",
+            "Networking"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "OpenAI previews GPT-5.6 Sol Ultrafast at 750 tokens per second",
+          "link": "https://4sysops.com/archives/openai-previews-gpt-5-6-sol-ultrafast-at-750-tokens-per-second/",
+          "pubDate": "2026-08-13T20:34:12.000Z",
+          "summary": "OpenAI is previewing GPT-5.6 Sol Ultrafast, an API service tier that uses Cerebras hardware to deliver up to 750 output tokens per second—14 times faster than Standard processing. The limited rollout targets latency-sensitive work such as incident response, where teams need to analyze logs, traces, ",
           "author": "IT News",
           "categories": [
             "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "DeepSeek V4-Pro launches as a cheaper GPT-5.6 Sol alternative with open Harness",
+          "link": "https://4sysops.com/archives/deepseek-v4-pro-launches-as-a-cheaper-gpt-5-6-sol-alternative-with-open-harness/",
+          "pubDate": "2026-08-13T19:29:38.000Z",
+          "summary": "Our earlier analysis of DeepSeek V4-Flash 0731 examined the company’s low-cost model alongside OpenAI’s GPT-5.6 Luna. DeepSeek has now released the new V4-Pro-0813, an upgraded flagship that delivers slightly lower performance than OpenAI’s GPT-5.6 Sol on broad intelligence benchmarks while costing ",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Azure IoT gets TLS 1.3, passwordless provisioning, and secure updates",
+          "link": "https://4sysops.com/archives/azure-iot-gets-tls-1-3-passwordless-provisioning-and-secure-updates/",
+          "pubDate": "2026-08-13T18:39:20.000Z",
+          "summary": "Microsoft is rolling out three Azure IoT security changes with different readiness levels: TLS 1.3 for IoT Hub and managed-identity authentication between Device Provisioning Service and IoT Hub are in public preview, while HTTPS downloads for Device Update are generally available. The earlier Micro",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Azure",
+            "Identity",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "LiteLLM supply chain attack may be the biggest on record",
-          "link": "https://4sysops.com/archives/litellm-supply-chain-attack-may-be-the-biggest-on-record/",
-          "pubDate": "2026-08-13T16:20:02.000Z",
-          "summary": "A 153GB archive allegedly stolen during the LiteLLM supply chain attack contains 433,909 files, including CI runner dumps linked to 118,829 runs across 2,488 corporate domains. The March compromise previously raised concerns about more than 2,500 organizations and 434,000 CI/CD pipelines; the newly ",
+          "title": "“Download More RAM” attack bypasses Windows 11 defenses without physical access",
+          "link": "https://4sysops.com/archives/download-more-ram-attack-bypasses-windows-11-defenses-without-physical-access/",
+          "pubDate": "2026-08-13T18:39:19.000Z",
+          "summary": "Researchers have demonstrated that the “Download More RAM” attack can turn software-only access into a way around Windows 11 security controls—without physically modifying the target PC. The technique abuses writable configuration data on some DDR4 and DDR5 modules to create fake memory addresses, p",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "DevOps",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft starts merging personal and work Copilot into one app",
-          "link": "https://4sysops.com/archives/microsoft-starts-merging-personal-and-work-copilot-into-one-app/",
-          "pubDate": "2026-08-13T16:20:01.000Z",
-          "summary": "Microsoft is beginning the rollout of a unified Microsoft Copilot app for personal, work, and school accounts, replacing the separate Copilot and Microsoft 365 Copilot experiences. Microsoft previously outlined a broader Copilot super app for chat, coding, collaboration, and agents in earlier covera",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AI",
-            "Microsoft 365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Oracle brings Exadata Exascale pay-as-you-go to Oracle AI Database@AWS",
-          "link": "https://4sysops.com/archives/oracle-brings-exadata-exascale-pay-as-you-go-to-oracle-ai-databaseaws/",
-          "pubDate": "2026-08-13T16:20:00.000Z",
-          "summary": "earlier coverage. Source]]>",
-          "author": "IT News",
-          "categories": [
-            "News",
-            "AWS",
-            "Cloud Computing"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "VMware vCenter compromised through critical CVE-2026-59310 path-traversal flaw",
-          "link": "https://4sysops.com/archives/vmware-vcenter-compromised-through-critical-cve-2026-59310-path-traversal-flaw/",
-          "pubDate": "2026-08-13T15:23:31.000Z",
-          "summary": "VMware vCenter systems are being actively compromised through the critical CVE-2026-59310 path-traversal flaw, with 361 victim IP addresses identified across 47 countries. Attackers are installing cron jobs, SSH keys, and the reverse_ssh tool to maintain access after exploiting the vCenter Syslog Se",
-          "author": "IT News",
-          "categories": [
-            "News",
+            "Hardware",
             "Security",
-            "Virtualization"
+            "Windows"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:21.932Z",
+      "fetchedAt": "2026-08-13T20:41:43.573Z",
       "error": null
     },
     {
@@ -116,7 +117,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:22.023Z",
+      "fetchedAt": "2026-08-13T20:41:43.802Z",
       "error": null
     },
     {
@@ -202,7 +203,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:21.605Z",
+      "fetchedAt": "2026-08-13T20:41:43.259Z",
       "error": null
     },
     {
@@ -277,7 +278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:22.051Z",
+      "fetchedAt": "2026-08-13T20:41:43.735Z",
       "error": null
     },
     {
@@ -353,7 +354,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:26.861Z",
+      "fetchedAt": "2026-08-13T20:41:45.828Z",
       "error": null
     },
     {
@@ -439,7 +440,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:22.202Z",
+      "fetchedAt": "2026-08-13T20:41:43.974Z",
       "error": null
     },
     {
@@ -512,7 +513,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:22.210Z",
+      "fetchedAt": "2026-08-13T20:41:44.068Z",
       "error": null
     },
     {
@@ -581,7 +582,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:22.565Z",
+      "fetchedAt": "2026-08-13T20:41:44.436Z",
       "error": null
     },
     {
@@ -655,7 +656,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:26.919Z",
+      "fetchedAt": "2026-08-13T20:41:45.956Z",
       "error": null
     },
     {
@@ -736,7 +737,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:27.803Z",
+      "fetchedAt": "2026-08-13T20:41:47.001Z",
       "error": null
     },
     {
@@ -820,7 +821,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:27.115Z",
+      "fetchedAt": "2026-08-13T20:41:46.064Z",
       "error": null
     },
     {
@@ -893,7 +894,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:27.252Z",
+      "fetchedAt": "2026-08-13T20:41:46.307Z",
       "error": null
     },
     {
@@ -975,7 +976,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:27.909Z",
+      "fetchedAt": "2026-08-13T20:41:47.059Z",
       "error": null
     },
     {
@@ -1041,7 +1042,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:28.646Z",
+      "fetchedAt": "2026-08-13T20:41:47.640Z",
       "error": null
     },
     {
@@ -1109,7 +1110,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:28.148Z",
+      "fetchedAt": "2026-08-13T20:41:47.289Z",
       "error": null
     },
     {
@@ -1189,7 +1190,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:29.062Z",
+      "fetchedAt": "2026-08-13T20:41:47.930Z",
       "error": null
     },
     {
@@ -1244,7 +1245,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:29.301Z",
+      "fetchedAt": "2026-08-13T20:41:48.359Z",
       "error": null
     },
     {
@@ -1309,7 +1310,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:29.260Z",
+      "fetchedAt": "2026-08-13T20:41:48.353Z",
       "error": null
     },
     {
@@ -1393,7 +1394,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:29.163Z",
+      "fetchedAt": "2026-08-13T20:41:48.189Z",
       "error": null
     },
     {
@@ -1466,7 +1467,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:29.712Z",
+      "fetchedAt": "2026-08-13T20:41:48.831Z",
       "error": null
     },
     {
@@ -1475,7 +1476,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-13T16:55:29.811Z",
+      "fetchedAt": "2026-08-13T20:41:48.922Z",
       "error": "HTTP 403"
     },
     {
@@ -1553,7 +1554,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:31.336Z",
+      "fetchedAt": "2026-08-13T20:41:50.473Z",
       "error": null
     },
     {
@@ -1562,7 +1563,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-13T16:55:30.162Z",
+      "fetchedAt": "2026-08-13T20:41:49.559Z",
       "error": "certificate has expired"
     },
     {
@@ -1632,7 +1633,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:30.363Z",
+      "fetchedAt": "2026-08-13T20:41:49.657Z",
       "error": null
     },
     {
@@ -1708,7 +1709,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:31.678Z",
+      "fetchedAt": "2026-08-13T20:41:50.758Z",
       "error": null
     },
     {
@@ -1717,65 +1718,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Uninstalling Windows 11 Updates",
-          "link": "https://www.deploymentresearch.com/uninstalling-windows-11-updates/",
-          "pubDate": "2026-07-27T02:54:54.000Z",
-          "summary": "Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell models. Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell […] ",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
-          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
-          "pubDate": "2026-07-13T04:18:01.000Z",
-          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
-          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
-          "pubDate": "2026-05-15T14:47:47.000Z",
-          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-13T16:55:33.086Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-13T20:42:06.619Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "mattzaske",
@@ -1829,7 +1774,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:31.848Z",
+      "fetchedAt": "2026-08-13T20:41:51.079Z",
       "error": null
     },
     {
@@ -1899,7 +1844,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:31.596Z",
+      "fetchedAt": "2026-08-13T20:41:50.755Z",
       "error": null
     },
     {
@@ -1978,7 +1923,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:33.214Z",
+      "fetchedAt": "2026-08-13T20:42:06.773Z",
       "error": null
     },
     {
@@ -2055,7 +2000,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:34.990Z",
+      "fetchedAt": "2026-08-13T20:42:08.431Z",
       "error": null
     },
     {
@@ -2140,7 +2085,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:33.307Z",
+      "fetchedAt": "2026-08-13T20:42:07.036Z",
       "error": null
     },
     {
@@ -2196,7 +2141,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:33.375Z",
+      "fetchedAt": "2026-08-13T20:42:07.125Z",
       "error": null
     },
     {
@@ -2282,7 +2227,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:36.301Z",
+      "fetchedAt": "2026-08-13T20:42:09.761Z",
       "error": null
     },
     {
@@ -2368,7 +2313,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:35.089Z",
+      "fetchedAt": "2026-08-13T20:42:08.598Z",
       "error": null
     },
     {
@@ -2453,7 +2398,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:35.132Z",
+      "fetchedAt": "2026-08-13T20:42:08.927Z",
       "error": null
     },
     {
@@ -2508,7 +2453,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:35.228Z",
+      "fetchedAt": "2026-08-13T20:42:08.689Z",
       "error": null
     },
     {
@@ -2573,7 +2518,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:36.597Z",
+      "fetchedAt": "2026-08-13T20:42:09.967Z",
       "error": null
     },
     {
@@ -2582,7 +2527,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-13T16:55:36.448Z",
+      "fetchedAt": "2026-08-13T20:42:09.949Z",
       "error": "HTTP 404"
     },
     {
@@ -2638,7 +2583,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:36.825Z",
+      "fetchedAt": "2026-08-13T20:42:10.195Z",
       "error": null
     },
     {
@@ -2703,7 +2648,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:36.794Z",
+      "fetchedAt": "2026-08-13T20:42:10.335Z",
       "error": null
     },
     {
@@ -2784,7 +2729,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:37.524Z",
+      "fetchedAt": "2026-08-13T20:42:11.245Z",
       "error": null
     },
     {
@@ -2793,7 +2738,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-13T16:55:37.488Z",
+      "fetchedAt": "2026-08-13T20:42:11.167Z",
       "error": "HTTP 404"
     },
     {
@@ -2802,7 +2747,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-13T16:55:36.879Z",
+      "fetchedAt": "2026-08-13T20:42:10.531Z",
       "error": "HTTP 403"
     },
     {
@@ -2882,7 +2827,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:36.959Z",
+      "fetchedAt": "2026-08-13T20:42:10.519Z",
       "error": null
     },
     {
@@ -2955,7 +2900,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:37.708Z",
+      "fetchedAt": "2026-08-13T20:42:11.454Z",
       "error": null
     },
     {
@@ -2974,7 +2919,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:37.656Z",
+      "fetchedAt": "2026-08-13T20:42:11.443Z",
       "error": null
     },
     {
@@ -2983,7 +2928,7 @@
       "type": "rss",
       "url": "https://z-nerd.com/index.xml",
       "items": [],
-      "fetchedAt": "2026-08-13T16:55:45.671Z",
+      "fetchedAt": "2026-08-13T20:42:19.394Z",
       "error": "Timeout after 8000ms"
     },
     {
@@ -3069,7 +3014,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:37.784Z",
+      "fetchedAt": "2026-08-13T20:42:11.609Z",
       "error": null
     },
     {
@@ -3134,7 +3079,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:45.775Z",
+      "fetchedAt": "2026-08-13T20:42:19.500Z",
       "error": null
     },
     {
@@ -3143,9 +3088,65 @@
       "badge": "MVP",
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
-      "items": [],
-      "fetchedAt": "2026-08-13T16:55:53.692Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Tech in Five - Tokens & Tokenomics",
+          "link": "https://www.youtube.com/watch?v=PbngY1n4Awc",
+          "pubDate": "2026-08-13T13:58:12.000Z",
+          "summary": "An overview of what are tokens, how they are used and their implications on experience and cost. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read ",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "PbngY1n4Awc",
+          "thumbnail": "https://i1.ytimg.com/vi/PbngY1n4Awc/hqdefault.jpg"
+        },
+        {
+          "title": "Tech in Five - AI & Friends",
+          "link": "https://www.youtube.com/watch?v=lpO-yxlVkiw",
+          "pubDate": "2026-08-10T15:17:16.000Z",
+          "summary": "First in a new series explaining a technology concept in five minutes. The first is explaining AI, machine learning, deep learning and generative AI. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of peo",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "lpO-yxlVkiw",
+          "thumbnail": "https://i1.ytimg.com/vi/lpO-yxlVkiw/hqdefault.jpg"
+        },
+        {
+          "title": "Azure Update 7th August 2026",
+          "link": "https://www.youtube.com/watch?v=nys8Uj16gbI",
+          "pubDate": "2026-08-07T15:21:36.000Z",
+          "summary": "Yay, Friday! 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queue never to be seen so please",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "nys8Uj16gbI",
+          "thumbnail": "https://i3.ytimg.com/vi/nys8Uj16gbI/hqdefault.jpg"
+        },
+        {
+          "title": "Microsoft AI Update July 2026",
+          "link": "https://www.youtube.com/watch?v=2GpTcz6JVhQ",
+          "pubDate": "2026-08-04T14:31:12.000Z",
+          "summary": "Major Microsoft AI updates in July 2026. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queu",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "2GpTcz6JVhQ",
+          "thumbnail": "https://i3.ytimg.com/vi/2GpTcz6JVhQ/hqdefault.jpg"
+        },
+        {
+          "title": "Standard Service Endpoint Overview",
+          "link": "https://www.youtube.com/watch?v=HK6irXQNv2o",
+          "pubDate": "2026-08-03T14:39:58.000Z",
+          "summary": "A look at the Standard version of Service Endpoints. ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:19 - Compute and PaaS 02:18 - VNet to PaaS communication 03:04 - Service endpoints 06:16 - Scale and complexity issues 06:57 - Standard service endpoints 07:12 - Network Identifier 08:26 - Ne",
+          "author": "<name>John Savill's Technical Training</name>\n   <uri>https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": "HK6irXQNv2o",
+          "thumbnail": "https://i1.ytimg.com/vi/HK6irXQNv2o/hqdefault.jpg"
+        }
+      ],
+      "fetchedAt": "2026-08-13T20:42:19.429Z",
+      "error": null
     },
     {
       "id": "yt-5bytes",
@@ -3209,7 +3210,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5Rbdc4T2W8I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:45.859Z",
+      "fetchedAt": "2026-08-13T20:42:19.508Z",
       "error": null
     },
     {
@@ -3274,7 +3275,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dyD8aJIwnRc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:45.790Z",
+      "fetchedAt": "2026-08-13T20:42:19.536Z",
       "error": null
     },
     {
@@ -3340,7 +3341,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:53.798Z",
+      "fetchedAt": "2026-08-13T20:42:19.543Z",
       "error": null
     },
     {
@@ -3406,7 +3407,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xKSJ70iRWOI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:53.817Z",
+      "fetchedAt": "2026-08-13T20:42:19.637Z",
       "error": null
     },
     {
@@ -3472,7 +3473,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2TLFxEUT1Dg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:53.717Z",
+      "fetchedAt": "2026-08-13T20:42:19.712Z",
       "error": null
     },
     {
@@ -3537,7 +3538,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:53.815Z",
+      "fetchedAt": "2026-08-13T20:42:19.645Z",
       "error": null
     },
     {
@@ -3547,6 +3548,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Microsoft Retiring SMS/Voice MFA in 2027: Secure Your Accounts Now! #shorts",
+          "link": "https://www.youtube.com/shorts/NjKLC2pHICw",
+          "pubDate": "2026-08-13T16:54:38.000Z",
+          "summary": "Full video: https://youtu.be/IJBWO6JWrDo Microsoft is phasing out SMS and voice-based MFA in February 2027. Start planning your transition now to stronger, phishing-resistant methods like FIDO2 passkeys or Windows Hello for Business. Don't get caught with less secure authentication. #Microsoft #Entr",
+          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/NjKLC2pHICw/hqdefault.jpg"
+        },
         {
           "title": "Entra ID Authentication Strengths: Granular Access Control Explained #shorts",
           "link": "https://www.youtube.com/shorts/QmB8iFhmI6E",
@@ -3590,20 +3602,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/0-dnAbGXugU/hqdefault.jpg"
-        },
-        {
-          "title": "Passwordless Auth Policy: Report Only First! #shorts",
-          "link": "https://www.youtube.com/shorts/eZTkB3zJkes",
-          "pubDate": "2026-07-28T15:03:30.000Z",
-          "summary": "Full video: https://youtu.be/JASvAHNszGI Before enforcing passwordless authentication, verify the policy is in 'Report only' mode. This safeguards administrators not yet set up for passwordless. Consider FIDO2 keys for global admins. #Microsoft #EntraID #MFA #FIDO2 #ZeroTrust #CloudSecurity #MVPBuzz",
-          "author": "<name>Travis Roberts</name>\n   <uri>https://www.youtube.com/channel/UCuB24cID6NnypDWSLe4gfqA</uri>",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/eZTkB3zJkes/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:54.026Z",
+      "fetchedAt": "2026-08-13T20:42:19.806Z",
       "error": null
     },
     {
@@ -3616,7 +3617,7 @@
           "title": "8/12/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
           "link": "https://www.youtube.com/watch?v=6JbBOe1uMmk",
           "pubDate": "2026-08-13T10:37:24.000Z",
-          "summary": "Join us every week for Updates, Q&A, and roundtable discussions on anything related to Windows deployment, MDT, ConfigMgr, or Intune. https://academy.viamonstra.com/courses/office-hours-community-edition #sccm #msintune #configmgr #mdt",
+          "summary": "Join us for Q&A and a roundtable discussion on anything related to Windows deployment, MDT, ConfigMgr, or Microsoft Intune. We bring the experts; you bring the questions. With co-hosts Johan Arwidmark and Andrew Johnson. LINKS BELOW ⬇️ 💥UPDATES ------------------------------------------------------",
           "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
           "categories": [],
           "type": "video",
@@ -3668,7 +3669,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zAbid-1V0BU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:53.948Z",
+      "fetchedAt": "2026-08-13T20:42:19.827Z",
       "error": null
     },
     {
@@ -3733,7 +3734,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/YXbkLAt-S3Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:53.947Z",
+      "fetchedAt": "2026-08-13T20:42:19.946Z",
       "error": null
     },
     {
@@ -3798,7 +3799,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:53.986Z",
+      "fetchedAt": "2026-08-13T20:42:19.801Z",
       "error": null
     },
     {
@@ -3863,7 +3864,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:54.186Z",
+      "fetchedAt": "2026-08-13T20:42:20.039Z",
       "error": null
     },
     {
@@ -3928,7 +3929,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:54.160Z",
+      "fetchedAt": "2026-08-13T20:42:20.119Z",
       "error": null
     },
     {
@@ -3993,7 +3994,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:54.120Z",
+      "fetchedAt": "2026-08-13T20:42:20.051Z",
       "error": null
     },
     {
@@ -4031,6 +4032,15 @@
           "type": "official"
         },
         {
+          "title": "Virtual MSP training: Microsoft Intune + Endpoint Management with Nerdio Manager",
+          "link": "https://getnerdio.com/on-demand-webinar/virtual-msp-training-microsoft-intune-endpoint-management-with-nerdio-manager/",
+          "pubDate": "2026-08-13T20:15:31.000Z",
+          "summary": "ON-DEMAND WEBINAR Virtual MSP training: Microsoft Intune + Endpoint Management with Nerdio Manager Managing endpoints across multiple clients is one… The post Virtual MSP training: Microsoft Intune + Endpoint Management with Nerdio Manager appeared first on Nerdio. ]]>",
+          "author": "Lauren Purdy",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "From Devices to AI Workspaces",
           "link": "https://getnerdio.com/on-demand-webinar/from-devices-to-ai-workspaces/",
           "pubDate": "2026-08-10T21:09:19.000Z",
@@ -4038,18 +4048,9 @@
           "author": "Brian Gallagher",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "VDI Providers Compared: What Enterprise IT Should Look For in 2026",
-          "link": "https://getnerdio.com/blog/vdi-providers-compared/",
-          "pubDate": "2026-08-10T19:07:08.000Z",
-          "summary": "Blog VDI Providers Compared: What Enterprise IT Should Look For in 2026 Compare top VDI providers for 2026: Nerdio, Citrix,… The post VDI Providers Compared: What Enterprise IT Should Look For in 2026 appeared first on Nerdio. ]]>",
-          "author": "GrowthX Editor",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:54.279Z",
+      "fetchedAt": "2026-08-13T20:42:21.225Z",
       "error": null
     },
     {
@@ -4059,7 +4060,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-13T16:55:54.482Z",
+      "fetchedAt": "2026-08-13T20:42:21.639Z",
       "error": null
     },
     {
@@ -4069,6 +4070,17 @@
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Inside Intune’s New Sync Status Window",
+          "link": "https://patchmypc.com/blog/inside-intunes-new-sync-status-window/",
+          "pubDate": "2026-08-13T18:05:24.000Z",
+          "summary": "Microsoft has quietly improved the Windows device sync experience in Intune. Instead of only sending a push request that tells the device to check in through IC3 and WNS, the portal can now also open a live Sync status window that shows the progress Intune receives back from the service. That change",
+          "author": "Rudy Ooms",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
         {
           "title": "Patch My PC Publisher Production Version 3.0.4.0 Released",
           "link": "https://patchmypc.com/release-notes/production-release/patch-my-pc-publisher-production-version-3-0-4-0-released/",
@@ -4112,20 +4124,9 @@
             "Blog"
           ],
           "type": "official"
-        },
-        {
-          "title": "Intune On Demand Device Sync Now Uses IC3 for IME Workloads",
-          "link": "https://patchmypc.com/blog/intune-on-demand-device-sync-now-uses-ic3-for-ime-workloads/",
-          "pubDate": "2026-08-01T15:14:53.000Z",
-          "summary": "In our previous investigation, the improved Device Sync action sent two WNS notifications. One woke WindowsMDMPush so the Windows MDM client could trigger the Policy refresh. The other targeted the IME Notification App and carried a DirectSync request for Win32 apps, PowerShell scripts, and Proactiv",
-          "author": "Rudy Ooms",
-          "categories": [
-            "Blog"
-          ],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:55.101Z",
+      "fetchedAt": "2026-08-13T20:42:22.059Z",
       "error": null
     },
     {
@@ -4181,7 +4182,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:54.319Z",
+      "fetchedAt": "2026-08-13T20:42:21.295Z",
       "error": null
     },
     {
@@ -4210,7 +4211,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:54.338Z",
+      "fetchedAt": "2026-08-13T20:42:21.699Z",
       "error": null
     },
     {
@@ -4266,7 +4267,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:55.116Z",
+      "fetchedAt": "2026-08-13T20:42:22.403Z",
       "error": null
     },
     {
@@ -4276,7 +4277,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-13T16:55:55.179Z",
+      "fetchedAt": "2026-08-13T20:42:22.176Z",
       "error": null
     },
     {
@@ -4332,7 +4333,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:55.123Z",
+      "fetchedAt": "2026-08-13T20:42:22.240Z",
       "error": null
     },
     {
@@ -4352,7 +4353,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:55.140Z",
+      "fetchedAt": "2026-08-13T20:42:22.139Z",
       "error": null
     },
     {
@@ -4408,7 +4409,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:59.908Z",
+      "fetchedAt": "2026-08-13T20:42:27.058Z",
       "error": null
     },
     {
@@ -4464,7 +4465,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:55.764Z",
+      "fetchedAt": "2026-08-13T20:42:23.106Z",
       "error": null
     },
     {
@@ -4519,7 +4520,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:55.286Z",
+      "fetchedAt": "2026-08-13T20:42:22.544Z",
       "error": null
     },
     {
@@ -4574,7 +4575,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-13T16:55:55.361Z",
+      "fetchedAt": "2026-08-13T20:42:22.630Z",
       "error": null
     },
     {
@@ -4639,7 +4640,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-13T16:56:01.076Z",
+      "fetchedAt": "2026-08-13T20:42:29.111Z",
       "error": null
     }
   ]
