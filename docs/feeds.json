@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:11:56.987Z",
+  "generatedAt": "2026-08-13T13:09:44.559Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,68 +8,74 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Enable Windows Server 2016 Extended Security Updates through Azure Arc",
-          "link": "https://4sysops.com/archives/enable-windows-server-2016-extended-security-updates-through-azure-arc/",
-          "pubDate": "2026-08-12T20:55:37.000Z",
-          "summary": "Windows Server 2016 reaches the end of extended support on January 12, 2027. If you cannot retire or upgrade every server by then, Extended Security Updates (ESUs) provide Critical and Important security updates through January 2030, but not new features or non-security fixes. Microsoft now makes th",
-          "author": "IT Experts",
+          "title": "Microsoft freezes Microsoft 365 features on Windows 10 at version 2608",
+          "link": "https://4sysops.com/archives/microsoft-freezes-microsoft-365-features-on-windows-10-at-version-2608/",
+          "pubDate": "2026-08-13T09:34:12.000Z",
+          "summary": "Microsoft will stop delivering new Microsoft 365 features to Windows 10 after version 2608 arrives in August 2026, leaving affected devices on security-only updates until October 10, 2028. Microsoft previously announced that OneDrive sync support would end first on older Windows 10 releases; the new",
+          "author": "IT News",
           "categories": [
-            "Articles"
+            "News",
+            "Microsoft 365",
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Claude Cowork now carries browser tasks across Chrome and desktop",
-          "link": "https://4sysops.com/archives/claude-cowork-now-carries-browser-tasks-across-chrome-and-desktop/",
-          "pubDate": "2026-08-12T20:49:26.000Z",
-          "summary": "Claude Cowork is now the engine behind the Claude in Chrome side panel, allowing users to start browser tasks in Chrome and continue them later in Claude’s desktop, web, or mobile apps. The integration is available on Max and Team plans, with Pro access rolling out, while Enterprise administrators c",
+          "title": "Palo Alto puts OpenAI’s GPT-5.6-Cyber to work inside customer networks",
+          "link": "https://4sysops.com/archives/palo-alto-puts-openais-gpt-5-6-cyber-to-work-inside-customer-networks/",
+          "pubDate": "2026-08-13T09:34:11.000Z",
+          "summary": "Palo Alto Networks is bringing OpenAI’s advanced cyber models into customer environments, where Unit 42 can test real attack paths rather than merely list vulnerabilities; 36% of early findings had no matching CVE. OpenAI’s earlier Daybreak launch introduced restricted access to specialized cyber mo",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Web"
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Mistral opens its sovereign AI platform to GLM-5.2 as it targets 1 GW of European compute",
-          "link": "https://4sysops.com/archives/mistral-opens-its-sovereign-ai-platform-to-glm-5-2-as-it-targets-1-gw-of-european-compute/",
-          "pubDate": "2026-08-12T20:42:09.000Z",
-          "summary": "Mistral AI is expanding its sovereign-AI strategy by hosting third-party open models, starting with Z.ai’s GLM-5.2, on the same infrastructure, regional controls, and service commitments as its own models. At the same time, the French company is assembling European enterprises to support up to 1 GW ",
+          "title": "Microsoft is expanding its warning about SMS MFA as the rise of AI phishing accelerates",
+          "link": "https://4sysops.com/archives/microsoft-is-expanding-its-warning-about-sms-mfa-as-the-rise-of-ai-phishing-accelerates/",
+          "pubDate": "2026-08-13T09:34:10.000Z",
+          "summary": "Microsoft is tying its Entra ID SMS and voice MFA retirement to the rise of AI-assisted phishing and SIM-swap fraud. Earlier coverage detailed the 2027 Entra SMS MFA cutoff; Microsoft has now broadened the warning to personal Microsoft accounts, although it has not set a consumer deadline. Source]]>",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "Sovereignty"
+            "Identity",
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Vertical AI turns generic data centers into prevalidated industry stacks",
-          "link": "https://4sysops.com/archives/vertical-ai-turns-generic-data-centers-into-prevalidated-industry-stacks/",
-          "pubDate": "2026-08-12T20:42:08.000Z",
-          "summary": "AI deployment is moving beyond generic foundation-model infrastructure as enterprises demand vertical AI stacks tailored to their data, regulations, and workflows. Supermicro and its partners are responding with prevalidated “T-shirt size” configurations that combine compute, storage, networking, an",
+          "title": "Wireshark 4.6.8 fixes 28 bugs, including risky capture-file crashes",
+          "link": "https://4sysops.com/archives/wireshark-4-6-8-fixes-28-bugs-including-risky-capture-file-crashes/",
+          "pubDate": "2026-08-13T09:34:09.000Z",
+          "summary": "Wireshark 4.6.8 fixes 28 security bugs, including nine in file parsers that can crash the analyzer when it opens a crafted capture file. The release also addresses unnumbered memory-safety flaws, two `sharkd` crashes, incorrect 5G field decoding, and several Windows and Unix integration problems. So",
           "author": "IT News",
           "categories": [
             "News",
-            "AI"
+            "Networking",
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Grok 4.6 matches GPT-5.6 Sol at significantly lower token and task cost",
-          "link": "https://4sysops.com/archives/grok-4-6-matches-gpt-5-6-sol-at-significantly-lower-token-and-task-cost/",
-          "pubDate": "2026-08-12T20:28:28.000Z",
-          "summary": "Grok 4.6 is now available for long-running coding and research agents, with pricing starting at $2 per million input tokens and $6 per million output tokens. The model is designed to sustain multi-step workflows, build interactive applications, and produce stronger first drafts than Grok 4.5. Source",
+          "title": "Microsoft warns about possible licensing gaps in Entra Conditional Access",
+          "link": "https://4sysops.com/archives/microsoft-warns-about-possible-licensing-gaps-in-entra-conditional-access/",
+          "pubDate": "2026-08-13T09:34:08.000Z",
+          "summary": "Microsoft is warning some Entra tenants that Conditional Access policies cover more users than their licenses allow, but the message does not trigger surprise billing or automatic policy removal. Microsoft’s licensing rules keep existing policies running even if an enabling license expires, giving o",
           "author": "IT News",
           "categories": [
             "News",
-            "AI"
+            "Identity",
+            "Microsoft 365",
+            "Security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:32.266Z",
+      "fetchedAt": "2026-08-13T13:09:13.726Z",
       "error": null
     },
     {
@@ -112,7 +118,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:32.796Z",
+      "fetchedAt": "2026-08-13T13:09:13.939Z",
       "error": null
     },
     {
@@ -198,7 +204,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:31.784Z",
+      "fetchedAt": "2026-08-13T13:09:13.230Z",
       "error": null
     },
     {
@@ -273,7 +279,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:32.810Z",
+      "fetchedAt": "2026-08-13T13:09:13.993Z",
       "error": null
     },
     {
@@ -349,7 +355,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:36.333Z",
+      "fetchedAt": "2026-08-13T13:09:15.368Z",
       "error": null
     },
     {
@@ -435,7 +441,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:33.099Z",
+      "fetchedAt": "2026-08-13T13:09:14.257Z",
       "error": null
     },
     {
@@ -508,7 +514,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:33.056Z",
+      "fetchedAt": "2026-08-13T13:09:14.265Z",
       "error": null
     },
     {
@@ -577,7 +583,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:33.150Z",
+      "fetchedAt": "2026-08-13T13:09:14.436Z",
       "error": null
     },
     {
@@ -651,7 +657,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:36.546Z",
+      "fetchedAt": "2026-08-13T13:09:15.430Z",
       "error": null
     },
     {
@@ -661,6 +667,21 @@
       "type": "rss",
       "url": "https://dominiekverham.com/feed/",
       "items": [
+        {
+          "title": "Installing Nerdio Manager for MSP",
+          "link": "https://dominiekverham.com/installing-nerdio-manager-for-msp/",
+          "pubDate": "2026-08-10T14:21:14.000Z",
+          "summary": "What’s up, everyone! Welcome back to the Nerdio Manager for MSP mini-series! In my previous post I showed the differences between Nerdio Manager for MSP and Nerdio Manager for Enterprise and when it’s the right fit for your use case. Let’s continue that journey and look at the individual components ",
+          "author": "Dominiek Verham",
+          "categories": [
+            "Azure",
+            "Azure Virtual Desktop",
+            "Intune",
+            "Nerdio",
+            "Windows 365"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Nerdio Manager showdown: Enterprise vs MSP",
           "link": "https://dominiekverham.com/nerdio-manager-showdown-enterprise-vs-msp/",
@@ -715,24 +736,9 @@
             "Windows 365"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Securing the DaaS environment: protecting the identity",
-          "link": "https://dominiekverham.com/securing-the-daas-environment-protecting-the-identity/",
-          "pubDate": "2026-04-23T08:27:46.000Z",
-          "summary": "What’s up, everyone! You might have heard about a recent cyber incident where the attackers were reportedly successful in wiping a lot of managed devices. The thing that stood out to me was that the management platform did what is was supposed to do since it was a legitimate command send from a comp",
-          "author": "Dominiek Verham",
-          "categories": [
-            "Azure",
-            "Azure Virtual Desktop",
-            "Entra",
-            "Intune",
-            "Windows 365"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:39.310Z",
+      "fetchedAt": "2026-08-13T13:09:16.785Z",
       "error": null
     },
     {
@@ -816,7 +822,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:36.709Z",
+      "fetchedAt": "2026-08-13T13:09:15.492Z",
       "error": null
     },
     {
@@ -889,7 +895,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:36.938Z",
+      "fetchedAt": "2026-08-13T13:09:15.700Z",
       "error": null
     },
     {
@@ -971,7 +977,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:39.422Z",
+      "fetchedAt": "2026-08-13T13:09:16.854Z",
       "error": null
     },
     {
@@ -1037,7 +1043,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:40.565Z",
+      "fetchedAt": "2026-08-13T13:09:18.137Z",
       "error": null
     },
     {
@@ -1105,7 +1111,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:39.587Z",
+      "fetchedAt": "2026-08-13T13:09:17.169Z",
       "error": null
     },
     {
@@ -1185,7 +1191,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:40.364Z",
+      "fetchedAt": "2026-08-13T13:09:18.673Z",
       "error": null
     },
     {
@@ -1240,7 +1246,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:40.695Z",
+      "fetchedAt": "2026-08-13T13:09:18.834Z",
       "error": null
     },
     {
@@ -1305,7 +1311,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:41.071Z",
+      "fetchedAt": "2026-08-13T13:09:19.169Z",
       "error": null
     },
     {
@@ -1389,7 +1395,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:40.651Z",
+      "fetchedAt": "2026-08-13T13:09:18.827Z",
       "error": null
     },
     {
@@ -1462,7 +1468,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:41.500Z",
+      "fetchedAt": "2026-08-13T13:09:19.686Z",
       "error": null
     },
     {
@@ -1471,7 +1477,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-13T09:11:41.561Z",
+      "fetchedAt": "2026-08-13T13:09:19.739Z",
       "error": "HTTP 403"
     },
     {
@@ -1549,7 +1555,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:43.357Z",
+      "fetchedAt": "2026-08-13T13:09:21.610Z",
       "error": null
     },
     {
@@ -1558,7 +1564,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-13T09:11:41.854Z",
+      "fetchedAt": "2026-08-13T13:09:20.164Z",
       "error": "certificate has expired"
     },
     {
@@ -1628,7 +1634,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:42.204Z",
+      "fetchedAt": "2026-08-13T13:09:20.400Z",
       "error": null
     },
     {
@@ -1704,7 +1710,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:43.865Z",
+      "fetchedAt": "2026-08-13T13:09:22.170Z",
       "error": null
     },
     {
@@ -1713,65 +1719,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Uninstalling Windows 11 Updates",
-          "link": "https://www.deploymentresearch.com/uninstalling-windows-11-updates/",
-          "pubDate": "2026-07-27T02:54:54.000Z",
-          "summary": "Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell models. Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell […] ",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
-          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
-          "pubDate": "2026-07-13T04:18:01.000Z",
-          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
-          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
-          "pubDate": "2026-05-15T14:47:47.000Z",
-          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
-          "author": "Johan Arwidmark",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-13T09:11:44.022Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-13T13:09:21.769Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -1825,7 +1775,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:43.736Z",
+      "fetchedAt": "2026-08-13T13:09:21.979Z",
       "error": null
     },
     {
@@ -1895,7 +1845,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:43.638Z",
+      "fetchedAt": "2026-08-13T13:09:21.906Z",
       "error": null
     },
     {
@@ -1974,7 +1924,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:44.084Z",
+      "fetchedAt": "2026-08-13T13:09:22.232Z",
       "error": null
     },
     {
@@ -2051,7 +2001,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:46.135Z",
+      "fetchedAt": "2026-08-13T13:09:24.291Z",
       "error": null
     },
     {
@@ -2136,7 +2086,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:44.136Z",
+      "fetchedAt": "2026-08-13T13:09:22.304Z",
       "error": null
     },
     {
@@ -2192,7 +2142,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:44.175Z",
+      "fetchedAt": "2026-08-13T13:09:22.311Z",
       "error": null
     },
     {
@@ -2278,7 +2228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:47.103Z",
+      "fetchedAt": "2026-08-13T13:09:25.198Z",
       "error": null
     },
     {
@@ -2364,7 +2314,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:46.191Z",
+      "fetchedAt": "2026-08-13T13:09:24.401Z",
       "error": null
     },
     {
@@ -2374,7 +2324,7 @@
       "url": "https://office365itpros.com/feed/",
       "items": [
         {
-          "title": "Why Microsoft Isn’t About to Suddenly Charge for Conditional Access",
+          "title": "Entra Admin Center Flags Licensing Problems with Conditional Access",
           "link": "https://office365itpros.com/2026/08/13/licensing-gaps-entra-id/?utm_source=rss&utm_medium=rss&utm_campaign=licensing-gaps-entra-id",
           "pubDate": "2026-08-13T07:00:00.000Z",
           "summary": "",
@@ -2449,7 +2399,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:46.412Z",
+      "fetchedAt": "2026-08-13T13:09:24.415Z",
       "error": null
     },
     {
@@ -2504,7 +2454,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:46.195Z",
+      "fetchedAt": "2026-08-13T13:09:24.586Z",
       "error": null
     },
     {
@@ -2569,7 +2519,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:47.282Z",
+      "fetchedAt": "2026-08-13T13:09:25.346Z",
       "error": null
     },
     {
@@ -2578,7 +2528,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-13T09:11:47.210Z",
+      "fetchedAt": "2026-08-13T13:09:25.366Z",
       "error": "HTTP 404"
     },
     {
@@ -2634,7 +2584,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:47.746Z",
+      "fetchedAt": "2026-08-13T13:09:25.823Z",
       "error": null
     },
     {
@@ -2699,7 +2649,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:47.576Z",
+      "fetchedAt": "2026-08-13T13:09:25.656Z",
       "error": null
     },
     {
@@ -2780,7 +2730,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:49.336Z",
+      "fetchedAt": "2026-08-13T13:09:26.644Z",
       "error": null
     },
     {
@@ -2789,7 +2739,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-13T09:11:48.768Z",
+      "fetchedAt": "2026-08-13T13:09:26.837Z",
       "error": "HTTP 404"
     },
     {
@@ -2798,7 +2748,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-13T09:11:47.966Z",
+      "fetchedAt": "2026-08-13T13:09:26.040Z",
       "error": "HTTP 403"
     },
     {
@@ -2878,7 +2828,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:48.004Z",
+      "fetchedAt": "2026-08-13T13:09:26.108Z",
       "error": null
     },
     {
@@ -2951,7 +2901,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:49.421Z",
+      "fetchedAt": "2026-08-13T13:09:27.002Z",
       "error": null
     },
     {
@@ -2970,7 +2920,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:49.606Z",
+      "fetchedAt": "2026-08-13T13:09:26.903Z",
       "error": null
     },
     {
@@ -2978,55 +2928,9 @@
       "label": "z-nerd.com - Nathan Ziehnert",
       "type": "rss",
       "url": "https://z-nerd.com/index.xml",
-      "items": [
-        {
-          "title": "Advent of Code 2025 - Day Five",
-          "link": "https://z-nerd.com/posts/2026/04/03/aoc-2025-day-five/",
-          "pubDate": "2026-04-03T00:00:00.000Z",
-          "summary": "You gotta pump those numbers up. Those are rookie numbers.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Advent of Code 2025 - Day Four",
-          "link": "https://z-nerd.com/posts/2026/03/27/aoc-2025-day-four/",
-          "pubDate": "2026-03-27T00:00:00.000Z",
-          "summary": "Killed my streak last week. Forgot to blog while curling. Dang.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Keeping The Streak: Just Under The Wire. Something, Something, Error Handling.",
-          "link": "https://z-nerd.com/posts/2026/03/13/just-under-the-wire/",
-          "pubDate": "2026-03-13T00:00:00.000Z",
-          "summary": "We spend a bit of time this week talking about error handling in PowerShell. All because I spent the day staring at roller coaster procedures and electronics instead of the animals at Seaworld.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Advent of Code 2025 - Day Three",
-          "link": "https://z-nerd.com/posts/2026/03/06/aoc-2025-day-three/",
-          "pubDate": "2026-03-06T00:00:00.000Z",
-          "summary": "Electrical surges. Should have bought a bigger surge protector.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Advent of Code 2025 - Day Two",
-          "link": "https://z-nerd.com/posts/2026/02/27/aoc-2025-day-two/",
-          "pubDate": "2026-02-27T00:00:00.000Z",
-          "summary": "Kids are dumb. Adults who let kids play on production systems are dumber.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-13T09:11:49.505Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-13T13:09:34.895Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "jorgeasaur",
@@ -3111,7 +3015,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:49.526Z",
+      "fetchedAt": "2026-08-13T13:09:26.953Z",
       "error": null
     },
     {
@@ -3176,7 +3080,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:49.750Z",
+      "fetchedAt": "2026-08-13T13:09:35.052Z",
       "error": null
     },
     {
@@ -3242,7 +3146,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/GtPXsMxflh4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:49.636Z",
+      "fetchedAt": "2026-08-13T13:09:35.066Z",
       "error": null
     },
     {
@@ -3307,7 +3211,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5Rbdc4T2W8I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:49.898Z",
+      "fetchedAt": "2026-08-13T13:09:35.102Z",
       "error": null
     },
     {
@@ -3372,7 +3276,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dyD8aJIwnRc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:49.639Z",
+      "fetchedAt": "2026-08-13T13:09:35.149Z",
       "error": null
     },
     {
@@ -3438,7 +3342,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.103Z",
+      "fetchedAt": "2026-08-13T13:09:35.379Z",
       "error": null
     },
     {
@@ -3504,7 +3408,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OdYq8lQQYIY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.209Z",
+      "fetchedAt": "2026-08-13T13:09:35.375Z",
       "error": null
     },
     {
@@ -3570,7 +3474,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2TLFxEUT1Dg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.123Z",
+      "fetchedAt": "2026-08-13T13:09:35.377Z",
       "error": null
     },
     {
@@ -3635,7 +3539,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A-2v8_bowDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.105Z",
+      "fetchedAt": "2026-08-13T13:09:35.392Z",
       "error": null
     },
     {
@@ -3701,7 +3605,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/eZTkB3zJkes/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.358Z",
+      "fetchedAt": "2026-08-13T13:09:35.600Z",
       "error": null
     },
     {
@@ -3713,7 +3617,7 @@
         {
           "title": "8/12/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
           "link": "https://www.youtube.com/watch?v=6JbBOe1uMmk",
-          "pubDate": "2026-08-12T21:30:42.000Z",
+          "pubDate": "2026-08-13T10:37:24.000Z",
           "summary": "Join us every week for Updates, Q&A, and roundtable discussions on anything related to Windows deployment, MDT, ConfigMgr, or Intune. https://academy.viamonstra.com/courses/office-hours-community-edition #sccm #msintune #configmgr #mdt",
           "author": "<name>ViaMonstra Online Academy</name>\n   <uri>https://www.youtube.com/channel/UCAXqG7Om_1_3cIuI7xSgR-g</uri>",
           "categories": [],
@@ -3766,7 +3670,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zAbid-1V0BU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.360Z",
+      "fetchedAt": "2026-08-13T13:09:35.592Z",
       "error": null
     },
     {
@@ -3831,7 +3735,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/YXbkLAt-S3Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.357Z",
+      "fetchedAt": "2026-08-13T13:09:35.600Z",
       "error": null
     },
     {
@@ -3896,7 +3800,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.349Z",
+      "fetchedAt": "2026-08-13T13:09:35.595Z",
       "error": null
     },
     {
@@ -3961,7 +3865,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.519Z",
+      "fetchedAt": "2026-08-13T13:09:35.842Z",
       "error": null
     },
     {
@@ -4026,7 +3930,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.693Z",
+      "fetchedAt": "2026-08-13T13:09:35.878Z",
       "error": null
     },
     {
@@ -4091,7 +3995,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.568Z",
+      "fetchedAt": "2026-08-13T13:09:35.829Z",
       "error": null
     },
     {
@@ -4147,7 +4051,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.558Z",
+      "fetchedAt": "2026-08-13T13:09:37.392Z",
       "error": null
     },
     {
@@ -4157,7 +4061,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-13T09:11:50.889Z",
+      "fetchedAt": "2026-08-13T13:09:37.952Z",
       "error": null
     },
     {
@@ -4223,7 +4127,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:51.687Z",
+      "fetchedAt": "2026-08-13T13:09:38.650Z",
       "error": null
     },
     {
@@ -4279,7 +4183,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.742Z",
+      "fetchedAt": "2026-08-13T13:09:37.447Z",
       "error": null
     },
     {
@@ -4308,7 +4212,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:50.957Z",
+      "fetchedAt": "2026-08-13T13:09:37.654Z",
       "error": null
     },
     {
@@ -4364,7 +4268,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:51.921Z",
+      "fetchedAt": "2026-08-13T13:09:38.664Z",
       "error": null
     },
     {
@@ -4374,7 +4278,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-13T09:11:51.836Z",
+      "fetchedAt": "2026-08-13T13:09:38.788Z",
       "error": null
     },
     {
@@ -4430,7 +4334,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:51.731Z",
+      "fetchedAt": "2026-08-13T13:09:38.671Z",
       "error": null
     },
     {
@@ -4450,7 +4354,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:51.704Z",
+      "fetchedAt": "2026-08-13T13:09:38.685Z",
       "error": null
     },
     {
@@ -4460,6 +4364,15 @@
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
       "items": [
+        {
+          "title": "AmnesiaStealer: a multi-stage Rust-based macOS infostealer that hijacks Chromium browsers",
+          "link": "https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/",
+          "pubDate": null,
+          "summary": "Jamf Threat Labs discovers and investigates AmnesiaStealer, a multi-stage Rust-based macOS infostealer spread through a counterfeit GitHub download page that captures the login password, reaches for macOS bypasses Apple has already patched, and can hand the operator live, hidden control of the victi",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Black Hat USA 2026",
           "link": "https://www.jamf.com/blog/black-hat-usa-2026/",
@@ -4495,18 +4408,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "From graphics driver to root shell: a tour of Samsung’s kernel protections",
-          "link": "https://www.jamf.com/blog/samsung-kernel-protections-gpu-dma-bypass/",
-          "pubDate": null,
-          "summary": "Jamf Threat Labs analyzes Samsung kernel memory protections and bypass methods observed in the wild. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:56.334Z",
+      "fetchedAt": "2026-08-13T13:09:43.694Z",
       "error": null
     },
     {
@@ -4562,7 +4466,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:52.884Z",
+      "fetchedAt": "2026-08-13T13:09:39.681Z",
       "error": null
     },
     {
@@ -4617,7 +4521,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:51.995Z",
+      "fetchedAt": "2026-08-13T13:09:38.914Z",
       "error": null
     },
     {
@@ -4672,7 +4576,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:52.017Z",
+      "fetchedAt": "2026-08-13T13:09:38.867Z",
       "error": null
     },
     {
@@ -4737,7 +4641,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-13T09:11:56.987Z",
+      "fetchedAt": "2026-08-13T13:09:44.559Z",
       "error": null
     }
   ]
