@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T12:42:33.999Z",
+  "generatedAt": "2026-08-17T16:27:12.309Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,70 +8,75 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "GitHub Copilot update makes model switching the default",
-          "link": "https://4sysops.com/archives/github-copilot-update-makes-model-switching-the-default/",
-          "pubDate": "2026-08-17T10:07:06.000Z",
-          "summary": "GitHub’s latest Copilot update turns model choice into a core workflow rather than a one-time setting, adding Kimi K3, MAI-Code-1.1-Flash, and per-turn switching in Visual Studio Code. The flexibility comes with an enterprise concern: Copilot still does not provide a reliable record of which model g",
+          "title": "Anthropic keeps stronger Model 2 internal as AI risk rating rises",
+          "link": "https://4sysops.com/archives/anthropic-keeps-stronger-model-2-internal-as-ai-risk-rating-rises/",
+          "pubDate": "2026-08-17T13:48:26.000Z",
+          "summary": "Anthropic says its unreleased Model 2 is more capable than Mythos 5, but has no plans to offer it publicly as the company raises its assessment of high-stakes AI misalignment risk from “very low” to “low.” The decision comes as Anthropic observes faster progress in automated AI research and developm",
           "author": "IT News",
           "categories": [
             "News",
             "AI",
-            "DevOps"
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Anthropic’s AI watermarking gives the model maker hidden power to manipulate meaning",
-          "link": "https://4sysops.com/archives/anthropics-ai-watermarking-gives-the-model-maker-hidden-power-to-manipulate-meaning/",
-          "pubDate": "2026-08-17T10:07:05.000Z",
-          "summary": "Anthropic’s planned Claude watermark does more than identify AI-generated text: it gives model makers another hidden influence over which words appear in every response. By subtly biasing token choices, providers can shape tone, emphasis, and meaning while claiming the changes are imperceptible. The",
-          "author": "Michael Pietroforte",
-          "categories": [
-            "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Why Chinese citizens are more optimistic about AI—and why that could decide the race with the US",
-          "link": "https://4sysops.com/archives/why-chinese-citizens-are-more-optimistic-about-ai-and-why-that-could-decide-the-race-with-the-us/",
-          "pubDate": "2026-08-17T10:07:04.000Z",
-          "summary": "China’s 84% excitement and 72% trust in AI contrast sharply with the United States, where only 38% are excited and 32% trust the technology. The divide appears driven less by usage than by expectations: Chinese citizens are more likely to view AI as a practical productivity tool, while Americans foc",
+          "title": "Greg Brockman on the OpenAI-Hugging Face incident⁠",
+          "link": "https://4sysops.com/archives/greg-brockman-on-the-openai-hugging-face-incident%e2%81%a0/",
+          "pubDate": "2026-08-17T13:48:25.000Z",
+          "summary": "Greg Brockman’s post was inspired by the OpenAI-Hugging Face hack, which demonstrated how quickly AI agents can chain vulnerabilities, credentials, and automated actions across isolated environments and production systems. Brockman, OpenAI’s co-founder and president, says AI-powered attacks are rapi",
           "author": "IT News",
           "categories": [
             "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Dario Amodei downplays the role of open weights as a solution to centralization in AI",
-          "link": "https://4sysops.com/archives/dario-amodei-downplays-the-role-of-open-weights-as-a-solution-to-centralization-in-ai/",
-          "pubDate": "2026-08-17T10:07:03.000Z",
-          "summary": "Anthropic CEO Dario Amodei argues that open-weights models only partially decentralize AI because access to advanced chips and large-scale compute remains concentrated. That analysis understates how quickly hardware efficiency, quantization, and local deployment are expanding access: many useful AI ",
-          "author": "Michael Pietroforte",
-          "categories": [
-            "Articles",
             "AI",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Anthropic explains Claude text watermarking",
-          "link": "https://4sysops.com/archives/anthropic-explains-claude-text-watermarking/",
-          "pubDate": "2026-08-17T10:07:02.000Z",
-          "summary": "Anthropic explains that Claude’s text watermark works by changing the source of randomness used during word selection. When several words are similarly suitable, Claude uses a secret key and a short sequence of preceding words to choose among them. Each choice remains natural and meaning-preserving,",
+          "title": "Microsoft assigns CVE and starts patching ShieldBreak Defender zero-day",
+          "link": "https://4sysops.com/archives/microsoft-assigns-cve-and-starts-patching-shieldbreak-defender-zero-day/",
+          "pubDate": "2026-08-17T13:10:24.000Z",
+          "summary": "Microsoft has assigned CVE-2026-69414 to the ShieldBreak Microsoft Defender privilege-escalation zero-day and says it is developing a security update. The flaw, which bypassed Microsoft's RoguePlanet fix, allows a local attacker with limited permissions to reach SYSTEM privileges on affected Windows",
           "author": "IT News",
           "categories": [
             "News",
-            "AI",
-            "Security"
+            "Security",
+            "Windows",
+            "Windows Server 2025"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "ChromeOS 151 rolls out with 18 fixes and an older Flex hardware cutoff",
+          "link": "https://4sysops.com/archives/chromeos-151-rolls-out-with-18-fixes-and-an-older-flex-hardware-cutoff/",
+          "pubDate": "2026-08-17T13:10:23.000Z",
+          "summary": "ChromeOS 151 is rolling out to Chromebooks and ChromeOS Flex devices with 18 security fixes, real-time Safe Browsing for Gemini sessions, and a cutoff that leaves some older Flex PCs permanently on ChromeOS 150. The release also completes the transition announced when ChromeOS 150 ended legacy Chrom",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Hardware",
+            "Security",
+            "Systems Management"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "New CDP attack hijacks live Chrome and Edge sessions after Windows compromise",
+          "link": "https://4sysops.com/archives/new-cdp-attack-hijacks-live-chrome-and-edge-sessions-after-windows-compromise/",
+          "pubDate": "2026-08-17T13:10:22.000Z",
+          "summary": "A newly disclosed Windows post-exploitation technique can activate the Chrome DevTools Protocol (CDP) inside an already running Google Chrome or Microsoft Edge process, giving attackers access to authenticated sessions without stealing or replaying cookies. The method requires prior code execution, ",
+          "author": "IT News",
+          "categories": [
+            "News",
+            "Security",
+            "Web",
+            "Windows"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:11.824Z",
+      "fetchedAt": "2026-08-17T16:26:45.551Z",
       "error": null
     },
     {
@@ -114,7 +119,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:11.987Z",
+      "fetchedAt": "2026-08-17T16:26:45.935Z",
       "error": null
     },
     {
@@ -200,7 +205,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:11.669Z",
+      "fetchedAt": "2026-08-17T16:26:45.272Z",
       "error": null
     },
     {
@@ -275,7 +280,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:12.016Z",
+      "fetchedAt": "2026-08-17T16:26:45.978Z",
       "error": null
     },
     {
@@ -351,7 +356,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:13.929Z",
+      "fetchedAt": "2026-08-17T16:26:49.767Z",
       "error": null
     },
     {
@@ -434,7 +439,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:12.185Z",
+      "fetchedAt": "2026-08-17T16:26:46.162Z",
       "error": null
     },
     {
@@ -507,7 +512,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:12.239Z",
+      "fetchedAt": "2026-08-17T16:26:46.196Z",
       "error": null
     },
     {
@@ -576,7 +581,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:12.701Z",
+      "fetchedAt": "2026-08-17T16:26:46.323Z",
       "error": null
     },
     {
@@ -650,7 +655,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:14.044Z",
+      "fetchedAt": "2026-08-17T16:26:49.838Z",
       "error": null
     },
     {
@@ -731,7 +736,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:14.871Z",
+      "fetchedAt": "2026-08-17T16:26:51.345Z",
       "error": null
     },
     {
@@ -815,7 +820,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:14.052Z",
+      "fetchedAt": "2026-08-17T16:26:49.848Z",
       "error": null
     },
     {
@@ -888,7 +893,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:14.238Z",
+      "fetchedAt": "2026-08-17T16:26:50.066Z",
       "error": null
     },
     {
@@ -970,7 +975,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:15.009Z",
+      "fetchedAt": "2026-08-17T16:26:51.415Z",
       "error": null
     },
     {
@@ -1036,7 +1041,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:15.736Z",
+      "fetchedAt": "2026-08-17T16:26:52.806Z",
       "error": null
     },
     {
@@ -1104,7 +1109,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:15.244Z",
+      "fetchedAt": "2026-08-17T16:26:51.745Z",
       "error": null
     },
     {
@@ -1184,7 +1189,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:15.924Z",
+      "fetchedAt": "2026-08-17T16:26:52.728Z",
       "error": null
     },
     {
@@ -1239,7 +1244,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:15.997Z",
+      "fetchedAt": "2026-08-17T16:26:53.055Z",
       "error": null
     },
     {
@@ -1304,7 +1309,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:16.188Z",
+      "fetchedAt": "2026-08-17T16:26:53.145Z",
       "error": null
     },
     {
@@ -1388,7 +1393,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:16.034Z",
+      "fetchedAt": "2026-08-17T16:26:53.006Z",
       "error": null
     },
     {
@@ -1461,7 +1466,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:16.644Z",
+      "fetchedAt": "2026-08-17T16:26:53.913Z",
       "error": null
     },
     {
@@ -1470,7 +1475,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-17T12:42:16.722Z",
+      "fetchedAt": "2026-08-17T16:26:53.980Z",
       "error": "HTTP 403"
     },
     {
@@ -1548,7 +1553,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:18.174Z",
+      "fetchedAt": "2026-08-17T16:26:55.910Z",
       "error": null
     },
     {
@@ -1557,7 +1562,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-17T12:42:17.165Z",
+      "fetchedAt": "2026-08-17T16:26:54.273Z",
       "error": "certificate has expired"
     },
     {
@@ -1627,7 +1632,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:17.273Z",
+      "fetchedAt": "2026-08-17T16:26:54.628Z",
       "error": null
     },
     {
@@ -1703,7 +1708,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:18.531Z",
+      "fetchedAt": "2026-08-17T16:26:56.482Z",
       "error": null
     },
     {
@@ -1713,7 +1718,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-08-17T12:42:18.278Z",
+      "fetchedAt": "2026-08-17T16:26:56.624Z",
       "error": "HTTP 202"
     },
     {
@@ -1768,7 +1773,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:18.672Z",
+      "fetchedAt": "2026-08-17T16:26:56.314Z",
       "error": null
     },
     {
@@ -1781,7 +1786,7 @@
           "title": "Creating a Win32 App in Intune with PowerShell and Microsoft Graph: The Ultimate Guide",
           "link": "https://msendpointmgr.com/2026/08/16/win32-app-intune-powershell-graph/",
           "pubDate": "2026-08-16T16:44:25.000Z",
-          "summary": "When you upload an .intunewin file through the Intune portal, and manually fill in a bunch of fields, the portal runs a sequence of Microsoft Graph calls and a direct upload to Azure Storage on your behalf. If you replicate that sequence in PowerShell you can create Win32 apps from a pipeline, a pac",
+          "summary": "If you’re starting to, or already, dabble with Intune automation, one of the first questions you eventually hit is…how do I create a Win32 app without using the Intune admin center? In the portal, you upload an .intunewin, fill in the app details, configure install commands, detection and requiremen",
           "author": "Ben Whitmore",
           "categories": [
             "Intune",
@@ -1838,7 +1843,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:18.517Z",
+      "fetchedAt": "2026-08-17T16:26:56.259Z",
       "error": null
     },
     {
@@ -1917,7 +1922,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:18.819Z",
+      "fetchedAt": "2026-08-17T16:26:56.746Z",
       "error": null
     },
     {
@@ -1997,7 +2002,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:20.351Z",
+      "fetchedAt": "2026-08-17T16:26:58.715Z",
       "error": null
     },
     {
@@ -2082,7 +2087,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:18.878Z",
+      "fetchedAt": "2026-08-17T16:26:56.848Z",
       "error": null
     },
     {
@@ -2138,7 +2143,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:18.929Z",
+      "fetchedAt": "2026-08-17T16:26:56.850Z",
       "error": null
     },
     {
@@ -2224,7 +2229,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:21.478Z",
+      "fetchedAt": "2026-08-17T16:26:59.663Z",
       "error": null
     },
     {
@@ -2310,7 +2315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:20.433Z",
+      "fetchedAt": "2026-08-17T16:26:58.779Z",
       "error": null
     },
     {
@@ -2394,7 +2399,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:20.534Z",
+      "fetchedAt": "2026-08-17T16:26:58.831Z",
       "error": null
     },
     {
@@ -2449,7 +2454,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:20.492Z",
+      "fetchedAt": "2026-08-17T16:26:58.912Z",
       "error": null
     },
     {
@@ -2514,7 +2519,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:21.675Z",
+      "fetchedAt": "2026-08-17T16:26:59.820Z",
       "error": null
     },
     {
@@ -2523,7 +2528,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-17T12:42:21.591Z",
+      "fetchedAt": "2026-08-17T16:26:59.771Z",
       "error": "HTTP 404"
     },
     {
@@ -2579,7 +2584,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:22.030Z",
+      "fetchedAt": "2026-08-17T16:27:00.424Z",
       "error": null
     },
     {
@@ -2644,7 +2649,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:22.033Z",
+      "fetchedAt": "2026-08-17T16:27:00.285Z",
       "error": null
     },
     {
@@ -2652,81 +2657,9 @@
       "label": "allthingscloud.blog",
       "type": "rss",
       "url": "https://allthingscloud.blog/feed/",
-      "items": [
-        {
-          "title": "macOS Impact Analysis with Intune: Measure Twice, Restrict Once",
-          "link": "https://allthingscloud.blog/macos-impact-analysis-intune/",
-          "pubDate": "2026-03-24T01:34:27.000Z",
-          "summary": "Last Updated on March 24, 2026 by Oktay Sari You have read the CIS benchmark. You have gone through BIO (Baseline Informatiebeveiliging Overheid). Maybe you even run the mSCP compliance audit. The recommendations are clear: disable iCloud Desktop & Documents Sync, disable AirDrop, block Apple Intell",
-          "author": "Oktay Sari",
-          "categories": [
-            "bash",
-            "CIS Benchmarks",
-            "Enterprise Mobility + Security",
-            "Intune",
-            "macOS"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Hunting Duplicate Device Records in Microsoft Defender",
-          "link": "https://allthingscloud.blog/duplicate-device-records-microsoft-defender-endpoint/",
-          "pubDate": "2026-02-19T18:08:54.000Z",
-          "summary": "Last Updated on February 20, 2026 by Oktay Sari “The same kind of script is sorely needed for Defender. It uses hostname as the unique identifier for Macs so any device name change creates a new record and uses up a license. It’s bonkers.” That was Luke on LinkedIn, commenting on my Entra ID duplica",
-          "author": "Oktay Sari",
-          "categories": [
-            "Cyber Security",
-            "Defender for Endpoint",
-            "macOS",
-            "PowerShell",
-            "Scripting"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "The Hidden Life of Duplicate macOS Device Records in Entra ID",
-          "link": "https://allthingscloud.blog/duplicate-macos-device-records-entra-id/",
-          "pubDate": "2026-02-13T20:45:06.000Z",
-          "summary": "Last Updated on February 14, 2026 by Oktay Sari Picture this; You open the Entra ID portal, search for one of your managed Macs, and find three device records staring back at you. One says “MacMDM,” another says “macOS,” and the third looks like it hasn’t checked in since last summer. Which one is r",
-          "author": "Oktay Sari",
-          "categories": [
-            "Enterprise Mobility + Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Auditing Homebrew Security with Microsoft Intune: Detect Supply Chain Risks on Your Mac Fleet",
-          "link": "https://allthingscloud.blog/auditing-homebrew-security-intune-mac-fleet/",
-          "pubDate": "2026-01-31T20:24:13.000Z",
-          "summary": "Last Updated on February 1, 2026 by Oktay Sari Let’s be real: Homebrew is amazing. It’s the missing package manager for macOS that every developer loves. However, in an enterprise environment, Homebrew can also be a security nightmare waiting to happen. World-writable binaries? Third-party taps from",
-          "author": "Oktay Sari",
-          "categories": [
-            "bash",
-            "Cyber Security",
-            "Enterprise Mobility + Security",
-            "Intune",
-            "macOS"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "How to Update Your Apple Account When Your Organization Reclaims the Domain",
-          "link": "https://allthingscloud.blog/update-apple-id-work-email/",
-          "pubDate": "2026-01-22T09:35:39.000Z",
-          "summary": "Last Updated on January 22, 2026 by Oktay Sari Your Work Email Can’t Be Your Apple Account Anymore: Here’s What to Do A step-by-step guide to updating your Apple Account when your organization reclaims their domain So you just got an email from Apple telling you to change your Apple ID email address",
-          "author": "Oktay Sari",
-          "categories": [
-            "Apple Business Manager",
-            "iOS",
-            "macOS",
-            "MDM",
-            "Microsoft Intune"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-17T12:42:24.562Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-17T16:27:00.847Z",
+      "error": ""
     },
     {
       "id": "macadminsnews",
@@ -2734,7 +2667,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-17T12:42:22.677Z",
+      "fetchedAt": "2026-08-17T16:27:01.355Z",
       "error": "HTTP 404"
     },
     {
@@ -2743,7 +2676,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-17T12:42:22.173Z",
+      "fetchedAt": "2026-08-17T16:27:00.543Z",
       "error": "HTTP 403"
     },
     {
@@ -2814,16 +2747,16 @@
           "summary": "",
           "author": "Mikael Nystrom",
           "categories": [
-            "Security",
             "UEFI",
             "Windows 10",
-            "windows 11",
-            "Windows Server"
+            "Windows Server",
+            "Security",
+            "windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:22.185Z",
+      "fetchedAt": "2026-08-17T16:27:00.569Z",
       "error": null
     },
     {
@@ -2896,7 +2829,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:24.720Z",
+      "fetchedAt": "2026-08-17T16:27:01.443Z",
       "error": null
     },
     {
@@ -2915,7 +2848,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:24.703Z",
+      "fetchedAt": "2026-08-17T16:27:01.427Z",
       "error": null
     },
     {
@@ -2970,7 +2903,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:24.925Z",
+      "fetchedAt": "2026-08-17T16:27:01.525Z",
       "error": null
     },
     {
@@ -3056,7 +2989,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:24.809Z",
+      "fetchedAt": "2026-08-17T16:27:01.506Z",
       "error": null
     },
     {
@@ -3121,7 +3054,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.099Z",
+      "fetchedAt": "2026-08-17T16:27:01.688Z",
       "error": null
     },
     {
@@ -3187,7 +3120,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lpO-yxlVkiw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.144Z",
+      "fetchedAt": "2026-08-17T16:27:01.592Z",
       "error": null
     },
     {
@@ -3252,7 +3185,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5Rbdc4T2W8I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.163Z",
+      "fetchedAt": "2026-08-17T16:27:01.719Z",
       "error": null
     },
     {
@@ -3317,7 +3250,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7YtnLOgCEEo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.159Z",
+      "fetchedAt": "2026-08-17T16:27:01.733Z",
       "error": null
     },
     {
@@ -3383,7 +3316,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.279Z",
+      "fetchedAt": "2026-08-17T16:27:02.020Z",
       "error": null
     },
     {
@@ -3449,7 +3382,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xKSJ70iRWOI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.263Z",
+      "fetchedAt": "2026-08-17T16:27:01.995Z",
       "error": null
     },
     {
@@ -3515,7 +3448,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/upJqR8npgE0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.321Z",
+      "fetchedAt": "2026-08-17T16:27:01.884Z",
       "error": null
     },
     {
@@ -3580,7 +3513,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.255Z",
+      "fetchedAt": "2026-08-17T16:27:01.887Z",
       "error": null
     },
     {
@@ -3646,7 +3579,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0-dnAbGXugU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.427Z",
+      "fetchedAt": "2026-08-17T16:27:02.179Z",
       "error": null
     },
     {
@@ -3711,7 +3644,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zAbid-1V0BU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.439Z",
+      "fetchedAt": "2026-08-17T16:27:02.218Z",
       "error": null
     },
     {
@@ -3776,7 +3709,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/YXbkLAt-S3Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.446Z",
+      "fetchedAt": "2026-08-17T16:27:02.210Z",
       "error": null
     },
     {
@@ -3841,7 +3774,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.404Z",
+      "fetchedAt": "2026-08-17T16:27:02.160Z",
       "error": null
     },
     {
@@ -3906,7 +3839,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.540Z",
+      "fetchedAt": "2026-08-17T16:27:02.358Z",
       "error": null
     },
     {
@@ -3971,7 +3904,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.683Z",
+      "fetchedAt": "2026-08-17T16:27:02.472Z",
       "error": null
     },
     {
@@ -4036,7 +3969,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.717Z",
+      "fetchedAt": "2026-08-17T16:27:02.478Z",
       "error": null
     },
     {
@@ -4092,7 +4025,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.621Z",
+      "fetchedAt": "2026-08-17T16:27:02.438Z",
       "error": null
     },
     {
@@ -4102,7 +4035,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-17T12:42:25.928Z",
+      "fetchedAt": "2026-08-17T16:27:02.668Z",
       "error": null
     },
     {
@@ -4168,7 +4101,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:27.157Z",
+      "fetchedAt": "2026-08-17T16:27:04.303Z",
       "error": null
     },
     {
@@ -4224,7 +4157,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:25.757Z",
+      "fetchedAt": "2026-08-17T16:27:02.518Z",
       "error": null
     },
     {
@@ -4253,7 +4186,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:26.201Z",
+      "fetchedAt": "2026-08-17T16:27:02.957Z",
       "error": null
     },
     {
@@ -4309,7 +4242,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:27.187Z",
+      "fetchedAt": "2026-08-17T16:27:04.476Z",
       "error": null
     },
     {
@@ -4319,7 +4252,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-17T12:42:27.622Z",
+      "fetchedAt": "2026-08-17T16:27:04.404Z",
       "error": null
     },
     {
@@ -4375,7 +4308,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:27.179Z",
+      "fetchedAt": "2026-08-17T16:27:04.351Z",
       "error": null
     },
     {
@@ -4395,7 +4328,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:27.402Z",
+      "fetchedAt": "2026-08-17T16:27:04.339Z",
       "error": null
     },
     {
@@ -4405,6 +4338,15 @@
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
       "items": [
+        {
+          "title": "AI moves faster than your controls. Here’s how to fix it.",
+          "link": "https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security-part-2/",
+          "pubDate": null,
+          "summary": "AI tools can accelerate data exposure, compromise software supply chains and trigger risky agentic behavior. Part two of a two-part series. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Back to school: Is your tech really ready for the classroom?",
           "link": "https://www.jamf.com/blog/is-your-tech-really-ready-for-the-classroom/",
@@ -4440,18 +4382,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Fake Zoom installer uses .NET downloader to deliver Overlord RAT on macOS",
-          "link": "https://www.jamf.com/blog/fake-zoom-installer-delivers-overlord-rat-macos/",
-          "pubDate": null,
-          "summary": "Jamf Threat Labs uncovers a macOS campaign using a fake Zoom installer to deploy Overlord RAT. Built with .NET, this cross-platform technique simultaneously targets Windows, joining Go- and Rust-based cross-platform malware. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:32.044Z",
+      "fetchedAt": "2026-08-17T16:27:09.045Z",
       "error": null
     },
     {
@@ -4507,7 +4440,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:28.054Z",
+      "fetchedAt": "2026-08-17T16:27:05.428Z",
       "error": null
     },
     {
@@ -4562,7 +4495,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:27.811Z",
+      "fetchedAt": "2026-08-17T16:27:04.585Z",
       "error": null
     },
     {
@@ -4571,6 +4504,15 @@
       "type": "audio",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
       "items": [
+        {
+          "title": "What PowerShell taught TJ Turner About IT",
+          "link": "https://powershellpodcast.podbean.com/e/what-powershell-taught-tj-turner-about-it/",
+          "pubDate": "2026-08-17T14:00:00.000Z",
+          "summary": "Andrew Pla sits down with TJ Turner at Microsoft’s TechMentor conference @ Microsoft HQ in Redmond, Washington, for a conversation about PowerShell, career growth, and the parts of working in IT that don’t show up in the documentation. TJ traces his path from infrastructure through K-12, finance, an",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
         {
           "title": "PSFramework: The Tools for Your Tools with Fred Weinmann",
           "link": "https://powershellpodcast.podbean.com/e/psframework-the-tools-for-your-tools-with-fred-weinmann/",
@@ -4606,18 +4548,9 @@
           "author": "",
           "categories": [],
           "type": "audio"
-        },
-        {
-          "title": "Write the Test First - Robert Prüst on Pester, PSConf, and Learning in Public",
-          "link": "https://powershellpodcast.podbean.com/e/write-the-test-first-robert-prust-on-pester-psconf-and-learning-in-public/",
-          "pubDate": "2026-07-13T14:00:00.000Z",
-          "summary": "Pester isn't just for unit testing your functions -- it scales all the way up to testing live infrastructure, validating Azure environments, and serving as the backbone of security tools like Maester. The more you invest in it, the more useful it gets. AI-generated code needs a safety net, and Peste",
-          "author": "",
-          "categories": [],
-          "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:27.938Z",
+      "fetchedAt": "2026-08-17T16:27:04.548Z",
       "error": null
     },
     {
@@ -4682,7 +4615,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-17T12:42:33.999Z",
+      "fetchedAt": "2026-08-17T16:27:12.309Z",
       "error": null
     }
   ]
