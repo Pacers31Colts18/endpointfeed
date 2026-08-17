@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EndpointFeed — MCP Server</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ms-blue:   #00a4ef;
+      --ms-red:    #f25022;
+      --ms-green:  #7fba00;
+      --ms-yellow: #ffb900;
+    }
+
+    :root[data-theme="dark"] {
+      --bg:         #111318;
+      --bg-panel:   #17191f;
+      --bg-card:    #1c1e26;
+      --bg-header:  #0e1016;
+      --bg-hover:   #22252e;
+      --border:     #2c2f3a;
+      --border-hi:  #3a3f4e;
+      --text:       #dde1ea;
+      --text-dim:   #8590a5;
+      --text-mute:  #525a70;
+      --accent:     #5b8dee;
+      --live-color: #34c759;
+      --shadow:     0 1px 8px rgba(0,0,0,0.45);
+    }
+
+    :root[data-theme="light"] {
+      --bg:         #f8f9fb;
+      --bg-panel:   #ffffff;
+      --bg-card:    #ffffff;
+      --bg-header:  #f0f2f5;
+      --bg-hover:   #f3f5f8;
+      --border:     #d8dce6;
+      --border-hi:  #bcc2ce;
+      --text:       #1a1d26;
+      --text-dim:   #46505f;
+      --text-mute:  #8892a4;
+      --accent:     #2563eb;
+      --live-color: #16a34a;
+      --shadow:     0 1px 4px rgba(0,0,0,0.09);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Barlow', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border);
+      padding: 0 20px;
+      height: 54px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 200;
+      box-shadow: var(--shadow);
+    }
+    .header-right { display: flex; align-items: center; gap: 10px; }
+    .btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      font-family: 'Barlow', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 5px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex; align-items: center; gap: 6px;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    #theme-btn {
+      width: 32px; height: 30px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 15px;
+      flex-shrink: 0;
+    }
+    #theme-btn:hover { border-color: var(--accent); }
+
+    .ms-stripe {
+      height: 2px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      opacity: 0.65;
+    }
+    .ms-stripe div:nth-child(1) { background: var(--ms-blue); }
+    .ms-stripe div:nth-child(2) { background: var(--ms-red); }
+    .ms-stripe div:nth-child(3) { background: var(--ms-green); }
+    .ms-stripe div:nth-child(4) { background: var(--ms-yellow); }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 40px 20px 70px; }
+
+    .hero { margin-bottom: 40px; }
+    .hero .live-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px; color: var(--text-mute);
+      border: 1px solid var(--border); border-radius: 20px;
+      padding: 4px 10px 4px 8px; margin-bottom: 16px;
+    }
+    .live-dot {
+      width: 7px; height: 7px; background: var(--live-color); border-radius: 50%;
+      animation: livepulse 2s ease infinite; flex-shrink: 0;
+    }
+    @keyframes livepulse {
+      0%,100% { opacity:1; box-shadow: 0 0 0 0 rgba(52,199,89,0.5); }
+      50%      { opacity:0.7; box-shadow: 0 0 0 4px rgba(52,199,89,0); }
+    }
+    .hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      letter-spacing: 0.3px;
+      margin-bottom: 10px;
+    }
+    .hero h1 span { color: var(--accent); }
+    .hero p {
+      color: var(--text-dim);
+      font-size: 16px;
+      max-width: 640px;
+      margin-bottom: 20px;
+    }
+    code {
+      font-family: 'JetBrains Mono', monospace;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+
+    .code-block {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 14px 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: var(--text);
+      overflow-x: auto;
+      white-space: pre;
+    }
+
+    section { margin-bottom: 44px; }
+    section h2 {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+    section .section-sub {
+      color: var(--text-mute);
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 12px;
+    }
+    .tool-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      transition: border-color 0.15s;
+    }
+    .tool-card:hover { border-color: var(--border-hi); }
+    .tool-card-hdr {
+      display: flex; align-items: center; gap: 8px;
+      padding: 10px 14px;
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
+    }
+    .tool-name {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .tool-card-body { padding: 12px 14px; }
+    .tool-card-body p { color: var(--text-dim); font-size: 13px; margin-bottom: 10px; }
+
+    table.params {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    table.params th, table.params td {
+      text-align: left;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    table.params th {
+      color: var(--text-mute);
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    table.params td:first-child {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text);
+      white-space: nowrap;
+    }
+    table.params td { color: var(--text-dim); }
+    .no-params { color: var(--text-mute); font-size: 12px; font-style: italic; }
+
+    .arch-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .arch-list li {
+      display: flex; gap: 10px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+    .arch-list li b { color: var(--text); flex-shrink: 0; }
+
+    footer {
+      background: var(--bg-header);
+      border-top: 1px solid var(--border);
+      padding: 12px 20px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 12px; color: var(--text-mute);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    footer a { color: var(--text-mute); }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 680px) {
+      .tool-grid { grid-template-columns: 1fr; }
+      header, .container, footer { padding-left: 12px; padding-right: 12px; }
+      .hero h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="font-family:'Barlow',sans-serif;font-weight:700;font-size:18px;letter-spacing:0.5px;color:var(--text)">Endpoint<span style="color:var(--accent)">Feed</span> <span style="color:var(--text-mute);font-weight:500;font-size:14px">· MCP Server</span></div>
+  <div class="header-right">
+    <a class="btn" href="./">← Dashboard</a>
+    <button id="theme-btn" onclick="toggleTheme()" title="Toggle theme">🌙</button>
+  </div>
+</header>
+
+<div class="ms-stripe"><div></div><div></div><div></div><div></div></div>
+
+<div class="container">
+  <div class="hero">
+    <div class="live-pill"><span class="live-dot"></span>mcp.endpointfeed.com</div>
+    <h1>Query EndpointFeed from any <span>MCP</span> client</h1>
+    <p>
+      EndpointFeed's aggregated Intune / SCCM / M365 / endpoint-management feed data is available as a public
+      <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener noreferrer" style="color:var(--accent)">MCP</a>
+      server, hosted on Cloudflare Workers. No authentication required — the underlying data is already public.
+      Add it once with <code>claude mcp add</code> (or any Streamable HTTP–capable client) and ask for the latest
+      Intune news, search across every tracked source, or check which feeds are currently failing.
+    </p>
+    <div class="code-block">claude mcp add --transport http endpointfeed https://mcp.endpointfeed.com</div>
+  </div>
+
+  <section>
+    <h2>Add it to your client</h2>
+    <div class="section-sub">No authentication required — the underlying data is already public.</div>
+    <div class="tool-grid">
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">Claude Code</span></div>
+        <div class="tool-card-body">
+          <div class="code-block" style="margin-top:0">claude mcp add --transport http endpointfeed https://mcp.endpointfeed.com</div>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">Claude Desktop</span></div>
+        <div class="tool-card-body">
+          <p style="margin-bottom:0">Settings → Connectors → Add → Add custom connector → paste <code>https://mcp.endpointfeed.com</code>, leave auth blank.</p>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">OpenAI Codex CLI</span></div>
+        <div class="tool-card-body">
+          <p>Add to <code>~/.codex/config.toml</code>:</p>
+          <div class="code-block" style="margin-top:0">[mcp_servers.endpointfeed]
+url = "https://mcp.endpointfeed.com"</div>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">GitHub Copilot (VS Code)</span></div>
+        <div class="tool-card-body">
+          <p>Add to <code>.vscode/mcp.json</code>:</p>
+          <div class="code-block" style="margin-top:0">{
+  "servers": {
+    "endpointfeed": { "type": "http", "url": "https://mcp.endpointfeed.com" }
+  }
+}</div>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">Cursor</span></div>
+        <div class="tool-card-body">
+          <p>Add to <code>.cursor/mcp.json</code>:</p>
+          <div class="code-block" style="margin-top:0">{
+  "mcpServers": {
+    "endpointfeed": { "url": "https://mcp.endpointfeed.com" }
+  }
+}</div>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">Gemini CLI</span></div>
+        <div class="tool-card-body">
+          <p>Add to <code>~/.gemini/settings.json</code>:</p>
+          <div class="code-block" style="margin-top:0">{
+  "mcpServers": {
+    "endpointfeed": { "httpUrl": "https://mcp.endpointfeed.com" }
+  }
+}</div>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">Anything else</span></div>
+        <div class="tool-card-body">
+          <p style="margin-bottom:0">Any client that supports MCP's Streamable HTTP transport can connect straight to <code>https://mcp.endpointfeed.com</code>.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Capabilities</h2>
+    <div class="section-sub">Four tools, backed directly by the live feeds.json.</div>
+    <div class="tool-grid">
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">list_feeds</span></div>
+        <div class="tool-card-body">
+          <p>Lists every source EndpointFeed tracks — blogs, YouTube channels, podcasts, official vendor blogs — with each feed's id, label, type, badge, item count, and last-fetch error if any. Call this first to discover valid <code>feed_id</code> / <code>type</code> values for the other tools.</p>
+          <div class="no-params">No parameters</div>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">search_items</span></div>
+        <div class="tool-card-body">
+          <p>Keyword search across item title, summary, and author, with optional filters. Returns newest matches first.</p>
+          <table class="params">
+            <tr><th>Param</th><th>Description</th></tr>
+            <tr><td>query</td><td>Keyword to match against title/summary/author</td></tr>
+            <tr><td>category</td><td>Filter to items tagged with this category</td></tr>
+            <tr><td>type</td><td>rss / video / official / audio</td></tr>
+            <tr><td>feed_id</td><td>Filter to a single feed</td></tr>
+            <tr><td>since</td><td>ISO 8601 date — only items on/after this</td></tr>
+            <tr><td>limit</td><td>1–100, default 20</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">latest</span></div>
+        <div class="tool-card-body">
+          <p>The most recently published items across all feeds.</p>
+          <table class="params">
+            <tr><th>Param</th><th>Description</th></tr>
+            <tr><td>limit</td><td>1–100, default 10</td></tr>
+            <tr><td>type</td><td>rss / video / official / audio</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-hdr"><span class="tool-name">feed_health</span></div>
+        <div class="tool-card-body">
+          <p>Lists feeds whose last scheduled fetch failed, with the error message and timestamp — a quick way to see what's currently broken upstream.</p>
+          <div class="no-params">No parameters</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <ul class="arch-list">
+      <li><b>Data</b> Reads the live feeds.json published at endpointfeed.com/feeds.json, regenerated every 4 hours by the Fetch RSS Feeds GitHub Action.</li>
+      <li><b>Caching</b> Fetched through Cloudflare's edge cache (5 min TTL) — results are at most 5 minutes stale, no per-call origin fetch.</li>
+      <li><b>Stateless</b> A fresh MCP server instance handles every request — no Durable Objects, no stored state, no auth.</li>
+      <li><b>Source</b> Open in the repo under <code style="font-family:'JetBrains Mono',monospace">mcp-server/</code>.</li>
+    </ul>
+  </section>
+</div>
+
+<footer>
+  <div>EndpointFeed MCP Server</div>
+  <a href="https://github.com/Pacers31Colts18/endpointfeed/tree/main/mcp-server" target="_blank" rel="noopener noreferrer">source →</a>
+</footer>
+
+<script>
+function toggleTheme() {
+  const html = document.documentElement;
+  const isDark = html.dataset.theme === 'dark';
+  html.dataset.theme = isDark ? 'light' : 'dark';
+  document.getElementById('theme-btn').textContent = isDark ? '☀️' : '🌙';
+  try { localStorage.setItem('ef-theme', html.dataset.theme); } catch(_){}
+}
+try {
+  const saved = localStorage.getItem('ef-theme');
+  if (saved) {
+    document.documentElement.dataset.theme = saved;
+    document.getElementById('theme-btn').textContent = saved === 'dark' ? '🌙' : '☀️';
+  }
+} catch(_){}
+</script>
+</body>
+</html>
