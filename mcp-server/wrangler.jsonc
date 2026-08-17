@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "endpointfeed-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-11",
+  "routes": [{ "pattern": "mcp.endpointfeed.com", "custom_domain": true }],
+  "observability": {
+    "logs": {
+      "enabled": true
+    },
+    "traces": {
+      "enabled": true
+    }
+  }
+}

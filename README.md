@@ -54,6 +54,18 @@ Edit `scripts/fetch-feeds.js` and add entries to the `FEEDS` array:
 
 Then add a filter button in `docs/index.html` in the `.toolbar` section.
 
+## 🔌 MCP Server
+
+EndpointFeed's data is also queryable by AI tools via a public remote MCP server (`mcp-server/`), hosted on Cloudflare Workers. It exposes `list_feeds`, `search_items`, `latest`, and `feed_health` tools backed by the live `feeds.json`.
+
+Add it to Claude Code:
+
+```
+claude mcp add --transport http endpointfeed https://mcp.endpointfeed.com
+```
+
+No authentication required — the underlying data is already public.
+
 ## ⚙️ Configuration
 
 - **Fetch interval**: Edit the `cron` in `.github/workflows/fetch-feeds.yml` (default: every 4 hours)

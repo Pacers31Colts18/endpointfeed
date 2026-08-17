@@ -656,9 +656,9 @@ function parseXml(xml, feedType) {
       tag(raw, "media:description") ||
       "";
     const summary = clean(stripTags(rawSummary)).slice(0, 300);
-    const author = clean(
-      tag(raw, "dc:creator") || tag(raw, "author") || tag(raw, "name") || "",
-    );
+    const rawAuthor =
+      tag(raw, "dc:creator") || tag(raw, "author") || tag(raw, "name") || "";
+    const author = clean(stripTags(tag(rawAuthor, "name") || rawAuthor));
 
     let categories = [];
     if (isAtom) {
