@@ -1,23 +1,124 @@
 {
-  "generatedAt": "2026-08-17T20:26:50.756Z",
+  "generatedAt": "2026-08-18T01:12:14.177Z",
   "feeds": [
     {
       "id": "4sysops",
       "label": "4sysops",
       "type": "rss",
       "url": "https://4sysops.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-08-17T20:26:19.291Z",
-      "error": "HTTP 500"
+      "items": [
+        {
+          "title": "TheHatman claims 3.64 million employee records stolen from Azure tenants",
+          "link": "https://4sysops.com/archives/thehatman-claims-3-64-million-employee-records-stolen-from-azure-tenants/",
+          "pubDate": "2026-08-17T21:06:59.000Z",
+          "summary": "The alleged theft of 3.64 million employee records from nine companies’ Azure and Entra environments appears more consistent with compromised identities than an Azure vulnerability, Hudson Rock’s analysis suggests. TheHatman is selling the data, but the claims remain unconfirmed: Tata Consultancy Se",
+          "author": "",
+          "categories": [
+            "News",
+            "Azure",
+            "Cloud Computing",
+            "Identity",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "OpenClaw agents can make bounded HTTP 402 payments through AWS",
+          "link": "https://4sysops.com/archives/openclaw-agents-can-make-bounded-http-402-payments-through-aws/",
+          "pubDate": "2026-08-17T21:06:58.000Z",
+          "summary": "OpenClaw agents can use Amazon Bedrock AgentCore payments on AWS to answer HTTP 402 challenges and access paywalled APIs without waiting for a human at every transaction. OpenClaw itself is not AWS-only, but this payment integration depends on AWS accounts, AgentCore services, IAM roles, and AWS-spe",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "AWS"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Cursor launches Origin code hosting with GitHub sync and AI agents",
+          "link": "https://4sysops.com/archives/cursor-launches-origin-code-hosting-with-github-sync-and-ai-agents/",
+          "pubDate": "2026-08-17T21:06:57.000Z",
+          "summary": "Cursor is rolling out Origin, an early-beta code-hosting platform for all paid plans. It combines repositories, pull requests, GitHub synchronization, and Cursor’s AI agents in one workspace, while letting existing GitHub repositories remain connected rather than forcing an immediate migration. Sour",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "DevOps"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Google puts A2A under Linux Foundation governance alongside MCP",
+          "link": "https://4sysops.com/archives/google-puts-a2a-under-linux-foundation-governance-alongside-mcp/",
+          "pubDate": "2026-08-17T18:21:44.000Z",
+          "summary": "Google is transferring its Agent2Agent (A2A) protocol to the Agentic AI Foundation (AAIF), placing the standard for communication between AI agents under the same neutral umbrella as Anthropic’s Model Context Protocol (MCP). The move gives enterprises a clearer foundation for connecting agents built",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Ubuntu may soon have more users on Windows 11 than on Linux PCs",
+          "link": "https://4sysops.com/archives/ubuntu-may-soon-have-more-users-on-windows-11-than-on-linux-pcs/",
+          "pubDate": "2026-08-17T18:21:43.000Z",
+          "summary": "Canonical expects Ubuntu running through Windows Subsystem for Linux (WSL) to overtake native Ubuntu desktop installations within the next few months. The prediction reflects faster growth among Ubuntu users on Windows 11, where developers and AI engineers can access Linux tools without replacing Wi",
+          "author": "",
+          "categories": [
+            "News",
+            "Linux",
+            "Windows"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-08-18T01:11:51.241Z",
+      "error": null
     },
     {
       "id": "AndreiShchetkin",
       "label": "shchetkin.dev - Andrei Shchetkin",
       "type": "rss",
       "url": "https://shchetkin.dev/rss/",
-      "items": [],
-      "fetchedAt": "2026-08-17T20:26:27.177Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/reverse-engineering-the-intune-portal-the-ai-enabled-cloud-pc-report/",
+          "pubDate": "2026-08-02T12:06:31.000Z",
+          "summary": "In this article we will get a Windows 365 report from Microsoft Graph that is not in the Graph documentation the AI-enabled Cloud PC report.The portal shows that report every time you open it, so an API for it must exist. It is just not documented anywhere. The method]]>",
+          "author": "",
+          "categories": [
+            "Graph API"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/windows-365-migration-graph-api/",
+          "pubDate": "2026-06-06T14:08:37.000Z",
+          "summary": "In this article we're going to figure out how to migrate almost any Azure-based VM into a Windows 365 Cloud PC using the Microsoft Graph beta migration API.PrerequisitesI assume you're familiar with Microsoft Graph API, Entra ID, Cloud PC, and Provisioning Policies.What we]]>",
+          "author": "",
+          "categories": [
+            "w365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/the-complete-windows-365-graph-api-developer-guide/",
+          "pubDate": "2025-12-23T15:09:22.000Z",
+          "summary": "Managing Windows 365 Cloud PCs at scale demands more than clicking through the Intune portal. If you're automating provisioning policies, building CI/CD pipelines for Cloud PC deployments, or integrating Windows 365 into your infrastructure-as-code workflows, the Microsoft Graph API is your only pat",
+          "author": "",
+          "categories": [
+            "w365"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-08-18T01:11:51.593Z",
+      "error": null
     },
     {
       "id": "emsroute",
@@ -102,7 +203,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:19.232Z",
+      "fetchedAt": "2026-08-18T01:11:50.937Z",
       "error": null
     },
     {
@@ -177,7 +278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:19.822Z",
+      "fetchedAt": "2026-08-18T01:11:51.625Z",
       "error": null
     },
     {
@@ -253,7 +354,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:28.895Z",
+      "fetchedAt": "2026-08-18T01:11:53.204Z",
       "error": null
     },
     {
@@ -336,7 +437,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:27.739Z",
+      "fetchedAt": "2026-08-18T01:11:51.920Z",
       "error": null
     },
     {
@@ -409,7 +510,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:27.712Z",
+      "fetchedAt": "2026-08-18T01:11:51.886Z",
       "error": null
     },
     {
@@ -478,7 +579,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:27.934Z",
+      "fetchedAt": "2026-08-18T01:11:51.982Z",
       "error": null
     },
     {
@@ -552,7 +653,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:29.295Z",
+      "fetchedAt": "2026-08-18T01:11:53.358Z",
       "error": null
     },
     {
@@ -633,7 +734,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:30.181Z",
+      "fetchedAt": "2026-08-18T01:11:54.601Z",
       "error": null
     },
     {
@@ -717,7 +818,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:29.252Z",
+      "fetchedAt": "2026-08-18T01:11:53.355Z",
       "error": null
     },
     {
@@ -790,7 +891,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:29.452Z",
+      "fetchedAt": "2026-08-18T01:11:53.582Z",
       "error": null
     },
     {
@@ -872,7 +973,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:30.306Z",
+      "fetchedAt": "2026-08-18T01:11:54.701Z",
       "error": null
     },
     {
@@ -938,7 +1039,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:30.873Z",
+      "fetchedAt": "2026-08-18T01:11:55.939Z",
       "error": null
     },
     {
@@ -1006,7 +1107,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:30.816Z",
+      "fetchedAt": "2026-08-18T01:11:54.981Z",
       "error": null
     },
     {
@@ -1086,7 +1187,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:31.431Z",
+      "fetchedAt": "2026-08-18T01:11:55.743Z",
       "error": null
     },
     {
@@ -1141,7 +1242,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:31.629Z",
+      "fetchedAt": "2026-08-18T01:11:56.429Z",
       "error": null
     },
     {
@@ -1206,7 +1307,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:31.764Z",
+      "fetchedAt": "2026-08-18T01:11:56.456Z",
       "error": null
     },
     {
@@ -1290,7 +1391,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:31.640Z",
+      "fetchedAt": "2026-08-18T01:11:56.157Z",
       "error": null
     },
     {
@@ -1363,7 +1464,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:32.427Z",
+      "fetchedAt": "2026-08-18T01:11:56.962Z",
       "error": null
     },
     {
@@ -1372,7 +1473,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-17T20:26:32.576Z",
+      "fetchedAt": "2026-08-18T01:11:57.116Z",
       "error": "HTTP 403"
     },
     {
@@ -1450,7 +1551,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:34.228Z",
+      "fetchedAt": "2026-08-18T01:11:58.868Z",
       "error": null
     },
     {
@@ -1459,7 +1560,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-17T20:26:32.955Z",
+      "fetchedAt": "2026-08-18T01:11:57.389Z",
       "error": "certificate has expired"
     },
     {
@@ -1529,7 +1630,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:33.238Z",
+      "fetchedAt": "2026-08-18T01:11:57.798Z",
       "error": null
     },
     {
@@ -1605,7 +1706,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:34.830Z",
+      "fetchedAt": "2026-08-18T01:11:59.663Z",
       "error": null
     },
     {
@@ -1671,7 +1772,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:34.942Z",
+      "fetchedAt": "2026-08-18T01:12:00.277Z",
       "error": null
     },
     {
@@ -1726,7 +1827,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:34.646Z",
+      "fetchedAt": "2026-08-18T01:11:59.273Z",
       "error": null
     },
     {
@@ -1796,7 +1897,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:35.169Z",
+      "fetchedAt": "2026-08-18T01:11:59.424Z",
       "error": null
     },
     {
@@ -1875,7 +1976,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:35.349Z",
+      "fetchedAt": "2026-08-18T01:12:00.377Z",
       "error": null
     },
     {
@@ -1955,7 +2056,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:37.087Z",
+      "fetchedAt": "2026-08-18T01:12:02.623Z",
       "error": null
     },
     {
@@ -2040,7 +2141,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:35.384Z",
+      "fetchedAt": "2026-08-18T01:12:00.449Z",
       "error": null
     },
     {
@@ -2096,7 +2197,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:35.533Z",
+      "fetchedAt": "2026-08-18T01:12:00.592Z",
       "error": null
     },
     {
@@ -2182,7 +2283,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:38.282Z",
+      "fetchedAt": "2026-08-18T01:12:03.654Z",
       "error": null
     },
     {
@@ -2268,7 +2369,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:37.217Z",
+      "fetchedAt": "2026-08-18T01:12:02.714Z",
       "error": null
     },
     {
@@ -2352,7 +2453,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:37.342Z",
+      "fetchedAt": "2026-08-18T01:12:02.800Z",
       "error": null
     },
     {
@@ -2407,7 +2508,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:37.418Z",
+      "fetchedAt": "2026-08-18T01:12:02.976Z",
       "error": null
     },
     {
@@ -2472,7 +2573,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:38.421Z",
+      "fetchedAt": "2026-08-18T01:12:03.848Z",
       "error": null
     },
     {
@@ -2481,7 +2582,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-17T20:26:38.541Z",
+      "fetchedAt": "2026-08-18T01:12:03.858Z",
       "error": "HTTP 404"
     },
     {
@@ -2537,7 +2638,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:38.796Z",
+      "fetchedAt": "2026-08-18T01:12:04.441Z",
       "error": null
     },
     {
@@ -2602,7 +2703,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:39.031Z",
+      "fetchedAt": "2026-08-18T01:12:04.447Z",
       "error": null
     },
     {
@@ -2683,7 +2784,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:39.726Z",
+      "fetchedAt": "2026-08-18T01:12:05.357Z",
       "error": null
     },
     {
@@ -2692,7 +2793,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-17T20:26:39.983Z",
+      "fetchedAt": "2026-08-18T01:12:05.298Z",
       "error": "HTTP 404"
     },
     {
@@ -2701,7 +2802,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-17T20:26:39.369Z",
+      "fetchedAt": "2026-08-18T01:12:04.656Z",
       "error": "HTTP 403"
     },
     {
@@ -2772,16 +2873,16 @@
           "summary": "",
           "author": "",
           "categories": [
-            "Security",
             "UEFI",
             "Windows 10",
-            "windows 11",
-            "Windows Server"
+            "Windows Server",
+            "Security",
+            "windows 11"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:39.342Z",
+      "fetchedAt": "2026-08-18T01:12:04.681Z",
       "error": null
     },
     {
@@ -2854,7 +2955,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.357Z",
+      "fetchedAt": "2026-08-18T01:12:05.624Z",
       "error": null
     },
     {
@@ -2873,7 +2974,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.184Z",
+      "fetchedAt": "2026-08-18T01:12:05.460Z",
       "error": null
     },
     {
@@ -2928,7 +3029,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.447Z",
+      "fetchedAt": "2026-08-18T01:12:05.620Z",
       "error": null
     },
     {
@@ -3014,7 +3115,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.389Z",
+      "fetchedAt": "2026-08-18T01:12:05.621Z",
       "error": null
     },
     {
@@ -3079,7 +3180,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.631Z",
+      "fetchedAt": "2026-08-18T01:12:05.803Z",
       "error": null
     },
     {
@@ -3145,7 +3246,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lpO-yxlVkiw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.851Z",
+      "fetchedAt": "2026-08-18T01:12:05.997Z",
       "error": null
     },
     {
@@ -3210,7 +3311,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5Rbdc4T2W8I/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.746Z",
+      "fetchedAt": "2026-08-18T01:12:06.004Z",
       "error": null
     },
     {
@@ -3275,7 +3376,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7YtnLOgCEEo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.662Z",
+      "fetchedAt": "2026-08-18T01:12:05.991Z",
       "error": null
     },
     {
@@ -3341,7 +3442,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.117Z",
+      "fetchedAt": "2026-08-18T01:12:06.141Z",
       "error": null
     },
     {
@@ -3407,7 +3508,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xKSJ70iRWOI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.051Z",
+      "fetchedAt": "2026-08-18T01:12:06.255Z",
       "error": null
     },
     {
@@ -3473,7 +3574,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/upJqR8npgE0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.989Z",
+      "fetchedAt": "2026-08-18T01:12:06.139Z",
       "error": null
     },
     {
@@ -3538,7 +3639,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:40.998Z",
+      "fetchedAt": "2026-08-18T01:12:06.125Z",
       "error": null
     },
     {
@@ -3604,7 +3705,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0-dnAbGXugU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.244Z",
+      "fetchedAt": "2026-08-18T01:12:06.445Z",
       "error": null
     },
     {
@@ -3669,7 +3770,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zAbid-1V0BU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.262Z",
+      "fetchedAt": "2026-08-18T01:12:06.542Z",
       "error": null
     },
     {
@@ -3734,7 +3835,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/YXbkLAt-S3Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.241Z",
+      "fetchedAt": "2026-08-18T01:12:06.479Z",
       "error": null
     },
     {
@@ -3799,7 +3900,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.297Z",
+      "fetchedAt": "2026-08-18T01:12:06.386Z",
       "error": null
     },
     {
@@ -3864,7 +3965,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.526Z",
+      "fetchedAt": "2026-08-18T01:12:06.670Z",
       "error": null
     },
     {
@@ -3929,7 +4030,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.529Z",
+      "fetchedAt": "2026-08-18T01:12:06.719Z",
       "error": null
     },
     {
@@ -3994,7 +4095,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:41.463Z",
+      "fetchedAt": "2026-08-18T01:12:06.655Z",
       "error": null
     },
     {
@@ -4050,7 +4151,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:43.336Z",
+      "fetchedAt": "2026-08-18T01:12:06.819Z",
       "error": null
     },
     {
@@ -4060,7 +4161,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-17T20:26:43.687Z",
+      "fetchedAt": "2026-08-18T01:12:07.158Z",
       "error": null
     },
     {
@@ -4126,7 +4227,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:45.269Z",
+      "fetchedAt": "2026-08-18T01:12:08.624Z",
       "error": null
     },
     {
@@ -4182,7 +4283,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:43.423Z",
+      "fetchedAt": "2026-08-18T01:12:06.975Z",
       "error": null
     },
     {
@@ -4211,7 +4312,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:44.031Z",
+      "fetchedAt": "2026-08-18T01:12:07.205Z",
       "error": null
     },
     {
@@ -4267,7 +4368,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:45.283Z",
+      "fetchedAt": "2026-08-18T01:12:08.681Z",
       "error": null
     },
     {
@@ -4277,7 +4378,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-17T20:26:45.478Z",
+      "fetchedAt": "2026-08-18T01:12:08.780Z",
       "error": null
     },
     {
@@ -4333,7 +4434,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:45.297Z",
+      "fetchedAt": "2026-08-18T01:12:08.701Z",
       "error": null
     },
     {
@@ -4353,7 +4454,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:45.432Z",
+      "fetchedAt": "2026-08-18T01:12:08.690Z",
       "error": null
     },
     {
@@ -4409,7 +4510,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:50.132Z",
+      "fetchedAt": "2026-08-18T01:12:13.498Z",
       "error": null
     },
     {
@@ -4465,7 +4566,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:46.441Z",
+      "fetchedAt": "2026-08-18T01:12:09.253Z",
       "error": null
     },
     {
@@ -4520,7 +4621,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:45.736Z",
+      "fetchedAt": "2026-08-18T01:12:08.946Z",
       "error": null
     },
     {
@@ -4575,7 +4676,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:45.747Z",
+      "fetchedAt": "2026-08-18T01:12:08.930Z",
       "error": null
     },
     {
@@ -4640,7 +4741,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-17T20:26:50.755Z",
+      "fetchedAt": "2026-08-18T01:12:14.177Z",
       "error": null
     }
   ]
