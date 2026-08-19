@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:36:43.178Z",
+  "generatedAt": "2026-08-19T12:45:25.500Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -7,6 +7,45 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Windows 11 tests per-app privacy controls for Win32 camera and mic access",
+          "link": "https://4sysops.com/archives/windows-11-tests-per-app-privacy-controls-for-win32-camera-and-mic-access/",
+          "pubDate": "2026-08-19T10:14:13.000Z",
+          "summary": "Windows 11 is testing a major privacy improvement that lets users allow or block camera, microphone, and location access for individual Win32 applications. The controls also introduce system permission prompts for desktop apps, replacing the old all-or-nothing approach that covered every traditional",
+          "author": "",
+          "categories": [
+            "News",
+            "Security",
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Planner retention policies are coming, but PowerShell still cleans up old tasks now",
+          "link": "https://4sysops.com/archives/planner-retention-policies-are-coming-but-powershell-still-cleans-up-old-tasks-now/",
+          "pubDate": "2026-08-19T10:14:12.000Z",
+          "summary": "Microsoft Purview is expected to add retention-policy support for Planner tasks during August 2026, but administrators can already remove stale tasks with PowerShell. A tenant-wide Microsoft Graph script can find plans, filter old tasks locally, delete them safely, and email a cleanup report. Source",
+          "author": "",
+          "categories": [
+            "News",
+            "Microsoft 365",
+            "PowerShell"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft Defender scans break after ShieldBreak zero-day fix",
+          "link": "https://4sysops.com/archives/microsoft-defender-scans-break-after-shieldbreak-zero-day-fix/",
+          "pubDate": "2026-08-19T10:14:11.000Z",
+          "summary": "Microsoft Defender is reportedly failing quick, full, and offline scans after updates intended to address the ShieldBreak zero-day, which had bypassed Microsoft’s RoguePlanet fix and enabled local users to gain SYSTEM privileges. The regression appears to affect the antimalware engine itself, leavin",
+          "author": "",
+          "categories": [
+            "News",
+            "Security",
+            "Windows"
+          ],
+          "type": "rss"
+        },
         {
           "title": "6 open-source AI projects you can install and run locally now",
           "link": "https://4sysops.com/archives/6-open-source-ai-projects-you-can-install-and-run-locally-now/",
@@ -30,48 +69,9 @@
             "PowerShell"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Microsoft Copilot flaw turned one click into silent data theft",
-          "link": "https://4sysops.com/archives/microsoft-copilot-flaw-turned-one-click-into-silent-data-theft/",
-          "pubDate": "2026-08-18T20:18:50.000Z",
-          "summary": "A hidden `?autorun=1` parameter allowed attackers to bypass Microsoft Copilot’s prompt-approval safeguard and run commands inside a victim’s authenticated session. Varonis Threat Labs dubbed the issue CoSnitch and tracked it as CVE-2026-32193; Microsoft plans to remove the undocumented behavior. Sou",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Copilot tricked into revealing a one-click data theft flaw",
-          "link": "https://4sysops.com/archives/copilot-tricked-into-revealing-a-one-click-data-theft-flaw/",
-          "pubDate": "2026-08-18T18:40:34.000Z",
-          "summary": "Microsoft Copilot Personal exposed an undocumented URL mechanism that researchers used to run attacker-supplied prompts without user confirmation. The CoSnitch attack could turn a single phishing link, QR code, or message into a way to search connected mail and files, exfiltrate sensitive data, and ",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "CISA gives federal agencies three days to patch actively exploited Ray RCE",
-          "link": "https://4sysops.com/archives/cisa-gives-federal-agencies-three-days-to-patch-actively-exploited-ray-rce/",
-          "pubDate": "2026-08-18T18:40:33.000Z",
-          "summary": "CISA has added the critical Ray remote-code-execution flaw CVE-2025-62593 to its Known Exploited Vulnerabilities catalog and given U.S. federal civilian agencies until August 20 to fix it. The unusually short deadline reflects confirmed exploitation of a bug that can let a malicious website or adver",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:21.703Z",
+      "fetchedAt": "2026-08-19T12:44:58.609Z",
       "error": null
     },
     {
@@ -114,7 +114,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:22.867Z",
+      "fetchedAt": "2026-08-19T12:44:58.980Z",
       "error": null
     },
     {
@@ -200,7 +200,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:21.483Z",
+      "fetchedAt": "2026-08-19T12:44:58.382Z",
       "error": null
     },
     {
@@ -275,7 +275,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:21.993Z",
+      "fetchedAt": "2026-08-19T12:44:58.916Z",
       "error": null
     },
     {
@@ -351,7 +351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:26.988Z",
+      "fetchedAt": "2026-08-19T12:45:03.762Z",
       "error": null
     },
     {
@@ -434,7 +434,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:23.067Z",
+      "fetchedAt": "2026-08-19T12:44:59.224Z",
       "error": null
     },
     {
@@ -507,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:23.054Z",
+      "fetchedAt": "2026-08-19T12:44:59.265Z",
       "error": null
     },
     {
@@ -576,7 +576,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:23.381Z",
+      "fetchedAt": "2026-08-19T12:44:59.655Z",
       "error": null
     },
     {
@@ -650,7 +650,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:27.056Z",
+      "fetchedAt": "2026-08-19T12:45:04.348Z",
       "error": null
     },
     {
@@ -731,7 +731,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:27.890Z",
+      "fetchedAt": "2026-08-19T12:45:04.902Z",
       "error": null
     },
     {
@@ -815,7 +815,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:27.260Z",
+      "fetchedAt": "2026-08-19T12:45:04.229Z",
       "error": null
     },
     {
@@ -888,7 +888,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:27.509Z",
+      "fetchedAt": "2026-08-19T12:45:04.369Z",
       "error": null
     },
     {
@@ -970,7 +970,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:27.999Z",
+      "fetchedAt": "2026-08-19T12:45:05.053Z",
       "error": null
     },
     {
@@ -1036,7 +1036,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:28.729Z",
+      "fetchedAt": "2026-08-19T12:45:05.877Z",
       "error": null
     },
     {
@@ -1102,7 +1102,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:28.220Z",
+      "fetchedAt": "2026-08-19T12:45:05.208Z",
       "error": null
     },
     {
@@ -1182,7 +1182,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:28.868Z",
+      "fetchedAt": "2026-08-19T12:45:05.764Z",
       "error": null
     },
     {
@@ -1237,7 +1237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:29.111Z",
+      "fetchedAt": "2026-08-19T12:45:06.034Z",
       "error": null
     },
     {
@@ -1302,7 +1302,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:29.151Z",
+      "fetchedAt": "2026-08-19T12:45:06.169Z",
       "error": null
     },
     {
@@ -1312,6 +1312,21 @@
       "url": "https://intunestuff.com/feed/",
       "items": [
         {
+          "title": "Introducing the CISPolicyCreator",
+          "link": "https://intunestuff.com/2026/08/19/cispolicycreator/",
+          "pubDate": "2026-08-19T11:14:04.000Z",
+          "summary": "CISPolicyCreator is a free, non-commercial community project and an independent publication — not authorized, sponsored, certified or endorsed by the Center for Internet Security, Inc., and not an official CIS Build Kit. It reads an Intune-specific CIS Benchmark PDF you obtained yourself and builds ",
+          "author": "",
+          "categories": [
+            "Apple",
+            "Device Management",
+            "Intune",
+            "Security",
+            "Edge"
+          ],
+          "type": "rss"
+        },
+        {
           "title": "Admin control for SSO prompts in Windows – How to configure this in Intune",
           "link": "https://intunestuff.com/2026/07/17/admin-control-for-sso-prompts/",
           "pubDate": "2026-07-17T18:58:33.000Z",
@@ -1320,9 +1335,9 @@
           "categories": [
             "Intune",
             "Security",
-            "Uncategorized",
             "Windows 11",
-            "Intune Feature"
+            "Intune Feature",
+            "Intune Portal"
           ],
           "type": "rss"
         },
@@ -1369,24 +1384,9 @@
             "Intune Portal"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Introducing the Intune Policy Intelligence Agent – Without the need of Security Copilot!!",
-          "link": "https://intunestuff.com/2026/04/01/intune-policy-agent/",
-          "pubDate": "2026-04-01T12:27:38.000Z",
-          "summary": "As an IT admin, have you ever tried explaining the security risk or end-user impact of your Microsoft Intune policies to a CISO, manager, or C-level? It can often feel overwhelming, especially when the stakes are high and the audience is non-technical. Understanding the nuances of these policies is ",
-          "author": "",
-          "categories": [
-            "AI",
-            "Device Management",
-            "Intune",
-            "Device Enrollment",
-            "Intune Feature"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:29.002Z",
+      "fetchedAt": "2026-08-19T12:45:06.160Z",
       "error": null
     },
     {
@@ -1459,7 +1459,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:29.554Z",
+      "fetchedAt": "2026-08-19T12:45:06.719Z",
       "error": null
     },
     {
@@ -1468,7 +1468,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-19T08:36:29.673Z",
+      "fetchedAt": "2026-08-19T12:45:06.831Z",
       "error": "HTTP 403"
     },
     {
@@ -1546,7 +1546,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:31.013Z",
+      "fetchedAt": "2026-08-19T12:45:08.402Z",
       "error": null
     },
     {
@@ -1555,7 +1555,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-19T08:36:29.952Z",
+      "fetchedAt": "2026-08-19T12:45:07.142Z",
       "error": "certificate has expired"
     },
     {
@@ -1625,7 +1625,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:30.186Z",
+      "fetchedAt": "2026-08-19T12:45:07.416Z",
       "error": null
     },
     {
@@ -1701,7 +1701,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:31.444Z",
+      "fetchedAt": "2026-08-19T12:45:08.717Z",
       "error": null
     },
     {
@@ -1711,7 +1711,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-08-19T08:36:31.600Z",
+      "fetchedAt": "2026-08-19T12:45:08.663Z",
       "error": "HTTP 202"
     },
     {
@@ -1766,7 +1766,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:31.536Z",
+      "fetchedAt": "2026-08-19T12:45:08.766Z",
       "error": null
     },
     {
@@ -1836,7 +1836,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:31.383Z",
+      "fetchedAt": "2026-08-19T12:45:08.676Z",
       "error": null
     },
     {
@@ -1915,7 +1915,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:31.726Z",
+      "fetchedAt": "2026-08-19T12:45:08.922Z",
       "error": null
     },
     {
@@ -1995,7 +1995,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:33.112Z",
+      "fetchedAt": "2026-08-19T12:45:10.529Z",
       "error": null
     },
     {
@@ -2080,7 +2080,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:31.888Z",
+      "fetchedAt": "2026-08-19T12:45:09.017Z",
       "error": null
     },
     {
@@ -2136,7 +2136,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:31.839Z",
+      "fetchedAt": "2026-08-19T12:45:09.046Z",
       "error": null
     },
     {
@@ -2222,7 +2222,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:34.221Z",
+      "fetchedAt": "2026-08-19T12:45:11.912Z",
       "error": null
     },
     {
@@ -2308,7 +2308,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:33.172Z",
+      "fetchedAt": "2026-08-19T12:45:10.661Z",
       "error": null
     },
     {
@@ -2392,7 +2392,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:33.241Z",
+      "fetchedAt": "2026-08-19T12:45:10.756Z",
       "error": null
     },
     {
@@ -2447,7 +2447,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:33.298Z",
+      "fetchedAt": "2026-08-19T12:45:10.760Z",
       "error": null
     },
     {
@@ -2512,7 +2512,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:34.373Z",
+      "fetchedAt": "2026-08-19T12:45:12.129Z",
       "error": null
     },
     {
@@ -2521,7 +2521,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-19T08:36:34.362Z",
+      "fetchedAt": "2026-08-19T12:45:12.102Z",
       "error": "HTTP 404"
     },
     {
@@ -2577,7 +2577,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:35.076Z",
+      "fetchedAt": "2026-08-19T12:45:12.641Z",
       "error": null
     },
     {
@@ -2642,7 +2642,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:34.619Z",
+      "fetchedAt": "2026-08-19T12:45:12.462Z",
       "error": null
     },
     {
@@ -2723,7 +2723,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:35.722Z",
+      "fetchedAt": "2026-08-19T12:45:13.319Z",
       "error": null
     },
     {
@@ -2732,7 +2732,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-19T08:36:35.727Z",
+      "fetchedAt": "2026-08-19T12:45:13.445Z",
       "error": "HTTP 404"
     },
     {
@@ -2741,7 +2741,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-19T08:36:35.305Z",
+      "fetchedAt": "2026-08-19T12:45:12.830Z",
       "error": "HTTP 403"
     },
     {
@@ -2821,7 +2821,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:35.341Z",
+      "fetchedAt": "2026-08-19T12:45:12.927Z",
       "error": null
     },
     {
@@ -2894,7 +2894,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:35.874Z",
+      "fetchedAt": "2026-08-19T12:45:13.674Z",
       "error": null
     },
     {
@@ -2913,7 +2913,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:35.909Z",
+      "fetchedAt": "2026-08-19T12:45:13.718Z",
       "error": null
     },
     {
@@ -2968,7 +2968,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.131Z",
+      "fetchedAt": "2026-08-19T12:45:13.879Z",
       "error": null
     },
     {
@@ -3054,7 +3054,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:35.977Z",
+      "fetchedAt": "2026-08-19T12:45:13.810Z",
       "error": null
     },
     {
@@ -3119,7 +3119,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.278Z",
+      "fetchedAt": "2026-08-19T12:45:14.081Z",
       "error": null
     },
     {
@@ -3185,7 +3185,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/lpO-yxlVkiw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.170Z",
+      "fetchedAt": "2026-08-19T12:45:14.149Z",
       "error": null
     },
     {
@@ -3250,7 +3250,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4QvaaYA4nrM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.259Z",
+      "fetchedAt": "2026-08-19T12:45:14.201Z",
       "error": null
     },
     {
@@ -3315,7 +3315,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7YtnLOgCEEo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.394Z",
+      "fetchedAt": "2026-08-19T12:45:14.091Z",
       "error": null
     },
     {
@@ -3381,7 +3381,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.491Z",
+      "fetchedAt": "2026-08-19T12:45:14.372Z",
       "error": null
     },
     {
@@ -3447,7 +3447,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xKSJ70iRWOI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.502Z",
+      "fetchedAt": "2026-08-19T12:45:14.329Z",
       "error": null
     },
     {
@@ -3513,7 +3513,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/upJqR8npgE0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.527Z",
+      "fetchedAt": "2026-08-19T12:45:14.319Z",
       "error": null
     },
     {
@@ -3578,7 +3578,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.556Z",
+      "fetchedAt": "2026-08-19T12:45:14.322Z",
       "error": null
     },
     {
@@ -3588,6 +3588,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Your Azure Backups Don't Have to Be Complicated!",
+          "link": "https://www.youtube.com/watch?v=3mmw9IrvoZ8",
+          "pubDate": "2026-08-19T11:07:54.000Z",
+          "summary": "Azure Backup explained: vaults, policies, RBAC, ransomware protection, cost, and a live VM backup demo. In this video, we take a fresh look at Azure Backup, covering everything IT professionals need to know to protect Azure and hybrid workloads in 2026. You'll learn how Azure Backup compares to Azur",
+          "author": "Travis Roberts",
+          "categories": [],
+          "type": "video",
+          "videoId": "3mmw9IrvoZ8",
+          "thumbnail": "https://i4.ytimg.com/vi/3mmw9IrvoZ8/hqdefault.jpg"
+        },
         {
           "title": "Microsoft Retiring SMS/Voice MFA in 2027: Secure Your Accounts Now! #shorts",
           "link": "https://www.youtube.com/shorts/NjKLC2pHICw",
@@ -3631,20 +3642,9 @@
           "type": "video",
           "videoId": "IJBWO6JWrDo",
           "thumbnail": "https://i2.ytimg.com/vi/IJBWO6JWrDo/hqdefault.jpg"
-        },
-        {
-          "title": "Entra ID MFA: Master Authentication Method Policies #shorts",
-          "link": "https://www.youtube.com/shorts/0-dnAbGXugU",
-          "pubDate": "2026-07-30T17:01:42.000Z",
-          "summary": "Full video: https://youtu.be/JASvAHNszGI Master Entra ID's Authentication Method Policy to globally manage MFA options. Target specific users or groups, disable risky methods like SMS, and empower your security strategy. #Microsoft #EntraID #MFA #FIDO2 #ZeroTrust #CloudSecurity #MVPBuzz #ITPro",
-          "author": "Travis Roberts",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/0-dnAbGXugU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.725Z",
+      "fetchedAt": "2026-08-19T12:45:14.529Z",
       "error": null
     },
     {
@@ -3709,7 +3709,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/zAbid-1V0BU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.660Z",
+      "fetchedAt": "2026-08-19T12:45:14.486Z",
       "error": null
     },
     {
@@ -3774,7 +3774,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/YXbkLAt-S3Q/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.691Z",
+      "fetchedAt": "2026-08-19T12:45:14.498Z",
       "error": null
     },
     {
@@ -3839,7 +3839,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rQVCiMoyN0g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.722Z",
+      "fetchedAt": "2026-08-19T12:45:14.473Z",
       "error": null
     },
     {
@@ -3904,7 +3904,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.848Z",
+      "fetchedAt": "2026-08-19T12:45:14.639Z",
       "error": null
     },
     {
@@ -3969,7 +3969,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.867Z",
+      "fetchedAt": "2026-08-19T12:45:14.672Z",
       "error": null
     },
     {
@@ -4034,7 +4034,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.879Z",
+      "fetchedAt": "2026-08-19T12:45:14.656Z",
       "error": null
     },
     {
@@ -4090,7 +4090,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:36.893Z",
+      "fetchedAt": "2026-08-19T12:45:16.063Z",
       "error": null
     },
     {
@@ -4100,7 +4100,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-19T08:36:37.140Z",
+      "fetchedAt": "2026-08-19T12:45:16.340Z",
       "error": null
     },
     {
@@ -4166,7 +4166,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:37.758Z",
+      "fetchedAt": "2026-08-19T12:45:16.903Z",
       "error": null
     },
     {
@@ -4222,7 +4222,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:37.006Z",
+      "fetchedAt": "2026-08-19T12:45:16.135Z",
       "error": null
     },
     {
@@ -4251,7 +4251,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:37.636Z",
+      "fetchedAt": "2026-08-19T12:45:16.534Z",
       "error": null
     },
     {
@@ -4307,7 +4307,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:37.789Z",
+      "fetchedAt": "2026-08-19T12:45:16.943Z",
       "error": null
     },
     {
@@ -4317,7 +4317,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-19T08:36:37.836Z",
+      "fetchedAt": "2026-08-19T12:45:17.149Z",
       "error": null
     },
     {
@@ -4327,15 +4327,6 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
-        {
-          "title": "Configure Delivery Optimization for Windows to save bandwidth and speed up deployments",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/configure-delivery-optimization-for-windows-to-save-bandwidth/ba-p/4547592",
-          "pubDate": "2026-08-18T16:19:49.000Z",
-          "summary": "<P><A class=\"lia-external-url\" href=\"https://learn.microsoft.com/windows/deployment/do/waas-delivery-optimization\" target=\"_blank\" rel=\"noopener\">Delivery Optimization</A> is built into Windows and can help reduce bandwidth usage during app and update deployments. Instead of downloading content from",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        },
         {
           "title": "Registry Inventory in Microsoft Intune: Verifying What’s on Your Devices",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/registry-inventory-in-microsoft-intune-verifying-what-s-on-your/ba-p/4541312",
@@ -4371,9 +4362,18 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
+        },
+        {
+          "title": "Migrating frontline mobile devices: Identity considerations for assigned and shared devices",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/migrating-frontline-mobile-devices-identity-considerations-for/ba-p/4532671",
+          "pubDate": "2026-07-01T18:00:50.000Z",
+          "summary": "<P><STRONG>By: Carol Burns - Principal Product Manager | Microsoft Intune and Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune)</STRONG></P> <P><EM>Practitioner perspective from Sucheta Gawade, Microsoft MVP (Azure &amp; Security / Intune), with deep experience in secure frontline mobili",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:37.795Z",
+      "fetchedAt": "2026-08-19T12:45:16.961Z",
       "error": null
     },
     {
@@ -4393,7 +4393,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:37.797Z",
+      "fetchedAt": "2026-08-19T12:45:16.978Z",
       "error": null
     },
     {
@@ -4449,7 +4449,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:42.285Z",
+      "fetchedAt": "2026-08-19T12:45:21.836Z",
       "error": null
     },
     {
@@ -4505,7 +4505,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:38.435Z",
+      "fetchedAt": "2026-08-19T12:45:17.942Z",
       "error": null
     },
     {
@@ -4560,7 +4560,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:38.105Z",
+      "fetchedAt": "2026-08-19T12:45:17.331Z",
       "error": null
     },
     {
@@ -4615,7 +4615,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:38.067Z",
+      "fetchedAt": "2026-08-19T12:45:17.413Z",
       "error": null
     },
     {
@@ -4680,7 +4680,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-19T08:36:43.178Z",
+      "fetchedAt": "2026-08-19T12:45:25.500Z",
       "error": null
     }
   ]
