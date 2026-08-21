@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:27:50.679Z",
+  "generatedAt": "2026-08-21T01:16:37.494Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -7,6 +7,60 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Grok Bot turns email, calendars, browsers, and coding into one AI workflow",
+          "link": "https://4sysops.com/archives/grok-bot-turns-email-calendars-browsers-and-coding-into-one-ai-workflow/",
+          "pubDate": "2026-08-20T22:16:54.000Z",
+          "summary": "Matthew Berman presents Grok Bot as a persistent AI assistant that goes beyond question-answering by coordinating email, calendars, browser tasks, coding agents, meetings, and personal workflows. His central recommendation is to create focused bots for individual jobs, then use a central “chief of s",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Monitor GPU and NPU workloads in Windows Task Manager",
+          "link": "https://4sysops.com/archives/monitor-gpu-and-npu-workloads-in-windows-task-manager/",
+          "pubDate": "2026-08-20T21:26:47.000Z",
+          "summary": "Windows 11 Task Manager can show per-process NPU and GPU neural engine usage, helping you determine whether an AI app runs on dedicated AI hardware or falls back to the CPU. Microsoft introduced the optional columns in updates KB5089573 and KB5094126 for Windows 11 versions 24H2 and 25H2. Availabili",
+          "author": "",
+          "categories": [
+            "Articles",
+            "AI",
+            "Monitoring",
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Escape SQL Server Express limits with Azure SQL Database Free Tier in 3 steps",
+          "link": "https://4sysops.com/archives/escape-sql-server-express-limits-with-azure-sql-database-free-tier-in-3-steps/",
+          "pubDate": "2026-08-20T20:40:44.000Z",
+          "summary": "SQL Server Express users can now move small applications to Azure SQL Database Free Tier with a short workflow that combines SSMS or Visual Studio Code, Azure provisioning, and GitHub Copilot-assisted migration. The option removes Express’s local hardware and maintenance burden, while Microsoft’s pr",
+          "author": "",
+          "categories": [
+            "News",
+            "Azure",
+            "Cloud Computing",
+            "Storage"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "GitHub traces 7-hour outage to capacity failure and retry storm",
+          "link": "https://4sysops.com/archives/github-traces-7-hour-outage-to-capacity-failure-and-retry-storm/",
+          "pubDate": "2026-08-20T20:40:43.000Z",
+          "summary": "GitHub has attributed its 7-hour-47-minute outage on August 17 to a Central US infrastructure component that failed to scale when traffic reached a new peak. The resulting capacity shortage cascaded into authentication, GitHub Actions, APIs, pull requests, issues, Pages, webhooks, and Copilot, while",
+          "author": "",
+          "categories": [
+            "News",
+            "Azure",
+            "Cloud Computing",
+            "DevOps"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Thunderbird will move to two-week releases in September",
           "link": "https://4sysops.com/archives/thunderbird-will-move-to-two-week-releases-in-september/",
@@ -18,62 +72,9 @@
             "Business Software"
           ],
           "type": "rss"
-        },
-        {
-          "title": "PowerToys’ next release adds compact Command Palette and subtler Mouse Highlighter",
-          "link": "https://4sysops.com/archives/powertoys-next-release-adds-compact-command-palette-and-subtler-mouse-highlighter/",
-          "pubDate": "2026-08-20T17:54:26.000Z",
-          "summary": "PowerToys is preparing a broader release centered on two highly visible changes: a compact mode for Command Palette and a ripple effect for Mouse Highlighter. It follows a preview that fixed Command Palette’s blank dock and reduced its resource use, while nearly 300 merged pull requests bring additi",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Cloudflare OAuth now lets users reject unnecessary app permissions",
-          "link": "https://4sysops.com/archives/cloudflare-oauth-now-lets-users-reject-unnecessary-app-permissions/",
-          "pubDate": "2026-08-20T17:54:25.000Z",
-          "summary": "Cloudflare has introduced optional OAuth scopes, allowing users to approve only the permissions an application needs for a specific task instead of accepting or rejecting the entire request. The change is especially useful for MCP servers and other AI agents that may request broad access but do not ",
-          "author": "",
-          "categories": [
-            "News",
-            "Identity",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Qualcomm pulls Snapdragon C benchmarks for idle apps and web browsing",
-          "link": "https://4sysops.com/archives/qualcomm-pulls-snapdragon-c-benchmarks-for-idle-apps-and-web-browsing/",
-          "pubDate": "2026-08-20T15:15:00.000Z",
-          "summary": "Qualcomm has quietly withdrawn two Snapdragon C power-efficiency benchmarks nearly a week after publishing them, removing results for idle apps and web browsing from its budget-laptop presentation. The company says the revision improves clarity and relevance, but the change leaves important question",
-          "author": "",
-          "categories": [
-            "News",
-            "Hardware",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Chrome may let Gemini use saved passwords to complete web tasks",
-          "link": "https://4sysops.com/archives/chrome-may-let-gemini-use-saved-passwords-to-complete-web-tasks/",
-          "pubDate": "2026-08-20T13:22:30.000Z",
-          "summary": "Google is testing a Chrome feature that would let its Gemini “Spark” agent use selected saved passwords to sign in to websites and complete multi-step tasks. The capability remains experimental and requires users to approve each action, but it would give an AI agent access to credentials that were p",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Security",
-            "Web"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:25.728Z",
+      "fetchedAt": "2026-08-21T01:16:12.343Z",
       "error": null
     },
     {
@@ -116,7 +117,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:25.888Z",
+      "fetchedAt": "2026-08-21T01:16:12.779Z",
       "error": null
     },
     {
@@ -202,7 +203,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:25.324Z",
+      "fetchedAt": "2026-08-21T01:16:11.973Z",
       "error": null
     },
     {
@@ -277,7 +278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:25.988Z",
+      "fetchedAt": "2026-08-21T01:16:12.723Z",
       "error": null
     },
     {
@@ -353,7 +354,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:27.438Z",
+      "fetchedAt": "2026-08-21T01:16:14.294Z",
       "error": null
     },
     {
@@ -436,7 +437,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:26.287Z",
+      "fetchedAt": "2026-08-21T01:16:12.996Z",
       "error": null
     },
     {
@@ -509,7 +510,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:26.268Z",
+      "fetchedAt": "2026-08-21T01:16:13.034Z",
       "error": null
     },
     {
@@ -578,7 +579,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:26.731Z",
+      "fetchedAt": "2026-08-21T01:16:13.174Z",
       "error": null
     },
     {
@@ -652,7 +653,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:27.589Z",
+      "fetchedAt": "2026-08-21T01:16:14.373Z",
       "error": null
     },
     {
@@ -733,7 +734,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:28.759Z",
+      "fetchedAt": "2026-08-21T01:16:16.018Z",
       "error": null
     },
     {
@@ -817,7 +818,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:27.571Z",
+      "fetchedAt": "2026-08-21T01:16:14.415Z",
       "error": null
     },
     {
@@ -890,7 +891,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:27.955Z",
+      "fetchedAt": "2026-08-21T01:16:14.673Z",
       "error": null
     },
     {
@@ -972,7 +973,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:28.870Z",
+      "fetchedAt": "2026-08-21T01:16:16.090Z",
       "error": null
     },
     {
@@ -1038,7 +1039,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:30.202Z",
+      "fetchedAt": "2026-08-21T01:16:17.918Z",
       "error": null
     },
     {
@@ -1104,7 +1105,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:29.388Z",
+      "fetchedAt": "2026-08-21T01:16:16.256Z",
       "error": null
     },
     {
@@ -1184,7 +1185,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:30.261Z",
+      "fetchedAt": "2026-08-21T01:16:17.213Z",
       "error": null
     },
     {
@@ -1239,7 +1240,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:30.454Z",
+      "fetchedAt": "2026-08-21T01:16:18.191Z",
       "error": null
     },
     {
@@ -1304,7 +1305,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:30.583Z",
+      "fetchedAt": "2026-08-21T01:16:18.200Z",
       "error": null
     },
     {
@@ -1388,7 +1389,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:30.425Z",
+      "fetchedAt": "2026-08-21T01:16:18.071Z",
       "error": null
     },
     {
@@ -1461,7 +1462,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:31.257Z",
+      "fetchedAt": "2026-08-21T01:16:18.963Z",
       "error": null
     },
     {
@@ -1470,7 +1471,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-20T20:27:31.384Z",
+      "fetchedAt": "2026-08-21T01:16:19.026Z",
       "error": "HTTP 403"
     },
     {
@@ -1548,7 +1549,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:33.147Z",
+      "fetchedAt": "2026-08-21T01:16:20.821Z",
       "error": null
     },
     {
@@ -1557,7 +1558,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-20T20:27:31.653Z",
+      "fetchedAt": "2026-08-21T01:16:19.577Z",
       "error": "certificate has expired"
     },
     {
@@ -1627,7 +1628,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:32.121Z",
+      "fetchedAt": "2026-08-21T01:16:19.671Z",
       "error": null
     },
     {
@@ -1703,7 +1704,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:33.740Z",
+      "fetchedAt": "2026-08-21T01:16:21.548Z",
       "error": null
     },
     {
@@ -1769,7 +1770,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:33.793Z",
+      "fetchedAt": "2026-08-21T01:16:21.486Z",
       "error": null
     },
     {
@@ -1824,7 +1825,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:33.533Z",
+      "fetchedAt": "2026-08-21T01:16:21.026Z",
       "error": null
     },
     {
@@ -1894,7 +1895,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:33.455Z",
+      "fetchedAt": "2026-08-21T01:16:21.080Z",
       "error": null
     },
     {
@@ -1973,7 +1974,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:33.861Z",
+      "fetchedAt": "2026-08-21T01:16:21.656Z",
       "error": null
     },
     {
@@ -2053,7 +2054,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:35.707Z",
+      "fetchedAt": "2026-08-21T01:16:23.724Z",
       "error": null
     },
     {
@@ -2138,7 +2139,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:33.919Z",
+      "fetchedAt": "2026-08-21T01:16:21.762Z",
       "error": null
     },
     {
@@ -2194,7 +2195,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:34.000Z",
+      "fetchedAt": "2026-08-21T01:16:21.806Z",
       "error": null
     },
     {
@@ -2280,7 +2281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:36.799Z",
+      "fetchedAt": "2026-08-21T01:16:24.644Z",
       "error": null
     },
     {
@@ -2366,7 +2367,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:35.802Z",
+      "fetchedAt": "2026-08-21T01:16:23.789Z",
       "error": null
     },
     {
@@ -2450,7 +2451,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:35.870Z",
+      "fetchedAt": "2026-08-21T01:16:23.854Z",
       "error": null
     },
     {
@@ -2505,7 +2506,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:36.082Z",
+      "fetchedAt": "2026-08-21T01:16:23.785Z",
       "error": null
     },
     {
@@ -2570,7 +2571,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:36.978Z",
+      "fetchedAt": "2026-08-21T01:16:24.835Z",
       "error": null
     },
     {
@@ -2579,7 +2580,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-20T20:27:36.934Z",
+      "fetchedAt": "2026-08-21T01:16:24.810Z",
       "error": "HTTP 404"
     },
     {
@@ -2635,7 +2636,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:37.599Z",
+      "fetchedAt": "2026-08-21T01:16:25.447Z",
       "error": null
     },
     {
@@ -2700,7 +2701,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:37.624Z",
+      "fetchedAt": "2026-08-21T01:16:25.073Z",
       "error": null
     },
     {
@@ -2781,7 +2782,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:38.444Z",
+      "fetchedAt": "2026-08-21T01:16:26.439Z",
       "error": null
     },
     {
@@ -2790,7 +2791,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-20T20:27:39.019Z",
+      "fetchedAt": "2026-08-21T01:16:26.318Z",
       "error": "HTTP 404"
     },
     {
@@ -2799,7 +2800,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-20T20:27:37.912Z",
+      "fetchedAt": "2026-08-21T01:16:25.528Z",
       "error": "HTTP 403"
     },
     {
@@ -2879,7 +2880,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:37.956Z",
+      "fetchedAt": "2026-08-21T01:16:25.572Z",
       "error": null
     },
     {
@@ -2952,7 +2953,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:39.270Z",
+      "fetchedAt": "2026-08-21T01:16:26.725Z",
       "error": null
     },
     {
@@ -2971,7 +2972,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:39.171Z",
+      "fetchedAt": "2026-08-21T01:16:26.782Z",
       "error": null
     },
     {
@@ -3026,7 +3027,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:39.584Z",
+      "fetchedAt": "2026-08-21T01:16:26.592Z",
       "error": null
     },
     {
@@ -3112,7 +3113,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:39.283Z",
+      "fetchedAt": "2026-08-21T01:16:26.551Z",
       "error": null
     },
     {
@@ -3177,7 +3178,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:39.799Z",
+      "fetchedAt": "2026-08-21T01:16:26.940Z",
       "error": null
     },
     {
@@ -3243,7 +3244,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/PbngY1n4Awc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:39.996Z",
+      "fetchedAt": "2026-08-21T01:16:26.994Z",
       "error": null
     },
     {
@@ -3308,7 +3309,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4QvaaYA4nrM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:39.991Z",
+      "fetchedAt": "2026-08-21T01:16:27.013Z",
       "error": null
     },
     {
@@ -3373,7 +3374,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7YtnLOgCEEo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:39.794Z",
+      "fetchedAt": "2026-08-21T01:16:26.957Z",
       "error": null
     },
     {
@@ -3439,7 +3440,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.134Z",
+      "fetchedAt": "2026-08-21T01:16:27.019Z",
       "error": null
     },
     {
@@ -3505,7 +3506,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/tb-pqlYUkZk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.154Z",
+      "fetchedAt": "2026-08-21T01:16:27.263Z",
       "error": null
     },
     {
@@ -3571,7 +3572,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/upJqR8npgE0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.129Z",
+      "fetchedAt": "2026-08-21T01:16:27.020Z",
       "error": null
     },
     {
@@ -3636,7 +3637,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.126Z",
+      "fetchedAt": "2026-08-21T01:16:27.324Z",
       "error": null
     },
     {
@@ -3702,7 +3703,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/IJBWO6JWrDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.348Z",
+      "fetchedAt": "2026-08-21T01:16:27.468Z",
       "error": null
     },
     {
@@ -3767,7 +3768,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/MJpPVD-Txzo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.360Z",
+      "fetchedAt": "2026-08-21T01:16:27.473Z",
       "error": null
     },
     {
@@ -3832,7 +3833,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TcfGHFGdSc4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.473Z",
+      "fetchedAt": "2026-08-21T01:16:27.488Z",
       "error": null
     },
     {
@@ -3897,7 +3898,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.453Z",
+      "fetchedAt": "2026-08-21T01:16:27.463Z",
       "error": null
     },
     {
@@ -3962,7 +3963,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.637Z",
+      "fetchedAt": "2026-08-21T01:16:27.778Z",
       "error": null
     },
     {
@@ -4027,7 +4028,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.642Z",
+      "fetchedAt": "2026-08-21T01:16:27.674Z",
       "error": null
     },
     {
@@ -4092,7 +4093,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:40.640Z",
+      "fetchedAt": "2026-08-21T01:16:27.751Z",
       "error": null
     },
     {
@@ -4148,7 +4149,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:42.147Z",
+      "fetchedAt": "2026-08-21T01:16:27.781Z",
       "error": null
     },
     {
@@ -4158,7 +4159,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-20T20:27:42.375Z",
+      "fetchedAt": "2026-08-21T01:16:28.020Z",
       "error": null
     },
     {
@@ -4224,7 +4225,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:43.480Z",
+      "fetchedAt": "2026-08-21T01:16:28.902Z",
       "error": null
     },
     {
@@ -4280,7 +4281,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:42.338Z",
+      "fetchedAt": "2026-08-21T01:16:27.833Z",
       "error": null
     },
     {
@@ -4309,7 +4310,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:42.587Z",
+      "fetchedAt": "2026-08-21T01:16:28.092Z",
       "error": null
     },
     {
@@ -4365,7 +4366,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:43.539Z",
+      "fetchedAt": "2026-08-21T01:16:29.148Z",
       "error": null
     },
     {
@@ -4375,7 +4376,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-20T20:27:43.613Z",
+      "fetchedAt": "2026-08-21T01:16:29.026Z",
       "error": null
     },
     {
@@ -4431,7 +4432,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:43.588Z",
+      "fetchedAt": "2026-08-21T01:16:28.946Z",
       "error": null
     },
     {
@@ -4451,7 +4452,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:43.529Z",
+      "fetchedAt": "2026-08-21T01:16:28.920Z",
       "error": null
     },
     {
@@ -4507,7 +4508,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:48.677Z",
+      "fetchedAt": "2026-08-21T01:16:33.691Z",
       "error": null
     },
     {
@@ -4563,7 +4564,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:44.625Z",
+      "fetchedAt": "2026-08-21T01:16:30.150Z",
       "error": null
     },
     {
@@ -4618,7 +4619,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:44.138Z",
+      "fetchedAt": "2026-08-21T01:16:29.241Z",
       "error": null
     },
     {
@@ -4673,7 +4674,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:43.768Z",
+      "fetchedAt": "2026-08-21T01:16:29.799Z",
       "error": null
     },
     {
@@ -4738,7 +4739,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-20T20:27:50.679Z",
+      "fetchedAt": "2026-08-21T01:16:37.494Z",
       "error": null
     }
   ]
