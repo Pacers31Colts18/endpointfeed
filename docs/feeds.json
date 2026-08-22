@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T16:23:25.000Z",
+  "generatedAt": "2026-08-22T20:21:55.080Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -71,7 +71,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:03.648Z",
+      "fetchedAt": "2026-08-22T20:21:25.752Z",
       "error": null
     },
     {
@@ -79,43 +79,9 @@
       "label": "shchetkin.dev - Andrei Shchetkin",
       "type": "rss",
       "url": "https://shchetkin.dev/rss/",
-      "items": [
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/reverse-engineering-the-intune-portal-the-ai-enabled-cloud-pc-report/",
-          "pubDate": "2026-08-02T12:06:31.000Z",
-          "summary": "In this article we will get a Windows 365 report from Microsoft Graph that is not in the Graph documentation the AI-enabled Cloud PC report.The portal shows that report every time you open it, so an API for it must exist. It is just not documented anywhere. The method]]>",
-          "author": "",
-          "categories": [
-            "Graph API"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/windows-365-migration-graph-api/",
-          "pubDate": "2026-06-06T14:08:37.000Z",
-          "summary": "In this article we're going to figure out how to migrate almost any Azure-based VM into a Windows 365 Cloud PC using the Microsoft Graph beta migration API.PrerequisitesI assume you're familiar with Microsoft Graph API, Entra ID, Cloud PC, and Provisioning Policies.What we]]>",
-          "author": "",
-          "categories": [
-            "w365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/the-complete-windows-365-graph-api-developer-guide/",
-          "pubDate": "2025-12-23T15:09:22.000Z",
-          "summary": "Managing Windows 365 Cloud PCs at scale demands more than clicking through the Intune portal. If you're automating provisioning policies, building CI/CD pipelines for Cloud PC deployments, or integrating Windows 365 into your infrastructure-as-code workflows, the Microsoft Graph API is your only pat",
-          "author": "",
-          "categories": [
-            "w365"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-22T16:23:03.766Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-22T20:21:33.446Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "emsroute",
@@ -200,7 +166,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:03.426Z",
+      "fetchedAt": "2026-08-22T20:21:25.591Z",
       "error": null
     },
     {
@@ -208,75 +174,9 @@
       "label": "petervanderwoude.nl",
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
-      "items": [
-        {
-          "title": "Collecting Windows registry data",
-          "link": "https://petervanderwoude.nl/post/collecting-windows-registry-data/",
-          "pubDate": "2026-08-17T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Device inventory",
-            "Microsoft Intune",
-            "Windows 11",
-            "Micorosft Intune"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Customizing the pinned folders in Start layout",
-          "link": "https://petervanderwoude.nl/post/customizing-the-pinned-folders-in-start-layout/",
-          "pubDate": "2026-08-10T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Microsoft Intune",
-            "Windows 11",
-            "Settings Catalog"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Customizing the power options in Start layout",
-          "link": "https://petervanderwoude.nl/post/customizing-the-power-options-in-start-layout/",
-          "pubDate": "2026-07-06T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Microsoft Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Getting started with Android Enterprise personally owned devices with work profile",
-          "link": "https://petervanderwoude.nl/post/getting-started-with-android-enterprise-personally-owned-devices-with-work-profile/",
-          "pubDate": "2026-06-29T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Android",
-            "Android Enterprise",
-            "Android Enterprise personally-owned work profile",
-            "Microsoft Intune"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Customizing the account settings in Start layout",
-          "link": "https://petervanderwoude.nl/post/customizing-the-account-settings-in-start-layout/",
-          "pubDate": "2026-06-22T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Microsoft Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-22T16:23:04.091Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-22T20:21:25.868Z",
+      "error": "HTTP 415"
     },
     {
       "id": "manishbangia",
@@ -284,75 +184,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.manishbangia.com/feed/",
-      "items": [
-        {
-          "title": "How to Deploy Feature Updates Using Microsoft Intune",
-          "link": "https://www.manishbangia.com/how-to-deploy-feature-updates-using-microsoft-intune/",
-          "pubDate": "2026-06-08T09:00:21.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "SCCM"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "How to deploy feature update using Microsoft Intune",
-          "link": "https://www.manishbangia.com/how-to-deploy-feature-update-using-microsoft-intune/",
-          "pubDate": "2026-03-22T14:53:45.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Cloud",
-            "Windows",
-            "Windows 11",
-            "Feature Update"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Understanding Config Refresh policy",
-          "link": "https://www.manishbangia.com/understanding-config-refresh-policy/",
-          "pubDate": "2025-04-05T04:29:12.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Cloud",
-            "SCCM",
-            "settings catalog"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Usage of filters with Intune policy assignments",
-          "link": "https://www.manishbangia.com/usage-of-filters-with-intune-policy-assignments/",
-          "pubDate": "2025-03-23T07:47:51.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Cloud",
-            "filter"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Usage of Windows Corporate identifiers",
-          "link": "https://www.manishbangia.com/usage-of-windows-corporate-identifiers/",
-          "pubDate": "2024-07-11T11:05:02.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Cloud"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-22T16:23:06.013Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-22T20:21:34.698Z",
+      "error": "HTTP 415"
     },
     {
       "id": "evil365",
@@ -434,7 +268,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:04.714Z",
+      "fetchedAt": "2026-08-22T20:21:33.594Z",
       "error": null
     },
     {
@@ -507,7 +341,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:04.485Z",
+      "fetchedAt": "2026-08-22T20:21:33.668Z",
       "error": null
     },
     {
@@ -576,7 +410,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:04.914Z",
+      "fetchedAt": "2026-08-22T20:21:34.057Z",
       "error": null
     },
     {
@@ -650,7 +484,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:06.106Z",
+      "fetchedAt": "2026-08-22T20:21:34.783Z",
       "error": null
     },
     {
@@ -659,80 +493,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://dominiekverham.com/feed/",
-      "items": [
-        {
-          "title": "Installing Nerdio Manager for MSP",
-          "link": "https://dominiekverham.com/installing-nerdio-manager-for-msp/",
-          "pubDate": "2026-08-10T14:21:14.000Z",
-          "summary": "What’s up, everyone! Welcome back to the Nerdio Manager for MSP mini-series! In my previous post I showed the differences between Nerdio Manager for MSP and Nerdio Manager for Enterprise and when it’s the right fit for your use case. Let’s continue that journey and look at the individual components ",
-          "author": "",
-          "categories": [
-            "Azure",
-            "Azure Virtual Desktop",
-            "Intune",
-            "Nerdio",
-            "Windows 365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Nerdio Manager showdown: Enterprise vs MSP",
-          "link": "https://dominiekverham.com/nerdio-manager-showdown-enterprise-vs-msp/",
-          "pubDate": "2026-07-23T11:40:32.000Z",
-          "summary": "What’s up, everyone! If you are managing virtual and physical desktops in the Microsoft ecosystem, chances are that you’ve heard about Nerdio and Nerdio Manager. Over the past few years, Nerdio has established itself as one of the leading management platforms for modern work, simplifying and optimiz",
-          "author": "",
-          "categories": [
-            "Azure",
-            "Azure Virtual Desktop",
-            "Nerdio",
-            "Windows 365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Using context-based redirections for Windows 365",
-          "link": "https://dominiekverham.com/using-context-based-redirections-for-windows-365/",
-          "pubDate": "2026-06-26T08:59:07.000Z",
-          "summary": "What’s up, everyone! It’s a good idea to think about securing access to corporate data when your users are working on a virtual desktop. Currently there are some good security features available for us to implement, like; Various security baselines Screen capture protection & watermarking Conditiona",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Windows 365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Optimizing Cloud PCs with Liquidware ProfileUnity: An updated guide",
-          "link": "https://dominiekverham.com/optimizing-cloud-pcs-with-liquidware-profileunity-an-updated-guide/",
-          "pubDate": "2026-06-25T00:00:00.000Z",
-          "summary": "What’s up, everyone! A while back I wrote a couple of posts on how to deploy Liquidware ProfileUnity to desktops in Azure Virtual Desktop, Windows 365 Cloud PCs and Intune managed Windows 11 devices. In this post I would like to give you an update on how to deploy the ProfileUnity standalone install",
-          "author": "",
-          "categories": [
-            "Azure Virtual Desktop",
-            "Intune",
-            "Liquidware",
-            "Windows 365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Securing the DaaS environment: protecting the management platform",
-          "link": "https://dominiekverham.com/securing-the-daas-environment-protecting-the-management-platform/",
-          "pubDate": "2026-05-06T13:37:41.000Z",
-          "summary": "What’s up, everyone! You might have heard about a recent cyber incident where the attackers were reportedly successful in wiping a lot of managed devices. The thing that stood out to me was that the management platform did what is was supposed to do since it was a legitimate command send from a comp",
-          "author": "",
-          "categories": [
-            "Azure",
-            "Azure Virtual Desktop",
-            "Entra",
-            "Intune",
-            "Windows 365"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-22T16:23:07.079Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-22T20:21:35.159Z",
+      "error": "HTTP 415"
     },
     {
       "id": "DieterKempeneers",
@@ -741,7 +504,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:06.254Z",
+      "fetchedAt": "2026-08-22T20:21:34.788Z",
       "error": "HTTP 403"
     },
     {
@@ -814,7 +577,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:06.501Z",
+      "fetchedAt": "2026-08-22T20:21:34.956Z",
       "error": null
     },
     {
@@ -896,7 +659,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:07.231Z",
+      "fetchedAt": "2026-08-22T20:21:35.229Z",
       "error": null
     },
     {
@@ -962,7 +725,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:08.103Z",
+      "fetchedAt": "2026-08-22T20:21:36.011Z",
       "error": null
     },
     {
@@ -972,7 +735,7 @@
       "type": "rss",
       "url": "https://cybercloudops.com/rss.xml",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:07.508Z",
+      "fetchedAt": "2026-08-22T20:21:35.420Z",
       "error": null
     },
     {
@@ -1052,7 +815,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:08.493Z",
+      "fetchedAt": "2026-08-22T20:21:36.175Z",
       "error": null
     },
     {
@@ -1107,7 +870,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:08.759Z",
+      "fetchedAt": "2026-08-22T20:21:36.433Z",
       "error": null
     },
     {
@@ -1172,7 +935,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:08.799Z",
+      "fetchedAt": "2026-08-22T20:21:36.488Z",
       "error": null
     },
     {
@@ -1256,7 +1019,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:08.657Z",
+      "fetchedAt": "2026-08-22T20:21:36.396Z",
       "error": null
     },
     {
@@ -1264,73 +1027,9 @@
       "label": "intunestuff.com",
       "type": "rss",
       "url": "https://joostgelijsteen.com/feed/",
-      "items": [
-        {
-          "title": "App Inventory in Intune just got a serious Upgrade",
-          "link": "https://joostgelijsteen.com/app-inventory-in-intune-just-got-a-upgrade/",
-          "pubDate": "2026-05-05T07:36:23.000Z",
-          "summary": "The old Discovered apps report had one fundamental problem. It refreshed on a seven-day cycle. By the time data reached you, it was already stale. Decisions made on week-old software inventory are decisions made with incomplete information, and in environments where applications install and change c",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Edge (MAM) on iOS Keeps removing the Work Account after Sign-in!: Why one Broken identity breaks it All",
-          "link": "https://joostgelijsteen.com/why-edge-mam-ios-keeps-removing-work-account/",
-          "pubDate": "2026-03-12T09:47:41.000Z",
-          "summary": "Right after enabling App Protection Policies (MAM) for iOS, one user suddenly couldn’t open any protected company data in Edge. Every time the user signed in with his work profile, the account appeared for a second, then vanished. Outlook and Teams still worked fine. Conditional Access wasn’t the is",
-          "author": "",
-          "categories": [
-            "Intune",
-            "MAM",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Designing an App Protection Policy that don’t backfire on your unmanaged devices",
-          "link": "https://joostgelijsteen.com/designing-app-protection-policy/",
-          "pubDate": "2026-03-06T08:25:50.000Z",
-          "summary": "An App Protection Policy for unmanaged devices is often described as a lighter form of device management. That description is inaccurate. It is not a reduced version of MDM. It exists because there is no device control in the first place. In an unmanaged scenario, the device is not enrolled. There i",
-          "author": "",
-          "categories": [
-            "MAM",
-            "Intune",
-            "security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Mobile Application Management Explained: How Intune MAM Works!",
-          "link": "https://joostgelijsteen.com/mobile-application-management-explained/",
-          "pubDate": "2026-02-23T09:32:35.000Z",
-          "summary": "Mobile Application Management protects corporate data inside mobile apps while leaving the device unmanaged. The protection boundary sits around the app, the signed in identity, and the work data, so you can secure information on personal, shared, partner, or contractor devices without enrollment or",
-          "author": "",
-          "categories": [
-            "Intune",
-            "MAM",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows device configuration policies are moving to Settings catalog template. What you need to know",
-          "link": "https://joostgelijsteen.com/settings-catalog-template/",
-          "pubDate": "2025-04-29T11:49:40.000Z",
-          "summary": "In recent months, Microsoft has been rolling out an important change that impacts how we configure Windows devices through Intune. If you’ve been using device configuration profiles based on the “Templates” (such as Endpoint Protection, Edition Upgrade, or Firewall settings), there’s now a shift und",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Windows 11"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-22T16:23:09.390Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-22T20:21:36.717Z",
+      "error": ""
     },
     {
       "id": "zerotrust",
@@ -1338,7 +1037,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:09.480Z",
+      "fetchedAt": "2026-08-22T20:21:36.811Z",
       "error": "HTTP 403"
     },
     {
@@ -1416,7 +1115,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:11.057Z",
+      "fetchedAt": "2026-08-22T20:21:38.265Z",
       "error": null
     },
     {
@@ -1425,7 +1124,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:09.927Z",
+      "fetchedAt": "2026-08-22T20:21:37.000Z",
       "error": "certificate has expired"
     },
     {
@@ -1495,7 +1194,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:10.103Z",
+      "fetchedAt": "2026-08-22T20:21:37.402Z",
       "error": null
     },
     {
@@ -1571,7 +1270,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:11.377Z",
+      "fetchedAt": "2026-08-22T20:21:38.595Z",
       "error": null
     },
     {
@@ -1637,7 +1336,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:12.368Z",
+      "fetchedAt": "2026-08-22T20:21:43.426Z",
       "error": null
     },
     {
@@ -1692,7 +1391,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:11.681Z",
+      "fetchedAt": "2026-08-22T20:21:38.704Z",
       "error": null
     },
     {
@@ -1762,7 +1461,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:11.998Z",
+      "fetchedAt": "2026-08-22T20:21:38.580Z",
       "error": null
     },
     {
@@ -1841,7 +1540,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:12.531Z",
+      "fetchedAt": "2026-08-22T20:21:43.574Z",
       "error": null
     },
     {
@@ -1849,80 +1548,9 @@
       "label": "ccmexec.com - Jörgen Nilsson",
       "type": "rss",
       "url": "https://ccmexec.com/feed/",
-      "items": [
-        {
-          "title": "Edge management service – extension monitoring",
-          "link": "https://ccmexec.com/2026/08/edge-management-service-extension-monitoring/",
-          "pubDate": "2026-08-17T08:01:37.000Z",
-          "summary": "Edge Management service provides some great insights and features that we don’t get when we manage Edge using Intune for example and the best thing it is Free.That is also why the Edge Management UI is in the Microsoft 365 Admin portal and not in the Intune portal. There are many interesting feature",
-          "author": "",
-          "categories": [
-            "Edge Management",
-            "General",
-            "Edge",
-            "Edge Management Service",
-            "Microsoft Edge"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft Intune Endpoint Privilege Management – Overview",
-          "link": "https://ccmexec.com/2026/06/microsoft-intune-endpoint-privilege-management-overview/",
-          "pubDate": "2026-06-14T14:44:18.000Z",
-          "summary": "Microsoft Intune Endpoint Privilege Management has been around for a couple of years now and address the challenge of removing local administrative privileges for users without interrupting productivity.In December 2025 Microsoft announced that they will add Microsoft Intune Endpoint Privilege Manag",
-          "author": "",
-          "categories": [
-            "Enterprise Mobility Suite",
-            "General",
-            "Intune"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "MMUGSE – Summer 2026 meetup",
-          "link": "https://ccmexec.com/2026/06/mmugse-summer-2026-meetup/",
-          "pubDate": "2026-06-10T06:03:41.000Z",
-          "summary": "On the 18th of June 2026 we will host a Microsoft Management User Group (MMUGSE) Meetup. We have a great session and speaker lineup for the day! MMUGSE Agenda 18/6Agenda:8:30 -9:30 Device Management update – Jörgen Nilsson & Nicklas AhlbergVi summerar de senaste nyheterna inom device management, Win",
-          "author": "",
-          "categories": [
-            "General",
-            "Intune",
-            "Meetup",
-            "MMUGSE",
-            "User Group"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows Backup for Organization – trigger backup using remediation",
-          "link": "https://ccmexec.com/2026/03/windows-backup-for-organization-trigger-backup-with-remediation/",
-          "pubDate": "2026-03-12T22:28:38.000Z",
-          "summary": "Windows Backup for Organizations is one of my favourite new features as it saves time for the end-users setting up their device after a restore or when they switch computer. For the end-user this is great and together with Onedrive known folder move and Enterprise State roaming the experience is gre",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Windows 11",
-            "Intune remediation",
-            "Windows Backup for Ogranizations"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Creating better Driver update groups",
-          "link": "https://ccmexec.com/2026/01/creating-better-driver-update-groups/",
-          "pubDate": "2026-01-27T07:10:37.000Z",
-          "summary": "When working with Driver Updates in Intune creating groups with different models are a challenge, which we will look at. But let’s start with having a look at how driver updates in Intune works.I for one use driver updates as a mean of having an easy way of blocking a Driver update if it causes... T",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Driver Updates",
-            "Intune Driver Updates"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-22T16:23:14.235Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-22T20:21:43.943Z",
+      "error": "HTTP 415"
     },
     {
       "id": "krebs",
@@ -2006,7 +1634,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:12.651Z",
+      "fetchedAt": "2026-08-22T20:21:43.691Z",
       "error": null
     },
     {
@@ -2062,7 +1690,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:12.729Z",
+      "fetchedAt": "2026-08-22T20:21:43.712Z",
       "error": null
     },
     {
@@ -2148,7 +1776,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:15.543Z",
+      "fetchedAt": "2026-08-22T20:21:45.180Z",
       "error": null
     },
     {
@@ -2234,7 +1862,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:14.276Z",
+      "fetchedAt": "2026-08-22T20:21:43.987Z",
       "error": null
     },
     {
@@ -2316,7 +1944,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:14.369Z",
+      "fetchedAt": "2026-08-22T20:21:44.108Z",
       "error": null
     },
     {
@@ -2371,7 +1999,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:14.422Z",
+      "fetchedAt": "2026-08-22T20:21:44.101Z",
       "error": null
     },
     {
@@ -2436,7 +2064,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:15.685Z",
+      "fetchedAt": "2026-08-22T20:21:45.460Z",
       "error": null
     },
     {
@@ -2445,7 +2073,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:15.793Z",
+      "fetchedAt": "2026-08-22T20:21:45.269Z",
       "error": "HTTP 404"
     },
     {
@@ -2454,55 +2082,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://conditionalaccess.uk/blog/feed/",
-      "items": [
-        {
-          "title": "Defender for Office tips and tricks guide",
-          "link": "https://conditionalaccess.uk/blog/defender-for-office-guide/",
-          "pubDate": "2026-08-07T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft 365 Business Standard vs Business Premium",
-          "link": "https://conditionalaccess.uk/blog/microsoft-365-business-standard-vs-business-premium/",
-          "pubDate": "2026-07-07T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Should I use Autopilot Device Preparation?",
-          "link": "https://conditionalaccess.uk/blog/should-i-use-autopilot-device-preparation/",
-          "pubDate": "2026-07-01T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft 365 Tenant Security Checklist",
-          "link": "https://conditionalaccess.uk/blog/m365-tenant-security-checklist/",
-          "pubDate": "2026-06-20T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft Defender is good enough",
-          "link": "https://conditionalaccess.uk/blog/microsoft-defender-is-good-enough/",
-          "pubDate": "2026-06-11T00:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-22T16:23:16.118Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-22T20:21:45.646Z",
+      "error": "HTTP 415"
     },
     {
       "id": "kandji",
@@ -2566,7 +2148,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:16.338Z",
+      "fetchedAt": "2026-08-22T20:21:45.547Z",
       "error": null
     },
     {
@@ -2574,81 +2156,9 @@
       "label": "allthingscloud.blog",
       "type": "rss",
       "url": "https://allthingscloud.blog/feed/",
-      "items": [
-        {
-          "title": "macOS Impact Analysis with Intune: Measure Twice, Restrict Once",
-          "link": "https://allthingscloud.blog/macos-impact-analysis-intune/",
-          "pubDate": "2026-03-24T01:34:27.000Z",
-          "summary": "Last Updated on March 24, 2026 by Oktay Sari You have read the CIS benchmark. You have gone through BIO (Baseline Informatiebeveiliging Overheid). Maybe you even run the mSCP compliance audit. The recommendations are clear: disable iCloud Desktop & Documents Sync, disable AirDrop, block Apple Intell",
-          "author": "",
-          "categories": [
-            "bash",
-            "CIS Benchmarks",
-            "Enterprise Mobility + Security",
-            "Intune",
-            "macOS"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Hunting Duplicate Device Records in Microsoft Defender",
-          "link": "https://allthingscloud.blog/duplicate-device-records-microsoft-defender-endpoint/",
-          "pubDate": "2026-02-19T18:08:54.000Z",
-          "summary": "Last Updated on February 20, 2026 by Oktay Sari “The same kind of script is sorely needed for Defender. It uses hostname as the unique identifier for Macs so any device name change creates a new record and uses up a license. It’s bonkers.” That was Luke on LinkedIn, commenting on my Entra ID duplica",
-          "author": "",
-          "categories": [
-            "Cyber Security",
-            "Defender for Endpoint",
-            "macOS",
-            "PowerShell",
-            "Scripting"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "The Hidden Life of Duplicate macOS Device Records in Entra ID",
-          "link": "https://allthingscloud.blog/duplicate-macos-device-records-entra-id/",
-          "pubDate": "2026-02-13T20:45:06.000Z",
-          "summary": "Last Updated on February 14, 2026 by Oktay Sari Picture this; You open the Entra ID portal, search for one of your managed Macs, and find three device records staring back at you. One says “MacMDM,” another says “macOS,” and the third looks like it hasn’t checked in since last summer. Which one is r",
-          "author": "",
-          "categories": [
-            "Enterprise Mobility + Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Auditing Homebrew Security with Microsoft Intune: Detect Supply Chain Risks on Your Mac Fleet",
-          "link": "https://allthingscloud.blog/auditing-homebrew-security-intune-mac-fleet/",
-          "pubDate": "2026-01-31T20:24:13.000Z",
-          "summary": "Last Updated on February 1, 2026 by Oktay Sari Let’s be real: Homebrew is amazing. It’s the missing package manager for macOS that every developer loves. However, in an enterprise environment, Homebrew can also be a security nightmare waiting to happen. World-writable binaries? Third-party taps from",
-          "author": "",
-          "categories": [
-            "bash",
-            "Cyber Security",
-            "Enterprise Mobility + Security",
-            "Intune",
-            "macOS"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "How to Update Your Apple Account When Your Organization Reclaims the Domain",
-          "link": "https://allthingscloud.blog/update-apple-id-work-email/",
-          "pubDate": "2026-01-22T09:35:39.000Z",
-          "summary": "Last Updated on January 22, 2026 by Oktay Sari Your Work Email Can’t Be Your Apple Account Anymore: Here’s What to Do A step-by-step guide to updating your Apple Account when your organization reclaims their domain So you just got an email from Apple telling you to change your Apple ID email address",
-          "author": "",
-          "categories": [
-            "Apple Business Manager",
-            "iOS",
-            "macOS",
-            "MDM",
-            "Microsoft Intune"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-22T16:23:16.983Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-22T20:21:46.029Z",
+      "error": ""
     },
     {
       "id": "macadminsnews",
@@ -2656,7 +2166,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:17.253Z",
+      "fetchedAt": "2026-08-22T20:21:46.382Z",
       "error": "HTTP 404"
     },
     {
@@ -2665,7 +2175,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:16.545Z",
+      "fetchedAt": "2026-08-22T20:21:45.903Z",
       "error": "HTTP 403"
     },
     {
@@ -2745,7 +2255,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:16.592Z",
+      "fetchedAt": "2026-08-22T20:21:45.916Z",
       "error": null
     },
     {
@@ -2818,7 +2328,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.466Z",
+      "fetchedAt": "2026-08-22T20:21:46.578Z",
       "error": null
     },
     {
@@ -2837,7 +2347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.383Z",
+      "fetchedAt": "2026-08-22T20:21:46.569Z",
       "error": null
     },
     {
@@ -2892,7 +2402,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.602Z",
+      "fetchedAt": "2026-08-22T20:21:46.908Z",
       "error": null
     },
     {
@@ -2978,7 +2488,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.579Z",
+      "fetchedAt": "2026-08-22T20:21:46.757Z",
       "error": null
     },
     {
@@ -3043,7 +2553,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.769Z",
+      "fetchedAt": "2026-08-22T20:21:47.096Z",
       "error": null
     },
     {
@@ -3109,7 +2619,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KPNPsO-72Kw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.653Z",
+      "fetchedAt": "2026-08-22T20:21:46.952Z",
       "error": null
     },
     {
@@ -3174,7 +2684,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4QvaaYA4nrM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.830Z",
+      "fetchedAt": "2026-08-22T20:21:47.177Z",
       "error": null
     },
     {
@@ -3239,7 +2749,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7YtnLOgCEEo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.770Z",
+      "fetchedAt": "2026-08-22T20:21:47.044Z",
       "error": null
     },
     {
@@ -3305,7 +2815,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.960Z",
+      "fetchedAt": "2026-08-22T20:21:47.316Z",
       "error": null
     },
     {
@@ -3371,7 +2881,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/tb-pqlYUkZk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.974Z",
+      "fetchedAt": "2026-08-22T20:21:47.353Z",
       "error": null
     },
     {
@@ -3437,7 +2947,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KgdkXpGT0ho/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:17.837Z",
+      "fetchedAt": "2026-08-22T20:21:47.318Z",
       "error": null
     },
     {
@@ -3502,7 +3012,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.131Z",
+      "fetchedAt": "2026-08-22T20:21:47.406Z",
       "error": null
     },
     {
@@ -3512,6 +3022,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure Backup: Effortless Backups for Native Resources #shorts",
+          "link": "https://www.youtube.com/shorts/6vngBGUsFow",
+          "pubDate": "2026-08-22T16:57:38.000Z",
+          "summary": "👉Full Video: https://youtu.be/3mmw9IrvoZ8 Azure Backup integrates seamlessly with native resources, often eliminating agents. For VMs, a snapshot extension ensures application-consistent backups. On-premises? The MARS agent or MABS handles it all. #AzureBackup #Azure #Microsoft #ITPro #CloudAdmin #",
+          "author": "Travis Roberts",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/6vngBGUsFow/hqdefault.jpg"
+        },
         {
           "title": "Your Azure Backups Don't Have to Be Complicated!",
           "link": "https://www.youtube.com/watch?v=3mmw9IrvoZ8",
@@ -3555,20 +3076,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i2.ytimg.com/vi/uJv9XyTd9F4/hqdefault.jpg"
-        },
-        {
-          "title": "MFA vs Conditional Access | They're Not the Same Thing!",
-          "link": "https://www.youtube.com/watch?v=IJBWO6JWrDo",
-          "pubDate": "2026-08-06T21:58:14.000Z",
-          "summary": "MFA vs Conditional Access: The Critical Entra ID Security Difference Explained! Are MFA and Conditional Access (CA) the same thing? They work closely together in Microsoft Entra ID, but they serve very different purposes. In this video, I explain the difference between Multi-factor authentication an",
-          "author": "Travis Roberts",
-          "categories": [],
-          "type": "video",
-          "videoId": "IJBWO6JWrDo",
-          "thumbnail": "https://i2.ytimg.com/vi/IJBWO6JWrDo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.252Z",
+      "fetchedAt": "2026-08-22T20:21:47.528Z",
       "error": null
     },
     {
@@ -3633,7 +3143,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/MJpPVD-Txzo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.255Z",
+      "fetchedAt": "2026-08-22T20:21:47.496Z",
       "error": null
     },
     {
@@ -3698,7 +3208,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TcfGHFGdSc4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.264Z",
+      "fetchedAt": "2026-08-22T20:21:47.511Z",
       "error": null
     },
     {
@@ -3763,7 +3273,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.292Z",
+      "fetchedAt": "2026-08-22T20:21:47.566Z",
       "error": null
     },
     {
@@ -3828,7 +3338,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.420Z",
+      "fetchedAt": "2026-08-22T20:21:47.705Z",
       "error": null
     },
     {
@@ -3893,7 +3403,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.585Z",
+      "fetchedAt": "2026-08-22T20:21:47.749Z",
       "error": null
     },
     {
@@ -3958,7 +3468,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.482Z",
+      "fetchedAt": "2026-08-22T20:21:47.747Z",
       "error": null
     },
     {
@@ -4014,7 +3524,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.508Z",
+      "fetchedAt": "2026-08-22T20:21:47.742Z",
       "error": null
     },
     {
@@ -4024,7 +3534,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:18.949Z",
+      "fetchedAt": "2026-08-22T20:21:47.907Z",
       "error": null
     },
     {
@@ -4090,7 +3600,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:19.517Z",
+      "fetchedAt": "2026-08-22T20:21:48.672Z",
       "error": null
     },
     {
@@ -4146,7 +3656,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:18.648Z",
+      "fetchedAt": "2026-08-22T20:21:47.795Z",
       "error": null
     },
     {
@@ -4175,7 +3685,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:19.067Z",
+      "fetchedAt": "2026-08-22T20:21:48.085Z",
       "error": null
     },
     {
@@ -4231,7 +3741,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:19.551Z",
+      "fetchedAt": "2026-08-22T20:21:48.697Z",
       "error": null
     },
     {
@@ -4241,7 +3751,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-22T16:23:19.711Z",
+      "fetchedAt": "2026-08-22T20:21:48.754Z",
       "error": null
     },
     {
@@ -4251,6 +3761,15 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
+        {
+          "title": "Support tip: Restore the Managed Home Screen Exit PIN",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-restore-the-managed-home-screen-exit-pin/ba-p/4549102",
+          "pubDate": "2026-08-21T21:53:41.000Z",
+          "summary": "<P>We identified and resolved a recent issue (IT1450132) that could cause the configured Managed Home Screen exit PIN to be removed from some existing Android Enterprise when updating older device configuration policies. &nbsp;While a fix has been deployed to address this, if a policy was already af",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Configure Delivery Optimization for Windows to save bandwidth and speed up deployments",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/configure-delivery-optimization-for-windows-to-save-bandwidth/ba-p/4547592",
@@ -4286,18 +3805,9 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Build a patch strategy for today’s threat pace with Microsoft",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/build-a-patch-strategy-for-today-s-threat-pace-with-microsoft/ba-p/4535115",
-          "pubDate": "2026-07-10T17:18:27.000Z",
-          "summary": "<P>AI-accelerated vulnerability discovery and remediation are changing how organizations manage risk. As discussed in Pavan Davuluri’s recent <A class=\"lia-external-url\" href=\"https://blogs.windows.com/windowsexperience/2026/07/09/evolving-windows-vulnerability-management-to-meet-the-speed-of-ai-pow",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:19.558Z",
+      "fetchedAt": "2026-08-22T20:21:48.704Z",
       "error": null
     },
     {
@@ -4317,7 +3827,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:19.565Z",
+      "fetchedAt": "2026-08-22T20:21:48.706Z",
       "error": null
     },
     {
@@ -4373,7 +3883,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:24.273Z",
+      "fetchedAt": "2026-08-22T20:21:53.287Z",
       "error": null
     },
     {
@@ -4429,7 +3939,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:20.444Z",
+      "fetchedAt": "2026-08-22T20:21:49.318Z",
       "error": null
     },
     {
@@ -4484,7 +3994,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:19.967Z",
+      "fetchedAt": "2026-08-22T20:21:48.979Z",
       "error": null
     },
     {
@@ -4539,7 +4049,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:19.994Z",
+      "fetchedAt": "2026-08-22T20:21:48.917Z",
       "error": null
     },
     {
@@ -4604,7 +4114,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-22T16:23:25.000Z",
+      "fetchedAt": "2026-08-22T20:21:55.080Z",
       "error": null
     }
   ]
