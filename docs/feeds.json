@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:49:55.916Z",
+  "generatedAt": "2026-08-24T16:37:06.526Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,10 +8,48 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Chrome tests Gemini activity logs for downloads and password fills",
-          "link": "https://4sysops.com/archives/chrome-tests-gemini-activity-logs-for-downloads-and-password-fills/",
-          "pubDate": "2026-08-24T10:31:37.000Z",
-          "summary": "Chrome is testing “Critical Actions in History,” a new Chrome Canary feature that records what Gemini does during browser tasks. The audit view follows Google’s experiments with letting Gemini use saved passwords to complete web tasks, adding visibility into actions such as password fills, file down",
+          "title": "95% of enterprises delayed AI projects",
+          "link": "https://4sysops.com/archives/95-of-enterprises-delayed-ai-projects/",
+          "pubDate": "2026-08-24T16:36:27.000Z",
+          "summary": "Source]]>",
+          "author": "",
+          "categories": [
+            "News"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Critical VMware Tanzu Spring flaws expose administrator access and isolated data",
+          "link": "https://4sysops.com/archives/critical-vmware-tanzu-spring-flaws-expose-administrator-access-and-isolated-data/",
+          "pubDate": "2026-08-24T16:30:50.000Z",
+          "summary": "VMware Tanzu Spring software is facing a broad wave of security fixes, including a critical LDAP flaw that can grant administrator access and let attackers alter user identities. Additional weaknesses affect Spring Security, Spring AI, and Spring GraphQL, while CERT-Bund has separately reported mult",
+          "author": "",
+          "categories": [
+            "News",
+            "Security",
+            "Virtualization"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "GPT-5.6 Terra and Luna reach AWS GovCloud with 1M-token context",
+          "link": "https://4sysops.com/archives/gpt-5-6-terra-and-luna-reach-aws-govcloud-with-1m-token-context/",
+          "pubDate": "2026-08-24T16:30:49.000Z",
+          "summary": "OpenAI’s GPT-5.6 Terra and Luna models are now generally available through Amazon Bedrock in both AWS GovCloud (US-East) and AWS GovCloud (US-West), bringing advanced AI workloads to AWS’s isolated government cloud regions. The release combines a choice between balanced and fast inference with a one",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "AWS",
+            "Cloud Computing"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "ChatGPT’s Reddit citations plunged after a major search behavior shift",
+          "link": "https://4sysops.com/archives/chatgpts-reddit-citations-plunged-after-a-major-search-behavior-shift/",
+          "pubDate": "2026-08-24T16:30:48.000Z",
+          "summary": "ChatGPT Search sharply reduced its Reddit citations in August 2026, with Reddit’s share falling from 3.83% to 0.52% in Promptwatch’s tracking. The timing coincides with ChatGPT greatly increasing domain-specific `site:` searches and nearly doubling the number of web queries it performs for each answ",
           "author": "",
           "categories": [
             "News",
@@ -21,58 +59,19 @@
           "type": "rss"
         },
         {
-          "title": "GPT-5.6 Sol gets a 33% API price cut—but only through November 21",
-          "link": "https://4sysops.com/archives/gpt-5-6-sol-gets-a-33-api-price-cut-but-only-through-november-21/",
-          "pubDate": "2026-08-24T10:31:36.000Z",
-          "summary": "OpenAI is temporarily cutting GPT-5.6 Sol API pricing by up to 33.3%, lowering generated-output costs from $30 to $20 per million tokens through November 21, 2026. The promotion follows July’s GPT-5.6 repricing, which reduced Terra and Luna prices but left Sol at its original rates. Source]]>",
+          "title": "Hermes Agent v0.20.3 turns local profiles into collaborating bots",
+          "link": "https://4sysops.com/archives/hermes-agent-v0-20-3-turns-local-profiles-into-collaborating-bots/",
+          "pubDate": "2026-08-24T16:30:46.000Z",
+          "summary": "Nous Research has bundled Bot Mode into Hermes Desktop and enabled it by default in Hermes Agent v0.20.3, moving the feature from a one-day public beta into the main product. It turns each Hermes profile into a named bot with separate memory, credentials, skills, chat history, and model settings, th",
           "author": "",
           "categories": [
             "News",
             "AI"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Windows 11 brings back File Explorer previews with a safer “Preview anyway” button",
-          "link": "https://4sysops.com/archives/windows-11-brings-back-file-explorer-previews-with-a-safer-preview-anyway-button/",
-          "pubDate": "2026-08-24T10:31:35.000Z",
-          "summary": "Windows 11 is restoring File Explorer previews for internet-downloaded files, but with a new “Preview anyway” override instead of removing the security block. The change builds on recently restored previews for downloaded PDFs and other non-HTML files and should let users view trusted files without ",
-          "author": "",
-          "categories": [
-            "News",
-            "Security",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 11 Smart App Control drops its clean-install barrier",
-          "link": "https://4sysops.com/archives/windows-11-smart-app-control-drops-its-clean-install-barrier/",
-          "pubDate": "2026-08-24T10:31:34.000Z",
-          "summary": "Microsoft has removed the clean-install prerequisite for Smart App Control, allowing supported Windows 11 users to try the security feature on existing installations. The Windows 11-exclusive protection can block unsigned or untrusted applications before they run, while potentially using fewer resou",
-          "author": "",
-          "categories": [
-            "News",
-            "Security",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "OneDrive for Mac is getting a faster, leaner sync engine",
-          "link": "https://4sysops.com/archives/onedrive-for-mac-is-getting-a-faster-leaner-sync-engine/",
-          "pubDate": "2026-08-24T10:31:33.000Z",
-          "summary": "Microsoft is preparing a native OneDrive sync engine for macOS that should make both initial account setup and ongoing file synchronization significantly faster. The update also promises lower CPU, memory, and battery usage while making synced files appear more promptly in Finder. Source]]>",
-          "author": "",
-          "categories": [
-            "News",
-            "Mac",
-            "Storage"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:16.743Z",
+      "fetchedAt": "2026-08-24T16:36:27.623Z",
       "error": null
     },
     {
@@ -115,7 +114,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:17.056Z",
+      "fetchedAt": "2026-08-24T16:36:27.848Z",
       "error": null
     },
     {
@@ -201,7 +200,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:16.440Z",
+      "fetchedAt": "2026-08-24T16:36:27.325Z",
       "error": null
     },
     {
@@ -276,7 +275,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:17.106Z",
+      "fetchedAt": "2026-08-24T16:36:27.905Z",
       "error": null
     },
     {
@@ -352,7 +351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:18.924Z",
+      "fetchedAt": "2026-08-24T16:36:31.904Z",
       "error": null
     },
     {
@@ -435,7 +434,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:17.368Z",
+      "fetchedAt": "2026-08-24T16:36:28.166Z",
       "error": null
     },
     {
@@ -508,7 +507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:17.359Z",
+      "fetchedAt": "2026-08-24T16:36:28.167Z",
       "error": null
     },
     {
@@ -577,7 +576,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:17.592Z",
+      "fetchedAt": "2026-08-24T16:36:28.489Z",
       "error": null
     },
     {
@@ -651,7 +650,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:19.064Z",
+      "fetchedAt": "2026-08-24T16:36:32.018Z",
       "error": null
     },
     {
@@ -732,7 +731,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:22.402Z",
+      "fetchedAt": "2026-08-24T16:36:32.910Z",
       "error": null
     },
     {
@@ -742,7 +741,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-08-24T12:49:19.218Z",
+      "fetchedAt": "2026-08-24T16:36:32.192Z",
       "error": "HTTP 403"
     },
     {
@@ -815,7 +814,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:19.450Z",
+      "fetchedAt": "2026-08-24T16:36:32.268Z",
       "error": null
     },
     {
@@ -897,7 +896,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:22.552Z",
+      "fetchedAt": "2026-08-24T16:36:32.972Z",
       "error": null
     },
     {
@@ -963,7 +962,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:23.497Z",
+      "fetchedAt": "2026-08-24T16:36:33.927Z",
       "error": null
     },
     {
@@ -1029,7 +1028,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:22.858Z",
+      "fetchedAt": "2026-08-24T16:36:33.348Z",
       "error": null
     },
     {
@@ -1109,7 +1108,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:23.725Z",
+      "fetchedAt": "2026-08-24T16:36:33.654Z",
       "error": null
     },
     {
@@ -1164,7 +1163,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:23.905Z",
+      "fetchedAt": "2026-08-24T16:36:34.206Z",
       "error": null
     },
     {
@@ -1229,7 +1228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:24.191Z",
+      "fetchedAt": "2026-08-24T16:36:34.215Z",
       "error": null
     },
     {
@@ -1313,7 +1312,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:23.929Z",
+      "fetchedAt": "2026-08-24T16:36:34.153Z",
       "error": null
     },
     {
@@ -1386,7 +1385,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:24.614Z",
+      "fetchedAt": "2026-08-24T16:36:34.859Z",
       "error": null
     },
     {
@@ -1395,7 +1394,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-24T12:49:24.789Z",
+      "fetchedAt": "2026-08-24T16:36:34.937Z",
       "error": "HTTP 403"
     },
     {
@@ -1473,7 +1472,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:26.432Z",
+      "fetchedAt": "2026-08-24T16:36:36.440Z",
       "error": null
     },
     {
@@ -1482,7 +1481,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-24T12:49:25.176Z",
+      "fetchedAt": "2026-08-24T16:36:35.194Z",
       "error": "certificate has expired"
     },
     {
@@ -1552,7 +1551,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:25.402Z",
+      "fetchedAt": "2026-08-24T16:36:35.542Z",
       "error": null
     },
     {
@@ -1628,7 +1627,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:26.819Z",
+      "fetchedAt": "2026-08-24T16:36:36.668Z",
       "error": null
     },
     {
@@ -1637,65 +1636,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Uninstalling Windows 11 Updates",
-          "link": "https://www.deploymentresearch.com/uninstalling-windows-11-updates/",
-          "pubDate": "2026-07-27T02:54:54.000Z",
-          "summary": "Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell models. Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell […] ",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
-          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
-          "pubDate": "2026-07-13T04:18:01.000Z",
-          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Follow-Up Resources from the May 14, 2026 Intune Event",
-          "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
-          "pubDate": "2026-05-15T14:47:47.000Z",
-          "summary": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links PatchMyPChttps://patchmypc.com Deploy",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-24T12:49:34.445Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-24T16:36:52.588Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "mattzaske",
@@ -1749,7 +1692,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:26.980Z",
+      "fetchedAt": "2026-08-24T16:36:36.902Z",
       "error": null
     },
     {
@@ -1819,7 +1762,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:27.549Z",
+      "fetchedAt": "2026-08-24T16:36:36.911Z",
       "error": null
     },
     {
@@ -1898,7 +1841,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:34.610Z",
+      "fetchedAt": "2026-08-24T16:36:52.729Z",
       "error": null
     },
     {
@@ -1978,7 +1921,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:36.465Z",
+      "fetchedAt": "2026-08-24T16:36:54.558Z",
       "error": null
     },
     {
@@ -2063,7 +2006,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:34.666Z",
+      "fetchedAt": "2026-08-24T16:36:52.901Z",
       "error": null
     },
     {
@@ -2119,7 +2062,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:34.743Z",
+      "fetchedAt": "2026-08-24T16:36:52.881Z",
       "error": null
     },
     {
@@ -2205,7 +2148,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:37.706Z",
+      "fetchedAt": "2026-08-24T16:36:55.875Z",
       "error": null
     },
     {
@@ -2291,7 +2234,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:36.585Z",
+      "fetchedAt": "2026-08-24T16:36:54.749Z",
       "error": null
     },
     {
@@ -2374,7 +2317,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:36.742Z",
+      "fetchedAt": "2026-08-24T16:36:54.697Z",
       "error": null
     },
     {
@@ -2429,7 +2372,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:36.699Z",
+      "fetchedAt": "2026-08-24T16:36:54.702Z",
       "error": null
     },
     {
@@ -2494,7 +2437,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:38.178Z",
+      "fetchedAt": "2026-08-24T16:36:56.014Z",
       "error": null
     },
     {
@@ -2503,7 +2446,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-24T12:49:37.894Z",
+      "fetchedAt": "2026-08-24T16:36:56.103Z",
       "error": "HTTP 404"
     },
     {
@@ -2559,7 +2502,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:44.270Z",
+      "fetchedAt": "2026-08-24T16:36:56.591Z",
       "error": null
     },
     {
@@ -2624,7 +2567,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:38.496Z",
+      "fetchedAt": "2026-08-24T16:36:56.426Z",
       "error": null
     },
     {
@@ -2705,7 +2648,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:45.427Z",
+      "fetchedAt": "2026-08-24T16:36:57.193Z",
       "error": null
     },
     {
@@ -2714,7 +2657,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-24T12:49:45.199Z",
+      "fetchedAt": "2026-08-24T16:36:57.599Z",
       "error": "HTTP 404"
     },
     {
@@ -2723,7 +2666,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-24T12:49:44.506Z",
+      "fetchedAt": "2026-08-24T16:36:56.786Z",
       "error": "HTTP 403"
     },
     {
@@ -2803,7 +2746,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:44.561Z",
+      "fetchedAt": "2026-08-24T16:36:56.800Z",
       "error": null
     },
     {
@@ -2876,7 +2819,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:45.589Z",
+      "fetchedAt": "2026-08-24T16:36:57.861Z",
       "error": null
     },
     {
@@ -2895,7 +2838,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:45.828Z",
+      "fetchedAt": "2026-08-24T16:36:57.763Z",
       "error": null
     },
     {
@@ -2950,7 +2893,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:45.759Z",
+      "fetchedAt": "2026-08-24T16:36:58.033Z",
       "error": null
     },
     {
@@ -3036,7 +2979,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:45.783Z",
+      "fetchedAt": "2026-08-24T16:36:58.164Z",
       "error": null
     },
     {
@@ -3101,7 +3044,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.207Z",
+      "fetchedAt": "2026-08-24T16:36:58.309Z",
       "error": null
     },
     {
@@ -3111,6 +3054,28 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "Project Perception - Cybersecurity at the speed of AI",
+          "link": "https://www.youtube.com/watch?v=hYjgSu-77pA",
+          "pubDate": "2026-08-24T14:40:44.000Z",
+          "summary": "Overview and demo of Project Perception! Whiteboard at https://github.com/johnthebrit/RandomStuff/raw/master/Whiteboards/Perception.png 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:13 -",
+          "author": "John Savill's Technical Training",
+          "categories": [],
+          "type": "video",
+          "videoId": "hYjgSu-77pA",
+          "thumbnail": "https://i1.ytimg.com/vi/hYjgSu-77pA/hqdefault.jpg"
+        },
+        {
+          "title": "Perception Quick Overview #security #cybersecurity",
+          "link": "https://www.youtube.com/shorts/TZc5uGySFi0",
+          "pubDate": "2026-08-24T14:39:54.000Z",
+          "summary": "Quick overview of Microsoft's Project Perception, agentic end-to-end security.",
+          "author": "John Savill's Technical Training",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i1.ytimg.com/vi/TZc5uGySFi0/hqdefault.jpg"
+        },
         {
           "title": "Azure Update 21st August 2026",
           "link": "https://www.youtube.com/watch?v=OLfRPH319IQ",
@@ -3143,31 +3108,9 @@
           "type": "video",
           "videoId": "WK2BvjOYTCQ",
           "thumbnail": "https://i4.ytimg.com/vi/WK2BvjOYTCQ/hqdefault.jpg"
-        },
-        {
-          "title": "500K Ask Me Anything YouTube Live Stream",
-          "link": "https://www.youtube.com/watch?v=hXRPm7r4Q14",
-          "pubDate": "2026-08-16T18:54:36.000Z",
-          "summary": "An AMA to celebrate hitting 500,000 subscribers. A great 60 minutes of interactive Q&A!",
-          "author": "John Savill's Technical Training",
-          "categories": [],
-          "type": "video",
-          "videoId": "hXRPm7r4Q14",
-          "thumbnail": "https://i1.ytimg.com/vi/hXRPm7r4Q14/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Update 14th August 2026",
-          "link": "https://www.youtube.com/watch?v=KPNPsO-72Kw",
-          "pubDate": "2026-08-14T15:17:52.000Z",
-          "summary": "Quick update but nice milestone hit this week. Thank you for all the support. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they ",
-          "author": "John Savill's Technical Training",
-          "categories": [],
-          "type": "video",
-          "videoId": "KPNPsO-72Kw",
-          "thumbnail": "https://i4.ytimg.com/vi/KPNPsO-72Kw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.242Z",
+      "fetchedAt": "2026-08-24T16:36:58.198Z",
       "error": null
     },
     {
@@ -3232,7 +3175,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4QvaaYA4nrM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.229Z",
+      "fetchedAt": "2026-08-24T16:36:58.331Z",
       "error": null
     },
     {
@@ -3297,7 +3240,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7YtnLOgCEEo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.249Z",
+      "fetchedAt": "2026-08-24T16:36:58.301Z",
       "error": null
     },
     {
@@ -3363,7 +3306,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.384Z",
+      "fetchedAt": "2026-08-24T16:36:58.467Z",
       "error": null
     },
     {
@@ -3429,7 +3372,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/tb-pqlYUkZk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.414Z",
+      "fetchedAt": "2026-08-24T16:36:58.454Z",
       "error": null
     },
     {
@@ -3495,7 +3438,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KgdkXpGT0ho/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.401Z",
+      "fetchedAt": "2026-08-24T16:36:58.444Z",
       "error": null
     },
     {
@@ -3560,7 +3503,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.388Z",
+      "fetchedAt": "2026-08-24T16:36:58.592Z",
       "error": null
     },
     {
@@ -3626,7 +3569,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QmB8iFhmI6E/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.601Z",
+      "fetchedAt": "2026-08-24T16:36:58.784Z",
       "error": null
     },
     {
@@ -3691,7 +3634,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/MJpPVD-Txzo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.608Z",
+      "fetchedAt": "2026-08-24T16:36:58.709Z",
       "error": null
     },
     {
@@ -3756,7 +3699,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TcfGHFGdSc4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.582Z",
+      "fetchedAt": "2026-08-24T16:36:58.705Z",
       "error": null
     },
     {
@@ -3821,7 +3764,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.644Z",
+      "fetchedAt": "2026-08-24T16:36:58.706Z",
       "error": null
     },
     {
@@ -3886,7 +3829,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.775Z",
+      "fetchedAt": "2026-08-24T16:36:58.897Z",
       "error": null
     },
     {
@@ -3951,7 +3894,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.817Z",
+      "fetchedAt": "2026-08-24T16:36:58.900Z",
       "error": null
     },
     {
@@ -4016,7 +3959,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:46.782Z",
+      "fetchedAt": "2026-08-24T16:36:58.893Z",
       "error": null
     },
     {
@@ -4072,7 +4015,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:47.241Z",
+      "fetchedAt": "2026-08-24T16:36:59.099Z",
       "error": null
     },
     {
@@ -4082,7 +4025,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-24T12:49:48.257Z",
+      "fetchedAt": "2026-08-24T16:36:59.262Z",
       "error": null
     },
     {
@@ -4148,7 +4091,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:48.694Z",
+      "fetchedAt": "2026-08-24T16:36:59.959Z",
       "error": null
     },
     {
@@ -4204,7 +4147,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:47.321Z",
+      "fetchedAt": "2026-08-24T16:36:59.163Z",
       "error": null
     },
     {
@@ -4218,7 +4161,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-08-12T03:17:00.000Z",
-          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4233,7 +4176,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:47.824Z",
+      "fetchedAt": "2026-08-24T16:36:59.588Z",
       "error": null
     },
     {
@@ -4289,7 +4232,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:48.707Z",
+      "fetchedAt": "2026-08-24T16:36:59.995Z",
       "error": null
     },
     {
@@ -4299,7 +4242,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-24T12:49:48.938Z",
+      "fetchedAt": "2026-08-24T16:37:00.098Z",
       "error": null
     },
     {
@@ -4355,7 +4298,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:48.715Z",
+      "fetchedAt": "2026-08-24T16:36:59.984Z",
       "error": null
     },
     {
@@ -4375,7 +4318,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:48.787Z",
+      "fetchedAt": "2026-08-24T16:37:00.033Z",
       "error": null
     },
     {
@@ -4404,6 +4347,15 @@
           "type": "official"
         },
         {
+          "title": "Jamf After Dark: JNUC",
+          "link": "https://www.jamf.com/blog/jamf-after-dark-jnuc-2026-preview/",
+          "pubDate": null,
+          "summary": "Kat Garbis and Josh Thornton sit down with Jeff Ovik and Kelsey Dahl to preview JNUC 2026 in Kansas City &mdash; new programs, sessions and the after-party. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "AI moves faster than your controls. Here’s how to fix it.",
           "link": "https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security-part-2/",
           "pubDate": null,
@@ -4420,18 +4372,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "AmnesiaStealer: a multi-stage Rust-based macOS infostealer that hijacks Chromium browsers",
-          "link": "https://www.jamf.com/blog/amnesia-stealer-macos-infostealer-clickfix/",
-          "pubDate": null,
-          "summary": "Jamf Threat Labs discovers and investigates AmnesiaStealer, a multi-stage Rust-based macOS infostealer spread through a counterfeit GitHub download page that captures the login password, reaches for macOS bypasses Apple has already patched, and can hand the operator live, hidden control of the victi",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:53.567Z",
+      "fetchedAt": "2026-08-24T16:37:04.898Z",
       "error": null
     },
     {
@@ -4487,7 +4430,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:49.847Z",
+      "fetchedAt": "2026-08-24T16:37:00.831Z",
       "error": null
     },
     {
@@ -4542,7 +4485,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:49.226Z",
+      "fetchedAt": "2026-08-24T16:37:00.221Z",
       "error": null
     },
     {
@@ -4551,6 +4494,15 @@
       "type": "audio",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
       "items": [
+        {
+          "title": "Unit Testing Your Cloud with Mike Soule",
+          "link": "https://powershellpodcast.podbean.com/e/unit-testing-your-cloud-with-mike-soule/",
+          "pubDate": "2026-08-24T14:00:00.000Z",
+          "summary": "Maester brings the concept of unit testing to Microsoft 365 security configuration, letting admins continuously validate their cloud settings against known-good baselines with as few as three PowerShell commands. It's built on Pester, is fully open source, and now has over 100 community contributors",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
         {
           "title": "What PowerShell taught TJ Turner About IT",
           "link": "https://powershellpodcast.podbean.com/e/what-powershell-taught-tj-turner-about-it/",
@@ -4586,18 +4538,9 @@
           "author": "",
           "categories": [],
           "type": "audio"
-        },
-        {
-          "title": "Jake Hildreth on PSConf EU, Stepper Updates, and Taking the Day Off",
-          "link": "https://powershellpodcast.podbean.com/e/jake-hildreth-on-psconf-eu-stepper-updates-and-taking-the-day-off/",
-          "pubDate": "2026-07-20T14:00:00.000Z",
-          "summary": "Stepper has gotten some meaningful quality-of-life updates since Jake last appeared on the show, including named steps, automatic logging, and the ability to suppress secrets from logs — making it more practical for real-world production scripts. PSConf EU punches above its weight as a conference ex",
-          "author": "",
-          "categories": [],
-          "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:49.239Z",
+      "fetchedAt": "2026-08-24T16:37:00.249Z",
       "error": null
     },
     {
@@ -4662,7 +4605,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-24T12:49:55.916Z",
+      "fetchedAt": "2026-08-24T16:37:06.526Z",
       "error": null
     }
   ]
