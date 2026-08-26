@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T12:51:14.468Z",
+  "generatedAt": "2026-08-26T16:47:36.142Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,49 +8,10 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Cerebras CS-5 targets 10,000 tokens per second as CS-4 goes rack-scale",
-          "link": "https://4sysops.com/archives/cerebras-cs-5-targets-10000-tokens-per-second-as-cs-4-goes-rack-scale/",
-          "pubDate": "2026-08-26T09:38:20.000Z",
-          "summary": "Cerebras is turning its wafer-scale processors into a reusable datacenter platform with the CS-4 Nexus rack, while setting a 2027 target of up to 10,000 output tokens per second per user for CS-5. The design could let operators upgrade compute without replacing the rack’s power, cooling, and I/O inf",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Hardware"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "ChatGPT Business Premium is live with 5x usage for power users",
-          "link": "https://4sysops.com/archives/chatgpt-business-premium-is-live-with-5x-usage-for-power-users/",
-          "pubDate": "2026-08-26T09:38:19.000Z",
-          "summary": "OpenAI has made ChatGPT Business Premium seats generally available, giving organizations a way to remove the Standard plan’s five-hour usage ceiling for selected employees instead of upgrading an entire workspace. Premium costs $100 per user per month with annual billing or $125 month to month, whil",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Business Software"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Perplexity Portable Computer brings zero-token AI agents to local Nvidia hardware",
-          "link": "https://4sysops.com/archives/perplexity-portable-computer-brings-zero-token-ai-agents-to-local-nvidia-hardware/",
-          "pubDate": "2026-08-26T09:38:18.000Z",
-          "summary": "Perplexity has launched Portable Computer, a local-first AI agent that runs its core runtime and language models on Nvidia hardware instead of sending most work to the cloud. The approach gives Perplexity Pro and Max subscribers zero token costs for tasks completed locally, while preserving the opti",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Hardware"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Bill Gates’s new essay on the AI future he fears",
-          "link": "https://4sysops.com/archives/bill-gatess-new-essay-on-the-ai-future-he-fears/",
-          "pubDate": "2026-08-26T09:38:17.000Z",
-          "summary": "Bill Gates says governments are unprepared for an AI transition that could eliminate large numbers of entry- and mid-level jobs within a decade. He is calling for new national and international institutions, protected human-only roles, and taxes on AI and robots before economic disruption erodes pub",
+          "title": "Z.AI confirms Ox Alpha after stealth launch overtakes DeepSeek",
+          "link": "https://4sysops.com/archives/z-ai-confirms-ox-alpha-after-stealth-launch-overtakes-deepseek/",
+          "pubDate": "2026-08-26T16:08:39.000Z",
+          "summary": "China’s Z.AI has confirmed that its anonymously launched Ox Alpha model is a new GLM-series system after it rapidly became OpenRouter’s most-used model. The free reasoning model reportedly more than doubled DeepSeek’s usage, and Z.AI plans to publish its weights, enabling developers to run and adapt",
           "author": "",
           "categories": [
             "News",
@@ -59,20 +20,57 @@
           "type": "rss"
         },
         {
-          "title": "Microsoft Marketplace rolls out AI-powered discovery worldwide",
-          "link": "https://4sysops.com/archives/microsoft-marketplace-rolls-out-ai-powered-discovery-worldwide/",
-          "pubDate": "2026-08-26T09:28:58.000Z",
-          "summary": "Microsoft has made Intelligent Discovery in Microsoft Marketplace generally available worldwide, giving customers a conversational way to find, compare, and evaluate cloud, AI, and agent solutions. Instead of starting with a product name or keyword, buyers can describe a business problem in natural ",
+          "title": "SLEEPWALKER backdoor hides in ESET agent and wakes on a crafted packet",
+          "link": "https://4sysops.com/archives/sleepwalker-backdoor-hides-in-eset-agent-and-wakes-on-a-crafted-packet/",
+          "pubDate": "2026-08-26T15:46:43.000Z",
+          "summary": "A newly documented Windows backdoor named SLEEPWALKER can remain inactive in memory until it receives a specially formed network packet, then execute commands through a private 23-instruction bytecode. The 59,904-byte unsigned DLL impersonates Microsoft’s `dpapi.dll` while side-loading through ESET ",
+          "author": "",
+          "categories": [
+            "News",
+            "Security",
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "IBM Granite 4.2 brings configurable reasoning and agent tools to open weights",
+          "link": "https://4sysops.com/archives/ibm-granite-4-2-brings-configurable-reasoning-and-agent-tools-to-open-weights/",
+          "pubDate": "2026-08-26T15:46:42.000Z",
+          "summary": "IBM’s Granite 4.2 family gives organizations a new way to run enterprise AI agents locally: the 8B and 30B models can use tools, execute code, and search the web, while operators can switch reasoning on or off to control latency and compute. The 3B, 8B, and 30B models support up to 512,000-token con",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft Paint and Photos watermark even locally generated AI images",
+          "link": "https://4sysops.com/archives/microsoft-paint-and-photos-watermark-even-locally-generated-ai-images/",
+          "pubDate": "2026-08-26T15:46:41.000Z",
+          "summary": "Microsoft Paint and Photos embed invisible, server-issued GUID watermarks in AI-generated or edited images—even when Copilot+ PCs process the image locally. Reverse-engineering shows the apps still contact Microsoft Azure for prompt moderation, then write the returned identifier into the image and i",
           "author": "",
           "categories": [
             "News",
             "AI",
-            "Business Software"
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Self-hosted email falls to 22.4% as Google and Microsoft gain control",
+          "link": "https://4sysops.com/archives/self-hosted-email-falls-to-22-4-as-google-and-microsoft-gain-control/",
+          "pubDate": "2026-08-26T15:46:40.000Z",
+          "summary": "Self-hosted email has fallen from 44.6% of the top million domains in 2016 to just 22.4% in 2026, while Google Workspace and Microsoft 365 now account for 38.6% of detectable MX records. The shift gives two providers growing influence over mail delivery, filtering, outages, and authentication polici",
+          "author": "",
+          "categories": [
+            "News",
+            "Networking"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:51.529Z",
+      "fetchedAt": "2026-08-26T16:47:05.736Z",
       "error": null
     },
     {
@@ -115,7 +113,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:52.067Z",
+      "fetchedAt": "2026-08-26T16:47:06.054Z",
       "error": null
     },
     {
@@ -201,7 +199,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:51.095Z",
+      "fetchedAt": "2026-08-26T16:47:05.509Z",
       "error": null
     },
     {
@@ -279,7 +277,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:51.744Z",
+      "fetchedAt": "2026-08-26T16:47:05.926Z",
       "error": null
     },
     {
@@ -355,7 +353,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:53.620Z",
+      "fetchedAt": "2026-08-26T16:47:07.906Z",
       "error": null
     },
     {
@@ -437,7 +435,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:52.374Z",
+      "fetchedAt": "2026-08-26T16:47:06.300Z",
       "error": null
     },
     {
@@ -510,7 +508,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:52.360Z",
+      "fetchedAt": "2026-08-26T16:47:06.310Z",
       "error": null
     },
     {
@@ -578,7 +576,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:52.439Z",
+      "fetchedAt": "2026-08-26T16:47:06.631Z",
       "error": null
     },
     {
@@ -651,7 +649,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:53.743Z",
+      "fetchedAt": "2026-08-26T16:47:07.999Z",
       "error": null
     },
     {
@@ -732,7 +730,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:54.979Z",
+      "fetchedAt": "2026-08-26T16:47:08.754Z",
       "error": null
     },
     {
@@ -742,7 +740,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-08-26T12:50:53.757Z",
+      "fetchedAt": "2026-08-26T16:47:07.999Z",
       "error": "HTTP 403"
     },
     {
@@ -815,7 +813,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:53.984Z",
+      "fetchedAt": "2026-08-26T16:47:08.258Z",
       "error": null
     },
     {
@@ -897,7 +895,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:55.102Z",
+      "fetchedAt": "2026-08-26T16:47:08.807Z",
       "error": null
     },
     {
@@ -963,7 +961,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:56.355Z",
+      "fetchedAt": "2026-08-26T16:47:09.325Z",
       "error": null
     },
     {
@@ -1029,7 +1027,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:56.197Z",
+      "fetchedAt": "2026-08-26T16:47:09.808Z",
       "error": null
     },
     {
@@ -1109,7 +1107,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:56.416Z",
+      "fetchedAt": "2026-08-26T16:47:09.681Z",
       "error": null
     },
     {
@@ -1164,7 +1162,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:56.759Z",
+      "fetchedAt": "2026-08-26T16:47:10.110Z",
       "error": null
     },
     {
@@ -1229,7 +1227,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:56.708Z",
+      "fetchedAt": "2026-08-26T16:47:10.015Z",
       "error": null
     },
     {
@@ -1313,7 +1311,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:58.276Z",
+      "fetchedAt": "2026-08-26T16:47:10.063Z",
       "error": null
     },
     {
@@ -1386,7 +1384,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:57.430Z",
+      "fetchedAt": "2026-08-26T16:47:10.574Z",
       "error": null
     },
     {
@@ -1395,7 +1393,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-26T12:50:58.378Z",
+      "fetchedAt": "2026-08-26T16:47:10.690Z",
       "error": "HTTP 403"
     },
     {
@@ -1473,7 +1471,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:00.075Z",
+      "fetchedAt": "2026-08-26T16:47:12.099Z",
       "error": null
     },
     {
@@ -1482,7 +1480,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-26T12:50:58.655Z",
+      "fetchedAt": "2026-08-26T16:47:10.882Z",
       "error": "certificate has expired"
     },
     {
@@ -1552,7 +1550,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:50:59.056Z",
+      "fetchedAt": "2026-08-26T16:47:11.303Z",
       "error": null
     },
     {
@@ -1628,7 +1626,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:00.886Z",
+      "fetchedAt": "2026-08-26T16:47:12.478Z",
       "error": null
     },
     {
@@ -1694,7 +1692,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:00.723Z",
+      "fetchedAt": "2026-08-26T16:47:18.394Z",
       "error": null
     },
     {
@@ -1749,7 +1747,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:00.381Z",
+      "fetchedAt": "2026-08-26T16:47:12.599Z",
       "error": null
     },
     {
@@ -1819,7 +1817,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:00.426Z",
+      "fetchedAt": "2026-08-26T16:47:12.515Z",
       "error": null
     },
     {
@@ -1898,7 +1896,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:00.990Z",
+      "fetchedAt": "2026-08-26T16:47:18.488Z",
       "error": null
     },
     {
@@ -1978,7 +1976,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:02.813Z",
+      "fetchedAt": "2026-08-26T16:47:20.183Z",
       "error": null
     },
     {
@@ -2063,7 +2061,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:01.071Z",
+      "fetchedAt": "2026-08-26T16:47:18.606Z",
       "error": null
     },
     {
@@ -2119,7 +2117,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:01.221Z",
+      "fetchedAt": "2026-08-26T16:47:18.656Z",
       "error": null
     },
     {
@@ -2205,7 +2203,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:03.875Z",
+      "fetchedAt": "2026-08-26T16:47:21.436Z",
       "error": null
     },
     {
@@ -2291,7 +2289,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:02.914Z",
+      "fetchedAt": "2026-08-26T16:47:20.319Z",
       "error": null
     },
     {
@@ -2373,7 +2371,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:03.259Z",
+      "fetchedAt": "2026-08-26T16:47:20.303Z",
       "error": null
     },
     {
@@ -2428,7 +2426,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:03.124Z",
+      "fetchedAt": "2026-08-26T16:47:20.334Z",
       "error": null
     },
     {
@@ -2493,7 +2491,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:04.043Z",
+      "fetchedAt": "2026-08-26T16:47:21.571Z",
       "error": null
     },
     {
@@ -2502,7 +2500,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-26T12:51:04.083Z",
+      "fetchedAt": "2026-08-26T16:47:21.632Z",
       "error": "HTTP 404"
     },
     {
@@ -2558,7 +2556,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:04.708Z",
+      "fetchedAt": "2026-08-26T16:47:21.977Z",
       "error": null
     },
     {
@@ -2623,7 +2621,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:04.420Z",
+      "fetchedAt": "2026-08-26T16:47:22.081Z",
       "error": null
     },
     {
@@ -2704,7 +2702,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:05.456Z",
+      "fetchedAt": "2026-08-26T16:47:22.800Z",
       "error": null
     },
     {
@@ -2713,7 +2711,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-26T12:51:05.550Z",
+      "fetchedAt": "2026-08-26T16:47:22.981Z",
       "error": "HTTP 404"
     },
     {
@@ -2722,7 +2720,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-26T12:51:04.866Z",
+      "fetchedAt": "2026-08-26T16:47:22.293Z",
       "error": "HTTP 403"
     },
     {
@@ -2793,16 +2791,16 @@
           "summary": "",
           "author": "",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:04.910Z",
+      "fetchedAt": "2026-08-26T16:47:22.369Z",
       "error": null
     },
     {
@@ -2875,7 +2873,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:05.682Z",
+      "fetchedAt": "2026-08-26T16:47:23.106Z",
       "error": null
     },
     {
@@ -2894,7 +2892,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:05.882Z",
+      "fetchedAt": "2026-08-26T16:47:23.077Z",
       "error": null
     },
     {
@@ -2949,7 +2947,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.068Z",
+      "fetchedAt": "2026-08-26T16:47:23.343Z",
       "error": null
     },
     {
@@ -3035,7 +3033,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:05.793Z",
+      "fetchedAt": "2026-08-26T16:47:23.247Z",
       "error": null
     },
     {
@@ -3100,7 +3098,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.263Z",
+      "fetchedAt": "2026-08-26T16:47:23.535Z",
       "error": null
     },
     {
@@ -3166,7 +3164,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WK2BvjOYTCQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.427Z",
+      "fetchedAt": "2026-08-26T16:47:23.516Z",
       "error": null
     },
     {
@@ -3231,7 +3229,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4QvaaYA4nrM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.231Z",
+      "fetchedAt": "2026-08-26T16:47:23.504Z",
       "error": null
     },
     {
@@ -3296,7 +3294,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/YoLlI2qHYsM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.448Z",
+      "fetchedAt": "2026-08-26T16:47:23.524Z",
       "error": null
     },
     {
@@ -3362,7 +3360,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.590Z",
+      "fetchedAt": "2026-08-26T16:47:23.675Z",
       "error": null
     },
     {
@@ -3428,7 +3426,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/tb-pqlYUkZk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.572Z",
+      "fetchedAt": "2026-08-26T16:47:23.679Z",
       "error": null
     },
     {
@@ -3494,7 +3492,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KgdkXpGT0ho/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.609Z",
+      "fetchedAt": "2026-08-26T16:47:23.650Z",
       "error": null
     },
     {
@@ -3559,7 +3557,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.579Z",
+      "fetchedAt": "2026-08-26T16:47:23.706Z",
       "error": null
     },
     {
@@ -3569,6 +3567,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure Backup vs. Site Recovery: Data Recovery Explained #shorts",
+          "link": "https://www.youtube.com/shorts/1NKHco7BMkU",
+          "pubDate": "2026-08-26T15:55:54.000Z",
+          "summary": "✅ Full Video: https://youtu.be/3mmw9IrvoZ8 Azure Backup recovers past data (files, databases, servers). Azure Site Recovery ensures quick disaster recovery using current data in a new location. Different goals, shared tech. #AzureBackup #Azure #Microsoft #ITPro #CloudAdmin #ITPro #MVPBuzz",
+          "author": "Travis Roberts",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i2.ytimg.com/vi/1NKHco7BMkU/hqdefault.jpg"
+        },
         {
           "title": "Azure Backup: Ultimate Ransomware Protection Strategy Revealed! #shorts",
           "link": "https://www.youtube.com/shorts/RFaENkWx_zA",
@@ -3612,20 +3621,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/NjKLC2pHICw/hqdefault.jpg"
-        },
-        {
-          "title": "Entra ID Authentication Strengths: Granular Access Control Explained #shorts",
-          "link": "https://www.youtube.com/shorts/QmB8iFhmI6E",
-          "pubDate": "2026-08-11T18:04:32.000Z",
-          "summary": "Full video: https://youtu.be/IJBWO6JWrDo Unlock precise control over user authentication. Assign specific methods like Microsoft Authenticator for standard users and FIDO2 keys for admins. Define custom strengths to meet unique security needs. #Microsoft #EntraID #MFA #ConditionalAccess #ZeroTrust #",
-          "author": "Travis Roberts",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/QmB8iFhmI6E/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.825Z",
+      "fetchedAt": "2026-08-26T16:47:23.843Z",
       "error": null
     },
     {
@@ -3690,7 +3688,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/MJpPVD-Txzo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.893Z",
+      "fetchedAt": "2026-08-26T16:47:23.940Z",
       "error": null
     },
     {
@@ -3755,7 +3753,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TcfGHFGdSc4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.813Z",
+      "fetchedAt": "2026-08-26T16:47:23.941Z",
       "error": null
     },
     {
@@ -3820,7 +3818,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:06.857Z",
+      "fetchedAt": "2026-08-26T16:47:23.835Z",
       "error": null
     },
     {
@@ -3885,7 +3883,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:07.051Z",
+      "fetchedAt": "2026-08-26T16:47:24.060Z",
       "error": null
     },
     {
@@ -3950,7 +3948,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:07.086Z",
+      "fetchedAt": "2026-08-26T16:47:24.070Z",
       "error": null
     },
     {
@@ -4015,7 +4013,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:07.139Z",
+      "fetchedAt": "2026-08-26T16:47:24.052Z",
       "error": null
     },
     {
@@ -4071,7 +4069,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:07.166Z",
+      "fetchedAt": "2026-08-26T16:47:24.229Z",
       "error": null
     },
     {
@@ -4081,7 +4079,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-26T12:51:07.444Z",
+      "fetchedAt": "2026-08-26T16:47:24.426Z",
       "error": null
     },
     {
@@ -4147,7 +4145,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:08.405Z",
+      "fetchedAt": "2026-08-26T16:47:29.495Z",
       "error": null
     },
     {
@@ -4203,7 +4201,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:07.669Z",
+      "fetchedAt": "2026-08-26T16:47:24.266Z",
       "error": null
     },
     {
@@ -4217,7 +4215,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-08-12T03:17:00.000Z",
-          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4232,7 +4230,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:07.627Z",
+      "fetchedAt": "2026-08-26T16:47:25.728Z",
       "error": null
     },
     {
@@ -4288,7 +4286,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:08.920Z",
+      "fetchedAt": "2026-08-26T16:47:29.528Z",
       "error": null
     },
     {
@@ -4298,7 +4296,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-26T12:51:08.611Z",
+      "fetchedAt": "2026-08-26T16:47:29.832Z",
       "error": null
     },
     {
@@ -4354,7 +4352,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:08.423Z",
+      "fetchedAt": "2026-08-26T16:47:29.522Z",
       "error": null
     },
     {
@@ -4374,7 +4372,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:08.451Z",
+      "fetchedAt": "2026-08-26T16:47:29.539Z",
       "error": null
     },
     {
@@ -4430,7 +4428,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:13.664Z",
+      "fetchedAt": "2026-08-26T16:47:34.347Z",
       "error": null
     },
     {
@@ -4486,7 +4484,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:09.911Z",
+      "fetchedAt": "2026-08-26T16:47:30.420Z",
       "error": null
     },
     {
@@ -4541,7 +4539,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:09.067Z",
+      "fetchedAt": "2026-08-26T16:47:30.011Z",
       "error": null
     },
     {
@@ -4596,7 +4594,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:09.094Z",
+      "fetchedAt": "2026-08-26T16:47:29.949Z",
       "error": null
     },
     {
@@ -4661,7 +4659,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-26T12:51:14.468Z",
+      "fetchedAt": "2026-08-26T16:47:36.142Z",
       "error": null
     }
   ]
