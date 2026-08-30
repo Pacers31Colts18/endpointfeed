@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T16:09:32.445Z",
+  "generatedAt": "2026-08-30T22:26:33.094Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -7,6 +7,56 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "Anthropic’s erratic usage policy changes turn Claude Code’s 25% quota increase into a 17% cut",
+          "link": "https://4sysops.com/archives/anthropics-erratic-usage-policy-changes-turn-claude-codes-25-quota-increase-into-a-17-cut/",
+          "pubDate": "2026-08-30T21:40:28.000Z",
+          "summary": "Anthropic is changing how much Claude Code usage subscribers receive, but its policy is difficult to interpret. The service uses weekly and five-hour limits rather than a simple prompt count. Weekly usage depends on factors such as conversation length, files, tool calls, model choice, and reasoning ",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11’s false “Virus protection is off” alerts have no fix yet",
+          "link": "https://4sysops.com/archives/windows-11s-false-virus-protection-is-off-alerts-have-no-fix-yet/",
+          "pubDate": "2026-08-30T20:56:34.000Z",
+          "summary": "Microsoft has confirmed that Windows 11’s “Turn on virus protection” warnings are false positives caused by a recent Microsoft Defender Antivirus update. Defender remains active, but the alerts can keep returning until a future update fixes the problem. Source]]>",
+          "author": "",
+          "categories": [
+            "News",
+            "Security",
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Claude Code and Codex lack a sense of time",
+          "link": "https://4sysops.com/archives/claude-code-and-codex-lack-a-sense-of-time/",
+          "pubDate": "2026-08-30T20:56:32.000Z",
+          "summary": "Popular AI coding agents are poor at estimating both how long a programming task will take and how long they have already been working, according to tests of Anthropic’s Claude Code and OpenAI’s Codex. That makes them unreliable for long-running jobs unless administrators give them an external timer",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 finally adds a real OneDrive backup opt-out",
+          "link": "https://4sysops.com/archives/windows-11-finally-adds-a-real-onedrive-backup-opt-out/",
+          "pubDate": "2026-08-30T20:56:31.000Z",
+          "summary": "Microsoft is rolling out an “Opt out of backup” button in Windows 11’s OneDrive prompts, replacing the recurring reminders that previously offered no permanent refusal. The change gives users a clear way to reject OneDrive backup instead of enabling sync or postponing the decision for a few days. So",
+          "author": "",
+          "categories": [
+            "News",
+            "Systems Management",
+            "Windows"
+          ],
+          "type": "rss"
+        },
         {
           "title": "AI loss-of-control incidents nearly double as deceptive behavior worsens",
           "link": "https://4sysops.com/archives/ai-loss-of-control-incidents-nearly-double-as-deceptive-behavior-worsens/",
@@ -19,61 +69,9 @@
             "Security"
           ],
           "type": "rss"
-        },
-        {
-          "title": "GitHub expands Copilot across apps, editors, and the CLI",
-          "link": "https://4sysops.com/archives/github-expands-copilot-across-apps-editors-and-the-cli/",
-          "pubDate": "2026-08-29T15:53:02.000Z",
-          "summary": "GitHub’s latest Copilot weekly release puts the biggest operational change in the command-line tool: its runtime has been rewritten in Rust for faster performance, while interrupted sessions can now be restored. The update also expands team-based agent work in Slack and Teams and adds tighter contro",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "DevOps"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Google’s WikiSkill lets AI agents learn from mistakes without retraining",
-          "link": "https://4sysops.com/archives/googles-wikiskill-lets-ai-agents-learn-from-mistakes-without-retraining/",
-          "pubDate": "2026-08-29T15:32:24.000Z",
-          "summary": "Google Research’s WikiSkill gives AI agents a persistent memory of failed and successful attempts, allowing them to improve future task performance without changing the underlying model. The research framework raised Gemini 3.5 Flash’s average benchmark score from 49.5% to 68.1%, while producing esp",
-          "author": "",
-          "categories": [
-            "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft will retire the Admin app in Teams and Outlook in October 2026",
-          "link": "https://4sysops.com/archives/microsoft-will-retire-the-admin-app-in-teams-and-outlook-in-october-2026/",
-          "pubDate": "2026-08-29T10:48:18.000Z",
-          "summary": "Microsoft will remove the lightweight Admin app from Teams, Outlook, and Microsoft365.com by October 2026, ending an easy way for very small businesses to handle basic Microsoft 365 tasks without changing apps. The transition has already begun: new customers will no longer receive the app pre-instal",
-          "author": "",
-          "categories": [
-            "News",
-            "Business Software",
-            "Systems Management"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows Hotpatch PCs will restart for updates in September and October",
-          "link": "https://4sysops.com/archives/windows-hotpatch-pcs-will-restart-for-updates-in-september-and-october/",
-          "pubDate": "2026-08-29T10:48:17.000Z",
-          "summary": "Microsoft will temporarily interrupt the restart-free Windows Hotpatch experience: enrolled Windows 11 and Windows Server devices must restart for both the September and October 2026 updates. The September restart is required by new security components, while October’s restart is part of the quarter",
-          "author": "",
-          "categories": [
-            "News",
-            "Systems Management",
-            "Windows",
-            "Windows Server"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:10.870Z",
+      "fetchedAt": "2026-08-30T22:26:05.667Z",
       "error": null
     },
     {
@@ -81,43 +79,9 @@
       "label": "shchetkin.dev - Andrei Shchetkin",
       "type": "rss",
       "url": "https://shchetkin.dev/rss/",
-      "items": [
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/reverse-engineering-the-intune-portal-the-ai-enabled-cloud-pc-report/",
-          "pubDate": "2026-08-02T12:06:31.000Z",
-          "summary": "In this article we will get a Windows 365 report from Microsoft Graph that is not in the Graph documentation the AI-enabled Cloud PC report.The portal shows that report every time you open it, so an API for it must exist. It is just not documented anywhere. The method]]>",
-          "author": "",
-          "categories": [
-            "Graph API"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/windows-365-migration-graph-api/",
-          "pubDate": "2026-06-06T14:08:37.000Z",
-          "summary": "In this article we're going to figure out how to migrate almost any Azure-based VM into a Windows 365 Cloud PC using the Microsoft Graph beta migration API.PrerequisitesI assume you're familiar with Microsoft Graph API, Entra ID, Cloud PC, and Provisioning Policies.What we]]>",
-          "author": "",
-          "categories": [
-            "w365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/the-complete-windows-365-graph-api-developer-guide/",
-          "pubDate": "2025-12-23T15:09:22.000Z",
-          "summary": "Managing Windows 365 Cloud PCs at scale demands more than clicking through the Intune portal. If you're automating provisioning policies, building CI/CD pipelines for Cloud PC deployments, or integrating Windows 365 into your infrastructure-as-code workflows, the Microsoft Graph API is your only pat",
-          "author": "",
-          "categories": [
-            "w365"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-30T16:09:11.096Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-30T22:26:13.451Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "emsroute",
@@ -202,7 +166,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:10.740Z",
+      "fetchedAt": "2026-08-30T22:26:05.538Z",
       "error": null
     },
     {
@@ -280,7 +244,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:11.108Z",
+      "fetchedAt": "2026-08-30T22:26:05.960Z",
       "error": null
     },
     {
@@ -356,7 +320,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:14.623Z",
+      "fetchedAt": "2026-08-30T22:26:15.475Z",
       "error": null
     },
     {
@@ -438,7 +402,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:11.252Z",
+      "fetchedAt": "2026-08-30T22:26:13.605Z",
       "error": null
     },
     {
@@ -511,7 +475,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:11.323Z",
+      "fetchedAt": "2026-08-30T22:26:13.631Z",
       "error": null
     },
     {
@@ -579,7 +543,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:11.650Z",
+      "fetchedAt": "2026-08-30T22:26:14.023Z",
       "error": null
     },
     {
@@ -652,7 +616,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:14.842Z",
+      "fetchedAt": "2026-08-30T22:26:15.546Z",
       "error": null
     },
     {
@@ -733,7 +697,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:15.567Z",
+      "fetchedAt": "2026-08-30T22:26:16.294Z",
       "error": null
     },
     {
@@ -743,7 +707,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-08-30T16:09:14.844Z",
+      "fetchedAt": "2026-08-30T22:26:15.538Z",
       "error": "HTTP 403"
     },
     {
@@ -816,7 +780,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:15.148Z",
+      "fetchedAt": "2026-08-30T22:26:15.834Z",
       "error": null
     },
     {
@@ -898,7 +862,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:15.622Z",
+      "fetchedAt": "2026-08-30T22:26:16.340Z",
       "error": null
     },
     {
@@ -964,7 +928,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:16.388Z",
+      "fetchedAt": "2026-08-30T22:26:17.122Z",
       "error": null
     },
     {
@@ -1030,7 +994,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:16.562Z",
+      "fetchedAt": "2026-08-30T22:26:17.253Z",
       "error": null
     },
     {
@@ -1110,7 +1074,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:16.614Z",
+      "fetchedAt": "2026-08-30T22:26:17.035Z",
       "error": null
     },
     {
@@ -1165,7 +1129,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:16.843Z",
+      "fetchedAt": "2026-08-30T22:26:17.290Z",
       "error": null
     },
     {
@@ -1230,7 +1194,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:17.115Z",
+      "fetchedAt": "2026-08-30T22:26:17.617Z",
       "error": null
     },
     {
@@ -1314,7 +1278,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:16.774Z",
+      "fetchedAt": "2026-08-30T22:26:17.372Z",
       "error": null
     },
     {
@@ -1387,7 +1351,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:17.365Z",
+      "fetchedAt": "2026-08-30T22:26:17.906Z",
       "error": null
     },
     {
@@ -1396,7 +1360,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-30T16:09:17.459Z",
+      "fetchedAt": "2026-08-30T22:26:17.964Z",
       "error": "HTTP 403"
     },
     {
@@ -1474,7 +1438,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:18.967Z",
+      "fetchedAt": "2026-08-30T22:26:19.427Z",
       "error": null
     },
     {
@@ -1483,7 +1447,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-30T16:09:17.671Z",
+      "fetchedAt": "2026-08-30T22:26:18.168Z",
       "error": "certificate has expired"
     },
     {
@@ -1554,7 +1518,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:17.965Z",
+      "fetchedAt": "2026-08-30T22:26:18.551Z",
       "error": null
     },
     {
@@ -1630,7 +1594,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:19.207Z",
+      "fetchedAt": "2026-08-30T22:26:19.791Z",
       "error": null
     },
     {
@@ -1639,65 +1603,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Migrating Your MDT Applications to DeployR",
-          "link": "https://www.deploymentresearch.com/migrating-your-mdt-applications-to-deployr/",
-          "pubDate": "2026-08-25T03:40:14.000Z",
-          "summary": "On January 6, 2026, Microsoft retired MDT with immediate effect and pulled the installer from the Download Center the same day. No deprecation period, no final release. If you didn’t already have the MSI saved somewhere, you now have to get a little creative just to install the product you’re trying",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Uninstalling Windows 11 Updates",
-          "link": "https://www.deploymentresearch.com/uninstalling-windows-11-updates/",
-          "pubDate": "2026-07-27T02:54:54.000Z",
-          "summary": "Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell models. Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell […] ",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
-          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
-          "pubDate": "2026-07-13T04:18:01.000Z",
-          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
-          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
-          "pubDate": "2026-05-29T15:34:28.000Z",
-          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Secure Boot Rollout Scripts added in May 2026 Security Update",
-          "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
-          "pubDate": "2026-05-19T05:58:43.000Z",
-          "summary": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside. You might even recogni",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-08-30T16:09:19.703Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-08-30T22:26:21.440Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -1751,7 +1659,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:19.443Z",
+      "fetchedAt": "2026-08-30T22:26:19.902Z",
       "error": null
     },
     {
@@ -1821,7 +1729,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:19.144Z",
+      "fetchedAt": "2026-08-30T22:26:19.700Z",
       "error": null
     },
     {
@@ -1900,7 +1808,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:19.783Z",
+      "fetchedAt": "2026-08-30T22:26:21.520Z",
       "error": null
     },
     {
@@ -1982,7 +1890,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:21.484Z",
+      "fetchedAt": "2026-08-30T22:26:23.035Z",
       "error": null
     },
     {
@@ -2067,7 +1975,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:19.843Z",
+      "fetchedAt": "2026-08-30T22:26:21.590Z",
       "error": null
     },
     {
@@ -2123,7 +2031,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:19.891Z",
+      "fetchedAt": "2026-08-30T22:26:21.701Z",
       "error": null
     },
     {
@@ -2209,7 +2117,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:22.527Z",
+      "fetchedAt": "2026-08-30T22:26:24.262Z",
       "error": null
     },
     {
@@ -2295,7 +2203,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:21.552Z",
+      "fetchedAt": "2026-08-30T22:26:23.134Z",
       "error": null
     },
     {
@@ -2379,7 +2287,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:21.603Z",
+      "fetchedAt": "2026-08-30T22:26:23.226Z",
       "error": null
     },
     {
@@ -2434,7 +2342,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:21.667Z",
+      "fetchedAt": "2026-08-30T22:26:23.279Z",
       "error": null
     },
     {
@@ -2499,7 +2407,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:22.712Z",
+      "fetchedAt": "2026-08-30T22:26:24.579Z",
       "error": null
     },
     {
@@ -2508,7 +2416,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-30T16:09:22.686Z",
+      "fetchedAt": "2026-08-30T22:26:24.407Z",
       "error": "HTTP 404"
     },
     {
@@ -2564,7 +2472,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:23.294Z",
+      "fetchedAt": "2026-08-30T22:26:24.824Z",
       "error": null
     },
     {
@@ -2629,7 +2537,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:22.978Z",
+      "fetchedAt": "2026-08-30T22:26:24.659Z",
       "error": null
     },
     {
@@ -2710,7 +2618,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:24.912Z",
+      "fetchedAt": "2026-08-30T22:26:25.656Z",
       "error": null
     },
     {
@@ -2719,7 +2627,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-30T16:09:23.785Z",
+      "fetchedAt": "2026-08-30T22:26:25.337Z",
       "error": "HTTP 404"
     },
     {
@@ -2728,7 +2636,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-30T16:09:23.413Z",
+      "fetchedAt": "2026-08-30T22:26:24.942Z",
       "error": "HTTP 403"
     },
     {
@@ -2808,7 +2716,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:23.449Z",
+      "fetchedAt": "2026-08-30T22:26:24.951Z",
       "error": null
     },
     {
@@ -2881,7 +2789,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.083Z",
+      "fetchedAt": "2026-08-30T22:26:25.822Z",
       "error": null
     },
     {
@@ -2900,7 +2808,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.043Z",
+      "fetchedAt": "2026-08-30T22:26:25.718Z",
       "error": null
     },
     {
@@ -2955,7 +2863,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.305Z",
+      "fetchedAt": "2026-08-30T22:26:25.957Z",
       "error": null
     },
     {
@@ -3041,7 +2949,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.242Z",
+      "fetchedAt": "2026-08-30T22:26:25.959Z",
       "error": null
     },
     {
@@ -3106,7 +3014,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.434Z",
+      "fetchedAt": "2026-08-30T22:26:26.161Z",
       "error": null
     },
     {
@@ -3172,7 +3080,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HVF9I25WyVY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.477Z",
+      "fetchedAt": "2026-08-30T22:26:26.086Z",
       "error": null
     },
     {
@@ -3237,7 +3145,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/U0gREuzVBIo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.441Z",
+      "fetchedAt": "2026-08-30T22:26:26.160Z",
       "error": null
     },
     {
@@ -3302,7 +3210,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9QgOK03FsP8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.521Z",
+      "fetchedAt": "2026-08-30T22:26:26.101Z",
       "error": null
     },
     {
@@ -3368,7 +3276,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.640Z",
+      "fetchedAt": "2026-08-30T22:26:26.263Z",
       "error": null
     },
     {
@@ -3434,7 +3342,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/tb-pqlYUkZk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.641Z",
+      "fetchedAt": "2026-08-30T22:26:26.335Z",
       "error": null
     },
     {
@@ -3500,7 +3408,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hGYrwQyXJl4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.771Z",
+      "fetchedAt": "2026-08-30T22:26:26.257Z",
       "error": null
     },
     {
@@ -3565,7 +3473,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.649Z",
+      "fetchedAt": "2026-08-30T22:26:26.283Z",
       "error": null
     },
     {
@@ -3575,6 +3483,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure File Backup: Snapshot vs. Vault Standard Tiers Explained #shorts",
+          "link": "https://www.youtube.com/shorts/F-BSrZCyBUw",
+          "pubDate": "2026-08-30T18:54:35.000Z",
+          "summary": "Full video: https://youtu.be/cnDlheHyBxk Understand the two Azure file backup tiers: Snapshot (local storage, LRS/ZRS) and Vault Standard (snapshot copied to geo-redundant Recovery Services vault). Choose wisely for data protection. #AzureBackup #AVD #FSLogix #AzureFiles #RecoveryServicesVault #ITPr",
+          "author": "Travis Roberts",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/F-BSrZCyBUw/hqdefault.jpg"
+        },
         {
           "title": "Don't Lose Your Data: Azure Files Backup Explained",
           "link": "https://www.youtube.com/watch?v=cnDlheHyBxk",
@@ -3618,20 +3537,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/6vngBGUsFow/hqdefault.jpg"
-        },
-        {
-          "title": "Your Azure Backups Don't Have to Be Complicated!",
-          "link": "https://www.youtube.com/watch?v=3mmw9IrvoZ8",
-          "pubDate": "2026-08-19T11:07:54.000Z",
-          "summary": "Azure Backup explained: vaults, policies, RBAC, ransomware protection, cost, and a live VM backup demo. In this video, we take a fresh look at Azure Backup, covering everything IT professionals need to know to protect Azure and hybrid workloads in 2026. You'll learn how Azure Backup compares to Azur",
-          "author": "Travis Roberts",
-          "categories": [],
-          "type": "video",
-          "videoId": "3mmw9IrvoZ8",
-          "thumbnail": "https://i4.ytimg.com/vi/3mmw9IrvoZ8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.901Z",
+      "fetchedAt": "2026-08-30T22:26:26.433Z",
       "error": null
     },
     {
@@ -3696,7 +3604,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HMKAb90f9Vs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.917Z",
+      "fetchedAt": "2026-08-30T22:26:26.442Z",
       "error": null
     },
     {
@@ -3761,7 +3669,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iVZER3KHdsg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.915Z",
+      "fetchedAt": "2026-08-30T22:26:26.452Z",
       "error": null
     },
     {
@@ -3826,7 +3734,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:25.899Z",
+      "fetchedAt": "2026-08-30T22:26:26.427Z",
       "error": null
     },
     {
@@ -3891,7 +3799,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:26.067Z",
+      "fetchedAt": "2026-08-30T22:26:26.580Z",
       "error": null
     },
     {
@@ -3956,7 +3864,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:26.183Z",
+      "fetchedAt": "2026-08-30T22:26:26.579Z",
       "error": null
     },
     {
@@ -4021,7 +3929,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:26.112Z",
+      "fetchedAt": "2026-08-30T22:26:26.568Z",
       "error": null
     },
     {
@@ -4077,7 +3985,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:26.083Z",
+      "fetchedAt": "2026-08-30T22:26:26.701Z",
       "error": null
     },
     {
@@ -4087,7 +3995,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-30T16:09:26.719Z",
+      "fetchedAt": "2026-08-30T22:26:27.177Z",
       "error": null
     },
     {
@@ -4153,7 +4061,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:27.078Z",
+      "fetchedAt": "2026-08-30T22:26:27.652Z",
       "error": null
     },
     {
@@ -4209,7 +4117,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:26.244Z",
+      "fetchedAt": "2026-08-30T22:26:26.740Z",
       "error": null
     },
     {
@@ -4238,7 +4146,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:26.499Z",
+      "fetchedAt": "2026-08-30T22:26:27.053Z",
       "error": null
     },
     {
@@ -4294,7 +4202,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:27.101Z",
+      "fetchedAt": "2026-08-30T22:26:27.667Z",
       "error": null
     },
     {
@@ -4304,7 +4212,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-30T16:09:27.186Z",
+      "fetchedAt": "2026-08-30T22:26:27.776Z",
       "error": null
     },
     {
@@ -4360,7 +4268,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:27.098Z",
+      "fetchedAt": "2026-08-30T22:26:27.674Z",
       "error": null
     },
     {
@@ -4380,7 +4288,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:27.114Z",
+      "fetchedAt": "2026-08-30T22:26:27.683Z",
       "error": null
     },
     {
@@ -4436,7 +4344,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:31.662Z",
+      "fetchedAt": "2026-08-30T22:26:32.285Z",
       "error": null
     },
     {
@@ -4492,7 +4400,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:27.777Z",
+      "fetchedAt": "2026-08-30T22:26:28.295Z",
       "error": null
     },
     {
@@ -4547,7 +4455,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:27.310Z",
+      "fetchedAt": "2026-08-30T22:26:27.937Z",
       "error": null
     },
     {
@@ -4602,7 +4510,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:27.340Z",
+      "fetchedAt": "2026-08-30T22:26:27.905Z",
       "error": null
     },
     {
@@ -4667,7 +4575,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-30T16:09:32.445Z",
+      "fetchedAt": "2026-08-30T22:26:33.094Z",
       "error": null
     }
   ]
