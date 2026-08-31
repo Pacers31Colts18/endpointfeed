@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T04:01:24.812Z",
+  "generatedAt": "2026-08-31T15:53:20.517Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,69 +8,73 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Cancel your closed-source AI subscriptions: GLM 5.3 Flash is here",
-          "link": "https://4sysops.com/archives/cancel-your-closed-source-ai-subscriptions-glm-5-3-flash-is-here/",
-          "pubDate": "2026-08-30T22:45:42.000Z",
-          "summary": "Z.ai’s GLM-5.3-Flash, previously tested anonymously as Ox Alpha on OpenRouter, combines near-frontier coding and agentic performance with open weights, local deployment options, and exceptionally low inference costs. Matthew Berman highlights the model’s efficiency—and the broader significance of it",
+          "title": "Automate Graph permission checks—and avoid an Azure Automation SDK trap",
+          "link": "https://4sysops.com/archives/automate-graph-permission-checks-and-avoid-an-azure-automation-sdk-trap/",
+          "pubDate": "2026-08-31T13:44:35.000Z",
+          "summary": "A PowerShell script can now compare Microsoft Graph’s current permissions with a stored baseline and alert administrators when Microsoft adds narrower or new access options. The automation also uncovered a problem in Azure Automation: Microsoft Graph Files cmdlets were unavailable in the PowerShell ",
           "author": "",
           "categories": [
             "News",
-            "AI"
+            "Identity",
+            "PowerShell",
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Anthropic’s erratic usage policy changes turn Claude Code’s 25% quota increase into a 17% cut",
-          "link": "https://4sysops.com/archives/anthropics-erratic-usage-policy-changes-turn-claude-codes-25-quota-increase-into-a-17-cut/",
-          "pubDate": "2026-08-30T21:40:28.000Z",
-          "summary": "Anthropic is changing how much Claude Code usage subscribers receive, but its policy is difficult to interpret. The service uses weekly and five-hour limits rather than a simple prompt count. Weekly usage depends on factors such as conversation length, files, tool calls, model choice, and reasoning ",
+          "title": "Microsoft confirms Windows 11 KB5120998 resets custom mouse cursors",
+          "link": "https://4sysops.com/archives/microsoft-confirms-windows-11-kb5120998-resets-custom-mouse-cursors/",
+          "pubDate": "2026-08-31T13:44:34.000Z",
+          "summary": "Microsoft has confirmed that Windows 11’s optional KB5120998 preview update resets mouse personalization settings, validating reports of custom cursors turning white and wallpapers reverting. The issue can replace high-DPI pointers with oversized white cursors, revert animations, and prevent users f",
           "author": "",
           "categories": [
             "News",
-            "AI"
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Windows 11’s false “Virus protection is off” alerts have no fix yet",
-          "link": "https://4sysops.com/archives/windows-11s-false-virus-protection-is-off-alerts-have-no-fix-yet/",
-          "pubDate": "2026-08-30T20:56:34.000Z",
-          "summary": "Microsoft has confirmed that Windows 11’s “Turn on virus protection” warnings are false positives caused by a recent Microsoft Defender Antivirus update. Defender remains active, but the alerts can keep returning until a future update fixes the problem. Source]]>",
+          "title": "Broadcom’s VMware AI Factory puts private AI and agent control in VCF",
+          "link": "https://4sysops.com/archives/broadcoms-vmware-ai-factory-puts-private-ai-and-agent-control-in-vcf/",
+          "pubDate": "2026-08-31T13:44:33.000Z",
+          "summary": "Broadcom has now moved beyond the private AI and agent-security agenda previewed for VMware Explore 2026, announcing the VMware AI Factory, AgentMinder, and new TrueSource open-source security services. The package positions VMware Cloud Foundation as a turnkey platform for running production AI on ",
           "author": "",
           "categories": [
             "News",
+            "AI",
             "Security",
-            "Windows"
+            "Virtualization"
           ],
           "type": "rss"
         },
         {
-          "title": "Claude Code and Codex lack a sense of time",
-          "link": "https://4sysops.com/archives/claude-code-and-codex-lack-a-sense-of-time/",
-          "pubDate": "2026-08-30T20:56:32.000Z",
-          "summary": "Popular AI coding agents are poor at estimating both how long a programming task will take and how long they have already been working, according to tests of Anthropic’s Claude Code and OpenAI’s Codex. That makes them unreliable for long-running jobs unless administrators give them an external timer",
+          "title": "GM’s 200,000-user passkey rollout exposes the hard parts admins miss",
+          "link": "https://4sysops.com/archives/gms-200000-user-passkey-rollout-exposes-the-hard-parts-admins-miss/",
+          "pubDate": "2026-08-31T13:44:32.000Z",
+          "summary": "General Motors’ rollout of passkeys to roughly 200,000 employees shows that the difficult part is not enabling FIDO2 authentication—it is replacing every weak-method dependency around it. With Microsoft Entra ID set to make passkeys the default on September 1, 2026, and retire Microsoft-provided SMS",
           "author": "",
           "categories": [
             "News",
-            "AI"
+            "Identity",
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Windows 11 finally adds a real OneDrive backup opt-out",
-          "link": "https://4sysops.com/archives/windows-11-finally-adds-a-real-onedrive-backup-opt-out/",
-          "pubDate": "2026-08-30T20:56:31.000Z",
-          "summary": "Microsoft is rolling out an “Opt out of backup” button in Windows 11’s OneDrive prompts, replacing the recurring reminders that previously offered no permanent refusal. The change gives users a clear way to reject OneDrive backup instead of enabling sync or postponing the decision for a few days. So",
+          "title": "Linux 7.3-rc1 nears 41 million lines as AMD GPU code drives the surge",
+          "link": "https://4sysops.com/archives/linux-7-3-rc1-nears-41-million-lines-as-amd-gpu-code-drives-the-surge/",
+          "pubDate": "2026-08-31T09:28:25.000Z",
+          "summary": "Linux 7.3-rc1 has become one of the kernel’s largest first release candidates, reaching nearly 41 million lines of source code. AMD’s new GPU definitions and driver support account for about one-third of the merge-window patch, making the release especially relevant for teams testing upcoming AMD ha",
           "author": "",
           "categories": [
             "News",
-            "Systems Management",
-            "Windows"
+            "Hardware",
+            "Linux"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:01.391Z",
+      "fetchedAt": "2026-08-31T15:52:57.402Z",
       "error": null
     },
     {
@@ -113,7 +117,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:01.745Z",
+      "fetchedAt": "2026-08-31T15:52:57.649Z",
       "error": null
     },
     {
@@ -199,7 +203,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:00.974Z",
+      "fetchedAt": "2026-08-31T15:52:57.054Z",
       "error": null
     },
     {
@@ -277,7 +281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:01.629Z",
+      "fetchedAt": "2026-08-31T15:52:57.774Z",
       "error": null
     },
     {
@@ -353,7 +357,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:03.394Z",
+      "fetchedAt": "2026-08-31T15:52:59.312Z",
       "error": null
     },
     {
@@ -435,7 +439,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:02.170Z",
+      "fetchedAt": "2026-08-31T15:52:58.045Z",
       "error": null
     },
     {
@@ -508,7 +512,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:02.188Z",
+      "fetchedAt": "2026-08-31T15:52:58.043Z",
       "error": null
     },
     {
@@ -576,7 +580,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:02.275Z",
+      "fetchedAt": "2026-08-31T15:52:58.202Z",
       "error": null
     },
     {
@@ -649,7 +653,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:03.622Z",
+      "fetchedAt": "2026-08-31T15:52:59.372Z",
       "error": null
     },
     {
@@ -730,7 +734,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:04.861Z",
+      "fetchedAt": "2026-08-31T15:53:00.726Z",
       "error": null
     },
     {
@@ -740,7 +744,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T04:01:03.553Z",
+      "fetchedAt": "2026-08-31T15:52:59.421Z",
       "error": "HTTP 403"
     },
     {
@@ -813,7 +817,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:03.732Z",
+      "fetchedAt": "2026-08-31T15:52:59.731Z",
       "error": null
     },
     {
@@ -895,7 +899,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:04.971Z",
+      "fetchedAt": "2026-08-31T15:53:00.841Z",
       "error": null
     },
     {
@@ -961,7 +965,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:05.921Z",
+      "fetchedAt": "2026-08-31T15:53:01.914Z",
       "error": null
     },
     {
@@ -1027,7 +1031,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:06.046Z",
+      "fetchedAt": "2026-08-31T15:53:01.999Z",
       "error": null
     },
     {
@@ -1107,7 +1111,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:06.057Z",
+      "fetchedAt": "2026-08-31T15:53:01.718Z",
       "error": null
     },
     {
@@ -1162,7 +1166,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:06.493Z",
+      "fetchedAt": "2026-08-31T15:53:02.237Z",
       "error": null
     },
     {
@@ -1227,7 +1231,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:06.470Z",
+      "fetchedAt": "2026-08-31T15:53:02.429Z",
       "error": null
     },
     {
@@ -1311,7 +1315,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:06.361Z",
+      "fetchedAt": "2026-08-31T15:53:02.219Z",
       "error": null
     },
     {
@@ -1384,7 +1388,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:07.211Z",
+      "fetchedAt": "2026-08-31T15:53:03.040Z",
       "error": null
     },
     {
@@ -1393,7 +1397,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T04:01:07.340Z",
+      "fetchedAt": "2026-08-31T15:53:03.287Z",
       "error": "HTTP 403"
     },
     {
@@ -1471,7 +1475,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:08.999Z",
+      "fetchedAt": "2026-08-31T15:53:04.920Z",
       "error": null
     },
     {
@@ -1480,7 +1484,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T04:01:07.847Z",
+      "fetchedAt": "2026-08-31T15:53:03.436Z",
       "error": "certificate has expired"
     },
     {
@@ -1551,7 +1555,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:08.045Z",
+      "fetchedAt": "2026-08-31T15:53:03.846Z",
       "error": null
     },
     {
@@ -1627,7 +1631,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:09.731Z",
+      "fetchedAt": "2026-08-31T15:53:05.471Z",
       "error": null
     },
     {
@@ -1693,7 +1697,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:09.687Z",
+      "fetchedAt": "2026-08-31T15:53:05.567Z",
       "error": null
     },
     {
@@ -1748,7 +1752,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:09.350Z",
+      "fetchedAt": "2026-08-31T15:53:05.322Z",
       "error": null
     },
     {
@@ -1818,7 +1822,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:10.236Z",
+      "fetchedAt": "2026-08-31T15:53:05.427Z",
       "error": null
     },
     {
@@ -1897,7 +1901,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:10.361Z",
+      "fetchedAt": "2026-08-31T15:53:05.674Z",
       "error": null
     },
     {
@@ -1979,7 +1983,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:12.292Z",
+      "fetchedAt": "2026-08-31T15:53:07.791Z",
       "error": null
     },
     {
@@ -2064,7 +2068,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:10.428Z",
+      "fetchedAt": "2026-08-31T15:53:05.770Z",
       "error": null
     },
     {
@@ -2120,7 +2124,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:10.610Z",
+      "fetchedAt": "2026-08-31T15:53:05.790Z",
       "error": null
     },
     {
@@ -2206,7 +2210,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:13.421Z",
+      "fetchedAt": "2026-08-31T15:53:08.782Z",
       "error": null
     },
     {
@@ -2292,7 +2296,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:12.365Z",
+      "fetchedAt": "2026-08-31T15:53:07.894Z",
       "error": null
     },
     {
@@ -2301,6 +2305,20 @@
       "type": "rss",
       "url": "https://office365itpros.com/feed/",
       "items": [
+        {
+          "title": "Running a Regular Check for New Graph Permissions",
+          "link": "https://office365itpros.com/2026/08/31/new-graph-permissions-check/?utm_source=rss&utm_medium=rss&utm_campaign=new-graph-permissions-check",
+          "pubDate": "2026-08-31T07:00:00.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Microsoft Graph",
+            "Azure Automation",
+            "Graph permissions",
+            "Microsoft Graph PowerShell SDK"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Microsoft To Enforce WAM for Delegated Interactive Graph Sessions",
           "link": "https://office365itpros.com/2026/08/28/interactive-graph-sessions-wam/?utm_source=rss&utm_medium=rss&utm_campaign=interactive-graph-sessions-wam",
@@ -2359,24 +2377,9 @@
             "Teams Meeting"
           ],
           "type": "rss"
-        },
-        {
-          "title": "New Teams Policy Controls Meeting Recording and Notetaking Bots",
-          "link": "https://office365itpros.com/2026/08/24/teams-meeting-notetaking-bots/?utm_source=rss&utm_medium=rss&utm_campaign=teams-meeting-notetaking-bots",
-          "pubDate": "2026-08-24T07:00:00.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "Teams",
-            "Notetaking bot",
-            "Recording bot",
-            "Teams Meeting",
-            "Teams meeting policy"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:12.463Z",
+      "fetchedAt": "2026-08-31T15:53:08.014Z",
       "error": null
     },
     {
@@ -2431,7 +2434,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:12.540Z",
+      "fetchedAt": "2026-08-31T15:53:07.891Z",
       "error": null
     },
     {
@@ -2496,7 +2499,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:13.668Z",
+      "fetchedAt": "2026-08-31T15:53:08.962Z",
       "error": null
     },
     {
@@ -2505,7 +2508,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T04:01:13.880Z",
+      "fetchedAt": "2026-08-31T15:53:09.058Z",
       "error": "HTTP 404"
     },
     {
@@ -2561,7 +2564,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:14.012Z",
+      "fetchedAt": "2026-08-31T15:53:09.731Z",
       "error": null
     },
     {
@@ -2626,7 +2629,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:14.009Z",
+      "fetchedAt": "2026-08-31T15:53:09.248Z",
       "error": null
     },
     {
@@ -2707,7 +2710,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:15.581Z",
+      "fetchedAt": "2026-08-31T15:53:10.686Z",
       "error": null
     },
     {
@@ -2716,7 +2719,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-31T04:01:15.932Z",
+      "fetchedAt": "2026-08-31T15:53:10.706Z",
       "error": "HTTP 404"
     },
     {
@@ -2725,7 +2728,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-31T04:01:14.304Z",
+      "fetchedAt": "2026-08-31T15:53:10.004Z",
       "error": "HTTP 403"
     },
     {
@@ -2805,7 +2808,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:14.263Z",
+      "fetchedAt": "2026-08-31T15:53:10.018Z",
       "error": null
     },
     {
@@ -2878,7 +2881,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.167Z",
+      "fetchedAt": "2026-08-31T15:53:10.785Z",
       "error": null
     },
     {
@@ -2897,7 +2900,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.061Z",
+      "fetchedAt": "2026-08-31T15:53:10.934Z",
       "error": null
     },
     {
@@ -2952,7 +2955,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.433Z",
+      "fetchedAt": "2026-08-31T15:53:10.938Z",
       "error": null
     },
     {
@@ -3038,7 +3041,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.357Z",
+      "fetchedAt": "2026-08-31T15:53:10.870Z",
       "error": null
     },
     {
@@ -3103,7 +3106,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.804Z",
+      "fetchedAt": "2026-08-31T15:53:11.125Z",
       "error": null
     },
     {
@@ -3113,6 +3116,28 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "Azure Linux 4.0 Quick Overview #azure #linux",
+          "link": "https://www.youtube.com/shorts/2_Wuzlxa6iw",
+          "pubDate": "2026-08-31T10:46:20.000Z",
+          "summary": "Quick overview of Azure Linux 4.0.",
+          "author": "John Savill's Technical Training",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/2_Wuzlxa6iw/hqdefault.jpg"
+        },
+        {
+          "title": "Azure Linux 4.0 Overview",
+          "link": "https://www.youtube.com/watch?v=_9C1d4PZ2Lc",
+          "pubDate": "2026-08-31T10:43:19.000Z",
+          "summary": "A look at Azure Linux 4.0 and Azure Container Host! ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:12 - History 02:42 - Why Azure Linux? 05:28 - Architecture 08:24 - Where can be used 09:01 - Lifecycle 09:19 - Looking at Azure Linux 11:41 - Using with WSL 13:10 - Azure Container Host 16:03 ",
+          "author": "John Savill's Technical Training",
+          "categories": [],
+          "type": "video",
+          "videoId": "_9C1d4PZ2Lc",
+          "thumbnail": "https://i4.ytimg.com/vi/_9C1d4PZ2Lc/hqdefault.jpg"
+        },
         {
           "title": "Azure Update 28th August 2026",
           "link": "https://www.youtube.com/watch?v=TYGdwts3ILc",
@@ -3145,31 +3170,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/TZc5uGySFi0/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Update 21st August 2026",
-          "link": "https://www.youtube.com/watch?v=OLfRPH319IQ",
-          "pubDate": "2026-08-21T15:10:33.000Z",
-          "summary": "Nice selection of updates this week and little over a week till our next Ask Me Anything!!! 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read quest",
-          "author": "John Savill's Technical Training",
-          "categories": [],
-          "type": "video",
-          "videoId": "OLfRPH319IQ",
-          "thumbnail": "https://i4.ytimg.com/vi/OLfRPH319IQ/hqdefault.jpg"
-        },
-        {
-          "title": "Tech in Five - What is a Harness",
-          "link": "https://www.youtube.com/watch?v=HVF9I25WyVY",
-          "pubDate": "2026-08-19T14:50:10.000Z",
-          "summary": "An overview of what exactly a harness and why you care. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the ",
-          "author": "John Savill's Technical Training",
-          "categories": [],
-          "type": "video",
-          "videoId": "HVF9I25WyVY",
-          "thumbnail": "https://i1.ytimg.com/vi/HVF9I25WyVY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.845Z",
+      "fetchedAt": "2026-08-31T15:53:11.140Z",
       "error": null
     },
     {
@@ -3234,7 +3237,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/U0gREuzVBIo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.596Z",
+      "fetchedAt": "2026-08-31T15:53:11.233Z",
       "error": null
     },
     {
@@ -3243,6 +3246,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ",
       "items": [
+        {
+          "title": "The Enterprise Passkey Playbook: 200,000 People at General Motors",
+          "link": "https://www.youtube.com/watch?v=xwvjtpfyr9M",
+          "pubDate": "2026-08-31T10:23:36.000Z",
+          "summary": "GUEST Andrew Cameron - https://www.linkedin.com/in/kandrewcameron/ Microsoft starts making passkeys the default in Microsoft Entra ID on 1 September 2026, and retires Microsoft-provided SMS and voice MFA on 1 February 2027. The question is not whether to move — it is how to move a hundred thousand p",
+          "author": "Merill Fernando",
+          "categories": [],
+          "type": "video",
+          "videoId": "xwvjtpfyr9M",
+          "thumbnail": "https://i1.ytimg.com/vi/xwvjtpfyr9M/hqdefault.jpg"
+        },
         {
           "title": "Are you still using AD groups for licensing with memberof",
           "link": "https://www.youtube.com/shorts/JChXbNDMCJY",
@@ -3286,20 +3300,9 @@
           "type": "video",
           "videoId": "MCFzSnMc34k",
           "thumbnail": "https://i2.ytimg.com/vi/MCFzSnMc34k/hqdefault.jpg"
-        },
-        {
-          "title": "The Ultimate Microsoft Entra Global Secure Access Migration Guide",
-          "link": "https://www.youtube.com/watch?v=9QgOK03FsP8",
-          "pubDate": "2026-08-03T12:52:02.000Z",
-          "summary": "An Entra GSA migration should not mean throwing away years of useful SSE policy work and rebuilding every application, segment, and rule by hand. In this episode of Entra.Chat, Merill speaks with Andres Canello, Principal Product Manager at Microsoft and creator of Migrate2GSA. Andres was a founding",
-          "author": "Merill Fernando",
-          "categories": [],
-          "type": "video",
-          "videoId": "9QgOK03FsP8",
-          "thumbnail": "https://i2.ytimg.com/vi/9QgOK03FsP8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.866Z",
+      "fetchedAt": "2026-08-31T15:53:11.298Z",
       "error": null
     },
     {
@@ -3365,7 +3368,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:16.994Z",
+      "fetchedAt": "2026-08-31T15:53:11.451Z",
       "error": null
     },
     {
@@ -3375,6 +3378,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
       "items": [
+        {
+          "title": "Stop Redoing Intune App Customizations Every Update",
+          "link": "https://www.youtube.com/watch?v=6KoH0k5NJ9U",
+          "pubDate": "2026-08-31T14:26:29.000Z",
+          "summary": "Robopack Custom App Settings let you save install arguments, added files, and registry values for an Intune app once, and Robopack applies them to every future version automatically. No more rebuilding the same package every time the app updates. If you have ever redone the exact same customizations",
+          "author": "Get Rubix",
+          "categories": [],
+          "type": "video",
+          "videoId": "6KoH0k5NJ9U",
+          "thumbnail": "https://i3.ytimg.com/vi/6KoH0k5NJ9U/hqdefault.jpg"
+        },
         {
           "title": "The Autopilot Readiness Check Microsoft Should Have Built",
           "link": "https://www.youtube.com/watch?v=isFwmz1XajY",
@@ -3418,20 +3432,9 @@
           "type": "video",
           "videoId": "WMQJqPd8E9U",
           "thumbnail": "https://i4.ytimg.com/vi/WMQJqPd8E9U/hqdefault.jpg"
-        },
-        {
-          "title": "How to Enable Enterprise App Management Auto-Updates in Intune",
-          "link": "https://www.youtube.com/watch?v=tb-pqlYUkZk",
-          "pubDate": "2026-07-23T13:17:48.000Z",
-          "summary": "Microsoft Intune Enterprise App Management auto-updates are now generally available. In this video I show you how to enable automatic updates for Enterprise App Catalog apps in Intune, so your Win32 apps stay on the latest version without manual packaging or supersedence. We cover what Enterprise Ap",
-          "author": "Get Rubix",
-          "categories": [],
-          "type": "video",
-          "videoId": "tb-pqlYUkZk",
-          "thumbnail": "https://i1.ytimg.com/vi/tb-pqlYUkZk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.014Z",
+      "fetchedAt": "2026-08-31T15:53:11.481Z",
       "error": null
     },
     {
@@ -3497,7 +3500,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hGYrwQyXJl4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.002Z",
+      "fetchedAt": "2026-08-31T15:53:11.522Z",
       "error": null
     },
     {
@@ -3562,7 +3565,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.034Z",
+      "fetchedAt": "2026-08-31T15:53:11.478Z",
       "error": null
     },
     {
@@ -3628,7 +3631,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/6vngBGUsFow/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.228Z",
+      "fetchedAt": "2026-08-31T15:53:11.684Z",
       "error": null
     },
     {
@@ -3693,7 +3696,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HMKAb90f9Vs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.359Z",
+      "fetchedAt": "2026-08-31T15:53:11.765Z",
       "error": null
     },
     {
@@ -3758,7 +3761,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iVZER3KHdsg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.284Z",
+      "fetchedAt": "2026-08-31T15:53:11.704Z",
       "error": null
     },
     {
@@ -3823,7 +3826,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.230Z",
+      "fetchedAt": "2026-08-31T15:53:11.852Z",
       "error": null
     },
     {
@@ -3888,7 +3891,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.581Z",
+      "fetchedAt": "2026-08-31T15:53:11.994Z",
       "error": null
     },
     {
@@ -3953,7 +3956,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.533Z",
+      "fetchedAt": "2026-08-31T15:53:12.017Z",
       "error": null
     },
     {
@@ -4018,7 +4021,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.477Z",
+      "fetchedAt": "2026-08-31T15:53:12.012Z",
       "error": null
     },
     {
@@ -4065,16 +4068,16 @@
           "type": "official"
         },
         {
-          "title": "Azure Virtual Desktop Hybrid without compromise: extending Windows to the cloud on your terms",
-          "link": "https://getnerdio.com/on-demand-webinar/azure-virtual-desktop-hybrid-without-compromise-extending-windows-to-the-cloud-on-your-terms/",
-          "pubDate": "2026-08-24T16:49:39.000Z",
-          "summary": "ON-DEMAND WEBINAR Azure Virtual Desktop Hybrid without compromise: extending Windows to the cloud on your terms The cloud doesn’t have to be… The post Azure Virtual Desktop Hybrid without compromise: extending Windows to the cloud on your terms appeared first on Nerdio. ]]>",
+          "title": "How to automate Microsoft Intune application deployment",
+          "link": "https://getnerdio.com/blog/how-to-automate-intune-application-deployment/",
+          "pubDate": "2026-08-24T17:51:03.000Z",
+          "summary": "Blog How to automate Microsoft Intune application deployment Automate Microsoft Intune application deployment with Graph API, Enterprise App Management, and… The post How to automate Microsoft Intune application deployment appeared first on Nerdio. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:17.621Z",
+      "fetchedAt": "2026-08-31T15:53:13.621Z",
       "error": null
     },
     {
@@ -4084,7 +4087,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T04:01:18.123Z",
+      "fetchedAt": "2026-08-31T15:53:13.925Z",
       "error": null
     },
     {
@@ -4094,6 +4097,17 @@
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Windows Autopilot Device Association",
+          "link": "https://patchmypc.com/blog/windows-autopilot-device-association/",
+          "pubDate": "2026-08-31T13:58:39.000Z",
+          "summary": "What happens between importing a Device Association CSV and Windows knowing which tenant it belongs to? This walkthrough follows all 12 steps, using code and lab evidence to explain TPM attestation, the signed association stored in UEFI, and how Windows retrieves OOBE settings before anyone signs in",
+          "author": "",
+          "categories": [
+            "Blog"
+          ],
+          "type": "official"
+        },
         {
           "title": "Inside Intune Client-Driven Compliance Evaluation for Windows Devices",
           "link": "https://patchmypc.com/blog/intune-client-driven-compliance-evaluation-for-windows-devices/",
@@ -4137,20 +4151,9 @@
             "Blog"
           ],
           "type": "official"
-        },
-        {
-          "title": "Patch My PC Publisher Production Version 3.0.4.0 Released",
-          "link": "https://patchmypc.com/release-notes/production-release/patch-my-pc-publisher-production-version-3-0-4-0-released/",
-          "pubDate": "2026-08-10T19:45:46.000Z",
-          "summary": "This release contains a variety of fixes, as noted below. This will be made available via the self-update channel over the coming days. You can upgrade in place now by downloading the latest MSI installer. Fixes The post Patch My PC Publisher Production Version 3.0.4.0 Released appeared first on Pat",
-          "author": "",
-          "categories": [
-            "Production Release"
-          ],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:18.877Z",
+      "fetchedAt": "2026-08-31T15:53:14.854Z",
       "error": null
     },
     {
@@ -4206,7 +4209,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:18.183Z",
+      "fetchedAt": "2026-08-31T15:53:13.712Z",
       "error": null
     },
     {
@@ -4220,7 +4223,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-08-27T08:13:00.000Z",
-          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4235,7 +4238,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:18.048Z",
+      "fetchedAt": "2026-08-31T15:53:14.028Z",
       "error": null
     },
     {
@@ -4291,7 +4294,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:19.238Z",
+      "fetchedAt": "2026-08-31T15:53:14.868Z",
       "error": null
     },
     {
@@ -4301,7 +4304,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-31T04:01:19.073Z",
+      "fetchedAt": "2026-08-31T15:53:15.015Z",
       "error": null
     },
     {
@@ -4357,7 +4360,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:18.895Z",
+      "fetchedAt": "2026-08-31T15:53:14.872Z",
       "error": null
     },
     {
@@ -4377,7 +4380,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:18.935Z",
+      "fetchedAt": "2026-08-31T15:53:14.883Z",
       "error": null
     },
     {
@@ -4433,7 +4436,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:23.985Z",
+      "fetchedAt": "2026-08-31T15:53:19.641Z",
       "error": null
     },
     {
@@ -4489,7 +4492,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:20.324Z",
+      "fetchedAt": "2026-08-31T15:53:16.028Z",
       "error": null
     },
     {
@@ -4544,7 +4547,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:19.450Z",
+      "fetchedAt": "2026-08-31T15:53:15.132Z",
       "error": null
     },
     {
@@ -4553,6 +4556,15 @@
       "type": "audio",
       "url": "https://feed.podbean.com/powershellpodcast/feed.xml",
       "items": [
+        {
+          "title": "How to Test Microsoft Graph Without a Live Tenant with Morten Mynster",
+          "link": "https://powershellpodcast.podbean.com/e/how-to-test-microsoft-graph-without-a-live-tenant-with-morten-mynster/",
+          "pubDate": "2026-08-31T14:00:00.000Z",
+          "summary": "https://github.com/Mynster9361/Least_Privileged_MSGraph https://github.com/Mynster9361/LeastPrivilegedEntra https://github.com/Mynster9361/msgraphProxy https://github.com/FriedrichWeinmann/EntraAuth The PowerShell Podcast on YouTube: https://youtu.be/cB_QE1HvAyI ]]>",
+          "author": "",
+          "categories": [],
+          "type": "audio"
+        },
         {
           "title": "Unit Testing Your Cloud with Mike Soule",
           "link": "https://powershellpodcast.podbean.com/e/unit-testing-your-cloud-with-mike-soule/",
@@ -4588,18 +4600,9 @@
           "author": "",
           "categories": [],
           "type": "audio"
-        },
-        {
-          "title": "Active Directory Meets Source Control with Fred Weinmann",
-          "link": "https://powershellpodcast.podbean.com/e/active-directory-meets-source-control-with-fred-weinmann/",
-          "pubDate": "2026-07-27T14:00:00.000Z",
-          "summary": "ADMF follows a test-before-apply model borrowed from DSC, but trades DSC's all-or-nothing enforcement for a more selective, component-by-component approach that better fits the fluid reality of Active Directory management. Generating a configuration from an existing AD environment is tempting but po",
-          "author": "",
-          "categories": [],
-          "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:19.434Z",
+      "fetchedAt": "2026-08-31T15:53:15.143Z",
       "error": null
     },
     {
@@ -4664,7 +4667,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-31T04:01:24.812Z",
+      "fetchedAt": "2026-08-31T15:53:20.517Z",
       "error": null
     }
   ]
