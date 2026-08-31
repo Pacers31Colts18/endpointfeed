@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T15:53:20.517Z",
+  "generatedAt": "2026-08-31T21:19:37.998Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,73 +8,71 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Automate Graph permission checks—and avoid an Azure Automation SDK trap",
-          "link": "https://4sysops.com/archives/automate-graph-permission-checks-and-avoid-an-azure-automation-sdk-trap/",
-          "pubDate": "2026-08-31T13:44:35.000Z",
-          "summary": "A PowerShell script can now compare Microsoft Graph’s current permissions with a stored baseline and alert administrators when Microsoft adds narrower or new access options. The automation also uncovered a problem in Azure Automation: Microsoft Graph Files cmdlets were unavailable in the PowerShell ",
+          "title": "Windows 11 KB5120998: New features and issues",
+          "link": "https://4sysops.com/archives/windows-11-kb5120998-new-features-and-issues/",
+          "pubDate": "2026-08-31T20:33:08.000Z",
+          "summary": "Microsoft released KB5120998 on August 27, 2026, as an optional preview cumulative update for Windows 11 versions 24H2 (build 26100.9278) and 25H2 (build 26200.9278). The update adds taskbar and Start menu customization, search changes, security-related platform features, and removes the WMIC comman",
           "author": "",
           "categories": [
-            "News",
-            "Identity",
-            "PowerShell",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft confirms Windows 11 KB5120998 resets custom mouse cursors",
-          "link": "https://4sysops.com/archives/microsoft-confirms-windows-11-kb5120998-resets-custom-mouse-cursors/",
-          "pubDate": "2026-08-31T13:44:34.000Z",
-          "summary": "Microsoft has confirmed that Windows 11’s optional KB5120998 preview update resets mouse personalization settings, validating reports of custom cursors turning white and wallpapers reverting. The issue can replace high-DPI pointers with oversized white cursors, revert animations, and prevent users f",
-          "author": "",
-          "categories": [
-            "News",
+            "Articles",
             "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Broadcom’s VMware AI Factory puts private AI and agent control in VCF",
-          "link": "https://4sysops.com/archives/broadcoms-vmware-ai-factory-puts-private-ai-and-agent-control-in-vcf/",
-          "pubDate": "2026-08-31T13:44:33.000Z",
-          "summary": "Broadcom has now moved beyond the private AI and agent-security agenda previewed for VMware Explore 2026, announcing the VMware AI Factory, AgentMinder, and new TrueSource open-source security services. The package positions VMware Cloud Foundation as a turnkey platform for running production AI on ",
+          "title": "Sony and Warner sue Anthropic over Claude training data and tens of thousands of songs",
+          "link": "https://4sysops.com/archives/sony-and-warner-sue-anthropic-over-claude-training-data-and-tens-of-thousands-of-songs/",
+          "pubDate": "2026-08-31T20:29:01.000Z",
+          "summary": "Sony Music Publishing and Warner Chappell Music have sued Anthropic, alleging that Claude was trained using tens of thousands of copyrighted songs and lyrics obtained through unauthorized copying. The complaint also names CEO Dario Amodei and co-founder Benjamin Mann, and could expose Anthropic to b",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "OpenAI has reportedly bought tens of thousands of Apple Mac mini and Mac Studio systems",
+          "link": "https://4sysops.com/archives/openai-has-reportedly-bought-tens-of-thousands-of-apple-mac-mini-and-mac-studio-systems/",
+          "pubDate": "2026-08-31T20:29:00.000Z",
+          "summary": "OpenAI has reportedly bought tens of thousands of Apple Mac mini and Mac Studio systems—not to train its main AI models, but to teach computer-use agents how to operate real macOS environments. The large orders are pressuring supplies of high-memory Macs as AI companies seek hardware that can run ma",
           "author": "",
           "categories": [
             "News",
             "AI",
-            "Security",
-            "Virtualization"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "GM’s 200,000-user passkey rollout exposes the hard parts admins miss",
-          "link": "https://4sysops.com/archives/gms-200000-user-passkey-rollout-exposes-the-hard-parts-admins-miss/",
-          "pubDate": "2026-08-31T13:44:32.000Z",
-          "summary": "General Motors’ rollout of passkeys to roughly 200,000 employees shows that the difficult part is not enabling FIDO2 authentication—it is replacing every weak-method dependency around it. With Microsoft Entra ID set to make passkeys the default on September 1, 2026, and retire Microsoft-provided SMS",
-          "author": "",
-          "categories": [
-            "News",
-            "Identity",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Linux 7.3-rc1 nears 41 million lines as AMD GPU code drives the surge",
-          "link": "https://4sysops.com/archives/linux-7-3-rc1-nears-41-million-lines-as-amd-gpu-code-drives-the-surge/",
-          "pubDate": "2026-08-31T09:28:25.000Z",
-          "summary": "Linux 7.3-rc1 has become one of the kernel’s largest first release candidates, reaching nearly 41 million lines of source code. AMD’s new GPU definitions and driver support account for about one-third of the merge-window patch, making the release especially relevant for teams testing upcoming AMD ha",
-          "author": "",
-          "categories": [
-            "News",
             "Hardware",
-            "Linux"
+            "Mac"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "ChatGPT Work outage blocks tasks for Plus subscribers",
+          "link": "https://4sysops.com/archives/chatgpt-work-outage-blocks-tasks-for-plus-subscribers/",
+          "pubDate": "2026-08-31T20:02:16.000Z",
+          "summary": "OpenAI is investigating an ongoing ChatGPT outage that is preventing some users from starting or continuing tasks in ChatGPT Work. The disruption began around 11:04 a.m. ET on August 31, with ChatGPT Plus subscribers particularly affected because Work mode is unavailable for some accounts. Source]]>",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Debian 11 LTS ends: upgrade to Debian 12 before updates stop",
+          "link": "https://4sysops.com/archives/debian-11-lts-ends-upgrade-to-debian-12-before-updates-stop/",
+          "pubDate": "2026-08-31T20:02:15.000Z",
+          "summary": "Debian 11 “Bullseye” reached the end of its Long-Term Support period on August 31, 2026. Debian will stop providing security updates in September, leaving administrators with a clear choice: migrate to Debian 12 “Bookworm,” reinstall with Debian 13, or arrange external Extended LTS coverage. Source]",
+          "author": "",
+          "categories": [
+            "News",
+            "Linux",
+            "Security",
+            "Systems Management"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:57.402Z",
+      "fetchedAt": "2026-08-31T21:19:13.057Z",
       "error": null
     },
     {
@@ -117,7 +115,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:57.649Z",
+      "fetchedAt": "2026-08-31T21:19:13.277Z",
       "error": null
     },
     {
@@ -203,7 +201,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:57.054Z",
+      "fetchedAt": "2026-08-31T21:19:12.714Z",
       "error": null
     },
     {
@@ -212,6 +210,21 @@
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
       "items": [
+        {
+          "title": "Configuring Point-in-time restore in Windows",
+          "link": "https://petervanderwoude.nl/post/configuring-point-in-time-restore-in-windows/",
+          "pubDate": "2026-08-31T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "Microsoft Intune",
+            "OMA-URI",
+            "Point-in-time restore",
+            "Settings Catalog",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Managing Apple Intelligence on iOS and iPadOS devices",
           "link": "https://petervanderwoude.nl/post/managing-apple-intelligence-on-ios-and-ipados-devices/",
@@ -265,23 +278,9 @@
             "Windows 11"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Getting started with Android Enterprise personally owned devices with work profile",
-          "link": "https://petervanderwoude.nl/post/getting-started-with-android-enterprise-personally-owned-devices-with-work-profile/",
-          "pubDate": "2026-06-29T17:45:00.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Android",
-            "Android Enterprise",
-            "Android Enterprise personally-owned work profile",
-            "Microsoft Intune"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:57.774Z",
+      "fetchedAt": "2026-08-31T21:19:13.294Z",
       "error": null
     },
     {
@@ -357,7 +356,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:59.312Z",
+      "fetchedAt": "2026-08-31T21:19:14.957Z",
       "error": null
     },
     {
@@ -439,7 +438,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:58.045Z",
+      "fetchedAt": "2026-08-31T21:19:13.653Z",
       "error": null
     },
     {
@@ -512,7 +511,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:58.043Z",
+      "fetchedAt": "2026-08-31T21:19:13.704Z",
       "error": null
     },
     {
@@ -580,7 +579,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:58.202Z",
+      "fetchedAt": "2026-08-31T21:19:14.019Z",
       "error": null
     },
     {
@@ -653,7 +652,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:59.372Z",
+      "fetchedAt": "2026-08-31T21:19:15.049Z",
       "error": null
     },
     {
@@ -734,7 +733,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:00.726Z",
+      "fetchedAt": "2026-08-31T21:19:16.355Z",
       "error": null
     },
     {
@@ -744,7 +743,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T15:52:59.421Z",
+      "fetchedAt": "2026-08-31T21:19:15.209Z",
       "error": "HTTP 403"
     },
     {
@@ -817,7 +816,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:52:59.731Z",
+      "fetchedAt": "2026-08-31T21:19:15.584Z",
       "error": null
     },
     {
@@ -899,7 +898,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:00.841Z",
+      "fetchedAt": "2026-08-31T21:19:16.577Z",
       "error": null
     },
     {
@@ -965,7 +964,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:01.914Z",
+      "fetchedAt": "2026-08-31T21:19:17.644Z",
       "error": null
     },
     {
@@ -1031,7 +1030,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:01.999Z",
+      "fetchedAt": "2026-08-31T21:19:17.588Z",
       "error": null
     },
     {
@@ -1111,7 +1110,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:01.718Z",
+      "fetchedAt": "2026-08-31T21:19:17.505Z",
       "error": null
     },
     {
@@ -1166,7 +1165,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:02.237Z",
+      "fetchedAt": "2026-08-31T21:19:17.928Z",
       "error": null
     },
     {
@@ -1231,7 +1230,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:02.429Z",
+      "fetchedAt": "2026-08-31T21:19:17.965Z",
       "error": null
     },
     {
@@ -1315,7 +1314,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:02.219Z",
+      "fetchedAt": "2026-08-31T21:19:17.957Z",
       "error": null
     },
     {
@@ -1388,7 +1387,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:03.040Z",
+      "fetchedAt": "2026-08-31T21:19:18.702Z",
       "error": null
     },
     {
@@ -1397,7 +1396,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T15:53:03.287Z",
+      "fetchedAt": "2026-08-31T21:19:18.813Z",
       "error": "HTTP 403"
     },
     {
@@ -1475,7 +1474,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:04.920Z",
+      "fetchedAt": "2026-08-31T21:19:20.683Z",
       "error": null
     },
     {
@@ -1484,7 +1483,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T15:53:03.436Z",
+      "fetchedAt": "2026-08-31T21:19:19.125Z",
       "error": "certificate has expired"
     },
     {
@@ -1555,7 +1554,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:03.846Z",
+      "fetchedAt": "2026-08-31T21:19:19.543Z",
       "error": null
     },
     {
@@ -1631,7 +1630,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:05.471Z",
+      "fetchedAt": "2026-08-31T21:19:21.308Z",
       "error": null
     },
     {
@@ -1697,7 +1696,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:05.567Z",
+      "fetchedAt": "2026-08-31T21:19:21.603Z",
       "error": null
     },
     {
@@ -1752,7 +1751,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:05.322Z",
+      "fetchedAt": "2026-08-31T21:19:21.113Z",
       "error": null
     },
     {
@@ -1822,7 +1821,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:05.427Z",
+      "fetchedAt": "2026-08-31T21:19:21.958Z",
       "error": null
     },
     {
@@ -1901,7 +1900,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:05.674Z",
+      "fetchedAt": "2026-08-31T21:19:22.178Z",
       "error": null
     },
     {
@@ -1983,7 +1982,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:07.791Z",
+      "fetchedAt": "2026-08-31T21:19:24.259Z",
       "error": null
     },
     {
@@ -2068,7 +2067,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:05.770Z",
+      "fetchedAt": "2026-08-31T21:19:22.251Z",
       "error": null
     },
     {
@@ -2124,7 +2123,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:05.790Z",
+      "fetchedAt": "2026-08-31T21:19:22.332Z",
       "error": null
     },
     {
@@ -2210,7 +2209,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:08.782Z",
+      "fetchedAt": "2026-08-31T21:19:25.245Z",
       "error": null
     },
     {
@@ -2296,7 +2295,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:07.894Z",
+      "fetchedAt": "2026-08-31T21:19:24.446Z",
       "error": null
     },
     {
@@ -2379,7 +2378,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:08.014Z",
+      "fetchedAt": "2026-08-31T21:19:24.606Z",
       "error": null
     },
     {
@@ -2434,7 +2433,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:07.891Z",
+      "fetchedAt": "2026-08-31T21:19:24.817Z",
       "error": null
     },
     {
@@ -2499,7 +2498,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:08.962Z",
+      "fetchedAt": "2026-08-31T21:19:25.476Z",
       "error": null
     },
     {
@@ -2508,7 +2507,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T15:53:09.058Z",
+      "fetchedAt": "2026-08-31T21:19:25.426Z",
       "error": "HTTP 404"
     },
     {
@@ -2564,7 +2563,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:09.731Z",
+      "fetchedAt": "2026-08-31T21:19:26.189Z",
       "error": null
     },
     {
@@ -2629,7 +2628,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:09.248Z",
+      "fetchedAt": "2026-08-31T21:19:26.063Z",
       "error": null
     },
     {
@@ -2710,7 +2709,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:10.686Z",
+      "fetchedAt": "2026-08-31T21:19:27.034Z",
       "error": null
     },
     {
@@ -2719,7 +2718,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-08-31T15:53:10.706Z",
+      "fetchedAt": "2026-08-31T21:19:27.290Z",
       "error": "HTTP 404"
     },
     {
@@ -2728,7 +2727,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-08-31T15:53:10.004Z",
+      "fetchedAt": "2026-08-31T21:19:26.497Z",
       "error": "HTTP 403"
     },
     {
@@ -2808,7 +2807,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:10.018Z",
+      "fetchedAt": "2026-08-31T21:19:26.588Z",
       "error": null
     },
     {
@@ -2881,7 +2880,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:10.785Z",
+      "fetchedAt": "2026-08-31T21:19:27.539Z",
       "error": null
     },
     {
@@ -2900,7 +2899,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:10.934Z",
+      "fetchedAt": "2026-08-31T21:19:27.400Z",
       "error": null
     },
     {
@@ -2955,7 +2954,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:10.938Z",
+      "fetchedAt": "2026-08-31T21:19:27.683Z",
       "error": null
     },
     {
@@ -3041,7 +3040,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:10.870Z",
+      "fetchedAt": "2026-08-31T21:19:27.583Z",
       "error": null
     },
     {
@@ -3106,7 +3105,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.125Z",
+      "fetchedAt": "2026-08-31T21:19:28.187Z",
       "error": null
     },
     {
@@ -3116,6 +3115,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "500K Ask Me Anything YouTube Live Stream",
+          "link": "https://www.youtube.com/watch?v=hXRPm7r4Q14",
+          "pubDate": "2026-08-16T18:54:36.000Z",
+          "summary": "An AMA to celebrate hitting 500,000 subscribers. A great 60 minutes of interactive Q&A!",
+          "author": "John Savill's Technical Training",
+          "categories": [],
+          "type": "video",
+          "videoId": "hXRPm7r4Q14",
+          "thumbnail": "https://i1.ytimg.com/vi/hXRPm7r4Q14/hqdefault.jpg"
+        },
         {
           "title": "Azure Linux 4.0 Quick Overview #azure #linux",
           "link": "https://www.youtube.com/shorts/2_Wuzlxa6iw",
@@ -3159,20 +3169,9 @@
           "type": "video",
           "videoId": "hYjgSu-77pA",
           "thumbnail": "https://i1.ytimg.com/vi/hYjgSu-77pA/hqdefault.jpg"
-        },
-        {
-          "title": "Perception Quick Overview #security #cybersecurity",
-          "link": "https://www.youtube.com/shorts/TZc5uGySFi0",
-          "pubDate": "2026-08-24T14:39:54.000Z",
-          "summary": "Quick overview of Microsoft's Project Perception, agentic end-to-end security.",
-          "author": "John Savill's Technical Training",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/TZc5uGySFi0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.140Z",
+      "fetchedAt": "2026-08-31T21:19:27.716Z",
       "error": null
     },
     {
@@ -3237,7 +3236,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/U0gREuzVBIo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.233Z",
+      "fetchedAt": "2026-08-31T21:19:27.934Z",
       "error": null
     },
     {
@@ -3302,7 +3301,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/MCFzSnMc34k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.298Z",
+      "fetchedAt": "2026-08-31T21:19:27.951Z",
       "error": null
     },
     {
@@ -3368,7 +3367,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.451Z",
+      "fetchedAt": "2026-08-31T21:19:28.343Z",
       "error": null
     },
     {
@@ -3434,7 +3433,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WMQJqPd8E9U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.481Z",
+      "fetchedAt": "2026-08-31T21:19:28.201Z",
       "error": null
     },
     {
@@ -3500,7 +3499,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hGYrwQyXJl4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.522Z",
+      "fetchedAt": "2026-08-31T21:19:28.428Z",
       "error": null
     },
     {
@@ -3565,7 +3564,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.478Z",
+      "fetchedAt": "2026-08-31T21:19:28.197Z",
       "error": null
     },
     {
@@ -3575,6 +3574,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure Vault Standard: Secure Geo-Redundant File Share Backups #shorts",
+          "link": "https://www.youtube.com/shorts/OIRZFsAXak4",
+          "pubDate": "2026-08-31T19:04:40.000Z",
+          "summary": "Full video: https://youtu.be/cnDlheHyBxk Understand Azure Storage replication: locally redundant vs. zone-redundant vs. geo-redundant. Learn how data is protected and replicated to paired regions for disaster recovery. #AzureBackup #AVD #FSLogix #AzureFiles #RecoveryServicesVault #ITPro #Azure #MVPB",
+          "author": "Travis Roberts",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/OIRZFsAXak4/hqdefault.jpg"
+        },
         {
           "title": "Azure File Backup: Snapshot vs. Vault Standard Tiers Explained #shorts",
           "link": "https://www.youtube.com/shorts/F-BSrZCyBUw",
@@ -3618,20 +3628,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/RFaENkWx_zA/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Backup: Effortless Backups for Native Resources #shorts",
-          "link": "https://www.youtube.com/shorts/6vngBGUsFow",
-          "pubDate": "2026-08-22T16:57:38.000Z",
-          "summary": "👉Full Video: https://youtu.be/3mmw9IrvoZ8 Azure Backup integrates seamlessly with native resources, often eliminating agents. For VMs, a snapshot extension ensures application-consistent backups. On-premises? The MARS agent or MABS handles it all. #AzureBackup #Azure #Microsoft #ITPro #CloudAdmin #",
-          "author": "Travis Roberts",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/6vngBGUsFow/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.684Z",
+      "fetchedAt": "2026-08-31T21:19:28.747Z",
       "error": null
     },
     {
@@ -3696,7 +3695,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HMKAb90f9Vs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.765Z",
+      "fetchedAt": "2026-08-31T21:19:28.654Z",
       "error": null
     },
     {
@@ -3761,7 +3760,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iVZER3KHdsg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.704Z",
+      "fetchedAt": "2026-08-31T21:19:28.684Z",
       "error": null
     },
     {
@@ -3826,7 +3825,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.852Z",
+      "fetchedAt": "2026-08-31T21:19:28.973Z",
       "error": null
     },
     {
@@ -3891,7 +3890,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:11.994Z",
+      "fetchedAt": "2026-08-31T21:19:29.132Z",
       "error": null
     },
     {
@@ -3956,7 +3955,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:12.017Z",
+      "fetchedAt": "2026-08-31T21:19:29.326Z",
       "error": null
     },
     {
@@ -4021,7 +4020,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:12.012Z",
+      "fetchedAt": "2026-08-31T21:19:29.135Z",
       "error": null
     },
     {
@@ -4077,7 +4076,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:13.621Z",
+      "fetchedAt": "2026-08-31T21:19:30.900Z",
       "error": null
     },
     {
@@ -4087,7 +4086,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-08-31T15:53:13.925Z",
+      "fetchedAt": "2026-08-31T21:19:31.372Z",
       "error": null
     },
     {
@@ -4153,7 +4152,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:14.854Z",
+      "fetchedAt": "2026-08-31T21:19:32.003Z",
       "error": null
     },
     {
@@ -4209,7 +4208,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:13.712Z",
+      "fetchedAt": "2026-08-31T21:19:31.005Z",
       "error": null
     },
     {
@@ -4238,7 +4237,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:14.028Z",
+      "fetchedAt": "2026-08-31T21:19:31.359Z",
       "error": null
     },
     {
@@ -4294,7 +4293,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:14.868Z",
+      "fetchedAt": "2026-08-31T21:19:32.025Z",
       "error": null
     },
     {
@@ -4304,7 +4303,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-08-31T15:53:15.015Z",
+      "fetchedAt": "2026-08-31T21:19:32.154Z",
       "error": null
     },
     {
@@ -4360,7 +4359,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:14.872Z",
+      "fetchedAt": "2026-08-31T21:19:32.035Z",
       "error": null
     },
     {
@@ -4380,7 +4379,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:14.883Z",
+      "fetchedAt": "2026-08-31T21:19:32.105Z",
       "error": null
     },
     {
@@ -4436,7 +4435,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:19.641Z",
+      "fetchedAt": "2026-08-31T21:19:36.980Z",
       "error": null
     },
     {
@@ -4492,7 +4491,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:16.028Z",
+      "fetchedAt": "2026-08-31T21:19:33.241Z",
       "error": null
     },
     {
@@ -4547,7 +4546,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:15.132Z",
+      "fetchedAt": "2026-08-31T21:19:32.390Z",
       "error": null
     },
     {
@@ -4602,7 +4601,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:15.143Z",
+      "fetchedAt": "2026-08-31T21:19:32.403Z",
       "error": null
     },
     {
@@ -4667,7 +4666,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-08-31T15:53:20.517Z",
+      "fetchedAt": "2026-08-31T21:19:37.998Z",
       "error": null
     }
   ]
