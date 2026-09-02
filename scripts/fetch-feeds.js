@@ -24,6 +24,12 @@ const FEEDS = [
     url: "https://4sysops.com/feed/",
   },
   {
+    id: "tiagocarvalho",
+    label: "Tiago S. Carvahlo",
+    type: "rss",
+    url: "https://www.tiagoscarvalho.com/rss.xml",
+  },
+  {
     id: "AndreiShchetkin",
     label: "shchetkin.dev - Andrei Shchetkin",
     type: "rss",
