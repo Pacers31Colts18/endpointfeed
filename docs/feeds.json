@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:04:43.828Z",
+  "generatedAt": "2026-09-02T22:24:53.447Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,70 +8,137 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Excel Canvas will turn workbook data into live Copilot dashboards",
-          "link": "https://4sysops.com/archives/excel-canvas-will-turn-workbook-data-into-live-copilot-dashboards/",
-          "pubDate": "2026-09-02T14:38:18.000Z",
-          "summary": "Microsoft is preparing Excel Canvas, a Copilot-powered workspace that converts workbook data into interactive charts, metrics, and insights without requiring users to build each visualization manually. The feature is expected to reach general availability for Excel on Windows and the web this month,",
+          "title": "New identity governance and access features in Microsoft Entra",
+          "link": "https://4sysops.com/archives/new-identity-governance-and-access-features-in-microsoft-entra/",
+          "pubDate": "2026-09-02T21:05:06.000Z",
+          "summary": "Microsoft released several generally available and preview updates for Microsoft Entra in September 2026. The changes focus on tenant governance, user-centric access reviews, lifecycle workflow management, passwordless Teams device identities, hybrid identity provisioning, and AI traffic controls. Y",
           "author": "",
           "categories": [
-            "News",
+            "Articles",
             "AI",
-            "Business Software"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Microsoft offers an AI gaming fix for broken Outlook and Teams on Arm PCs",
-          "link": "https://4sysops.com/archives/microsoft-offers-an-ai-gaming-fix-for-broken-outlook-and-teams-on-arm-pcs/",
-          "pubDate": "2026-09-02T14:38:17.000Z",
-          "summary": "Microsoft has acknowledged that Windows 11 update KB5121003 can prevent Teams and New Outlook from launching on Arm PCs, expanding on reports that KB5121003 broke Teams and Outlook on devices such as the Surface Pro 11 and Surface Laptop 7. The unexpected remedy is to install an updated Auto Super R",
-          "author": "",
-          "categories": [
-            "News",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "OpenAI’s Astra reaches “critical” cyber capability threshold",
-          "link": "https://4sysops.com/archives/openais-astra-reaches-critical-cyber-capability-threshold/",
-          "pubDate": "2026-09-02T13:26:02.000Z",
-          "summary": "OpenAI says its unreleased Astra model is the first of its systems to reach the “Critical” cybersecurity level, meaning it can autonomously discover unknown vulnerabilities and chain them into attacks against hardened environments. The designation has already changed Astra’s rollout: parts of traini",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
+            "Identity",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft offers workshop for incident response plans",
-          "link": "https://4sysops.com/archives/microsoft-offers-workshop-for-incident-response-plans/",
-          "pubDate": "2026-09-02T13:07:54.000Z",
-          "summary": "Microsoft is offering organizations a two- or three-day Cybersecurity Incident Response Workshop to test whether their incident response plans work under pressure—not just on paper. Led by Microsoft’s Detection and Response Team (DART), the exercise uses simulated attacks, threat hunting, and guided",
+          "title": "Meta reportedly rolls out Muse Spark 1.3 for coding and agentic workloads",
+          "link": "https://4sysops.com/archives/meta-reportedly-rolls-out-muse-spark-1-3-for-coding-and-agentic-workloads/",
+          "pubDate": "2026-09-02T21:02:59.000Z",
+          "summary": "Meta is reportedly rolling out Muse Spark 1.3 through Muse Code and the Meta Model API, promising major gains in coding and agentic performance without raising the price from Spark 1.2. However, publicly detailed Meta material still centers on Muse Spark 1.2, so administrators should verify that 1.3",
           "author": "",
           "categories": [
             "News",
-            "Security"
+            "AI"
           ],
           "type": "rss"
         },
         {
-          "title": "Anthropic opens Claude watermark detection API to approved organizations",
-          "link": "https://4sysops.com/archives/anthropic-opens-claude-watermark-detection-api-to-approved-organizations/",
-          "pubDate": "2026-09-02T13:07:53.000Z",
-          "summary": "Anthropic has launched a private-preview API that lets approved organizations verify Claude’s invisible watermark, following its rollout of watermarks across Claude outputs. Regulators, media outlets, fact-checkers, researchers, educational organizations, and compliance-focused enterprises can apply",
+          "title": "OpenAI limits Astra’s opaque reasoning after AI safety alarm",
+          "link": "https://4sysops.com/archives/openai-limits-astras-opaque-reasoning-after-ai-safety-alarm/",
+          "pubDate": "2026-09-02T21:02:58.000Z",
+          "summary": "OpenAI is limiting the use of recurrent depth in its Astra model after concerns that the technique could hide more of the model’s reasoning from safety systems. The looped approach processes information repeatedly inside the model instead of producing a clearly sequential chain of thought, but OpenA",
           "author": "",
           "categories": [
             "News",
             "AI",
             "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Lenovo claims NVMe memory tiering can cut server costs by 45%",
+          "link": "https://4sysops.com/archives/lenovo-claims-nvme-memory-tiering-can-cut-server-costs-by-45/",
+          "pubDate": "2026-09-02T20:58:16.000Z",
+          "summary": "Lenovo and Broadcom have validated VMware memory tiering on ThinkAgile VX V4 systems, reporting up to 45 percent lower infrastructure acquisition costs, twice the VM density, and more than 90 percent of normal performance. The results add concrete hardware data to VMware’s push to use NVMe memory ti",
+          "author": "",
+          "categories": [
+            "News",
+            "Hardware",
+            "Virtualization"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "GitHub Copilot can now approve pull requests, with admin controls",
+          "link": "https://4sysops.com/archives/github-copilot-can-now-approve-pull-requests-with-admin-controls/",
+          "pubDate": "2026-09-02T20:47:56.000Z",
+          "summary": "GitHub Copilot can now submit approvals on pull requests that count toward branch-protection requirements, moving its code review role beyond comments and recommendations. The capability is in public preview, but it remains disabled until administrators explicitly authorize it. Source]]>",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "DevOps"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:03:57.607Z",
+      "fetchedAt": "2026-09-02T22:24:32.419Z",
+      "error": null
+    },
+    {
+      "id": "tiagocarvalho",
+      "label": "Tiago S. Carvahlo",
+      "type": "rss",
+      "url": "https://www.tiagoscarvalho.com/rss.xml",
+      "items": [
+        {
+          "title": "Retention Policy, Retention Label or Record: Which One the Requirement Actually Needs",
+          "link": "https://www.tiagoscarvalho.com/security-compliance/retention-policy-label-record-2026",
+          "pubDate": "2026-08-28T06:37:35.000Z",
+          "summary": "Retention policy, retention label or record in Microsoft Purview: what each one does, where the scope traps are, what becomes irreversible, and how to prove it worked.",
+          "author": "",
+          "categories": [
+            "security-compliance"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Standard, Strict or Custom: Choosing Defender for Office 365 Protection",
+          "link": "https://www.tiagoscarvalho.com/security-compliance/preset-security-policies-standard-strict-custom-2026",
+          "pubDate": "2026-08-27T07:11:10.000Z",
+          "summary": "Compare Standard, Strict and custom Defender for Office 365 policies: six setting differences, precedence, scoping, licensing and configuration drift.",
+          "author": "",
+          "categories": [
+            "security-compliance"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Troubleshooting Exchange Online Mail Flow Rules: From Report to Root Cause",
+          "link": "https://www.tiagoscarvalho.com/exchange-online/mail-flow-rules-troubleshooting-2026",
+          "pubDate": "2026-08-26T06:53:24.000Z",
+          "summary": "From user report to root cause: Message Trace V2, the Extended report, audit mode, rule identity, and safe Exchange Online mail flow testing.",
+          "author": "",
+          "categories": [
+            "exchange-online"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Sensitivity Labels vs DLP vs Retention: Which One?",
+          "link": "https://www.tiagoscarvalho.com/security-compliance/purview-labels-dlp-retention-2026",
+          "pubDate": "2026-08-11T08:24:07.000Z",
+          "summary": "A decision matrix for Microsoft Purview: which problem sensitivity labels solve, which DLP solves, which retention solves, and the traps in between.",
+          "author": "",
+          "categories": [
+            "security-compliance"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "ASR Rules: Audit-to-Block Rollout with Intune (2026)",
+          "link": "https://www.tiagoscarvalho.com/microsoft-intune/asr-audit-to-block-intune-2026",
+          "pubDate": "2026-08-07T06:42:13.000Z",
+          "summary": "Roll out attack surface reduction rules without breaking line-of-business apps: audit baselines, all 19 rules, exclusions that work, Intune deployment.",
+          "author": "",
+          "categories": [
+            "microsoft-intune"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-09-02T22:24:32.567Z",
       "error": null
     },
     {
@@ -79,9 +146,43 @@
       "label": "shchetkin.dev - Andrei Shchetkin",
       "type": "rss",
       "url": "https://shchetkin.dev/rss/",
-      "items": [],
-      "fetchedAt": "2026-09-02T16:04:05.152Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/reverse-engineering-the-intune-portal-the-ai-enabled-cloud-pc-report/",
+          "pubDate": "2026-08-02T12:06:31.000Z",
+          "summary": "In this article we will get a Windows 365 report from Microsoft Graph that is not in the Graph documentation the AI-enabled Cloud PC report.The portal shows that report every time you open it, so an API for it must exist. It is just not documented anywhere. The method]]>",
+          "author": "",
+          "categories": [
+            "Graph API"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/windows-365-migration-graph-api/",
+          "pubDate": "2026-06-06T14:08:37.000Z",
+          "summary": "In this article we're going to figure out how to migrate almost any Azure-based VM into a Windows 365 Cloud PC using the Microsoft Graph beta migration API.PrerequisitesI assume you're familiar with Microsoft Graph API, Entra ID, Cloud PC, and Provisioning Policies.What we]]>",
+          "author": "",
+          "categories": [
+            "w365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/the-complete-windows-365-graph-api-developer-guide/",
+          "pubDate": "2025-12-23T15:09:22.000Z",
+          "summary": "Managing Windows 365 Cloud PCs at scale demands more than clicking through the Intune portal. If you're automating provisioning policies, building CI/CD pipelines for Cloud PC deployments, or integrating Windows 365 into your infrastructure-as-code workflows, the Microsoft Graph API is your only pat",
+          "author": "",
+          "categories": [
+            "w365"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-09-02T22:24:32.712Z",
+      "error": null
     },
     {
       "id": "emsroute",
@@ -166,7 +267,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:03:57.238Z",
+      "fetchedAt": "2026-09-02T22:24:32.288Z",
       "error": null
     },
     {
@@ -245,7 +346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:03:58.003Z",
+      "fetchedAt": "2026-09-02T22:24:33.167Z",
       "error": null
     },
     {
@@ -321,7 +422,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:06.940Z",
+      "fetchedAt": "2026-09-02T22:24:34.550Z",
       "error": null
     },
     {
@@ -403,7 +504,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:05.387Z",
+      "fetchedAt": "2026-09-02T22:24:32.966Z",
       "error": null
     },
     {
@@ -473,7 +574,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:05.582Z",
+      "fetchedAt": "2026-09-02T22:24:32.978Z",
       "error": null
     },
     {
@@ -541,7 +642,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:05.735Z",
+      "fetchedAt": "2026-09-02T22:24:35.049Z",
       "error": null
     },
     {
@@ -614,7 +715,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:07.589Z",
+      "fetchedAt": "2026-09-02T22:24:34.617Z",
       "error": null
     },
     {
@@ -695,7 +796,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:08.882Z",
+      "fetchedAt": "2026-09-02T22:24:35.653Z",
       "error": null
     },
     {
@@ -705,7 +806,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:07.425Z",
+      "fetchedAt": "2026-09-02T22:24:34.904Z",
       "error": "HTTP 403"
     },
     {
@@ -778,7 +879,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:07.539Z",
+      "fetchedAt": "2026-09-02T22:24:35.978Z",
       "error": null
     },
     {
@@ -860,7 +961,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:10.294Z",
+      "fetchedAt": "2026-09-02T22:24:36.787Z",
       "error": null
     },
     {
@@ -926,7 +1027,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:09.627Z",
+      "fetchedAt": "2026-09-02T22:24:36.484Z",
       "error": null
     },
     {
@@ -992,7 +1093,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:09.832Z",
+      "fetchedAt": "2026-09-02T22:24:36.639Z",
       "error": null
     },
     {
@@ -1072,7 +1173,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:09.971Z",
+      "fetchedAt": "2026-09-02T22:24:37.725Z",
       "error": null
     },
     {
@@ -1127,7 +1228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:10.467Z",
+      "fetchedAt": "2026-09-02T22:24:37.067Z",
       "error": null
     },
     {
@@ -1192,7 +1293,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:10.652Z",
+      "fetchedAt": "2026-09-02T22:24:37.168Z",
       "error": null
     },
     {
@@ -1276,7 +1377,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:10.543Z",
+      "fetchedAt": "2026-09-02T22:24:37.093Z",
       "error": null
     },
     {
@@ -1349,7 +1450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:11.414Z",
+      "fetchedAt": "2026-09-02T22:24:38.333Z",
       "error": null
     },
     {
@@ -1358,7 +1459,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:11.473Z",
+      "fetchedAt": "2026-09-02T22:24:37.817Z",
       "error": "HTTP 403"
     },
     {
@@ -1436,7 +1537,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:13.199Z",
+      "fetchedAt": "2026-09-02T22:24:39.214Z",
       "error": null
     },
     {
@@ -1445,7 +1546,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:11.769Z",
+      "fetchedAt": "2026-09-02T22:24:38.063Z",
       "error": "certificate has expired"
     },
     {
@@ -1516,7 +1617,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:12.193Z",
+      "fetchedAt": "2026-09-02T22:24:39.803Z",
       "error": null
     },
     {
@@ -1592,7 +1693,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:13.674Z",
+      "fetchedAt": "2026-09-02T22:24:39.557Z",
       "error": null
     },
     {
@@ -1602,8 +1703,8 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:29.331Z",
-      "error": "Timeout after 8000ms"
+      "fetchedAt": "2026-09-02T22:24:41.252Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -1657,7 +1758,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:13.553Z",
+      "fetchedAt": "2026-09-02T22:24:39.829Z",
       "error": null
     },
     {
@@ -1727,7 +1828,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:14.135Z",
+      "fetchedAt": "2026-09-02T22:24:41.525Z",
       "error": null
     },
     {
@@ -1806,7 +1907,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:29.458Z",
+      "fetchedAt": "2026-09-02T22:24:41.378Z",
       "error": null
     },
     {
@@ -1888,7 +1989,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:31.473Z",
+      "fetchedAt": "2026-09-02T22:24:42.907Z",
       "error": null
     },
     {
@@ -1973,7 +2074,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:29.526Z",
+      "fetchedAt": "2026-09-02T22:24:41.424Z",
       "error": null
     },
     {
@@ -2029,7 +2130,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:29.807Z",
+      "fetchedAt": "2026-09-02T22:24:43.031Z",
       "error": null
     },
     {
@@ -2115,7 +2216,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:32.528Z",
+      "fetchedAt": "2026-09-02T22:24:43.976Z",
       "error": null
     },
     {
@@ -2201,7 +2302,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:31.583Z",
+      "fetchedAt": "2026-09-02T22:24:43.049Z",
       "error": null
     },
     {
@@ -2282,7 +2383,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:31.683Z",
+      "fetchedAt": "2026-09-02T22:24:43.064Z",
       "error": null
     },
     {
@@ -2337,7 +2438,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:31.832Z",
+      "fetchedAt": "2026-09-02T22:24:44.178Z",
       "error": null
     },
     {
@@ -2402,7 +2503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:32.728Z",
+      "fetchedAt": "2026-09-02T22:24:44.152Z",
       "error": null
     },
     {
@@ -2411,7 +2512,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:32.929Z",
+      "fetchedAt": "2026-09-02T22:24:44.174Z",
       "error": "HTTP 404"
     },
     {
@@ -2467,7 +2568,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:33.065Z",
+      "fetchedAt": "2026-09-02T22:24:44.744Z",
       "error": null
     },
     {
@@ -2532,7 +2633,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:33.159Z",
+      "fetchedAt": "2026-09-02T22:24:45.167Z",
       "error": null
     },
     {
@@ -2613,7 +2714,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:34.256Z",
+      "fetchedAt": "2026-09-02T22:24:45.347Z",
       "error": null
     },
     {
@@ -2622,7 +2723,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:34.323Z",
+      "fetchedAt": "2026-09-02T22:24:45.455Z",
       "error": "HTTP 404"
     },
     {
@@ -2631,7 +2732,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:33.731Z",
+      "fetchedAt": "2026-09-02T22:24:44.955Z",
       "error": "HTTP 403"
     },
     {
@@ -2702,16 +2803,16 @@
           "summary": "",
           "author": "",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:33.330Z",
+      "fetchedAt": "2026-09-02T22:24:45.502Z",
       "error": null
     },
     {
@@ -2784,7 +2885,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:34.468Z",
+      "fetchedAt": "2026-09-02T22:24:45.594Z",
       "error": null
     },
     {
@@ -2803,7 +2904,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:34.649Z",
+      "fetchedAt": "2026-09-02T22:24:45.578Z",
       "error": null
     },
     {
@@ -2858,7 +2959,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.400Z",
+      "fetchedAt": "2026-09-02T22:24:45.771Z",
       "error": null
     },
     {
@@ -2944,7 +3045,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:34.482Z",
+      "fetchedAt": "2026-09-02T22:24:45.998Z",
       "error": null
     },
     {
@@ -3009,7 +3110,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.566Z",
+      "fetchedAt": "2026-09-02T22:24:45.896Z",
       "error": null
     },
     {
@@ -3075,7 +3176,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TYGdwts3ILc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.598Z",
+      "fetchedAt": "2026-09-02T22:24:46.019Z",
       "error": null
     },
     {
@@ -3084,6 +3185,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw",
       "items": [
+        {
+          "title": "Meta’s AI Overhaul Stumbles & 284 Million Patient Records Allegedly Stolen",
+          "link": "https://www.youtube.com/watch?v=M_suaeuYbdo",
+          "pubDate": "2026-09-02T21:30:06.000Z",
+          "summary": "This week on the 5BytesPodcast, we cover claims that a staggering 284 million records were stolen in a cyberattack on healthcare giant McKesson, while Meta’s ambitious plans to reshape its workforce around AI reportedly ran into trouble. We also discuss Meta testing robots inside its data centres, c",
+          "author": "5bytespodcast",
+          "categories": [],
+          "type": "video",
+          "videoId": "M_suaeuYbdo",
+          "thumbnail": "https://i2.ytimg.com/vi/M_suaeuYbdo/hqdefault.jpg"
+        },
         {
           "title": "AI Attacks on Critical Infrastructure, Grok Leaks Data & Critical Entra ID Flaw",
           "link": "https://www.youtube.com/watch?v=fThE3w2hLgk",
@@ -3127,20 +3239,9 @@
           "type": "video",
           "videoId": "yReE92MfZgM",
           "thumbnail": "https://i2.ytimg.com/vi/yReE92MfZgM/hqdefault.jpg"
-        },
-        {
-          "title": "Microsoft's AI Security Push, Hotel Wi-Fi Attacks & TPM Comes to KMS",
-          "link": "https://www.youtube.com/watch?v=U0gREuzVBIo",
-          "pubDate": "2026-07-29T21:25:22.000Z",
-          "summary": "This week, Microsoft is betting big on AI-driven cybersecurity, there's another sophisticated attack targeting Microsoft 365 users, VMware has lost yet another large customer, and we'll cover all of the latest enterprise IT news you need to know from the past week. Timestamps: 0:00 - Intro 0:30 - Mi",
-          "author": "5bytespodcast",
-          "categories": [],
-          "type": "video",
-          "videoId": "U0gREuzVBIo",
-          "thumbnail": "https://i2.ytimg.com/vi/U0gREuzVBIo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.677Z",
+      "fetchedAt": "2026-09-02T22:24:45.938Z",
       "error": null
     },
     {
@@ -3205,7 +3306,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/MCFzSnMc34k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.622Z",
+      "fetchedAt": "2026-09-02T22:24:46.150Z",
       "error": null
     },
     {
@@ -3271,7 +3372,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.921Z",
+      "fetchedAt": "2026-09-02T22:24:46.145Z",
       "error": null
     },
     {
@@ -3337,7 +3438,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WMQJqPd8E9U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.869Z",
+      "fetchedAt": "2026-09-02T22:24:46.151Z",
       "error": null
     },
     {
@@ -3403,7 +3504,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hGYrwQyXJl4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.939Z",
+      "fetchedAt": "2026-09-02T22:24:46.246Z",
       "error": null
     },
     {
@@ -3468,7 +3569,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:35.893Z",
+      "fetchedAt": "2026-09-02T22:24:46.252Z",
       "error": null
     },
     {
@@ -3478,6 +3579,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure Cross-Region Restore: Step-by-Step Guide #shorts",
+          "link": "https://www.youtube.com/shorts/mz86XjI9Mc8",
+          "pubDate": "2026-09-02T17:11:36.000Z",
+          "summary": "Full video: https://youtu.be/cnDlheHyBxk Ensure cross-region restore is enabled for Azure file storage recovery services vaults. Data replication to the paired region can take up to 12 hours. Restore to an alternate location in the secondary region. #AzureBackup #AVD #FSLogix #AzureFiles #RecoverySe",
+          "author": "Travis Roberts",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i2.ytimg.com/vi/mz86XjI9Mc8/hqdefault.jpg"
+        },
         {
           "title": "Azure Vault Standard: Secure Geo-Redundant File Share Backups #shorts",
           "link": "https://www.youtube.com/shorts/OIRZFsAXak4",
@@ -3521,20 +3633,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i2.ytimg.com/vi/1NKHco7BMkU/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Backup: Ultimate Ransomware Protection Strategy Revealed! #shorts",
-          "link": "https://www.youtube.com/shorts/RFaENkWx_zA",
-          "pubDate": "2026-08-23T14:56:30.000Z",
-          "summary": "Full Video: https://youtu.be/3mmw9IrvoZ8 Beyond recovery, Azure Backup actively shields your data. Immutable vaults, encrypted storage, and soft delete protect against deletion and modification. Gain visibility with built-in monitoring. #AzureBackup #Azure #Microsoft #ITPro #CloudAdmin #ITPro #MVPBu",
-          "author": "Travis Roberts",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/RFaENkWx_zA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.159Z",
+      "fetchedAt": "2026-09-02T22:24:46.363Z",
       "error": null
     },
     {
@@ -3543,6 +3644,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g",
       "items": [
+        {
+          "title": "9/2/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
+          "link": "https://www.youtube.com/watch?v=LWEZtjleA1A",
+          "pubDate": "2026-09-02T21:30:42.000Z",
+          "summary": "Join us every week for Updates, Q&A, and roundtable discussions on anything related to Windows deployment, MDT, ConfigMgr, or Intune. https://academy.viamonstra.com/courses/office-hours-community-edition #sccm #msintune #configmgr #mdt",
+          "author": "ViaMonstra Online Academy",
+          "categories": [],
+          "type": "video",
+          "videoId": "LWEZtjleA1A",
+          "thumbnail": "https://i1.ytimg.com/vi/LWEZtjleA1A/hqdefault.jpg"
+        },
         {
           "title": "8/26/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
           "link": "https://www.youtube.com/watch?v=QMg06kfzAhU",
@@ -3586,20 +3698,9 @@
           "type": "video",
           "videoId": "25yFvAFlr3M",
           "thumbnail": "https://i3.ytimg.com/vi/25yFvAFlr3M/hqdefault.jpg"
-        },
-        {
-          "title": "8/5/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
-          "link": "https://www.youtube.com/watch?v=HMKAb90f9Vs",
-          "pubDate": "2026-08-06T10:17:25.000Z",
-          "summary": "Join us for Q&A and a roundtable discussion on anything related to Windows deployment, MDT, ConfigMgr, or Microsoft Intune. We bring the experts; you bring the questions. With co-hosts Johan Arwidmark and Andrew Johnson. LINKS BELOW ⬇️ 💥UPDATES ------------------------------------------------------",
-          "author": "ViaMonstra Online Academy",
-          "categories": [],
-          "type": "video",
-          "videoId": "HMKAb90f9Vs",
-          "thumbnail": "https://i1.ytimg.com/vi/HMKAb90f9Vs/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.157Z",
+      "fetchedAt": "2026-09-02T22:24:46.364Z",
       "error": null
     },
     {
@@ -3664,7 +3765,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/iVZER3KHdsg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.093Z",
+      "fetchedAt": "2026-09-02T22:24:46.435Z",
       "error": null
     },
     {
@@ -3729,7 +3830,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.164Z",
+      "fetchedAt": "2026-09-02T22:24:46.552Z",
       "error": null
     },
     {
@@ -3794,7 +3895,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.399Z",
+      "fetchedAt": "2026-09-02T22:24:46.571Z",
       "error": null
     },
     {
@@ -3859,7 +3960,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.389Z",
+      "fetchedAt": "2026-09-02T22:24:46.574Z",
       "error": null
     },
     {
@@ -3924,7 +4025,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.390Z",
+      "fetchedAt": "2026-09-02T22:24:46.572Z",
       "error": null
     },
     {
@@ -3980,7 +4081,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.515Z",
+      "fetchedAt": "2026-09-02T22:24:46.794Z",
       "error": null
     },
     {
@@ -3990,7 +4091,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:36.668Z",
+      "fetchedAt": "2026-09-02T22:24:46.738Z",
       "error": null
     },
     {
@@ -4056,7 +4157,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:37.786Z",
+      "fetchedAt": "2026-09-02T22:24:47.629Z",
       "error": null
     },
     {
@@ -4112,7 +4213,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.622Z",
+      "fetchedAt": "2026-09-02T22:24:46.616Z",
       "error": null
     },
     {
@@ -4126,7 +4227,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-08-27T08:13:00.000Z",
-          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4141,7 +4242,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:36.900Z",
+      "fetchedAt": "2026-09-02T22:24:48.053Z",
       "error": null
     },
     {
@@ -4197,7 +4298,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:37.804Z",
+      "fetchedAt": "2026-09-02T22:24:47.641Z",
       "error": null
     },
     {
@@ -4207,7 +4308,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-09-02T16:04:37.902Z",
+      "fetchedAt": "2026-09-02T22:24:47.845Z",
       "error": null
     },
     {
@@ -4263,7 +4364,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:37.813Z",
+      "fetchedAt": "2026-09-02T22:24:47.665Z",
       "error": null
     },
     {
@@ -4283,7 +4384,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:37.847Z",
+      "fetchedAt": "2026-09-02T22:24:48.089Z",
       "error": null
     },
     {
@@ -4339,7 +4440,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:42.568Z",
+      "fetchedAt": "2026-09-02T22:24:52.537Z",
       "error": null
     },
     {
@@ -4395,7 +4496,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:38.919Z",
+      "fetchedAt": "2026-09-02T22:24:48.628Z",
       "error": null
     },
     {
@@ -4450,7 +4551,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:38.055Z",
+      "fetchedAt": "2026-09-02T22:24:48.236Z",
       "error": null
     },
     {
@@ -4505,7 +4606,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:38.028Z",
+      "fetchedAt": "2026-09-02T22:24:52.652Z",
       "error": null
     },
     {
@@ -4570,7 +4671,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-02T16:04:43.828Z",
+      "fetchedAt": "2026-09-02T22:24:53.447Z",
       "error": null
     }
   ]
