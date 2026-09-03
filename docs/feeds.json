@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T08:36:10.846Z",
+  "generatedAt": "2026-09-03T15:53:49.824Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,24 +8,48 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "New identity governance and access features in Microsoft Entra",
-          "link": "https://4sysops.com/archives/new-identity-governance-and-access-features-in-microsoft-entra/",
-          "pubDate": "2026-09-02T21:05:06.000Z",
-          "summary": "Microsoft released several generally available and preview updates for Microsoft Entra in September 2026. The changes focus on tenant governance, user-centric access reviews, lifecycle workflow management, passwordless Teams device identities, hybrid identity provisioning, and AI traffic controls. Y",
+          "title": "Microsoft tightens Windows driver signing and prepares broader Memory Integrity rollout",
+          "link": "https://4sysops.com/archives/microsoft-tightens-windows-driver-signing-and-prepares-broader-memory-integrity-rollout/",
+          "pubDate": "2026-09-03T14:46:36.000Z",
+          "summary": "Microsoft is turning its Driver Quality Initiative (DQI) into more visible enforcement, with stricter driver-signing checks, cloud-based rollback, and a pilot designed to deliver display drivers only to compatible systems. Windows 11 quality updates expected in October may also enable Memory Integri",
           "author": "",
           "categories": [
-            "Articles",
-            "AI",
-            "Identity",
-            "Security"
+            "News",
+            "Security",
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Meta reportedly rolls out Muse Spark 1.3 for coding and agentic workloads",
-          "link": "https://4sysops.com/archives/meta-reportedly-rolls-out-muse-spark-1-3-for-coding-and-agentic-workloads/",
-          "pubDate": "2026-09-02T21:02:59.000Z",
-          "summary": "Meta is reportedly rolling out Muse Spark 1.3 through Muse Code and the Meta Model API, promising major gains in coding and agentic performance without raising the price from Spark 1.2. However, publicly detailed Meta material still centers on Muse Spark 1.2, so administrators should verify that 1.3",
+          "title": "Project Online Essentials shuts down October 1, 2026: What admins need to do",
+          "link": "https://4sysops.com/archives/project-online-essentials-shuts-down-october-1-2026-what-admins-need-to-do/",
+          "pubDate": "2026-09-03T14:46:35.000Z",
+          "summary": "Microsoft will retire Project Online Essentials on October 1, 2026, giving administrators a final deadline to move affected users to supported Planner-based licensing. The lightweight Project Online add-on is no longer sold, so organizations should identify dependent users and provision replacements",
+          "author": "",
+          "categories": [
+            "News",
+            "Business Software"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Google Pics rolls out default-on to Workspace, putting admins on alert",
+          "link": "https://4sysops.com/archives/google-pics-rolls-out-default-on-to-workspace-putting-admins-on-alert/",
+          "pubDate": "2026-09-03T14:46:34.000Z",
+          "summary": "Google Pics is rolling out to eligible Google Workspace customers with Gemini-powered image generation and object-level editing enabled by default. Rapid Release domains began receiving the tool on September 1, while Scheduled Release domains start on September 15, giving administrators a short wind",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Business Software"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Meta’s Muse Voice Transcribe brings live multilingual dictation to Mac",
+          "link": "https://4sysops.com/archives/metas-muse-voice-transcribe-brings-live-multilingual-dictation-to-mac/",
+          "pubDate": "2026-09-03T14:46:33.000Z",
+          "summary": "Meta has launched Muse Voice Transcribe, a real-time speech model that can transcribe multilingual conversations, separate more than 20 speakers, and detect when each person starts or stops talking. It is already available in Meta AI for Mac and Muse Code, while developers can access it through the ",
           "author": "",
           "categories": [
             "News",
@@ -34,46 +58,19 @@
           "type": "rss"
         },
         {
-          "title": "OpenAI limits Astra’s opaque reasoning after AI safety alarm",
-          "link": "https://4sysops.com/archives/openai-limits-astras-opaque-reasoning-after-ai-safety-alarm/",
-          "pubDate": "2026-09-02T21:02:58.000Z",
-          "summary": "OpenAI is limiting the use of recurrent depth in its Astra model after concerns that the technique could hide more of the model’s reasoning from safety systems. The looped approach processes information repeatedly inside the model instead of producing a clearly sequential chain of thought, but OpenA",
+          "title": "Gemini 3.8 Flash bets on low cost to challenge top AI models",
+          "link": "https://4sysops.com/archives/gemini-3-8-flash-bets-on-low-cost-to-challenge-top-ai-models/",
+          "pubDate": "2026-09-03T09:43:52.000Z",
+          "summary": "Google’s Gemini 3.8 Flash is not the strongest model across every test, but its combination of software-engineering performance and low pricing makes it a serious enterprise contender. Matthew Berman highlights especially strong results in DeepSWE, legal research, and general reasoning, while hands-",
           "author": "",
           "categories": [
             "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Lenovo claims NVMe memory tiering can cut server costs by 45%",
-          "link": "https://4sysops.com/archives/lenovo-claims-nvme-memory-tiering-can-cut-server-costs-by-45/",
-          "pubDate": "2026-09-02T20:58:16.000Z",
-          "summary": "Lenovo and Broadcom have validated VMware memory tiering on ThinkAgile VX V4 systems, reporting up to 45 percent lower infrastructure acquisition costs, twice the VM density, and more than 90 percent of normal performance. The results add concrete hardware data to VMware’s push to use NVMe memory ti",
-          "author": "",
-          "categories": [
-            "News",
-            "Hardware",
-            "Virtualization"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "GitHub Copilot can now approve pull requests, with admin controls",
-          "link": "https://4sysops.com/archives/github-copilot-can-now-approve-pull-requests-with-admin-controls/",
-          "pubDate": "2026-09-02T20:47:56.000Z",
-          "summary": "GitHub Copilot can now submit approvals on pull requests that count toward branch-protection requirements, moving its code review role beyond comments and recommendations. The capability is in public preview, but it remains disabled until administrators explicitly authorize it. Source]]>",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "DevOps"
+            "AI"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:43.008Z",
+      "fetchedAt": "2026-09-03T15:53:11.308Z",
       "error": null
     },
     {
@@ -138,7 +135,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:42.857Z",
+      "fetchedAt": "2026-09-03T15:53:11.274Z",
       "error": null
     },
     {
@@ -146,43 +143,9 @@
       "label": "shchetkin.dev - Andrei Shchetkin",
       "type": "rss",
       "url": "https://shchetkin.dev/rss/",
-      "items": [
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/reverse-engineering-the-intune-portal-the-ai-enabled-cloud-pc-report/",
-          "pubDate": "2026-08-02T12:06:31.000Z",
-          "summary": "In this article we will get a Windows 365 report from Microsoft Graph that is not in the Graph documentation the AI-enabled Cloud PC report.The portal shows that report every time you open it, so an API for it must exist. It is just not documented anywhere. The method]]>",
-          "author": "",
-          "categories": [
-            "Graph API"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/windows-365-migration-graph-api/",
-          "pubDate": "2026-06-06T14:08:37.000Z",
-          "summary": "In this article we're going to figure out how to migrate almost any Azure-based VM into a Windows 365 Cloud PC using the Microsoft Graph beta migration API.PrerequisitesI assume you're familiar with Microsoft Graph API, Entra ID, Cloud PC, and Provisioning Policies.What we]]>",
-          "author": "",
-          "categories": [
-            "w365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/the-complete-windows-365-graph-api-developer-guide/",
-          "pubDate": "2025-12-23T15:09:22.000Z",
-          "summary": "Managing Windows 365 Cloud PCs at scale demands more than clicking through the Intune portal. If you're automating provisioning policies, building CI/CD pipelines for Cloud PC deployments, or integrating Windows 365 into your infrastructure-as-code workflows, the Microsoft Graph API is your only pat",
-          "author": "",
-          "categories": [
-            "w365"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-09-03T08:35:43.190Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-09-03T15:53:18.906Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "emsroute",
@@ -267,7 +230,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:42.573Z",
+      "fetchedAt": "2026-09-03T15:53:10.965Z",
       "error": null
     },
     {
@@ -346,7 +309,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:44.002Z",
+      "fetchedAt": "2026-09-03T15:53:19.606Z",
       "error": null
     },
     {
@@ -422,7 +385,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:46.540Z",
+      "fetchedAt": "2026-09-03T15:53:20.468Z",
       "error": null
     },
     {
@@ -504,7 +467,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:43.631Z",
+      "fetchedAt": "2026-09-03T15:53:19.361Z",
       "error": null
     },
     {
@@ -574,7 +537,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:43.639Z",
+      "fetchedAt": "2026-09-03T15:53:19.318Z",
       "error": null
     },
     {
@@ -642,7 +605,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:46.660Z",
+      "fetchedAt": "2026-09-03T15:53:20.589Z",
       "error": null
     },
     {
@@ -715,7 +678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:46.670Z",
+      "fetchedAt": "2026-09-03T15:53:21.026Z",
       "error": null
     },
     {
@@ -796,7 +759,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:49.627Z",
+      "fetchedAt": "2026-09-03T15:53:21.758Z",
       "error": null
     },
     {
@@ -806,7 +769,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-09-03T08:35:46.709Z",
+      "fetchedAt": "2026-09-03T15:53:21.089Z",
       "error": "HTTP 403"
     },
     {
@@ -879,7 +842,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:49.864Z",
+      "fetchedAt": "2026-09-03T15:53:21.956Z",
       "error": null
     },
     {
@@ -961,7 +924,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:49.742Z",
+      "fetchedAt": "2026-09-03T15:53:21.891Z",
       "error": null
     },
     {
@@ -1027,7 +990,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:50.960Z",
+      "fetchedAt": "2026-09-03T15:53:25.244Z",
       "error": null
     },
     {
@@ -1094,7 +1057,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:50.576Z",
+      "fetchedAt": "2026-09-03T15:53:23.407Z",
       "error": null
     },
     {
@@ -1174,7 +1137,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:52.107Z",
+      "fetchedAt": "2026-09-03T15:53:26.158Z",
       "error": null
     },
     {
@@ -1229,7 +1192,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:51.107Z",
+      "fetchedAt": "2026-09-03T15:53:25.538Z",
       "error": null
     },
     {
@@ -1294,7 +1257,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:51.247Z",
+      "fetchedAt": "2026-09-03T15:53:25.613Z",
       "error": null
     },
     {
@@ -1378,7 +1341,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:51.104Z",
+      "fetchedAt": "2026-09-03T15:53:25.421Z",
       "error": null
     },
     {
@@ -1451,7 +1414,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:53.012Z",
+      "fetchedAt": "2026-09-03T15:53:27.019Z",
       "error": null
     },
     {
@@ -1460,7 +1423,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-09-03T08:35:52.216Z",
+      "fetchedAt": "2026-09-03T15:53:26.277Z",
       "error": "HTTP 403"
     },
     {
@@ -1538,7 +1501,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:53.856Z",
+      "fetchedAt": "2026-09-03T15:53:27.952Z",
       "error": null
     },
     {
@@ -1547,7 +1510,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-03T08:35:52.553Z",
+      "fetchedAt": "2026-09-03T15:53:26.572Z",
       "error": "certificate has expired"
     },
     {
@@ -1618,7 +1581,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:54.588Z",
+      "fetchedAt": "2026-09-03T15:53:28.682Z",
       "error": null
     },
     {
@@ -1694,7 +1657,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:54.472Z",
+      "fetchedAt": "2026-09-03T15:53:28.520Z",
       "error": null
     },
     {
@@ -1704,7 +1667,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-09-03T08:35:54.290Z",
+      "fetchedAt": "2026-09-03T15:53:30.135Z",
       "error": "HTTP 202"
     },
     {
@@ -1759,7 +1722,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:54.395Z",
+      "fetchedAt": "2026-09-03T15:53:28.387Z",
       "error": null
     },
     {
@@ -1829,7 +1792,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:54.777Z",
+      "fetchedAt": "2026-09-03T15:53:32.380Z",
       "error": null
     },
     {
@@ -1908,7 +1871,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:54.697Z",
+      "fetchedAt": "2026-09-03T15:53:30.265Z",
       "error": null
     },
     {
@@ -1990,7 +1953,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:56.796Z",
+      "fetchedAt": "2026-09-03T15:53:32.263Z",
       "error": null
     },
     {
@@ -2075,7 +2038,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:54.745Z",
+      "fetchedAt": "2026-09-03T15:53:30.298Z",
       "error": null
     },
     {
@@ -2131,7 +2094,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:56.947Z",
+      "fetchedAt": "2026-09-03T15:53:33.009Z",
       "error": null
     },
     {
@@ -2217,7 +2180,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:57.958Z",
+      "fetchedAt": "2026-09-03T15:53:33.515Z",
       "error": null
     },
     {
@@ -2303,7 +2266,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:56.960Z",
+      "fetchedAt": "2026-09-03T15:53:32.549Z",
       "error": null
     },
     {
@@ -2384,7 +2347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:57.001Z",
+      "fetchedAt": "2026-09-03T15:53:32.570Z",
       "error": null
     },
     {
@@ -2439,7 +2402,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:58.387Z",
+      "fetchedAt": "2026-09-03T15:53:34.018Z",
       "error": null
     },
     {
@@ -2504,7 +2467,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:58.355Z",
+      "fetchedAt": "2026-09-03T15:53:33.704Z",
       "error": null
     },
     {
@@ -2513,7 +2476,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-09-03T08:35:58.219Z",
+      "fetchedAt": "2026-09-03T15:53:34.159Z",
       "error": "HTTP 404"
     },
     {
@@ -2569,7 +2532,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:59.006Z",
+      "fetchedAt": "2026-09-03T15:53:34.279Z",
       "error": null
     },
     {
@@ -2634,7 +2597,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:35:59.705Z",
+      "fetchedAt": "2026-09-03T15:53:35.353Z",
       "error": null
     },
     {
@@ -2715,7 +2678,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:01.043Z",
+      "fetchedAt": "2026-09-03T15:53:35.132Z",
       "error": null
     },
     {
@@ -2724,7 +2687,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-09-03T08:35:59.928Z",
+      "fetchedAt": "2026-09-03T15:53:35.723Z",
       "error": "HTTP 404"
     },
     {
@@ -2733,7 +2696,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-09-03T08:35:59.214Z",
+      "fetchedAt": "2026-09-03T15:53:35.015Z",
       "error": "HTTP 403"
     },
     {
@@ -2813,7 +2776,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:01.114Z",
+      "fetchedAt": "2026-09-03T15:53:35.837Z",
       "error": null
     },
     {
@@ -2886,7 +2849,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:01.286Z",
+      "fetchedAt": "2026-09-03T15:53:35.943Z",
       "error": null
     },
     {
@@ -2905,7 +2868,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:01.167Z",
+      "fetchedAt": "2026-09-03T15:53:36.017Z",
       "error": null
     },
     {
@@ -2960,7 +2923,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:01.367Z",
+      "fetchedAt": "2026-09-03T15:53:36.433Z",
       "error": null
     },
     {
@@ -3046,7 +3009,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.073Z",
+      "fetchedAt": "2026-09-03T15:53:36.861Z",
       "error": null
     },
     {
@@ -3111,7 +3074,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:01.716Z",
+      "fetchedAt": "2026-09-03T15:53:36.768Z",
       "error": null
     },
     {
@@ -3177,7 +3140,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TYGdwts3ILc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:01.547Z",
+      "fetchedAt": "2026-09-03T15:53:36.830Z",
       "error": null
     },
     {
@@ -3242,7 +3205,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/yReE92MfZgM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:01.708Z",
+      "fetchedAt": "2026-09-03T15:53:36.850Z",
       "error": null
     },
     {
@@ -3307,7 +3270,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/MCFzSnMc34k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.269Z",
+      "fetchedAt": "2026-09-03T15:53:37.174Z",
       "error": null
     },
     {
@@ -3373,7 +3336,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.282Z",
+      "fetchedAt": "2026-09-03T15:53:36.992Z",
       "error": null
     },
     {
@@ -3439,7 +3402,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WMQJqPd8E9U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.275Z",
+      "fetchedAt": "2026-09-03T15:53:37.052Z",
       "error": null
     },
     {
@@ -3505,7 +3468,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hGYrwQyXJl4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.421Z",
+      "fetchedAt": "2026-09-03T15:53:37.015Z",
       "error": null
     },
     {
@@ -3570,7 +3533,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/4_7Vp_ZoN6M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.593Z",
+      "fetchedAt": "2026-09-03T15:53:37.304Z",
       "error": null
     },
     {
@@ -3636,7 +3599,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/1NKHco7BMkU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.569Z",
+      "fetchedAt": "2026-09-03T15:53:37.323Z",
       "error": null
     },
     {
@@ -3648,7 +3611,7 @@
         {
           "title": "9/2/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
           "link": "https://www.youtube.com/watch?v=LWEZtjleA1A",
-          "pubDate": "2026-09-02T21:30:42.000Z",
+          "pubDate": "2026-09-03T10:04:24.000Z",
           "summary": "Join us for Q&A and a roundtable discussion on anything related to Windows deployment, MDT, ConfigMgr, or Microsoft Intune. We bring the experts; you bring the questions. With co-hosts Johan Arwidmark and Andrew Johnson. LINKS BELOW ⬇️ 💥UPDATES ------------------------------------------------------",
           "author": "ViaMonstra Online Academy",
           "categories": [],
@@ -3701,7 +3664,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/25yFvAFlr3M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.579Z",
+      "fetchedAt": "2026-09-03T15:53:37.310Z",
       "error": null
     },
     {
@@ -3766,7 +3729,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whK8-o51zv4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.558Z",
+      "fetchedAt": "2026-09-03T15:53:37.380Z",
       "error": null
     },
     {
@@ -3831,7 +3794,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.762Z",
+      "fetchedAt": "2026-09-03T15:53:37.523Z",
       "error": null
     },
     {
@@ -3896,7 +3859,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.887Z",
+      "fetchedAt": "2026-09-03T15:53:37.590Z",
       "error": null
     },
     {
@@ -3961,7 +3924,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.802Z",
+      "fetchedAt": "2026-09-03T15:53:37.644Z",
       "error": null
     },
     {
@@ -4026,7 +3989,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.841Z",
+      "fetchedAt": "2026-09-03T15:53:37.541Z",
       "error": null
     },
     {
@@ -4082,7 +4045,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:03.187Z",
+      "fetchedAt": "2026-09-03T15:53:39.495Z",
       "error": null
     },
     {
@@ -4092,7 +4055,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-03T08:36:03.016Z",
+      "fetchedAt": "2026-09-03T15:53:37.885Z",
       "error": null
     },
     {
@@ -4158,7 +4121,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:04.999Z",
+      "fetchedAt": "2026-09-03T15:53:40.480Z",
       "error": null
     },
     {
@@ -4214,7 +4177,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:02.996Z",
+      "fetchedAt": "2026-09-03T15:53:37.769Z",
       "error": null
     },
     {
@@ -4243,7 +4206,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:05.315Z",
+      "fetchedAt": "2026-09-03T15:53:40.962Z",
       "error": null
     },
     {
@@ -4299,7 +4262,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:05.014Z",
+      "fetchedAt": "2026-09-03T15:53:40.494Z",
       "error": null
     },
     {
@@ -4309,7 +4272,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-09-03T08:36:05.188Z",
+      "fetchedAt": "2026-09-03T15:53:40.751Z",
       "error": null
     },
     {
@@ -4365,7 +4328,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:05.022Z",
+      "fetchedAt": "2026-09-03T15:53:40.728Z",
       "error": null
     },
     {
@@ -4385,7 +4348,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:05.347Z",
+      "fetchedAt": "2026-09-03T15:53:40.993Z",
       "error": null
     },
     {
@@ -4394,55 +4357,9 @@
       "type": "official",
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
-      "items": [
-        {
-          "title": "From Mayhem to Atlantis: how AI is changing Capture the Flag and what this means for cybersecurity",
-          "link": "https://www.jamf.com/blog/from-mayhem-to-atlantis-ai-is-changing/",
-          "pubDate": null,
-          "summary": "Ten years after DARPA's first all-machine hacking tournament, AI agents are solving live CTF challenges, competing with human teams and pushing cybersecurity toward an AI-vs.-AI future. Read on to discover how this future can affect your cybersecurity. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "If Apple says your iPhone was targeted by mercenary spyware, treat it like an incident",
-          "link": "https://www.jamf.com/blog/apple-threat-notification-mercenary-spyware-response/",
-          "pubDate": null,
-          "summary": "Apple's Threat Notifications signal mercenary spyware targeting; learn verification steps, response actions, and layered mobile security defenses for high-risk users. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Back to school: Your students are back. Is your security?",
-          "link": "https://www.jamf.com/blog/back-to-school-device-security-checklist-for-it-admins/",
-          "pubDate": null,
-          "summary": "Learn how to move from summer drift to a security posture built for classroom learning. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "Jamf After Dark: JNUC",
-          "link": "https://www.jamf.com/blog/jamf-after-dark-jnuc-2026-preview/",
-          "pubDate": null,
-          "summary": "Kat Garbis and Josh Thornton sit down with Jeff Ovik and Kelsey Dahl to preview JNUC 2026 in Kansas City &mdash; new programs, sessions and the after-party. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        },
-        {
-          "title": "AI moves faster than your controls. Here’s how to fix it.",
-          "link": "https://www.jamf.com/blog/ai-governance-the-missing-link-in-enterprise-security-part-2/",
-          "pubDate": null,
-          "summary": "AI tools can accelerate data exposure, compromise software supply chains and trigger risky agentic behavior. Part two of a two-part series. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
-        }
-      ],
-      "fetchedAt": "2026-09-03T08:36:10.047Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-09-03T15:53:49.032Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "2pint",
@@ -4497,7 +4414,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:06.319Z",
+      "fetchedAt": "2026-09-03T15:53:42.043Z",
       "error": null
     },
     {
@@ -4552,7 +4469,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:05.494Z",
+      "fetchedAt": "2026-09-03T15:53:41.808Z",
       "error": null
     },
     {
@@ -4607,7 +4524,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:10.273Z",
+      "fetchedAt": "2026-09-03T15:53:49.133Z",
       "error": null
     },
     {
@@ -4672,7 +4589,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-03T08:36:10.846Z",
+      "fetchedAt": "2026-09-03T15:53:49.824Z",
       "error": null
     }
   ]
