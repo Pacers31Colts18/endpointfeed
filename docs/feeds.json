@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:38:22.458Z",
+  "generatedAt": "2026-09-11T15:58:07.630Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,63 +8,59 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "September Windows Server updates break Remote Desktop Services (RDS)",
-          "link": "https://4sysops.com/archives/september-windows-server-updates-break-remote-desktop-services-rds/",
-          "pubDate": "2026-09-10T20:55:56.000Z",
-          "summary": "Windows administrators report that the September 2026 cumulative updates can cause Remote Desktop Services (RDS) to hang or crash on Windows Server 2019, 2022, and 2025. Microsoft’s release notes separately confirm Remote Desktop problems in Windows Server 2016, including broken audio redirection, w",
+          "title": "Microsoft fixes Teams and New Outlook failures on ARM Windows PCs",
+          "link": "https://4sysops.com/archives/microsoft-fixes-teams-and-new-outlook-failures-on-arm-windows-pcs/",
+          "pubDate": "2026-09-11T14:31:16.000Z",
+          "summary": "Microsoft has fixed the ARM-based Windows 11 bug that stopped Teams and New Outlook from launching after KB5121003. The failure previously left affected users dealing with broken Teams and Outlook, while Microsoft’s temporary Store-based workaround required updating an unrelated gaming component. So",
           "author": "",
           "categories": [
             "News",
-            "Security",
-            "Windows Server"
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft cloud web applications threat matrix explained",
-          "link": "https://4sysops.com/archives/microsoft-cloud-web-applications-threat-matrix-explained/",
-          "pubDate": "2026-09-10T20:38:40.000Z",
-          "summary": "Microsoft published the Cloud Web Applications Threat Matrix. It maps attack techniques against cloud-hosted web applications and serverless platforms using the MITRE ATT&CK framework, a public catalog of attacker tactics and techniques. The matrix covers services such as Azure App Service, AWS Lamb",
+          "title": "Windows 11 Cloud Rebuild can now reinstall a dead PC without USB media",
+          "link": "https://4sysops.com/archives/windows-11-cloud-rebuild-can-now-reinstall-a-dead-pc-without-usb-media/",
+          "pubDate": "2026-09-11T14:31:15.000Z",
+          "summary": "Microsoft has moved Cloud Rebuild into the Windows 11 Insider Beta channel, bringing a full cloud reinstall to PCs that can no longer boot. The feature builds on Windows’ cloud-powered recovery route by allowing WinRE to download both the operating system and device drivers, rather than relying on t",
           "author": "",
           "categories": [
-            "Articles",
-            "Security",
-            "Web"
+            "News",
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Monitoring AI agent activity with Microsoft security tools",
-          "link": "https://4sysops.com/archives/monitoring-ai-agent-activity-with-microsoft-security-tools/",
-          "pubDate": "2026-09-10T20:37:51.000Z",
-          "summary": "As organizations deploy more AI agents, you need visibility into what those agents do across your environment. Microsoft distributes agent activity monitoring across eight products: Agent 365, the Microsoft 365 admin center, Microsoft Purview, Microsoft Defender XDR, Microsoft Defender for Endpoint,",
+          "title": "Cloudflare CASB adds automatic remediation policies for SaaS risks",
+          "link": "https://4sysops.com/archives/cloudflare-casb-adds-automatic-remediation-policies-for-saas-risks/",
+          "pubDate": "2026-09-11T14:31:14.000Z",
+          "summary": "Cloudflare CASB can now respond automatically when it detects SaaS security findings, rather than leaving administrators with a manual cleanup queue. Automatic remediation policies can revoke risky file shares or send event details to webhooks and SOAR systems, with Cloudflare targeting completed ac",
           "author": "",
           "categories": [
-            "Articles",
-            "AI",
-            "Monitoring",
+            "News",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "OpenAI’s Agents API brings Codex-style automation to production",
-          "link": "https://4sysops.com/archives/openais-agents-api-brings-codex-style-automation-to-production/",
-          "pubDate": "2026-09-10T20:33:27.000Z",
-          "summary": "OpenAI has released the Agents API in public beta, giving developers a way to build long-running AI agents with the same harness and infrastructure used by Codex. The API can manage context, tools, files, code execution, and parallel subagents while allowing each workload to run in an OpenAI sandbox",
+          "title": "Dreamforce 2026 bets on Claudeforce as SaaS faces an AI reckoning",
+          "link": "https://4sysops.com/archives/dreamforce-2026-bets-on-claudeforce-as-saas-faces-an-ai-reckoning/",
+          "pubDate": "2026-09-11T14:31:13.000Z",
+          "summary": "Dreamforce 2026 will put Salesforce’s Claudeforce partnership with Anthropic at the center of its response to claims that autonomous AI agents could undermine traditional SaaS. The September 15–17 event in San Francisco is also expected to show how Salesforce plans to connect Claude, Agentforce, Sla",
           "author": "",
           "categories": [
             "News",
             "AI",
-            "DevOps"
+            "Business Software"
           ],
           "type": "rss"
         },
         {
-          "title": "ChatGPT Library now connects Dropbox, Box, and SharePoint without uploads",
-          "link": "https://4sysops.com/archives/chatgpt-library-now-connects-dropbox-box-and-sharepoint-without-uploads/",
-          "pubDate": "2026-09-10T20:33:26.000Z",
-          "summary": "OpenAI is turning ChatGPT Library into a unified front end for workplace storage by adding Dropbox, Box, and Microsoft SharePoint. Paid users can browse permitted files, reference them with @mentions, and analyze folder contents in Chat and ChatGPT Work without creating duplicate uploads. Source]]>",
+          "title": "Slackforce Surfaces lets Slackbot build interactive dashboards in chat",
+          "link": "https://4sysops.com/archives/slackforce-surfaces-lets-slackbot-build-interactive-dashboards-in-chat/",
+          "pubDate": "2026-09-11T10:06:19.000Z",
+          "summary": "Slack is turning Slackbot into an in-chat tool builder with Slackforce Surfaces, allowing users to describe a dashboard, report, poll, presentation, or microsite and have AI create it without leaving the conversation. The resulting tools can use permitted data from connected services such as Google ",
           "author": "",
           "categories": [
             "News",
@@ -74,7 +70,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:01.259Z",
+      "fetchedAt": "2026-09-11T15:57:39.607Z",
       "error": null
     },
     {
@@ -139,7 +135,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:01.419Z",
+      "fetchedAt": "2026-09-11T15:57:39.406Z",
       "error": null
     },
     {
@@ -182,7 +178,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:01.547Z",
+      "fetchedAt": "2026-09-11T15:57:39.850Z",
       "error": null
     },
     {
@@ -268,7 +264,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:01.061Z",
+      "fetchedAt": "2026-09-11T15:57:39.505Z",
       "error": null
     },
     {
@@ -350,7 +346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:02.131Z",
+      "fetchedAt": "2026-09-11T15:57:40.601Z",
       "error": null
     },
     {
@@ -426,7 +422,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:03.724Z",
+      "fetchedAt": "2026-09-11T15:57:41.929Z",
       "error": null
     },
     {
@@ -508,7 +504,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:01.879Z",
+      "fetchedAt": "2026-09-11T15:57:40.453Z",
       "error": null
     },
     {
@@ -577,7 +573,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:01.974Z",
+      "fetchedAt": "2026-09-11T15:57:40.502Z",
       "error": null
     },
     {
@@ -645,7 +641,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:04.095Z",
+      "fetchedAt": "2026-09-11T15:57:42.423Z",
       "error": null
     },
     {
@@ -718,7 +714,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:03.819Z",
+      "fetchedAt": "2026-09-11T15:57:42.049Z",
       "error": null
     },
     {
@@ -799,7 +795,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:04.956Z",
+      "fetchedAt": "2026-09-11T15:57:43.187Z",
       "error": null
     },
     {
@@ -809,7 +805,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-09-11T08:38:04.035Z",
+      "fetchedAt": "2026-09-11T15:57:42.187Z",
       "error": "HTTP 403"
     },
     {
@@ -882,7 +878,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:05.224Z",
+      "fetchedAt": "2026-09-11T15:57:43.449Z",
       "error": null
     },
     {
@@ -964,7 +960,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:05.089Z",
+      "fetchedAt": "2026-09-11T15:57:43.234Z",
       "error": null
     },
     {
@@ -974,6 +970,17 @@
       "type": "rss",
       "url": "https://andrewstaylor.com/feed/",
       "items": [
+        {
+          "title": "Intune Newsletter – 11th September 2026",
+          "link": "https://andrewstaylor.com/2026/09/11/intune-newsletter-11th-september-2026/",
+          "pubDate": "2026-09-11T10:59:24.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "Newsletter"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Intune Newsletter – 4th September 2026",
           "link": "https://andrewstaylor.com/2026/09/04/intune-newsletter-4th-september-2026/",
@@ -1017,20 +1024,9 @@
             "Newsletter"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 7th August 2026",
-          "link": "https://andrewstaylor.com/2026/08/07/intune-newsletter-7th-august-2026/",
-          "pubDate": "2026-08-07T10:59:51.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:06.052Z",
+      "fetchedAt": "2026-09-11T15:57:44.206Z",
       "error": null
     },
     {
@@ -1099,7 +1095,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:05.376Z",
+      "fetchedAt": "2026-09-11T15:57:43.390Z",
       "error": null
     },
     {
@@ -1179,7 +1175,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:06.957Z",
+      "fetchedAt": "2026-09-11T15:57:45.085Z",
       "error": null
     },
     {
@@ -1234,7 +1230,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:06.323Z",
+      "fetchedAt": "2026-09-11T15:57:44.404Z",
       "error": null
     },
     {
@@ -1299,7 +1295,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:06.321Z",
+      "fetchedAt": "2026-09-11T15:57:44.814Z",
       "error": null
     },
     {
@@ -1384,7 +1380,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:06.228Z",
+      "fetchedAt": "2026-09-11T15:57:44.403Z",
       "error": null
     },
     {
@@ -1457,7 +1453,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:07.695Z",
+      "fetchedAt": "2026-09-11T15:57:45.688Z",
       "error": null
     },
     {
@@ -1466,7 +1462,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-09-11T08:38:07.029Z",
+      "fetchedAt": "2026-09-11T15:57:45.221Z",
       "error": "HTTP 403"
     },
     {
@@ -1544,7 +1540,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:08.576Z",
+      "fetchedAt": "2026-09-11T15:57:46.684Z",
       "error": null
     },
     {
@@ -1553,7 +1549,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-11T08:38:07.406Z",
+      "fetchedAt": "2026-09-11T15:57:45.479Z",
       "error": "certificate has expired"
     },
     {
@@ -1624,7 +1620,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:09.278Z",
+      "fetchedAt": "2026-09-11T15:57:47.305Z",
       "error": null
     },
     {
@@ -1700,7 +1696,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:08.813Z",
+      "fetchedAt": "2026-09-11T15:57:47.413Z",
       "error": null
     },
     {
@@ -1766,7 +1762,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:09.230Z",
+      "fetchedAt": "2026-09-11T15:57:53.749Z",
       "error": null
     },
     {
@@ -1821,7 +1817,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:09.085Z",
+      "fetchedAt": "2026-09-11T15:57:47.182Z",
       "error": null
     },
     {
@@ -1890,7 +1886,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:09.373Z",
+      "fetchedAt": "2026-09-11T15:57:53.940Z",
       "error": null
     },
     {
@@ -1969,7 +1965,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:09.431Z",
+      "fetchedAt": "2026-09-11T15:57:53.972Z",
       "error": null
     },
     {
@@ -2051,7 +2047,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:11.202Z",
+      "fetchedAt": "2026-09-11T15:57:56.114Z",
       "error": null
     },
     {
@@ -2136,7 +2132,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:09.659Z",
+      "fetchedAt": "2026-09-11T15:57:54.122Z",
       "error": null
     },
     {
@@ -2192,7 +2188,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:11.294Z",
+      "fetchedAt": "2026-09-11T15:57:56.233Z",
       "error": null
     },
     {
@@ -2278,7 +2274,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:12.354Z",
+      "fetchedAt": "2026-09-11T15:57:57.226Z",
       "error": null
     },
     {
@@ -2364,7 +2360,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:11.318Z",
+      "fetchedAt": "2026-09-11T15:57:56.273Z",
       "error": null
     },
     {
@@ -2442,7 +2438,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:11.409Z",
+      "fetchedAt": "2026-09-11T15:57:56.270Z",
       "error": null
     },
     {
@@ -2497,7 +2493,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:12.536Z",
+      "fetchedAt": "2026-09-11T15:57:57.313Z",
       "error": null
     },
     {
@@ -2562,7 +2558,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:12.556Z",
+      "fetchedAt": "2026-09-11T15:57:57.545Z",
       "error": null
     },
     {
@@ -2571,7 +2567,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-09-11T08:38:12.588Z",
+      "fetchedAt": "2026-09-11T15:57:57.509Z",
       "error": "HTTP 404"
     },
     {
@@ -2627,7 +2623,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:13.209Z",
+      "fetchedAt": "2026-09-11T15:57:57.842Z",
       "error": null
     },
     {
@@ -2692,7 +2688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:13.902Z",
+      "fetchedAt": "2026-09-11T15:57:58.360Z",
       "error": null
     },
     {
@@ -2773,7 +2769,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.005Z",
+      "fetchedAt": "2026-09-11T15:57:59.758Z",
       "error": null
     },
     {
@@ -2782,7 +2778,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-09-11T08:38:14.027Z",
+      "fetchedAt": "2026-09-11T15:57:58.675Z",
       "error": "HTTP 404"
     },
     {
@@ -2791,7 +2787,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-09-11T08:38:13.438Z",
+      "fetchedAt": "2026-09-11T15:57:58.049Z",
       "error": "HTTP 403"
     },
     {
@@ -2871,7 +2867,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.102Z",
+      "fetchedAt": "2026-09-11T15:57:59.829Z",
       "error": null
     },
     {
@@ -2944,7 +2940,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.285Z",
+      "fetchedAt": "2026-09-11T15:57:59.995Z",
       "error": null
     },
     {
@@ -2963,7 +2959,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.188Z",
+      "fetchedAt": "2026-09-11T15:58:00.002Z",
       "error": null
     },
     {
@@ -3018,7 +3014,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.397Z",
+      "fetchedAt": "2026-09-11T15:58:00.309Z",
       "error": null
     },
     {
@@ -3102,7 +3098,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.544Z",
+      "fetchedAt": "2026-09-11T15:58:00.491Z",
       "error": null
     },
     {
@@ -3167,7 +3163,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.602Z",
+      "fetchedAt": "2026-09-11T15:58:00.410Z",
       "error": null
     },
     {
@@ -3177,6 +3173,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "Azure Weekly Update - 11th September 2026",
+          "link": "https://www.youtube.com/watch?v=C6CkxsjjEas",
+          "pubDate": "2026-09-11T15:03:02.000Z",
+          "summary": "Really quick update! Charity event URL at https://give.curechildhoodcancer.org/fundraiser/7465401 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read",
+          "author": "John Savill's Technical Training",
+          "categories": [],
+          "type": "video",
+          "videoId": "C6CkxsjjEas",
+          "thumbnail": "https://i4.ytimg.com/vi/C6CkxsjjEas/hqdefault.jpg"
+        },
         {
           "title": "Microsoft AI Update August 2026",
           "link": "https://www.youtube.com/watch?v=-lv1ktRRDfo",
@@ -3220,20 +3227,9 @@
           "type": "video",
           "videoId": "hXRPm7r4Q14",
           "thumbnail": "https://i1.ytimg.com/vi/hXRPm7r4Q14/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Linux 4.0 Quick Overview #azure #linux",
-          "link": "https://www.youtube.com/shorts/2_Wuzlxa6iw",
-          "pubDate": "2026-08-31T10:46:20.000Z",
-          "summary": "Quick overview of Azure Linux 4.0.",
-          "author": "John Savill's Technical Training",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/2_Wuzlxa6iw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.726Z",
+      "fetchedAt": "2026-09-11T15:58:00.498Z",
       "error": null
     },
     {
@@ -3298,7 +3294,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KnRJLYNb0N0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.424Z",
+      "fetchedAt": "2026-09-11T15:58:00.459Z",
       "error": null
     },
     {
@@ -3363,7 +3359,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JVof8RPN8m0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.859Z",
+      "fetchedAt": "2026-09-11T15:58:00.684Z",
       "error": null
     },
     {
@@ -3429,7 +3425,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.838Z",
+      "fetchedAt": "2026-09-11T15:58:00.583Z",
       "error": null
     },
     {
@@ -3495,7 +3491,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WMQJqPd8E9U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.936Z",
+      "fetchedAt": "2026-09-11T15:58:00.669Z",
       "error": null
     },
     {
@@ -3561,7 +3557,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Q8lZamlHw3s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:14.948Z",
+      "fetchedAt": "2026-09-11T15:58:00.706Z",
       "error": null
     },
     {
@@ -3570,6 +3566,50 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
       "items": [
+        {
+          "title": "CRITICAL 10 10 Vulnerabilities FOUND! Are YOU Affected",
+          "link": "https://www.youtube.com/shorts/ktV1MFRGaj0",
+          "pubDate": "2026-09-11T15:21:56.000Z",
+          "summary": "Some vulnerabilities are serious. Others receive the maximum possible severity score. Bryan takes a deep dive into the critical vulnerabilities affecting ServiceNow and Ubiquiti products that received CVSS scores of 10.0, the highest rating possible. These vulnerabilities are particularly concerning",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/ktV1MFRGaj0/hqdefault.jpg"
+        },
+        {
+          "title": "Microsoft's Record Breaking Vulnerability Month A Deep Dive",
+          "link": "https://www.youtube.com/shorts/Z3MozHRRE30",
+          "pubDate": "2026-09-11T15:21:54.000Z",
+          "summary": "Microsoft just experienced ANOTHER record-breaking vulnerability month. Watch as Jordan breaks down the staggering number of vulnerabilities addressed in Microsoft's latest security updates. While the number of unique update packages remained relatively small, the total number of CVEs surged to over",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/Z3MozHRRE30/hqdefault.jpg"
+        },
+        {
+          "title": "URGENT High Risk Exchange, Outlook & Windows Update Vulns EXPOSED!",
+          "link": "https://www.youtube.com/shorts/VmCCtC5Bms0",
+          "pubDate": "2026-09-11T15:21:51.000Z",
+          "summary": "Critical Microsoft vulnerabilities are making headlines, but some of the most dangerous threats may not be the ones grabbing all the attention. Watch as Jordan breaks down high-risk vulnerabilities affecting Microsoft Exchange, Outlook, and the Windows Update stack, including actively exploited vuln",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/VmCCtC5Bms0/hqdefault.jpg"
+        },
+        {
+          "title": "AI Agents Formed a Botnet 2 0 & Hacked Hugging Face!",
+          "link": "https://www.youtube.com/shorts/rkYcFfi-l_A",
+          "pubDate": "2026-09-11T15:21:48.000Z",
+          "summary": "What happens when AI agents start communicating with each other? This is a fascinating AI security scenario where autonomous agents reportedly created their own message board, shared attack strategies, and convinced hundreds of other AI agents to coordinate activity against Hugging Face. The result?",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/rkYcFfi-l_A/hqdefault.jpg"
+        },
         {
           "title": "Master System Errors & Boost Product Use with Advanced Insights!",
           "link": "https://www.youtube.com/shorts/ulNVcZHzgM4",
@@ -3580,53 +3620,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i2.ytimg.com/vi/ulNVcZHzgM4/hqdefault.jpg"
-        },
-        {
-          "title": "PSADT App Migration Made Easy!",
-          "link": "https://www.youtube.com/shorts/Irwu0bhORL4",
-          "pubDate": "2026-09-04T19:19:29.000Z",
-          "summary": "Migrating applications from ConfigMgr to Intune doesn't have to mean rebuilding your deployments from scratch. See how Patch My PC identifies PSAppDeployToolkit (PSADT) applications, matches them to catalog apps using file analysis and hashes, preserves your existing customizations, and continues de",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/Irwu0bhORL4/hqdefault.jpg"
-        },
-        {
-          "title": "Your Ideas Drive Our Next Big Innovations at Patch My PC!",
-          "link": "https://www.youtube.com/shorts/vm41y3AbguI",
-          "pubDate": "2026-09-04T19:19:05.000Z",
-          "summary": "At Patch My PC, innovation starts with customer feedback. Discover how our Ideas Portal helps shape new features, product enhancements, and the future of third-party patch management for Microsoft Intune and Configuration Manager. Submit your ideas, vote on feature requests, and help influence what ",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i3.ytimg.com/vi/vm41y3AbguI/hqdefault.jpg"
-        },
-        {
-          "title": "The Exploit Clock Doesn’t Wait: What’s New in Patch My PC for Intune & ConfigMgr",
-          "link": "https://www.youtube.com/watch?v=Gm07FfBAUzI",
-          "pubDate": "2026-09-04T12:32:40.000Z",
-          "summary": "The exploit clock is getting faster. Your patching process needs to keep up. In this webinar, the Patch My PC team breaks down what’s new across Patch My PC Cloud, Microsoft Intune, and Configuration Manager (ConfigMgr) — and how the latest capabilities can help IT teams reduce manual work, improve ",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": "Gm07FfBAUzI",
-          "thumbnail": "https://i4.ytimg.com/vi/Gm07FfBAUzI/hqdefault.jpg"
-        },
-        {
-          "title": "CVE 2026-68820 - Windows Exploit Alert Winsock Driver Actively Exploited!",
-          "link": "https://www.youtube.com/shorts/lEeu60H6wxM",
-          "pubDate": "2026-08-14T19:17:10.000Z",
-          "summary": "",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/lEeu60H6wxM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.054Z",
+      "fetchedAt": "2026-09-11T15:58:00.819Z",
       "error": null
     },
     {
@@ -3692,7 +3688,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/cnDlheHyBxk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.039Z",
+      "fetchedAt": "2026-09-11T15:58:00.825Z",
       "error": null
     },
     {
@@ -3757,7 +3753,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/6JbBOe1uMmk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.137Z",
+      "fetchedAt": "2026-09-11T15:58:00.816Z",
       "error": null
     },
     {
@@ -3822,7 +3818,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whK8-o51zv4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.069Z",
+      "fetchedAt": "2026-09-11T15:58:00.795Z",
       "error": null
     },
     {
@@ -3887,7 +3883,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.304Z",
+      "fetchedAt": "2026-09-11T15:58:00.926Z",
       "error": null
     },
     {
@@ -3952,7 +3948,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.241Z",
+      "fetchedAt": "2026-09-11T15:58:00.966Z",
       "error": null
     },
     {
@@ -4017,7 +4013,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.247Z",
+      "fetchedAt": "2026-09-11T15:58:00.919Z",
       "error": null
     },
     {
@@ -4082,7 +4078,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.269Z",
+      "fetchedAt": "2026-09-11T15:58:00.988Z",
       "error": null
     },
     {
@@ -4138,7 +4134,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:16.823Z",
+      "fetchedAt": "2026-09-11T15:58:01.302Z",
       "error": null
     },
     {
@@ -4148,7 +4144,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-11T08:38:15.508Z",
+      "fetchedAt": "2026-09-11T15:58:01.185Z",
       "error": null
     },
     {
@@ -4214,7 +4210,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:16.167Z",
+      "fetchedAt": "2026-09-11T15:58:01.851Z",
       "error": null
     },
     {
@@ -4270,7 +4266,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:15.472Z",
+      "fetchedAt": "2026-09-11T15:58:01.060Z",
       "error": null
     },
     {
@@ -4299,7 +4295,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:17.236Z",
+      "fetchedAt": "2026-09-11T15:58:02.440Z",
       "error": null
     },
     {
@@ -4355,7 +4351,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:16.854Z",
+      "fetchedAt": "2026-09-11T15:58:01.863Z",
       "error": null
     },
     {
@@ -4365,7 +4361,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-09-11T08:38:17.038Z",
+      "fetchedAt": "2026-09-11T15:58:02.409Z",
       "error": null
     },
     {
@@ -4421,7 +4417,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:16.964Z",
+      "fetchedAt": "2026-09-11T15:58:01.890Z",
       "error": null
     },
     {
@@ -4441,7 +4437,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:17.258Z",
+      "fetchedAt": "2026-09-11T15:58:02.476Z",
       "error": null
     },
     {
@@ -4497,7 +4493,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:21.470Z",
+      "fetchedAt": "2026-09-11T15:58:06.684Z",
       "error": null
     },
     {
@@ -4553,7 +4549,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:17.953Z",
+      "fetchedAt": "2026-09-11T15:58:02.768Z",
       "error": null
     },
     {
@@ -4608,7 +4604,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:17.429Z",
+      "fetchedAt": "2026-09-11T15:58:02.588Z",
       "error": null
     },
     {
@@ -4663,7 +4659,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:21.537Z",
+      "fetchedAt": "2026-09-11T15:58:06.727Z",
       "error": null
     },
     {
@@ -4728,7 +4724,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-11T08:38:22.458Z",
+      "fetchedAt": "2026-09-11T15:58:07.630Z",
       "error": null
     }
   ]
