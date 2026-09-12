@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T18:09:21.014Z",
+  "generatedAt": "2026-09-12T21:57:34.109Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,48 +8,24 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Google Workspace migration tool imports Microsoft 365 users and data",
-          "link": "https://4sysops.com/archives/google-workspace-migration-tool-imports-microsoft-365-users-and-data/",
-          "pubDate": "2026-09-12T14:13:15.000Z",
-          "summary": "Google Workspace’s native migration tool is now generally available for small businesses and educational institutions moving from Microsoft 365. It can copy users, email, OneDrive files, calendars, contacts, and tasks into a new Google Workspace tenant, but the initial rollout is limited to 10 users",
-          "author": "",
-          "categories": [
-            "News",
-            "Business Software"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 11 Administrator Protection moves closer to its 26H2 rollout",
-          "link": "https://4sysops.com/archives/windows-11-administrator-protection-moves-closer-to-its-26h2-rollout/",
-          "pubDate": "2026-09-12T13:50:03.000Z",
-          "summary": "Microsoft is moving Administrator Protection into the Windows 11 26H2 rollout after disabling the feature during the previous release cycle. It appeared in the Release Preview build KB5124006 and is now being distributed more broadly through the September 2026 update, KB5124008. Source]]>",
-          "author": "",
-          "categories": [
-            "News",
-            "Security",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Salesforce rolls out Agentforce AI agents for sales, support, and internal help desks",
-          "link": "https://4sysops.com/archives/salesforce-rolls-out-agentforce-ai-agents-for-sales-support-and-internal-help-desks/",
-          "pubDate": "2026-09-12T13:50:02.000Z",
-          "summary": "Salesforce is expanding Agentforce with a lineup of specialized AI agents that can pursue work beyond a single conversation, from finding B2B leads to processing returns and answering employee help-desk questions. Most agents are generally available now, while remaining capabilities are scheduled to",
+          "title": "Perplexity gives GPT-6 Astra control of production systems",
+          "link": "https://4sysops.com/archives/perplexity-gives-gpt-6-astra-control-of-production-systems/",
+          "pubDate": "2026-09-12T18:41:51.000Z",
+          "summary": "Perplexity is allowing OpenAI’s GPT-6 Astra to write communications, modify production software, monitor live systems, and create tests with substantially fewer human check-ins than earlier models. The shift moves Astra beyond code assistance toward supervised, end-to-end operation of the company’s ",
           "author": "",
           "categories": [
             "News",
             "AI",
-            "Business Software"
+            "Monitoring",
+            "Systems Management"
           ],
           "type": "rss"
         },
         {
-          "title": "OpenAI agents targeted RubyGems in a 2,000-package API key heist",
-          "link": "https://4sysops.com/archives/openai-agents-targeted-rubygems-in-a-2000-package-api-key-heist/",
-          "pubDate": "2026-09-12T13:50:01.000Z",
-          "summary": "RubyGems is Ruby’s package manager: it lets developers package, publish, find, install, update, and manage reusable Ruby code called gems. A newly disclosed campaign used OpenAI agents to upload about 2,000 malicious RubyGems packages, exploit a RubyDoc.info build-server flaw, and probe for develope",
+          "title": "Anthropic CEO calls for an AI slowdown",
+          "link": "https://4sysops.com/archives/anthropic-ceo-calls-for-an-ai-slowdown/",
+          "pubDate": "2026-09-12T18:41:50.000Z",
+          "summary": "Anthropic CEO Dario Amodei argues that frontier AI development should proceed at a more measured pace so safety research can keep up with rapidly advancing capabilities. He says pacing would not halt training or technical progress, but would create time to improve alignment, operational security, in",
           "author": "",
           "categories": [
             "News",
@@ -59,20 +35,44 @@
           "type": "rss"
         },
         {
-          "title": "Windows 11 build 26340.9482 expands automatic HVCI rollout",
-          "link": "https://4sysops.com/archives/windows-11-build-26340-9482-expands-automatic-hvci-rollout/",
-          "pubDate": "2026-09-12T13:50:00.000Z",
-          "summary": "HVCI, or Hypervisor-Protected Code Integrity, is a Windows 11 security feature also called Memory Integrity. It uses Virtualization-Based Security (VBS)—which uses the Windows hypervisor and CPU virtualization to create an isolated, protected memory area—to check kernel code and drivers before they ",
+          "title": "Debian 13.7 tackles QEMU secure-boot flaws in major security update",
+          "link": "https://4sysops.com/archives/debian-13-7-tackles-qemu-secure-boot-flaws-in-major-security-update/",
+          "pubDate": "2026-09-12T18:28:01.000Z",
+          "summary": "Debian 13.7 “Trixie” is now available with 107 security updates, 106 bug fixes, and a new installer kernel. The seventh point release gives administrators a particularly important reason to patch: QEMU receives fixes for more than 20 secure-boot bypass vulnerabilities, while glibc updates trigger re",
           "author": "",
           "categories": [
             "News",
-            "Security",
-            "Windows"
+            "Linux",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Dutch NCSC says Check Point VPN flaw exploitation is imminent",
+          "link": "https://4sysops.com/archives/dutch-ncsc-says-check-point-vpn-flaw-exploitation-is-imminent/",
+          "pubDate": "2026-09-12T18:28:00.000Z",
+          "summary": "The Dutch NCSC now expects attackers to target two critical Check Point VPN flaws soon, despite no public proof-of-concept exploit. The warning raises the urgency around Check Point’s disclosure of two CVSS 9.8 Quantum VPN certificate RCEs, which can be triggered during certificate processing before",
+          "author": "",
+          "categories": [
+            "News",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Google completes Mechanize talent deal as DeepMind hires coding team",
+          "link": "https://4sysops.com/archives/google-completes-mechanize-talent-deal-as-deepmind-hires-coding-team/",
+          "pubDate": "2026-09-12T18:27:59.000Z",
+          "summary": "Google has completed a talent acquisition from AI coding startup Mechanize, bringing co-founder Tamay Besiroglu and more than a dozen employees into Google DeepMind. The team is expected to focus on mid-training, a model-development stage aimed at improving coding and chatbot performance as Google w",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:08:58.697Z",
+      "fetchedAt": "2026-09-12T21:57:12.091Z",
       "error": null
     },
     {
@@ -137,7 +137,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:08:58.523Z",
+      "fetchedAt": "2026-09-12T21:57:12.023Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:08:59.121Z",
+      "fetchedAt": "2026-09-12T21:57:12.299Z",
       "error": null
     },
     {
@@ -266,7 +266,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:08:58.304Z",
+      "fetchedAt": "2026-09-12T21:57:11.944Z",
       "error": null
     },
     {
@@ -348,7 +348,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:08:59.900Z",
+      "fetchedAt": "2026-09-12T21:57:12.747Z",
       "error": null
     },
     {
@@ -424,7 +424,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:00.670Z",
+      "fetchedAt": "2026-09-12T21:57:14.111Z",
       "error": null
     },
     {
@@ -506,7 +506,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:08:59.490Z",
+      "fetchedAt": "2026-09-12T21:57:12.629Z",
       "error": null
     },
     {
@@ -575,7 +575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:08:59.531Z",
+      "fetchedAt": "2026-09-12T21:57:12.586Z",
       "error": null
     },
     {
@@ -643,7 +643,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:00.890Z",
+      "fetchedAt": "2026-09-12T21:57:14.413Z",
       "error": null
     },
     {
@@ -716,7 +716,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:00.759Z",
+      "fetchedAt": "2026-09-12T21:57:14.169Z",
       "error": null
     },
     {
@@ -797,7 +797,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:02.476Z",
+      "fetchedAt": "2026-09-12T21:57:15.075Z",
       "error": null
     },
     {
@@ -807,7 +807,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-09-12T18:09:02.569Z",
+      "fetchedAt": "2026-09-12T21:57:14.251Z",
       "error": "HTTP 403"
     },
     {
@@ -880,7 +880,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:02.782Z",
+      "fetchedAt": "2026-09-12T21:57:15.379Z",
       "error": null
     },
     {
@@ -962,7 +962,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:02.643Z",
+      "fetchedAt": "2026-09-12T21:57:15.130Z",
       "error": null
     },
     {
@@ -1028,7 +1028,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:03.825Z",
+      "fetchedAt": "2026-09-12T21:57:15.868Z",
       "error": null
     },
     {
@@ -1097,7 +1097,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:02.917Z",
+      "fetchedAt": "2026-09-12T21:57:15.249Z",
       "error": null
     },
     {
@@ -1177,7 +1177,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:04.959Z",
+      "fetchedAt": "2026-09-12T21:57:16.562Z",
       "error": null
     },
     {
@@ -1232,7 +1232,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:03.946Z",
+      "fetchedAt": "2026-09-12T21:57:15.979Z",
       "error": null
     },
     {
@@ -1297,7 +1297,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:04.289Z",
+      "fetchedAt": "2026-09-12T21:57:16.242Z",
       "error": null
     },
     {
@@ -1382,7 +1382,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:03.932Z",
+      "fetchedAt": "2026-09-12T21:57:15.991Z",
       "error": null
     },
     {
@@ -1455,7 +1455,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:05.858Z",
+      "fetchedAt": "2026-09-12T21:57:17.118Z",
       "error": null
     },
     {
@@ -1464,7 +1464,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-09-12T18:09:05.019Z",
+      "fetchedAt": "2026-09-12T21:57:16.634Z",
       "error": "HTTP 403"
     },
     {
@@ -1542,7 +1542,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:06.742Z",
+      "fetchedAt": "2026-09-12T21:57:18.040Z",
       "error": null
     },
     {
@@ -1551,7 +1551,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-12T18:09:05.760Z",
+      "fetchedAt": "2026-09-12T21:57:16.902Z",
       "error": "certificate has expired"
     },
     {
@@ -1622,7 +1622,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:07.410Z",
+      "fetchedAt": "2026-09-12T21:57:18.457Z",
       "error": null
     },
     {
@@ -1698,7 +1698,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:07.456Z",
+      "fetchedAt": "2026-09-12T21:57:18.375Z",
       "error": null
     },
     {
@@ -1764,7 +1764,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:07.896Z",
+      "fetchedAt": "2026-09-12T21:57:20.553Z",
       "error": null
     },
     {
@@ -1819,7 +1819,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:07.160Z",
+      "fetchedAt": "2026-09-12T21:57:18.691Z",
       "error": null
     },
     {
@@ -1888,7 +1888,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:08.004Z",
+      "fetchedAt": "2026-09-12T21:57:20.729Z",
       "error": null
     },
     {
@@ -1967,7 +1967,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:07.962Z",
+      "fetchedAt": "2026-09-12T21:57:20.604Z",
       "error": null
     },
     {
@@ -2049,7 +2049,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:10.145Z",
+      "fetchedAt": "2026-09-12T21:57:22.292Z",
       "error": null
     },
     {
@@ -2134,7 +2134,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:08.077Z",
+      "fetchedAt": "2026-09-12T21:57:20.848Z",
       "error": null
     },
     {
@@ -2190,7 +2190,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:10.214Z",
+      "fetchedAt": "2026-09-12T21:57:22.418Z",
       "error": null
     },
     {
@@ -2276,7 +2276,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:11.119Z",
+      "fetchedAt": "2026-09-12T21:57:23.535Z",
       "error": null
     },
     {
@@ -2362,7 +2362,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:10.224Z",
+      "fetchedAt": "2026-09-12T21:57:22.477Z",
       "error": null
     },
     {
@@ -2440,7 +2440,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:10.270Z",
+      "fetchedAt": "2026-09-12T21:57:22.493Z",
       "error": null
     },
     {
@@ -2495,7 +2495,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:11.234Z",
+      "fetchedAt": "2026-09-12T21:57:23.679Z",
       "error": null
     },
     {
@@ -2560,7 +2560,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:11.275Z",
+      "fetchedAt": "2026-09-12T21:57:23.722Z",
       "error": null
     },
     {
@@ -2569,7 +2569,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-09-12T18:09:11.231Z",
+      "fetchedAt": "2026-09-12T21:57:23.810Z",
       "error": "HTTP 404"
     },
     {
@@ -2625,7 +2625,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:11.910Z",
+      "fetchedAt": "2026-09-12T21:57:23.975Z",
       "error": null
     },
     {
@@ -2690,7 +2690,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:12.444Z",
+      "fetchedAt": "2026-09-12T21:57:24.412Z",
       "error": null
     },
     {
@@ -2771,7 +2771,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:12.691Z",
+      "fetchedAt": "2026-09-12T21:57:25.443Z",
       "error": null
     },
     {
@@ -2780,7 +2780,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-09-12T18:09:13.064Z",
+      "fetchedAt": "2026-09-12T21:57:24.852Z",
       "error": "HTTP 404"
     },
     {
@@ -2789,7 +2789,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-09-12T18:09:12.005Z",
+      "fetchedAt": "2026-09-12T21:57:24.212Z",
       "error": "HTTP 403"
     },
     {
@@ -2860,16 +2860,16 @@
           "summary": "",
           "author": "",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.182Z",
+      "fetchedAt": "2026-09-12T21:57:25.463Z",
       "error": null
     },
     {
@@ -2942,7 +2942,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.153Z",
+      "fetchedAt": "2026-09-12T21:57:25.615Z",
       "error": null
     },
     {
@@ -2961,7 +2961,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.183Z",
+      "fetchedAt": "2026-09-12T21:57:25.499Z",
       "error": null
     },
     {
@@ -3016,7 +3016,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.266Z",
+      "fetchedAt": "2026-09-12T21:57:25.764Z",
       "error": null
     },
     {
@@ -3100,7 +3100,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.467Z",
+      "fetchedAt": "2026-09-12T21:57:25.883Z",
       "error": null
     },
     {
@@ -3165,7 +3165,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.433Z",
+      "fetchedAt": "2026-09-12T21:57:25.887Z",
       "error": null
     },
     {
@@ -3231,7 +3231,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hXRPm7r4Q14/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.299Z",
+      "fetchedAt": "2026-09-12T21:57:25.963Z",
       "error": null
     },
     {
@@ -3296,7 +3296,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KnRJLYNb0N0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.448Z",
+      "fetchedAt": "2026-09-12T21:57:25.891Z",
       "error": null
     },
     {
@@ -3361,7 +3361,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JVof8RPN8m0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.737Z",
+      "fetchedAt": "2026-09-12T21:57:26.062Z",
       "error": null
     },
     {
@@ -3427,7 +3427,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.622Z",
+      "fetchedAt": "2026-09-12T21:57:26.063Z",
       "error": null
     },
     {
@@ -3493,7 +3493,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WMQJqPd8E9U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.633Z",
+      "fetchedAt": "2026-09-12T21:57:26.075Z",
       "error": null
     },
     {
@@ -3559,7 +3559,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Q8lZamlHw3s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.492Z",
+      "fetchedAt": "2026-09-12T21:57:26.137Z",
       "error": null
     },
     {
@@ -3624,7 +3624,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rkYcFfi-l_A/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.927Z",
+      "fetchedAt": "2026-09-12T21:57:26.243Z",
       "error": null
     },
     {
@@ -3690,7 +3690,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/F-BSrZCyBUw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.890Z",
+      "fetchedAt": "2026-09-12T21:57:26.233Z",
       "error": null
     },
     {
@@ -3755,7 +3755,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/6JbBOe1uMmk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.900Z",
+      "fetchedAt": "2026-09-12T21:57:26.246Z",
       "error": null
     },
     {
@@ -3820,7 +3820,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whK8-o51zv4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:13.991Z",
+      "fetchedAt": "2026-09-12T21:57:26.260Z",
       "error": null
     },
     {
@@ -3885,7 +3885,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:14.130Z",
+      "fetchedAt": "2026-09-12T21:57:26.358Z",
       "error": null
     },
     {
@@ -3950,7 +3950,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:14.161Z",
+      "fetchedAt": "2026-09-12T21:57:26.371Z",
       "error": null
     },
     {
@@ -4015,7 +4015,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:14.196Z",
+      "fetchedAt": "2026-09-12T21:57:26.395Z",
       "error": null
     },
     {
@@ -4080,7 +4080,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:14.215Z",
+      "fetchedAt": "2026-09-12T21:57:26.358Z",
       "error": null
     },
     {
@@ -4136,7 +4136,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:14.440Z",
+      "fetchedAt": "2026-09-12T21:57:26.662Z",
       "error": null
     },
     {
@@ -4146,7 +4146,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-12T18:09:14.326Z",
+      "fetchedAt": "2026-09-12T21:57:26.514Z",
       "error": null
     },
     {
@@ -4212,7 +4212,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:15.359Z",
+      "fetchedAt": "2026-09-12T21:57:27.336Z",
       "error": null
     },
     {
@@ -4268,7 +4268,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:14.282Z",
+      "fetchedAt": "2026-09-12T21:57:26.509Z",
       "error": null
     },
     {
@@ -4282,7 +4282,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-09-09T17:23:00.000Z",
-          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4297,7 +4297,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:15.696Z",
+      "fetchedAt": "2026-09-12T21:57:27.694Z",
       "error": null
     },
     {
@@ -4353,7 +4353,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:15.372Z",
+      "fetchedAt": "2026-09-12T21:57:27.353Z",
       "error": null
     },
     {
@@ -4363,7 +4363,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-09-12T18:09:15.495Z",
+      "fetchedAt": "2026-09-12T21:57:27.477Z",
       "error": null
     },
     {
@@ -4419,7 +4419,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:15.458Z",
+      "fetchedAt": "2026-09-12T21:57:27.384Z",
       "error": null
     },
     {
@@ -4439,7 +4439,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:15.714Z",
+      "fetchedAt": "2026-09-12T21:57:27.857Z",
       "error": null
     },
     {
@@ -4495,7 +4495,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:20.353Z",
+      "fetchedAt": "2026-09-12T21:57:32.273Z",
       "error": null
     },
     {
@@ -4551,7 +4551,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:16.629Z",
+      "fetchedAt": "2026-09-12T21:57:28.250Z",
       "error": null
     },
     {
@@ -4606,7 +4606,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:15.792Z",
+      "fetchedAt": "2026-09-12T21:57:27.817Z",
       "error": null
     },
     {
@@ -4661,7 +4661,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:20.411Z",
+      "fetchedAt": "2026-09-12T21:57:32.314Z",
       "error": null
     },
     {
@@ -4726,7 +4726,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-12T18:09:21.014Z",
+      "fetchedAt": "2026-09-12T21:57:34.109Z",
       "error": null
     }
   ]
