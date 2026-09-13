@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T15:42:56.348Z",
+  "generatedAt": "2026-09-13T18:34:15.622Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -7,6 +7,56 @@
       "type": "rss",
       "url": "https://4sysops.com/feed/",
       "items": [
+        {
+          "title": "In a CNN interview, Dario Amodei says AI extinction risk depends on the paths humans choose",
+          "link": "https://4sysops.com/archives/in-a-cnn-interview-dario-amodei-says-ai-extinction-risk-depends-on-the-paths-humans-choose/",
+          "pubDate": "2026-09-13T17:16:25.000Z",
+          "summary": "In a CNN interview, Anthropic CEO Dario Amodei says he largely agrees with former researcher Jacob Coxon and alignment lead Evan Hubinger that advanced AI could eventually kill all humans—but he rejects treating the danger as a single roll-of-the-dice percentage. Instead, Amodei is urging the indust",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 gets six dynamic updates for setup security and WinRE",
+          "link": "https://4sysops.com/archives/windows-11-gets-six-dynamic-updates-for-setup-security-and-winre/",
+          "pubDate": "2026-09-13T16:50:47.000Z",
+          "summary": "Microsoft has released six Windows 11 dynamic updates for versions 26H1, 25H2, 24H2, and 23H2, including KB5126056 and KB5124015. The packages address security issues in Windows Setup components and improve the Windows Recovery Environment (WinRE), with delivery handled automatically through Windows",
+          "author": "",
+          "categories": [
+            "News",
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 KB5124008 and KB5126052 trigger stubborn AMD crashes",
+          "link": "https://4sysops.com/archives/windows-11-kb5124008-and-kb5126052-trigger-stubborn-amd-crashes/",
+          "pubDate": "2026-09-13T16:50:46.000Z",
+          "summary": "Windows 11 updates KB5124008 and KB5126052 are being linked to severe instability on AMD-based PCs, including driver timeouts, freezes, display disconnects, and hard crashes. The troubling detail for administrators is that uninstalling both updates—and even replacing AMD graphics drivers—did not rel",
+          "author": "",
+          "categories": [
+            "News",
+            "Hardware",
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "KB5124008 gives Windows 11 Media Creation Tool its final 25H2 ISO",
+          "link": "https://4sysops.com/archives/kb5124008-gives-windows-11-media-creation-tool-its-final-25h2-iso/",
+          "pubDate": "2026-09-13T16:50:45.000Z",
+          "summary": "Microsoft has refreshed the Windows 11 Media Creation Tool with KB5124008, giving administrators a current 25H2 installation image just before Windows 11 26H2 arrives. The timing follows 26H2 reaching Release Preview and Microsoft publishing its small 26H2 enablement package, making this likely one ",
+          "author": "",
+          "categories": [
+            "News",
+            "Windows"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Perplexity gives GPT-6 Astra control of production systems",
           "link": "https://4sysops.com/archives/perplexity-gives-gpt-6-astra-control-of-production-systems/",
@@ -20,59 +70,9 @@
             "Systems Management"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Anthropic CEO calls for an AI slowdown",
-          "link": "https://4sysops.com/archives/anthropic-ceo-calls-for-an-ai-slowdown/",
-          "pubDate": "2026-09-12T18:41:50.000Z",
-          "summary": "Anthropic CEO Dario Amodei argues that frontier AI development should proceed at a more measured pace so safety research can keep up with rapidly advancing capabilities. He says pacing would not halt training or technical progress, but would create time to improve alignment, operational security, in",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Debian 13.7 tackles QEMU secure-boot flaws in major security update",
-          "link": "https://4sysops.com/archives/debian-13-7-tackles-qemu-secure-boot-flaws-in-major-security-update/",
-          "pubDate": "2026-09-12T18:28:01.000Z",
-          "summary": "Debian 13.7 “Trixie” is now available with 107 security updates, 106 bug fixes, and a new installer kernel. The seventh point release gives administrators a particularly important reason to patch: QEMU receives fixes for more than 20 secure-boot bypass vulnerabilities, while glibc updates trigger re",
-          "author": "",
-          "categories": [
-            "News",
-            "Linux",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Dutch NCSC says Check Point VPN flaw exploitation is imminent",
-          "link": "https://4sysops.com/archives/dutch-ncsc-says-check-point-vpn-flaw-exploitation-is-imminent/",
-          "pubDate": "2026-09-12T18:28:00.000Z",
-          "summary": "The Dutch NCSC now expects attackers to target two critical Check Point VPN flaws soon, despite no public proof-of-concept exploit. The warning raises the urgency around Check Point’s disclosure of two CVSS 9.8 Quantum VPN certificate RCEs, which can be triggered during certificate processing before",
-          "author": "",
-          "categories": [
-            "News",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Google completes Mechanize talent deal as DeepMind hires coding team",
-          "link": "https://4sysops.com/archives/google-completes-mechanize-talent-deal-as-deepmind-hires-coding-team/",
-          "pubDate": "2026-09-12T18:27:59.000Z",
-          "summary": "Google has completed a talent acquisition from AI coding startup Mechanize, bringing co-founder Tamay Besiroglu and more than a dozen employees into Google DeepMind. The team is expected to focus on mid-training, a model-development stage aimed at improving coding and chatbot performance as Google w",
-          "author": "",
-          "categories": [
-            "News",
-            "AI"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:24.838Z",
+      "fetchedAt": "2026-09-13T18:33:45.112Z",
       "error": null
     },
     {
@@ -137,7 +137,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:24.637Z",
+      "fetchedAt": "2026-09-13T18:33:45.282Z",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:25.061Z",
+      "fetchedAt": "2026-09-13T18:33:45.415Z",
       "error": null
     },
     {
@@ -266,7 +266,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:24.500Z",
+      "fetchedAt": "2026-09-13T18:33:45.040Z",
       "error": null
     },
     {
@@ -348,7 +348,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:25.911Z",
+      "fetchedAt": "2026-09-13T18:33:46.004Z",
       "error": null
     },
     {
@@ -424,7 +424,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:26.484Z",
+      "fetchedAt": "2026-09-13T18:33:47.332Z",
       "error": null
     },
     {
@@ -506,7 +506,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:25.677Z",
+      "fetchedAt": "2026-09-13T18:33:45.806Z",
       "error": null
     },
     {
@@ -575,7 +575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:25.670Z",
+      "fetchedAt": "2026-09-13T18:33:45.879Z",
       "error": null
     },
     {
@@ -643,7 +643,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:26.648Z",
+      "fetchedAt": "2026-09-13T18:33:47.735Z",
       "error": null
     },
     {
@@ -716,7 +716,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:26.672Z",
+      "fetchedAt": "2026-09-13T18:33:47.434Z",
       "error": null
     },
     {
@@ -797,7 +797,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:27.893Z",
+      "fetchedAt": "2026-09-13T18:33:48.402Z",
       "error": null
     },
     {
@@ -807,7 +807,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-09-13T15:42:26.630Z",
+      "fetchedAt": "2026-09-13T18:33:47.678Z",
       "error": "HTTP 403"
     },
     {
@@ -880,7 +880,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:28.133Z",
+      "fetchedAt": "2026-09-13T18:33:49.020Z",
       "error": null
     },
     {
@@ -962,7 +962,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:27.989Z",
+      "fetchedAt": "2026-09-13T18:33:48.607Z",
       "error": null
     },
     {
@@ -1028,7 +1028,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:29.672Z",
+      "fetchedAt": "2026-09-13T18:33:49.537Z",
       "error": null
     },
     {
@@ -1097,7 +1097,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:28.213Z",
+      "fetchedAt": "2026-09-13T18:33:48.859Z",
       "error": null
     },
     {
@@ -1177,7 +1177,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:30.822Z",
+      "fetchedAt": "2026-09-13T18:33:50.293Z",
       "error": null
     },
     {
@@ -1232,7 +1232,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:29.929Z",
+      "fetchedAt": "2026-09-13T18:33:49.650Z",
       "error": null
     },
     {
@@ -1297,7 +1297,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:30.236Z",
+      "fetchedAt": "2026-09-13T18:33:49.829Z",
       "error": null
     },
     {
@@ -1382,7 +1382,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:30.006Z",
+      "fetchedAt": "2026-09-13T18:33:49.620Z",
       "error": null
     },
     {
@@ -1455,7 +1455,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:31.676Z",
+      "fetchedAt": "2026-09-13T18:33:50.952Z",
       "error": null
     },
     {
@@ -1464,7 +1464,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-09-13T15:42:30.966Z",
+      "fetchedAt": "2026-09-13T18:33:50.376Z",
       "error": "HTTP 403"
     },
     {
@@ -1542,7 +1542,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:32.648Z",
+      "fetchedAt": "2026-09-13T18:33:51.890Z",
       "error": null
     },
     {
@@ -1551,7 +1551,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-13T15:42:31.455Z",
+      "fetchedAt": "2026-09-13T18:33:50.703Z",
       "error": "certificate has expired"
     },
     {
@@ -1622,7 +1622,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:33.334Z",
+      "fetchedAt": "2026-09-13T18:33:52.613Z",
       "error": null
     },
     {
@@ -1698,7 +1698,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:33.142Z",
+      "fetchedAt": "2026-09-13T18:33:52.239Z",
       "error": null
     },
     {
@@ -1764,7 +1764,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:33.442Z",
+      "fetchedAt": "2026-09-13T18:34:02.729Z",
       "error": null
     },
     {
@@ -1819,7 +1819,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:33.008Z",
+      "fetchedAt": "2026-09-13T18:33:52.567Z",
       "error": null
     },
     {
@@ -1888,7 +1888,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:33.609Z",
+      "fetchedAt": "2026-09-13T18:34:02.939Z",
       "error": null
     },
     {
@@ -1967,7 +1967,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:33.547Z",
+      "fetchedAt": "2026-09-13T18:34:02.809Z",
       "error": null
     },
     {
@@ -2049,7 +2049,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:35.508Z",
+      "fetchedAt": "2026-09-13T18:34:04.533Z",
       "error": null
     },
     {
@@ -2134,7 +2134,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:33.598Z",
+      "fetchedAt": "2026-09-13T18:34:03.042Z",
       "error": null
     },
     {
@@ -2190,7 +2190,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:35.662Z",
+      "fetchedAt": "2026-09-13T18:34:04.685Z",
       "error": null
     },
     {
@@ -2276,7 +2276,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:36.915Z",
+      "fetchedAt": "2026-09-13T18:34:05.850Z",
       "error": null
     },
     {
@@ -2362,7 +2362,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:35.748Z",
+      "fetchedAt": "2026-09-13T18:34:04.727Z",
       "error": null
     },
     {
@@ -2440,7 +2440,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:35.709Z",
+      "fetchedAt": "2026-09-13T18:34:04.769Z",
       "error": null
     },
     {
@@ -2495,7 +2495,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:36.978Z",
+      "fetchedAt": "2026-09-13T18:34:05.911Z",
       "error": null
     },
     {
@@ -2560,7 +2560,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:37.118Z",
+      "fetchedAt": "2026-09-13T18:34:06.243Z",
       "error": null
     },
     {
@@ -2569,7 +2569,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-09-13T15:42:37.071Z",
+      "fetchedAt": "2026-09-13T18:34:06.124Z",
       "error": "HTTP 404"
     },
     {
@@ -2625,7 +2625,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:37.600Z",
+      "fetchedAt": "2026-09-13T18:34:06.590Z",
       "error": null
     },
     {
@@ -2690,7 +2690,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:38.037Z",
+      "fetchedAt": "2026-09-13T18:34:07.209Z",
       "error": null
     },
     {
@@ -2771,7 +2771,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:38.910Z",
+      "fetchedAt": "2026-09-13T18:34:07.328Z",
       "error": null
     },
     {
@@ -2780,7 +2780,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-09-13T15:42:38.699Z",
+      "fetchedAt": "2026-09-13T18:34:07.507Z",
       "error": "HTTP 404"
     },
     {
@@ -2789,7 +2789,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-09-13T15:42:37.762Z",
+      "fetchedAt": "2026-09-13T18:34:06.859Z",
       "error": "HTTP 403"
     },
     {
@@ -2860,16 +2860,16 @@
           "summary": "",
           "author": "",
           "categories": [
+            "Security",
             "UEFI",
             "Windows 10",
-            "Windows Server",
-            "Security",
-            "windows 11"
+            "windows 11",
+            "Windows Server"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:38.972Z",
+      "fetchedAt": "2026-09-13T18:34:07.578Z",
       "error": null
     },
     {
@@ -2942,7 +2942,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:39.115Z",
+      "fetchedAt": "2026-09-13T18:34:07.792Z",
       "error": null
     },
     {
@@ -2961,7 +2961,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:39.047Z",
+      "fetchedAt": "2026-09-13T18:34:07.671Z",
       "error": null
     },
     {
@@ -2969,9 +2969,55 @@
       "label": "z-nerd.com - Nathan Ziehnert",
       "type": "rss",
       "url": "https://z-nerd.com/index.xml",
-      "items": [],
-      "fetchedAt": "2026-09-13T15:42:47.054Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Advent of Code 2025 - Day Five",
+          "link": "https://z-nerd.com/posts/2026/04/03/aoc-2025-day-five/",
+          "pubDate": "2026-04-03T00:00:00.000Z",
+          "summary": "You gotta pump those numbers up. Those are rookie numbers.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Advent of Code 2025 - Day Four",
+          "link": "https://z-nerd.com/posts/2026/03/27/aoc-2025-day-four/",
+          "pubDate": "2026-03-27T00:00:00.000Z",
+          "summary": "Killed my streak last week. Forgot to blog while curling. Dang.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Keeping The Streak: Just Under The Wire. Something, Something, Error Handling.",
+          "link": "https://z-nerd.com/posts/2026/03/13/just-under-the-wire/",
+          "pubDate": "2026-03-13T00:00:00.000Z",
+          "summary": "We spend a bit of time this week talking about error handling in PowerShell. All because I spent the day staring at roller coaster procedures and electronics instead of the animals at Seaworld.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Advent of Code 2025 - Day Three",
+          "link": "https://z-nerd.com/posts/2026/03/06/aoc-2025-day-three/",
+          "pubDate": "2026-03-06T00:00:00.000Z",
+          "summary": "Electrical surges. Should have bought a bigger surge protector.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Advent of Code 2025 - Day Two",
+          "link": "https://z-nerd.com/posts/2026/02/27/aoc-2025-day-two/",
+          "pubDate": "2026-02-27T00:00:00.000Z",
+          "summary": "Kids are dumb. Adults who let kids play on production systems are dumber.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-09-13T18:34:07.957Z",
+      "error": null
     },
     {
       "id": "jorgeasaur",
@@ -3054,7 +3100,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.210Z",
+      "fetchedAt": "2026-09-13T18:34:08.108Z",
       "error": null
     },
     {
@@ -3119,7 +3165,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.209Z",
+      "fetchedAt": "2026-09-13T18:34:08.100Z",
       "error": null
     },
     {
@@ -3185,7 +3231,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hXRPm7r4Q14/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.197Z",
+      "fetchedAt": "2026-09-13T18:34:08.005Z",
       "error": null
     },
     {
@@ -3250,7 +3296,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KnRJLYNb0N0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.204Z",
+      "fetchedAt": "2026-09-13T18:34:08.105Z",
       "error": null
     },
     {
@@ -3315,7 +3361,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JVof8RPN8m0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.437Z",
+      "fetchedAt": "2026-09-13T18:34:08.241Z",
       "error": null
     },
     {
@@ -3381,7 +3427,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9PgibW9_yvw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.494Z",
+      "fetchedAt": "2026-09-13T18:34:08.209Z",
       "error": null
     },
     {
@@ -3447,7 +3493,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/WMQJqPd8E9U/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.434Z",
+      "fetchedAt": "2026-09-13T18:34:08.228Z",
       "error": null
     },
     {
@@ -3513,7 +3559,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Q8lZamlHw3s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.340Z",
+      "fetchedAt": "2026-09-13T18:34:08.132Z",
       "error": null
     },
     {
@@ -3578,7 +3624,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/rkYcFfi-l_A/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.627Z",
+      "fetchedAt": "2026-09-13T18:34:08.364Z",
       "error": null
     },
     {
@@ -3644,7 +3690,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/F-BSrZCyBUw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.723Z",
+      "fetchedAt": "2026-09-13T18:34:08.428Z",
       "error": null
     },
     {
@@ -3709,7 +3755,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/6JbBOe1uMmk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.648Z",
+      "fetchedAt": "2026-09-13T18:34:08.355Z",
       "error": null
     },
     {
@@ -3774,7 +3820,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/whK8-o51zv4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.643Z",
+      "fetchedAt": "2026-09-13T18:34:08.344Z",
       "error": null
     },
     {
@@ -3839,7 +3885,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.849Z",
+      "fetchedAt": "2026-09-13T18:34:08.434Z",
       "error": null
     },
     {
@@ -3904,7 +3950,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.907Z",
+      "fetchedAt": "2026-09-13T18:34:08.536Z",
       "error": null
     },
     {
@@ -3969,7 +4015,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.858Z",
+      "fetchedAt": "2026-09-13T18:34:08.580Z",
       "error": null
     },
     {
@@ -4034,7 +4080,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:47.855Z",
+      "fetchedAt": "2026-09-13T18:34:08.531Z",
       "error": null
     },
     {
@@ -4090,7 +4136,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:48.139Z",
+      "fetchedAt": "2026-09-13T18:34:08.764Z",
       "error": null
     },
     {
@@ -4100,7 +4146,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-13T15:42:48.184Z",
+      "fetchedAt": "2026-09-13T18:34:08.657Z",
       "error": null
     },
     {
@@ -4166,7 +4212,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:49.326Z",
+      "fetchedAt": "2026-09-13T18:34:09.456Z",
       "error": null
     },
     {
@@ -4222,7 +4268,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:48.015Z",
+      "fetchedAt": "2026-09-13T18:34:08.654Z",
       "error": null
     },
     {
@@ -4236,7 +4282,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-09-09T17:23:00.000Z",
-          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4251,7 +4297,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:49.626Z",
+      "fetchedAt": "2026-09-13T18:34:09.816Z",
       "error": null
     },
     {
@@ -4307,7 +4353,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:49.364Z",
+      "fetchedAt": "2026-09-13T18:34:09.497Z",
       "error": null
     },
     {
@@ -4317,7 +4363,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-09-13T15:42:49.592Z",
+      "fetchedAt": "2026-09-13T18:34:09.704Z",
       "error": null
     },
     {
@@ -4373,7 +4419,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:49.357Z",
+      "fetchedAt": "2026-09-13T18:34:09.488Z",
       "error": null
     },
     {
@@ -4393,7 +4439,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:50.000Z",
+      "fetchedAt": "2026-09-13T18:34:09.872Z",
       "error": null
     },
     {
@@ -4449,7 +4495,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:54.280Z",
+      "fetchedAt": "2026-09-13T18:34:14.470Z",
       "error": null
     },
     {
@@ -4505,7 +4551,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:50.586Z",
+      "fetchedAt": "2026-09-13T18:34:10.568Z",
       "error": null
     },
     {
@@ -4560,7 +4606,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:49.757Z",
+      "fetchedAt": "2026-09-13T18:34:10.095Z",
       "error": null
     },
     {
@@ -4615,7 +4661,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:54.396Z",
+      "fetchedAt": "2026-09-13T18:34:14.612Z",
       "error": null
     },
     {
@@ -4680,7 +4726,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-13T15:42:56.348Z",
+      "fetchedAt": "2026-09-13T18:34:15.622Z",
       "error": null
     }
   ]
