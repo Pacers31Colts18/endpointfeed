@@ -341,6 +341,12 @@ const FEEDS = [
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCIZgKKNrG-ty72Bez8b2qHg",
   },
+    {
+    id: "yt-cyrusacademy",
+    label: "Cyrus Academy - Microsoft",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC8TOAKuC8x7WpOc1VmbgSPw",
+  },
   {
     id: "yt-savill",
     label: "John Savill Tech Training",
