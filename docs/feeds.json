@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T17:56:05.472Z",
+  "generatedAt": "2026-09-21T23:02:24.409Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,70 +8,71 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Entra ID passkeys become default in 2026 as SMS and voice authentication near retirement",
-          "link": "https://4sysops.com/archives/entra-id-passkeys-become-default-in-2026-as-sms-and-voice-authentication-near-retirement/",
-          "pubDate": "2026-09-21T14:52:54.000Z",
-          "summary": "Entra ID administrators have two deadlines to prepare for: passkeys will become the default sign-in method beginning September 1, 2026, and Microsoft-provided SMS and voice authentication will retire on February 1, 2027. Organizations should identify affected users now and move them to phishing-resi",
+          "title": "Grok 4.7 keeps Grok 4.6 pricing while cutting the cost of agent work",
+          "link": "https://4sysops.com/archives/grok-4-7-keeps-grok-4-6-pricing-while-cutting-the-cost-of-agent-work/",
+          "pubDate": "2026-09-21T20:25:07.000Z",
+          "summary": "Grok 4.7 is now available at Grok 4.6’s standard API rates, but early Cursor testing suggests the larger model can complete coding tasks more cheaply. SpaceXAI is targeting agents that work for hours, using longer training, improved self-checking, and a 500,000-token context window to reduce failed ",
           "author": "",
           "categories": [
             "News",
-            "Identity",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "OpenClaw fixes 23 vulnerabilities, exposing a hidden risk in AI agent permissions",
+          "link": "https://4sysops.com/archives/openclaw-fixes-23-vulnerabilities-exposing-a-hidden-risk-in-ai-agent-permissions/",
+          "pubDate": "2026-09-21T20:25:06.000Z",
+          "summary": "OpenClaw has fixed 23 vulnerabilities uncovered by a Trail of Bits audit, including flaws that could let permissions disappear or apply to the wrong resource during a multi-step task. The patches are available in stable releases 2026.8.1 and 2026.7.33 LTS, but the audit’s broader warning is aimed at",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft confirms September updates can break File History backups",
-          "link": "https://4sysops.com/archives/microsoft-confirms-september-updates-can-break-file-history-backups/",
-          "pubDate": "2026-09-21T14:52:53.000Z",
-          "summary": "Microsoft has confirmed that September 2026 security updates can disable File History across supported Windows 10 and Windows 11 releases, leaving users without fresh file backups. The regression expands the problem documented in a Windows 11 Insider build that fixes File History, but production sys",
+          "title": "Cloudflare Python Workers exit beta with direct platform access",
+          "link": "https://4sysops.com/archives/cloudflare-python-workers-exit-beta-with-direct-platform-access/",
+          "pubDate": "2026-09-21T20:25:05.000Z",
+          "summary": "Cloudflare has made Python Workers generally available, removing the JavaScript conversion code that previously stood between Python applications and Cloudflare services. The release adds native access to R2, D1, Workers AI, Durable Objects, Queues, Workflows, Hyperdrive and other bindings, making P",
           "author": "",
           "categories": [
             "News",
-            "Backup",
-            "Windows"
+            "Cloud Computing",
+            "Web"
           ],
           "type": "rss"
         },
         {
-          "title": "The Windows backdoor TASK#STOMP plants five footholds to steal Wi-Fi passwords and business files",
-          "link": "https://4sysops.com/archives/the-windows-backdoor-taskstomp-plants-five-footholds-to-steal-wi-fi-passwords-and-business-files/",
-          "pubDate": "2026-09-21T14:52:52.000Z",
-          "summary": "TASK#STOMP is a Windows backdoor that can keep returning even after one malicious file is deleted. Securonix researchers found it harvesting saved Wi-Fi passwords, clipboard data, screenshots, and corporate documents while maintaining at least five separate startup mechanisms and uploading new or mo",
+          "title": "OpenAI calls for global AI standards before recursive self-improvement accelerates",
+          "link": "https://4sysops.com/archives/openai-calls-for-global-ai-standards-before-recursive-self-improvement-accelerates/",
+          "pubDate": "2026-09-21T20:25:04.000Z",
+          "summary": "OpenAI is urging the United States to lead an international standards effort for frontier AI, including systems capable of recursive self-improvement (RSI). The proposed framework would standardize capability testing, safety evidence, human oversight, and incident reporting without creating a global",
           "author": "",
           "categories": [
             "News",
-            "Security",
-            "Windows"
+            "AI",
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Teams calling outage hits some users as Microsoft investigates",
-          "link": "https://4sysops.com/archives/teams-calling-outage-hits-some-users-as-microsoft-investigates/",
-          "pubDate": "2026-09-21T14:52:51.000Z",
-          "summary": "Microsoft is investigating incident TM1475580 after some Teams users began losing the ability to make or receive calls. Reports include calls that fail to connect or drop unexpectedly, while Microsoft 365 Service Health tracks the disruption as a degraded Teams calling service. Source]]>",
+          "title": "V7 Knowledge Hubs give AI agents institutional memory",
+          "link": "https://4sysops.com/archives/v7-knowledge-hubs-give-ai-agents-institutional-memory/",
+          "pubDate": "2026-09-21T20:25:03.000Z",
+          "summary": "V7 is rolling out Knowledge Hubs, a searchable long-term memory for AI agents built from a company’s internal files, data rooms, and business systems. Its Context Graph connects entities, relationships, and source evidence so V7 Go can complete 50- to 100-step workflows in minutes while preserving a",
           "author": "",
           "categories": [
             "News",
+            "AI",
             "Business Software"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Windows 11 emergency update still breaks USB audio, with full fix delayed",
-          "link": "https://4sysops.com/archives/windows-11-emergency-update-still-breaks-usb-audio-with-full-fix-delayed/",
-          "pubDate": "2026-09-21T13:05:47.000Z",
-          "summary": "Microsoft’s KB5129195 emergency update still leaves some Windows 11 systems without USB audio, despite partly repairing multichannel USB audio. Microsoft is investigating the remaining Code 10, no-sound, and unresponsive-volume failures, but a complete fix may not arrive before the October 13, 2026,",
-          "author": "",
-          "categories": [
-            "News",
-            "Windows"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:37.473Z",
+      "fetchedAt": "2026-09-21T23:02:04.156Z",
       "error": null
     },
     {
@@ -136,7 +137,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:37.226Z",
+      "fetchedAt": "2026-09-21T23:02:04.302Z",
       "error": null
     },
     {
@@ -179,7 +180,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:37.727Z",
+      "fetchedAt": "2026-09-21T23:02:04.386Z",
       "error": null
     },
     {
@@ -265,7 +266,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:37.224Z",
+      "fetchedAt": "2026-09-21T23:02:04.010Z",
       "error": null
     },
     {
@@ -349,7 +350,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:38.786Z",
+      "fetchedAt": "2026-09-21T23:02:04.973Z",
       "error": null
     },
     {
@@ -425,7 +426,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:40.554Z",
+      "fetchedAt": "2026-09-21T23:02:06.817Z",
       "error": null
     },
     {
@@ -507,7 +508,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:38.464Z",
+      "fetchedAt": "2026-09-21T23:02:04.681Z",
       "error": null
     },
     {
@@ -578,7 +579,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:38.449Z",
+      "fetchedAt": "2026-09-21T23:02:04.737Z",
       "error": null
     },
     {
@@ -646,7 +647,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:41.131Z",
+      "fetchedAt": "2026-09-21T23:02:07.286Z",
       "error": null
     },
     {
@@ -719,7 +720,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:40.708Z",
+      "fetchedAt": "2026-09-21T23:02:06.923Z",
       "error": null
     },
     {
@@ -800,7 +801,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:41.835Z",
+      "fetchedAt": "2026-09-21T23:02:07.825Z",
       "error": null
     },
     {
@@ -810,7 +811,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:40.968Z",
+      "fetchedAt": "2026-09-21T23:02:06.975Z",
       "error": "HTTP 403"
     },
     {
@@ -883,7 +884,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:42.187Z",
+      "fetchedAt": "2026-09-21T23:02:08.135Z",
       "error": null
     },
     {
@@ -965,7 +966,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:41.893Z",
+      "fetchedAt": "2026-09-21T23:02:07.890Z",
       "error": null
     },
     {
@@ -1031,7 +1032,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:42.777Z",
+      "fetchedAt": "2026-09-21T23:02:08.625Z",
       "error": null
     },
     {
@@ -1101,7 +1102,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:42.065Z",
+      "fetchedAt": "2026-09-21T23:02:07.931Z",
       "error": null
     },
     {
@@ -1181,7 +1182,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:43.446Z",
+      "fetchedAt": "2026-09-21T23:02:09.320Z",
       "error": null
     },
     {
@@ -1236,7 +1237,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:42.911Z",
+      "fetchedAt": "2026-09-21T23:02:08.723Z",
       "error": null
     },
     {
@@ -1301,7 +1302,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:43.289Z",
+      "fetchedAt": "2026-09-21T23:02:08.891Z",
       "error": null
     },
     {
@@ -1386,7 +1387,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:43.039Z",
+      "fetchedAt": "2026-09-21T23:02:08.808Z",
       "error": null
     },
     {
@@ -1459,7 +1460,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:44.127Z",
+      "fetchedAt": "2026-09-21T23:02:09.938Z",
       "error": null
     },
     {
@@ -1468,7 +1469,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:43.521Z",
+      "fetchedAt": "2026-09-21T23:02:09.402Z",
       "error": "HTTP 403"
     },
     {
@@ -1546,7 +1547,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:44.961Z",
+      "fetchedAt": "2026-09-21T23:02:10.841Z",
       "error": null
     },
     {
@@ -1555,7 +1556,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:43.827Z",
+      "fetchedAt": "2026-09-21T23:02:09.781Z",
       "error": "certificate has expired"
     },
     {
@@ -1626,7 +1627,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:45.687Z",
+      "fetchedAt": "2026-09-21T23:02:11.403Z",
       "error": null
     },
     {
@@ -1702,7 +1703,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:45.217Z",
+      "fetchedAt": "2026-09-21T23:02:11.179Z",
       "error": null
     },
     {
@@ -1712,8 +1713,8 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:49.690Z",
-      "error": "Client network socket disconnected before secure TLS connection was established"
+      "fetchedAt": "2026-09-21T23:02:11.239Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -1767,7 +1768,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:45.528Z",
+      "fetchedAt": "2026-09-21T23:02:11.321Z",
       "error": null
     },
     {
@@ -1836,7 +1837,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:49.928Z",
+      "fetchedAt": "2026-09-21T23:02:11.583Z",
       "error": null
     },
     {
@@ -1915,7 +1916,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:49.866Z",
+      "fetchedAt": "2026-09-21T23:02:11.461Z",
       "error": null
     },
     {
@@ -1997,7 +1998,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:51.745Z",
+      "fetchedAt": "2026-09-21T23:02:13.124Z",
       "error": null
     },
     {
@@ -2082,7 +2083,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:50.005Z",
+      "fetchedAt": "2026-09-21T23:02:11.634Z",
       "error": null
     },
     {
@@ -2138,7 +2139,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:51.920Z",
+      "fetchedAt": "2026-09-21T23:02:13.265Z",
       "error": null
     },
     {
@@ -2224,7 +2225,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:53.354Z",
+      "fetchedAt": "2026-09-21T23:02:14.292Z",
       "error": null
     },
     {
@@ -2310,7 +2311,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:51.922Z",
+      "fetchedAt": "2026-09-21T23:02:13.281Z",
       "error": null
     },
     {
@@ -2390,7 +2391,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:51.861Z",
+      "fetchedAt": "2026-09-21T23:02:13.359Z",
       "error": null
     },
     {
@@ -2445,7 +2446,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:53.393Z",
+      "fetchedAt": "2026-09-21T23:02:14.351Z",
       "error": null
     },
     {
@@ -2510,7 +2511,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:53.753Z",
+      "fetchedAt": "2026-09-21T23:02:14.572Z",
       "error": null
     },
     {
@@ -2519,7 +2520,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:53.706Z",
+      "fetchedAt": "2026-09-21T23:02:14.556Z",
       "error": "HTTP 404"
     },
     {
@@ -2575,7 +2576,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:53.783Z",
+      "fetchedAt": "2026-09-21T23:02:14.884Z",
       "error": null
     },
     {
@@ -2640,7 +2641,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:54.453Z",
+      "fetchedAt": "2026-09-21T23:02:15.271Z",
       "error": null
     },
     {
@@ -2721,7 +2722,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:54.381Z",
+      "fetchedAt": "2026-09-21T23:02:15.455Z",
       "error": null
     },
     {
@@ -2730,7 +2731,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:55.179Z",
+      "fetchedAt": "2026-09-21T23:02:15.461Z",
       "error": "HTTP 404"
     },
     {
@@ -2739,7 +2740,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:54.077Z",
+      "fetchedAt": "2026-09-21T23:02:15.146Z",
       "error": "HTTP 403"
     },
     {
@@ -2819,7 +2820,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:55.243Z",
+      "fetchedAt": "2026-09-21T23:02:15.534Z",
       "error": null
     },
     {
@@ -2892,7 +2893,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:55.339Z",
+      "fetchedAt": "2026-09-21T23:02:15.614Z",
       "error": null
     },
     {
@@ -2911,7 +2912,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:55.314Z",
+      "fetchedAt": "2026-09-21T23:02:15.622Z",
       "error": null
     },
     {
@@ -2966,7 +2967,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:55.662Z",
+      "fetchedAt": "2026-09-21T23:02:15.842Z",
       "error": null
     },
     {
@@ -3050,7 +3051,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:55.795Z",
+      "fetchedAt": "2026-09-21T23:02:15.995Z",
       "error": null
     },
     {
@@ -3115,7 +3116,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:55.958Z",
+      "fetchedAt": "2026-09-21T23:02:16.005Z",
       "error": null
     },
     {
@@ -3180,7 +3181,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/EY3JJNVoyVo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:55.902Z",
+      "fetchedAt": "2026-09-21T23:02:16.074Z",
       "error": null
     },
     {
@@ -3246,7 +3247,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HxalS8yjSyk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:55.723Z",
+      "fetchedAt": "2026-09-21T23:02:15.952Z",
       "error": null
     },
     {
@@ -3311,7 +3312,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/A5n8tr6KXYQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.061Z",
+      "fetchedAt": "2026-09-21T23:02:16.165Z",
       "error": null
     },
     {
@@ -3376,7 +3377,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JChXbNDMCJY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.079Z",
+      "fetchedAt": "2026-09-21T23:02:16.213Z",
       "error": null
     },
     {
@@ -3442,7 +3443,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KGPWao8DlJw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.151Z",
+      "fetchedAt": "2026-09-21T23:02:16.193Z",
       "error": null
     },
     {
@@ -3508,7 +3509,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/v__xy6mgJx0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.186Z",
+      "fetchedAt": "2026-09-21T23:02:16.275Z",
       "error": null
     },
     {
@@ -3574,7 +3575,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/nCYPmAr-k90/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.193Z",
+      "fetchedAt": "2026-09-21T23:02:16.412Z",
       "error": null
     },
     {
@@ -3583,6 +3584,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
       "items": [
+        {
+          "title": "Track Real-Time Vulnerability Exposure with the CVE Insights Exposure Tracker",
+          "link": "https://www.youtube.com/watch?v=7nysTQUvRXU",
+          "pubDate": "2026-09-21T18:21:12.000Z",
+          "summary": "Learn how to track, prioritize, and remediate vulnerability exposures across your endpoint environment using CVE Insights and the Exposure Tracker in Patch My PC. In this deep-dive walkthrough, we demonstrate how the Exposure Tracker bridges the gap between vulnerability discovery and third-party pa",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": "7nysTQUvRXU",
+          "thumbnail": "https://i4.ytimg.com/vi/7nysTQUvRXU/hqdefault.jpg"
+        },
         {
           "title": "Are You Ahead of the Exploit Clock? How Attackers Weaponize New Patches",
           "link": "https://www.youtube.com/watch?v=IutMQ_WKsX8",
@@ -3626,20 +3638,9 @@
           "type": "video",
           "videoId": "yjVc_w10k7Y",
           "thumbnail": "https://i2.ytimg.com/vi/yjVc_w10k7Y/hqdefault.jpg"
-        },
-        {
-          "title": "The 48-Hour Patching Race Against the Exploit Clock",
-          "link": "https://www.youtube.com/watch?v=E3tVn4yarUY",
-          "pubDate": "2026-09-18T15:01:11.000Z",
-          "summary": "What is the difference between Patch My PC Enterprise Plus and Enterprise Premium? In this video, we break down how our tiers help you stay protected and gain complete visibility over your environment to beat the ticking 48-hour exploit window. We cover key features included in Enterprise Premium: •",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": "E3tVn4yarUY",
-          "thumbnail": "https://i2.ytimg.com/vi/E3tVn4yarUY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.354Z",
+      "fetchedAt": "2026-09-21T23:02:16.373Z",
       "error": null
     },
     {
@@ -3705,7 +3706,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/mz86XjI9Mc8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.316Z",
+      "fetchedAt": "2026-09-21T23:02:16.359Z",
       "error": null
     },
     {
@@ -3770,7 +3771,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/6JbBOe1uMmk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.303Z",
+      "fetchedAt": "2026-09-21T23:02:16.369Z",
       "error": null
     },
     {
@@ -3835,7 +3836,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7nfiifbMfdU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.500Z",
+      "fetchedAt": "2026-09-21T23:02:16.516Z",
       "error": null
     },
     {
@@ -3900,7 +3901,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.472Z",
+      "fetchedAt": "2026-09-21T23:02:16.497Z",
       "error": null
     },
     {
@@ -3965,7 +3966,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.474Z",
+      "fetchedAt": "2026-09-21T23:02:16.485Z",
       "error": null
     },
     {
@@ -4030,7 +4031,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.471Z",
+      "fetchedAt": "2026-09-21T23:02:16.593Z",
       "error": null
     },
     {
@@ -4095,7 +4096,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.597Z",
+      "fetchedAt": "2026-09-21T23:02:16.710Z",
       "error": null
     },
     {
@@ -4133,6 +4134,15 @@
           "type": "official"
         },
         {
+          "title": "Microsoft changed how you redeem Azure credits. Here’s what MSPs need to know.",
+          "link": "https://getnerdio.com/blog/microsoft-changed-how-you-redeem-azure-credits-heres-what-msps-need-to-know/",
+          "pubDate": "2026-09-21T18:34:20.000Z",
+          "summary": "Nerdio Manager for MSP Microsoft changed how you redeem Azure credits. Here’s what MSPs need to know. September 21, 2026… The post Microsoft changed how you redeem Azure credits. Here’s what MSPs need to know. appeared first on Nerdio. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "Nerdio Named a Leader Across G2’s Fall 2026 Reports for Desktop as a Service",
           "link": "https://getnerdio.com/blog/nerdio-named-a-leader-across-g2s-fall-2026-reports-for-desktop-as-a-service/",
           "pubDate": "2026-09-10T19:38:48.000Z",
@@ -4140,18 +4150,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Nerdio Compass Is Now in Public Preview",
-          "link": "https://getnerdio.com/blog/nerdio-compass-is-now-in-public-preview/",
-          "pubDate": "2026-09-08T22:21:36.000Z",
-          "summary": "Nerdio Compass Is Now in Public Preview September 8, 2026 | 7 min read Today, we’re excited to announce that… The post Nerdio Compass Is Now in Public Preview appeared first on Nerdio. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:56.705Z",
+      "fetchedAt": "2026-09-21T23:02:16.867Z",
       "error": null
     },
     {
@@ -4161,7 +4162,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:56.666Z",
+      "fetchedAt": "2026-09-21T23:02:16.762Z",
       "error": null
     },
     {
@@ -4227,7 +4228,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:58.375Z",
+      "fetchedAt": "2026-09-21T23:02:18.511Z",
       "error": null
     },
     {
@@ -4283,7 +4284,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:58.405Z",
+      "fetchedAt": "2026-09-21T23:02:18.549Z",
       "error": null
     },
     {
@@ -4312,7 +4313,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:58.437Z",
+      "fetchedAt": "2026-09-21T23:02:18.829Z",
       "error": null
     },
     {
@@ -4368,7 +4369,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:58.427Z",
+      "fetchedAt": "2026-09-21T23:02:18.590Z",
       "error": null
     },
     {
@@ -4378,7 +4379,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-09-21T17:55:58.493Z",
+      "fetchedAt": "2026-09-21T23:02:18.668Z",
       "error": null
     },
     {
@@ -4434,7 +4435,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:58.507Z",
+      "fetchedAt": "2026-09-21T23:02:18.850Z",
       "error": null
     },
     {
@@ -4447,14 +4448,14 @@
         {
           "title": "What's new in Microsoft Intune - Microsoft Intune",
           "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
-          "pubDate": "2026-09-18T22:35:00.000Z",
-          "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. You can also read: Impo... For a list of upcoming Intune feature releases, see In development for Microsoft Intune. Applies to: Windows Week of August 25, 2026 (Service releas",
+          "pubDate": "2026-09-21T22:35:00.000Z",
+          "summary": "What'... Week of September 21, 2026 Device management Stage app and policy rollout with deployment plans Microsoft Intune now supports deployment plans, a new way to roll out apps and configuration policies in stages instead of all at once. Applies to: Windows Week of August 25, 2026 (Service releas",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:58.532Z",
+      "fetchedAt": "2026-09-21T23:02:18.858Z",
       "error": null
     },
     {
@@ -4510,7 +4511,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:56:03.090Z",
+      "fetchedAt": "2026-09-21T23:02:23.517Z",
       "error": null
     },
     {
@@ -4566,7 +4567,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-21T17:55:59.272Z",
+      "fetchedAt": "2026-09-21T23:02:19.461Z",
       "error": null
     },
     {
@@ -4621,7 +4622,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-21T17:56:03.228Z",
+      "fetchedAt": "2026-09-21T23:02:23.603Z",
       "error": null
     },
     {
@@ -4676,7 +4677,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-21T17:56:03.138Z",
+      "fetchedAt": "2026-09-21T23:02:23.615Z",
       "error": null
     },
     {
@@ -4741,7 +4742,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-21T17:56:05.472Z",
+      "fetchedAt": "2026-09-21T23:02:24.409Z",
       "error": null
     }
   ]
