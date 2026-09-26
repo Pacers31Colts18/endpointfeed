@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T15:54:33.876Z",
+  "generatedAt": "2026-09-26T19:03:50.584Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -74,7 +74,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:06.202Z",
+      "fetchedAt": "2026-09-26T19:03:18.150Z",
       "error": null
     },
     {
@@ -139,7 +139,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:06.139Z",
+      "fetchedAt": "2026-09-26T19:03:17.875Z",
       "error": null
     },
     {
@@ -147,43 +147,9 @@
       "label": "shchetkin.dev - Andrei Shchetkin",
       "type": "rss",
       "url": "https://shchetkin.dev/rss/",
-      "items": [
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/reverse-engineering-the-intune-portal-the-ai-enabled-cloud-pc-report/",
-          "pubDate": "2026-08-02T12:06:31.000Z",
-          "summary": "In this article we will get a Windows 365 report from Microsoft Graph that is not in the Graph documentation the AI-enabled Cloud PC report.The portal shows that report every time you open it, so an API for it must exist. It is just not documented anywhere. The method]]>",
-          "author": "",
-          "categories": [
-            "Graph API"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/windows-365-migration-graph-api/",
-          "pubDate": "2026-06-06T14:08:37.000Z",
-          "summary": "In this article we're going to figure out how to migrate almost any Azure-based VM into a Windows 365 Cloud PC using the Microsoft Graph beta migration API.PrerequisitesI assume you're familiar with Microsoft Graph API, Entra ID, Cloud PC, and Provisioning Policies.What we]]>",
-          "author": "",
-          "categories": [
-            "w365"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://shchetkin.dev/the-complete-windows-365-graph-api-developer-guide/",
-          "pubDate": "2025-12-23T15:09:22.000Z",
-          "summary": "Managing Windows 365 Cloud PCs at scale demands more than clicking through the Intune portal. If you're automating provisioning policies, building CI/CD pipelines for Cloud PC deployments, or integrating Windows 365 into your infrastructure-as-code workflows, the Microsoft Graph API is your only pat",
-          "author": "",
-          "categories": [
-            "w365"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-09-26T15:54:06.445Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-09-26T19:03:25.766Z",
+      "error": "Timeout after 8000ms"
     },
     {
       "id": "emsroute",
@@ -268,7 +234,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:05.880Z",
+      "fetchedAt": "2026-09-26T19:03:18.146Z",
       "error": null
     },
     {
@@ -276,9 +242,84 @@
       "label": "petervanderwoude.nl",
       "type": "rss",
       "url": "https://petervanderwoude.nl/feed/",
-      "items": [],
-      "fetchedAt": "2026-09-26T15:54:06.994Z",
-      "error": "HTTP 415"
+      "items": [
+        {
+          "title": "Making sure the multi-app kiosk configuration is applied after the installation of the applications",
+          "link": "https://petervanderwoude.nl/post/making-sure-the-multi-app-kiosk-configuration-is-applied-after-the-installation-of-the-applications/",
+          "pubDate": "2026-09-21T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "Kiosk",
+            "Microsoft Intune",
+            "Multi-app kiosk",
+            "PowerShell",
+            "Win32 app"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Using multiple managed accounts with app protection policies",
+          "link": "https://petervanderwoude.nl/post/using-multiple-managed-accounts-with-app-protection-policies/",
+          "pubDate": "2026-09-07T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "App Protection Policies",
+            "iOS",
+            "ipadOS",
+            "Microsoft Intune",
+            "Multiple Managed Accounts"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Configuring Point-in-time restore in Windows",
+          "link": "https://petervanderwoude.nl/post/configuring-point-in-time-restore-in-windows/",
+          "pubDate": "2026-08-31T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "Microsoft Intune",
+            "OMA-URI",
+            "Point-in-time restore",
+            "Settings Catalog",
+            "Windows 11"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Managing Apple Intelligence on iOS and iPadOS devices",
+          "link": "https://petervanderwoude.nl/post/managing-apple-intelligence-on-ios-and-ipados-devices/",
+          "pubDate": "2026-08-24T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "Apple Intelligence",
+            "iOS",
+            "ipadOS",
+            "Microsoft Intune",
+            "Settings Catalog"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Collecting Windows registry data",
+          "link": "https://petervanderwoude.nl/post/collecting-windows-registry-data/",
+          "pubDate": "2026-08-17T17:45:00.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "Device inventory",
+            "Microsoft Intune",
+            "Windows 11",
+            "Micorosft Intune"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-09-26T19:03:26.448Z",
+      "error": null
     },
     {
       "id": "manishbangia",
@@ -286,9 +327,75 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.manishbangia.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-09-26T15:54:08.301Z",
-      "error": "HTTP 415"
+      "items": [
+        {
+          "title": "How to Deploy Feature Updates Using Microsoft Intune",
+          "link": "https://www.manishbangia.com/how-to-deploy-feature-updates-using-microsoft-intune/",
+          "pubDate": "2026-06-08T09:00:21.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "SCCM"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "How to deploy feature update using Microsoft Intune",
+          "link": "https://www.manishbangia.com/how-to-deploy-feature-update-using-microsoft-intune/",
+          "pubDate": "2026-03-22T14:53:45.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Intune",
+            "Cloud",
+            "Windows",
+            "Windows 11",
+            "Feature Update"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Understanding Config Refresh policy",
+          "link": "https://www.manishbangia.com/understanding-config-refresh-policy/",
+          "pubDate": "2025-04-05T04:29:12.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Intune",
+            "Cloud",
+            "SCCM",
+            "settings catalog"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Usage of filters with Intune policy assignments",
+          "link": "https://www.manishbangia.com/usage-of-filters-with-intune-policy-assignments/",
+          "pubDate": "2025-03-23T07:47:51.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Intune",
+            "Cloud",
+            "filter"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Usage of Windows Corporate identifiers",
+          "link": "https://www.manishbangia.com/usage-of-windows-corporate-identifiers/",
+          "pubDate": "2024-07-11T11:05:02.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Intune",
+            "Cloud"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-09-26T19:03:28.641Z",
+      "error": null
     },
     {
       "id": "evil365",
@@ -369,7 +476,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:06.903Z",
+      "fetchedAt": "2026-09-26T19:03:26.499Z",
       "error": null
     },
     {
@@ -440,7 +547,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:06.891Z",
+      "fetchedAt": "2026-09-26T19:03:26.554Z",
       "error": null
     },
     {
@@ -508,7 +615,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:08.687Z",
+      "fetchedAt": "2026-09-26T19:03:29.526Z",
       "error": null
     },
     {
@@ -581,7 +688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:08.451Z",
+      "fetchedAt": "2026-09-26T19:03:28.838Z",
       "error": null
     },
     {
@@ -590,9 +697,80 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://dominiekverham.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-09-26T15:54:09.121Z",
-      "error": "HTTP 415"
+      "items": [
+        {
+          "title": "Installing Nerdio Manager for MSP",
+          "link": "https://dominiekverham.com/installing-nerdio-manager-for-msp/",
+          "pubDate": "2026-08-10T14:21:14.000Z",
+          "summary": "What’s up, everyone! Welcome back to the Nerdio Manager for MSP mini-series! In my previous post I showed the differences between Nerdio Manager for MSP and Nerdio Manager for Enterprise and when it’s the right fit for your use case. Let’s continue that journey and look at the individual components ",
+          "author": "",
+          "categories": [
+            "Azure",
+            "Azure Virtual Desktop",
+            "Intune",
+            "Nerdio",
+            "Windows 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Nerdio Manager showdown: Enterprise vs MSP",
+          "link": "https://dominiekverham.com/nerdio-manager-showdown-enterprise-vs-msp/",
+          "pubDate": "2026-07-23T11:40:32.000Z",
+          "summary": "What’s up, everyone! If you are managing virtual and physical desktops in the Microsoft ecosystem, chances are that you’ve heard about Nerdio and Nerdio Manager. Over the past few years, Nerdio has established itself as one of the leading management platforms for modern work, simplifying and optimiz",
+          "author": "",
+          "categories": [
+            "Azure",
+            "Azure Virtual Desktop",
+            "Nerdio",
+            "Windows 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Using context-based redirections for Windows 365",
+          "link": "https://dominiekverham.com/using-context-based-redirections-for-windows-365/",
+          "pubDate": "2026-06-26T08:59:07.000Z",
+          "summary": "What’s up, everyone! It’s a good idea to think about securing access to corporate data when your users are working on a virtual desktop. Currently there are some good security features available for us to implement, like; Various security baselines Screen capture protection & watermarking Conditiona",
+          "author": "",
+          "categories": [
+            "Intune",
+            "Windows 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Optimizing Cloud PCs with Liquidware ProfileUnity: An updated guide",
+          "link": "https://dominiekverham.com/optimizing-cloud-pcs-with-liquidware-profileunity-an-updated-guide/",
+          "pubDate": "2026-06-25T00:00:00.000Z",
+          "summary": "What’s up, everyone! A while back I wrote a couple of posts on how to deploy Liquidware ProfileUnity to desktops in Azure Virtual Desktop, Windows 365 Cloud PCs and Intune managed Windows 11 devices. In this post I would like to give you an update on how to deploy the ProfileUnity standalone install",
+          "author": "",
+          "categories": [
+            "Azure Virtual Desktop",
+            "Intune",
+            "Liquidware",
+            "Windows 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Securing the DaaS environment: protecting the management platform",
+          "link": "https://dominiekverham.com/securing-the-daas-environment-protecting-the-management-platform/",
+          "pubDate": "2026-05-06T13:37:41.000Z",
+          "summary": "What’s up, everyone! You might have heard about a recent cyber incident where the attackers were reportedly successful in wiping a lot of managed devices. The thing that stood out to me was that the management platform did what is was supposed to do since it was a legitimate command send from a comp",
+          "author": "",
+          "categories": [
+            "Azure",
+            "Azure Virtual Desktop",
+            "Entra",
+            "Intune",
+            "Windows 365"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-09-26T19:03:30.333Z",
+      "error": null
     },
     {
       "id": "DieterKempeneers",
@@ -601,7 +779,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:08.621Z",
+      "fetchedAt": "2026-09-26T19:03:29.119Z",
       "error": "HTTP 403"
     },
     {
@@ -675,7 +853,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:09.327Z",
+      "fetchedAt": "2026-09-26T19:03:30.738Z",
       "error": null
     },
     {
@@ -757,7 +935,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:09.220Z",
+      "fetchedAt": "2026-09-26T19:03:30.486Z",
       "error": null
     },
     {
@@ -823,7 +1001,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:10.368Z",
+      "fetchedAt": "2026-09-26T19:03:31.430Z",
       "error": null
     },
     {
@@ -893,7 +1071,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:09.453Z",
+      "fetchedAt": "2026-09-26T19:03:30.729Z",
       "error": null
     },
     {
@@ -973,7 +1151,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:11.497Z",
+      "fetchedAt": "2026-09-26T19:03:32.434Z",
       "error": null
     },
     {
@@ -1028,7 +1206,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:10.545Z",
+      "fetchedAt": "2026-09-26T19:03:31.598Z",
       "error": null
     },
     {
@@ -1093,7 +1271,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:10.825Z",
+      "fetchedAt": "2026-09-26T19:03:32.035Z",
       "error": null
     },
     {
@@ -1178,7 +1356,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:10.510Z",
+      "fetchedAt": "2026-09-26T19:03:31.602Z",
       "error": null
     },
     {
@@ -1251,7 +1429,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:12.350Z",
+      "fetchedAt": "2026-09-26T19:03:33.263Z",
       "error": null
     },
     {
@@ -1260,7 +1438,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:11.624Z",
+      "fetchedAt": "2026-09-26T19:03:32.583Z",
       "error": "HTTP 403"
     },
     {
@@ -1338,7 +1516,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:13.313Z",
+      "fetchedAt": "2026-09-26T19:03:34.175Z",
       "error": null
     },
     {
@@ -1347,7 +1525,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:11.959Z",
+      "fetchedAt": "2026-09-26T19:03:32.926Z",
       "error": "certificate has expired"
     },
     {
@@ -1418,7 +1596,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:14.033Z",
+      "fetchedAt": "2026-09-26T19:03:34.938Z",
       "error": null
     },
     {
@@ -1494,7 +1672,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:13.870Z",
+      "fetchedAt": "2026-09-26T19:03:34.697Z",
       "error": null
     },
     {
@@ -1504,7 +1682,7 @@
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:13.625Z",
+      "fetchedAt": "2026-09-26T19:03:34.590Z",
       "error": "HTTP 202"
     },
     {
@@ -1559,7 +1737,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:13.771Z",
+      "fetchedAt": "2026-09-26T19:03:34.637Z",
       "error": null
     },
     {
@@ -1629,7 +1807,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:14.278Z",
+      "fetchedAt": "2026-09-26T19:03:36.254Z",
       "error": null
     },
     {
@@ -1708,7 +1886,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:14.115Z",
+      "fetchedAt": "2026-09-26T19:03:35.200Z",
       "error": null
     },
     {
@@ -1716,9 +1894,82 @@
       "label": "ccmexec.com - Jörgen Nilsson",
       "type": "rss",
       "url": "https://ccmexec.com/feed/",
-      "items": [],
-      "fetchedAt": "2026-09-26T15:54:14.839Z",
-      "error": "HTTP 415"
+      "items": [
+        {
+          "title": "Windows 365 – Placing a Cloud PC Under Review",
+          "link": "https://ccmexec.com/2026/08/windows-365-placing-a-cloud-pc-under-review/",
+          "pubDate": "2026-08-28T08:57:32.000Z",
+          "summary": "Most organization have a process for collecting evidence from physical devices during a security incident. But what happens when the endpoint isn’t physical anymore?As more organization’s move workloads to Windows 365 Cloud PCs, security and incident response teams need a way to preserve evidence wh",
+          "author": "",
+          "categories": [
+            "General",
+            "Intune",
+            "Cloud PC",
+            "Place under review",
+            "Windows 365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Edge management service – extension monitoring",
+          "link": "https://ccmexec.com/2026/08/edge-management-service-extension-monitoring/",
+          "pubDate": "2026-08-17T08:01:37.000Z",
+          "summary": "Edge Management service provides some great insights and features that we don’t get when we manage Edge using Intune for example and the best thing it is Free.That is also why the Edge Management UI is in the Microsoft 365 Admin portal and not in the Intune portal. There are many interesting feature",
+          "author": "",
+          "categories": [
+            "Edge Management",
+            "General",
+            "Edge",
+            "Edge Management Service",
+            "Microsoft Edge"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft Intune Endpoint Privilege Management – Overview",
+          "link": "https://ccmexec.com/2026/06/microsoft-intune-endpoint-privilege-management-overview/",
+          "pubDate": "2026-06-14T14:44:18.000Z",
+          "summary": "Microsoft Intune Endpoint Privilege Management has been around for a couple of years now and address the challenge of removing local administrative privileges for users without interrupting productivity.In December 2025 Microsoft announced that they will add Microsoft Intune Endpoint Privilege Manag",
+          "author": "",
+          "categories": [
+            "Enterprise Mobility Suite",
+            "General",
+            "Intune"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "MMUGSE – Summer 2026 meetup",
+          "link": "https://ccmexec.com/2026/06/mmugse-summer-2026-meetup/",
+          "pubDate": "2026-06-10T06:03:41.000Z",
+          "summary": "On the 18th of June 2026 we will host a Microsoft Management User Group (MMUGSE) Meetup. We have a great session and speaker lineup for the day! MMUGSE Agenda 18/6Agenda:8:30 -9:30 Device Management update – Jörgen Nilsson & Nicklas AhlbergVi summerar de senaste nyheterna inom device management, Win",
+          "author": "",
+          "categories": [
+            "General",
+            "Intune",
+            "Meetup",
+            "MMUGSE",
+            "User Group"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows Backup for Organization – trigger backup using remediation",
+          "link": "https://ccmexec.com/2026/03/windows-backup-for-organization-trigger-backup-with-remediation/",
+          "pubDate": "2026-03-12T22:28:38.000Z",
+          "summary": "Windows Backup for Organizations is one of my favourite new features as it saves time for the end-users setting up their device after a restore or when they switch computer. For the end-user this is great and together with Onedrive known folder move and Enterprise State roaming the experience is gre",
+          "author": "",
+          "categories": [
+            "Intune",
+            "Windows 11",
+            "Intune remediation",
+            "Windows Backup for Ogranizations"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-09-26T19:03:37.207Z",
+      "error": null
     },
     {
       "id": "krebs",
@@ -1802,7 +2053,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:14.214Z",
+      "fetchedAt": "2026-09-26T19:03:35.570Z",
       "error": null
     },
     {
@@ -1858,7 +2109,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:14.987Z",
+      "fetchedAt": "2026-09-26T19:03:37.368Z",
       "error": null
     },
     {
@@ -1944,7 +2195,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:16.223Z",
+      "fetchedAt": "2026-09-26T19:03:38.690Z",
       "error": null
     },
     {
@@ -2030,7 +2281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:14.981Z",
+      "fetchedAt": "2026-09-26T19:03:37.359Z",
       "error": null
     },
     {
@@ -2110,7 +2361,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:15.004Z",
+      "fetchedAt": "2026-09-26T19:03:37.474Z",
       "error": null
     },
     {
@@ -2165,7 +2416,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:16.662Z",
+      "fetchedAt": "2026-09-26T19:03:38.813Z",
       "error": null
     },
     {
@@ -2230,7 +2481,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:16.393Z",
+      "fetchedAt": "2026-09-26T19:03:39.041Z",
       "error": null
     },
     {
@@ -2239,7 +2490,7 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:16.674Z",
+      "fetchedAt": "2026-09-26T19:03:39.022Z",
       "error": "HTTP 404"
     },
     {
@@ -2248,9 +2499,55 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://conditionalaccess.uk/blog/feed/",
-      "items": [],
-      "fetchedAt": "2026-09-26T15:54:16.743Z",
-      "error": "HTTP 415"
+      "items": [
+        {
+          "title": "Defender for Office tips and tricks guide",
+          "link": "https://conditionalaccess.uk/blog/defender-for-office-guide/",
+          "pubDate": "2026-08-07T00:00:00.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft 365 Business Standard vs Business Premium",
+          "link": "https://conditionalaccess.uk/blog/microsoft-365-business-standard-vs-business-premium/",
+          "pubDate": "2026-07-07T00:00:00.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Should I use Autopilot Device Preparation?",
+          "link": "https://conditionalaccess.uk/blog/should-i-use-autopilot-device-preparation/",
+          "pubDate": "2026-07-01T00:00:00.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft 365 Tenant Security Checklist",
+          "link": "https://conditionalaccess.uk/blog/m365-tenant-security-checklist/",
+          "pubDate": "2026-06-20T00:00:00.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft Defender is good enough",
+          "link": "https://conditionalaccess.uk/blog/microsoft-defender-is-good-enough/",
+          "pubDate": "2026-06-11T00:00:00.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-09-26T19:03:39.643Z",
+      "error": null
     },
     {
       "id": "kandji",
@@ -2314,7 +2611,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:17.523Z",
+      "fetchedAt": "2026-09-26T19:03:40.272Z",
       "error": null
     },
     {
@@ -2395,7 +2692,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:17.590Z",
+      "fetchedAt": "2026-09-26T19:03:40.323Z",
       "error": null
     },
     {
@@ -2404,7 +2701,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:17.755Z",
+      "fetchedAt": "2026-09-26T19:03:40.704Z",
       "error": "HTTP 404"
     },
     {
@@ -2413,7 +2710,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:17.088Z",
+      "fetchedAt": "2026-09-26T19:03:39.925Z",
       "error": "HTTP 403"
     },
     {
@@ -2493,7 +2790,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:17.860Z",
+      "fetchedAt": "2026-09-26T19:03:40.834Z",
       "error": null
     },
     {
@@ -2566,7 +2863,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:17.904Z",
+      "fetchedAt": "2026-09-26T19:03:40.897Z",
       "error": null
     },
     {
@@ -2585,7 +2882,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:17.967Z",
+      "fetchedAt": "2026-09-26T19:03:40.959Z",
       "error": null
     },
     {
@@ -2640,7 +2937,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.321Z",
+      "fetchedAt": "2026-09-26T19:03:41.036Z",
       "error": null
     },
     {
@@ -2724,7 +3021,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.513Z",
+      "fetchedAt": "2026-09-26T19:03:41.322Z",
       "error": null
     },
     {
@@ -2789,7 +3086,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.554Z",
+      "fetchedAt": "2026-09-26T19:03:41.465Z",
       "error": null
     },
     {
@@ -2854,7 +3151,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/htmxPDn9e94/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.500Z",
+      "fetchedAt": "2026-09-26T19:03:41.467Z",
       "error": null
     },
     {
@@ -2920,7 +3217,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/-lv1ktRRDfo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.499Z",
+      "fetchedAt": "2026-09-26T19:03:41.480Z",
       "error": null
     },
     {
@@ -2985,7 +3282,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/fThE3w2hLgk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.685Z",
+      "fetchedAt": "2026-09-26T19:03:41.700Z",
       "error": null
     },
     {
@@ -3050,7 +3347,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/xwvjtpfyr9M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.724Z",
+      "fetchedAt": "2026-09-26T19:03:41.630Z",
       "error": null
     },
     {
@@ -3116,7 +3413,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KGPWao8DlJw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.761Z",
+      "fetchedAt": "2026-09-26T19:03:41.634Z",
       "error": null
     },
     {
@@ -3182,7 +3479,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/isFwmz1XajY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:18.958Z",
+      "fetchedAt": "2026-09-26T19:03:41.894Z",
       "error": null
     },
     {
@@ -3248,7 +3545,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/XV46rKKtk-c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.174Z",
+      "fetchedAt": "2026-09-26T19:03:42.151Z",
       "error": null
     },
     {
@@ -3313,7 +3610,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/VwEOU6tPL8s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.106Z",
+      "fetchedAt": "2026-09-26T19:03:42.044Z",
       "error": null
     },
     {
@@ -3379,7 +3676,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/mz86XjI9Mc8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.095Z",
+      "fetchedAt": "2026-09-26T19:03:42.080Z",
       "error": null
     },
     {
@@ -3444,7 +3741,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/bC2FzL21g8c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.096Z",
+      "fetchedAt": "2026-09-26T19:03:42.143Z",
       "error": null
     },
     {
@@ -3509,7 +3806,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7nfiifbMfdU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.423Z",
+      "fetchedAt": "2026-09-26T19:03:42.293Z",
       "error": null
     },
     {
@@ -3574,7 +3871,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.455Z",
+      "fetchedAt": "2026-09-26T19:03:42.299Z",
       "error": null
     },
     {
@@ -3639,7 +3936,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.339Z",
+      "fetchedAt": "2026-09-26T19:03:42.362Z",
       "error": null
     },
     {
@@ -3704,7 +4001,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.331Z",
+      "fetchedAt": "2026-09-26T19:03:42.290Z",
       "error": null
     },
     {
@@ -3769,7 +4066,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.593Z",
+      "fetchedAt": "2026-09-26T19:03:42.493Z",
       "error": null
     },
     {
@@ -3825,7 +4122,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:19.782Z",
+      "fetchedAt": "2026-09-26T19:03:42.695Z",
       "error": null
     },
     {
@@ -3835,7 +4132,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:19.673Z",
+      "fetchedAt": "2026-09-26T19:03:42.595Z",
       "error": null
     },
     {
@@ -3901,7 +4198,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:20.923Z",
+      "fetchedAt": "2026-09-26T19:03:43.535Z",
       "error": null
     },
     {
@@ -3957,7 +4254,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:20.996Z",
+      "fetchedAt": "2026-09-26T19:03:43.574Z",
       "error": null
     },
     {
@@ -3986,7 +4283,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:21.249Z",
+      "fetchedAt": "2026-09-26T19:03:44.138Z",
       "error": null
     },
     {
@@ -4042,7 +4339,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:20.992Z",
+      "fetchedAt": "2026-09-26T19:03:43.572Z",
       "error": null
     },
     {
@@ -4052,7 +4349,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-09-26T15:54:21.176Z",
+      "fetchedAt": "2026-09-26T19:03:43.747Z",
       "error": null
     },
     {
@@ -4062,15 +4359,6 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
-        {
-          "title": "Microsoft Intune and Apple OS 27: New settings, support, and platform changes",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/microsoft-intune-and-apple-os-27-new-settings-support-and/ba-p/4559764",
-          "pubDate": "2026-09-24T22:48:40.000Z",
-          "summary": "<P>With Apple's release of OS 27, we’ve been working hard to ensure that Microsoft Intune provides support for Apple’s latest operating systems (OS) so that existing features work as expected, and adding support for new features that were introduced at WWDC.</P> <P>We’ll continue to upgrade our serv",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        },
         {
           "title": "Moving from Windows Autopilot to Windows Autopilot device preparation",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/moving-from-windows-autopilot-to-windows-autopilot-device/ba-p/4557269",
@@ -4106,9 +4394,18 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
+        },
+        {
+          "title": "Support tip: Restore the Managed Home Screen Exit PIN",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-restore-the-managed-home-screen-exit-pin/ba-p/4549102",
+          "pubDate": "2026-08-21T21:53:41.000Z",
+          "summary": "<P>We identified and resolved a recent issue (IT1450132) that could cause the configured Managed Home Screen exit PIN to be removed from some existing Android Enterprise when updating older device configuration policies. &nbsp;While a fix has been deployed to address this, if a policy was already af",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:21.284Z",
+      "fetchedAt": "2026-09-26T19:03:44.152Z",
       "error": null
     },
     {
@@ -4128,7 +4425,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:21.288Z",
+      "fetchedAt": "2026-09-26T19:03:44.186Z",
       "error": null
     },
     {
@@ -4184,7 +4481,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:25.778Z",
+      "fetchedAt": "2026-09-26T19:03:48.592Z",
       "error": null
     },
     {
@@ -4240,7 +4537,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:22.255Z",
+      "fetchedAt": "2026-09-26T19:03:44.990Z",
       "error": null
     },
     {
@@ -4295,7 +4592,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:25.910Z",
+      "fetchedAt": "2026-09-26T19:03:48.838Z",
       "error": null
     },
     {
@@ -4350,7 +4647,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-09-26T15:54:25.923Z",
+      "fetchedAt": "2026-09-26T19:03:48.811Z",
       "error": null
     },
     {
@@ -4358,9 +4655,65 @@
       "label": "MacAdmins Podcast",
       "type": "audio",
       "url": "https://podcast.macadmins.org/feed/",
-      "items": [],
-      "fetchedAt": "2026-09-26T15:54:33.876Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "Episode 478: Doctor Strangeprofile with Bryce Carlson",
+          "link": "https://podcast.macadmins.org/2026/09/24/episode-478-doctor-strangeprofile-with-bryce-carlson/",
+          "pubDate": "2026-09-25T01:11:13.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Episodes"
+          ],
+          "type": "audio"
+        },
+        {
+          "title": "Episode 477: Punk Rock Mac Lab",
+          "link": "https://podcast.macadmins.org/2026/09/19/episode-477-punk-rock-mac-lab/",
+          "pubDate": "2026-09-19T06:52:40.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Episodes"
+          ],
+          "type": "audio"
+        },
+        {
+          "title": "Episode 476: Chris Lo on Recruiting and Jobs",
+          "link": "https://podcast.macadmins.org/2026/09/12/episode-476-chris-lo-on-recruiting-and-jobs/",
+          "pubDate": "2026-09-12T04:44:34.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Episodes"
+          ],
+          "type": "audio"
+        },
+        {
+          "title": "Episode 475: Live at X World 2026",
+          "link": "https://podcast.macadmins.org/2026/09/02/episode-475-live-at-x-world-2026/",
+          "pubDate": "2026-09-02T11:18:47.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Episodes"
+          ],
+          "type": "audio"
+        },
+        {
+          "title": "Episode 474: You’ll Always Have Air, But There Might Be a Bomb",
+          "link": "https://podcast.macadmins.org/2026/08/26/episode-474-youll-always-have-air-but-there-might-be-a-bomb/",
+          "pubDate": "2026-08-26T12:15:32.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Episodes"
+          ],
+          "type": "audio"
+        }
+      ],
+      "fetchedAt": "2026-09-26T19:03:50.584Z",
+      "error": null
     }
   ]
 }
