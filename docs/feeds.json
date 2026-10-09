@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:00:54.787Z",
+  "generatedAt": "2026-10-09T20:34:44.235Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,51 +8,35 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "GitHub’s Spokes rewrite targets AI traffic with 35x faster writes",
-          "link": "https://4sysops.com/archives/githubs-spokes-rewrite-targets-ai-traffic-with-35x-faster-writes/",
-          "pubDate": "2026-10-09T09:51:45.000Z",
-          "summary": "GitHub is rebuilding its Git storage system as AI-driven activity strains the service, with early tests showing writes up to 35 times faster. The redesign replaces Spokes’ replica-quorum write path with Azure Blob Storage and separates reads and maintenance from writes. GitHub has not announced a mi",
+          "title": "The SaaSpocalypse has begun! Somebody vibe-coded every single Adobe app",
+          "link": "https://4sysops.com/archives/the-saaspocalypse-has-begun-somebody-vibe-coded-every-single-adobe-app/",
+          "pubDate": "2026-10-09T19:19:34.000Z",
+          "summary": "The “SaaSpocalypse” is the fear that AI-generated software could disrupt subscription-based software companies. The open-source ArtCraft suite showcases what the software industry can expect in the coming months. It offers a Rust-built alternative to Adobe apps, including PhotoCraft (Photoshop), Lig",
           "author": "",
           "categories": [
             "News",
-            "AI",
-            "DevOps",
-            "Storage"
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft Teams adds impersonation warnings alongside deepfake checks",
-          "link": "https://4sysops.com/archives/microsoft-teams-adds-impersonation-warnings-alongside-deepfake-checks/",
-          "pubDate": "2026-10-09T09:51:44.000Z",
-          "summary": "Microsoft Teams plans to add built-in warnings for suspicious meeting identities in November, alongside the third-party deepfake detection integration already in development. The two features are listed for worldwide rollout and general availability that month, though Microsoft has not provided a sp",
+          "title": "Anthropic’s OSS Scanner finds a serious curl flaw",
+          "link": "https://4sysops.com/archives/anthropics-oss-scanner-finds-a-serious-curl-flaw/",
+          "pubDate": "2026-10-09T18:47:48.000Z",
+          "summary": "Anthropic’s free OSS Scanner has uncovered a curl vulnerability that maintainer Daniel Stenberg describes as one of the project’s worst in several years. The finding puts a real-world result behind the service, which Anthropic recently opened to open-source maintainers for automated security reports",
           "author": "",
           "categories": [
             "News",
             "AI",
-            "Business Software",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft Entra Global Secure Access can stop stolen refresh tokens from being replayed",
-          "link": "https://4sysops.com/archives/microsoft-entra-global-secure-access-can-stop-stolen-refresh-tokens-from-being-replayed/",
-          "pubDate": "2026-10-09T09:51:43.000Z",
-          "summary": "Microsoft Entra Global Secure Access can stop stolen refresh tokens from being replayed outside an organization’s network using a Conditional Access policy and the GSA client. The compliant network check is included with Entra ID P1, though organizations must deploy and route traffic through GSA. Th",
-          "author": "",
-          "categories": [
-            "News",
-            "Identity",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Gartner predicts 40% of agentic AI projects will be canceled by 2027",
-          "link": "https://4sysops.com/archives/gartner-predicts-40-of-agentic-ai-projects-will-be-canceled-by-2027/",
-          "pubDate": "2026-10-09T08:34:43.000Z",
-          "summary": "Source]]>",
+          "title": "Claude dynamic workflows can orchestrate up to 1,000 AI agents",
+          "link": "https://4sysops.com/archives/claude-dynamic-workflows-can-orchestrate-up-to-1000-ai-agents/",
+          "pubDate": "2026-10-09T18:47:47.000Z",
+          "summary": "Anthropic has added dynamic workflows to Claude Managed Agents, letting a lead agent plan work for as many as 1,000 sub-agents and combine their results. The feature could improve some coding tasks, but Anthropic’s own test leaves open whether the gains justify the token costs across other workloads",
           "author": "",
           "categories": [
             "News",
@@ -61,19 +45,33 @@
           "type": "rss"
         },
         {
-          "title": "OpenAI revenue gap sparks AI stock sell-off",
-          "link": "https://4sysops.com/archives/openai-revenue-gap-sparks-ai-stock-sell-off/",
-          "pubDate": "2026-10-09T08:20:42.000Z",
-          "summary": "Investors got two very different snapshots of OpenAI’s sales pace: nearly $50 billion in annualized net revenue, versus the $68 billion figure widely reported earlier that included partner revenue. The accounting difference isn’t an $18 billion vanishing act, but it was enough to send AI-linked shar",
+          "title": "The President of the United States of America considers anyone who still uses the term “artificial intelligence” an enemy",
+          "link": "https://4sysops.com/archives/the-president-of-the-united-states-of-america-considers-anyone-who-still-uses-the-term-artificial-intelligence-an-enemy/",
+          "pubDate": "2026-10-09T18:37:01.000Z",
+          "summary": "President Trump’s Truth Social post declares anyone who says “artificial intelligence” instead of his preferred “super intelligence” an enemy of the White House—a terminology decree apparently backed by highly accepted authority. Source]]>",
           "author": "",
           "categories": [
             "News",
             "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Google’s persistent Gemini agent gets its own Workspace identity",
+          "link": "https://4sysops.com/archives/googles-persistent-gemini-agent-gets-its-own-workspace-identity/",
+          "pubDate": "2026-10-09T17:35:51.000Z",
+          "summary": "Google Cloud has opened a private preview of a persistent Gemini agent built to carry workplace assignments across apps for hours or days. It can keep task context between devices, coordinate specialized agents, and—in a team-coworker setup—have its own Gmail, Calendar, Drive storage, and company-di",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Cloud Computing",
+            "Google Cloud"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:18.042Z",
+      "fetchedAt": "2026-10-09T20:34:21.529Z",
       "error": null
     },
     {
@@ -138,7 +136,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:17.828Z",
+      "fetchedAt": "2026-10-09T20:34:21.468Z",
       "error": null
     },
     {
@@ -181,7 +179,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:19.399Z",
+      "fetchedAt": "2026-10-09T20:34:21.873Z",
       "error": null
     },
     {
@@ -267,7 +265,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:17.806Z",
+      "fetchedAt": "2026-10-09T20:34:21.324Z",
       "error": null
     },
     {
@@ -349,7 +347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:20.016Z",
+      "fetchedAt": "2026-10-09T20:34:22.562Z",
       "error": null
     },
     {
@@ -425,7 +423,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:22.568Z",
+      "fetchedAt": "2026-10-09T20:34:23.830Z",
       "error": null
     },
     {
@@ -507,7 +505,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:20.008Z",
+      "fetchedAt": "2026-10-09T20:34:22.280Z",
       "error": null
     },
     {
@@ -517,6 +515,17 @@
       "type": "rss",
       "url": "https://powershellisfun.com/feed/",
       "items": [
+        {
+          "title": "Using the PowerShell PSCompression module to create or extract ZIP, tar, RAR, gzip, bzip2, etc",
+          "link": "https://powershellisfun.com/2026/10/09/using-the-powershell-pscompression-module-to-create-or-extract-zip-tar-rar-gzip-bzip2-etc/",
+          "pubDate": "2026-10-09T18:31:44.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "PowerShell"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Test your network equipment using PowerShell and the Invoke-NetStress Module",
           "link": "https://powershellisfun.com/2026/10/02/test-your-network-equipment-using-powershell-and-the-invoke-netstress-module/",
@@ -565,20 +574,9 @@
             "PowerShell"
           ],
           "type": "rss"
-        },
-        {
-          "title": "PowerShell v7.7.0 preview 4",
-          "link": "https://powershellisfun.com/2026/09/02/powershell-v7-7-0-preview-4/",
-          "pubDate": "2026-09-02T14:39:02.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "PowerShell"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:20.087Z",
+      "fetchedAt": "2026-10-09T20:34:22.260Z",
       "error": null
     },
     {
@@ -646,7 +644,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:23.189Z",
+      "fetchedAt": "2026-10-09T20:34:24.411Z",
       "error": null
     },
     {
@@ -717,7 +715,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:22.725Z",
+      "fetchedAt": "2026-10-09T20:34:24.188Z",
       "error": null
     },
     {
@@ -794,7 +792,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:23.719Z",
+      "fetchedAt": "2026-10-09T20:34:25.424Z",
       "error": null
     },
     {
@@ -804,7 +802,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-10-09T15:00:22.890Z",
+      "fetchedAt": "2026-10-09T20:34:24.191Z",
       "error": "HTTP 403"
     },
     {
@@ -878,7 +876,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:24.043Z",
+      "fetchedAt": "2026-10-09T20:34:25.715Z",
       "error": null
     },
     {
@@ -960,7 +958,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:23.855Z",
+      "fetchedAt": "2026-10-09T20:34:25.498Z",
       "error": null
     },
     {
@@ -1026,7 +1024,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:24.834Z",
+      "fetchedAt": "2026-10-09T20:34:26.664Z",
       "error": null
     },
     {
@@ -1096,7 +1094,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:24.016Z",
+      "fetchedAt": "2026-10-09T20:34:25.758Z",
       "error": null
     },
     {
@@ -1176,7 +1174,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:25.855Z",
+      "fetchedAt": "2026-10-09T20:34:27.713Z",
       "error": null
     },
     {
@@ -1231,7 +1229,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:25.063Z",
+      "fetchedAt": "2026-10-09T20:34:26.967Z",
       "error": null
     },
     {
@@ -1296,7 +1294,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:25.128Z",
+      "fetchedAt": "2026-10-09T20:34:27.048Z",
       "error": null
     },
     {
@@ -1381,7 +1379,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:25.086Z",
+      "fetchedAt": "2026-10-09T20:34:26.918Z",
       "error": null
     },
     {
@@ -1454,7 +1452,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:26.674Z",
+      "fetchedAt": "2026-10-09T20:34:28.550Z",
       "error": null
     },
     {
@@ -1463,7 +1461,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-10-09T15:00:25.981Z",
+      "fetchedAt": "2026-10-09T20:34:27.805Z",
       "error": "HTTP 403"
     },
     {
@@ -1541,7 +1539,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:27.526Z",
+      "fetchedAt": "2026-10-09T20:34:29.442Z",
       "error": null
     },
     {
@@ -1550,7 +1548,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-09T15:00:28.559Z",
+      "fetchedAt": "2026-10-09T20:34:28.126Z",
       "error": "certificate has expired"
     },
     {
@@ -1621,7 +1619,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:29.271Z",
+      "fetchedAt": "2026-10-09T20:34:30.108Z",
       "error": null
     },
     {
@@ -1697,7 +1695,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:29.012Z",
+      "fetchedAt": "2026-10-09T20:34:30.030Z",
       "error": null
     },
     {
@@ -1763,7 +1761,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:29.345Z",
+      "fetchedAt": "2026-10-09T20:34:30.405Z",
       "error": null
     },
     {
@@ -1818,7 +1816,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:29.076Z",
+      "fetchedAt": "2026-10-09T20:34:29.879Z",
       "error": null
     },
     {
@@ -1891,7 +1889,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:30.334Z",
+      "fetchedAt": "2026-10-09T20:34:31.428Z",
       "error": null
     },
     {
@@ -1976,7 +1974,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:29.537Z",
+      "fetchedAt": "2026-10-09T20:34:30.496Z",
       "error": null
     },
     {
@@ -2055,7 +2053,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:31.286Z",
+      "fetchedAt": "2026-10-09T20:34:32.534Z",
       "error": null
     },
     {
@@ -2140,7 +2138,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:29.647Z",
+      "fetchedAt": "2026-10-09T20:34:30.547Z",
       "error": null
     },
     {
@@ -2196,7 +2194,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:31.536Z",
+      "fetchedAt": "2026-10-09T20:34:32.651Z",
       "error": null
     },
     {
@@ -2282,7 +2280,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:32.756Z",
+      "fetchedAt": "2026-10-09T20:34:33.692Z",
       "error": null
     },
     {
@@ -2368,7 +2366,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:31.560Z",
+      "fetchedAt": "2026-10-09T20:34:32.650Z",
       "error": null
     },
     {
@@ -2449,7 +2447,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:31.742Z",
+      "fetchedAt": "2026-10-09T20:34:32.709Z",
       "error": null
     },
     {
@@ -2504,7 +2502,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:32.872Z",
+      "fetchedAt": "2026-10-09T20:34:33.843Z",
       "error": null
     },
     {
@@ -2569,7 +2567,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:33.014Z",
+      "fetchedAt": "2026-10-09T20:34:33.807Z",
       "error": null
     },
     {
@@ -2632,7 +2630,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:33.184Z",
+      "fetchedAt": "2026-10-09T20:34:33.987Z",
       "error": null
     },
     {
@@ -2688,7 +2686,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:33.293Z",
+      "fetchedAt": "2026-10-09T20:34:34.499Z",
       "error": null
     },
     {
@@ -2753,7 +2751,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:38.289Z",
+      "fetchedAt": "2026-10-09T20:34:35.059Z",
       "error": null
     },
     {
@@ -2834,7 +2832,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:34.079Z",
+      "fetchedAt": "2026-10-09T20:34:35.232Z",
       "error": null
     },
     {
@@ -2843,7 +2841,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-10-09T15:00:36.837Z",
+      "fetchedAt": "2026-10-09T20:34:35.297Z",
       "error": "HTTP 404"
     },
     {
@@ -2852,7 +2850,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-10-09T15:00:36.213Z",
+      "fetchedAt": "2026-10-09T20:34:34.776Z",
       "error": "HTTP 403"
     },
     {
@@ -2932,7 +2930,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:38.408Z",
+      "fetchedAt": "2026-10-09T20:34:35.382Z",
       "error": null
     },
     {
@@ -3005,7 +3003,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:38.663Z",
+      "fetchedAt": "2026-10-09T20:34:35.484Z",
       "error": null
     },
     {
@@ -3024,7 +3022,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:42.444Z",
+      "fetchedAt": "2026-10-09T20:34:35.421Z",
       "error": null
     },
     {
@@ -3079,7 +3077,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:38.829Z",
+      "fetchedAt": "2026-10-09T20:34:35.884Z",
       "error": null
     },
     {
@@ -3159,7 +3157,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:42.665Z",
+      "fetchedAt": "2026-10-09T20:34:36.109Z",
       "error": null
     },
     {
@@ -3224,7 +3222,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:42.620Z",
+      "fetchedAt": "2026-10-09T20:34:36.034Z",
       "error": null
     },
     {
@@ -3289,7 +3287,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/htmxPDn9e94/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:42.648Z",
+      "fetchedAt": "2026-10-09T20:34:36.035Z",
       "error": null
     },
     {
@@ -3299,6 +3297,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "Azure Weekly Update - 9th October 2026",
+          "link": "https://www.youtube.com/watch?v=65a5WX2SGEU",
+          "pubDate": "2026-10-09T15:47:00.000Z",
+          "summary": "Nice selection of updates this week! 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in the moderation queue ne",
+          "author": "John Savill's Technical Training",
+          "categories": [],
+          "type": "video",
+          "videoId": "65a5WX2SGEU",
+          "thumbnail": "https://i3.ytimg.com/vi/65a5WX2SGEU/hqdefault.jpg"
+        },
         {
           "title": "Tech in Five - What is MCP?",
           "link": "https://www.youtube.com/watch?v=5EP7ZzFtK3Y",
@@ -3342,20 +3351,9 @@
           "type": "video",
           "videoId": "43ZJtGpCYbU",
           "thumbnail": "https://i1.ytimg.com/vi/43ZJtGpCYbU/hqdefault.jpg"
-        },
-        {
-          "title": "ACA Sandboxes Quick Overview #ai #containers #agents",
-          "link": "https://www.youtube.com/shorts/7HzbK1YM8oY",
-          "pubDate": "2026-09-28T14:15:24.000Z",
-          "summary": "Quick overview of the ACA sandboxes capability that also powers Microsoft own agentic solutions.",
-          "author": "John Savill's Technical Training",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/7HzbK1YM8oY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:42.732Z",
+      "fetchedAt": "2026-10-09T20:34:36.273Z",
       "error": null
     },
     {
@@ -3420,7 +3418,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/PHyOEA_Mv68/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:42.840Z",
+      "fetchedAt": "2026-10-09T20:34:36.409Z",
       "error": null
     },
     {
@@ -3485,7 +3483,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/oCKlwKZ2cCI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:42.878Z",
+      "fetchedAt": "2026-10-09T20:34:36.416Z",
       "error": null
     },
     {
@@ -3551,7 +3549,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/QocFe1qFOKU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.152Z",
+      "fetchedAt": "2026-10-09T20:34:36.395Z",
       "error": null
     },
     {
@@ -3617,7 +3615,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/gxmZoblHW24/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:42.778Z",
+      "fetchedAt": "2026-10-09T20:34:36.625Z",
       "error": null
     },
     {
@@ -3683,7 +3681,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3-GQ7bN5efI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.471Z",
+      "fetchedAt": "2026-10-09T20:34:36.806Z",
       "error": null
     },
     {
@@ -3748,7 +3746,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3pDf60Rf3W4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.368Z",
+      "fetchedAt": "2026-10-09T20:34:36.761Z",
       "error": null
     },
     {
@@ -3758,6 +3756,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Chatbot Case: Why “AI Did It” Isn’t a Defense #shorts",
+          "link": "https://www.youtube.com/shorts/dWehxX2KR10",
+          "pubDate": "2026-10-09T18:56:26.000Z",
+          "summary": "Full Link: https://youtu.be/C5_xmLGlviM 👉 When an AI chatbot errs, 'AI did it' won't cut it. Organizations deploying AI are held responsible for its outputs, as the Air Canada case shows. Accountability is key. #AI901 #ResponsibleAI #AzureAI #Microsoft #Foundry #ITCertification #MVPBuzz",
+          "author": "Travis Roberts",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i1.ytimg.com/vi/dWehxX2KR10/hqdefault.jpg"
+        },
         {
           "title": "Azure AI-901: Everything You Need to Know About Responsible AI",
           "link": "https://www.youtube.com/watch?v=C5_xmLGlviM",
@@ -3801,20 +3810,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/VqqHCC38pCU/hqdefault.jpg"
-        },
-        {
-          "title": "The AI-901 Exam: What You Need to Know",
-          "link": "https://www.youtube.com/watch?v=ajYxeow0q-M",
-          "pubDate": "2026-09-29T16:56:57.000Z",
-          "summary": "AI-901 Exam Explained: AI-900 Retired, Microsoft Foundry and Agentic AI Now Rule the Test In this video, we break down the AI-901, Microsoft's Azure AI Fundamentals certification, and explain exactly what changed from the retired AI-900 exam. You'll learn why Microsoft Foundry is now central to the ",
-          "author": "Travis Roberts",
-          "categories": [],
-          "type": "video",
-          "videoId": "ajYxeow0q-M",
-          "thumbnail": "https://i2.ytimg.com/vi/ajYxeow0q-M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.354Z",
+      "fetchedAt": "2026-10-09T20:34:36.793Z",
       "error": null
     },
     {
@@ -3879,7 +3877,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/LWEZtjleA1A/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.269Z",
+      "fetchedAt": "2026-10-09T20:34:36.753Z",
       "error": null
     },
     {
@@ -3944,7 +3942,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7nfiifbMfdU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.666Z",
+      "fetchedAt": "2026-10-09T20:34:36.984Z",
       "error": null
     },
     {
@@ -4009,7 +4007,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.593Z",
+      "fetchedAt": "2026-10-09T20:34:37.009Z",
       "error": null
     },
     {
@@ -4074,7 +4072,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.574Z",
+      "fetchedAt": "2026-10-09T20:34:37.009Z",
       "error": null
     },
     {
@@ -4139,7 +4137,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.607Z",
+      "fetchedAt": "2026-10-09T20:34:37.016Z",
       "error": null
     },
     {
@@ -4204,7 +4202,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:43.954Z",
+      "fetchedAt": "2026-10-09T20:34:37.253Z",
       "error": null
     },
     {
@@ -4254,13 +4252,13 @@
           "title": "The great migration: why enterprise EUC is moving past the platform decision",
           "link": "https://getnerdio.com/blog/the-great-migration-why-enterprise-euc-is-moving-past-the-platform-decision/",
           "pubDate": "2026-10-05T20:25:59.000Z",
-          "summary": "Nerdio Manager for Enterprise The great migration: why enterprise EUC is moving past the platform decision October 5, 2026 |… The post The great migration: why enterprise EUC is moving past the platform decision appeared first on Nerdio. ]]>",
+          "summary": "Nerdio Manager for Enterprise The Great Migration: why enterprise EUC is moving past the platform decision October 5, 2026 |… The post The great migration: why enterprise EUC is moving past the platform decision appeared first on Nerdio. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:48.569Z",
+      "fetchedAt": "2026-10-09T20:34:38.588Z",
       "error": null
     },
     {
@@ -4270,7 +4268,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-09T15:00:44.008Z",
+      "fetchedAt": "2026-10-09T20:34:37.184Z",
       "error": null
     },
     {
@@ -4284,7 +4282,7 @@
           "title": "Create an Offline Package for SQL Server Management Studio 22 as a Custom App",
           "link": "https://patchmypc.com/kb/create-an-offline-package-for-sql-server-management-studio-22-as-a-custom-app/?utm_term=rss",
           "pubDate": "2026-10-09T10:14:07.000Z",
-          "summary": "In this article, we will show you how to prepare an offline package for SQL Server Management Studio (SSMS) 22 and deploy it as a Custom App using Patch My PC Cloud or publish it as a Custom App using Patch My PC Publisher. Like many Microsoft applications, SSMS uses a bootstrapper that dynamically ",
+          "summary": "Learn how to prepare an offline package for SQL Server Management Studio (SSMS) 22 and deploy it as a Custom App using Patch My PC Cloud or publish it as a Custom App using Patch My PC Publisher. The post Create an Offline Package for SQL Server Management Studio 22 as a Custom App appeared first on",
           "author": "",
           "categories": [
             "Knowledge Base"
@@ -4336,7 +4334,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:45.201Z",
+      "fetchedAt": "2026-10-09T20:34:38.215Z",
       "error": null
     },
     {
@@ -4392,7 +4390,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:48.629Z",
+      "fetchedAt": "2026-10-09T20:34:38.676Z",
       "error": null
     },
     {
@@ -4406,7 +4404,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-09-09T17:23:00.000Z",
-          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4421,7 +4419,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:49.374Z",
+      "fetchedAt": "2026-10-09T20:34:39.017Z",
       "error": null
     },
     {
@@ -4477,7 +4475,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:48.773Z",
+      "fetchedAt": "2026-10-09T20:34:38.689Z",
       "error": null
     },
     {
@@ -4487,7 +4485,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-10-09T15:00:49.185Z",
+      "fetchedAt": "2026-10-09T20:34:38.902Z",
       "error": null
     },
     {
@@ -4543,7 +4541,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:49.388Z",
+      "fetchedAt": "2026-10-09T20:34:39.055Z",
       "error": null
     },
     {
@@ -4563,7 +4561,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:50.683Z",
+      "fetchedAt": "2026-10-09T20:34:39.253Z",
       "error": null
     },
     {
@@ -4619,7 +4617,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:53.970Z",
+      "fetchedAt": "2026-10-09T20:34:43.433Z",
       "error": null
     },
     {
@@ -4675,7 +4673,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:49.751Z",
+      "fetchedAt": "2026-10-09T20:34:39.915Z",
       "error": null
     },
     {
@@ -4730,7 +4728,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:54.230Z",
+      "fetchedAt": "2026-10-09T20:34:43.904Z",
       "error": null
     },
     {
@@ -4785,7 +4783,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:54.153Z",
+      "fetchedAt": "2026-10-09T20:34:43.497Z",
       "error": null
     },
     {
@@ -4850,7 +4848,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-09T15:00:54.787Z",
+      "fetchedAt": "2026-10-09T20:34:44.235Z",
       "error": null
     }
   ]
