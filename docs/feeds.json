@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T08:54:50.833Z",
+  "generatedAt": "2026-10-15T16:25:17.484Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,70 +8,71 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Hyper-V enhanced session mode: VMConnect no longer redirects smart cards, WebAuthn, and printers by default",
-          "link": "https://4sysops.com/archives/hyper-v-enhanced-session-mode-vmconnect-no-longer-redirects-smart-cards-webauthn-and-printers-by-default/",
-          "pubDate": "2026-10-14T19:24:18.000Z",
-          "summary": "The October 13, 2026 security update changes how Hyper-V Virtual Machine Connection (VMConnect) handles device redirection in enhanced session mode. By default, printers, smart cards, and WebAuthn credentials—including Windows Hello and FIDO2 security keys—are no longer passed through to a virtual m",
+          "title": "Next.js patches two critical RCE flaws—but version 15 may keep a vulnerable dependency",
+          "link": "https://4sysops.com/archives/next-js-patches-two-critical-rce-flaws-but-version-15-may-keep-a-vulnerable-dependency/",
+          "pubDate": "2026-10-15T15:18:06.000Z",
+          "summary": "Next.js 16.4.1 and 15.5.28 fix two critical unauthenticated remote-code-execution flaws and a high-severity denial-of-service bug. Version 15 users should verify that `sharp` is updated too: the Next.js patch may leave an affected version installed. Source]]>",
           "author": "",
           "categories": [
-            "Articles",
+            "News",
             "Security",
-            "Virtualization",
+            "Web"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "NGINX patches five flaws, including a TLS client-certificate bypass",
+          "link": "https://4sysops.com/archives/nginx-patches-five-flaws-including-a-tls-client-certificate-bypass/",
+          "pubDate": "2026-10-15T15:18:05.000Z",
+          "summary": "NGINX 1.30.6 and 1.31.7 fix five vulnerabilities, including memory bugs that could crash worker processes or possibly enable code execution. A separate TLS flaw could allow forged sessions to bypass client-certificate checks under a specific configuration. Upgrade promptly, especially if your server",
+          "author": "",
+          "categories": [
+            "News",
+            "Security",
+            "Web"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows gets RTX Spark tuning for AI agents, memory, and Arm apps",
+          "link": "https://4sysops.com/archives/windows-gets-rtx-spark-tuning-for-ai-agents-memory-and-arm-apps/",
+          "pubDate": "2026-10-15T15:18:04.000Z",
+          "summary": "Microsoft is detailing Windows changes for RTX Spark laptops following the October 7 showcase of the platform. The updates target local AI setup, shared CPU-GPU memory, and x64 app emulation on the Arm-based systems. Some Copilot+ features, including Recall, won’t be available at launch. Source]]>",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Hardware",
             "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "LibreOffice Draw can now open and edit Microsoft Publisher files",
-          "link": "https://4sysops.com/archives/libreoffice-draw-can-now-open-and-edit-microsoft-publisher-files/",
-          "pubDate": "2026-10-14T19:06:07.000Z",
-          "summary": "LibreOffice Draw gives users a free way to open and edit Publisher (.pub) files as Microsoft withdraws Publisher from Microsoft 365 and ends support with Office LTSC 2021. The change adds an option beyond the Publisher phaseout and.pub conversion options: import the files directly into LibreOffice. ",
+          "title": "Python 3.15 makes Windows on Arm native by default",
+          "link": "https://4sysops.com/archives/python-3-15-makes-windows-on-arm-native-by-default/",
+          "pubDate": "2026-10-15T13:53:31.000Z",
+          "summary": "Python 3.15 now defaults to a native Arm64 interpreter on Windows on Arm, while CPython’s Tier 2 support brings the platform into the project’s release testing. Microsoft says 94% of the 1,000 most-downloaded PyPI projects already offer native Arm packages or platform-independent versions, though so",
           "author": "",
           "categories": [
             "News",
-            "Business Software"
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "OpenAI may ship two models this year, but its flagship faces safety delays",
-          "link": "https://4sysops.com/archives/openai-may-ship-two-models-this-year-but-its-flagship-faces-safety-delays/",
-          "pubDate": "2026-10-14T19:06:06.000Z",
-          "summary": "OpenAI could release one or two models before year-end, but its next flagship may miss that window as the company works on alignment and testing. The model’s looped-transformer design can boost math and coding performance while making its reasoning harder to monitor. Even after internal safety revie",
+          "title": "CISA sets three-day deadline for exploited PAN-OS, Cisco and Ahsay flaws",
+          "link": "https://4sysops.com/archives/cisa-sets-three-day-deadline-for-exploited-pan-os-cisco-and-ahsay-flaws/",
+          "pubDate": "2026-10-15T13:53:30.000Z",
+          "summary": "CISA has added four actively exploited vulnerabilities in Palo Alto Networks PAN-OS, Cisco Secure Email Gateway and AhsayCBS to its Known Exploited Vulnerabilities catalog. U.S. federal civilian agencies have until October 17 to fix them. Ahsay customers should take particular care: earlier patches ",
           "author": "",
           "categories": [
             "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Cisco patches exploited Secure Email Gateway zero-day",
-          "link": "https://4sysops.com/archives/cisco-patches-exploited-secure-email-gateway-zero-day/",
-          "pubDate": "2026-10-14T19:06:05.000Z",
-          "summary": "Cisco has patched CVE-2026-76519, a zero-day in Secure Email Gateway (SEG) that attackers are exploiting to gain root-level command execution. The flaw can be triggered remotely without authentication by sending a specially crafted email attachment through a vulnerable appliance. Source]]>",
-          "author": "",
-          "categories": [
-            "News",
-            "Networking",
             "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Ultra Ethernet 1.1 targets AI scale-up networks with programmable congestion control",
-          "link": "https://4sysops.com/archives/ultra-ethernet-1-1-targets-ai-scale-up-networks-with-programmable-congestion-control/",
-          "pubDate": "2026-10-14T19:06:04.000Z",
-          "summary": "Ultra Ethernet Consortium’s 1.1 specification adds support for connecting accelerators inside a server, along with congestion controls that can be updated in software. It also lets switches perform collective operations for AI and high-performance computing workloads, potentially halving the bandwid",
-          "author": "",
-          "categories": [
-            "News",
-            "Networking"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:25.669Z",
+      "fetchedAt": "2026-10-15T16:24:54.904Z",
       "error": null
     },
     {
@@ -136,7 +137,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:25.781Z",
+      "fetchedAt": "2026-10-15T16:24:54.844Z",
       "error": null
     },
     {
@@ -179,7 +180,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:26.020Z",
+      "fetchedAt": "2026-10-15T16:24:55.200Z",
       "error": null
     },
     {
@@ -265,7 +266,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:25.629Z",
+      "fetchedAt": "2026-10-15T16:24:54.811Z",
       "error": null
     },
     {
@@ -345,7 +346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:26.588Z",
+      "fetchedAt": "2026-10-15T16:24:55.701Z",
       "error": null
     },
     {
@@ -422,7 +423,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:29.283Z",
+      "fetchedAt": "2026-10-15T16:24:58.762Z",
       "error": null
     },
     {
@@ -504,7 +505,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:26.538Z",
+      "fetchedAt": "2026-10-15T16:24:55.528Z",
       "error": null
     },
     {
@@ -576,7 +577,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:26.556Z",
+      "fetchedAt": "2026-10-15T16:24:55.525Z",
       "error": null
     },
     {
@@ -644,7 +645,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:29.855Z",
+      "fetchedAt": "2026-10-15T16:24:59.278Z",
       "error": null
     },
     {
@@ -705,7 +706,7 @@
           "title": "802.1X Wi-Fi Failing? Check Your Certificate Chain",
           "link": "https://scloud.work/en/802-1x-wifi-intune-certificate-chain/",
           "pubDate": "2026-07-28T07:00:00.000Z",
-          "summary": "Troubleshooting 802.1X Wi-Fi in Microsoft Intune? Learn why assigning Wi-Fi, Root CA, Intermediate CA, and SCEP or PKCS profiles to different groups can cause certificate chain issues and failed authentication.",
+          "summary": "802.1X Wi-Fi failing in Intune? Wi-Fi, Root CA, Intermediate CA and SCEP/PKCS profiles assigned to different groups break the certificate chain.",
           "author": "",
           "categories": [
             "microsoft-intune",
@@ -715,7 +716,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:29.631Z",
+      "fetchedAt": "2026-10-15T16:24:58.861Z",
       "error": null
     },
     {
@@ -792,7 +793,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:30.569Z",
+      "fetchedAt": "2026-10-15T16:24:59.806Z",
       "error": null
     },
     {
@@ -802,7 +803,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-10-15T08:54:29.770Z",
+      "fetchedAt": "2026-10-15T16:24:58.947Z",
       "error": "HTTP 403"
     },
     {
@@ -876,7 +877,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:30.904Z",
+      "fetchedAt": "2026-10-15T16:25:00.048Z",
       "error": null
     },
     {
@@ -958,7 +959,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:30.758Z",
+      "fetchedAt": "2026-10-15T16:24:59.916Z",
       "error": null
     },
     {
@@ -1024,7 +1025,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:31.751Z",
+      "fetchedAt": "2026-10-15T16:25:00.757Z",
       "error": null
     },
     {
@@ -1094,7 +1095,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:30.992Z",
+      "fetchedAt": "2026-10-15T16:25:00.057Z",
       "error": null
     },
     {
@@ -1174,7 +1175,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:32.568Z",
+      "fetchedAt": "2026-10-15T16:25:01.853Z",
       "error": null
     },
     {
@@ -1229,7 +1230,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:31.889Z",
+      "fetchedAt": "2026-10-15T16:25:00.825Z",
       "error": null
     },
     {
@@ -1294,7 +1295,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:32.088Z",
+      "fetchedAt": "2026-10-15T16:25:00.944Z",
       "error": null
     },
     {
@@ -1379,7 +1380,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:31.908Z",
+      "fetchedAt": "2026-10-15T16:25:00.904Z",
       "error": null
     },
     {
@@ -1452,7 +1453,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:33.390Z",
+      "fetchedAt": "2026-10-15T16:25:02.395Z",
       "error": null
     },
     {
@@ -1461,7 +1462,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-10-15T08:54:32.682Z",
+      "fetchedAt": "2026-10-15T16:25:01.939Z",
       "error": "HTTP 403"
     },
     {
@@ -1539,7 +1540,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:34.197Z",
+      "fetchedAt": "2026-10-15T16:25:03.455Z",
       "error": null
     },
     {
@@ -1548,7 +1549,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-15T08:54:33.201Z",
+      "fetchedAt": "2026-10-15T16:25:02.108Z",
       "error": "certificate has expired"
     },
     {
@@ -1619,7 +1620,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:34.904Z",
+      "fetchedAt": "2026-10-15T16:25:03.989Z",
       "error": null
     },
     {
@@ -1695,7 +1696,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:34.560Z",
+      "fetchedAt": "2026-10-15T16:25:03.775Z",
       "error": null
     },
     {
@@ -1761,7 +1762,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:36.163Z",
+      "fetchedAt": "2026-10-15T16:25:04.156Z",
       "error": null
     },
     {
@@ -1816,7 +1817,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:34.765Z",
+      "fetchedAt": "2026-10-15T16:25:03.961Z",
       "error": null
     },
     {
@@ -1889,7 +1890,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:36.372Z",
+      "fetchedAt": "2026-10-15T16:25:04.402Z",
       "error": null
     },
     {
@@ -1974,7 +1975,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:36.323Z",
+      "fetchedAt": "2026-10-15T16:25:04.254Z",
       "error": null
     },
     {
@@ -2053,7 +2054,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:38.216Z",
+      "fetchedAt": "2026-10-15T16:25:05.989Z",
       "error": null
     },
     {
@@ -2138,7 +2139,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:36.435Z",
+      "fetchedAt": "2026-10-15T16:25:04.292Z",
       "error": null
     },
     {
@@ -2194,7 +2195,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:38.389Z",
+      "fetchedAt": "2026-10-15T16:25:06.117Z",
       "error": null
     },
     {
@@ -2280,7 +2281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:39.485Z",
+      "fetchedAt": "2026-10-15T16:25:07.337Z",
       "error": null
     },
     {
@@ -2366,7 +2367,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:38.376Z",
+      "fetchedAt": "2026-10-15T16:25:06.080Z",
       "error": null
     },
     {
@@ -2449,7 +2450,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:38.614Z",
+      "fetchedAt": "2026-10-15T16:25:06.124Z",
       "error": null
     },
     {
@@ -2504,7 +2505,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:39.623Z",
+      "fetchedAt": "2026-10-15T16:25:07.475Z",
       "error": null
     },
     {
@@ -2569,7 +2570,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:39.724Z",
+      "fetchedAt": "2026-10-15T16:25:07.471Z",
       "error": null
     },
     {
@@ -2578,6 +2579,15 @@
       "type": "rss",
       "url": "https://www.andykemp.com/feed/",
       "items": [
+        {
+          "title": "Understanding Traffic Forwarding and Advanced Diagnostics",
+          "link": "https://www.andykemp.com/2026/10/15/understanding-traffic-forwarding-and-advanced-diagnostics/",
+          "pubDate": "2026-10-15T08:00:00.000Z",
+          "summary": "Understand Global Secure Access forwarding profiles, investigate Tunnel and Bypass decisions, and test SharePoint and internet traffic with Windows Advanced Diagnostics.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "I Just Needed My Battery to Last",
           "link": "https://www.andykemp.com/2026/10/14/i-just-needed-my-battery-to-last/",
@@ -2606,7 +2616,7 @@
           "title": "Operating Windows LAPS: Deployment Isn't the Finish Line",
           "link": "https://www.andykemp.com/2026/10/08/operating-windows-laps-deployment-isn-t-the-finish-line/",
           "pubDate": "2026-10-08T09:00:00.000Z",
-          "summary": "Learn how to troubleshoot Microsoft Global Secure Access traffic forwarding using Advanced Diagnostics, understand Tunnel and Bypass decisions, and verify where your traffic goes.",
+          "summary": "Operate Windows LAPS: privileged retrieval, auditing, post-authentication rotation, event-log monitoring and governance of other local administrator accounts.",
           "author": "",
           "categories": [],
           "type": "rss"
@@ -2619,22 +2629,9 @@
           "author": "",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "Finding My Place: Reflections After Scottish Summit",
-          "link": "https://www.andykemp.com/2026/10/05/finding-my-place-reflections-after-scottish-summit/",
-          "pubDate": "2026-10-05T11:53:00.000Z",
-          "summary": "An honest reflection on Scottish Summit: the joy of speaking, the discomfort of feeling on the outside, and how small gestures can help people feel welcome.",
-          "author": "",
-          "categories": [
-            "Community",
-            "Personal",
-            "Personal Development"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:39.919Z",
+      "fetchedAt": "2026-10-15T16:25:08.479Z",
       "error": null
     },
     {
@@ -2690,7 +2687,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:40.077Z",
+      "fetchedAt": "2026-10-15T16:25:07.708Z",
       "error": null
     },
     {
@@ -2755,7 +2752,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:40.760Z",
+      "fetchedAt": "2026-10-15T16:25:08.981Z",
       "error": null
     },
     {
@@ -2836,7 +2833,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.160Z",
+      "fetchedAt": "2026-10-15T16:25:09.072Z",
       "error": null
     },
     {
@@ -2845,7 +2842,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-10-15T08:54:41.151Z",
+      "fetchedAt": "2026-10-15T16:25:09.290Z",
       "error": "HTTP 404"
     },
     {
@@ -2854,7 +2851,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-10-15T08:54:40.317Z",
+      "fetchedAt": "2026-10-15T16:25:08.673Z",
       "error": "HTTP 403"
     },
     {
@@ -2934,7 +2931,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.288Z",
+      "fetchedAt": "2026-10-15T16:25:09.339Z",
       "error": null
     },
     {
@@ -3007,7 +3004,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.378Z",
+      "fetchedAt": "2026-10-15T16:25:09.554Z",
       "error": null
     },
     {
@@ -3026,7 +3023,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.544Z",
+      "fetchedAt": "2026-10-15T16:25:09.521Z",
       "error": null
     },
     {
@@ -3081,7 +3078,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.589Z",
+      "fetchedAt": "2026-10-15T16:25:09.768Z",
       "error": null
     },
     {
@@ -3160,7 +3157,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.747Z",
+      "fetchedAt": "2026-10-15T16:25:09.840Z",
       "error": null
     },
     {
@@ -3225,7 +3222,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.823Z",
+      "fetchedAt": "2026-10-15T16:25:09.871Z",
       "error": null
     },
     {
@@ -3290,7 +3287,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/htmxPDn9e94/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.796Z",
+      "fetchedAt": "2026-10-15T16:25:09.949Z",
       "error": null
     },
     {
@@ -3356,7 +3353,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Ypzjqzoh6KY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.640Z",
+      "fetchedAt": "2026-10-15T16:25:10.031Z",
       "error": null
     },
     {
@@ -3421,7 +3418,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_r_z4kaZhrg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.008Z",
+      "fetchedAt": "2026-10-15T16:25:10.128Z",
       "error": null
     },
     {
@@ -3486,7 +3483,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/x4sloTeFG9g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.955Z",
+      "fetchedAt": "2026-10-15T16:25:10.152Z",
       "error": null
     },
     {
@@ -3496,6 +3493,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw",
       "items": [
+        {
+          "title": "Windows Autopilot Deep Dive - With Dean Ellerby & Steve Weiner",
+          "link": "https://www.youtube.com/watch?v=-4cRco4SWaI",
+          "pubDate": "2026-10-15T13:57:08.000Z",
+          "summary": "Join Steve Weiner and Dean Ellerby as they go deep on Windows Autopilot",
+          "author": "Dean Ellerby MVP",
+          "categories": [],
+          "type": "video",
+          "videoId": "-4cRco4SWaI",
+          "thumbnail": "https://i2.ytimg.com/vi/-4cRco4SWaI/hqdefault.jpg"
+        },
         {
           "title": "Windows Autopilot Deep Dive - With Dean Ellerby & Steve Weiner",
           "link": "https://www.youtube.com/watch?v=PACD2XWeWiI",
@@ -3539,20 +3547,9 @@
           "type": "video",
           "videoId": "_mD2_sc_xKo",
           "thumbnail": "https://i4.ytimg.com/vi/_mD2_sc_xKo/hqdefault.jpg"
-        },
-        {
-          "title": "Microsoft Intune Deployment Plans: App Rollout Rings Are Here!",
-          "link": "https://www.youtube.com/watch?v=hiuHoxkerNk",
-          "pubDate": "2026-09-28T10:41:29.000Z",
-          "summary": "Microsoft Intune now has ring-based deployments for apps and policies in public preview. In this hands-on walkthrough, I test Deployments and Deployment Plans from scratch, create a staged app rollout, and check what happens when the first ring activates. Follow along as I deploy the Global Secure A",
-          "author": "Dean Ellerby MVP",
-          "categories": [],
-          "type": "video",
-          "videoId": "hiuHoxkerNk",
-          "thumbnail": "https://i1.ytimg.com/vi/hiuHoxkerNk/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.054Z",
+      "fetchedAt": "2026-10-15T16:25:10.125Z",
       "error": null
     },
     {
@@ -3618,7 +3615,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O25lx74yi-c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:42.962Z",
+      "fetchedAt": "2026-10-15T16:25:10.235Z",
       "error": null
     },
     {
@@ -3684,7 +3681,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3-GQ7bN5efI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.162Z",
+      "fetchedAt": "2026-10-15T16:25:10.406Z",
       "error": null
     },
     {
@@ -3749,7 +3746,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3pDf60Rf3W4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.179Z",
+      "fetchedAt": "2026-10-15T16:25:10.344Z",
       "error": null
     },
     {
@@ -3815,7 +3812,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/C5_xmLGlviM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.316Z",
+      "fetchedAt": "2026-10-15T16:25:10.353Z",
       "error": null
     },
     {
@@ -3827,7 +3824,7 @@
         {
           "title": "10/14/26 ViaMonstra Academy - Updates and Q&A for ConfigMgr / OSD / Intune",
           "link": "https://www.youtube.com/watch?v=9YdwSki8ssM",
-          "pubDate": "2026-10-14T21:29:29.000Z",
+          "pubDate": "2026-10-15T10:14:53.000Z",
           "summary": "Join us every week for Updates, Q&A, and roundtable discussions on anything related to Windows deployment, MDT, ConfigMgr, or Intune. https://academy.viamonstra.com/courses/office-hours-community-edition #sccm #msintune #configmgr #mdt",
           "author": "ViaMonstra Online Academy",
           "categories": [],
@@ -3880,7 +3877,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hmqopmJBmeQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.176Z",
+      "fetchedAt": "2026-10-15T16:25:10.335Z",
       "error": null
     },
     {
@@ -3889,6 +3886,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK_cRU36_m2d68BArcSbHcg",
       "items": [
+        {
+          "title": "They Don't Hack, They Log In | With Sami Laiho & Mikael Nyström",
+          "link": "https://www.youtube.com/watch?v=y4YGNZpfrZ8",
+          "pubDate": "2026-10-15T09:45:05.000Z",
+          "summary": "Most breaches don't need clever hacking: someone logs in with real credentials. Sami Laiho and Mikael Nyström (Truesec incident response) on why, what to do in the first hour, and which security measures are pure theater. In this episode - Why 'they don't hack, they log in' is how most incidents rea",
+          "author": "WorkPlace Ninja Summit",
+          "categories": [],
+          "type": "video",
+          "videoId": "y4YGNZpfrZ8",
+          "thumbnail": "https://i2.ytimg.com/vi/y4YGNZpfrZ8/hqdefault.jpg"
+        },
         {
           "title": "AI for Security vs. Security for AI | With Itay Peled & Yuri Diogenes",
           "link": "https://www.youtube.com/watch?v=vDT5n8DBwh4",
@@ -3932,20 +3940,9 @@
           "type": "video",
           "videoId": "O9mYrJSL72M",
           "thumbnail": "https://i4.ytimg.com/vi/O9mYrJSL72M/hqdefault.jpg"
-        },
-        {
-          "title": "Day 1 at Workplace Ninja Summit 2026 | Keynote, Intune, AI Security",
-          "link": "https://www.youtube.com/watch?v=JaqTOuOAubY",
-          "pubDate": "2026-09-15T06:38:32.000Z",
-          "summary": "Day 1 of Workplace Ninja Summit 2026 in Baden, and the theme was set in the first hour: the endpoint isn't just a device to manage anymore, it's the control point for what AI is allowed to do. Impressions from the opening day — the keynote, the venue, the sessions, and the questions attendees brough",
-          "author": "WorkPlace Ninja Summit",
-          "categories": [],
-          "type": "video",
-          "videoId": "JaqTOuOAubY",
-          "thumbnail": "https://i3.ytimg.com/vi/JaqTOuOAubY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.433Z",
+      "fetchedAt": "2026-10-15T16:25:10.496Z",
       "error": null
     },
     {
@@ -4010,7 +4007,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.436Z",
+      "fetchedAt": "2026-10-15T16:25:10.494Z",
       "error": null
     },
     {
@@ -4075,7 +4072,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.513Z",
+      "fetchedAt": "2026-10-15T16:25:10.483Z",
       "error": null
     },
     {
@@ -4140,7 +4137,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.443Z",
+      "fetchedAt": "2026-10-15T16:25:10.512Z",
       "error": null
     },
     {
@@ -4205,7 +4202,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:43.642Z",
+      "fetchedAt": "2026-10-15T16:25:10.659Z",
       "error": null
     },
     {
@@ -4261,7 +4258,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:45.135Z",
+      "fetchedAt": "2026-10-15T16:25:10.685Z",
       "error": null
     },
     {
@@ -4271,7 +4268,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-15T08:54:43.617Z",
+      "fetchedAt": "2026-10-15T16:25:10.636Z",
       "error": null
     },
     {
@@ -4337,7 +4334,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:44.614Z",
+      "fetchedAt": "2026-10-15T16:25:11.792Z",
       "error": null
     },
     {
@@ -4393,7 +4390,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:45.175Z",
+      "fetchedAt": "2026-10-15T16:25:11.826Z",
       "error": null
     },
     {
@@ -4422,7 +4419,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:45.660Z",
+      "fetchedAt": "2026-10-15T16:25:11.928Z",
       "error": null
     },
     {
@@ -4478,7 +4475,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:45.180Z",
+      "fetchedAt": "2026-10-15T16:25:11.830Z",
       "error": null
     },
     {
@@ -4488,7 +4485,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-10-15T08:54:45.497Z",
+      "fetchedAt": "2026-10-15T16:25:12.215Z",
       "error": null
     },
     {
@@ -4544,7 +4541,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:45.675Z",
+      "fetchedAt": "2026-10-15T16:25:12.231Z",
       "error": null
     },
     {
@@ -4564,7 +4561,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:45.702Z",
+      "fetchedAt": "2026-10-15T16:25:14.468Z",
       "error": null
     },
     {
@@ -4579,6 +4576,15 @@
           "link": "https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/",
           "pubDate": null,
           "summary": "October is Cybersecurity Awareness Month! How is your cybersecurity practice going? ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "What does a good digital employee experience actually look like on Mac?",
+          "link": "https://www.jamf.com/blog/good-digital-employee-experience-mac/",
+          "pubDate": null,
+          "summary": "Good DEX means employees never notice device management — they experience Apple devices that just work, updates that don't intrude and support that's easy to reach. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4609,18 +4615,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "JNUC 2026 Day 2 recap",
-          "link": "https://www.jamf.com/blog/jnuc-2026-day-2-recap/",
-          "pubDate": null,
-          "summary": "Catch up on JNUC 2026 Day 2: top session themes, the 10 best-attended breakouts, EDU SOTU highlights and more. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:49.981Z",
+      "fetchedAt": "2026-10-15T16:25:16.612Z",
       "error": null
     },
     {
@@ -4676,7 +4673,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:46.459Z",
+      "fetchedAt": "2026-10-15T16:25:12.952Z",
       "error": null
     },
     {
@@ -4731,7 +4728,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:50.224Z",
+      "fetchedAt": "2026-10-15T16:25:16.732Z",
       "error": null
     },
     {
@@ -4786,7 +4783,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:50.181Z",
+      "fetchedAt": "2026-10-15T16:25:16.663Z",
       "error": null
     },
     {
@@ -4851,7 +4848,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-15T08:54:50.833Z",
+      "fetchedAt": "2026-10-15T16:25:17.484Z",
       "error": null
     }
   ]
