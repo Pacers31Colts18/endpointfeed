@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T08:47:08.856Z",
+  "generatedAt": "2026-10-16T16:10:50.211Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,76 +8,74 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Azure AD Graph API retirement: Upgrade old Azure CLI and Azure PowerShell versions",
-          "link": "https://4sysops.com/archives/azure-ad-graph-api-retirement-upgrade-old-azure-cli-and-azure-powershell-versions/",
-          "pubDate": "2026-10-15T20:17:24.000Z",
-          "summary": "After October 6, 2026, Microsoft will start turning off the last Azure AD Graph API access that legacy Azure CLI and Azure PowerShell builds still depend on. Releases below Azure CLI 2.37.0 and Az.Resources module builds below 5.1.0 continue to hit the retired graph.windows.net endpoint and can brea",
+          "title": "Fastfetch 2.70 changes disk reporting and breaks older configs",
+          "link": "https://4sysops.com/archives/fastfetch-2-70-changes-disk-reporting-and-breaks-older-configs/",
+          "pubDate": "2026-10-16T10:17:21.000Z",
+          "summary": "Fastfetch 2.70.0 changes how disk space is reported and removes configuration options that older setups may rely on. On Windows, it now reports full volume capacity by default for quota-limited volumes. The October 14 release also changes command output capture, removes QuickJS, and adds Android det",
           "author": "",
           "categories": [
-            "Articles",
-            "Azure",
-            "Cloud Computing",
-            "Identity",
-            "PowerShell"
+            "News",
+            "Storage",
+            "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "AWS Trust in Depth aims to give AI agents more autonomy safely",
-          "link": "https://4sysops.com/archives/aws-trust-in-depth-aims-to-give-ai-agents-more-autonomy-safely/",
-          "pubDate": "2026-10-15T20:07:11.000Z",
-          "summary": "AWS is proposing “Trust in Depth,” a four-layer approach for letting AI agents handle more work without requiring people to approve every action. The framework combines defined permissions, agent identities, runtime controls, and activity records, with automated reasoning to verify rules that can be",
+          "title": "KB5127648 breaks 802.1X Wi-Fi and VPN sign-ins by enforcing NTLMv1 blocking",
+          "link": "https://4sysops.com/archives/kb5127648-breaks-802-1x-wi-fi-and-vpn-sign-ins-by-enforcing-ntlmv1-blocking/",
+          "pubDate": "2026-10-16T10:17:20.000Z",
+          "summary": "Microsoft says October’s Windows updates can disrupt Wi-Fi, Ethernet, and VPN sign-ins that rely on MS-CHAPv2 and NTLMv1-derived credentials. The change affects Windows 11 24H2, 25H2, and 26H2, and Windows Server 2025, when Credential Guard is disabled and the relevant registry setting hasn’t been c",
           "author": "",
           "categories": [
             "News",
-            "AI",
-            "AWS",
-            "Cloud Computing",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "GitHub AI Scan for pull requests goes GA beyond CodeQL",
-          "link": "https://4sysops.com/archives/github-ai-scan-for-pull-requests-goes-ga-beyond-codeql/",
-          "pubDate": "2026-10-15T20:07:10.000Z",
-          "summary": "GitHub AI Scan adds AI-powered vulnerability detection to pull request reviews, complementing CodeQL with broader language and framework coverage. It is now generally available, adding vulnerability checks for languages and frameworks that CodeQL does not cover. The scans can offer explanations and ",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Meta’s Muse Spark Open runs on two M5 Ultra Mac Studios",
-          "link": "https://4sysops.com/archives/metas-muse-spark-open-runs-on-two-m5-ultra-mac-studios/",
-          "pubDate": "2026-10-15T20:07:09.000Z",
-          "summary": "Meta has released the weights for Muse Spark Open, an 816-billion-parameter AI model with a 1-million-token context window, built for coding and agentic tasks. Its standout feature: it can run locally across two Apple M5 Ultra Mac Studios using the MLX framework. The model is available through infer",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Mac"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Cloudflare makes its secure web gateway programmable with Workers",
-          "link": "https://4sysops.com/archives/cloudflare-makes-its-secure-web-gateway-programmable-with-workers/",
-          "pubDate": "2026-10-15T20:00:47.000Z",
-          "summary": "Cloudflare is adding custom code to its secure web gateway, letting organizations run Cloudflare Workers inline with traffic and policy checks. The Forward action is in public beta, while DLP validation functions are available now; Gateway custom functions are expected before the end of 2026. Becaus",
-          "author": "",
-          "categories": [
-            "News",
+            "Networking",
             "Security",
+            "Windows"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "27 municipalities tackle Active Directory hardening together",
+          "link": "https://4sysops.com/archives/27-municipalities-tackle-active-directory-hardening-together/",
+          "pubDate": "2026-10-16T10:17:19.000Z",
+          "summary": "A 12-week security cohort brought 27 municipalities together to harden Windows Server and Active Directory—nearly twice the 10 to 15 originally expected. The effort points to a key obstacle for small IT teams: known weaknesses can persist not just because of limited budgets, but because one or two a",
+          "author": "",
+          "categories": [
+            "News",
+            "Identity",
+            "Security",
+            "Windows Server"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Automating Microsoft 365 with PowerShell gets an early Update 29.2",
+          "link": "https://4sysops.com/archives/automating-microsoft-365-with-powershell-gets-an-early-update-29-2/",
+          "pubDate": "2026-10-16T10:17:18.000Z",
+          "summary": "Microsoft Graph PowerShell SDK fixes prompted an early update to *Automating Microsoft 365 with PowerShell*. Version 29.2 includes the latest changes, after SDK version 2.41 introduced problems that Microsoft addressed in follow-up releases. The latest SDK release appears to work in Azure Automation",
+          "author": "",
+          "categories": [
+            "News",
+            "PowerShell",
+            "Systems Management"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "ChatGPT can read Chrome tabs and automate browser tasks",
+          "link": "https://4sysops.com/archives/chatgpt-can-read-chrome-tabs-and-automate-browser-tasks/",
+          "pubDate": "2026-10-16T10:17:17.000Z",
+          "summary": "ChatGPT’s Chrome extension can now use open tabs to answer questions across pages, while its Work mode can interact with websites to complete tasks. Users can connect tabs by mentioning @chrome in ChatGPT’s web or desktop app, bringing these capabilities into Chrome without switching to a separate A",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
             "Web"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:45.450Z",
+      "fetchedAt": "2026-10-16T16:10:30.428Z",
       "error": null
     },
     {
@@ -86,6 +84,17 @@
       "type": "rss",
       "url": "https://www.tiagoscarvalho.com/rss.xml",
       "items": [
+        {
+          "title": "Windows LAPS with Intune: Deploy, Recover and Prove It Works",
+          "link": "https://www.tiagoscarvalho.com/microsoft-intune/windows-laps-intune-deployment-recovery-2026",
+          "pubDate": "2026-10-16T15:15:00.000Z",
+          "summary": "Deploy Windows LAPS with Intune: automatic account management, Entra password recovery, rotation, permissions and a practical evidence-led pilot.",
+          "author": "",
+          "categories": [
+            "microsoft-intune"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Purview DLP or Session Controls: Which Layer Each One Can Actually Reach",
           "link": "https://www.tiagoscarvalho.com/security-compliance/dlp-vs-session-controls-2026",
@@ -129,20 +138,9 @@
             "exchange-online"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Sensitivity Labels vs DLP vs Retention: Which One?",
-          "link": "https://www.tiagoscarvalho.com/security-compliance/purview-labels-dlp-retention-2026",
-          "pubDate": "2026-08-11T08:24:07.000Z",
-          "summary": "A decision matrix for Microsoft Purview: which problem sensitivity labels solve, which DLP solves, which retention solves, and the traps in between.",
-          "author": "",
-          "categories": [
-            "security-compliance"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:45.470Z",
+      "fetchedAt": "2026-10-16T16:10:30.369Z",
       "error": null
     },
     {
@@ -185,7 +183,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:45.800Z",
+      "fetchedAt": "2026-10-16T16:10:30.705Z",
       "error": null
     },
     {
@@ -271,7 +269,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:45.339Z",
+      "fetchedAt": "2026-10-16T16:10:30.274Z",
       "error": null
     },
     {
@@ -351,7 +349,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:46.255Z",
+      "fetchedAt": "2026-10-16T16:10:31.158Z",
       "error": null
     },
     {
@@ -428,7 +426,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:50.581Z",
+      "fetchedAt": "2026-10-16T16:10:33.253Z",
       "error": null
     },
     {
@@ -510,7 +508,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:46.084Z",
+      "fetchedAt": "2026-10-16T16:10:30.947Z",
       "error": null
     },
     {
@@ -582,7 +580,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:46.067Z",
+      "fetchedAt": "2026-10-16T16:10:31.058Z",
       "error": null
     },
     {
@@ -650,7 +648,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:51.251Z",
+      "fetchedAt": "2026-10-16T16:10:34.082Z",
       "error": null
     },
     {
@@ -721,7 +719,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:50.736Z",
+      "fetchedAt": "2026-10-16T16:10:33.371Z",
       "error": null
     },
     {
@@ -798,7 +796,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:51.575Z",
+      "fetchedAt": "2026-10-16T16:10:34.470Z",
       "error": null
     },
     {
@@ -808,7 +806,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-10-16T08:46:50.852Z",
+      "fetchedAt": "2026-10-16T16:10:33.570Z",
       "error": "HTTP 403"
     },
     {
@@ -882,7 +880,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:51.786Z",
+      "fetchedAt": "2026-10-16T16:10:35.050Z",
       "error": null
     },
     {
@@ -964,7 +962,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:51.635Z",
+      "fetchedAt": "2026-10-16T16:10:34.535Z",
       "error": null
     },
     {
@@ -974,6 +972,17 @@
       "type": "rss",
       "url": "https://andrewstaylor.com/feed/",
       "items": [
+        {
+          "title": "Intune Newsletter – 16th October 2026",
+          "link": "https://andrewstaylor.com/2026/10/16/intune-newsletter-16th-october-2026/",
+          "pubDate": "2026-10-16T10:48:18.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "Newsletter"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Intune Newsletter – 9th October 2026",
           "link": "https://andrewstaylor.com/2026/10/09/intune-newsletter-9th-october-2026/",
@@ -1017,20 +1026,9 @@
             "Newsletter"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 11th September 2026",
-          "link": "https://andrewstaylor.com/2026/09/11/intune-newsletter-11th-september-2026/",
-          "pubDate": "2026-09-11T10:59:24.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:52.417Z",
+      "fetchedAt": "2026-10-16T16:10:35.337Z",
       "error": null
     },
     {
@@ -1100,7 +1098,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:51.723Z",
+      "fetchedAt": "2026-10-16T16:10:34.661Z",
       "error": null
     },
     {
@@ -1180,7 +1178,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:53.109Z",
+      "fetchedAt": "2026-10-16T16:10:36.060Z",
       "error": null
     },
     {
@@ -1235,7 +1233,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:52.467Z",
+      "fetchedAt": "2026-10-16T16:10:35.449Z",
       "error": null
     },
     {
@@ -1300,7 +1298,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:52.827Z",
+      "fetchedAt": "2026-10-16T16:10:35.645Z",
       "error": null
     },
     {
@@ -1385,7 +1383,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:52.494Z",
+      "fetchedAt": "2026-10-16T16:10:35.471Z",
       "error": null
     },
     {
@@ -1458,7 +1456,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:53.651Z",
+      "fetchedAt": "2026-10-16T16:10:36.579Z",
       "error": null
     },
     {
@@ -1467,7 +1465,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-10-16T08:46:53.178Z",
+      "fetchedAt": "2026-10-16T16:10:36.110Z",
       "error": "HTTP 403"
     },
     {
@@ -1545,7 +1543,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:54.556Z",
+      "fetchedAt": "2026-10-16T16:10:37.519Z",
       "error": null
     },
     {
@@ -1554,7 +1552,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-16T08:46:53.384Z",
+      "fetchedAt": "2026-10-16T16:10:36.368Z",
       "error": "certificate has expired"
     },
     {
@@ -1625,7 +1623,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:55.008Z",
+      "fetchedAt": "2026-10-16T16:10:37.945Z",
       "error": null
     },
     {
@@ -1701,7 +1699,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:55.021Z",
+      "fetchedAt": "2026-10-16T16:10:37.808Z",
       "error": null
     },
     {
@@ -1710,9 +1708,65 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [],
-      "fetchedAt": "2026-10-16T08:46:54.708Z",
-      "error": "HTTP 202"
+      "items": [
+        {
+          "title": "Using Avalonia UI in DeployR Task Sequences",
+          "link": "https://www.deploymentresearch.com/using-avalonia-ui-in-deployr-task-sequences/",
+          "pubDate": "2026-09-01T07:59:38.000Z",
+          "summary": "Lately, I’ve been doing some testing with Avalonia UI and PowerShell in DeployR, and one of the things I wanted to try was a simple dialog for entering a computer name during a task sequence. The result is a PowerShell script that dynamically creates an Avalonia form and returns the computer name en",
+          "author": "",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Migrating Your MDT Applications to DeployR",
+          "link": "https://www.deploymentresearch.com/migrating-your-mdt-applications-to-deployr/",
+          "pubDate": "2026-08-25T03:40:14.000Z",
+          "summary": "On January 6, 2026, Microsoft retired MDT with immediate effect and pulled the installer from the Download Center the same day. No deprecation period, no final release. If you didn’t already have the MSI saved somewhere, you now have to get a little creative just to install the product you’re trying",
+          "author": "",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Uninstalling Windows 11 Updates",
+          "link": "https://www.deploymentresearch.com/uninstalling-windows-11-updates/",
+          "pubDate": "2026-07-27T02:54:54.000Z",
+          "summary": "Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell models. Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell […] ",
+          "author": "",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Supporting Newer Windows Server 2025 Builds in MDT",
+          "link": "https://www.deploymentresearch.com/supporting-newer-windows-server-2025-builds-in-mdt/",
+          "pubDate": "2026-07-13T04:18:01.000Z",
+          "summary": "If you imported a newer Windows Server 2025 release into MDT, you have probably seen this message when trying to deploy it: No task sequences are available (TaskSequences.xml does not exist, is empty, or is inaccessible) A VBScript Runtime Error has occurred:Error: 6 = OverflowVBScript Code:Initiali",
+          "author": "",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "What Are All These New Secure Boot Checkboxes in My BIOS?",
+          "link": "https://www.deploymentresearch.com/what-are-all-these-new-secure-boot-checkboxes-in-my-bios/",
+          "pubDate": "2026-05-29T15:34:28.000Z",
+          "summary": "As pretty much all vendors are releasing new BIOS updates to fully support the new UEFI CA 2023 certificates, you've probably noticed that many of them include new Secure Boot trust settings. Here is a quick cheat sheet on what they are. The screenshot below is an example from HP, but most vendors h",
+          "author": "",
+          "categories": [
+            "Uncategorized"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-10-16T16:10:38.072Z",
+      "error": null
     },
     {
       "id": "mattzaske",
@@ -1766,7 +1820,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:54.983Z",
+      "fetchedAt": "2026-10-16T16:10:37.922Z",
       "error": null
     },
     {
@@ -1839,7 +1893,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:55.167Z",
+      "fetchedAt": "2026-10-16T16:10:38.273Z",
       "error": null
     },
     {
@@ -1924,7 +1978,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:55.079Z",
+      "fetchedAt": "2026-10-16T16:10:38.128Z",
       "error": null
     },
     {
@@ -2003,7 +2057,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:56.754Z",
+      "fetchedAt": "2026-10-16T16:10:39.689Z",
       "error": null
     },
     {
@@ -2088,7 +2142,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:55.136Z",
+      "fetchedAt": "2026-10-16T16:10:38.193Z",
       "error": null
     },
     {
@@ -2144,7 +2198,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:56.843Z",
+      "fetchedAt": "2026-10-16T16:10:39.820Z",
       "error": null
     },
     {
@@ -2230,7 +2284,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:58.072Z",
+      "fetchedAt": "2026-10-16T16:10:41.034Z",
       "error": null
     },
     {
@@ -2316,7 +2370,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:56.845Z",
+      "fetchedAt": "2026-10-16T16:10:39.768Z",
       "error": null
     },
     {
@@ -2400,7 +2454,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:56.878Z",
+      "fetchedAt": "2026-10-16T16:10:39.826Z",
       "error": null
     },
     {
@@ -2455,7 +2509,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:58.247Z",
+      "fetchedAt": "2026-10-16T16:10:41.179Z",
       "error": null
     },
     {
@@ -2520,7 +2574,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:58.177Z",
+      "fetchedAt": "2026-10-16T16:10:41.166Z",
       "error": null
     },
     {
@@ -2581,7 +2635,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:58.398Z",
+      "fetchedAt": "2026-10-16T16:10:41.407Z",
       "error": null
     },
     {
@@ -2637,7 +2691,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:58.719Z",
+      "fetchedAt": "2026-10-16T16:10:41.530Z",
       "error": null
     },
     {
@@ -2702,7 +2756,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.003Z",
+      "fetchedAt": "2026-10-16T16:10:41.811Z",
       "error": null
     },
     {
@@ -2783,7 +2837,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.281Z",
+      "fetchedAt": "2026-10-16T16:10:42.052Z",
       "error": null
     },
     {
@@ -2792,7 +2846,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-10-16T08:46:59.317Z",
+      "fetchedAt": "2026-10-16T16:10:42.042Z",
       "error": "HTTP 404"
     },
     {
@@ -2801,7 +2855,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-10-16T08:46:58.886Z",
+      "fetchedAt": "2026-10-16T16:10:41.685Z",
       "error": "HTTP 403"
     },
     {
@@ -2881,7 +2935,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.375Z",
+      "fetchedAt": "2026-10-16T16:10:42.123Z",
       "error": null
     },
     {
@@ -2954,7 +3008,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.494Z",
+      "fetchedAt": "2026-10-16T16:10:42.303Z",
       "error": null
     },
     {
@@ -2973,7 +3027,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.459Z",
+      "fetchedAt": "2026-10-16T16:10:42.283Z",
       "error": null
     },
     {
@@ -3028,7 +3082,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.706Z",
+      "fetchedAt": "2026-10-16T16:10:42.652Z",
       "error": null
     },
     {
@@ -3107,7 +3161,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.860Z",
+      "fetchedAt": "2026-10-16T16:10:42.775Z",
       "error": null
     },
     {
@@ -3172,7 +3226,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.819Z",
+      "fetchedAt": "2026-10-16T16:10:42.822Z",
       "error": null
     },
     {
@@ -3237,7 +3291,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/htmxPDn9e94/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.844Z",
+      "fetchedAt": "2026-10-16T16:10:42.863Z",
       "error": null
     },
     {
@@ -3247,6 +3301,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
       "items": [
+        {
+          "title": "Azure Weekly Update - 16th October 2026",
+          "link": "https://www.youtube.com/watch?v=va1TiwLhBq8",
+          "pubDate": "2026-10-16T13:52:32.000Z",
+          "summary": "Quick update this week! 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! ▬▬▬▬▬▬ C H A P T E R S ⏰ ▬▬▬▬▬▬ 00:00 - Introduction 00:17 - New videos 01:07 - ASR Arc support for VMware and physical servers 01:45 - VMSS rebalancing 02:43 - Standard Se",
+          "author": "John Savill's Technical Training",
+          "categories": [],
+          "type": "video",
+          "videoId": "va1TiwLhBq8",
+          "thumbnail": "https://i3.ytimg.com/vi/va1TiwLhBq8/hqdefault.jpg"
+        },
         {
           "title": "Tech in Five - What is Computer Use?",
           "link": "https://www.youtube.com/watch?v=pwsUd72-58U",
@@ -3290,20 +3355,9 @@
           "type": "video",
           "videoId": "5EP7ZzFtK3Y",
           "thumbnail": "https://i2.ytimg.com/vi/5EP7ZzFtK3Y/hqdefault.jpg"
-        },
-        {
-          "title": "Microsoft AI Update September 2026",
-          "link": "https://www.youtube.com/watch?v=Ypzjqzoh6KY",
-          "pubDate": "2026-10-04T18:12:30.000Z",
-          "summary": "Major Microsoft AI updates in the month of September 2026. 🔎 Looking for content on a particular topic? Search the channel. If I have something it will be there! 🤔 Due to the channel growth and number of people wanting help I no longer can answer or even read questions and they will just stay in t",
-          "author": "John Savill's Technical Training",
-          "categories": [],
-          "type": "video",
-          "videoId": "Ypzjqzoh6KY",
-          "thumbnail": "https://i2.ytimg.com/vi/Ypzjqzoh6KY/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.830Z",
+      "fetchedAt": "2026-10-16T16:10:42.832Z",
       "error": null
     },
     {
@@ -3368,7 +3422,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_r_z4kaZhrg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.962Z",
+      "fetchedAt": "2026-10-16T16:10:42.973Z",
       "error": null
     },
     {
@@ -3433,7 +3487,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/x4sloTeFG9g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.972Z",
+      "fetchedAt": "2026-10-16T16:10:42.951Z",
       "error": null
     },
     {
@@ -3499,7 +3553,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_mD2_sc_xKo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:46:59.970Z",
+      "fetchedAt": "2026-10-16T16:10:43.027Z",
       "error": null
     },
     {
@@ -3565,7 +3619,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O25lx74yi-c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.034Z",
+      "fetchedAt": "2026-10-16T16:10:42.979Z",
       "error": null
     },
     {
@@ -3575,6 +3629,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg",
       "items": [
+        {
+          "title": "Attackers Are Installing RMM Tools on Your Clients’ PCs",
+          "link": "https://www.youtube.com/watch?v=BkbMnldAOA8",
+          "pubDate": "2026-10-16T10:00:21.000Z",
+          "summary": "My Course - Secure Microsoft 365 - https:/course.bearded365guy.com A phishing email, a real remote control tool, and a user who clicks yes. No malware, nothing for antivirus to catch. Would you know it was there? In September, Microsoft published research on phishing campaigns that install legitimat",
+          "author": "Jonathan Edwards",
+          "categories": [],
+          "type": "video",
+          "videoId": "BkbMnldAOA8",
+          "thumbnail": "https://i3.ytimg.com/vi/BkbMnldAOA8/hqdefault.jpg"
+        },
         {
           "title": "Your Entra Risk Policies Retired. Here’s What Replaces Them",
           "link": "https://www.youtube.com/watch?v=7_MAlvluCpU",
@@ -3618,20 +3683,9 @@
           "type": "video",
           "videoId": "b6WafZq6xRI",
           "thumbnail": "https://i3.ytimg.com/vi/b6WafZq6xRI/hqdefault.jpg"
-        },
-        {
-          "title": "Taking Over an M365 Client? Do This on Day One",
-          "link": "https://www.youtube.com/watch?v=3-GQ7bN5efI",
-          "pubDate": "2026-09-08T10:00:17.000Z",
-          "summary": "Taking over a new M365 client without auditing the tenant first is like buying a house without a survey. You might be fine. But if something's wrong, you've already signed the contract. In this video I show you exactly how I audit a new Microsoft 365 client using Augmentt Secure - and I run it again",
-          "author": "Jonathan Edwards",
-          "categories": [],
-          "type": "video",
-          "videoId": "3-GQ7bN5efI",
-          "thumbnail": "https://i4.ytimg.com/vi/3-GQ7bN5efI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.159Z",
+      "fetchedAt": "2026-10-16T16:10:43.195Z",
       "error": null
     },
     {
@@ -3696,7 +3750,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/3pDf60Rf3W4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.191Z",
+      "fetchedAt": "2026-10-16T16:10:43.142Z",
       "error": null
     },
     {
@@ -3762,7 +3816,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/C5_xmLGlviM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.154Z",
+      "fetchedAt": "2026-10-16T16:10:43.200Z",
       "error": null
     },
     {
@@ -3827,7 +3881,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hmqopmJBmeQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.150Z",
+      "fetchedAt": "2026-10-16T16:10:43.137Z",
       "error": null
     },
     {
@@ -3892,7 +3946,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O9mYrJSL72M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.289Z",
+      "fetchedAt": "2026-10-16T16:10:43.366Z",
       "error": null
     },
     {
@@ -3957,7 +4011,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.277Z",
+      "fetchedAt": "2026-10-16T16:10:43.307Z",
       "error": null
     },
     {
@@ -4022,7 +4076,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.292Z",
+      "fetchedAt": "2026-10-16T16:10:43.449Z",
       "error": null
     },
     {
@@ -4087,7 +4141,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.312Z",
+      "fetchedAt": "2026-10-16T16:10:43.350Z",
       "error": null
     },
     {
@@ -4152,7 +4206,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:00.406Z",
+      "fetchedAt": "2026-10-16T16:10:43.612Z",
       "error": null
     },
     {
@@ -4208,7 +4262,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:02.138Z",
+      "fetchedAt": "2026-10-16T16:10:43.593Z",
       "error": null
     },
     {
@@ -4218,7 +4272,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-16T08:47:00.393Z",
+      "fetchedAt": "2026-10-16T16:10:43.631Z",
       "error": null
     },
     {
@@ -4284,7 +4338,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:01.415Z",
+      "fetchedAt": "2026-10-16T16:10:44.475Z",
       "error": null
     },
     {
@@ -4340,7 +4394,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:02.173Z",
+      "fetchedAt": "2026-10-16T16:10:44.506Z",
       "error": null
     },
     {
@@ -4369,7 +4423,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:02.443Z",
+      "fetchedAt": "2026-10-16T16:10:44.825Z",
       "error": null
     },
     {
@@ -4425,7 +4479,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:02.177Z",
+      "fetchedAt": "2026-10-16T16:10:44.510Z",
       "error": null
     },
     {
@@ -4435,7 +4489,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-10-16T08:47:02.329Z",
+      "fetchedAt": "2026-10-16T16:10:44.579Z",
       "error": null
     },
     {
@@ -4445,6 +4499,15 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
+        {
+          "title": "Preparing for end of support for CNAME auto-discovery in Windows MDM-only enrollment",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/preparing-for-end-of-support-for-cname-auto-discovery-in-windows/ba-p/4564973",
+          "pubDate": "2026-10-16T01:44:00.000Z",
+          "summary": "<P>Today, some organizations use an&nbsp;<STRONG>EnterpriseEnrollment DNS CNAME</STRONG> record to automatically direct devices to the Microsoft enrollment service during Windows MDM-only enrollment.</P> <P>Starting January 15, 2027, as part of our ongoing efforts to simplify and modernize enrollmen",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Microsoft Intune Settings Catalog updated to support Windows 11, version 26H2",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/microsoft-intune-settings-catalog-updated-to-support-windows-11/ba-p/4560815",
@@ -4480,18 +4543,9 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Introducing device association for Windows Autopilot device preparation",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/introducing-device-association-for-windows-autopilot-device/ba-p/4550603",
-          "pubDate": "2026-08-27T15:00:00.000Z",
-          "summary": "<P><STRONG>By: Maggie Dakeva, Senior Product Manager - Microsoft Intune</STRONG></P> <P>We’ve heard organizations want Windows deployment to be simple for employees and predictable for IT admins. But before a device enrolls, how does the organization know that the device is really one of its own - a",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:02.458Z",
+      "fetchedAt": "2026-10-16T16:10:44.844Z",
       "error": null
     },
     {
@@ -4511,7 +4565,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:02.463Z",
+      "fetchedAt": "2026-10-16T16:10:44.840Z",
       "error": null
     },
     {
@@ -4521,6 +4575,15 @@
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
       "items": [
+        {
+          "title": "When security logic becomes an attack surface: lessons from CVE-2026-20971",
+          "link": "https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/",
+          "pubDate": null,
+          "summary": "CVE-2026-20971 was a use-after-free bug in Samsung's Knox-related PROCA driver, showing how a flaw in a security feature can become an attack surface. Learn more about this already patched vulnerability and how to respond. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "Cybersecurity awareness month: a practitioner’s view",
           "link": "https://www.jamf.com/blog/cybersecurity-awareness-month-a-practitioners-view/",
@@ -4556,18 +4619,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "JNUC 2026 Day 3 Recap",
-          "link": "https://www.jamf.com/blog/jnuc-2026-day-3-recap/",
-          "pubDate": null,
-          "summary": "Catch up on JNUC 2026 Day 3: top session themes, the 10 best-attended breakouts, EDU SOTU highlights and more. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:06.897Z",
+      "fetchedAt": "2026-10-16T16:10:49.328Z",
       "error": null
     },
     {
@@ -4623,7 +4677,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:03.012Z",
+      "fetchedAt": "2026-10-16T16:10:45.068Z",
       "error": null
     },
     {
@@ -4678,7 +4732,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:06.976Z",
+      "fetchedAt": "2026-10-16T16:10:49.476Z",
       "error": null
     },
     {
@@ -4733,7 +4787,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:06.944Z",
+      "fetchedAt": "2026-10-16T16:10:49.411Z",
       "error": null
     },
     {
@@ -4798,7 +4852,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-16T08:47:08.856Z",
+      "fetchedAt": "2026-10-16T16:10:50.210Z",
       "error": null
     }
   ]
