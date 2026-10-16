@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:10:50.211Z",
+  "generatedAt": "2026-10-16T22:35:00.673Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,74 +8,72 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Fastfetch 2.70 changes disk reporting and breaks older configs",
-          "link": "https://4sysops.com/archives/fastfetch-2-70-changes-disk-reporting-and-breaks-older-configs/",
-          "pubDate": "2026-10-16T10:17:21.000Z",
-          "summary": "Fastfetch 2.70.0 changes how disk space is reported and removes configuration options that older setups may rely on. On Windows, it now reports full volume capacity by default for quota-limited volumes. The October 14 release also changes command output capture, removes QuickJS, and adds Android det",
+          "title": "What happened this week in AI",
+          "link": "https://4sysops.com/archives/what-happened-this-week-in-ai/",
+          "pubDate": "2026-10-16T21:46:58.000Z",
+          "summary": "Brock Mesarich covers new AI models and agents, including Google Gemini 4 Argon, Grokbot’s dedicated email, and Fish Audio Drama 3. He also discusses the possible arrival of Claude Fable 5.5 and Meta’s Muse models. The updates highlight a shift toward AI that can complete tasks, create realistic spe",
           "author": "",
           "categories": [
             "News",
-            "Storage",
-            "Windows"
+            "AI"
           ],
           "type": "rss"
         },
         {
-          "title": "KB5127648 breaks 802.1X Wi-Fi and VPN sign-ins by enforcing NTLMv1 blocking",
-          "link": "https://4sysops.com/archives/kb5127648-breaks-802-1x-wi-fi-and-vpn-sign-ins-by-enforcing-ntlmv1-blocking/",
-          "pubDate": "2026-10-16T10:17:20.000Z",
-          "summary": "Microsoft says October’s Windows updates can disrupt Wi-Fi, Ethernet, and VPN sign-ins that rely on MS-CHAPv2 and NTLMv1-derived credentials. The change affects Windows 11 24H2, 25H2, and 26H2, and Windows Server 2025, when Credential Guard is disabled and the relevant registry setting hasn’t been c",
+          "title": "Install Microsoft Defender for Endpoint on Linux desktops",
+          "link": "https://4sysops.com/archives/install-microsoft-defender-for-endpoint-on-linux-desktops/",
+          "pubDate": "2026-10-16T20:58:08.000Z",
+          "summary": "Public preview extends Microsoft Defender for Endpoint to Linux desktops with the same agent that already guards Linux servers. This guide covers licensing, system requirements, and how Defender classifies a Linux machine as a workstation or a server. It also walks through installing and onboarding ",
           "author": "",
           "categories": [
-            "News",
-            "Networking",
-            "Security",
-            "Windows"
+            "Articles",
+            "Linux",
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "27 municipalities tackle Active Directory hardening together",
-          "link": "https://4sysops.com/archives/27-municipalities-tackle-active-directory-hardening-together/",
-          "pubDate": "2026-10-16T10:17:19.000Z",
-          "summary": "A 12-week security cohort brought 27 municipalities together to harden Windows Server and Active Directory—nearly twice the 10 to 15 originally expected. The effort points to a key obstacle for small IT teams: known weaknesses can persist not just because of limited budgets, but because one or two a",
-          "author": "",
-          "categories": [
-            "News",
-            "Identity",
-            "Security",
-            "Windows Server"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Automating Microsoft 365 with PowerShell gets an early Update 29.2",
-          "link": "https://4sysops.com/archives/automating-microsoft-365-with-powershell-gets-an-early-update-29-2/",
-          "pubDate": "2026-10-16T10:17:18.000Z",
-          "summary": "Microsoft Graph PowerShell SDK fixes prompted an early update to *Automating Microsoft 365 with PowerShell*. Version 29.2 includes the latest changes, after SDK version 2.41 introduced problems that Microsoft addressed in follow-up releases. The latest SDK release appears to work in Azure Automation",
-          "author": "",
-          "categories": [
-            "News",
-            "PowerShell",
-            "Systems Management"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "ChatGPT can read Chrome tabs and automate browser tasks",
-          "link": "https://4sysops.com/archives/chatgpt-can-read-chrome-tabs-and-automate-browser-tasks/",
-          "pubDate": "2026-10-16T10:17:17.000Z",
-          "summary": "ChatGPT’s Chrome extension can now use open tabs to answer questions across pages, while its Work mode can interact with websites to complete tasks. Users can connect tabs by mentioning @chrome in ChatGPT’s web or desktop app, bringing these capabilities into Chrome without switching to a separate A",
+          "title": "Panos Panay sees AI devices replacing apps, but not smartphones",
+          "link": "https://4sysops.com/archives/panos-panay-sees-ai-devices-replacing-apps-but-not-smartphones/",
+          "pubDate": "2026-10-16T20:57:24.000Z",
+          "summary": "Amazon devices chief Panos Panay sees ambient AI reducing the need to open apps: sensors and AI could anticipate tasks instead of waiting for users to ask. New Bee wearables put that idea into practice by recording and summarizing parts of a user’s day, while Amazon says raw audio is deleted after p",
           "author": "",
           "categories": [
             "News",
             "AI",
+            "Hardware",
+            "Mobile"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Anthropic gives six METR evaluators employee-like access to assess AI risks",
+          "link": "https://4sysops.com/archives/anthropic-gives-six-metr-evaluators-employee-like-access-to-assess-ai-risks/",
+          "pubDate": "2026-10-16T20:57:23.000Z",
+          "summary": "Anthropic has given six METR evaluators access to internal tools and systems to assess its AI models and safety practices. METR can publish its findings without Anthropic’s approval, although the company can require certain sensitive information to be removed. Source]]>",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Cloudflare will score verified bots on how well they follow site rules",
+          "link": "https://4sysops.com/archives/cloudflare-will-score-verified-bots-on-how-well-they-follow-site-rules/",
+          "pubDate": "2026-10-16T20:57:22.000Z",
+          "summary": "Cloudflare plans to give Verified bots trust bands based on whether they respect website rules and respond to feedback. The system is currently being evaluated internally; Cloudflare plans to publish bands on Radar and let customers set thresholds for managing this traffic. The scoring method and in",
+          "author": "",
+          "categories": [
+            "News",
+            "Security",
             "Web"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:30.428Z",
+      "fetchedAt": "2026-10-16T22:34:40.436Z",
       "error": null
     },
     {
@@ -140,7 +138,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:30.369Z",
+      "fetchedAt": "2026-10-16T22:34:40.398Z",
       "error": null
     },
     {
@@ -183,7 +181,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:30.705Z",
+      "fetchedAt": "2026-10-16T22:34:40.809Z",
       "error": null
     },
     {
@@ -269,7 +267,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:30.274Z",
+      "fetchedAt": "2026-10-16T22:34:40.348Z",
       "error": null
     },
     {
@@ -349,7 +347,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:31.158Z",
+      "fetchedAt": "2026-10-16T22:34:41.279Z",
       "error": null
     },
     {
@@ -426,7 +424,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:33.253Z",
+      "fetchedAt": "2026-10-16T22:34:43.894Z",
       "error": null
     },
     {
@@ -508,7 +506,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:30.947Z",
+      "fetchedAt": "2026-10-16T22:34:41.094Z",
       "error": null
     },
     {
@@ -580,7 +578,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:31.058Z",
+      "fetchedAt": "2026-10-16T22:34:41.069Z",
       "error": null
     },
     {
@@ -648,7 +646,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:34.082Z",
+      "fetchedAt": "2026-10-16T22:34:44.362Z",
       "error": null
     },
     {
@@ -719,7 +717,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:33.371Z",
+      "fetchedAt": "2026-10-16T22:34:44.013Z",
       "error": null
     },
     {
@@ -796,7 +794,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:34.470Z",
+      "fetchedAt": "2026-10-16T22:34:44.800Z",
       "error": null
     },
     {
@@ -806,7 +804,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-10-16T16:10:33.570Z",
+      "fetchedAt": "2026-10-16T22:34:43.992Z",
       "error": "HTTP 403"
     },
     {
@@ -880,7 +878,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:35.050Z",
+      "fetchedAt": "2026-10-16T22:34:45.090Z",
       "error": null
     },
     {
@@ -962,7 +960,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:34.535Z",
+      "fetchedAt": "2026-10-16T22:34:44.877Z",
       "error": null
     },
     {
@@ -1028,7 +1026,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:35.337Z",
+      "fetchedAt": "2026-10-16T22:34:45.659Z",
       "error": null
     },
     {
@@ -1098,7 +1096,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:34.661Z",
+      "fetchedAt": "2026-10-16T22:34:44.994Z",
       "error": null
     },
     {
@@ -1178,7 +1176,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:36.060Z",
+      "fetchedAt": "2026-10-16T22:34:46.492Z",
       "error": null
     },
     {
@@ -1233,7 +1231,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:35.449Z",
+      "fetchedAt": "2026-10-16T22:34:45.729Z",
       "error": null
     },
     {
@@ -1298,7 +1296,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:35.645Z",
+      "fetchedAt": "2026-10-16T22:34:45.855Z",
       "error": null
     },
     {
@@ -1383,7 +1381,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:35.471Z",
+      "fetchedAt": "2026-10-16T22:34:45.736Z",
       "error": null
     },
     {
@@ -1456,7 +1454,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:36.579Z",
+      "fetchedAt": "2026-10-16T22:34:47.092Z",
       "error": null
     },
     {
@@ -1465,7 +1463,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-10-16T16:10:36.110Z",
+      "fetchedAt": "2026-10-16T22:34:46.601Z",
       "error": "HTTP 403"
     },
     {
@@ -1543,7 +1541,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:37.519Z",
+      "fetchedAt": "2026-10-16T22:34:48.023Z",
       "error": null
     },
     {
@@ -1552,7 +1550,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-16T16:10:36.368Z",
+      "fetchedAt": "2026-10-16T22:34:46.829Z",
       "error": "certificate has expired"
     },
     {
@@ -1623,7 +1621,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:37.945Z",
+      "fetchedAt": "2026-10-16T22:34:48.493Z",
       "error": null
     },
     {
@@ -1699,7 +1697,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:37.808Z",
+      "fetchedAt": "2026-10-16T22:34:48.343Z",
       "error": null
     },
     {
@@ -1765,7 +1763,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:38.072Z",
+      "fetchedAt": "2026-10-16T22:34:48.603Z",
       "error": null
     },
     {
@@ -1820,7 +1818,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:37.922Z",
+      "fetchedAt": "2026-10-16T22:34:49.086Z",
       "error": null
     },
     {
@@ -1893,7 +1891,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:38.273Z",
+      "fetchedAt": "2026-10-16T22:34:49.244Z",
       "error": null
     },
     {
@@ -1978,7 +1976,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:38.128Z",
+      "fetchedAt": "2026-10-16T22:34:49.144Z",
       "error": null
     },
     {
@@ -2057,7 +2055,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:39.689Z",
+      "fetchedAt": "2026-10-16T22:34:50.749Z",
       "error": null
     },
     {
@@ -2142,7 +2140,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:38.193Z",
+      "fetchedAt": "2026-10-16T22:34:49.290Z",
       "error": null
     },
     {
@@ -2198,7 +2196,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:39.820Z",
+      "fetchedAt": "2026-10-16T22:34:50.863Z",
       "error": null
     },
     {
@@ -2284,7 +2282,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:41.034Z",
+      "fetchedAt": "2026-10-16T22:34:51.855Z",
       "error": null
     },
     {
@@ -2370,7 +2368,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:39.768Z",
+      "fetchedAt": "2026-10-16T22:34:50.807Z",
       "error": null
     },
     {
@@ -2454,7 +2452,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:39.826Z",
+      "fetchedAt": "2026-10-16T22:34:50.847Z",
       "error": null
     },
     {
@@ -2509,7 +2507,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:41.179Z",
+      "fetchedAt": "2026-10-16T22:34:52.002Z",
       "error": null
     },
     {
@@ -2574,7 +2572,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:41.166Z",
+      "fetchedAt": "2026-10-16T22:34:52.166Z",
       "error": null
     },
     {
@@ -2635,7 +2633,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:41.407Z",
+      "fetchedAt": "2026-10-16T22:34:52.150Z",
       "error": null
     },
     {
@@ -2691,7 +2689,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:41.530Z",
+      "fetchedAt": "2026-10-16T22:34:52.226Z",
       "error": null
     },
     {
@@ -2756,7 +2754,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:41.811Z",
+      "fetchedAt": "2026-10-16T22:34:52.497Z",
       "error": null
     },
     {
@@ -2837,7 +2835,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.052Z",
+      "fetchedAt": "2026-10-16T22:34:52.933Z",
       "error": null
     },
     {
@@ -2846,7 +2844,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-10-16T16:10:42.042Z",
+      "fetchedAt": "2026-10-16T22:34:52.807Z",
       "error": "HTTP 404"
     },
     {
@@ -2855,7 +2853,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-10-16T16:10:41.685Z",
+      "fetchedAt": "2026-10-16T22:34:52.368Z",
       "error": "HTTP 403"
     },
     {
@@ -2935,7 +2933,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.123Z",
+      "fetchedAt": "2026-10-16T22:34:52.990Z",
       "error": null
     },
     {
@@ -3008,7 +3006,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.303Z",
+      "fetchedAt": "2026-10-16T22:34:53.120Z",
       "error": null
     },
     {
@@ -3027,7 +3025,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.283Z",
+      "fetchedAt": "2026-10-16T22:34:53.089Z",
       "error": null
     },
     {
@@ -3082,7 +3080,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.652Z",
+      "fetchedAt": "2026-10-16T22:34:53.446Z",
       "error": null
     },
     {
@@ -3161,7 +3159,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.775Z",
+      "fetchedAt": "2026-10-16T22:34:53.623Z",
       "error": null
     },
     {
@@ -3226,7 +3224,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.822Z",
+      "fetchedAt": "2026-10-16T22:34:53.546Z",
       "error": null
     },
     {
@@ -3291,7 +3289,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/htmxPDn9e94/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.863Z",
+      "fetchedAt": "2026-10-16T22:34:53.632Z",
       "error": null
     },
     {
@@ -3357,7 +3355,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5EP7ZzFtK3Y/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.832Z",
+      "fetchedAt": "2026-10-16T22:34:53.468Z",
       "error": null
     },
     {
@@ -3422,7 +3420,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_r_z4kaZhrg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.973Z",
+      "fetchedAt": "2026-10-16T22:34:53.730Z",
       "error": null
     },
     {
@@ -3487,7 +3485,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/x4sloTeFG9g/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.951Z",
+      "fetchedAt": "2026-10-16T22:34:53.750Z",
       "error": null
     },
     {
@@ -3553,7 +3551,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_mD2_sc_xKo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.027Z",
+      "fetchedAt": "2026-10-16T22:34:53.731Z",
       "error": null
     },
     {
@@ -3619,7 +3617,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O25lx74yi-c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:42.979Z",
+      "fetchedAt": "2026-10-16T22:34:53.813Z",
       "error": null
     },
     {
@@ -3685,7 +3683,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/b6WafZq6xRI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.195Z",
+      "fetchedAt": "2026-10-16T22:34:53.983Z",
       "error": null
     },
     {
@@ -3694,6 +3692,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
       "items": [
+        {
+          "title": "You Can Tell A Lot About the Month by the Number of Tabs | Patch Tuesday Support Group October 2026",
+          "link": "https://www.youtube.com/watch?v=SDdHoPXZRkw",
+          "pubDate": "2026-10-16T20:13:52.000Z",
+          "summary": "Welcome to the Patch Tuesday Support Group for October 2026! Join Bryan Dam and Jordan Benzing as they break down a record-setting month featuring 1,260 total monthly vulnerabilities across 75 Microsoft Knowledge Base (KB) releases. We examine what IT administrators and systems engineers need to kno",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": "SDdHoPXZRkw",
+          "thumbnail": "https://i4.ytimg.com/vi/SDdHoPXZRkw/hqdefault.jpg"
+        },
         {
           "title": "Modernize without Starting Over - PSADT & App Migration Explained",
           "link": "https://www.youtube.com/watch?v=LbpJofpBLgo",
@@ -3737,20 +3746,9 @@
           "type": "video",
           "videoId": "IutMQ_WKsX8",
           "thumbnail": "https://i2.ytimg.com/vi/IutMQ_WKsX8/hqdefault.jpg"
-        },
-        {
-          "title": "Patching is only Half the Battle: Why Native Intune Reporting Falls Short (And How to Fix It)",
-          "link": "https://www.youtube.com/watch?v=3pDf60Rf3W4",
-          "pubDate": "2026-09-18T15:01:55.000Z",
-          "summary": "Patching vulnerabilities is essential—but knowing your true deployment velocity, hardware health, and endpoint compliance is just as critical. In this video, we explore Patch Insights and Advanced Insights from Patch My PC. While Microsoft Intune offers basic inventory, it lacks the deep, extensible",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": "3pDf60Rf3W4",
-          "thumbnail": "https://i4.ytimg.com/vi/3pDf60Rf3W4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.142Z",
+      "fetchedAt": "2026-10-16T22:34:53.998Z",
       "error": null
     },
     {
@@ -3760,6 +3758,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuB24cID6NnypDWSLe4gfqA",
       "items": [
+        {
+          "title": "Azure OpenAI Deployment Options: Data Zones, PTUs & Batch #shorts",
+          "link": "https://www.youtube.com/shorts/oQ6Za1N3_c8",
+          "pubDate": "2026-10-16T21:01:38.000Z",
+          "summary": "📍Keep your European customers' data within the EU with Data Zone EU. Ensure strict data residency and compliance with customizable options for varying needs.#AI901 #AzureAI #Microsoft #Foundry #AI #Training #MVPBuzz",
+          "author": "Travis Roberts",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/oQ6Za1N3_c8/hqdefault.jpg"
+        },
         {
           "title": "Bigger Isn't Better: How to Choose the Right AI Model",
           "link": "https://www.youtube.com/watch?v=5pwd-ELanIo",
@@ -3803,20 +3812,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/dWehxX2KR10/hqdefault.jpg"
-        },
-        {
-          "title": "Azure AI-901: Everything You Need to Know About Responsible AI",
-          "link": "https://www.youtube.com/watch?v=C5_xmLGlviM",
-          "pubDate": "2026-10-06T20:03:48.000Z",
-          "summary": "AI-901 Responsible AI Explained: Microsoft’s 6 Principles and How to Spot Them on the Exam Responsible AI is a core topic on the AI-901 Microsoft Azure AI Fundamentals exam, and in this video we break down Microsoft’s six responsible AI principles: fairness, reliability and safety, privacy and secur",
-          "author": "Travis Roberts",
-          "categories": [],
-          "type": "video",
-          "videoId": "C5_xmLGlviM",
-          "thumbnail": "https://i4.ytimg.com/vi/C5_xmLGlviM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.200Z",
+      "fetchedAt": "2026-10-16T22:34:53.923Z",
       "error": null
     },
     {
@@ -3881,7 +3879,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hmqopmJBmeQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.137Z",
+      "fetchedAt": "2026-10-16T22:34:53.921Z",
       "error": null
     },
     {
@@ -3946,7 +3944,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O9mYrJSL72M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.366Z",
+      "fetchedAt": "2026-10-16T22:34:54.130Z",
       "error": null
     },
     {
@@ -4011,7 +4009,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.307Z",
+      "fetchedAt": "2026-10-16T22:34:54.117Z",
       "error": null
     },
     {
@@ -4076,7 +4074,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.449Z",
+      "fetchedAt": "2026-10-16T22:34:54.090Z",
       "error": null
     },
     {
@@ -4141,7 +4139,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.350Z",
+      "fetchedAt": "2026-10-16T22:34:54.109Z",
       "error": null
     },
     {
@@ -4206,7 +4204,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.612Z",
+      "fetchedAt": "2026-10-16T22:34:54.276Z",
       "error": null
     },
     {
@@ -4262,7 +4260,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:43.593Z",
+      "fetchedAt": "2026-10-16T22:34:54.329Z",
       "error": null
     },
     {
@@ -4272,7 +4270,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-16T16:10:43.631Z",
+      "fetchedAt": "2026-10-16T22:34:54.337Z",
       "error": null
     },
     {
@@ -4338,7 +4336,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:44.475Z",
+      "fetchedAt": "2026-10-16T22:34:54.943Z",
       "error": null
     },
     {
@@ -4394,7 +4392,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:44.506Z",
+      "fetchedAt": "2026-10-16T22:34:54.984Z",
       "error": null
     },
     {
@@ -4423,7 +4421,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:44.825Z",
+      "fetchedAt": "2026-10-16T22:34:55.205Z",
       "error": null
     },
     {
@@ -4479,7 +4477,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:44.510Z",
+      "fetchedAt": "2026-10-16T22:34:54.987Z",
       "error": null
     },
     {
@@ -4489,7 +4487,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-10-16T16:10:44.579Z",
+      "fetchedAt": "2026-10-16T22:34:55.290Z",
       "error": null
     },
     {
@@ -4499,15 +4497,6 @@
       "badge": "Microsoft",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=IntuneCustomerSuccess",
       "items": [
-        {
-          "title": "Preparing for end of support for CNAME auto-discovery in Windows MDM-only enrollment",
-          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/preparing-for-end-of-support-for-cname-auto-discovery-in-windows/ba-p/4564973",
-          "pubDate": "2026-10-16T01:44:00.000Z",
-          "summary": "<P>Today, some organizations use an&nbsp;<STRONG>EnterpriseEnrollment DNS CNAME</STRONG> record to automatically direct devices to the Microsoft enrollment service during Windows MDM-only enrollment.</P> <P>Starting January 15, 2027, as part of our ongoing efforts to simplify and modernize enrollmen",
-          "author": "Intune_Support_Team",
-          "categories": [],
-          "type": "official"
-        },
         {
           "title": "Microsoft Intune Settings Catalog updated to support Windows 11, version 26H2",
           "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/microsoft-intune-settings-catalog-updated-to-support-windows-11/ba-p/4560815",
@@ -4543,9 +4532,18 @@
           "author": "Intune_Support_Team",
           "categories": [],
           "type": "official"
+        },
+        {
+          "title": "Introducing device association for Windows Autopilot device preparation",
+          "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/introducing-device-association-for-windows-autopilot-device/ba-p/4550603",
+          "pubDate": "2026-08-27T15:00:00.000Z",
+          "summary": "<P><STRONG>By: Maggie Dakeva, Senior Product Manager - Microsoft Intune</STRONG></P> <P>We’ve heard organizations want Windows deployment to be simple for employees and predictable for IT admins. But before a device enrolls, how does the organization know that the device is really one of its own - a",
+          "author": "Intune_Support_Team",
+          "categories": [],
+          "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:44.844Z",
+      "fetchedAt": "2026-10-16T22:34:55.304Z",
       "error": null
     },
     {
@@ -4565,7 +4563,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:44.840Z",
+      "fetchedAt": "2026-10-16T22:34:55.306Z",
       "error": null
     },
     {
@@ -4621,7 +4619,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:49.328Z",
+      "fetchedAt": "2026-10-16T22:34:59.849Z",
       "error": null
     },
     {
@@ -4677,7 +4675,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:45.068Z",
+      "fetchedAt": "2026-10-16T22:34:55.848Z",
       "error": null
     },
     {
@@ -4732,7 +4730,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:49.476Z",
+      "fetchedAt": "2026-10-16T22:34:59.937Z",
       "error": null
     },
     {
@@ -4787,7 +4785,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:49.411Z",
+      "fetchedAt": "2026-10-16T22:35:00.028Z",
       "error": null
     },
     {
@@ -4852,7 +4850,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-16T16:10:50.210Z",
+      "fetchedAt": "2026-10-16T22:35:00.673Z",
       "error": null
     }
   ]
