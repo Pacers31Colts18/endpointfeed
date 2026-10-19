@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T18:24:32.837Z",
+  "generatedAt": "2026-10-19T23:21:16.607Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,60 +8,64 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Linux 7.4 merge window opens",
-          "link": "https://4sysops.com/archives/linux-7-4-merge-window-opens/",
-          "pubDate": "2026-10-19T15:01:54.000Z",
-          "summary": "Linux 7.4 is accepting feature submissions, but Linus Torvalds’ vacation could extend the merge window and delay the release by up to two weeks. The cycle follows Linux 7.3, which brought new kernel features and is now available for distributions to test and package. Source]]>",
-          "author": "",
-          "categories": [
-            "News",
-            "Linux"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Should you install a certificate authority on a domain controller?",
-          "link": "https://4sysops.com/archives/should-you-install-a-certificate-authority-on-a-domain-controller/",
-          "pubDate": "2026-10-19T15:01:53.000Z",
-          "summary": "Microsoft supports running Active Directory Certificate Services (AD CS) on a domain controller, but combining the roles can tie domain recovery to certificate trust recovery. For production environments where certificates protect authentication or business services, a dedicated issuing CA makes it ",
-          "author": "",
-          "categories": [
-            "News",
-            "Security",
-            "Windows Server"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Salesforce Agentforce can turn public email into an agent instruction path",
-          "link": "https://4sysops.com/archives/salesforce-agentforce-can-turn-public-email-into-an-agent-instruction-path/",
-          "pubDate": "2026-10-19T15:01:52.000Z",
-          "summary": "Salesforce Agentforce can receive instructions from unauthenticated outsiders when standard Email-to-Case or Web-to-Case intake is connected to an agent-triggering Flow. Researchers documented a chain in which an inbound message becomes a case, reaches the agent prompt, and can lead to an action and",
+          "title": "Nvidia brings Nemotron 3.5 agents to PCs, including a 4GB Bolt model",
+          "link": "https://4sysops.com/archives/nvidia-brings-nemotron-3-5-agents-to-pcs-including-a-4gb-bolt-model/",
+          "pubDate": "2026-10-19T19:38:24.000Z",
+          "summary": "Nvidia’s new Nemotron 3.5 models span a 120-billion-parameter enterprise agent and smaller models for local use on PCs and workstations. The smallest, Bolt E4B, is designed to run with 4GB of memory and is scheduled for release on October 23. Nvidia says the models give organizations options to run ",
           "author": "",
           "categories": [
             "News",
             "AI",
-            "Security"
+            "Hardware"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft fixes Windows 11 Remote Desktop error 0xC000000D",
-          "link": "https://4sysops.com/archives/microsoft-fixes-windows-11-remote-desktop-error-0xc000000d/",
-          "pubDate": "2026-10-19T15:01:51.000Z",
-          "summary": "Microsoft has resolved the Windows 11 Remote Desktop failure that blocked some non-admin users with error 0xC000000D. The issue affected remote PCs with Administrator protection enabled after KB5124010 or later updates. Install a Windows update released on or after October 13, 2026, such as KB512764",
+          "title": "Azure MCP Server 3.0: New tools, security defaults, and breaking changes",
+          "link": "https://4sysops.com/archives/azure-mcp-server-3-0-new-tools-security-defaults-and-breaking-changes/",
+          "pubDate": "2026-10-19T19:36:39.000Z",
+          "summary": "Microsoft has shipped Azure MCP Server 3.0 as a stable release. This version adds toolsets for Azure Backup, Azure Resilience Management, Azure SRE Agent, Terraform, and Azure Advisor. It also ships secure defaults for newly created resources, optional structured responses, and compatibility with th",
+          "author": "",
+          "categories": [
+            "Articles",
+            "AI",
+            "Azure",
+            "Cloud Computing"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Windows 11 Hybrid Intelligence will put Copilot+ PC NPUs to work",
+          "link": "https://4sysops.com/archives/windows-11-hybrid-intelligence-will-put-copilot-pc-npus-to-work/",
+          "pubDate": "2026-10-19T19:35:04.000Z",
+          "summary": "Microsoft plans to bring Hybrid Intelligence to Copilot+ PCs in the coming months, routing Copilot tasks between local processing and the cloud. With permission, Copilot will use files and recent activity for context, take actions on the PC, and tap local AI models when suitable. Source]]>",
           "author": "",
           "categories": [
             "News",
+            "AI",
+            "Hardware",
             "Windows"
           ],
           "type": "rss"
         },
         {
-          "title": "AI agents break into 100+ sites for about $50 per hack",
-          "link": "https://4sysops.com/archives/ai-agents-break-into-100-sites-for-about-50-per-hack/",
-          "pubDate": "2026-10-19T14:48:13.000Z",
-          "summary": "A Chinese-speaking hacker used AI agents to attempt more than 1,200 break-ins, compromising over 100 websites, including sites linked to Deere, SharkNinja, and Cummins. The campaign reportedly cost about $5,000 in AI tokens—roughly $50 per successful intrusion—and agents worked for hours with little",
+          "title": "Cloudflare previews Clairic, a typed extraction model for Workers AI",
+          "link": "https://4sysops.com/archives/cloudflare-previews-clairic-a-typed-extraction-model-for-workers-ai/",
+          "pubDate": "2026-10-19T19:35:03.000Z",
+          "summary": "Cloudflare has opened a preview of Clairic, a new model on Workers AI that extracts, calculates, estimates, and forecasts typed values from text and images. Unlike a chatbot that generates answers, Clairic returns schema-bound values such as dates, amounts, and durations, with confidence data. Cloud",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Web"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Microsoft adds Dynamic Permissions to Project Perception for AI agents",
+          "link": "https://4sysops.com/archives/microsoft-adds-dynamic-permissions-to-project-perception-for-ai-agents/",
+          "pubDate": "2026-10-19T19:35:02.000Z",
+          "summary": "Microsoft is adding task-scoped permissions and live risk controls to Project Perception, building on its plan for Guardian Agents to supervise enterprise AI agents. The new controls can narrow an agent’s access or require human approval when its behavior drifts from its assigned task. Microsoft say",
           "author": "",
           "categories": [
             "News",
@@ -71,7 +75,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:23:59.872Z",
+      "fetchedAt": "2026-10-19T23:20:46.563Z",
       "error": null
     },
     {
@@ -136,7 +140,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:23:59.760Z",
+      "fetchedAt": "2026-10-19T23:20:46.403Z",
       "error": null
     },
     {
@@ -179,7 +183,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:00.161Z",
+      "fetchedAt": "2026-10-19T23:20:46.923Z",
       "error": null
     },
     {
@@ -265,7 +269,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:23:59.701Z",
+      "fetchedAt": "2026-10-19T23:20:46.312Z",
       "error": null
     },
     {
@@ -342,7 +346,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:00.777Z",
+      "fetchedAt": "2026-10-19T23:20:47.715Z",
       "error": null
     },
     {
@@ -419,7 +423,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:02.149Z",
+      "fetchedAt": "2026-10-19T23:20:48.946Z",
       "error": null
     },
     {
@@ -501,7 +505,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:00.593Z",
+      "fetchedAt": "2026-10-19T23:20:47.304Z",
       "error": null
     },
     {
@@ -573,7 +577,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:00.552Z",
+      "fetchedAt": "2026-10-19T23:20:47.363Z",
       "error": null
     },
     {
@@ -641,7 +645,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:02.528Z",
+      "fetchedAt": "2026-10-19T23:20:49.259Z",
       "error": null
     },
     {
@@ -712,7 +716,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:02.334Z",
+      "fetchedAt": "2026-10-19T23:20:49.078Z",
       "error": null
     },
     {
@@ -789,7 +793,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:03.375Z",
+      "fetchedAt": "2026-10-19T23:20:50.554Z",
       "error": null
     },
     {
@@ -799,7 +803,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-10-19T18:24:02.385Z",
+      "fetchedAt": "2026-10-19T23:20:49.220Z",
       "error": "HTTP 403"
     },
     {
@@ -873,7 +877,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:03.791Z",
+      "fetchedAt": "2026-10-19T23:20:51.019Z",
       "error": null
     },
     {
@@ -955,7 +959,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:03.495Z",
+      "fetchedAt": "2026-10-19T23:20:50.802Z",
       "error": null
     },
     {
@@ -1021,7 +1025,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:04.435Z",
+      "fetchedAt": "2026-10-19T23:20:52.098Z",
       "error": null
     },
     {
@@ -1091,7 +1095,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:03.670Z",
+      "fetchedAt": "2026-10-19T23:20:51.130Z",
       "error": null
     },
     {
@@ -1171,7 +1175,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:05.459Z",
+      "fetchedAt": "2026-10-19T23:20:53.268Z",
       "error": null
     },
     {
@@ -1226,7 +1230,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:04.616Z",
+      "fetchedAt": "2026-10-19T23:20:52.219Z",
       "error": null
     },
     {
@@ -1291,7 +1295,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:04.680Z",
+      "fetchedAt": "2026-10-19T23:20:52.544Z",
       "error": null
     },
     {
@@ -1376,7 +1380,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:04.630Z",
+      "fetchedAt": "2026-10-19T23:20:52.210Z",
       "error": null
     },
     {
@@ -1449,7 +1453,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:06.187Z",
+      "fetchedAt": "2026-10-19T23:20:54.211Z",
       "error": null
     },
     {
@@ -1458,7 +1462,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-10-19T18:24:05.625Z",
+      "fetchedAt": "2026-10-19T23:20:53.366Z",
       "error": "HTTP 403"
     },
     {
@@ -1536,7 +1540,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:07.194Z",
+      "fetchedAt": "2026-10-19T23:20:55.098Z",
       "error": null
     },
     {
@@ -1545,7 +1549,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-19T18:24:06.018Z",
+      "fetchedAt": "2026-10-19T23:20:53.692Z",
       "error": "certificate has expired"
     },
     {
@@ -1616,7 +1620,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:07.960Z",
+      "fetchedAt": "2026-10-19T23:20:55.807Z",
       "error": null
     },
     {
@@ -1692,7 +1696,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:07.682Z",
+      "fetchedAt": "2026-10-19T23:20:55.742Z",
       "error": null
     },
     {
@@ -1758,7 +1762,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:08.251Z",
+      "fetchedAt": "2026-10-19T23:20:55.808Z",
       "error": null
     },
     {
@@ -1813,7 +1817,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:07.738Z",
+      "fetchedAt": "2026-10-19T23:20:55.530Z",
       "error": null
     },
     {
@@ -1886,7 +1890,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:09.218Z",
+      "fetchedAt": "2026-10-19T23:20:55.984Z",
       "error": null
     },
     {
@@ -1971,7 +1975,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:08.374Z",
+      "fetchedAt": "2026-10-19T23:20:55.899Z",
       "error": null
     },
     {
@@ -2050,7 +2054,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:10.195Z",
+      "fetchedAt": "2026-10-19T23:20:57.980Z",
       "error": null
     },
     {
@@ -2135,7 +2139,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:08.496Z",
+      "fetchedAt": "2026-10-19T23:20:55.979Z",
       "error": null
     },
     {
@@ -2191,7 +2195,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:10.367Z",
+      "fetchedAt": "2026-10-19T23:20:58.112Z",
       "error": null
     },
     {
@@ -2277,7 +2281,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:11.448Z",
+      "fetchedAt": "2026-10-19T23:20:59.655Z",
       "error": null
     },
     {
@@ -2363,7 +2367,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:10.348Z",
+      "fetchedAt": "2026-10-19T23:20:58.124Z",
       "error": null
     },
     {
@@ -2447,7 +2451,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:10.429Z",
+      "fetchedAt": "2026-10-19T23:20:58.104Z",
       "error": null
     },
     {
@@ -2502,7 +2506,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:13.774Z",
+      "fetchedAt": "2026-10-19T23:20:59.772Z",
       "error": null
     },
     {
@@ -2567,7 +2571,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:11.640Z",
+      "fetchedAt": "2026-10-19T23:20:59.882Z",
       "error": null
     },
     {
@@ -2628,7 +2632,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:11.854Z",
+      "fetchedAt": "2026-10-19T23:21:00.066Z",
       "error": null
     },
     {
@@ -2684,7 +2688,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:12.260Z",
+      "fetchedAt": "2026-10-19T23:21:00.168Z",
       "error": null
     },
     {
@@ -2749,7 +2753,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:14.695Z",
+      "fetchedAt": "2026-10-19T23:21:00.617Z",
       "error": null
     },
     {
@@ -2830,7 +2834,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:16.807Z",
+      "fetchedAt": "2026-10-19T23:21:01.003Z",
       "error": null
     },
     {
@@ -2839,7 +2843,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-10-19T18:24:18.726Z",
+      "fetchedAt": "2026-10-19T23:21:01.048Z",
       "error": "HTTP 404"
     },
     {
@@ -2848,7 +2852,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-10-19T18:24:14.363Z",
+      "fetchedAt": "2026-10-19T23:21:00.358Z",
       "error": "HTTP 403"
     },
     {
@@ -2928,7 +2932,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:18.865Z",
+      "fetchedAt": "2026-10-19T23:21:01.160Z",
       "error": null
     },
     {
@@ -3001,7 +3005,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:18.923Z",
+      "fetchedAt": "2026-10-19T23:21:01.257Z",
       "error": null
     },
     {
@@ -3020,7 +3024,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:20.613Z",
+      "fetchedAt": "2026-10-19T23:21:01.213Z",
       "error": null
     },
     {
@@ -3075,7 +3079,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:19.360Z",
+      "fetchedAt": "2026-10-19T23:21:01.302Z",
       "error": null
     },
     {
@@ -3154,7 +3158,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:20.857Z",
+      "fetchedAt": "2026-10-19T23:21:01.381Z",
       "error": null
     },
     {
@@ -3219,7 +3223,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:20.747Z",
+      "fetchedAt": "2026-10-19T23:21:01.555Z",
       "error": null
     },
     {
@@ -3284,7 +3288,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CaVTnmljPOE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:20.779Z",
+      "fetchedAt": "2026-10-19T23:21:01.546Z",
       "error": null
     },
     {
@@ -3350,7 +3354,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/65a5WX2SGEU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:20.790Z",
+      "fetchedAt": "2026-10-19T23:21:01.474Z",
       "error": null
     },
     {
@@ -3415,7 +3419,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/VNiWjnRMh-o/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:20.969Z",
+      "fetchedAt": "2026-10-19T23:21:01.770Z",
       "error": null
     },
     {
@@ -3480,7 +3484,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/qxv35-44bQ8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:20.963Z",
+      "fetchedAt": "2026-10-19T23:21:01.763Z",
       "error": null
     },
     {
@@ -3546,7 +3550,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/_mD2_sc_xKo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:20.871Z",
+      "fetchedAt": "2026-10-19T23:21:01.748Z",
       "error": null
     },
     {
@@ -3612,7 +3616,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O25lx74yi-c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.016Z",
+      "fetchedAt": "2026-10-19T23:21:01.804Z",
       "error": null
     },
     {
@@ -3678,7 +3682,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/b6WafZq6xRI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.146Z",
+      "fetchedAt": "2026-10-19T23:21:02.024Z",
       "error": null
     },
     {
@@ -3687,6 +3691,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
       "items": [
+        {
+          "title": "AI Coded Authentication - The Token Validation Flaw You Should Know",
+          "link": "https://www.youtube.com/shorts/pL-rbblQawE",
+          "pubDate": "2026-10-19T19:12:07.000Z",
+          "summary": "Did you know relying on AI to write your authentication code could introduce critical security anti-patterns? In this clip, we break down how token validation and authorship flaws slip into production when developers rely on fast, \"vibe-coded\" AI solutions without strict verification. From internal ",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i1.ytimg.com/vi/pL-rbblQawE/hqdefault.jpg"
+        },
         {
           "title": "You Can Tell A Lot About the Month by the Number of Tabs | Patch Tuesday Support Group October 2026",
           "link": "https://www.youtube.com/watch?v=SDdHoPXZRkw",
@@ -3730,20 +3745,9 @@
           "type": "video",
           "videoId": "7nysTQUvRXU",
           "thumbnail": "https://i4.ytimg.com/vi/7nysTQUvRXU/hqdefault.jpg"
-        },
-        {
-          "title": "Are You Ahead of the Exploit Clock? How Attackers Weaponize New Patches",
-          "link": "https://www.youtube.com/watch?v=IutMQ_WKsX8",
-          "pubDate": "2026-09-18T15:02:02.000Z",
-          "summary": "When a software vendor drops a patch, the clock starts ticking. But did you know attackers are using that very patch to reverse-engineer exploits and target unpatched endpoints? In this video, we break down \"The Exploit Clock\"—the critical race between security updates and weaponized exploits. With ",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": "IutMQ_WKsX8",
-          "thumbnail": "https://i2.ytimg.com/vi/IutMQ_WKsX8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.207Z",
+      "fetchedAt": "2026-10-19T23:21:02.050Z",
       "error": null
     },
     {
@@ -3809,7 +3813,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/FuV_03Gc_2w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.204Z",
+      "fetchedAt": "2026-10-19T23:21:02.125Z",
       "error": null
     },
     {
@@ -3874,7 +3878,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hmqopmJBmeQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.140Z",
+      "fetchedAt": "2026-10-19T23:21:02.032Z",
       "error": null
     },
     {
@@ -3939,7 +3943,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O9mYrJSL72M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.330Z",
+      "fetchedAt": "2026-10-19T23:21:02.279Z",
       "error": null
     },
     {
@@ -4004,7 +4008,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.381Z",
+      "fetchedAt": "2026-10-19T23:21:02.408Z",
       "error": null
     },
     {
@@ -4069,7 +4073,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.290Z",
+      "fetchedAt": "2026-10-19T23:21:02.320Z",
       "error": null
     },
     {
@@ -4134,7 +4138,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.325Z",
+      "fetchedAt": "2026-10-19T23:21:02.324Z",
       "error": null
     },
     {
@@ -4199,7 +4203,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.489Z",
+      "fetchedAt": "2026-10-19T23:21:02.663Z",
       "error": null
     },
     {
@@ -4255,7 +4259,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:21.627Z",
+      "fetchedAt": "2026-10-19T23:21:09.735Z",
       "error": null
     },
     {
@@ -4265,7 +4269,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-19T18:24:21.834Z",
+      "fetchedAt": "2026-10-19T23:21:02.655Z",
       "error": null
     },
     {
@@ -4331,7 +4335,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:22.802Z",
+      "fetchedAt": "2026-10-19T23:21:04.254Z",
       "error": null
     },
     {
@@ -4387,7 +4391,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:22.857Z",
+      "fetchedAt": "2026-10-19T23:21:09.768Z",
       "error": null
     },
     {
@@ -4416,7 +4420,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:23.318Z",
+      "fetchedAt": "2026-10-19T23:21:10.009Z",
       "error": null
     },
     {
@@ -4472,7 +4476,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:22.854Z",
+      "fetchedAt": "2026-10-19T23:21:09.771Z",
       "error": null
     },
     {
@@ -4482,7 +4486,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-10-19T18:24:23.082Z",
+      "fetchedAt": "2026-10-19T23:21:10.246Z",
       "error": null
     },
     {
@@ -4538,7 +4542,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:23.339Z",
+      "fetchedAt": "2026-10-19T23:21:10.259Z",
       "error": null
     },
     {
@@ -4558,7 +4562,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:23.348Z",
+      "fetchedAt": "2026-10-19T23:21:10.294Z",
       "error": null
     },
     {
@@ -4573,6 +4577,15 @@
           "link": "https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/",
           "pubDate": null,
           "summary": "CVE-2026-20971 was a use-after-free bug in Samsung's Knox-related PROCA driver, showing how a flaw in a security feature can become an attack surface. Learn more about this already patched vulnerability and how to respond. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
+          "title": "Beyond model guardrails, part 3: when prevention fails",
+          "link": "https://www.jamf.com/blog/agentic-ai-security-input-trust-monitoring-recovery/",
+          "pubDate": null,
+          "summary": "Isolation and authorization limit the damage when an AI agent fails, but they can't stop it from misreading inputs. This final part covers how to treat retrieved content as untrusted, log agent activity independently and plan for recovery. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4603,18 +4616,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "CloudSyncD: a two-stage macOS backdoor that hides a phished password in zero-width Unicode",
-          "link": "https://www.jamf.com/blog/cloudsyncd-macos-backdoor-fake-zoom-installer/",
-          "pubDate": null,
-          "summary": "Jamf Threat Labs uncovers CloudSyncD, a fake Zoom installer disguised as a legitimate application that uses a phished login password to launch an embedded backdoor while concealing the credential inside a decoy configuration file. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:27.805Z",
+      "fetchedAt": "2026-10-19T23:21:14.729Z",
       "error": null
     },
     {
@@ -4670,7 +4674,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:24.239Z",
+      "fetchedAt": "2026-10-19T23:21:11.213Z",
       "error": null
     },
     {
@@ -4725,7 +4729,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:27.953Z",
+      "fetchedAt": "2026-10-19T23:21:14.790Z",
       "error": null
     },
     {
@@ -4780,7 +4784,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:27.962Z",
+      "fetchedAt": "2026-10-19T23:21:14.853Z",
       "error": null
     },
     {
@@ -4845,7 +4849,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-19T18:24:32.837Z",
+      "fetchedAt": "2026-10-19T23:21:16.607Z",
       "error": null
     }
   ]
