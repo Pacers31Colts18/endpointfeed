@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T09:09:23.649Z",
+  "generatedAt": "2026-10-21T16:42:55.383Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,70 +8,72 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Windows 11 KB5127936: Cloud rebuild, IPv6 CLAT, and DPAPI changes",
-          "link": "https://4sysops.com/archives/windows-11-kb5127936-cloud-rebuild-ipv6-clat-and-dpapi-changes/",
-          "pubDate": "2026-10-20T21:00:34.000Z",
-          "summary": "KB5127936 (builds 26200.9807 and 26300.9807) is now available in the Release Preview channel for Windows 11 versions 25H2 and 26H2. This preview build adds Cloud rebuild in WinRE, lets WinRE draw on saved Wi-Fi profiles, and brings IPv6 CLAT support for IPv6-only networks. It also signals the end of",
-          "author": "",
-          "categories": [
-            "Articles",
-            "Windows"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Interview with Google CEO Sundar Pichai about AI, computing and data centers in space",
-          "link": "https://4sysops.com/archives/interview-with-google-ceo-sundar-pichai-about-ai-computing-and-data-centers-in-space/",
-          "pubDate": "2026-10-20T20:45:55.000Z",
-          "summary": "Google CEO Sundar Pichai joins Alex Kantrowitz to discuss Google’s AI strategy, compute constraints, and emerging AI products. Pichai describes why Google continues to pursue frontier models while also developing smaller models for practical uses. The conversation explores AI safety, agent-based int",
+          "title": "OpenAI agents weakened the monitoring meant to watch them",
+          "link": "https://4sysops.com/archives/openai-agents-weakened-the-monitoring-meant-to-watch-them/",
+          "pubDate": "2026-10-21T10:11:28.000Z",
+          "summary": "Two OpenAI coding agents weakened the monitoring meant to watch them: one suppressed automatic alerts, while another removed a monitoring integration and later denied doing so. OpenAI says it has updated Auto-Review to block internal Codex agents from disabling misalignment monitoring and is working",
           "author": "",
           "categories": [
             "News",
             "AI",
-            "Cloud Computing",
-            "Google Cloud"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Gemini adds a small-business hub for branding and financial insights",
-          "link": "https://4sysops.com/archives/gemini-adds-a-small-business-hub-for-branding-and-financial-insights/",
-          "pubDate": "2026-10-20T18:11:04.000Z",
-          "summary": "Google is adding a business landing page to Gemini, bringing small-business marketing, finances, customer insights, and connected apps into one hub. The new tools begin rolling out globally to all Gemini app users in the coming days. Owners can save brand guidelines for consistent visuals and turn s",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Business Software"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Chrome Enhanced Protection now warns on ClickFix commands",
-          "link": "https://4sysops.com/archives/chrome-enhanced-protection-now-warns-on-clickfix-commands/",
-          "pubDate": "2026-10-20T18:11:03.000Z",
-          "summary": "Chrome’s Enhanced Protection can now detect ClickFix scams that trick users into copying and running malicious commands disguised as fixes. Chrome sends suspicious clipboard content to Safe Browsing after removing personally identifiable information, then warns users if a command is judged dangerous",
-          "author": "",
-          "categories": [
-            "News",
+            "Monitoring",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Voxtral 3 brings real-time voice agents and tool use to Mistral’s speech stack",
-          "link": "https://4sysops.com/archives/voxtral-3-brings-real-time-voice-agents-and-tool-use-to-mistrals-speech-stack/",
-          "pubDate": "2026-10-20T18:11:02.000Z",
-          "summary": "Mistral has launched Voxtral 3, a speech-model family and SDK for voice agents that can listen, reason, call tools, and speak in a live conversation. The stack combines transcription, speech generation, and a LiveKit-based SDK, letting agents handle tasks such as checking invoices or booking appoint",
+          "title": "OpenRouter says AI agent usage surged to 132.6 trillion tokens in a week",
+          "link": "https://4sysops.com/archives/openrouter-says-ai-agent-usage-surged-to-132-6-trillion-tokens-in-a-week/",
+          "pubDate": "2026-10-21T10:11:27.000Z",
+          "summary": "OpenRouter routes requests to AI models, and its latest figures show agent workflows driving far more token traffic than human users. For the week ending October 5, the company counted 132.6 trillion tokens from agents versus 17 trillion from people—about 7.8 times as much. The chart puts agent traf",
           "author": "",
           "categories": [
             "News",
             "AI"
           ],
           "type": "rss"
+        },
+        {
+          "title": "Meta pauses Muse sharing after researchers find 6,800 shared chat links",
+          "link": "https://4sysops.com/archives/meta-pauses-muse-sharing-after-researchers-find-6800-shared-chat-links/",
+          "pubDate": "2026-10-21T10:11:26.000Z",
+          "summary": "Meta has paused sharing in Muse after researchers found about 6,800 links to conversations users had chosen to share. The links could be discovered by people who weren’t given them directly; researchers opened a few hundred and found sensitive personal and business information. Source]]>",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Perplexity Computer now runs locally on Apple silicon Macs",
+          "link": "https://4sysops.com/archives/perplexity-computer-now-runs-locally-on-apple-silicon-macs/",
+          "pubDate": "2026-10-21T10:11:25.000Z",
+          "summary": "Perplexity Computer automates tasks across files and apps, and its Mac app can now run the AI model, planning, reasoning, and file processing entirely on supported Apple silicon Macs. The local mode uses Qwen 3.6 or PPLX Pro, keeping personal data on the device while running code and tools in isolat",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Mac"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Anthropic proposes bill to halt AI models posing imminent risk of 50+ deaths or $1B in damage",
+          "link": "https://4sysops.com/archives/anthropic-proposes-bill-to-halt-ai-models-posing-imminent-risk-of-50-deaths-or-1b-in-damage/",
+          "pubDate": "2026-10-21T10:11:24.000Z",
+          "summary": "Anthropic is pitching a bill that could block an AI model’s release when an independent evaluator finds an imminent risk of more than 50 deaths or $1 billion in damage. The proposal would require the evaluator to alert the Commerce Department within 72 hours. A federal judge—not an agency acting alo",
+          "author": "",
+          "categories": [
+            "News",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:08:59.626Z",
+      "fetchedAt": "2026-10-21T16:42:31.540Z",
       "error": null
     },
     {
@@ -136,7 +138,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:08:59.459Z",
+      "fetchedAt": "2026-10-21T16:42:31.740Z",
       "error": null
     },
     {
@@ -179,7 +181,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:00.174Z",
+      "fetchedAt": "2026-10-21T16:42:31.992Z",
       "error": null
     },
     {
@@ -265,7 +267,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:08:59.507Z",
+      "fetchedAt": "2026-10-21T16:42:31.403Z",
       "error": null
     },
     {
@@ -342,7 +344,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:00.792Z",
+      "fetchedAt": "2026-10-21T16:42:32.874Z",
       "error": null
     },
     {
@@ -419,7 +421,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:03.173Z",
+      "fetchedAt": "2026-10-21T16:42:34.314Z",
       "error": null
     },
     {
@@ -501,7 +503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:00.572Z",
+      "fetchedAt": "2026-10-21T16:42:32.494Z",
       "error": null
     },
     {
@@ -573,7 +575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:00.575Z",
+      "fetchedAt": "2026-10-21T16:42:32.539Z",
       "error": null
     },
     {
@@ -641,7 +643,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:03.728Z",
+      "fetchedAt": "2026-10-21T16:42:34.835Z",
       "error": null
     },
     {
@@ -712,7 +714,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:03.325Z",
+      "fetchedAt": "2026-10-21T16:42:34.671Z",
       "error": null
     },
     {
@@ -789,7 +791,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:04.278Z",
+      "fetchedAt": "2026-10-21T16:42:35.834Z",
       "error": null
     },
     {
@@ -799,7 +801,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-10-21T09:09:03.380Z",
+      "fetchedAt": "2026-10-21T16:42:34.660Z",
       "error": "HTTP 403"
     },
     {
@@ -873,7 +875,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:04.540Z",
+      "fetchedAt": "2026-10-21T16:42:36.241Z",
       "error": null
     },
     {
@@ -955,7 +957,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:04.432Z",
+      "fetchedAt": "2026-10-21T16:42:36.061Z",
       "error": null
     },
     {
@@ -1021,7 +1023,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:05.370Z",
+      "fetchedAt": "2026-10-21T16:42:37.313Z",
       "error": null
     },
     {
@@ -1091,7 +1093,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:04.589Z",
+      "fetchedAt": "2026-10-21T16:42:36.278Z",
       "error": null
     },
     {
@@ -1171,7 +1173,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:06.827Z",
+      "fetchedAt": "2026-10-21T16:42:38.546Z",
       "error": null
     },
     {
@@ -1226,7 +1228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:05.504Z",
+      "fetchedAt": "2026-10-21T16:42:37.579Z",
       "error": null
     },
     {
@@ -1291,7 +1293,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:05.738Z",
+      "fetchedAt": "2026-10-21T16:42:37.796Z",
       "error": null
     },
     {
@@ -1376,7 +1378,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:05.521Z",
+      "fetchedAt": "2026-10-21T16:42:37.649Z",
       "error": null
     },
     {
@@ -1449,7 +1451,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:07.561Z",
+      "fetchedAt": "2026-10-21T16:42:39.479Z",
       "error": null
     },
     {
@@ -1458,7 +1460,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-10-21T09:09:06.947Z",
+      "fetchedAt": "2026-10-21T16:42:38.717Z",
       "error": "HTTP 403"
     },
     {
@@ -1536,7 +1538,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:08.536Z",
+      "fetchedAt": "2026-10-21T16:42:40.483Z",
       "error": null
     },
     {
@@ -1545,7 +1547,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-21T09:09:07.302Z",
+      "fetchedAt": "2026-10-21T16:42:39.332Z",
       "error": "certificate has expired"
     },
     {
@@ -1616,7 +1618,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:09.221Z",
+      "fetchedAt": "2026-10-21T16:42:41.230Z",
       "error": null
     },
     {
@@ -1692,7 +1694,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:08.774Z",
+      "fetchedAt": "2026-10-21T16:42:40.914Z",
       "error": null
     },
     {
@@ -1758,7 +1760,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:09.306Z",
+      "fetchedAt": "2026-10-21T16:42:41.201Z",
       "error": null
     },
     {
@@ -1813,7 +1815,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:08.972Z",
+      "fetchedAt": "2026-10-21T16:42:41.011Z",
       "error": null
     },
     {
@@ -1886,7 +1888,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:09.591Z",
+      "fetchedAt": "2026-10-21T16:42:42.551Z",
       "error": null
     },
     {
@@ -1971,7 +1973,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:09.483Z",
+      "fetchedAt": "2026-10-21T16:42:41.400Z",
       "error": null
     },
     {
@@ -2050,7 +2052,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:11.280Z",
+      "fetchedAt": "2026-10-21T16:42:43.396Z",
       "error": null
     },
     {
@@ -2059,6 +2061,21 @@
       "type": "rss",
       "url": "https://krebsonsecurity.com/feed/",
       "items": [
+        {
+          "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+          "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+          "pubDate": "2026-10-21T15:26:07.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Latest Warnings",
+            "Security Tools",
+            "The Coming Storm",
+            "Time to Patch",
+            "CVE-2026-109618"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
           "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
@@ -2118,24 +2135,9 @@
             "Cyber Extortion Strategic Response"
           ],
           "type": "rss"
-        },
-        {
-          "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-          "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-          "pubDate": "2026-10-07T13:48:45.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "A Little Sunshine",
-            "Data Breaches",
-            "Ne'er-Do-Well News",
-            "Ransomware",
-            "The Coming Storm"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:09.687Z",
+      "fetchedAt": "2026-10-21T16:42:41.458Z",
       "error": null
     },
     {
@@ -2191,7 +2193,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:11.412Z",
+      "fetchedAt": "2026-10-21T16:42:43.523Z",
       "error": null
     },
     {
@@ -2277,7 +2279,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:12.506Z",
+      "fetchedAt": "2026-10-21T16:42:44.530Z",
       "error": null
     },
     {
@@ -2363,7 +2365,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:11.424Z",
+      "fetchedAt": "2026-10-21T16:42:43.574Z",
       "error": null
     },
     {
@@ -2447,7 +2449,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:11.466Z",
+      "fetchedAt": "2026-10-21T16:42:43.704Z",
       "error": null
     },
     {
@@ -2502,7 +2504,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:12.648Z",
+      "fetchedAt": "2026-10-21T16:42:44.800Z",
       "error": null
     },
     {
@@ -2567,7 +2569,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:12.766Z",
+      "fetchedAt": "2026-10-21T16:42:44.894Z",
       "error": null
     },
     {
@@ -2628,7 +2630,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:12.834Z",
+      "fetchedAt": "2026-10-21T16:42:44.976Z",
       "error": null
     },
     {
@@ -2684,7 +2686,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:13.315Z",
+      "fetchedAt": "2026-10-21T16:42:45.185Z",
       "error": null
     },
     {
@@ -2749,7 +2751,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:14.002Z",
+      "fetchedAt": "2026-10-21T16:42:45.658Z",
       "error": null
     },
     {
@@ -2830,7 +2832,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:14.931Z",
+      "fetchedAt": "2026-10-21T16:42:47.068Z",
       "error": null
     },
     {
@@ -2839,7 +2841,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-10-21T09:09:14.422Z",
+      "fetchedAt": "2026-10-21T16:42:46.236Z",
       "error": "HTTP 404"
     },
     {
@@ -2848,7 +2850,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-10-21T09:09:13.642Z",
+      "fetchedAt": "2026-10-21T16:42:45.364Z",
       "error": "HTTP 403"
     },
     {
@@ -2928,7 +2930,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.076Z",
+      "fetchedAt": "2026-10-21T16:42:47.243Z",
       "error": null
     },
     {
@@ -3001,7 +3003,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.152Z",
+      "fetchedAt": "2026-10-21T16:42:47.297Z",
       "error": null
     },
     {
@@ -3020,7 +3022,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.280Z",
+      "fetchedAt": "2026-10-21T16:42:47.375Z",
       "error": null
     },
     {
@@ -3075,7 +3077,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.371Z",
+      "fetchedAt": "2026-10-21T16:42:47.486Z",
       "error": null
     },
     {
@@ -3154,7 +3156,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.597Z",
+      "fetchedAt": "2026-10-21T16:42:47.659Z",
       "error": null
     },
     {
@@ -3219,7 +3221,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.644Z",
+      "fetchedAt": "2026-10-21T16:42:47.645Z",
       "error": null
     },
     {
@@ -3284,7 +3286,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CaVTnmljPOE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.552Z",
+      "fetchedAt": "2026-10-21T16:42:47.675Z",
       "error": null
     },
     {
@@ -3350,7 +3352,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/65a5WX2SGEU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.535Z",
+      "fetchedAt": "2026-10-21T16:42:47.692Z",
       "error": null
     },
     {
@@ -3359,6 +3361,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5CI6Etl3fmyhcmxovhowtw",
       "items": [
+        {
+          "title": "Can Your Follower Count Get You Cast? | Jon Dore #podcast",
+          "link": "https://www.youtube.com/shorts/c9fxcT2r6wo",
+          "pubDate": "2026-10-21T10:24:18.000Z",
+          "summary": "I had the pleasure of interviewing actor and comedian @tvsjondore on the @5bytespodcast He shared insights on how reach on social media can play a role in the studio casting process. To view the full episode: https://youtu.be/4hFE1ZF2Jl8",
+          "author": "5bytespodcast",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/c9fxcT2r6wo/hqdefault.jpg"
+        },
         {
           "title": "Talkin' Tech with: Jon Dore",
           "link": "https://www.youtube.com/watch?v=4hFE1ZF2Jl8",
@@ -3402,20 +3415,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/hfuUZgI92dw/hqdefault.jpg"
-        },
-        {
-          "title": "Azure Prices Soar, Windows 11 Bugs & Major Data Breaches",
-          "link": "https://www.youtube.com/watch?v=K9si1fuF12A",
-          "pubDate": "2026-10-12T21:13:13.000Z",
-          "summary": "On this episode: Microsoft is hitting Azure customers with some significant price increases, including a 17% jump for certain services in its Dublin region. Windows 11 is causing even more problems, the Netherlands is working on a Linux-based alternative to Microsoft software, and a massive data bre",
-          "author": "5bytespodcast",
-          "categories": [],
-          "type": "video",
-          "videoId": "K9si1fuF12A",
-          "thumbnail": "https://i4.ytimg.com/vi/K9si1fuF12A/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.765Z",
+      "fetchedAt": "2026-10-21T16:42:47.962Z",
       "error": null
     },
     {
@@ -3424,6 +3426,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb9SI6Qyx82z9ZAkIk5c8UQ",
       "items": [
+        {
+          "title": "Extending Entra ID with Operational Groups",
+          "link": "https://www.youtube.com/watch?v=kA-DsNR7pEc",
+          "pubDate": "2026-10-21T12:19:28.000Z",
+          "summary": "Nathan reveals his innovative \"operational groups\" automation technique that helps classify users by authentication methods, enabling granular security controls without manual effort. The episode also covers authentication methods migration strategies, extension attributes, and modern cloud automati",
+          "author": "Merill Fernando",
+          "categories": [],
+          "type": "video",
+          "videoId": "kA-DsNR7pEc",
+          "thumbnail": "https://i4.ytimg.com/vi/kA-DsNR7pEc/hqdefault.jpg"
+        },
         {
           "title": "How One Stolen App Credential Opened 173+ Microsoft 365 Tenants",
           "link": "https://www.youtube.com/watch?v=Q36aL_HIS2w",
@@ -3467,20 +3480,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/ZtyJzXoQQSI/hqdefault.jpg"
-        },
-        {
-          "title": "How Entra Global Secure Access Works in 30 Seconds",
-          "link": "https://www.youtube.com/shorts/qxv35-44bQ8",
-          "pubDate": "2026-10-09T23:15:32.000Z",
-          "summary": "What does the Global Secure Access client actually do? Alex Pavlovsky (Microsoft Entra PM) explains: it sits on the device, watches the traffic, and sends it to Microsoft's edge where your policies apply. From Entra.Chat episode 77 with Alex Pavlovsky and Marilee Turscak (Microsoft Entra). https://e",
-          "author": "Merill Fernando",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/qxv35-44bQ8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.819Z",
+      "fetchedAt": "2026-10-21T16:42:47.983Z",
       "error": null
     },
     {
@@ -3490,6 +3492,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAmbRekXkFXq4kdbH5KTIYw",
       "items": [
+        {
+          "title": "Livestream Recording: Windows Autopilot Deep Dive with Steve and Dean",
+          "link": "https://www.youtube.com/watch?v=Bzs1rYxgn34",
+          "pubDate": "2026-10-21T15:27:21.000Z",
+          "summary": "**Re-uploaded with full-screen visible!** Join Steve Weiner and Dean Ellerby as they go deep on Windows Autopilot",
+          "author": "Dean Ellerby MVP",
+          "categories": [],
+          "type": "video",
+          "videoId": "Bzs1rYxgn34",
+          "thumbnail": "https://i3.ytimg.com/vi/Bzs1rYxgn34/hqdefault.jpg"
+        },
         {
           "title": "Windows Autopilot Deep Dive - With Dean Ellerby & Steve Weiner",
           "link": "https://www.youtube.com/watch?v=-4cRco4SWaI",
@@ -3533,20 +3546,9 @@
           "type": "video",
           "videoId": "HOtYPQ9jsPc",
           "thumbnail": "https://i1.ytimg.com/vi/HOtYPQ9jsPc/hqdefault.jpg"
-        },
-        {
-          "title": "How to try Robopack for free!",
-          "link": "https://www.youtube.com/watch?v=_mD2_sc_xKo",
-          "pubDate": "2026-10-01T17:35:25.000Z",
-          "summary": "Robopack now has a new interactive Sandbox, giving you a way to explore the platform without connecting your real Microsoft Intune environment first. In this video I take you through the new Sandbox experience, why we built it, and how it gives you a hands-on look at Robopack before committing to a ",
-          "author": "Dean Ellerby MVP",
-          "categories": [],
-          "type": "video",
-          "videoId": "_mD2_sc_xKo",
-          "thumbnail": "https://i4.ytimg.com/vi/_mD2_sc_xKo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.763Z",
+      "fetchedAt": "2026-10-21T16:42:47.975Z",
       "error": null
     },
     {
@@ -3612,7 +3614,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/O25lx74yi-c/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.698Z",
+      "fetchedAt": "2026-10-21T16:42:47.954Z",
       "error": null
     },
     {
@@ -3678,7 +3680,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/b6WafZq6xRI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.838Z",
+      "fetchedAt": "2026-10-21T16:42:48.259Z",
       "error": null
     },
     {
@@ -3687,6 +3689,28 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
       "items": [
+        {
+          "title": "M365 Outlook Preview Pane Vulnerability - Patch All Your Office Apps",
+          "link": "https://www.youtube.com/shorts/E-mzHRaXzl4",
+          "pubDate": "2026-10-21T15:00:03.000Z",
+          "summary": "Think you're safe as long as you don't click suspicious links in an email? Think again. A critical vulnerability across Microsoft 365 and Office Outlook apps allows attackers to execute code simply by triggering the Outlook preview pane. No link clicks, no attachments opened—just expanding the email",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i2.ytimg.com/vi/E-mzHRaXzl4/hqdefault.jpg"
+        },
+        {
+          "title": "The Paperclip Problem - How AI Can Pursue the Wrong Goal",
+          "link": "https://www.youtube.com/shorts/ZL2wu17n_eM",
+          "pubDate": "2026-10-21T14:30:22.000Z",
+          "summary": "What happens when you tell an artificial intelligence to optimize a simple task like making paperclips? In this clip, we break down Nick Bostrom’s famous \"Paperclip Maximizer\" thought experiment: an AI tasked with making the world's most efficient paperclip factory realizes it needs unlimited alumin",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/ZL2wu17n_eM/hqdefault.jpg"
+        },
         {
           "title": "When AI Can Rebuild Software, What Happens to Adobe and Microsoft?",
           "link": "https://www.youtube.com/shorts/doUVJI9SQU0",
@@ -3719,31 +3743,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/pL-rbblQawE/hqdefault.jpg"
-        },
-        {
-          "title": "You Can Tell A Lot About the Month by the Number of Tabs | Patch Tuesday Support Group October 2026",
-          "link": "https://www.youtube.com/watch?v=SDdHoPXZRkw",
-          "pubDate": "2026-10-16T20:13:52.000Z",
-          "summary": "Welcome to the Patch Tuesday Support Group for October 2026! Join Bryan Dam and Jordan Benzing as they break down a record-setting month featuring 1,260 total monthly vulnerabilities across 75 Microsoft Knowledge Base (KB) releases. We examine what IT administrators and systems engineers need to kno",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": "SDdHoPXZRkw",
-          "thumbnail": "https://i4.ytimg.com/vi/SDdHoPXZRkw/hqdefault.jpg"
-        },
-        {
-          "title": "Modernize without Starting Over - PSADT & App Migration Explained",
-          "link": "https://www.youtube.com/watch?v=LbpJofpBLgo",
-          "pubDate": "2026-09-29T21:05:30.000Z",
-          "summary": "Spent decades building your application catalog in Configuration Manager (ConfigMgr / SCCM)? Moving everything to Microsoft Intune doesn't have to mean starting from scratch or tracking down lost source content from years ago. In this video, discover how Patch My PC Enterprise Premium bridges Publis",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": "LbpJofpBLgo",
-          "thumbnail": "https://i1.ytimg.com/vi/LbpJofpBLgo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.992Z",
+      "fetchedAt": "2026-10-21T16:42:48.193Z",
       "error": null
     },
     {
@@ -3809,7 +3811,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0HNIu_xscek/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.963Z",
+      "fetchedAt": "2026-10-21T16:42:48.195Z",
       "error": null
     },
     {
@@ -3874,7 +3876,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hmqopmJBmeQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:15.837Z",
+      "fetchedAt": "2026-10-21T16:42:48.213Z",
       "error": null
     },
     {
@@ -3939,7 +3941,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/EG4NE2mjmQA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:16.108Z",
+      "fetchedAt": "2026-10-21T16:42:48.476Z",
       "error": null
     },
     {
@@ -4004,7 +4006,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:16.109Z",
+      "fetchedAt": "2026-10-21T16:42:48.444Z",
       "error": null
     },
     {
@@ -4069,7 +4071,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:16.077Z",
+      "fetchedAt": "2026-10-21T16:42:48.524Z",
       "error": null
     },
     {
@@ -4134,7 +4136,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:16.217Z",
+      "fetchedAt": "2026-10-21T16:42:48.481Z",
       "error": null
     },
     {
@@ -4199,7 +4201,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:16.233Z",
+      "fetchedAt": "2026-10-21T16:42:48.694Z",
       "error": null
     },
     {
@@ -4237,6 +4239,15 @@
           "type": "official"
         },
         {
+          "title": "Registration Is Open for NerdioCon 2027",
+          "link": "https://getnerdio.com/blog/registration-is-open-for-nerdiocon-2027/",
+          "pubDate": "2026-10-21T14:32:32.000Z",
+          "summary": "Registration Is Open for NerdioCon 2027 October 21, 2026 | 4 min read Registration for NerdioCon 2027 is officially open.… The post Registration Is Open for NerdioCon 2027 appeared first on Nerdio. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
+        {
           "title": "Simplifying Azure Virtual Desktop (AVD) for Hybrid Environments with Nerdio and Nutanix​",
           "link": "https://getnerdio.com/on-demand-webinar/simplifying-azure-virtual-desktop-avd-for-hybrid-environments-with-nerdio-and-nutanix/",
           "pubDate": "2026-10-20T22:10:01.000Z",
@@ -4244,18 +4255,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Nerdio Manager for Enterprise: what’s new and what’s next (Q3 2026)",
-          "link": "https://getnerdio.com/on-demand-webinar/nerdio-manager-for-enterprise-whats-new-and-whats-next-q3-2026/",
-          "pubDate": "2026-10-14T20:49:32.000Z",
-          "summary": "Watch for free Nerdio Manager for Enterprise: what’s new and what’s next About the webinar Over the past quarter, Nerdio… The post Nerdio Manager for Enterprise: what’s new and what’s next (Q3 2026) appeared first on Nerdio. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:17.998Z",
+      "fetchedAt": "2026-10-21T16:42:48.755Z",
       "error": null
     },
     {
@@ -4265,7 +4267,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-21T09:09:16.318Z",
+      "fetchedAt": "2026-10-21T16:42:48.837Z",
       "error": null
     },
     {
@@ -4331,7 +4333,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:18.089Z",
+      "fetchedAt": "2026-10-21T16:42:49.879Z",
       "error": null
     },
     {
@@ -4387,7 +4389,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:18.160Z",
+      "fetchedAt": "2026-10-21T16:42:49.908Z",
       "error": null
     },
     {
@@ -4401,7 +4403,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-10-13T23:33:00.000Z",
-          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4416,7 +4418,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:18.443Z",
+      "fetchedAt": "2026-10-21T16:42:50.229Z",
       "error": null
     },
     {
@@ -4472,7 +4474,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:18.163Z",
+      "fetchedAt": "2026-10-21T16:42:49.901Z",
       "error": null
     },
     {
@@ -4482,7 +4484,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-10-21T09:09:18.540Z",
+      "fetchedAt": "2026-10-21T16:42:50.085Z",
       "error": null
     },
     {
@@ -4538,7 +4540,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:18.555Z",
+      "fetchedAt": "2026-10-21T16:42:50.242Z",
       "error": null
     },
     {
@@ -4558,7 +4560,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:18.573Z",
+      "fetchedAt": "2026-10-21T16:42:50.279Z",
       "error": null
     },
     {
@@ -4568,6 +4570,15 @@
       "badge": "JAMF Software",
       "url": "https://www.jamf.com/blog/rss/",
       "items": [
+        {
+          "title": "How Jamf and Teqtivity work together for end-to-end zero-touch device onboarding",
+          "link": "https://www.jamf.com/blog/zero-touch-device-onboarding-workflow-with-jamf/",
+          "pubDate": null,
+          "summary": "Simplify your device onboarding with Jamf and Teqtivity. ]]>",
+          "author": "",
+          "categories": [],
+          "type": "official"
+        },
         {
           "title": "When security logic becomes an attack surface: lessons from CVE-2026-20971",
           "link": "https://www.jamf.com/blog/cve-2026-20971-samsung-knox-proca-vulnerability/",
@@ -4603,18 +4614,9 @@
           "author": "",
           "categories": [],
           "type": "official"
-        },
-        {
-          "title": "Commercial spyware: the invisible threat in your pocket",
-          "link": "https://www.jamf.com/blog/what-is-commercial-spyware/",
-          "pubDate": null,
-          "summary": "Commercial spyware — from nation-state tools to consumer stalkerware — can silently compromise mobile devices and expose sensitive data without any visible sign of infection. Learn more. ]]>",
-          "author": "",
-          "categories": [],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:22.888Z",
+      "fetchedAt": "2026-10-21T16:42:54.719Z",
       "error": null
     },
     {
@@ -4670,7 +4672,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:19.302Z",
+      "fetchedAt": "2026-10-21T16:42:51.265Z",
       "error": null
     },
     {
@@ -4725,7 +4727,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:23.057Z",
+      "fetchedAt": "2026-10-21T16:42:54.847Z",
       "error": null
     },
     {
@@ -4780,7 +4782,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:22.999Z",
+      "fetchedAt": "2026-10-21T16:42:54.828Z",
       "error": null
     },
     {
@@ -4845,7 +4847,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-21T09:09:23.649Z",
+      "fetchedAt": "2026-10-21T16:42:55.383Z",
       "error": null
     }
   ]
