@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:43:33.835Z",
+  "generatedAt": "2026-10-22T22:59:09.244Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,71 +8,72 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "ChatGPT Locked Chats can hide conversations",
-          "link": "https://4sysops.com/archives/chatgpt-locked-chats-can-hide-conversations/",
-          "pubDate": "2026-10-22T15:59:07.000Z",
-          "summary": "OpenAI is rolling out Locked Chats for ChatGPT on the web, iOS, and Android, moving selected conversations out of regular history and search behind a PIN or supported mobile biometrics. There’s an important catch: changing a PIN preserves locked chats, but resetting a forgotten one permanently delet",
+          "title": "Azure RBAC, Policy, and locks stop different changes—and return different errors",
+          "link": "https://4sysops.com/archives/azure-rbac-policy-and-locks-stop-different-changes-and-return-different-errors/",
+          "pubDate": "2026-10-22T20:52:25.000Z",
+          "summary": "Azure RBAC, Azure Policy, and resource locks can all block Azure management requests, but they enforce different rules. A practical test shows how to identify which control denied an operation: RBAC returns `AuthorizationFailed`, Policy returns `RequestDisallowedByPolicy`, and locks return `ScopeLoc",
+          "author": "",
+          "categories": [
+            "News",
+            "Azure",
+            "Cloud Computing",
+            "PowerShell"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "OpenAI opens Decisions API as Jev decision-model competition heats up",
+          "link": "https://4sysops.com/archives/openai-opens-decisions-api-as-jev-decision-model-competition-heats-up/",
+          "pubDate": "2026-10-22T20:52:24.000Z",
+          "summary": "OpenAI has made its Decisions API available to all customers, offering a faster, lower-cost way for software to choose among options and return a confidence rating. The API uses a speed-optimized version of ChatGPT Luna, with voice and image capabilities in the public release. OpenAI says inference ",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "Testing Cloudflare’s security skill against AI-written code",
+          "link": "https://4sysops.com/archives/testing-cloudflares-security-skill-against-ai-written-code/",
+          "pubDate": "2026-10-22T20:52:23.000Z",
+          "summary": "Rob Shocks compares Cloudflare’s open-source security-audit skill with Gitleaks, Trivy, Claude Code’s security review, and a plain AI prompt using a deliberately vulnerable app. Cloudflare’s skill found all six planted flaws, while the other approaches found some but missed issues outside their scop",
           "author": "",
           "categories": [
             "News",
             "AI",
+            "DevOps",
             "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "PHP flaw sends government websites across Europe and Canada offline",
-          "link": "https://4sysops.com/archives/php-flaw-sends-government-websites-across-europe-and-canada-offline/",
-          "pubDate": "2026-10-22T14:12:17.000Z",
-          "summary": "Government websites across Europe and Canada went offline as operators responded to two critical PHP vulnerabilities, with the fix arriving Wednesday after reports of attacks. The shutdowns were precautionary, but PHP developers warned that users should update promptly, and WordPress sites will not ",
+          "title": "How AI can become smarter without human-generated knowledge using synthetic data",
+          "link": "https://4sysops.com/archives/how-ai-can-become-smarter-without-human-generated-knowledge-using-synthetic-data/",
+          "pubDate": "2026-10-22T20:12:06.000Z",
+          "summary": "Geoffrey Hinton, a pioneering AI scientist whose work on neural networks helped lay the foundations of modern AI and who shared the 2024 Nobel Prize in Physics, discusses AI’s potential to learn beyond human-written material. Source]]>",
           "author": "",
           "categories": [
             "News",
-            "Security",
-            "Web"
+            "AI"
           ],
           "type": "rss"
         },
         {
-          "title": "The PHP Foundation knew about the PHP2Shell flaw for nearly two years",
-          "link": "https://4sysops.com/archives/the-php-foundation-knew-about-the-php2shell-flaw-for-nearly-two-years/",
-          "pubDate": "2026-10-22T13:51:07.000Z",
-          "summary": "The PHP Foundation says PHP developers identified or theorized the flaw in 2024, but it remained unfixed until October 2026. The PHP Foundation says limited funding, scarce developer time, and internal delays left critical flaw CVE-2026-109618 unresolved for nearly two years. The bug was one of two ",
+          "title": "Teams Efficiency Mode cuts startup time by 20% on older PCs",
+          "link": "https://4sysops.com/archives/teams-efficiency-mode-cuts-startup-time-by-20-on-older-pcs/",
+          "pubDate": "2026-10-22T18:53:38.000Z",
+          "summary": "Microsoft Teams can now start up to 20% faster on hardware-constrained PCs with Efficiency Mode, while its Android app is 40% more responsive than it was a year ago. The mode turns on by default on devices with older processors and 8 GB of RAM or less, and users can also switch it on or off in setti",
           "author": "",
           "categories": [
             "News",
-            "Security",
-            "Web"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Free PHP2Shell scanner tests hosts with live probes",
-          "link": "https://4sysops.com/archives/free-php2shell-scanner-tests-hosts-with-live-probes/",
-          "pubDate": "2026-10-22T13:51:06.000Z",
-          "summary": "Searchlight Cyber’s free, open-source php2shell-scanner checks whether a host is exposed to the PHP2Shell flaws, which PHP patched on October 21. Rather than relying only on the PHP version advertised by a server, it sends targeted requests to test whether the vulnerable behavior can be triggered. T",
-          "author": "",
-          "categories": [
-            "News",
-            "Security"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Action State launches offline verification tools for AI agent transactions",
-          "link": "https://4sysops.com/archives/action-state-launches-offline-verification-tools-for-ai-agent-transactions/",
-          "pubDate": "2026-10-22T13:51:05.000Z",
-          "summary": "Action State is launching open-source tools to help organizations independently check records of transactions between AI agents. EvidenceBook stores signed records, Terms Packs evaluate work against defined rules, and Countersign checks evidence bundles. The tools can help counterparties compare rec",
-          "author": "",
-          "categories": [
-            "News",
-            "AI",
-            "Security"
+            "Business Software",
+            "Mobile"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:06.161Z",
+      "fetchedAt": "2026-10-22T22:58:45.730Z",
       "error": null
     },
     {
@@ -137,7 +138,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:06.154Z",
+      "fetchedAt": "2026-10-22T22:58:45.756Z",
       "error": null
     },
     {
@@ -180,7 +181,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:06.463Z",
+      "fetchedAt": "2026-10-22T22:58:46.124Z",
       "error": null
     },
     {
@@ -266,7 +267,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:06.081Z",
+      "fetchedAt": "2026-10-22T22:58:45.581Z",
       "error": null
     },
     {
@@ -343,7 +344,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:07.205Z",
+      "fetchedAt": "2026-10-22T22:58:46.889Z",
       "error": null
     },
     {
@@ -420,7 +421,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:09.718Z",
+      "fetchedAt": "2026-10-22T22:58:47.903Z",
       "error": null
     },
     {
@@ -502,7 +503,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:06.757Z",
+      "fetchedAt": "2026-10-22T22:58:46.620Z",
       "error": null
     },
     {
@@ -574,7 +575,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:06.754Z",
+      "fetchedAt": "2026-10-22T22:58:46.629Z",
       "error": null
     },
     {
@@ -642,7 +643,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:10.723Z",
+      "fetchedAt": "2026-10-22T22:58:48.352Z",
       "error": null
     },
     {
@@ -713,7 +714,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:09.815Z",
+      "fetchedAt": "2026-10-22T22:58:48.009Z",
       "error": null
     },
     {
@@ -790,7 +791,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:10.508Z",
+      "fetchedAt": "2026-10-22T22:58:49.696Z",
       "error": null
     },
     {
@@ -800,7 +801,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-10-22T16:43:09.852Z",
+      "fetchedAt": "2026-10-22T22:58:48.077Z",
       "error": "HTTP 403"
     },
     {
@@ -874,7 +875,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:11.026Z",
+      "fetchedAt": "2026-10-22T22:58:50.021Z",
       "error": null
     },
     {
@@ -956,7 +957,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:10.790Z",
+      "fetchedAt": "2026-10-22T22:58:49.901Z",
       "error": null
     },
     {
@@ -1022,7 +1023,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:11.598Z",
+      "fetchedAt": "2026-10-22T22:58:51.059Z",
       "error": null
     },
     {
@@ -1092,7 +1093,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:10.856Z",
+      "fetchedAt": "2026-10-22T22:58:50.153Z",
       "error": null
     },
     {
@@ -1172,7 +1173,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:12.425Z",
+      "fetchedAt": "2026-10-22T22:58:52.097Z",
       "error": null
     },
     {
@@ -1227,7 +1228,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:11.692Z",
+      "fetchedAt": "2026-10-22T22:58:51.365Z",
       "error": null
     },
     {
@@ -1292,7 +1293,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:11.911Z",
+      "fetchedAt": "2026-10-22T22:58:51.519Z",
       "error": null
     },
     {
@@ -1377,7 +1378,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:11.710Z",
+      "fetchedAt": "2026-10-22T22:58:51.457Z",
       "error": null
     },
     {
@@ -1450,7 +1451,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:12.988Z",
+      "fetchedAt": "2026-10-22T22:58:53.007Z",
       "error": null
     },
     {
@@ -1459,7 +1460,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-10-22T16:43:12.576Z",
+      "fetchedAt": "2026-10-22T22:58:52.260Z",
       "error": "HTTP 403"
     },
     {
@@ -1537,7 +1538,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:13.939Z",
+      "fetchedAt": "2026-10-22T22:58:54.003Z",
       "error": null
     },
     {
@@ -1546,7 +1547,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-22T16:43:12.765Z",
+      "fetchedAt": "2026-10-22T22:58:52.634Z",
       "error": "certificate has expired"
     },
     {
@@ -1617,7 +1618,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:14.443Z",
+      "fetchedAt": "2026-10-22T22:58:54.837Z",
       "error": null
     },
     {
@@ -1693,7 +1694,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:14.228Z",
+      "fetchedAt": "2026-10-22T22:58:54.574Z",
       "error": null
     },
     {
@@ -1759,7 +1760,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:16.361Z",
+      "fetchedAt": "2026-10-22T22:58:54.804Z",
       "error": null
     },
     {
@@ -1814,7 +1815,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:14.372Z",
+      "fetchedAt": "2026-10-22T22:58:54.648Z",
       "error": null
     },
     {
@@ -1887,7 +1888,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:16.516Z",
+      "fetchedAt": "2026-10-22T22:58:55.891Z",
       "error": null
     },
     {
@@ -1972,7 +1973,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:16.438Z",
+      "fetchedAt": "2026-10-22T22:58:55.088Z",
       "error": null
     },
     {
@@ -2051,7 +2052,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:18.084Z",
+      "fetchedAt": "2026-10-22T22:58:57.133Z",
       "error": null
     },
     {
@@ -2136,7 +2137,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:16.523Z",
+      "fetchedAt": "2026-10-22T22:58:55.165Z",
       "error": null
     },
     {
@@ -2192,7 +2193,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:18.317Z",
+      "fetchedAt": "2026-10-22T22:58:57.295Z",
       "error": null
     },
     {
@@ -2278,7 +2279,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:19.840Z",
+      "fetchedAt": "2026-10-22T22:58:58.565Z",
       "error": null
     },
     {
@@ -2364,7 +2365,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:18.193Z",
+      "fetchedAt": "2026-10-22T22:58:57.344Z",
       "error": null
     },
     {
@@ -2448,7 +2449,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:18.203Z",
+      "fetchedAt": "2026-10-22T22:58:57.468Z",
       "error": null
     },
     {
@@ -2503,7 +2504,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:22.309Z",
+      "fetchedAt": "2026-10-22T22:58:58.715Z",
       "error": null
     },
     {
@@ -2568,7 +2569,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:20.159Z",
+      "fetchedAt": "2026-10-22T22:58:58.741Z",
       "error": null
     },
     {
@@ -2629,7 +2630,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:20.259Z",
+      "fetchedAt": "2026-10-22T22:58:59.008Z",
       "error": null
     },
     {
@@ -2685,7 +2686,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:20.568Z",
+      "fetchedAt": "2026-10-22T22:58:59.131Z",
       "error": null
     },
     {
@@ -2750,7 +2751,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:22.683Z",
+      "fetchedAt": "2026-10-22T22:58:59.682Z",
       "error": null
     },
     {
@@ -2831,7 +2832,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:22.860Z",
+      "fetchedAt": "2026-10-22T22:59:00.135Z",
       "error": null
     },
     {
@@ -2840,7 +2841,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-10-22T16:43:23.099Z",
+      "fetchedAt": "2026-10-22T22:59:00.225Z",
       "error": "HTTP 404"
     },
     {
@@ -2849,7 +2850,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-10-22T16:43:22.567Z",
+      "fetchedAt": "2026-10-22T22:58:59.527Z",
       "error": "HTTP 403"
     },
     {
@@ -2929,7 +2930,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.168Z",
+      "fetchedAt": "2026-10-22T22:59:00.413Z",
       "error": null
     },
     {
@@ -3002,7 +3003,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.254Z",
+      "fetchedAt": "2026-10-22T22:59:00.459Z",
       "error": null
     },
     {
@@ -3021,7 +3022,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.323Z",
+      "fetchedAt": "2026-10-22T22:59:00.381Z",
       "error": null
     },
     {
@@ -3076,7 +3077,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.540Z",
+      "fetchedAt": "2026-10-22T22:59:00.665Z",
       "error": null
     },
     {
@@ -3157,7 +3158,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.706Z",
+      "fetchedAt": "2026-10-22T22:59:01.027Z",
       "error": null
     },
     {
@@ -3222,7 +3223,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.820Z",
+      "fetchedAt": "2026-10-22T22:59:00.831Z",
       "error": null
     },
     {
@@ -3287,7 +3288,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CaVTnmljPOE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.654Z",
+      "fetchedAt": "2026-10-22T22:59:01.174Z",
       "error": null
     },
     {
@@ -3353,7 +3354,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/65a5WX2SGEU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.701Z",
+      "fetchedAt": "2026-10-22T22:59:00.870Z",
       "error": null
     },
     {
@@ -3418,7 +3419,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hfuUZgI92dw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.910Z",
+      "fetchedAt": "2026-10-22T22:59:01.328Z",
       "error": null
     },
     {
@@ -3483,7 +3484,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/neIIq24e95w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.934Z",
+      "fetchedAt": "2026-10-22T22:59:01.345Z",
       "error": null
     },
     {
@@ -3549,7 +3550,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HOtYPQ9jsPc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.926Z",
+      "fetchedAt": "2026-10-22T22:59:01.371Z",
       "error": null
     },
     {
@@ -3615,7 +3616,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/sZWXFvk0Nv8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:23.937Z",
+      "fetchedAt": "2026-10-22T22:59:01.363Z",
       "error": null
     },
     {
@@ -3681,7 +3682,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/b6WafZq6xRI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.034Z",
+      "fetchedAt": "2026-10-22T22:59:01.382Z",
       "error": null
     },
     {
@@ -3690,6 +3691,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
       "items": [
+        {
+          "title": "Microsoft NTLMv1 Change Disrupts Wi Fi Authentication",
+          "link": "https://www.youtube.com/shorts/K4xO7CjZ910",
+          "pubDate": "2026-10-22T19:45:24.000Z",
+          "summary": "Did your corporate Wi-Fi suddenly stop authenticating today? You’re not alone. Microsoft released an urgent message center notice confirming that their planned rollout to disable NTLMv1 has officially landed—and it’s immediately catching IT admins and end devices off guard. The change impacts Wi-Fi ",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i4.ytimg.com/vi/K4xO7CjZ910/hqdefault.jpg"
+        },
         {
           "title": "Citrix NetScaler Exploit: Attacked BEFORE the Patch!",
           "link": "https://www.youtube.com/shorts/DNu1wcVv2Is",
@@ -3733,20 +3745,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/doUVJI9SQU0/hqdefault.jpg"
-        },
-        {
-          "title": "Chrome v155 Fixes 247 Vulnerabilities - What to Patch Now",
-          "link": "https://www.youtube.com/shorts/3vCBQFDOA1E",
-          "pubDate": "2026-10-20T14:30:23.000Z",
-          "summary": "Google Chrome just addressed 247 vulnerabilities in a single update (version 155), impacting everything from browsing to PDFs and SVG rendering! But Chrome isn’t the only critical target this month—Zoom and Adobe also rolled out urgent fixes for major vulnerabilities and privilege escalation risks. ",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i4.ytimg.com/vi/3vCBQFDOA1E/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.049Z",
+      "fetchedAt": "2026-10-22T22:59:01.794Z",
       "error": null
     },
     {
@@ -3812,7 +3813,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5pwd-ELanIo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.050Z",
+      "fetchedAt": "2026-10-22T22:59:01.628Z",
       "error": null
     },
     {
@@ -3877,7 +3878,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/R9g23OJ4niI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.036Z",
+      "fetchedAt": "2026-10-22T22:59:01.626Z",
       "error": null
     },
     {
@@ -3942,7 +3943,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OjrATmBO8UE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.061Z",
+      "fetchedAt": "2026-10-22T22:59:01.959Z",
       "error": null
     },
     {
@@ -4007,7 +4008,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.155Z",
+      "fetchedAt": "2026-10-22T22:59:02.029Z",
       "error": null
     },
     {
@@ -4072,7 +4073,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.144Z",
+      "fetchedAt": "2026-10-22T22:59:01.943Z",
       "error": null
     },
     {
@@ -4137,7 +4138,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.161Z",
+      "fetchedAt": "2026-10-22T22:59:01.982Z",
       "error": null
     },
     {
@@ -4202,7 +4203,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:24.258Z",
+      "fetchedAt": "2026-10-22T22:59:02.255Z",
       "error": null
     },
     {
@@ -4240,25 +4241,25 @@
           "type": "official"
         },
         {
-          "title": "Registration Is Open for NerdioCon 2027",
-          "link": "https://getnerdio.com/blog/registration-is-open-for-nerdiocon-2027/",
-          "pubDate": "2026-10-21T14:32:32.000Z",
-          "summary": "Registration Is Open for NerdioCon 2027 October 21, 2026 | 4 min read Registration for NerdioCon 2027 is officially open.… The post Registration Is Open for NerdioCon 2027 appeared first on Nerdio. ]]>",
+          "title": "1Mind",
+          "link": "https://getnerdio.com/video/1mind/",
+          "pubDate": "2026-10-22T19:52:27.000Z",
+          "summary": "1MIND Let’s work out the how. You know where you’re headed. Getting there without added complexity, cost, or disruption is… The post 1Mind appeared first on Nerdio. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
         },
         {
-          "title": "Simplifying Azure Virtual Desktop (AVD) for Hybrid Environments with Nerdio and Nutanix​",
-          "link": "https://getnerdio.com/on-demand-webinar/simplifying-azure-virtual-desktop-avd-for-hybrid-environments-with-nerdio-and-nutanix/",
-          "pubDate": "2026-10-20T22:10:01.000Z",
-          "summary": "ON-DEMAND WEBINAR Simplifying Azure Virtual Desktop (AVD) for Hybrid Environments with Nerdio and Nutanix​ Azure Virtual Desktop (AVD) Hybrid gives… The post Simplifying Azure Virtual Desktop (AVD) for Hybrid Environments with Nerdio and Nutanix​ appeared first on Nerdio. ]]>",
+          "title": "AVD Hybrid: Why Nerdio, Nutanix, and Microsoft are redefining virtual desktops",
+          "link": "https://getnerdio.com/on-demand-webinar/avd-hybrid-why-nerdio-nutanix-and-microsoft-are-redefining-virtual-desktops/",
+          "pubDate": "2026-10-22T18:54:16.000Z",
+          "summary": "ON-DEMAND WEBINAR AVD Hybrid: Why Nerdio, Nutanix, and Microsoft are redefining virtual desktops Building on the foundations of hybrid cloud… The post AVD Hybrid: Why Nerdio, Nutanix, and Microsoft are redefining virtual desktops appeared first on Nerdio. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:26.060Z",
+      "fetchedAt": "2026-10-22T22:59:02.313Z",
       "error": null
     },
     {
@@ -4268,7 +4269,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-22T16:43:24.342Z",
+      "fetchedAt": "2026-10-22T22:59:02.252Z",
       "error": null
     },
     {
@@ -4334,7 +4335,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:25.109Z",
+      "fetchedAt": "2026-10-22T22:59:03.260Z",
       "error": null
     },
     {
@@ -4390,7 +4391,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:26.102Z",
+      "fetchedAt": "2026-10-22T22:59:03.293Z",
       "error": null
     },
     {
@@ -4404,7 +4405,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-10-13T23:33:00.000Z",
-          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4419,7 +4420,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:26.516Z",
+      "fetchedAt": "2026-10-22T22:59:03.726Z",
       "error": null
     },
     {
@@ -4475,7 +4476,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:27.004Z",
+      "fetchedAt": "2026-10-22T22:59:03.302Z",
       "error": null
     },
     {
@@ -4485,7 +4486,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-10-22T16:43:26.174Z",
+      "fetchedAt": "2026-10-22T22:59:03.535Z",
       "error": null
     },
     {
@@ -4541,7 +4542,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:27.036Z",
+      "fetchedAt": "2026-10-22T22:59:03.745Z",
       "error": null
     },
     {
@@ -4561,7 +4562,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:27.139Z",
+      "fetchedAt": "2026-10-22T22:59:03.804Z",
       "error": null
     },
     {
@@ -4617,7 +4618,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:32.003Z",
+      "fetchedAt": "2026-10-22T22:59:08.388Z",
       "error": null
     },
     {
@@ -4673,7 +4674,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:27.660Z",
+      "fetchedAt": "2026-10-22T22:59:04.650Z",
       "error": null
     },
     {
@@ -4728,7 +4729,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:32.163Z",
+      "fetchedAt": "2026-10-22T22:59:08.539Z",
       "error": null
     },
     {
@@ -4783,7 +4784,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:32.087Z",
+      "fetchedAt": "2026-10-22T22:59:08.505Z",
       "error": null
     },
     {
@@ -4848,7 +4849,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-22T16:43:33.835Z",
+      "fetchedAt": "2026-10-22T22:59:09.243Z",
       "error": null
     }
   ]
