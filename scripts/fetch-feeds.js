@@ -18,12 +18,6 @@ const MAX_ITEMS = 5;
 const FEEDS = [
   // ── Blogs ──────────────────────────────────────────────────────────────────
   {
-    id: "4sysops",
-    label: "4sysops",
-    type: "rss",
-    url: "https://4sysops.com/feed/",
-  },
-  {
     id: "tiagocarvalho",
     label: "Tiago S. Carvahlo",
     type: "rss",
@@ -435,6 +429,12 @@ const FEEDS = [
     label: "MacADUK",
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCZP5rDzvqsbRMwGRexzfWuA",
+  },
+  {
+    id: "yt-workplaceninjassummit",
+    label: "Workplace Ninjas Summit",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCK_cRU36_m2d68BArcSbHcg",
   },
 
   // ──Official ───────────────────────────────────────────────
