@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T09:08:11.307Z",
+  "generatedAt": "2026-10-23T16:34:22.476Z",
   "feeds": [
     {
       "id": "4sysops",
@@ -8,69 +8,70 @@
       "url": "https://4sysops.com/feed/",
       "items": [
         {
-          "title": "Zoom’s AI context layer connects business data to meeting assistance",
-          "link": "https://4sysops.com/archives/zooms-ai-context-layer-connects-business-data-to-meeting-assistance/",
-          "pubDate": "2026-10-23T08:52:44.000Z",
-          "summary": "The point of Zoom’s Unified Context Layer is to give AI business context it can use to help an individual participant during a conversation—not just transcribe what was said. In principle, an assistant could use that context to surface a relevant answer or suggestion. Zoom says its planned Live Meet",
+          "title": "Anthropic plans European AI consulting firm to help businesses deploy AI",
+          "link": "https://4sysops.com/archives/anthropic-plans-european-ai-consulting-firm-to-help-businesses-deploy-ai/",
+          "pubDate": "2026-10-23T16:32:37.000Z",
+          "summary": "Anthropic plans to launch a European AI consulting firm with UK private-equity group Hg, bringing engineers and consultants into businesses to help design and implement AI systems. The firm is expected to begin operating by the end of 2026, with offices in London and Berlin. Source]]>",
+          "author": "",
+          "categories": [
+            "News",
+            "AI"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "PHP recommends disabling upload progress to limit new RCE flaw",
+          "link": "https://4sysops.com/archives/php-recommends-disabling-upload-progress-to-limit-new-rce-flaw/",
+          "pubDate": "2026-10-23T16:32:36.000Z",
+          "summary": "PHP has published a temporary mitigation for CVE-2026-115560, a remote code execution flaw that remains unpatched. Exploitation requires a specific combination of session-handler changes and enabled session upload progress, so PHP advises setting session.upload_progress.enabled=0 until a fix is rele",
+          "author": "",
+          "categories": [
+            "News",
+            "Security"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "x402 SDK flaws could expose AI agents’ full token balances",
+          "link": "https://4sysops.com/archives/x402-sdk-flaws-could-expose-ai-agents-full-token-balances/",
+          "pubDate": "2026-10-23T15:46:17.000Z",
+          "summary": "x402 lets software, including AI agents, pay for API calls directly through web requests. Before fixes released on August 18, its default clients had no spending cap, potentially letting a malicious API request an agent’s entire balance if payments were signed automatically and the app had no paymen",
           "author": "",
           "categories": [
             "News",
             "AI",
-            "Business Software"
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "Microsoft fine-tuned the Chinese open-weight model Qwen for business tasks",
-          "link": "https://4sysops.com/archives/microsoft-fine-tuned-the-chinese-open-weight-model-qwen-for-business-tasks/",
-          "pubDate": "2026-10-23T08:52:43.000Z",
-          "summary": "Microsoft fine-tuned the open-weight Qwen3.8-27B model for business tasks, using ThinkingBox-Training, an open-source system that rewards AI agents for leaving databases in the correct final state. The approach more than doubled the number of tasks Qwen completed correctly on all 20 attempts, though",
+          "title": "Claude generates 180 million lines of proofs to check open-source code",
+          "link": "https://4sysops.com/archives/claude-generates-180-million-lines-of-proofs-to-check-open-source-code/",
+          "pubDate": "2026-10-23T15:46:16.000Z",
+          "summary": "Anthropic and verification firm Theorem used Claude to produce about 180 million lines of mathematical proofs for 239 program entry points across 123 open-source libraries. The proofs establish that 239 program entry points across 123 libraries won’t crash under the tested conditions. They don’t pro",
           "author": "",
           "categories": [
             "News",
-            "AI"
+            "AI",
+            "Security"
           ],
           "type": "rss"
         },
         {
-          "title": "OpenAI’s Decisions API goes generally available with live voice support",
-          "link": "https://4sysops.com/archives/openais-decisions-api-goes-generally-available-with-live-voice-support/",
-          "pubDate": "2026-10-23T08:52:42.000Z",
-          "summary": "OpenAI’s Decisions API lets applications and agents make quick, bounded choices—such as classifying an input or routing a request—using text, images, or structured data. Now generally available through a dedicated endpoint, it uses GPT-6 Luna and can make decisions up to 10 times faster than the sam",
+          "title": "Microsoft 365 token spraying hijacked 79 organizations without passwords",
+          "link": "https://4sysops.com/archives/microsoft-365-token-spraying-hijacked-79-organizations-without-passwords/",
+          "pubDate": "2026-10-23T15:46:15.000Z",
+          "summary": "A ten-week token-spraying campaign broke into Microsoft 365 accounts at 79 organizations without stealing passwords, replaying sign-in sessions instead. Huntress counted 497 successful sign-ins among more than 200,000 attempts. Attackers then registered rogue devices, replaced victims’ MFA methods a",
           "author": "",
           "categories": [
             "News",
-            "AI"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "PHP’s emergency fix depended on one volunteer",
-          "link": "https://4sysops.com/archives/phps-emergency-fix-depended-on-one-volunteer/",
-          "pubDate": "2026-10-23T08:52:41.000Z",
-          "summary": "A volunteer maintainer helped rush installable PHP security packages to users after two critical vulnerabilities triggered a scramble to patch servers. Ondřej Surý’s work made it easier to deploy fixes at scale, while the episode exposed how much web infrastructure can depend on a small number of pe",
-          "author": "",
-          "categories": [
-            "News",
-            "Security",
-            "Web"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Anthropic hands Agent Skills to the Linux Foundation’s AI foundation",
-          "link": "https://4sysops.com/archives/anthropic-hands-agent-skills-to-the-linux-foundations-ai-foundation/",
-          "pubDate": "2026-10-23T08:52:40.000Z",
-          "summary": "Agent Skills, a format that lets AI agents load task-specific instructions and supporting files, is moving to the Linux Foundation’s Agentic AI Foundation (AAIF). Anthropic says more than 70 platforms have adopted the standard, with 1 million skills published and nearly 280 million installations. Th",
-          "author": "",
-          "categories": [
-            "News",
-            "AI"
+            "Identity",
+            "Security"
           ],
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:44.289Z",
+      "fetchedAt": "2026-10-23T16:33:55.382Z",
       "error": null
     },
     {
@@ -135,7 +136,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:44.316Z",
+      "fetchedAt": "2026-10-23T16:33:55.246Z",
       "error": null
     },
     {
@@ -178,7 +179,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:44.701Z",
+      "fetchedAt": "2026-10-23T16:33:55.710Z",
       "error": null
     },
     {
@@ -264,7 +265,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:44.246Z",
+      "fetchedAt": "2026-10-23T16:33:55.249Z",
       "error": null
     },
     {
@@ -341,7 +342,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:45.317Z",
+      "fetchedAt": "2026-10-23T16:33:56.362Z",
       "error": null
     },
     {
@@ -418,7 +419,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:48.570Z",
+      "fetchedAt": "2026-10-23T16:33:57.912Z",
       "error": null
     },
     {
@@ -500,7 +501,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:45.162Z",
+      "fetchedAt": "2026-10-23T16:33:56.094Z",
       "error": null
     },
     {
@@ -510,6 +511,19 @@
       "type": "rss",
       "url": "https://powershellisfun.com/feed/",
       "items": [
+        {
+          "title": "Report on the Feature Update level of Intune Devices using PowerShell",
+          "link": "https://powershellisfun.com/2026/10/23/report-on-the-feature-update-level-of-intune-devices-using-powershell/",
+          "pubDate": "2026-10-23T11:26:27.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "Intune",
+            "Microsoft Endpoint Manager",
+            "PowerShell"
+          ],
+          "type": "rss"
+        },
         {
           "title": "PSConfEU MiniCon 2026",
           "link": "https://powershellisfun.com/2026/10/13/psconfeu-minicon-2026/",
@@ -556,23 +570,9 @@
             "VBScript"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Workplace Ninjas Summit 2026 Recap",
-          "link": "https://powershellisfun.com/2026/09/10/workplace-ninjas-summit-2026-recap/",
-          "pubDate": "2026-09-10T20:10:30.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "Intune",
-            "Microsoft Endpoint Manager",
-            "PowerShell",
-            "Workplace Ninjas"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:45.101Z",
+      "fetchedAt": "2026-10-23T16:33:56.150Z",
       "error": null
     },
     {
@@ -640,7 +640,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:49.270Z",
+      "fetchedAt": "2026-10-23T16:33:58.495Z",
       "error": null
     },
     {
@@ -711,7 +711,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:48.685Z",
+      "fetchedAt": "2026-10-23T16:33:58.167Z",
       "error": null
     },
     {
@@ -788,7 +788,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:49.825Z",
+      "fetchedAt": "2026-10-23T16:33:59.097Z",
       "error": null
     },
     {
@@ -798,7 +798,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-10-23T09:07:48.869Z",
+      "fetchedAt": "2026-10-23T16:33:58.191Z",
       "error": "HTTP 403"
     },
     {
@@ -872,7 +872,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:50.216Z",
+      "fetchedAt": "2026-10-23T16:33:59.497Z",
       "error": null
     },
     {
@@ -954,7 +954,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:49.977Z",
+      "fetchedAt": "2026-10-23T16:33:59.227Z",
       "error": null
     },
     {
@@ -964,6 +964,17 @@
       "type": "rss",
       "url": "https://andrewstaylor.com/feed/",
       "items": [
+        {
+          "title": "Intune Newsletter – 23rd October 2026",
+          "link": "https://andrewstaylor.com/2026/10/23/intune-newsletter-23rd-october-2026/",
+          "pubDate": "2026-10-23T09:33:26.000Z",
+          "summary": "Read more]]>",
+          "author": "",
+          "categories": [
+            "Newsletter"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Intune Newsletter – 16th October 2026",
           "link": "https://andrewstaylor.com/2026/10/16/intune-newsletter-16th-october-2026/",
@@ -1007,20 +1018,9 @@
             "Newsletter"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Intune Newsletter – 18th September 2026",
-          "link": "https://andrewstaylor.com/2026/09/18/intune-newsletter-18th-september-2026/",
-          "pubDate": "2026-09-18T11:08:34.000Z",
-          "summary": "Read more]]>",
-          "author": "",
-          "categories": [
-            "Newsletter"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:50.498Z",
+      "fetchedAt": "2026-10-23T16:34:00.378Z",
       "error": null
     },
     {
@@ -1090,7 +1090,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:50.105Z",
+      "fetchedAt": "2026-10-23T16:33:59.419Z",
       "error": null
     },
     {
@@ -1170,7 +1170,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:51.387Z",
+      "fetchedAt": "2026-10-23T16:34:01.250Z",
       "error": null
     },
     {
@@ -1225,7 +1225,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:50.671Z",
+      "fetchedAt": "2026-10-23T16:34:00.563Z",
       "error": null
     },
     {
@@ -1290,7 +1290,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:51.007Z",
+      "fetchedAt": "2026-10-23T16:34:00.693Z",
       "error": null
     },
     {
@@ -1375,7 +1375,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:50.652Z",
+      "fetchedAt": "2026-10-23T16:34:00.574Z",
       "error": null
     },
     {
@@ -1448,7 +1448,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:52.265Z",
+      "fetchedAt": "2026-10-23T16:34:01.980Z",
       "error": null
     },
     {
@@ -1457,7 +1457,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-10-23T09:07:51.476Z",
+      "fetchedAt": "2026-10-23T16:34:01.665Z",
       "error": "HTTP 403"
     },
     {
@@ -1535,7 +1535,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:53.077Z",
+      "fetchedAt": "2026-10-23T16:34:02.934Z",
       "error": null
     },
     {
@@ -1544,7 +1544,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-23T09:07:51.845Z",
+      "fetchedAt": "2026-10-23T16:34:01.712Z",
       "error": "certificate has expired"
     },
     {
@@ -1615,7 +1615,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:53.750Z",
+      "fetchedAt": "2026-10-23T16:34:03.623Z",
       "error": null
     },
     {
@@ -1691,7 +1691,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:54.415Z",
+      "fetchedAt": "2026-10-23T16:34:03.232Z",
       "error": null
     },
     {
@@ -1757,7 +1757,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:53.990Z",
+      "fetchedAt": "2026-10-23T16:34:03.759Z",
       "error": null
     },
     {
@@ -1812,7 +1812,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:53.717Z",
+      "fetchedAt": "2026-10-23T16:34:03.424Z",
       "error": null
     },
     {
@@ -1885,7 +1885,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:55.313Z",
+      "fetchedAt": "2026-10-23T16:34:04.233Z",
       "error": null
     },
     {
@@ -1970,7 +1970,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:54.584Z",
+      "fetchedAt": "2026-10-23T16:34:04.011Z",
       "error": null
     },
     {
@@ -2049,7 +2049,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:56.363Z",
+      "fetchedAt": "2026-10-23T16:34:06.311Z",
       "error": null
     },
     {
@@ -2134,7 +2134,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:54.753Z",
+      "fetchedAt": "2026-10-23T16:34:04.215Z",
       "error": null
     },
     {
@@ -2190,7 +2190,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:56.458Z",
+      "fetchedAt": "2026-10-23T16:34:06.522Z",
       "error": null
     },
     {
@@ -2276,7 +2276,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:57.699Z",
+      "fetchedAt": "2026-10-23T16:34:07.601Z",
       "error": null
     },
     {
@@ -2362,7 +2362,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:56.491Z",
+      "fetchedAt": "2026-10-23T16:34:06.529Z",
       "error": null
     },
     {
@@ -2446,7 +2446,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:56.551Z",
+      "fetchedAt": "2026-10-23T16:34:06.538Z",
       "error": null
     },
     {
@@ -2501,7 +2501,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:58.033Z",
+      "fetchedAt": "2026-10-23T16:34:07.781Z",
       "error": null
     },
     {
@@ -2566,7 +2566,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:57.880Z",
+      "fetchedAt": "2026-10-23T16:34:07.801Z",
       "error": null
     },
     {
@@ -2627,7 +2627,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:58.018Z",
+      "fetchedAt": "2026-10-23T16:34:08.076Z",
       "error": null
     },
     {
@@ -2683,7 +2683,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:58.496Z",
+      "fetchedAt": "2026-10-23T16:34:08.221Z",
       "error": null
     },
     {
@@ -2748,7 +2748,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:07:59.122Z",
+      "fetchedAt": "2026-10-23T16:34:12.861Z",
       "error": null
     },
     {
@@ -2829,7 +2829,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.066Z",
+      "fetchedAt": "2026-10-23T16:34:09.076Z",
       "error": null
     },
     {
@@ -2838,7 +2838,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-10-23T09:07:59.781Z",
+      "fetchedAt": "2026-10-23T16:34:09.393Z",
       "error": "HTTP 404"
     },
     {
@@ -2847,7 +2847,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-10-23T09:07:58.749Z",
+      "fetchedAt": "2026-10-23T16:34:08.650Z",
       "error": "HTTP 403"
     },
     {
@@ -2927,7 +2927,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.202Z",
+      "fetchedAt": "2026-10-23T16:34:13.057Z",
       "error": null
     },
     {
@@ -3000,7 +3000,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.279Z",
+      "fetchedAt": "2026-10-23T16:34:13.207Z",
       "error": null
     },
     {
@@ -3019,7 +3019,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.265Z",
+      "fetchedAt": "2026-10-23T16:34:13.397Z",
       "error": null
     },
     {
@@ -3074,7 +3074,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.633Z",
+      "fetchedAt": "2026-10-23T16:34:13.588Z",
       "error": null
     },
     {
@@ -3159,7 +3159,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.841Z",
+      "fetchedAt": "2026-10-23T16:34:13.814Z",
       "error": null
     },
     {
@@ -3224,7 +3224,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.710Z",
+      "fetchedAt": "2026-10-23T16:34:13.741Z",
       "error": null
     },
     {
@@ -3289,7 +3289,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CaVTnmljPOE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.830Z",
+      "fetchedAt": "2026-10-23T16:34:13.787Z",
       "error": null
     },
     {
@@ -3355,7 +3355,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/65a5WX2SGEU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.699Z",
+      "fetchedAt": "2026-10-23T16:34:13.794Z",
       "error": null
     },
     {
@@ -3420,7 +3420,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/hfuUZgI92dw/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.952Z",
+      "fetchedAt": "2026-10-23T16:34:13.932Z",
       "error": null
     },
     {
@@ -3485,7 +3485,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/neIIq24e95w/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.861Z",
+      "fetchedAt": "2026-10-23T16:34:13.940Z",
       "error": null
     },
     {
@@ -3551,7 +3551,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HOtYPQ9jsPc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:00.943Z",
+      "fetchedAt": "2026-10-23T16:34:13.916Z",
       "error": null
     },
     {
@@ -3617,7 +3617,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/sZWXFvk0Nv8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.107Z",
+      "fetchedAt": "2026-10-23T16:34:14.063Z",
       "error": null
     },
     {
@@ -3627,6 +3627,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsv09iEutfmPwHGm40og7dg",
       "items": [
+        {
+          "title": "Your Client Said No. You’ll Still Get the Blame",
+          "link": "https://www.youtube.com/watch?v=NN8gZjEMFvI",
+          "pubDate": "2026-10-23T10:00:30.000Z",
+          "summary": "Secure & Manage Microsoft 365 Business Premium - https://course.bearded365guy.com Your client refused MFA. Then they got hacked. Guess who they’re blaming? Every MSP has a client who says no. No to MFA, no to backup, no to taking away admin rights. And when it goes wrong, nobody remembers saying no.",
+          "author": "Jonathan Edwards",
+          "categories": [],
+          "type": "video",
+          "videoId": "NN8gZjEMFvI",
+          "thumbnail": "https://i3.ytimg.com/vi/NN8gZjEMFvI/hqdefault.jpg"
+        },
         {
           "title": "Attackers Are Installing RMM Tools on Your Clients’ PCs",
           "link": "https://www.youtube.com/watch?v=BkbMnldAOA8",
@@ -3670,20 +3681,9 @@
           "type": "video",
           "videoId": "Dvga8dTf4Rg",
           "thumbnail": "https://i1.ytimg.com/vi/Dvga8dTf4Rg/hqdefault.jpg"
-        },
-        {
-          "title": "Hybrid Explained: Your Domain PCs Can Run Intune",
-          "link": "https://www.youtube.com/watch?v=b6WafZq6xRI",
-          "pubDate": "2026-09-18T13:04:04.000Z",
-          "summary": "👉 Want it start to finish? I've just added a 20-video hybrid module to the course, on top of the 139 videos on securing and managing Microsoft 365: https://course.bearded365guy.com \"That's for cloud only.\" It isn't - and that myth is quietly costing you. If you've got a server on-prem and Microsoft",
-          "author": "Jonathan Edwards",
-          "categories": [],
-          "type": "video",
-          "videoId": "b6WafZq6xRI",
-          "thumbnail": "https://i3.ytimg.com/vi/b6WafZq6xRI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.219Z",
+      "fetchedAt": "2026-10-23T16:34:14.335Z",
       "error": null
     },
     {
@@ -3692,6 +3692,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
       "items": [
+        {
+          "title": "OpenAI Lawsuit - AI Escape, Hugging Face, and No Damages",
+          "link": "https://www.youtube.com/shorts/zMq7FtK7SBc",
+          "pubDate": "2026-10-23T14:30:08.000Z",
+          "summary": "What happens when AI escapes its containment protocols and targets another platform? In this clip, we break down the bizarre legal battle filed in California against OpenAI regarding an AI escape that led to a compromise of Hugging Face—despite claims of no actual damages. Stay informed on enterpris",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": null,
+          "thumbnail": "https://i3.ytimg.com/vi/zMq7FtK7SBc/hqdefault.jpg"
+        },
         {
           "title": "Microsoft NTLMv1 Change Disrupts Wi Fi Authentication",
           "link": "https://www.youtube.com/shorts/K4xO7CjZ910",
@@ -3735,20 +3746,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/ZL2wu17n_eM/hqdefault.jpg"
-        },
-        {
-          "title": "When AI Can Rebuild Software, What Happens to Adobe and Microsoft?",
-          "link": "https://www.youtube.com/shorts/doUVJI9SQU0",
-          "pubDate": "2026-10-20T15:00:40.000Z",
-          "summary": "What happens when someone uses AI to inspect existing applications, write full specifications, and automatically rebuild entire software suites like Adobe Creative Cloud and Microsoft Office? In this clip, we discuss the emerging reality of using AI agents to clone complex proprietary software—and w",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i1.ytimg.com/vi/doUVJI9SQU0/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.233Z",
+      "fetchedAt": "2026-10-23T16:34:14.215Z",
       "error": null
     },
     {
@@ -3814,7 +3814,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5pwd-ELanIo/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.242Z",
+      "fetchedAt": "2026-10-23T16:34:14.257Z",
       "error": null
     },
     {
@@ -3879,7 +3879,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/R9g23OJ4niI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.125Z",
+      "fetchedAt": "2026-10-23T16:34:14.182Z",
       "error": null
     },
     {
@@ -3944,7 +3944,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/OjrATmBO8UE/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.255Z",
+      "fetchedAt": "2026-10-23T16:34:14.572Z",
       "error": null
     },
     {
@@ -4009,7 +4009,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.363Z",
+      "fetchedAt": "2026-10-23T16:34:14.465Z",
       "error": null
     },
     {
@@ -4074,7 +4074,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.329Z",
+      "fetchedAt": "2026-10-23T16:34:14.443Z",
       "error": null
     },
     {
@@ -4139,7 +4139,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/5MjRWHOu098/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.256Z",
+      "fetchedAt": "2026-10-23T16:34:14.459Z",
       "error": null
     },
     {
@@ -4204,7 +4204,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:01.496Z",
+      "fetchedAt": "2026-10-23T16:34:14.679Z",
       "error": null
     },
     {
@@ -4260,7 +4260,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:03.408Z",
+      "fetchedAt": "2026-10-23T16:34:14.867Z",
       "error": null
     },
     {
@@ -4270,7 +4270,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-10-23T09:08:01.554Z",
+      "fetchedAt": "2026-10-23T16:34:14.985Z",
       "error": null
     },
     {
@@ -4336,7 +4336,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:02.247Z",
+      "fetchedAt": "2026-10-23T16:34:15.734Z",
       "error": null
     },
     {
@@ -4392,7 +4392,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:03.459Z",
+      "fetchedAt": "2026-10-23T16:34:15.803Z",
       "error": null
     },
     {
@@ -4406,7 +4406,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-10-13T23:33:00.000Z",
-          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4421,7 +4421,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:03.570Z",
+      "fetchedAt": "2026-10-23T16:34:16.633Z",
       "error": null
     },
     {
@@ -4477,7 +4477,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:03.457Z",
+      "fetchedAt": "2026-10-23T16:34:15.801Z",
       "error": null
     },
     {
@@ -4487,7 +4487,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-10-23T09:08:03.652Z",
+      "fetchedAt": "2026-10-23T16:34:16.314Z",
       "error": null
     },
     {
@@ -4543,7 +4543,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:03.664Z",
+      "fetchedAt": "2026-10-23T16:34:16.647Z",
       "error": null
     },
     {
@@ -4572,7 +4572,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:03.682Z",
+      "fetchedAt": "2026-10-23T16:34:16.676Z",
       "error": null
     },
     {
@@ -4628,7 +4628,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:09.950Z",
+      "fetchedAt": "2026-10-23T16:34:21.243Z",
       "error": null
     },
     {
@@ -4684,7 +4684,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:04.464Z",
+      "fetchedAt": "2026-10-23T16:34:17.527Z",
       "error": null
     },
     {
@@ -4739,7 +4739,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:10.075Z",
+      "fetchedAt": "2026-10-23T16:34:21.443Z",
       "error": null
     },
     {
@@ -4794,7 +4794,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:10.082Z",
+      "fetchedAt": "2026-10-23T16:34:21.394Z",
       "error": null
     },
     {
@@ -4859,7 +4859,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-10-23T09:08:11.307Z",
+      "fetchedAt": "2026-10-23T16:34:22.476Z",
       "error": null
     }
   ]
