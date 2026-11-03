@@ -401,12 +401,6 @@ const FEEDS = [
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCAXqG7Om_1_3cIuI7xSgR-g",
   },
   {
-    id: "yt-ninjas",
-    label: "Workplace Ninjas Summit",
-    type: "video",
-    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCK_cRU36_m2d68BArcSbHcg",
-  },
-  {
     id: "yt-windowsitpro",
     label: "Windows IT Pro",
     type: "video",
