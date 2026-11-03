@@ -24,6 +24,12 @@ const FEEDS = [
     url: "https://www.tiagoscarvalho.com/rss.xml",
   },
   {
+    id: "modernworkspacehub",
+    label: "modernworkspacehub.com - Alex Durrant",
+    type: "rss",
+    url: "https://modernworkspacehub.com/feed/",
+  },
+  {
     id: "AndreiShchetkin",
     label: "shchetkin.dev - Andrei Shchetkin",
     type: "rss",
