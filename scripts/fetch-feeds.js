@@ -327,6 +327,13 @@ const FEEDS = [
     type: "rss",
     url: "https://www.jorgeasaur.us/rss.xml",
   },
+  {
+    id: "microsoftcloudblog",
+    label: "The Microsoft Cloud Blog - Richard Hogan",
+    badge: 'MVP',
+    type: "rss",
+    url: "https://themicrosoftcloudblog.com/feed.xml",
+  },
 
   // ── Video ─────────────────────────────────────────────────────────────────
     {
@@ -334,6 +341,12 @@ const FEEDS = [
     label: "MacDevOpsYRV",
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCIZgKKNrG-ty72Bez8b2qHg",
+  },
+    {
+    id: "yt-cloudywithachanceofinsights",
+    label: "Cloudy With A Chance of Insights",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCucmCxhbeXzaqZI5RmPUiPA",
   },
     {
     id: "yt-cyrusacademy",
@@ -525,7 +538,7 @@ const FEEDS = [
   },
   {
     id: "pod-everydaydefender",
-    label: "Everyday Defender",
+    label: "Everyday Defender Podcast",
     type: "audio",
     url: "https://media.rss.com/df3ndr/feed.xml",
   },
@@ -540,6 +553,12 @@ const FEEDS = [
     label: "MacAdmins Podcast",
     type: "audio",
     url: "https://podcast.macadmins.org/feed/",
+  },
+  {
+    id: "pod-cloudywithachanceofinsights",
+    label: "Cloudy With A Chance of Insights Podcast",
+    type: "audio",
+    url: "https://anchor.fm/s/fb7dd7f4/podcast/rss",
   },
 ];
 
