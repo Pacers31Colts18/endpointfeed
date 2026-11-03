@@ -330,7 +330,6 @@ const FEEDS = [
   {
     id: "microsoftcloudblog",
     label: "The Microsoft Cloud Blog - Richard Hogan",
-    badge: 'MVP',
     type: "rss",
     url: "https://themicrosoftcloudblog.com/feed.xml",
   },
