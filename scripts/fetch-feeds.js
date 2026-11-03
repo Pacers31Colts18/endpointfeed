@@ -430,6 +430,12 @@ const FEEDS = [
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCK_cRU36_m2d68BArcSbHcg",
   },
+  {
+    id: "yt-cloudarchitectsnetwork",
+    label: "Cloud Architects Network",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC2L2yLOfoP_7A6fw4QTjvtA",
+  },
 
   // ──Official ───────────────────────────────────────────────
   {
@@ -516,6 +522,12 @@ const FEEDS = [
     label: "RunAs Radio",
     type: "audio",
     url: "https://feeds.simplecast.com/cRTTfxcT",
+  },
+  {
+    id: "pod-everydaydefender",
+    label: "Everyday Defender",
+    type: "audio",
+    url: "https://media.rss.com/df3ndr/feed.xml",
   },
   {
     id: "pod-powershell",
