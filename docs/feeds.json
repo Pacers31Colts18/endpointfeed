@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T15:53:57.869Z",
+  "generatedAt": "2026-11-11T22:30:14.829Z",
   "feeds": [
     {
       "id": "tiagocarvalho",
@@ -7,6 +7,17 @@
       "type": "rss",
       "url": "https://www.tiagoscarvalho.com/rss.xml",
       "items": [
+        {
+          "title": "Microsoft Entra Agent Permissions: Audit and Revoke Access",
+          "link": "https://www.tiagoscarvalho.com/azure-entra-id/entra-agent-permissions-audit-revoke-access",
+          "pubDate": "2026-11-11T17:34:55.000Z",
+          "summary": "Trace requested, granted and inherited agent permissions in Microsoft Entra, then test a synthetic API before a grant, after access and after revocation.",
+          "author": "",
+          "categories": [
+            "azure-entra-id"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Microsoft Entra Agent Blueprints: Who Can Create Them?",
           "link": "https://www.tiagoscarvalho.com/azure-entra-id/entra-agent-blueprints-who-can-create",
@@ -50,20 +61,9 @@
             "security-compliance"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Microsoft 365 Revoke Sessions: Test What Actually Stops",
-          "link": "https://www.tiagoscarvalho.com/azure-entra-id/microsoft-365-revoke-sessions-verify-access",
-          "pubDate": "2026-11-06T07:22:21.000Z",
-          "summary": "Verify Microsoft 365 session revocation with a real Outlook lab, Entra logs and 14 screenshots. Compare revoke sessions with blocking sign-in and test recovery.",
-          "author": "",
-          "categories": [
-            "azure-entra-id"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:14.620Z",
+      "fetchedAt": "2026-11-11T22:29:46.240Z",
       "error": null
     },
     {
@@ -148,7 +148,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:15.245Z",
+      "fetchedAt": "2026-11-11T22:29:46.725Z",
       "error": null
     },
     {
@@ -156,9 +156,43 @@
       "label": "shchetkin.dev - Andrei Shchetkin",
       "type": "rss",
       "url": "https://shchetkin.dev/rss/",
-      "items": [],
-      "fetchedAt": "2026-11-11T15:53:22.514Z",
-      "error": "Timeout after 8000ms"
+      "items": [
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/reverse-engineering-the-intune-portal-the-ai-enabled-cloud-pc-report/",
+          "pubDate": "2026-08-02T12:06:31.000Z",
+          "summary": "In this article we will get a Windows 365 report from Microsoft Graph that is not in the Graph documentation the AI-enabled Cloud PC report.The portal shows that report every time you open it, so an API for it must exist. It is just not documented anywhere. The]]>",
+          "author": "",
+          "categories": [
+            "Graph API"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/windows-365-migration-graph-api/",
+          "pubDate": "2026-06-06T14:08:37.000Z",
+          "summary": "In this article we're going to figure out how to migrate almost any Azure-based VM into a Windows 365 Cloud PC using the Microsoft Graph beta migration API.PrerequisitesI assume you're familiar with Microsoft Graph API, Entra ID, Cloud PC, and Provisioning Policies.What]]>",
+          "author": "",
+          "categories": [
+            "w365"
+          ],
+          "type": "rss"
+        },
+        {
+          "title": "",
+          "link": "https://shchetkin.dev/the-complete-windows-365-graph-api-developer-guide/",
+          "pubDate": "2025-12-23T15:09:22.000Z",
+          "summary": "Managing Windows 365 Cloud PCs at scale demands more than clicking through the Intune portal. If you're automating provisioning policies, building CI/CD pipelines for Cloud PC deployments, or integrating Windows 365 into your infrastructure-as-code workflows, the Microsoft Graph API is your only pat",
+          "author": "",
+          "categories": [
+            "w365"
+          ],
+          "type": "rss"
+        }
+      ],
+      "fetchedAt": "2026-11-11T22:29:46.689Z",
+      "error": null
     },
     {
       "id": "emsroute",
@@ -243,7 +277,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:14.564Z",
+      "fetchedAt": "2026-11-11T22:29:46.243Z",
       "error": null
     },
     {
@@ -319,7 +353,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:23.235Z",
+      "fetchedAt": "2026-11-11T22:29:47.233Z",
       "error": null
     },
     {
@@ -394,7 +428,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:24.917Z",
+      "fetchedAt": "2026-11-11T22:29:48.868Z",
       "error": null
     },
     {
@@ -476,7 +510,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:23.140Z",
+      "fetchedAt": "2026-11-11T22:29:47.074Z",
       "error": null
     },
     {
@@ -545,7 +579,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:23.095Z",
+      "fetchedAt": "2026-11-11T22:29:47.056Z",
       "error": null
     },
     {
@@ -613,7 +647,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:30.323Z",
+      "fetchedAt": "2026-11-11T22:29:49.299Z",
       "error": null
     },
     {
@@ -684,7 +718,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:25.066Z",
+      "fetchedAt": "2026-11-11T22:29:48.994Z",
       "error": null
     },
     {
@@ -761,7 +795,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:27.286Z",
+      "fetchedAt": "2026-11-11T22:29:49.677Z",
       "error": null
     },
     {
@@ -771,7 +805,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-11-11T15:53:25.059Z",
+      "fetchedAt": "2026-11-11T22:29:49.006Z",
       "error": "HTTP 403"
     },
     {
@@ -845,7 +879,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:30.570Z",
+      "fetchedAt": "2026-11-11T22:29:49.910Z",
       "error": null
     },
     {
@@ -927,7 +961,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:30.460Z",
+      "fetchedAt": "2026-11-11T22:29:49.744Z",
       "error": null
     },
     {
@@ -993,7 +1027,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:31.196Z",
+      "fetchedAt": "2026-11-11T22:29:50.509Z",
       "error": null
     },
     {
@@ -1063,7 +1097,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:30.661Z",
+      "fetchedAt": "2026-11-11T22:29:49.867Z",
       "error": null
     },
     {
@@ -1073,7 +1107,7 @@
       "type": "rss",
       "url": "https://skiptotheendpoint.co.uk/rss/",
       "items": [],
-      "fetchedAt": "2026-11-11T15:53:39.258Z",
+      "fetchedAt": "2026-11-11T22:29:58.569Z",
       "error": "Timeout after 8000ms"
     },
     {
@@ -1128,7 +1162,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:31.366Z",
+      "fetchedAt": "2026-11-11T22:29:50.594Z",
       "error": null
     },
     {
@@ -1193,7 +1227,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:31.494Z",
+      "fetchedAt": "2026-11-11T22:29:50.712Z",
       "error": null
     },
     {
@@ -1278,7 +1312,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:31.363Z",
+      "fetchedAt": "2026-11-11T22:29:50.591Z",
       "error": null
     },
     {
@@ -1352,7 +1386,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:40.124Z",
+      "fetchedAt": "2026-11-11T22:29:59.133Z",
       "error": null
     },
     {
@@ -1361,7 +1395,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-11-11T15:53:39.404Z",
+      "fetchedAt": "2026-11-11T22:29:58.643Z",
       "error": "HTTP 403"
     },
     {
@@ -1439,7 +1473,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:41.295Z",
+      "fetchedAt": "2026-11-11T22:30:00.195Z",
       "error": null
     },
     {
@@ -1448,7 +1482,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-11-11T15:53:39.757Z",
+      "fetchedAt": "2026-11-11T22:29:58.860Z",
       "error": "certificate has expired"
     },
     {
@@ -1525,7 +1559,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:41.997Z",
+      "fetchedAt": "2026-11-11T22:30:00.649Z",
       "error": null
     },
     {
@@ -1601,7 +1635,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:41.864Z",
+      "fetchedAt": "2026-11-11T22:30:00.528Z",
       "error": null
     },
     {
@@ -1610,65 +1644,9 @@
       "badge": "MVP",
       "type": "rss",
       "url": "https://www.deploymentresearch.com/feed",
-      "items": [
-        {
-          "title": "Links from our sessions at MMS Midway 2026",
-          "link": "https://www.deploymentresearch.com/links-from-our-sessions-at-mms-midway-2026/",
-          "pubDate": "2026-11-06T23:15:56.000Z",
-          "summary": "As mentioned during our sessions at MMS Midway, links shared can be found below. Thank you to all that joined us, and we hope to see you at a future event! You can find upcoming MMS conferences here: https://mmsmoa.com/ Windows Autopilot Back to Basics Forward to Excellence, Monday, October 26, 10 a",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Adding Drivers During Windows 11 Inplace Upgrades with ConfigMgr Task Sequences",
-          "link": "https://www.deploymentresearch.com/adding-drivers-during-windows-11-inplace-upgrades-with-configmgr-task-sequences/",
-          "pubDate": "2026-10-30T14:35:08.000Z",
-          "summary": "When upgrading/servicing either Windows 10 or older Windows 11 versions to newer versions, your various modules is going to fall into one of four driver scenarios: Real World Note: Providing a proper driver package for the Windows 11 version you are upgrading will prevent common issues after the upg",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Using Avalonia UI in DeployR Task Sequences",
-          "link": "https://www.deploymentresearch.com/using-avalonia-ui-in-deployr-task-sequences/",
-          "pubDate": "2026-09-01T07:59:38.000Z",
-          "summary": "Lately, I’ve been doing some testing with Avalonia UI and PowerShell in DeployR, and one of the things I wanted to try was a simple dialog for entering a computer name during a task sequence. The result is a PowerShell script that dynamically creates an Avalonia form and returns the computer name en",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Migrating Your MDT Applications to DeployR",
-          "link": "https://www.deploymentresearch.com/migrating-your-mdt-applications-to-deployr/",
-          "pubDate": "2026-08-25T03:40:14.000Z",
-          "summary": "On January 6, 2026, Microsoft retired MDT with immediate effect and pulled the installer from the Download Center the same day. No deprecation period, no final release. If you didn’t already have the MSI saved somewhere, you now have to get a little creative just to install the product you’re trying",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        },
-        {
-          "title": "Uninstalling Windows 11 Updates",
-          "link": "https://www.deploymentresearch.com/uninstalling-windows-11-updates/",
-          "pubDate": "2026-07-27T02:54:54.000Z",
-          "summary": "Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell models. Here is a quick tip for uninstalling a Windows 11 update if one causes an issue, as happened recently with the July 2026 update on certain Dell […] ",
-          "author": "",
-          "categories": [
-            "Uncategorized"
-          ],
-          "type": "rss"
-        }
-      ],
-      "fetchedAt": "2026-11-11T15:53:42.320Z",
-      "error": null
+      "items": [],
+      "fetchedAt": "2026-11-11T22:30:00.437Z",
+      "error": "HTTP 202"
     },
     {
       "id": "mattzaske",
@@ -1722,7 +1700,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:41.759Z",
+      "fetchedAt": "2026-11-11T22:30:00.610Z",
       "error": null
     },
     {
@@ -1797,7 +1775,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:42.660Z",
+      "fetchedAt": "2026-11-11T22:30:00.819Z",
       "error": null
     },
     {
@@ -1877,7 +1855,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:42.423Z",
+      "fetchedAt": "2026-11-11T22:30:00.707Z",
       "error": null
     },
     {
@@ -1955,7 +1933,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:44.287Z",
+      "fetchedAt": "2026-11-11T22:30:03.337Z",
       "error": null
     },
     {
@@ -1964,6 +1942,21 @@
       "type": "rss",
       "url": "https://krebsonsecurity.com/feed/",
       "items": [
+        {
+          "title": "Who Runs the Ransomware Group Qilin?",
+          "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+          "pubDate": "2026-11-11T18:06:01.000Z",
+          "summary": "",
+          "author": "",
+          "categories": [
+            "A Little Sunshine",
+            "Breadcrumbs",
+            "Ne'er-Do-Well News",
+            "Ransomware",
+            "Aleksey Mikhailovich Yakovtsev"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
           "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
@@ -2023,24 +2016,9 @@
             "CVE-2026-109618"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-          "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-          "pubDate": "2026-10-19T13:48:56.000Z",
-          "summary": "",
-          "author": "",
-          "categories": [
-            "A Little Sunshine",
-            "Breadcrumbs",
-            "Data Breaches",
-            "Ne'er-Do-Well News",
-            "Ransomware"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:42.529Z",
+      "fetchedAt": "2026-11-11T22:30:00.805Z",
       "error": null
     },
     {
@@ -2096,7 +2074,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:44.452Z",
+      "fetchedAt": "2026-11-11T22:30:03.497Z",
       "error": null
     },
     {
@@ -2182,7 +2160,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:45.361Z",
+      "fetchedAt": "2026-11-11T22:30:04.532Z",
       "error": null
     },
     {
@@ -2268,7 +2246,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:44.439Z",
+      "fetchedAt": "2026-11-11T22:30:03.422Z",
       "error": null
     },
     {
@@ -2350,7 +2328,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:44.495Z",
+      "fetchedAt": "2026-11-11T22:30:03.477Z",
       "error": null
     },
     {
@@ -2405,7 +2383,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:45.687Z",
+      "fetchedAt": "2026-11-11T22:30:04.772Z",
       "error": null
     },
     {
@@ -2470,7 +2448,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:45.498Z",
+      "fetchedAt": "2026-11-11T22:30:04.675Z",
       "error": null
     },
     {
@@ -2543,7 +2521,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:45.823Z",
+      "fetchedAt": "2026-11-11T22:30:05.258Z",
       "error": null
     },
     {
@@ -2599,7 +2577,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:46.111Z",
+      "fetchedAt": "2026-11-11T22:30:05.315Z",
       "error": null
     },
     {
@@ -2664,7 +2642,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:46.613Z",
+      "fetchedAt": "2026-11-11T22:30:05.968Z",
       "error": null
     },
     {
@@ -2745,7 +2723,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:47.903Z",
+      "fetchedAt": "2026-11-11T22:30:06.501Z",
       "error": null
     },
     {
@@ -2754,7 +2732,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-11-11T15:53:47.025Z",
+      "fetchedAt": "2026-11-11T22:30:06.318Z",
       "error": "HTTP 404"
     },
     {
@@ -2763,7 +2741,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-11-11T15:53:46.339Z",
+      "fetchedAt": "2026-11-11T22:30:05.675Z",
       "error": "HTTP 403"
     },
     {
@@ -2843,7 +2821,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:47.994Z",
+      "fetchedAt": "2026-11-11T22:30:06.544Z",
       "error": null
     },
     {
@@ -2910,7 +2888,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:48.152Z",
+      "fetchedAt": "2026-11-11T22:30:06.635Z",
       "error": null
     },
     {
@@ -2942,7 +2920,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:48.065Z",
+      "fetchedAt": "2026-11-11T22:30:06.672Z",
       "error": null
     },
     {
@@ -2997,7 +2975,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:48.581Z",
+      "fetchedAt": "2026-11-11T22:30:06.951Z",
       "error": null
     },
     {
@@ -3080,7 +3058,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:48.956Z",
+      "fetchedAt": "2026-11-11T22:30:07.089Z",
       "error": null
     },
     {
@@ -3089,6 +3067,19 @@
       "type": "rss",
       "url": "https://themicrosoftcloudblog.com/feed.xml",
       "items": [
+        {
+          "title": "",
+          "link": "https://themicrosoftcloudblog.com/2026/11/agent-permissions-must-survive-a-compromised-agent/",
+          "pubDate": "2026-11-11T22:12:58.000Z",
+          "summary": "",
+          "author": "richard@themicrosoftcloudblog.com (Richard Hogan)",
+          "categories": [
+            "Quick Take",
+            "AI",
+            "Security"
+          ],
+          "type": "rss"
+        },
         {
           "title": "",
           "link": "https://themicrosoftcloudblog.com/2026/11/ibm-imagine-enterprise-what-we-learned-building-a-digital-workforce/",
@@ -3139,22 +3130,9 @@
             "Quick Take"
           ],
           "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://themicrosoftcloudblog.com/2026/11/claude-dispatch-needs-a-browser-trust-boundary/",
-          "pubDate": "2026-11-07T13:24:50.000Z",
-          "summary": "",
-          "author": "richard@themicrosoftcloudblog.com (Richard Hogan)",
-          "categories": [
-            "Quick Take",
-            "Security",
-            "AI"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.110Z",
+      "fetchedAt": "2026-11-11T22:30:07.133Z",
       "error": null
     },
     {
@@ -3219,7 +3197,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:48.783Z",
+      "fetchedAt": "2026-11-11T22:30:07.123Z",
       "error": null
     },
     {
@@ -3284,7 +3262,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CfZN-PD5Nqg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:48.802Z",
+      "fetchedAt": "2026-11-11T22:30:07.189Z",
       "error": null
     },
     {
@@ -3349,7 +3327,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2yWTNa600zI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.245Z",
+      "fetchedAt": "2026-11-11T22:30:07.323Z",
       "error": null
     },
     {
@@ -3415,7 +3393,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/KaxQtUWDITU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.234Z",
+      "fetchedAt": "2026-11-11T22:30:07.346Z",
       "error": null
     },
     {
@@ -3480,7 +3458,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JbYewC1K53M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.246Z",
+      "fetchedAt": "2026-11-11T22:30:07.400Z",
       "error": null
     },
     {
@@ -3545,7 +3523,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/kA-DsNR7pEc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.249Z",
+      "fetchedAt": "2026-11-11T22:30:07.329Z",
       "error": null
     },
     {
@@ -3611,7 +3589,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HOtYPQ9jsPc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.453Z",
+      "fetchedAt": "2026-11-11T22:30:07.538Z",
       "error": null
     },
     {
@@ -3677,7 +3655,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/wMTVZZHDdN4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.467Z",
+      "fetchedAt": "2026-11-11T22:30:07.508Z",
       "error": null
     },
     {
@@ -3743,7 +3721,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/pfICDucJgzU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.457Z",
+      "fetchedAt": "2026-11-11T22:30:07.496Z",
       "error": null
     },
     {
@@ -3808,7 +3786,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/E-mzHRaXzl4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.434Z",
+      "fetchedAt": "2026-11-11T22:30:07.498Z",
       "error": null
     },
     {
@@ -3874,7 +3852,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Y4xbHz7Fs0s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.594Z",
+      "fetchedAt": "2026-11-11T22:30:07.630Z",
       "error": null
     },
     {
@@ -3939,7 +3917,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/sZU20TNVChg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.639Z",
+      "fetchedAt": "2026-11-11T22:30:07.621Z",
       "error": null
     },
     {
@@ -4004,7 +3982,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.579Z",
+      "fetchedAt": "2026-11-11T22:30:07.616Z",
       "error": null
     },
     {
@@ -4069,7 +4047,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.557Z",
+      "fetchedAt": "2026-11-11T22:30:07.623Z",
       "error": null
     },
     {
@@ -4134,7 +4112,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/nTpjzkWYWBA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.742Z",
+      "fetchedAt": "2026-11-11T22:30:07.707Z",
       "error": null
     },
     {
@@ -4199,7 +4177,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.852Z",
+      "fetchedAt": "2026-11-11T22:30:07.741Z",
       "error": null
     },
     {
@@ -4264,7 +4242,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/znixMBV2ryU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.885Z",
+      "fetchedAt": "2026-11-11T22:30:07.710Z",
       "error": null
     },
     {
@@ -4273,6 +4251,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2L2yLOfoP_7A6fw4QTjvtA",
       "items": [
+        {
+          "title": "Episode 106: \"Super Intelligence\"",
+          "link": "https://www.youtube.com/watch?v=E-fJUzmpyjY",
+          "pubDate": "2026-11-11T21:36:49.000Z",
+          "summary": "For 30 years, identity management has been bought, deployed and used the same way: a multi-year contract, a big services bill, and a lot of hoping it pays off. Nelson Cicchitto, CEO of Avatier, thinks AI is about to change all three. In this episode, Nelson joins us to argue that enterprise software",
+          "author": "The Cloud Architects Network",
+          "categories": [],
+          "type": "video",
+          "videoId": "E-fJUzmpyjY",
+          "thumbnail": "https://i2.ytimg.com/vi/E-fJUzmpyjY/hqdefault.jpg"
+        },
         {
           "title": "How Fake IT Workers Get Inside",
           "link": "https://www.youtube.com/shorts/qUss8bTrRAU",
@@ -4316,20 +4305,9 @@
           "type": "video",
           "videoId": "tsK8oJVDbd8",
           "thumbnail": "https://i1.ytimg.com/vi/tsK8oJVDbd8/hqdefault.jpg"
-        },
-        {
-          "title": "Everyday Defender | 02x08-an_acceptable_em-dash.md",
-          "link": "https://www.youtube.com/watch?v=6k3hi3g3O5A",
-          "pubDate": "2026-08-31T22:22:37.000Z",
-          "summary": "In this episode, Chris talks about an upcoming change to Entra ID Authentication Methods that may impact some tenants. And Koos dives into 'Project Perception', Microsoft's brand new agentic AI cybersecurity platform. Full show notes available on our blog: https://df3ndr.io/episodes/2026/09/01/02x08",
-          "author": "The Cloud Architects Network",
-          "categories": [],
-          "type": "video",
-          "videoId": "6k3hi3g3O5A",
-          "thumbnail": "https://i3.ytimg.com/vi/6k3hi3g3O5A/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:49.863Z",
+      "fetchedAt": "2026-11-11T22:30:07.709Z",
       "error": null
     },
     {
@@ -4376,16 +4354,16 @@
           "type": "official"
         },
         {
-          "title": "Masterclass episode 6: Going private with Nerdio",
-          "link": "https://getnerdio.com/on-demand-webinar/masterclass-episode-6-going-private-with-nerdio/",
-          "pubDate": "2026-11-06T15:18:02.000Z",
-          "summary": "ON-DEMAND WEBINAR Masterclass episode 6: Going private with Nerdio Nerdio Manager for Enterprise (NME) connects to its Azure resources using… The post Masterclass episode 6: Going private with Nerdio appeared first on Nerdio. ]]>",
+          "title": "Nerdio Named 2026 Microsoft Americas ISV Partner of the Year",
+          "link": "https://getnerdio.com/blog/nerdio-named-2026-microsoft-americas-isv-partner-of-the-year/",
+          "pubDate": "2026-11-11T20:00:03.000Z",
+          "summary": "Nerdio Named 2026 Microsoft Americas ISV Partner of the Year November 11, 2026 | 4 min read Nerdio is excited… The post Nerdio Named 2026 Microsoft Americas ISV Partner of the Year appeared first on Nerdio. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:51.783Z",
+      "fetchedAt": "2026-11-11T22:30:07.949Z",
       "error": null
     },
     {
@@ -4395,7 +4373,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-11-11T15:53:50.192Z",
+      "fetchedAt": "2026-11-11T22:30:07.907Z",
       "error": null
     },
     {
@@ -4405,6 +4383,17 @@
       "badge": "Patch My PC",
       "url": "https://patchmypc.com/feed",
       "items": [
+        {
+          "title": "Patch My PC Publisher Preview Version 3.26.11013.0 Released",
+          "link": "https://patchmypc.com/release-notes/preview-release/patch-my-pc-publisher-preview-version-3-26-11013-0-released/?utm_term=rss",
+          "pubDate": "2026-11-11T17:58:49.000Z",
+          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. Improvements Fixes The post Patch My PC Publisher Preview Version 3.26.11013.0 Released appeared first on Patch My PC. ]]>",
+          "author": "",
+          "categories": [
+            "Preview Release"
+          ],
+          "type": "official"
+        },
         {
           "title": "How Autopatch Caused a 30 Minute App Delay in Autopilot",
           "link": "https://patchmypc.com/blog/how-autopatch-mdmwinsovergp-caused-a-30-minute-autopilot-app-delay/?utm_term=rss",
@@ -4448,20 +4437,9 @@
             "Blog"
           ],
           "type": "official"
-        },
-        {
-          "title": "Patch My PC Publisher Production Version 3.1.10.0 Released",
-          "link": "https://patchmypc.com/release-notes/production-release/patch-my-pc-publisher-production-version-3-1-10-0-released/?utm_term=rss",
-          "pubDate": "2026-10-14T18:54:26.000Z",
-          "summary": "This release contains a variety of features, improvements, and fixes, as noted below. This will be made available via the self-update channel over the coming days. You can upgrade in place now by downloading the latest MSI installer. Fixes The post Patch My PC Publisher Production Version 3.1.10.0 R",
-          "author": "",
-          "categories": [
-            "Production Release"
-          ],
-          "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:51.059Z",
+      "fetchedAt": "2026-11-11T22:30:08.741Z",
       "error": null
     },
     {
@@ -4517,7 +4495,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:50.056Z",
+      "fetchedAt": "2026-11-11T22:30:07.790Z",
       "error": null
     },
     {
@@ -4531,7 +4509,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-11-11T00:45:00.000Z",
-          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4546,7 +4524,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:52.402Z",
+      "fetchedAt": "2026-11-11T22:30:09.195Z",
       "error": null
     },
     {
@@ -4602,7 +4580,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:51.866Z",
+      "fetchedAt": "2026-11-11T22:30:09.472Z",
       "error": null
     },
     {
@@ -4612,7 +4590,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-11-11T15:53:52.074Z",
+      "fetchedAt": "2026-11-11T22:30:08.886Z",
       "error": null
     },
     {
@@ -4668,7 +4646,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:51.816Z",
+      "fetchedAt": "2026-11-11T22:30:08.771Z",
       "error": null
     },
     {
@@ -4681,8 +4659,8 @@
         {
           "title": "What's new in Microsoft Intune - Microsoft Intune",
           "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
-          "pubDate": "2026-11-03T18:35:00.000Z",
-          "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. You can also read: Important notices Past releases in the What's new archive Information about how Intune service updates are released Note Each monthly service update is roll",
+          "pubDate": "2026-11-11T18:34:00.000Z",
+          "summary": "What's new in Microsoft Intune Summarize this article for me In this article Learn what's new each week in Microsoft Intune. Week of October 26, 2026 (Service release 2610) App management Newly available protected apps for Intune The following protected apps are now available for Microsoft Intune: e",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4697,7 +4675,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:52.534Z",
+      "fetchedAt": "2026-11-11T22:30:09.489Z",
       "error": null
     },
     {
@@ -4753,7 +4731,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:56.901Z",
+      "fetchedAt": "2026-11-11T22:30:13.788Z",
       "error": null
     },
     {
@@ -4809,7 +4787,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:52.850Z",
+      "fetchedAt": "2026-11-11T22:30:10.132Z",
       "error": null
     },
     {
@@ -4864,7 +4842,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:52.528Z",
+      "fetchedAt": "2026-11-11T22:30:09.619Z",
       "error": null
     },
     {
@@ -4919,7 +4897,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:57.225Z",
+      "fetchedAt": "2026-11-11T22:30:13.942Z",
       "error": null
     },
     {
@@ -4974,7 +4952,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:56.994Z",
+      "fetchedAt": "2026-11-11T22:30:14.042Z",
       "error": null
     },
     {
@@ -5039,7 +5017,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:57.869Z",
+      "fetchedAt": "2026-11-11T22:30:14.829Z",
       "error": null
     },
     {
@@ -5094,7 +5072,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-11T15:53:57.198Z",
+      "fetchedAt": "2026-11-11T22:30:14.035Z",
       "error": null
     }
   ]
