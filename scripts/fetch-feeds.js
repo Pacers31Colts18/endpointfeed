@@ -24,6 +24,12 @@ const FEEDS = [
     url: "https://www.tiagoscarvalho.com/rss.xml",
   },
   {
+    id: "TechByJeff",
+    label: "Jeffrey Stuhr",
+    type: "rss",
+    url: "https://www.techbyjeff.net/index.xml",
+  },
+  {
     id: "modernworkspacehub",
     label: "modernworkspacehub.com - Alex Durrant",
     type: "rss",
