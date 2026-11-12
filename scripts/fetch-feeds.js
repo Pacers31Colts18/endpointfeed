@@ -353,6 +353,12 @@ const FEEDS = [
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCIZgKKNrG-ty72Bez8b2qHg",
   },
+      {
+    id: "yt-outofband",
+    label: "Out of Band: A Microsoft Security Podcast",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCHL-s4wzp7rw7G0yHuiWUfw",
+  },
     {
     id: "yt-cloudywithachanceofinsights",
     label: "Cloudy With A Chance of Insights",
