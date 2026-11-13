@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:53:42.224Z",
+  "generatedAt": "2026-11-13T19:16:08.651Z",
   "feeds": [
     {
       "id": "tiagocarvalho",
@@ -7,6 +7,17 @@
       "type": "rss",
       "url": "https://www.tiagoscarvalho.com/rss.xml",
       "items": [
+        {
+          "title": "Microsoft Entra App Permissions Audit: Find High-Impact OAuth Grants with PowerShell",
+          "link": "https://www.tiagoscarvalho.com/azure-entra-id/entra-oauth-permissions-audit-powershell",
+          "pubDate": "2026-11-13T12:28:53.000Z",
+          "summary": "Audit Entra OAuth permissions with read-only PowerShell. Get HTML and CSV reports, verify delegated and application grants, and download the tested GitHub script.",
+          "author": "",
+          "categories": [
+            "azure-entra-id"
+          ],
+          "type": "rss"
+        },
         {
           "title": "Microsoft Entra App Credentials Audit: Find Expiring Secrets and Ownerless Apps",
           "link": "https://www.tiagoscarvalho.com/azure-entra-id/entra-app-credentials-owners-audit-powershell",
@@ -50,20 +61,9 @@
             "azure-entra-id"
           ],
           "type": "rss"
-        },
-        {
-          "title": "Which devices and apps still use SMTP AUTH Basic authentication?",
-          "link": "https://www.tiagoscarvalho.com/exchange-online/find-smtp-auth-basic-authentication-senders",
-          "pubDate": "2026-11-10T15:29:04.000Z",
-          "summary": "Start with the sending account in Exchange. Then trace it back to the scanner, application or scheduled job that depends on it.",
-          "author": "",
-          "categories": [
-            "exchange-online"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:18.839Z",
+      "fetchedAt": "2026-11-13T19:15:45.072Z",
       "error": null
     },
     {
@@ -72,6 +72,15 @@
       "type": "rss",
       "url": "https://www.techbyjeff.net/index.xml",
       "items": [
+        {
+          "title": "The First CI Run Failed All Three Jobs",
+          "link": "https://www.techbyjeff.net/the-first-ci-run-failed-all-three-jobs/",
+          "pubDate": "2026-11-13T16:54:59.000Z",
+          "summary": "Why OrphanedSid's first GitHub Actions run failed: empty help files, a short TEMP path, an inherited Stop preference, test order and a .gitignore rule.",
+          "author": "",
+          "categories": [],
+          "type": "rss"
+        },
         {
           "title": "What 2,400 Tests Couldn't See",
           "link": "https://www.techbyjeff.net/what-2400-tests-couldnt-see/",
@@ -107,18 +116,9 @@
           "author": "",
           "categories": [],
           "type": "rss"
-        },
-        {
-          "title": "PowerToys: A Tour, and Taking Back the Copilot Key",
-          "link": "https://www.techbyjeff.net/powertoys-tour-and-the-copilot-key/",
-          "pubDate": "2026-11-03T19:49:19.000Z",
-          "summary": "What PowerToys does, how to rebind the Copilot key with Keyboard Manager or the Windows setting, and which 0.98 to 0.102 additions change daily use.",
-          "author": "",
-          "categories": [],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:18.909Z",
+      "fetchedAt": "2026-11-13T19:15:45.161Z",
       "error": null
     },
     {
@@ -203,7 +203,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:19.692Z",
+      "fetchedAt": "2026-11-13T19:15:45.523Z",
       "error": null
     },
     {
@@ -246,7 +246,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:19.462Z",
+      "fetchedAt": "2026-11-13T19:15:45.622Z",
       "error": null
     },
     {
@@ -332,7 +332,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:19.789Z",
+      "fetchedAt": "2026-11-13T19:15:45.680Z",
       "error": null
     },
     {
@@ -408,7 +408,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:20.499Z",
+      "fetchedAt": "2026-11-13T19:15:46.190Z",
       "error": null
     },
     {
@@ -483,7 +483,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:21.521Z",
+      "fetchedAt": "2026-11-13T19:15:47.885Z",
       "error": null
     },
     {
@@ -565,7 +565,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:20.228Z",
+      "fetchedAt": "2026-11-13T19:15:46.056Z",
       "error": null
     },
     {
@@ -634,7 +634,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:21.626Z",
+      "fetchedAt": "2026-11-13T19:15:47.954Z",
       "error": null
     },
     {
@@ -702,7 +702,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:22.140Z",
+      "fetchedAt": "2026-11-13T19:15:48.380Z",
       "error": null
     },
     {
@@ -773,7 +773,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:21.690Z",
+      "fetchedAt": "2026-11-13T19:15:48.059Z",
       "error": null
     },
     {
@@ -850,7 +850,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:22.992Z",
+      "fetchedAt": "2026-11-13T19:15:48.839Z",
       "error": null
     },
     {
@@ -860,7 +860,7 @@
       "type": "rss",
       "url": "https://kempeneers.eu/feed/",
       "items": [],
-      "fetchedAt": "2026-11-13T11:53:23.092Z",
+      "fetchedAt": "2026-11-13T19:15:49.279Z",
       "error": "HTTP 403"
     },
     {
@@ -934,7 +934,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:23.376Z",
+      "fetchedAt": "2026-11-13T19:15:49.358Z",
       "error": null
     },
     {
@@ -1016,7 +1016,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:23.484Z",
+      "fetchedAt": "2026-11-13T19:15:49.125Z",
       "error": null
     },
     {
@@ -1082,7 +1082,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:24.336Z",
+      "fetchedAt": "2026-11-13T19:15:49.920Z",
       "error": null
     },
     {
@@ -1152,7 +1152,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:24.767Z",
+      "fetchedAt": "2026-11-13T19:15:50.003Z",
       "error": null
     },
     {
@@ -1232,7 +1232,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:24.769Z",
+      "fetchedAt": "2026-11-13T19:15:50.397Z",
       "error": null
     },
     {
@@ -1287,7 +1287,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:24.574Z",
+      "fetchedAt": "2026-11-13T19:15:50.088Z",
       "error": null
     },
     {
@@ -1352,7 +1352,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:24.716Z",
+      "fetchedAt": "2026-11-13T19:15:50.178Z",
       "error": null
     },
     {
@@ -1437,7 +1437,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:24.915Z",
+      "fetchedAt": "2026-11-13T19:15:50.477Z",
       "error": null
     },
     {
@@ -1511,7 +1511,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:25.919Z",
+      "fetchedAt": "2026-11-13T19:15:50.979Z",
       "error": null
     },
     {
@@ -1520,7 +1520,7 @@
       "type": "rss",
       "url": "https://zerototrust.tech/feed/",
       "items": [],
-      "fetchedAt": "2026-11-13T11:53:25.123Z",
+      "fetchedAt": "2026-11-13T19:15:50.552Z",
       "error": "HTTP 403"
     },
     {
@@ -1598,7 +1598,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:27.306Z",
+      "fetchedAt": "2026-11-13T19:15:52.151Z",
       "error": null
     },
     {
@@ -1607,7 +1607,7 @@
       "type": "rss",
       "url": "https://modernmanagement.blog/feed/",
       "items": [],
-      "fetchedAt": "2026-11-13T11:53:27.705Z",
+      "fetchedAt": "2026-11-13T19:15:52.439Z",
       "error": "certificate has expired"
     },
     {
@@ -1684,7 +1684,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:27.947Z",
+      "fetchedAt": "2026-11-13T19:15:52.634Z",
       "error": null
     },
     {
@@ -1760,7 +1760,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:27.678Z",
+      "fetchedAt": "2026-11-13T19:15:52.544Z",
       "error": null
     },
     {
@@ -1826,7 +1826,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:27.874Z",
+      "fetchedAt": "2026-11-13T19:15:52.764Z",
       "error": null
     },
     {
@@ -1881,7 +1881,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:28.209Z",
+      "fetchedAt": "2026-11-13T19:15:53.118Z",
       "error": null
     },
     {
@@ -1956,7 +1956,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:28.951Z",
+      "fetchedAt": "2026-11-13T19:15:53.029Z",
       "error": null
     },
     {
@@ -2036,7 +2036,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:28.127Z",
+      "fetchedAt": "2026-11-13T19:15:52.869Z",
       "error": null
     },
     {
@@ -2114,7 +2114,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:30.427Z",
+      "fetchedAt": "2026-11-13T19:15:54.537Z",
       "error": null
     },
     {
@@ -2199,7 +2199,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:30.516Z",
+      "fetchedAt": "2026-11-13T19:15:54.636Z",
       "error": null
     },
     {
@@ -2255,7 +2255,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:30.525Z",
+      "fetchedAt": "2026-11-13T19:15:54.673Z",
       "error": null
     },
     {
@@ -2341,7 +2341,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:31.572Z",
+      "fetchedAt": "2026-11-13T19:15:55.818Z",
       "error": null
     },
     {
@@ -2427,7 +2427,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:30.624Z",
+      "fetchedAt": "2026-11-13T19:15:54.666Z",
       "error": null
     },
     {
@@ -2509,7 +2509,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:31.706Z",
+      "fetchedAt": "2026-11-13T19:15:55.906Z",
       "error": null
     },
     {
@@ -2564,7 +2564,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:31.761Z",
+      "fetchedAt": "2026-11-13T19:15:55.870Z",
       "error": null
     },
     {
@@ -2629,7 +2629,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:31.765Z",
+      "fetchedAt": "2026-11-13T19:15:55.995Z",
       "error": null
     },
     {
@@ -2702,7 +2702,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:32.200Z",
+      "fetchedAt": "2026-11-13T19:15:56.541Z",
       "error": null
     },
     {
@@ -2758,7 +2758,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:32.790Z",
+      "fetchedAt": "2026-11-13T19:15:56.893Z",
       "error": null
     },
     {
@@ -2823,7 +2823,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:32.642Z",
+      "fetchedAt": "2026-11-13T19:15:56.911Z",
       "error": null
     },
     {
@@ -2904,7 +2904,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:33.190Z",
+      "fetchedAt": "2026-11-13T19:15:57.686Z",
       "error": null
     },
     {
@@ -2913,7 +2913,7 @@
       "type": "rss",
       "url": "https://macadmins.news/issues.rss",
       "items": [],
-      "fetchedAt": "2026-11-13T11:53:33.127Z",
+      "fetchedAt": "2026-11-13T19:15:57.282Z",
       "error": "HTTP 404"
     },
     {
@@ -2922,7 +2922,7 @@
       "type": "rss",
       "url": "https://macadminmusings.com/feed.xml",
       "items": [],
-      "fetchedAt": "2026-11-13T11:53:33.314Z",
+      "fetchedAt": "2026-11-13T19:15:57.796Z",
       "error": "HTTP 403"
     },
     {
@@ -3002,7 +3002,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:33.309Z",
+      "fetchedAt": "2026-11-13T19:15:57.765Z",
       "error": null
     },
     {
@@ -3069,7 +3069,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:33.432Z",
+      "fetchedAt": "2026-11-13T19:15:57.879Z",
       "error": null
     },
     {
@@ -3101,7 +3101,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:33.367Z",
+      "fetchedAt": "2026-11-13T19:15:57.940Z",
       "error": null
     },
     {
@@ -3156,7 +3156,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:33.822Z",
+      "fetchedAt": "2026-11-13T19:15:58.420Z",
       "error": null
     },
     {
@@ -3239,7 +3239,7 @@
           "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:33.690Z",
+      "fetchedAt": "2026-11-13T19:15:58.078Z",
       "error": null
     },
     {
@@ -3248,6 +3248,19 @@
       "type": "rss",
       "url": "https://themicrosoftcloudblog.com/feed.xml",
       "items": [
+        {
+          "title": "",
+          "link": "https://themicrosoftcloudblog.com/2026/11/rag-accuracy-document-lifecycle/",
+          "pubDate": "2026-11-13T17:00:40.000Z",
+          "summary": "",
+          "author": "richard@themicrosoftcloudblog.com (Richard Hogan)",
+          "categories": [
+            "Quick Take",
+            "AI",
+            "Microsoft Azure"
+          ],
+          "type": "rss"
+        },
         {
           "title": "",
           "link": "https://themicrosoftcloudblog.com/2026/11/foundrys-nba-demo-is-a-boundary-design-story/",
@@ -3297,24 +3310,9 @@
             "AI"
           ],
           "type": "rss"
-        },
-        {
-          "title": "",
-          "link": "https://themicrosoftcloudblog.com/2026/11/a-sharper-edge-on-secrets-identity-and-github-defaults/",
-          "pubDate": "2026-11-09T10:15:21.000Z",
-          "summary": "",
-          "author": "richard@themicrosoftcloudblog.com (Richard Hogan)",
-          "categories": [
-            "What's New in Microsoft",
-            "Security",
-            "Entra",
-            "GitHub",
-            "Development"
-          ],
-          "type": "rss"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.152Z",
+      "fetchedAt": "2026-11-13T19:15:58.202Z",
       "error": null
     },
     {
@@ -3379,7 +3377,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/7Ec5hg7-lMM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:33.684Z",
+      "fetchedAt": "2026-11-13T19:15:58.155Z",
       "error": null
     },
     {
@@ -3444,7 +3442,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/dxP5pPMVjVU/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.349Z",
+      "fetchedAt": "2026-11-13T19:15:58.561Z",
       "error": null
     },
     {
@@ -3509,7 +3507,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/CfZN-PD5Nqg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.341Z",
+      "fetchedAt": "2026-11-13T19:15:58.566Z",
       "error": null
     },
     {
@@ -3574,7 +3572,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/2yWTNa600zI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.357Z",
+      "fetchedAt": "2026-11-13T19:15:58.595Z",
       "error": null
     },
     {
@@ -3640,7 +3638,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/At7BriGgW8k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.188Z",
+      "fetchedAt": "2026-11-13T19:15:58.603Z",
       "error": null
     },
     {
@@ -3705,7 +3703,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/JbYewC1K53M/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.682Z",
+      "fetchedAt": "2026-11-13T19:15:58.724Z",
       "error": null
     },
     {
@@ -3770,7 +3768,7 @@
           "thumbnail": "https://i4.ytimg.com/vi/kA-DsNR7pEc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.663Z",
+      "fetchedAt": "2026-11-13T19:15:58.714Z",
       "error": null
     },
     {
@@ -3836,7 +3834,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/HOtYPQ9jsPc/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.647Z",
+      "fetchedAt": "2026-11-13T19:15:58.716Z",
       "error": null
     },
     {
@@ -3846,6 +3844,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF6q8UjlE5AFO52ht-G_L6A",
       "items": [
+        {
+          "title": "Outlook Is Down. Here’s What to Do",
+          "link": "https://www.youtube.com/watch?v=ErVL6rSTuvo",
+          "pubDate": "2026-11-13T17:30:22.000Z",
+          "summary": "Outlook is down, Microsoft 365 mail isn’t flowing, and somehow your ticket queue is fuller than ever. If you’re an IT admin riding out the Outlook outage, here are 5 productive (and mostly healthy) ways to spend the time until email comes back. No troubleshooting steps this time. Nothing you can fix",
+          "author": "Get Rubix",
+          "categories": [],
+          "type": "video",
+          "videoId": "ErVL6rSTuvo",
+          "thumbnail": "https://i2.ytimg.com/vi/ErVL6rSTuvo/hqdefault.jpg"
+        },
         {
           "title": "One Week With the Surface Laptop Ultra: What I'd Change",
           "link": "https://www.youtube.com/watch?v=SB1Cl-qmCkQ",
@@ -3889,20 +3898,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i3.ytimg.com/vi/z27VvImZP7Q/hqdefault.jpg"
-        },
-        {
-          "title": "How to Setup Deployment Plans in Intune",
-          "link": "https://www.youtube.com/watch?v=wMTVZZHDdN4",
-          "pubDate": "2026-10-08T21:23:50.000Z",
-          "summary": "Intune deployment plans let you build your rollout rings once and reuse them for every Win32 app, Enterprise App Catalog app, Settings catalog policy, and Endpoint security policy you push to Windows devices. In Part 2 of the Intune Deployments series, I walk through creating a deployment plan, assi",
-          "author": "Get Rubix",
-          "categories": [],
-          "type": "video",
-          "videoId": "wMTVZZHDdN4",
-          "thumbnail": "https://i4.ytimg.com/vi/wMTVZZHDdN4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.506Z",
+      "fetchedAt": "2026-11-13T19:15:58.727Z",
       "error": null
     },
     {
@@ -3968,7 +3966,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/0tV-eMjtZX8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.905Z",
+      "fetchedAt": "2026-11-13T19:15:58.842Z",
       "error": null
     },
     {
@@ -3977,6 +3975,17 @@
       "type": "video",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCT9BKiLpbO1pGxXsU1-_zBg",
       "items": [
+        {
+          "title": "1,094 CVEs & Outlook Zero-Day | Patch Tuesday November 2026",
+          "link": "https://www.youtube.com/watch?v=hmgA8Ki8n_A",
+          "pubDate": "2026-11-13T18:18:53.000Z",
+          "summary": "Microsoft released fixes for 1,094 CVEs across 54 Knowledge Base articles for November 2026, including an actively exploited Outlook spoofing vulnerability and critical Remote Code Execution flaws in Windows Server. In this monthly Patch Tuesday Support Group session, we break down what sysadmins, e",
+          "author": "Patch My PC",
+          "categories": [],
+          "type": "video",
+          "videoId": "hmgA8Ki8n_A",
+          "thumbnail": "https://i1.ytimg.com/vi/hmgA8Ki8n_A/hqdefault.jpg"
+        },
         {
           "title": "CVE 2026 96951- Mark of the Web Security Bypass Explained",
           "link": "https://www.youtube.com/shorts/Y8Pspl0P5DI",
@@ -4020,20 +4029,9 @@
           "type": "video",
           "videoId": null,
           "thumbnail": "https://i1.ytimg.com/vi/DNu1wcVv2Is/hqdefault.jpg"
-        },
-        {
-          "title": "M365 Outlook Preview Pane Vulnerability - Patch All Your Office Apps",
-          "link": "https://www.youtube.com/shorts/E-mzHRaXzl4",
-          "pubDate": "2026-10-21T15:00:03.000Z",
-          "summary": "Think you're safe as long as you don't click suspicious links in an email? Think again. A critical vulnerability across Microsoft 365 and Office Outlook apps allows attackers to execute code simply by triggering the Outlook preview pane. No link clicks, no attachments opened—just expanding the email",
-          "author": "Patch My PC",
-          "categories": [],
-          "type": "video",
-          "videoId": null,
-          "thumbnail": "https://i2.ytimg.com/vi/E-mzHRaXzl4/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.868Z",
+      "fetchedAt": "2026-11-13T19:15:58.876Z",
       "error": null
     },
     {
@@ -4099,7 +4097,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/Y4xbHz7Fs0s/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.872Z",
+      "fetchedAt": "2026-11-13T19:15:58.832Z",
       "error": null
     },
     {
@@ -4164,7 +4162,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/9YdwSki8ssM/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:34.827Z",
+      "fetchedAt": "2026-11-13T19:15:58.845Z",
       "error": null
     },
     {
@@ -4229,7 +4227,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/P0IfaIh8XFg/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.160Z",
+      "fetchedAt": "2026-11-13T19:15:59.007Z",
       "error": null
     },
     {
@@ -4294,7 +4292,7 @@
           "thumbnail": "https://i2.ytimg.com/vi/e1yehdbIJqI/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.204Z",
+      "fetchedAt": "2026-11-13T19:15:58.968Z",
       "error": null
     },
     {
@@ -4359,7 +4357,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/nTpjzkWYWBA/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.148Z",
+      "fetchedAt": "2026-11-13T19:15:59.020Z",
       "error": null
     },
     {
@@ -4424,7 +4422,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/TDUWFZExM1k/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.158Z",
+      "fetchedAt": "2026-11-13T19:15:58.980Z",
       "error": null
     },
     {
@@ -4489,7 +4487,7 @@
           "thumbnail": "https://i3.ytimg.com/vi/BreO8pFpoOQ/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.381Z",
+      "fetchedAt": "2026-11-13T19:15:59.148Z",
       "error": null
     },
     {
@@ -4554,7 +4552,7 @@
           "thumbnail": "https://i1.ytimg.com/vi/tsK8oJVDbd8/hqdefault.jpg"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.466Z",
+      "fetchedAt": "2026-11-13T19:15:59.147Z",
       "error": null
     },
     {
@@ -4601,16 +4599,16 @@
           "type": "official"
         },
         {
-          "title": "The Paper Ceiling: The Market Conditions that Hinder MSP Growth",
+          "title": "The Paper Ceiling: The market conditions that hinder MSP growth",
           "link": "https://getnerdio.com/blog/the-paper-ceiling-the-market-conditions-that-hinder-msp-growth/",
           "pubDate": "2026-11-12T21:25:22.000Z",
-          "summary": "Nerdio Manager for MSP The Paper Ceiling: The Market Conditions that Hinder MSP Growth Sabrina Dhaliwal | November 12, 2026… The post The Paper Ceiling: The Market Conditions that Hinder MSP Growth appeared first on Nerdio. ]]>",
+          "summary": "Nerdio Manager for MSP The Paper Ceiling: The market conditions that hinder MSP growth Sabrina Dhaliwal | November 12, 2026… The post The Paper Ceiling: The market conditions that hinder MSP growth appeared first on Nerdio. ]]>",
           "author": "",
           "categories": [],
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.423Z",
+      "fetchedAt": "2026-11-13T19:16:00.979Z",
       "error": null
     },
     {
@@ -4620,7 +4618,7 @@
       "badge": "Recast Software",
       "url": "https://www.recastsoftware.com/blog/feed/",
       "items": [],
-      "fetchedAt": "2026-11-13T11:53:35.318Z",
+      "fetchedAt": "2026-11-13T19:15:59.135Z",
       "error": null
     },
     {
@@ -4686,7 +4684,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:36.224Z",
+      "fetchedAt": "2026-11-13T19:16:01.902Z",
       "error": null
     },
     {
@@ -4742,7 +4740,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.654Z",
+      "fetchedAt": "2026-11-13T19:16:01.012Z",
       "error": null
     },
     {
@@ -4756,7 +4754,7 @@
           "title": "Release notes for Semi-Annual Enterprise Channel releases - Office release notes",
           "link": "https://learn.microsoft.com/en-us/officeupdates/semi-annual-enterprise-channel",
           "pubDate": "2026-11-11T00:45:00.000Z",
-          "summary": "...luded in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscription versions of the desktop apps for Project and VisioImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
+          "summary": "...t new features and nonsecurity updates that are included in Semi-Annual Enterprise Channel updates for Microsoft 365 Apps for enterprise, Microsoft 365 Apps for business, and the subscriptionImportant Beginning with the Version 2606 update release in July 2026, Microsoft will unify Semi-Annual En",
           "author": "",
           "categories": [],
           "type": "official"
@@ -4771,7 +4769,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:36.048Z",
+      "fetchedAt": "2026-11-13T19:16:01.512Z",
       "error": null
     },
     {
@@ -4827,7 +4825,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:35.659Z",
+      "fetchedAt": "2026-11-13T19:16:01.036Z",
       "error": null
     },
     {
@@ -4837,7 +4835,7 @@
       "badge": "Microsoft",
       "url": "https://learn.microsoft.com/api/search/rss?search=%22%2Fintune%2Fintune-service%2Ffundamentals%2Fin-development%22&locale=en-us&%24filter=%28category+eq+%27Documentation%27%29",
       "items": [],
-      "fetchedAt": "2026-11-13T11:53:36.379Z",
+      "fetchedAt": "2026-11-13T19:16:02.291Z",
       "error": null
     },
     {
@@ -4893,7 +4891,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:36.259Z",
+      "fetchedAt": "2026-11-13T19:16:01.915Z",
       "error": null
     },
     {
@@ -4922,7 +4920,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:36.261Z",
+      "fetchedAt": "2026-11-13T19:16:02.148Z",
       "error": null
     },
     {
@@ -4978,7 +4976,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:40.730Z",
+      "fetchedAt": "2026-11-13T19:16:06.470Z",
       "error": null
     },
     {
@@ -5034,7 +5032,7 @@
           "type": "official"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:41.242Z",
+      "fetchedAt": "2026-11-13T19:16:07.046Z",
       "error": null
     },
     {
@@ -5089,7 +5087,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:40.810Z",
+      "fetchedAt": "2026-11-13T19:16:06.571Z",
       "error": null
     },
     {
@@ -5144,7 +5142,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:40.999Z",
+      "fetchedAt": "2026-11-13T19:16:06.603Z",
       "error": null
     },
     {
@@ -5199,7 +5197,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:40.839Z",
+      "fetchedAt": "2026-11-13T19:16:06.638Z",
       "error": null
     },
     {
@@ -5264,7 +5262,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:42.224Z",
+      "fetchedAt": "2026-11-13T19:16:08.651Z",
       "error": null
     },
     {
@@ -5319,7 +5317,7 @@
           "type": "audio"
         }
       ],
-      "fetchedAt": "2026-11-13T11:53:41.289Z",
+      "fetchedAt": "2026-11-13T19:16:07.120Z",
       "error": null
     }
   ]
