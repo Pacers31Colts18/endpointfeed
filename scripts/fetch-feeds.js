@@ -24,6 +24,12 @@ const FEEDS = [
     url: "https://www.tiagoscarvalho.com/rss.xml",
   },
   {
+    id: "stealthpuppy",
+    label: "Aaron Parker",
+    type: "rss",
+    url: "https://stealthpuppy.com/feed.xml",
+  },
+  {
     id: "TechByJeff",
     label: "Jeffrey Stuhr",
     type: "rss",
