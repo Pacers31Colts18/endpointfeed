@@ -4,1360 +4,996 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EndpointFeed</title>
+  <meta name="description" content="Intune, ConfigMgr, Entra and Microsoft 365 news from the community and vendors, in one timeline." />
+  <script>
+    try { var t = localStorage.getItem('ef-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (_) {}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --ms-blue:   #00a4ef;
-      --ms-red:    #f25022;
-      --ms-green:  #7fba00;
-      --ms-yellow: #ffb900;
-      --ms-blue-d:   #0090d4;
-      --ms-red-d:    #d94018;
-      --ms-green-d:  #6aa300;
-      --ms-yellow-d: #e0a400;
-    }
-
-    /* ── DARK THEME ── */
+    /* ── TOKENS ── */
     :root[data-theme="dark"] {
-      --bg:         #111318;
-      --bg-panel:   #17191f;
-      --bg-card:    #1c1e26;
-      --bg-header:  #0e1016;
-      --bg-hover:   #22252e;
-      --border:     #2c2f3a;
-      --border-hi:  #3a3f4e;
-      --text:       #dde1ea;
-      --text-dim:   #8590a5;
-      --text-mute:  #525a70;
-      --accent:     #5b8dee;
-      --accent-d:   #4a7bd4;
-      --new-bg:     rgba(52,199,89,0.1);
-      --new-fg:     #34c759;
-      --new-border: rgba(52,199,89,0.28);
-      --err-fg:     #ff6b6b;
-      --err-border: rgba(255,107,107,0.3);
-      --err-bg:     rgba(255,107,107,0.08);
-      --live-color: #34c759;
-      --shadow:     0 1px 8px rgba(0,0,0,0.45);
+      --bg: #0f1117; --surface: #12151c; --surface-2: #161921; --surface-3: #1b1f29; --header: #0b0d12;
+      --border: #20242f; --border-2: #2a2e3a; --border-3: #4a5268;
+      --text: #e3e6ee; --text-strong: #ffffff; --text-2: #b4bccb; --text-dim: #9aa3b5; --text-mute: #8b93a7;
+      --accent: #7aa5ff; --accent-hover: #a9c4ff; --logo-ink: #0b0d12;
+      --row-hover: #171b25; --nav-on: #1f2533; --seg-on: #2a3247;
+      --banner-bg: #16203a; --banner-border: #263559; --banner-text: #d6e2ff;
+      --ok-bg: #141a12; --ok-border: #2f4a1c; --ok-text: #cfe6b4;
+      --bad-bg: #22140f; --bad-border: #5a2a1c; --bad-text: #ffcbbd;
+      --warn: #ffc94d; --warn-dot: #ffb900; --err: #ff8f73; --live: #34c759;
+      --saved: #ffc94d; --badge-border: #5c4a1a; --thumb: #232836; --mark: rgba(255, 201, 77, .25);
+      --t-official: #8cc63f; --t-rss: #7aa5ff; --t-video: #ff7a52; --t-audio: #3fb8f0;
+      --shadow: 0 8px 30px rgba(0, 0, 0, .5);
+      color-scheme: dark;
     }
-
-    /* ── LIGHT THEME ── */
     :root[data-theme="light"] {
-      --bg:         #f8f9fb;
-      --bg-panel:   #ffffff;
-      --bg-card:    #ffffff;
-      --bg-header:  #f0f2f5;
-      --bg-hover:   #f3f5f8;
-      --border:     #d8dce6;
-      --border-hi:  #bcc2ce;
-      --text:       #1a1d26;
-      --text-dim:   #46505f;
-      --text-mute:  #8892a4;
-      --accent:     #2563eb;
-      --accent-d:   #1d4ed8;
-      --new-bg:     rgba(22,163,74,0.08);
-      --new-fg:     #16a34a;
-      --new-border: rgba(22,163,74,0.28);
-      --err-fg:     #dc2626;
-      --err-border: rgba(220,38,38,0.3);
-      --err-bg:     rgba(220,38,38,0.07);
-      --live-color: #16a34a;
-      --shadow:     0 1px 4px rgba(0,0,0,0.09);
+      --bg: #f6f7f9; --surface: #ffffff; --surface-2: #ffffff; --surface-3: #eef0f4; --header: #ffffff;
+      --border: #e6e8ed; --border-2: #d3d8e2; --border-3: #9aa4b8;
+      --text: #1a1d26; --text-strong: #0f1117; --text-2: #3b4250; --text-dim: #4a5261; --text-mute: #5b6474;
+      --accent: #1d4ed8; --accent-hover: #1e3a8a; --logo-ink: #ffffff;
+      --row-hover: #f6f7fa; --nav-on: #e3e9fb; --seg-on: #ffffff;
+      --banner-bg: #eef3ff; --banner-border: #c9d7fb; --banner-text: #1a2b5c;
+      --ok-bg: #eef7e4; --ok-border: #c4dea6; --ok-text: #2f4a12;
+      --bad-bg: #fdecea; --bad-border: #f2c0b5; --bad-text: #7a2410;
+      --warn: #8a6100; --warn-dot: #e0a400; --err: #c2410c; --live: #16a34a;
+      --saved: #b7791f; --badge-border: #e0c27a; --thumb: #e9ecf2; --mark: rgba(224, 164, 0, .25);
+      --t-official: #4d8a00; --t-rss: #2563eb; --t-video: #d9461b; --t-audio: #0284c7;
+      --shadow: 0 8px 30px rgba(15, 17, 23, .15);
+      color-scheme: light;
     }
 
-    /* ── RESET ── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-
+    /* ── BASE ── */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
     body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Barlow', sans-serif;
-      font-size: 15px;
-      line-height: 1.55;
-      min-height: 100vh;
-      transition: background 0.2s, color 0.2s;
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 400 15px/1.5 'Barlow', system-ui, sans-serif; min-height: 100vh;
+      display: flex; flex-direction: column;
     }
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--accent-hover); }
+    button, input, select { font: inherit; color: inherit; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+    .label { font: 600 11px 'JetBrains Mono', monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--text-mute); }
+    mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1px; }
+    svg { flex: none; }
 
     /* ── HEADER ── */
-    header {
-      background: var(--bg-header);
-      border-bottom: 1px solid var(--border);
-      padding: 0 20px;
-      height: 54px;
-      display: flex; align-items: center; justify-content: space-between;
-      position: sticky; top: 0; z-index: 200;
-      box-shadow: var(--shadow);
+    .top { position: sticky; top: 0; z-index: 50; background: var(--header); border-bottom: 1px solid var(--border); }
+    .top-in { max-width: 1440px; margin: 0 auto; padding: 8px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 19px; letter-spacing: .3px; color: var(--text-strong); min-height: 44px; }
+    .brand:hover { color: var(--text-strong); }
+    .brand b { color: var(--accent); font-weight: 700; }
+    .search { flex: 1 1 360px; max-width: 560px; margin: 0 auto; position: relative; }
+    .search svg { position: absolute; left: 12px; top: 12px; color: var(--text-mute); pointer-events: none; }
+    .search input {
+      width: 100%; height: 40px; padding: 0 40px 0 38px; border-radius: 8px;
+      border: 1px solid var(--border-2); background: var(--surface-2); color: var(--text); font-size: 14px;
     }
-
-    .header-right { display: flex; align-items: center; gap: 10px; }
-
-    #last-updated {
-      font-size: 12px;
-      color: var(--text-mute);
-      font-family: 'JetBrains Mono', monospace;
-    }
-    #last-updated b { color: var(--ms-green); }
-
+    .search input::placeholder { color: var(--text-mute); }
+    .search input:focus { outline: none; border-color: var(--accent); }
+    .kbd { position: absolute; right: 10px; top: 10px; font: 11px 'JetBrains Mono', monospace; color: var(--text-mute); border: 1px solid var(--border-2); border-radius: 4px; padding: 1px 6px; pointer-events: none; }
+    .top-right { display: flex; align-items: center; gap: 8px; }
+    .sync { display: inline-flex; align-items: center; gap: 8px; font: 12px 'JetBrains Mono', monospace; color: var(--text-dim); padding: 0 4px; white-space: nowrap; }
+    .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--live); display: inline-block; }
+    .dot.stale { background: var(--warn-dot); }
     .btn {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      color: var(--text-dim);
-      font-family: 'Barlow', sans-serif;
-      font-size: 12px;
-      font-weight: 500;
-      padding: 5px 12px;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: all 0.15s;
-      white-space: nowrap;
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 0 14px;
+      border: 1px solid var(--border-2); border-radius: 6px; background: var(--surface-2); color: var(--text-2);
+      font-size: 14px; font-weight: 500; cursor: pointer; white-space: nowrap;
     }
-    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    .btn:hover { border-color: var(--border-3); color: var(--text-strong); }
+    .btn.icon { width: 40px; padding: 0; }
+    .btn.quiet { background: transparent; }
+    #filters-btn { display: none; }
 
-    #theme-btn {
-      width: 32px; height: 30px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      cursor: pointer;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 15px;
-      transition: border-color 0.15s;
-      flex-shrink: 0;
-    }
-    #theme-btn:hover { border-color: var(--accent); }
+    /* ── LAYOUT ── */
+    .layout { flex: 1; width: 100%; max-width: 1440px; margin: 0 auto; padding: 24px; display: flex; align-items: flex-start; gap: 24px; }
+    .sidebar { flex: 0 0 240px; position: sticky; top: 81px; max-height: calc(100vh - 100px); overflow-y: auto; display: flex; flex-direction: column; gap: 26px; padding-bottom: 12px; }
+    main { flex: 1 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 18px; }
+    .rail { flex: 0 0 300px; display: flex; flex-direction: column; gap: 20px; }
 
-    /* Microsoft color stripe under header */
-    .ms-stripe {
-      height: 2px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      opacity: 0.65;
+    /* ── SIDEBAR ── */
+    .navgroup { display: flex; flex-direction: column; gap: 2px; }
+    .navgroup .label { padding: 0 12px 8px; }
+    .navbtn {
+      display: flex; align-items: center; gap: 10px; width: 100%; min-height: 40px; padding: 0 12px;
+      border: 0; border-radius: 6px; background: transparent; color: var(--text-2);
+      font-size: 14px; font-weight: 500; cursor: pointer; text-align: left;
     }
-    .ms-stripe div:nth-child(1) { background: var(--ms-blue); }
-    .ms-stripe div:nth-child(2) { background: var(--ms-red); }
-    .ms-stripe div:nth-child(3) { background: var(--ms-green); }
-    .ms-stripe div:nth-child(4) { background: var(--ms-yellow); }
+    .navbtn:hover { background: var(--surface-3); color: var(--text-strong); }
+    .navbtn[aria-pressed="true"] { background: var(--nav-on); color: var(--text-strong); font-weight: 600; }
+    .navbtn .n { margin-left: auto; font: 500 12px 'JetBrains Mono', monospace; color: var(--text-mute); }
+    .sw { width: 9px; height: 9px; border-radius: 2px; display: inline-block; flex: none; }
+    .seg { display: flex; gap: 2px; padding: 3px; border-radius: 8px; background: var(--surface-2); border: 1px solid var(--border); }
+    .seg button { flex: 1; min-height: 36px; border: 0; background: transparent; color: var(--text-dim); font: 600 13px 'JetBrains Mono', monospace; cursor: pointer; border-radius: 5px; }
+    .seg button:hover { color: var(--text-strong); }
+    .seg button[aria-pressed="true"] { background: var(--seg-on); color: var(--text-strong); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 8px; }
+    .chip {
+      display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 11px;
+      border: 1px solid var(--border-2); border-radius: 999px; background: transparent; color: var(--text-2);
+      font-size: 13px; font-weight: 500; cursor: pointer;
+    }
+    .chip:hover { border-color: var(--border-3); color: var(--text-strong); }
+    .chip[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
+    .chip .n { font: 11px 'JetBrains Mono', monospace; opacity: .75; }
+    .select {
+      width: 100%; height: 40px; padding: 0 10px; border-radius: 6px; border: 1px solid var(--border-2);
+      background: var(--surface-2); color: var(--text-2); font-size: 14px; font-weight: 500;
+    }
+    .typechips { display: none; gap: 8px; overflow-x: auto; padding-bottom: 2px; }
+    .typechips .chip { flex: none; min-height: 36px; font-size: 14px; }
 
-    /* ── TOOLBAR ── */
-    .toolbar {
-      background: var(--bg-panel);
-      border-bottom: 1px solid var(--border);
-      padding: 8px 20px;
-      display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
-      position: sticky; top: 57px; z-index: 100;
-    }
+    /* ── BANNERS ── */
+    .banner { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; padding: 10px 16px; border-radius: 8px; background: var(--banner-bg); border: 1px solid var(--banner-border); color: var(--banner-text); font-size: 14px; }
+    .banner b { color: var(--text-strong); }
+    .banner .grow { flex: 1 1 220px; }
+    .banner .btn { background: transparent; border-color: var(--banner-border); color: var(--banner-text); min-height: 36px; }
+    .banner.ok { background: var(--ok-bg); border-color: var(--ok-border); color: var(--ok-text); }
+    .banner.bad { background: var(--bad-bg); border-color: var(--bad-border); color: var(--bad-text); }
+    .filterline { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 14px; color: var(--text-dim); }
+    .filterline b { color: var(--text-strong); font-weight: 600; }
+    .linkbtn { border: 0; background: none; color: var(--accent); font-weight: 600; cursor: pointer; min-height: 32px; padding: 0 4px; }
+    .linkbtn:hover { color: var(--accent-hover); text-decoration: underline; }
 
-    .cat-pill {
-      display: flex; align-items: center; gap: 5px;
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text-mute);
-      font-family: 'Barlow', sans-serif;
-      font-size: 12px;
-      font-weight: 500;
-      padding: 4px 10px;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: all 0.12s;
-      white-space: nowrap;
+    /* ── TIMELINE ── */
+    .day { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .day-h { display: flex; align-items: baseline; gap: 12px; padding: 14px 20px; }
+    .day-h h2 { margin: 0; font-size: 17px; font-weight: 700; color: var(--text-strong); }
+    .day-h .d { color: var(--text-mute); font-size: 14px; }
+    .day-h .n { margin-left: auto; font: 12px 'JetBrains Mono', monospace; color: var(--text-mute); }
+    .row { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; gap: 16px; padding: 16px 20px; border-top: 1px solid var(--border); }
+    .row:hover, .row:focus-within { background: var(--row-hover); }
+    .row.noclock { grid-template-columns: minmax(0, 1fr) auto; }
+    .time { font: 12px 'JetBrains Mono', monospace; color: var(--text-mute); padding-top: 2px; white-space: nowrap; }
+    .body { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+    .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: 13px; }
+    .type { font: 600 11px 'JetBrains Mono', monospace; letter-spacing: .06em; }
+    .src { color: var(--text-2); font-weight: 600; }
+    .when { color: var(--text-mute); }
+    .badge { font: 600 10px 'JetBrains Mono', monospace; color: var(--warn); border: 1px solid var(--badge-border); border-radius: 3px; padding: 0 5px; letter-spacing: .03em; }
+    .title { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.35; color: var(--text); overflow-wrap: anywhere; }
+    .title a:hover { color: var(--accent-hover); }
+    .newdot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); margin: 0 8px 2px 0; vertical-align: middle; }
+    .row:not(.unread) .newdot { display: none; }
+    .sum { margin: 0; color: var(--text-dim); font-size: 14px; line-height: 1.55; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow-wrap: anywhere; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .tag { font-size: 12px; font-weight: 500; color: var(--text-dim); padding: 2px 8px; border-radius: 4px; background: var(--surface-3); }
+    .side { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+    .acts { display: flex; gap: 2px; margin-top: -10px; }
+    .act {
+      display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 0; border-radius: 6px;
+      background: transparent; color: var(--text-2); cursor: pointer; opacity: 0; transition: opacity .12s;
     }
-    .cat-pill .pip {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-    .cat-pill:hover {
-      border-color: var(--accent);
-      color: var(--text);
-      background: var(--bg-hover);
-    }
+    .act:hover { background: var(--surface-3); color: var(--text-strong); }
+    .row:hover .act, .row:focus-within .act, .act.on { opacity: 1; }
+    .act.on { color: var(--saved); }
+    .act.on svg path { fill: currentColor; }
+    @media (hover: none) { .act { opacity: 1; } }
+    .thumb { display: block; width: 176px; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; background: var(--thumb); border: 1px solid var(--border); position: relative; }
+    .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .thumb .play { position: absolute; inset: 0; margin: auto; width: 38px; height: 38px; border-radius: 50%; background: rgba(0,0,0,.6); display: flex; align-items: center; justify-content: center; color: #fff; opacity: .9; }
+    .thumb:hover .play { background: #e5341c; opacity: 1; }
+    .open-ep { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--t-audio); min-height: 32px; }
+    .empty { padding: 48px 24px; text-align: center; color: var(--text-dim); background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
+    .empty h2 { margin: 0 0 6px; font-size: 18px; color: var(--text-strong); }
+    .empty p { margin: 0 0 14px; }
 
-    .toolbar-divider {
-      width: 1px; height: 20px;
-      background: var(--border);
-      margin: 0 2px; flex-shrink: 0;
-    }
+    /* ── RAIL ── */
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; }
+    .card-h { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    .card-h h2 { margin: 0; font-size: 15px; font-weight: 700; color: var(--text-strong); }
+    .card-h .n { margin-left: auto; font: 12px 'JetBrains Mono', monospace; color: var(--text-mute); }
+    .card p { margin: 6px 0 10px; font-size: 13px; color: var(--text-dim); }
+    .off { display: block; padding: 10px 0; border-top: 1px solid var(--border); }
+    .off .s { display: block; font-size: 12px; font-weight: 600; color: var(--t-official); }
+    .off .s span { color: var(--text-mute); font-weight: 400; }
+    .off .t { display: block; font-size: 14px; font-weight: 500; line-height: 1.4; margin-top: 2px; color: var(--text); }
+    .off:hover .t { color: var(--accent-hover); }
+    .health { display: flex; gap: 8px; font-size: 13px; padding: 5px 0; }
+    .health .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-2); }
+    .health .er { font: 11px 'JetBrains Mono', monospace; color: var(--err); white-space: nowrap; }
+    .card .more { display: inline-flex; align-items: center; min-height: 32px; font-size: 13px; color: var(--accent); }
+    .card.dashed { background: transparent; border-style: dashed; border-color: var(--border-2); }
+    .code { display: block; font: 12px 'JetBrains Mono', monospace; padding: 8px 10px; border-radius: 6px; background: var(--bg); color: var(--text-2); border: 1px solid var(--border); overflow-x: auto; white-space: nowrap; }
 
-    .search-wrap { position: relative; margin-left: auto; }
-    .search-wrap::before {
-      content: '🔍';
-      position: absolute; left: 9px; top: 50%;
-      transform: translateY(-50%);
-      font-size: 11px; pointer-events: none;
-      opacity: 0.4;
-    }
-    #search {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      color: var(--text);
-      font-family: 'Barlow', sans-serif;
-      font-size: 13px;
-      padding: 5px 12px 5px 28px;
-      border-radius: 4px;
-      width: 230px; outline: none;
-      transition: border-color 0.15s;
-    }
-    #search:focus { border-color: var(--accent); }
-    #search::placeholder { color: var(--text-mute); }
+    /* ── SAVED / SOURCES ── */
+    .pagehead { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+    .pagehead .grow { flex: 1 1 260px; }
+    .pagehead h1 { margin: 0; font-size: 26px; font-weight: 700; color: var(--text-strong); }
+    .pagehead p { margin: 2px 0 0; font-size: 14px; color: var(--text-dim); }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .toolbar .search { margin: 0; max-width: none; flex: 1 1 260px; }
+    .toolbar label.sort { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-dim); }
+    .toolbar .select { width: auto; }
+    .list { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .list .row:first-child { border-top: 0; }
+    .foot-note { margin: 0; font-size: 13px; color: var(--text-mute); }
+    .srcgroup h2 { display: flex; align-items: center; gap: 8px; margin: 6px 0 10px; font-size: 15px; font-weight: 700; color: var(--text-strong); }
+    .srcgroup h2 .n { font: 12px 'JetBrains Mono', monospace; color: var(--text-mute); font-weight: 400; }
+    .srcrow { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px 16px; align-items: center; padding: 10px 16px; border-top: 1px solid var(--border); }
+    .srcrow:first-child { border-top: 0; }
+    .srcrow .nm { font-weight: 600; color: var(--text); overflow-wrap: anywhere; }
+    .srcrow .url { display: block; font-size: 12px; color: var(--text-mute); overflow-wrap: anywhere; }
+    .srcrow .st { font: 12px 'JetBrains Mono', monospace; color: var(--text-mute); white-space: nowrap; }
+    .srcrow .st.err { color: var(--err); }
 
-    /* ── STATUS BAR ── */
-    .statusbar {
-      background: var(--bg-header);
-      border-bottom: 1px solid var(--border);
-      padding: 5px 20px;
-      display: flex; gap: 0; align-items: center;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      color: var(--text-mute);
-      overflow-x: auto;
+    /* ── FOOTER / TOAST / LOADING ── */
+    footer { border-top: 1px solid var(--border); background: var(--header); }
+    .foot-in { max-width: 1440px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; font: 12px 'JetBrains Mono', monospace; color: var(--text-mute); }
+    .foot-in a:hover { color: var(--accent); }
+    #toast {
+      position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); opacity: 0; pointer-events: none;
+      background: var(--text-strong); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 14px; font-weight: 600;
+      box-shadow: var(--shadow); transition: opacity .18s, transform .18s; z-index: 100; max-width: calc(100vw - 32px);
     }
-
-    .sb-seg {
-      display: flex; align-items: center; gap: 6px;
-      padding-right: 16px; margin-right: 16px;
-      border-right: 1px solid var(--border);
-      white-space: nowrap;
-    }
-    .sb-seg:last-child { border-right: none; }
-    .sb-seg b { color: var(--text); font-weight: 600; }
-
-    .live-dot {
-      width: 7px; height: 7px;
-      background: var(--live-color);
-      border-radius: 50%;
-      animation: livepulse 2s ease infinite;
-      flex-shrink: 0;
-    }
-    @keyframes livepulse {
-      0%,100% { opacity:1; box-shadow: 0 0 0 0 rgba(127,186,0,0.5); }
-      50%      { opacity:0.7; box-shadow: 0 0 0 4px rgba(127,186,0,0); }
-    }
-
-    /* ── MAIN ── */
-    .container {
-      max-width: 1600px;
-      margin: 0 auto;
-      padding: 14px 20px 60px;
-      display: flex; flex-direction: column; gap: 6px;
-    }
-
-    /* ── CATEGORY SECTION ── */
-    .cat-section {
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      overflow: hidden;
-      transition: border-color 0.15s;
-    }
-    .cat-section:hover { border-color: var(--border-hi); }
-
-    .cat-header {
-      display: flex; align-items: stretch;
-      height: 44px;
-      background: var(--bg-panel);
-      cursor: pointer; user-select: none;
-      transition: background 0.12s;
-      border-bottom: 1px solid transparent;
-    }
-    .cat-header:hover { background: var(--bg-hover); }
-    .cat-section.open .cat-header { border-bottom-color: var(--border); }
-
-    .cat-color-bar {
-      width: 4px; flex-shrink: 0;
-    }
-
-    .cat-header-inner {
-      flex: 1;
-      display: flex; align-items: center;
-      padding: 0 14px; gap: 12px;
-    }
-
-    .cat-icon {
-      font-size: 15px;
-      flex-shrink: 0;
-      width: 20px;
-      text-align: center;
-    }
-
-    .cat-name {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 600;
-      font-size: 14px;
-      letter-spacing: 0.3px;
-      color: var(--text);
-      flex: 1;
-    }
-
-    .cat-meta {
-      display: flex; align-items: center; gap: 8px;
-      font-size: 12px;
-      color: var(--text-mute);
-      font-family: 'Barlow', sans-serif;
-    }
-    .cat-pill-count {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 1px 8px;
-      border-radius: 2px;
-      font-size: 11px;
-    }
-    .cat-err-tag {
-      color: var(--ms-red);
-      font-size: 11px;
-    }
-    .cat-chevron {
-      color: var(--text-mute);
-      font-size: 10px;
-      transition: transform 0.2s;
-    }
-    .cat-section.open .cat-chevron { transform: rotate(90deg); }
-
-    .cat-body {
-      display: none;
-      padding: 12px;
-      background: var(--bg);
-    }
-    .cat-section.open .cat-body { display: block; }
-
-    /* ── FEED GRID ── */
-    .feed-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 10px;
-    }
-
-    /* ── FEED CARD ── */
-    .feed-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      overflow: hidden;
-      display: flex; flex-direction: column;
-      animation: cardIn 0.25s ease forwards;
-      opacity: 0;
-    }
-    @keyframes cardIn {
-      from { opacity:0; transform:translateY(5px); }
-      to   { opacity:1; transform:translateY(0); }
-    }
-
-    .card-header {
-      padding: 8px 12px;
-      background: var(--bg-panel);
-      border-bottom: 1px solid var(--border);
-      display: flex; align-items: center; gap: 8px;
-    }
-    .card-color-dot {
-      width: 8px; height: 8px;
-      border-radius: 2px;
-      flex-shrink: 0;
-    }
-    .card-name {
-      font-weight: 600;
-      font-size: 12px;
-      color: var(--text);
-      flex: 1;
-      font-family: 'Barlow', sans-serif;
-    }
-    .card-count {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10px;
-      color: var(--text-mute);
-      background: var(--bg);
-      border: 1px solid var(--border);
-      padding: 0 6px;
-      border-radius: 2px;
-    }
-    .card-err-badge {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10px;
-      color: var(--err-fg);
-      background: var(--err-bg);
-      border: 1px solid var(--err-border);
-      padding: 0 6px;
-      border-radius: 2px;
-    }
-
-    /* ── ARTICLE ── */
-    .article {
-      display: block; text-decoration: none; color: inherit;
-      padding: 11px 14px;
-      border-bottom: 1px solid var(--border);
-      transition: background 0.1s;
-    }
-    .article:last-child { border-bottom: none; }
-    .article:hover { background: var(--bg-hover); }
-    .article:hover .art-title { color: var(--accent); }
-
-    .art-meta {
-      display: flex; align-items: center; gap: 7px;
-      margin-bottom: 4px; flex-wrap: wrap;
-    }
-    .art-date {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10px;
-      color: var(--text-mute);
-    }
-    .art-author {
-      font-size: 11px;
-      color: var(--text-mute);
-    }
-    .art-author::before { content: '·'; margin-right: 5px; color: var(--border-hi); }
-
-    .badge-new {
-      font-family: 'Barlow', sans-serif;
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 0.3px;
-      background: var(--new-bg);
-      color: var(--new-fg);
-      border: 1px solid var(--new-border);
-      padding: 0 5px;
-      border-radius: 3px;
-    }
-
-    .art-title {
-      font-size: 14px;
-      font-weight: 500;
-      color: var(--text);
-      line-height: 1.45;
-      margin-bottom: 4px;
-      transition: color 0.1s;
-    }
-    .art-summary {
-      font-size: 13px;
-      color: var(--text-dim);
-      line-height: 1.6;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .art-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
-    .art-tag {
-      font-size: 11px;
-      color: var(--text-dim);
-      background: var(--bg-hover);
-      border: 1px solid var(--border);
-      padding: 1px 7px;
-      border-radius: 12px;
-      font-family: 'Barlow', sans-serif;
-    }
-
-    .feed-error {
-      padding: 12px;
-      font-size: 12px;
-      color: var(--err-fg);
-      font-style: italic;
-      font-family: 'JetBrains Mono', monospace;
-    }
-
-    /* ── MEDIA ── */
-    /* YouTube items inside feed cards */
-    .yt-item {
-      display: flex; gap: 10px; align-items: flex-start;
-      padding: 9px 12px;
-      border-bottom: 1px solid var(--border);
-      text-decoration: none; color: inherit;
-      transition: background 0.1s;
-    }
-    .yt-item:last-child { border-bottom: none; }
-    .yt-item:hover { background: var(--bg-hover); }
-    .yt-item:hover .yt-item-title { color: var(--ms-red); }
-    /* keep red for YouTube — it's the YouTube brand color */
-
-    .yt-thumb-sm {
-      flex-shrink: 0;
-      width: 100px; height: 56px;
-      background: var(--bg-panel);
-      border-radius: 3px; overflow: hidden;
-      position: relative;
-    }
-    .yt-thumb-sm img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .yt-thumb-sm-play {
-      position: absolute; inset: 0;
-      display: flex; align-items: center; justify-content: center;
-      background: rgba(0,0,0,0.35);
-      opacity: 0; transition: opacity 0.1s;
-    }
-    .yt-item:hover .yt-thumb-sm-play { opacity: 1; }
-    .yt-play-sm {
-      width: 22px; height: 22px;
-      background: var(--ms-red);
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 9px; padding-left: 2px; color: #fff;
-    }
-    .yt-item-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
-    .yt-item-title {
-      font-size: 12px; font-weight: 500; color: var(--text);
-      line-height: 1.4;
-      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-      transition: color 0.1s;
-    }
-    .yt-item-meta { font-size: 10px; color: var(--text-mute); font-family: 'JetBrains Mono', monospace; display: flex; gap: 7px; }
-
-    /* Podcast items inside feed cards */
-    .pod-item {
-      padding: 9px 12px;
-      border-bottom: 1px solid var(--border);
-      display: flex; flex-direction: column; gap: 5px;
-    }
-    .pod-item:last-child { border-bottom: none; }
-    .pod-item-title {
-      font-size: 12px; font-weight: 500; color: var(--text);
-      line-height: 1.4; text-decoration: none;
-      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-      transition: color 0.1s;
-    }
-    .pod-item-title:hover { color: var(--accent); }
-    .pod-item-meta { font-size: 10px; color: var(--text-mute); font-family: 'JetBrains Mono', monospace; display: flex; gap: 8px; align-items: center; }
-    .pod-item-player audio { width: 100%; height: 26px; margin-top: 4px; outline: none; }
-    [data-theme="dark"] .pod-item-player audio { filter: invert(1) hue-rotate(180deg) brightness(0.75); }
-    .pod-no-audio { font-size: 11px; color: var(--text-mute); font-style: italic; }
-
-
-    /* Card grid (Articles / New) */
-
-    .new-card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 10px;
-    }
-    .new-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      overflow: hidden;
-      display: flex; flex-direction: column;
-      text-decoration: none; color: inherit;
-      transition: background 0.1s, border-color 0.15s;
-      animation: cardIn 0.25s ease forwards; opacity: 0;
-    }
-    .new-card:hover { background: var(--bg-hover); border-color: var(--border-hi); }
-    .new-card:hover .new-card-title { color: var(--accent); }
-
-    .new-card-top {
-      display: flex; align-items: center; gap: 8px;
-      padding: 10px 14px 8px;
-    }
-    .new-card-source {
-      font-size: 12px; color: var(--text);
-      font-weight: 600; letter-spacing: 0.01em;
-      flex: 1; min-width: 0;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    }
-    .new-card-date {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10px; color: var(--text-mute); white-space: nowrap;
-    }
-    .badge {
-      font-size: 9px; font-weight: 700; letter-spacing: 0.06em;
-      padding: 2px 6px; border-radius: 3px; flex-shrink: 0;
-      border: 1px solid; white-space: nowrap;
-    }
-    .new-card-thumb {
-      width: 100%; aspect-ratio: 16/9;
-      object-fit: cover; display: block;
-    }
-    .new-card-body {
-      padding: 10px 14px 12px;
-      display: flex; flex-direction: column; gap: 6px; flex: 1;
-    }
-    .new-card-title {
-      font-size: 14px; font-weight: 500; color: var(--text);
-      line-height: 1.45; transition: color 0.1s;
-    }
-    .new-card-summary {
-      font-size: 13px; color: var(--text-dim); line-height: 1.6;
-      display: -webkit-box; -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical; overflow: hidden;
-    }
-
-    @media (max-width: 680px) { .new-card-grid { grid-template-columns: 1fr; } }
-
-    /* Day-range selector in toolbar */
-    .day-range-pill {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text-mute);
-      font-family: 'Barlow', sans-serif;
-      font-size: 12px; font-weight: 600;
-      padding: 4px 10px; border-radius: 4px;
-      cursor: pointer; transition: all 0.12s;
-      white-space: nowrap;
-    }
-    .day-range-pill:hover { border-color: var(--accent); color: var(--accent); }
-    .day-range-pill.active { border-color: var(--accent); color: var(--accent); background: rgba(91,141,238,0.1); }
-
-    #source-select {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      color: var(--text-dim);
-      font-family: 'Barlow', sans-serif;
-      font-size: 12px;
-      font-weight: 500;
-      padding: 4px 8px;
-      border-radius: 4px;
-      cursor: pointer;
-      outline: none;
-      max-width: 210px;
-      transition: border-color 0.12s, color 0.12s;
-    }
-    #source-select:focus { border-color: var(--accent); }
-    #source-select.active { border-color: var(--accent); color: var(--accent); background: rgba(91,141,238,0.1); }
-
-    /* ── LOADING ── */
-    #loading {
-      padding: 70px 0; text-align: center; color: var(--text-mute);
-    }
-    .spinner {
-      width: 28px; height: 28px;
-      border: 2px solid var(--border);
-      border-top-color: var(--ms-blue);
-      border-radius: 50%;
-      animation: spin 0.75s linear infinite;
-      margin: 0 auto 14px;
-    }
+    #toast.show { opacity: 1; transform: translate(-50%, 0); }
+    .loading { padding: 70px 0; text-align: center; color: var(--text-mute); font: 13px 'JetBrains Mono', monospace; }
+    .spinner { width: 28px; height: 28px; border: 2px solid var(--border-2); border-top-color: var(--accent); border-radius: 50%; animation: spin .75s linear infinite; margin: 0 auto 14px; }
     @keyframes spin { to { transform: rotate(360deg); } }
-    .load-text { font-family: 'JetBrains Mono', monospace; font-size: 12px; }
-
-    /* Sources view */
-    #sources-view { padding-bottom: 40px; }
-    .sources-heading {
-      font-size: 13px; font-weight: 600; letter-spacing: 0.04em;
-      text-transform: uppercase; color: var(--text-mute);
-      margin: 28px 0 12px; display: flex; align-items: center; gap: 8px;
-    }
-    .sources-heading-dot {
-      display: inline-block; width: 9px; height: 9px; border-radius: 50%;
-    }
-    .btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-
-    /* ── FOOTER ── */
-    footer {
-      background: var(--bg-header);
-      border-top: 1px solid var(--border);
-      padding: 12px 20px;
-      display: flex; justify-content: space-between; align-items: center;
-      font-size: 12px; color: var(--text-mute);
-      font-family: 'JetBrains Mono', monospace;
-    }
-    .footer-brand {
-      display: flex; align-items: center; gap: 8px;
-    }
+    @media (prefers-reduced-motion: reduce) { .spinner { animation-duration: 2s; } #toast, .act { transition: none; } }
 
     /* ── RESPONSIVE ── */
-    @media (max-width: 680px) {
-      .feed-grid { grid-template-columns: 1fr; }
-      .search-wrap { margin-left: 0; width: 100%; order: 99; flex-basis: 100%; }
-      #search { width: 100%; }
-      header, .toolbar, .statusbar, .container, footer { padding-left: 12px; padding-right: 12px; }
-      #last-updated { display: none; }
+    @media (max-width: 1180px) {
+      .layout { flex-wrap: wrap; }
+      main { flex: 1 1 0; }
+      .rail { flex: 1 1 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); align-items: start; padding-left: 264px; }
     }
-
-    .new-feed-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      overflow: hidden;
-      animation: cardIn 0.25s ease forwards;
-      opacity: 0;
+    @media (max-width: 820px) {
+      .top-in { padding: 6px 16px; }
+      .layout { padding: 16px; gap: 16px; }
+      #filters-btn { display: inline-flex; }
+      .sync, #mcp-link .lbl { display: none; }
+      .search { order: 9; flex-basis: 100%; max-width: none; }
+      .kbd { display: none; }
+      .sidebar { display: none; position: static; max-height: none; flex: 1 1 100%; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 8px; }
+      .sidebar.open { display: flex; }
+      .sidebar .types-group { display: none; }
+      main { flex: 1 1 100%; }
+      .rail { padding-left: 0; }
+      .typechips { display: flex; }
+      .row { grid-template-columns: minmax(0, 1fr); gap: 8px; padding: 14px 16px; }
+      .row .time { display: none; }
+      .row .side { display: contents; }
+      .row .thumb { width: 100%; order: -1; }
+      .acts { order: 9; justify-content: flex-end; margin: -6px -10px -10px 0; }
+      .day-h { padding: 12px 16px; }
+      .srcrow { grid-template-columns: minmax(0, 1fr) auto; }
+      .srcrow .st:first-of-type { display: none; }
     }
-    .new-item {
-      display: flex; align-items: center; gap: 10px;
-      padding: 8px 12px;
-      border-bottom: 1px solid var(--border);
-      text-decoration: none; color: inherit;
-      transition: background 0.1s;
-    }
-    .new-item:last-child { border-bottom: none; }
-    .new-item:hover { background: var(--bg-hover); }
-    .new-item:hover .new-item-title { color: var(--accent); }
-    .new-cat-tag {
-      flex-shrink: 0;
-      font-family: 'Barlow', sans-serif;
-      font-size: 10px; font-weight: 600; letter-spacing: 0.2px;
-      padding: 2px 8px; border-radius: 3px; border: 1px solid;
-      white-space: nowrap;
-    }
-    .new-item-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
   </style>
 </head>
 <body>
 
-<header>
-  <div class="header-left" style="font-family:'Barlow',sans-serif;font-weight:700;font-size:18px;letter-spacing:0.5px;color:var(--text)">Endpoint<span style="color:var(--accent)">Feed</span></div>
-  <div class="header-right">
-    <div id="last-updated">initializing…</div>
-    <a class="btn" href="mcp.html" style="text-decoration:none;display:inline-flex;align-items:center">🔌 MCP Server</a>
-    <button class="btn" id="sources-btn" onclick="showSources()">Sources</button>
-    <button class="btn" onclick="loadFeeds()">↺ refresh</button>
-    <button class="btn" id="expand-btn" onclick="toggleAll()">+ expand all</button>
-    <button id="theme-btn" onclick="toggleTheme()" title="Toggle theme">🌙</button>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="./" aria-label="EndpointFeed home">
+      <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="var(--accent)"></rect><path d="M7 8h10M7 12h7M7 16h4" stroke="var(--logo-ink)" stroke-width="2.2" stroke-linecap="round"></path></svg>
+      <span>Endpoint<b>Feed</b></span>
+    </a>
+    <button class="btn icon" id="filters-btn" type="button" aria-label="Filters" aria-controls="sidebar" aria-expanded="false">
+      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"></path></svg>
+    </button>
+    <div class="search" role="search">
+      <label class="sr-only" for="q">Search posts, videos and episodes</label>
+      <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+      <input type="search" id="q" placeholder="Search posts, videos and episodes" autocomplete="off" />
+      <span class="kbd" aria-hidden="true">/</span>
+    </div>
+    <div class="top-right">
+      <span class="sync" id="sync"><span class="dot"></span>loading…</span>
+      <a class="btn" id="mcp-link" href="mcp.html">
+        <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 7V3M15 7V3M6 7h12v4a6 6 0 0 1-12 0zM12 17v4"></path></svg><span class="lbl">MCP server</span>
+      </a>
+      <button class="btn icon" id="theme-btn" type="button" aria-label="Switch theme"></button>
+    </div>
   </div>
 </header>
 
-<!-- Microsoft 4-color stripe -->
-<div class="ms-stripe">
-  <div></div><div></div><div></div><div></div>
-</div>
-
-<div class="toolbar" id="toolbar">
-  <div class="search-wrap">
-    <input type="text" id="search" placeholder="Search articles…" oninput="handleSearch()" />
-  </div>
-</div>
-
-<div class="statusbar">
-  <div class="sb-seg"><span class="live-dot"></span><b>LIVE</b></div>
-  <div class="sb-seg">articles: <b id="stat-total">—</b></div>
-  <div class="sb-seg">sources: <b id="stat-sources">—</b></div>
-  <div class="sb-seg">updated: <b id="stat-updated">—</b></div>
-</div>
-
-<div class="container">
-  <div id="loading">
-    <div class="spinner"></div>
-    <div class="load-text">loading feeds…</div>
-  </div>
-  <div id="cats" style="display:contents"></div>
-  <div id="sources-view" style="display:none"></div>
+<div class="layout">
+  <nav class="sidebar" id="sidebar" aria-label="Filters"></nav>
+  <main id="main">
+    <div class="loading" id="loading"><div class="spinner"></div>loading feeds…</div>
+  </main>
+  <aside class="rail" id="rail" aria-label="Highlights"></aside>
 </div>
 
 <footer>
-  <div class="footer-brand">EndpointFeed</div>
-  <span id="footer-ts"></span>
+  <div class="foot-in">
+    <span>EndpointFeed · <span id="foot-ts">—</span></span>
+    <span><a href="mcp.html">MCP server</a> · <a href="https://github.com/Pacers31Colts18/endpointfeed" target="_blank" rel="noopener noreferrer">source</a></span>
+  </div>
 </footer>
 
+<div id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="import-file" accept="application/json,.json" hidden />
+
 <script>
-/* ── Media categories (Video + Audio only) ───────────────── */
-const CATEGORIES = [
-  { id:'video', label:'Video',           color:'#f25022' },
-  { id:'audio', label:'Podcasts / Audio', color:'#00a4ef' },
+'use strict';
+/* ── Constants ─────────────────────────────────────────── */
+const DAY = 864e5;
+const TYPES = [
+  { id: 'official', label: 'Official',   short: 'OFFICIAL' },
+  { id: 'rss',      label: 'Blog posts', short: 'BLOG' },
+  { id: 'video',    label: 'Video',      short: 'VIDEO' },
+  { id: 'audio',    label: 'Podcasts',   short: 'PODCAST' },
 ];
-
-const ARTICLES_CAT = { id: 'articles', label: 'Blog Posts',  color: '#5b8dee' };
-const VENDOR_CAT   = { id: 'vendor',   label: 'Official',    color: '#7fba00' };
-
-
-let allFeeds      = [];
-let openSet       = new Set(['articles', 'video', 'audio', 'vendor']);
-let allOpen       = false;
-let newDays       = 7;
-let selectedSource = null;
-
-/* ── Theme ──────────────────────────────────────────────── */
-function toggleTheme() {
-  const html = document.documentElement;
-  const isDark = html.dataset.theme === 'dark';
-  html.dataset.theme = isDark ? 'light' : 'dark';
-  document.getElementById('theme-btn').textContent = isDark ? '☀️' : '🌙';
-  try { localStorage.setItem('ef-theme', html.dataset.theme); } catch(_){}
-}
-try {
-  const saved = localStorage.getItem('ef-theme');
-  if (saved) {
-    document.documentElement.dataset.theme = saved;
-    document.getElementById('theme-btn').textContent = saved === 'dark' ? '🌙' : '☀️';
-  }
-} catch(_){}
-
-/* ── Toolbar ────────────────────────────────────────────── */
-function buildToolbar() {
-  const bar = document.getElementById('toolbar');
-  bar.querySelectorAll('.cat-pill, .toolbar-divider, .day-range-pill').forEach(e => e.remove());
-  const existingSel = bar.querySelector('#source-select');
-  if (existingSel) existingSel.remove();
-  const sw = bar.querySelector('.search-wrap');
-
-  bar.insertBefore(makePill(VENDOR_CAT.label, VENDOR_CAT.color, VENDOR_CAT.id), sw);
-  bar.insertBefore(makePill(ARTICLES_CAT.label, ARTICLES_CAT.color, ARTICLES_CAT.id), sw);
-  CATEGORIES.forEach(cat => bar.insertBefore(makePill(cat.label, cat.color, cat.id), sw));
-  bar.insertBefore(makeDivider(), sw);
-  [1, 7, 14, 30].forEach(d => {
-    const btn = document.createElement('button');
-    btn.className = 'day-range-pill' + (d === newDays ? ' active' : '');
-    btn.textContent = d + 'd';
-    btn.dataset.days = d;
-    btn.onclick = () => {
-      newDays = d;
-      bar.querySelectorAll('.day-range-pill').forEach(b => b.classList.toggle('active', +b.dataset.days === d));
-      renderAll(document.getElementById('search').value.toLowerCase().trim());
-    };
-    bar.insertBefore(btn, sw);
-  });
-
-  // Source selector — bypasses date filter when a source is chosen
-  bar.insertBefore(makeDivider(), sw);
-  const sel = document.createElement('select');
-  sel.id = 'source-select';
-  if (selectedSource) sel.classList.add('active');
-
-  const defaultOpt = document.createElement('option');
-  defaultOpt.value = '';
-  defaultOpt.textContent = 'All sources';
-  sel.appendChild(defaultOpt);
-
-  const typeGroups = [
-    { label: 'Official',   type: 'official' },
-    { label: 'Blog Posts', type: 'rss'      },
-    { label: 'Video',      type: 'video'    },
-    { label: 'Podcasts',   type: 'audio'    },
-  ];
-  for (const g of typeGroups) {
-    const feeds = allFeeds.filter(f => f.type === g.type);
-    if (!feeds.length) continue;
-    const og = document.createElement('optgroup');
-    og.label = g.label;
-    feeds.forEach(f => {
-      const opt = document.createElement('option');
-      opt.value = f.label;
-      opt.textContent = f.label;
-      if (f.label === selectedSource) opt.selected = true;
-      og.appendChild(opt);
-    });
-    sel.appendChild(og);
-  }
-
-  function syncDayPillState() {
-    bar.querySelectorAll('.day-range-pill').forEach(b => {
-      b.style.opacity = selectedSource ? '0.35' : '';
-      b.style.pointerEvents = selectedSource ? 'none' : '';
-    });
-  }
-
-  sel.onchange = () => {
-    selectedSource = sel.value || null;
-    sel.classList.toggle('active', !!selectedSource);
-    syncDayPillState();
-    renderAll(document.getElementById('search').value.toLowerCase().trim());
-  };
-  syncDayPillState();
-  bar.insertBefore(sel, sw);
-}
-
-function makePill(label, color, catId) {
-  const btn = document.createElement('button');
-  btn.className = 'cat-pill';
-  btn.innerHTML = `<span class="pip" style="background:${color}"></span>${label}`;
-  btn.onclick = () => {
-    if (!catId) { window.scrollTo({top:0,behavior:'smooth'}); return; }
-    const el = document.getElementById('cat-'+catId);
-    if (el) {
-      if (!openSet.has(catId)) { openSet.add(catId); el.classList.add('open'); }
-      setTimeout(() => el.scrollIntoView({behavior:'smooth', block:'start'}), 50);
-    }
-  };
-  return btn;
-}
-
-function makeDivider() {
-  const d = document.createElement('div');
-  d.className = 'toolbar-divider';
-  return d;
-}
-
-/* ── Expand/collapse ────────────────────────────────────── */
-function toggleAll() {
-  allOpen = !allOpen;
-  if (allOpen) {
-    openSet.add('articles'); CATEGORIES.forEach(c => openSet.add(c.id));
-    openSet.add('vendor');
-    document.querySelectorAll('.cat-section').forEach(s => s.classList.add('open'));
-    document.getElementById('expand-btn').textContent = '− collapse all';
-  } else {
-    openSet.clear(); openSet.add('articles');
-    document.querySelectorAll('.cat-section').forEach(s => s.classList.toggle('open', s.id === 'cat-articles'));
-    document.getElementById('expand-btn').textContent = '+ expand all';
-  }
-}
-
-/* ── Load feeds ─────────────────────────────────────────── */
-async function loadFeeds() {
-  document.getElementById('loading').style.display = 'block';
-  document.getElementById('cats').innerHTML = '';
-  document.getElementById('last-updated').textContent = 'syncing…';
-  try {
-    const res = await fetch('feeds.json?_='+Date.now());
-    if (!res.ok) throw new Error('HTTP '+res.status);
-    const data = await res.json();
-    allFeeds = data.feeds || [];
-
-    const total = allFeeds.reduce((a,f) => a+(f.items?.length||0), 0);
-    const ok    = allFeeds.filter(f => !f.error).length;
-    document.getElementById('stat-total').textContent   = total;
-    document.getElementById('stat-sources').textContent = `${ok}/${allFeeds.length}`;
-
-    if (data.generatedAt) {
-      const d   = new Date(data.generatedAt);
-      const fmt = d.toLocaleString('en-US', {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'});
-      document.getElementById('stat-updated').textContent = fmt;
-      document.getElementById('last-updated').innerHTML  = `synced <b>${fmt}</b>`;
-      document.getElementById('footer-ts').textContent   = `last fetch: ${fmt}`;
-    } else {
-      document.getElementById('last-updated').innerHTML =
-        `<span style="color:var(--ms-yellow)">⚠ no data — run the github action</span>`;
-      document.getElementById('stat-updated').textContent = 'never';
-    }
-
-    buildToolbar();
-    renderAll('');
-  } catch(err) {
-    document.getElementById('loading').innerHTML = `
-      <div style="color:var(--ms-red);font-size:22px;margin-bottom:10px">✕</div>
-      <div style="font-weight:600">Failed to load feeds</div>
-      <div style="font-size:12px;color:var(--text-mute);margin-top:4px;font-family:monospace">${esc(err.message)}</div>`;
-  }
-}
-
-/* ── Render ─────────────────────────────────────────────── */
-function renderAll(query) {
-  document.getElementById('loading').style.display = 'none';
-  const container = document.getElementById('cats');
-  container.innerHTML = '';
-  const now = Date.now();
-  const threshold = newDays * 24 * 60 * 60 * 1000;
-  let delay = 0;
-
-  function withinWindow(item) {
-    if (selectedSource) return true;
-    const pub = item.pubDate ? new Date(item.pubDate) : null;
-    return pub && (now - pub.getTime()) < threshold;
-  }
-  function matchesQuery(item) {
-    return !query || (item.title + ' ' + (item.summary||'')).toLowerCase().includes(query);
-  }
-  const showEmpty = !query && !selectedSource;
-
-  // Official (vendor) section — rendered first
-  const vendorFeeds = allFeeds
-    .filter(f => f.type === 'official' && (!selectedSource || f.label === selectedSource))
-    .map(f => ({ ...f, items: (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i)) }));
-  const vendorItems = vendorFeeds.flatMap(f => f.items);
-  if (vendorItems.length || showEmpty) {
-    container.appendChild(buildVendorSection(vendorFeeds, delay, query));
-    delay += 45;
-  }
-
-  // Articles — flat card grid, filtered to newDays window (excludes vendor feeds)
-  const articleItems = [];
-  for (const feed of allFeeds) {
-    if (feed.type !== 'rss') continue;
-    if (selectedSource && feed.label !== selectedSource) continue;
-    for (const item of (feed.items || [])) {
-      if (withinWindow(item) && matchesQuery(item))
-        articleItems.push({ ...item, _feedLabel: feed.label, _feedBadge: feed.badge || null, _sectionColor: ARTICLES_CAT.color });
-    }
-  }
-  articleItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  if (articleItems.length || showEmpty) {
-    container.appendChild(buildBlogPostsSection(articleItems, delay, query));
-    delay += 45;
-  }
-
-  // Audio and Video — per-source cards, filtered to newDays window
-  for (const cat of CATEGORIES) {
-    const feeds = allFeeds
-      .filter(f => f.type === cat.id && (!selectedSource || f.label === selectedSource))
-      .map(f => ({ ...f, items: (f.items||[]).filter(i => withinWindow(i) && matchesQuery(i)) }))
-      .filter(f => f.items.length > 0);
-    if (!feeds.length) continue;
-    container.appendChild(buildCatSection(cat, feeds, delay, query));
-    delay += 45;
-  }
-
-  document.getElementById('stat-total').textContent = allFeeds.reduce((a,f) => a+(f.items?.length||0), 0);
-}
-
-/* ── Blog Posts section — flat individual article cards ──── */
-function buildBlogPostsSection(items, delay, query) {
-  const isOpen = openSet.has('articles') || !!query;
-  const sec = document.createElement('div');
-  sec.className = 'cat-section' + (isOpen ? ' open' : '');
-  sec.id = 'cat-articles';
-
-  const hdr = document.createElement('div');
-  hdr.className = 'cat-header';
-  hdr.innerHTML = `
-    <div class="cat-color-bar" style="background:${ARTICLES_CAT.color}"></div>
-    <div class="cat-header-inner">
-      <div class="cat-name">${ARTICLES_CAT.label}</div>
-      <div class="cat-meta">
-        <span class="cat-pill-count">${items.length} item${items.length!==1?'s':''}</span>
-      </div>
-      <span class="cat-chevron">▶</span>
-    </div>`;
-  hdr.onclick = () => {
-    const was = sec.classList.contains('open');
-    sec.classList.toggle('open', !was);
-    was ? openSet.delete('articles') : openSet.add('articles');
-  };
-
-  const body = document.createElement('div');
-  body.className = 'cat-body';
-
-  const grid = document.createElement('div');
-  grid.className = 'new-card-grid';
-
-  items.forEach((item, i) => {
-    const pub = item.pubDate ? new Date(item.pubDate) : null;
-    const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-    const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
-    const title = query ? hi(item.title, query) : esc(item.title);
-    const rawSumm = item.summary || '';
-    const summ = rawSumm ? (query ? hi(rawSumm.slice(0,220), query) : esc(rawSumm.slice(0,220))) : '';
-
-    const card = document.createElement('a');
-    card.className = 'new-card';
-    card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
-    card.style.animationDelay = (Math.min(i, 30) * 20) + 'ms';
-
-    const topBg = tintBg(ARTICLES_CAT.color, 0.07);
-    const badgeColor = ARTICLES_CAT.color;
-    card.innerHTML = `
-      <div class="new-card-top" style="background:${topBg}">
-        <span class="new-card-source">${esc(item._feedLabel)}</span>
-        ${item._feedBadge ? `<span class="badge" style="color:${badgeColor};border-color:${badgeColor}60;background:${badgeColor}18">${esc(item._feedBadge)}</span>` : ''}
-        ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
-      </div>
-      <div class="new-card-body">
-        <div class="new-card-title">${title}</div>
-        ${summ ? `<div class="new-card-summary">${summ}${rawSumm.length>220?'…':''}</div>` : ''}
-        ${tags ? `<div class="art-tags">${tags}</div>` : ''}
-      </div>`;
-
-    grid.appendChild(card);
-  });
-
-  body.appendChild(grid);
-  sec.appendChild(hdr);
-  sec.appendChild(body);
-  return sec;
-}
-
-/* ── Color tint helper ──────────────────────────────────── */
-function tintBg(hex, alpha) {
-  const r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), b = parseInt(hex.slice(5,7),16);
-  return `rgba(${r},${g},${b},${alpha})`;
-}
-
-/* ── Video / Audio sections — flat card grid ────────────── */
-function buildCatSection(cat, feeds, delay, query) {
-  const isOpen = openSet.has(cat.id) || !!query;
-
-  // Collect + sort all items across feeds
-  const allItems = [];
-  feeds.forEach(feed => {
-    (feed.items || []).forEach(item => allItems.push({ ...item, _feedLabel: feed.label, _sectionColor: cat.color, _feedBadge: feed.badge || null }));
-  });
-  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
-  const sec = document.createElement('div');
-  sec.className = 'cat-section' + (isOpen ? ' open' : '');
-  sec.id = 'cat-'+cat.id;
-
-  const hdr = document.createElement('div');
-  hdr.className = 'cat-header';
-  hdr.innerHTML = `
-    <div class="cat-color-bar" style="background:${cat.color}"></div>
-    <div class="cat-header-inner">
-      <div class="cat-name">${esc(cat.label)}</div>
-      <div class="cat-meta">
-        <span class="cat-pill-count">${allItems.length} item${allItems.length!==1?'s':''}</span>
-      </div>
-      <span class="cat-chevron">▶</span>
-    </div>`;
-  hdr.onclick = () => {
-    const was = sec.classList.contains('open');
-    sec.classList.toggle('open', !was);
-    was ? openSet.delete(cat.id) : openSet.add(cat.id);
-  };
-
-  const body = document.createElement('div');
-  body.className = 'cat-body';
-  const grid = document.createElement('div');
-  grid.className = 'new-card-grid';
-
-  allItems.forEach((item, i) => {
-    const cardDelay = (Math.min(i, 30) * 20) + 'ms';
-    grid.appendChild(cat.id === 'video' ? buildVideoCard(item, cardDelay) : buildAudioCard(item, cardDelay));
-  });
-
-  body.appendChild(grid);
-  sec.appendChild(hdr);
-  sec.appendChild(body);
-  return sec;
-}
-
-/* ── Official section — flat grid with badge labels ── */
-function buildVendorSection(vendorFeeds, delay, query) {
-  const isOpen = openSet.has('vendor') || !!query;
-
-  // Collect all items
-  const allItems = [];
-  for (const feed of vendorFeeds) {
-    for (const item of (feed.items || [])) {
-      allItems.push({ ...item, _feedLabel: feed.label, _feedBadge: feed.badge || null, _sectionColor: VENDOR_CAT.color });
-    }
-  }
-  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
-  const sec = document.createElement('div');
-  sec.className = 'cat-section' + (isOpen ? ' open' : '');
-  sec.id = 'cat-vendor';
-
-  const hdr = document.createElement('div');
-  hdr.className = 'cat-header';
-  hdr.innerHTML = `
-    <div class="cat-color-bar" style="background:${VENDOR_CAT.color}"></div>
-    <div class="cat-header-inner">
-      <div class="cat-name">${esc(VENDOR_CAT.label)}</div>
-      <div class="cat-meta">
-        <span class="cat-pill-count">${allItems.length} item${allItems.length!==1?'s':''}</span>
-      </div>
-      <span class="cat-chevron">▶</span>
-    </div>`;
-  hdr.onclick = () => {
-    const was = sec.classList.contains('open');
-    sec.classList.toggle('open', !was);
-    was ? openSet.delete('vendor') : openSet.add('vendor');
-  };
-
-  const body = document.createElement('div');
-  body.className = 'cat-body';
-  const grid = document.createElement('div');
-  grid.className = 'new-card-grid';
-
-  allItems.forEach((item, i) => {
-    const color = VENDOR_CAT.color;
-    const pub = item.pubDate ? new Date(item.pubDate) : null;
-    const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-    const tags = (item.categories||[]).slice(0,4).map(t=>`<span class="art-tag">${esc(t)}</span>`).join('');
-    const title = query ? hi(item.title, query) : esc(item.title);
-    const rawSumm = item.summary || '';
-    const summ = rawSumm ? (query ? hi(rawSumm.slice(0,220), query) : esc(rawSumm.slice(0,220))) : '';
-
-    const card = document.createElement('a');
-    card.className = 'new-card';
-    card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
-    card.style.animationDelay = (Math.min(i, 30) * 20) + 'ms';
-
-    const topBg = tintBg(color, 0.07);
-    card.innerHTML = `
-      <div class="new-card-top" style="background:${topBg}">
-        ${item._feedBadge ? `<span class="badge" style="color:${color};border-color:${color}60;background:${color}18">${esc(item._feedBadge)}</span>` : ''}
-        <span class="new-card-source">${esc(item._feedLabel)}</span>
-        ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
-      </div>
-      <div class="new-card-body">
-        <div class="new-card-title">${title}</div>
-        ${summ ? `<div class="new-card-summary">${summ}${rawSumm.length>220?'…':''}</div>` : ''}
-        ${tags ? `<div class="art-tags">${tags}</div>` : ''}
-      </div>`;
-
-    grid.appendChild(card);
-  });
-
-  body.appendChild(grid);
-  sec.appendChild(hdr);
-  sec.appendChild(body);
-  return sec;
-}
-
-/* ── Video card (individual item) ───────────────────────── */
-function buildVideoCard(item, delay) {
-  const card = document.createElement('a');
-  card.className = 'new-card';
-  card.href = item.link; card.target = '_blank'; card.rel = 'noopener noreferrer';
-  card.style.animationDelay = delay;
-
-  const pub = item.pubDate ? new Date(item.pubDate) : null;
-  const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-  const thumb = item.thumbnail || (item.videoId ? `https://i.ytimg.com/vi/${item.videoId}/mqdefault.jpg` : '');
-  const topBg = item._sectionColor ? tintBg(item._sectionColor, 0.07) : 'transparent';
-
-  const badgeColor = item._sectionColor || '#f25022';
-  card.innerHTML = `
-    <div class="new-card-top" style="background:${topBg}">
-      <span class="new-card-source">${esc(item._feedLabel || '')}</span>
-      ${item._feedBadge ? `<span class="badge" style="color:${badgeColor};border-color:${badgeColor}60;background:${badgeColor}18">${esc(item._feedBadge)}</span>` : ''}
-      ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
-    </div>
-    ${thumb ? `<img class="new-card-thumb" src="${esc(thumb)}" alt="" loading="lazy" />` : ''}
-    <div class="new-card-body">
-      <div class="new-card-title">${esc(item.title)}</div>
-    </div>`;
-
-  return card;
-}
-
-/* ── Audio card (individual item) ───────────────────────── */
-function buildAudioCard(item, delay) {
-  const card = document.createElement('div');
-  card.className = 'new-card';
-  card.style.animationDelay = delay;
-
-  const pub = item.pubDate ? new Date(item.pubDate) : null;
-  const ds = pub ? pub.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}) : '';
-  const topBg = item._sectionColor ? tintBg(item._sectionColor, 0.07) : 'transparent';
-
-  const audioBadgeColor = item._sectionColor || '#00a4ef';
-  card.innerHTML = `
-    <div class="new-card-top" style="background:${topBg}">
-      <span class="new-card-source">${esc(item._feedLabel || '')}</span>
-      ${item._feedBadge ? `<span class="badge" style="color:${audioBadgeColor};border-color:${audioBadgeColor}60;background:${audioBadgeColor}18">${esc(item._feedBadge)}</span>` : ''}
-      ${ds ? `<span class="new-card-date">${ds}</span>` : ''}
-    </div>
-    <div class="new-card-body">
-      <a class="new-card-title" href="${esc(item.link)}" target="_blank" rel="noopener noreferrer"
-         style="color:inherit;text-decoration:none">${esc(item.title)}</a>
-      ${item.duration ? `<div style="font-size:12px;color:var(--text-mute);margin-top:2px">⏱ ${esc(item.duration)}</div>` : ''}
-      ${item.audioUrl
-        ? `<audio controls preload="none" src="${esc(item.audioUrl)}" style="width:100%;margin-top:8px"></audio>`
-        : `<a href="${esc(item.link)}" target="_blank" rel="noopener noreferrer"
-             style="color:var(--accent);font-size:13px;margin-top:6px;display:inline-block">→ open episode</a>`}
-    </div>`;
-
-  return card;
-}
-
-/* ── Sources view ───────────────────────────────────────── */
-let sourcesOpen = false;
-
-function showSources() {
-  sourcesOpen = !sourcesOpen;
-  document.getElementById('sources-view').style.display = sourcesOpen ? 'block' : 'none';
-  document.getElementById('cats').style.display        = sourcesOpen ? 'none' : 'contents';
-  document.getElementById('sources-btn').classList.toggle('active', sourcesOpen);
-  document.getElementById('expand-btn').style.display  = sourcesOpen ? 'none' : '';
-  if (sourcesOpen) buildSourcesView();
-}
-
-function buildSourcesView() {
-  const view = document.getElementById('sources-view');
-  view.innerHTML = '';
-
-  const groups = [
-    { label: 'Blog Posts', type: 'rss',   color: ARTICLES_CAT.color },
-    { label: 'Video',      type: 'video',  color: '#f25022' },
-    { label: 'Podcasts',   type: 'audio',  color: '#00a4ef' },
-  ];
-
-  groups.forEach(group => {
-    const feeds = allFeeds.filter(f => f.type === group.type);
-    if (!feeds.length) return;
-
-    const heading = document.createElement('div');
-    heading.className = 'sources-heading';
-    heading.innerHTML = `<span class="sources-heading-dot" style="background:${group.color}"></span>${esc(group.label)} <span style="font-weight:400;opacity:0.6">(${feeds.length})</span>`;
-    view.appendChild(heading);
-
-    const grid = document.createElement('div');
-    grid.className = 'new-card-grid';
-
-    feeds.forEach(feed => {
-      let siteUrl = '';
-      try {
-        if (feed.items && feed.items.length && feed.items[0].link) {
-          const u = new URL(feed.items[0].link);
-          siteUrl = u.origin;
-        } else {
-          siteUrl = new URL(feed.url).origin;
-        }
-      } catch(_) { siteUrl = feed.url; }
-
-      const card = document.createElement('a');
-      card.className = 'new-card';
-      card.href = siteUrl;
-      card.target = '_blank'; card.rel = 'noopener noreferrer';
-      card.style.animationDelay = '0ms';
-
-      const topBg = tintBg(group.color, 0.07);
-      card.innerHTML = `
-        <div class="new-card-top" style="background:${topBg}">
-          <span class="new-card-source">${esc(feed.label)}</span>
-          ${feed.error ? `<span style="font-size:10px;color:var(--ms-red);font-weight:600">ERR</span>` : `<span style="font-size:11px;color:var(--text-mute)">${feed.items?.length||0} items</span>`}
-        </div>
-        <div class="new-card-body">
-          <div style="font-size:12px;color:var(--text-mute);word-break:break-all">${esc(siteUrl)}</div>
-        </div>`;
-
-      grid.appendChild(card);
-    });
-
-    view.appendChild(grid);
-  });
-
-  // Official (vendor) group
-  const officialFeeds = allFeeds.filter(f => f.type === 'official');
-  if (officialFeeds.length) {
-    const heading = document.createElement('div');
-    heading.className = 'sources-heading';
-    heading.innerHTML = `<span class="sources-heading-dot" style="background:${VENDOR_CAT.color}"></span>${esc(VENDOR_CAT.label)} <span style="font-weight:400;opacity:0.6">(${officialFeeds.length})</span>`;
-    view.appendChild(heading);
-
-    const grid = document.createElement('div');
-    grid.className = 'new-card-grid';
-
-    officialFeeds.forEach(feed => {
-      let siteUrl = '';
-      try {
-        if (feed.items && feed.items.length && feed.items[0].link) {
-          const u = new URL(feed.items[0].link);
-          siteUrl = u.origin;
-        } else {
-          siteUrl = new URL(feed.url).origin;
-        }
-      } catch(_) { siteUrl = feed.url; }
-
-      const card = document.createElement('a');
-      card.className = 'new-card';
-      card.href = siteUrl;
-      card.target = '_blank'; card.rel = 'noopener noreferrer';
-      card.style.animationDelay = '0ms';
-
-      const vc = VENDOR_CAT.color;
-      const topBg = tintBg(vc, 0.07);
-      card.innerHTML = `
-        <div class="new-card-top" style="background:${topBg}">
-          ${feed.badge ? `<span class="badge" style="color:${vc};border-color:${vc}60;background:${vc}18">${esc(feed.badge)}</span>` : ''}
-          <span class="new-card-source">${esc(feed.label)}</span>
-          ${feed.error ? `<span style="font-size:10px;color:var(--ms-red);font-weight:600">ERR</span>` : `<span style="font-size:11px;color:var(--text-mute)">${feed.items?.length||0} items</span>`}
-        </div>
-        <div class="new-card-body">
-          <div style="font-size:12px;color:var(--text-mute);word-break:break-all">${esc(siteUrl)}</div>
-        </div>`;
-
-      grid.appendChild(card);
-    });
-
-    view.appendChild(grid);
-  }
-}
-
-/* ── Search ─────────────────────────────────────────────── */
-let searchTimer;
-function handleSearch() {
-  clearTimeout(searchTimer);
-  searchTimer = setTimeout(() =>
-    renderAll(document.getElementById('search').value.toLowerCase().trim()), 160);
-}
-
-/* ── Helpers ────────────────────────────────────────────── */
-function esc(s) {
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
+const TYPE = Object.fromEntries(TYPES.map(t => [t.id, t]));
+const RANGES = [1, 7, 14, 30];
+const TOPICS = [
+  { id: 'intune',     label: 'Intune',        re: /\bintune\b/i },
+  { id: 'entra',      label: 'Entra',         re: /\bentra\b|azure ad|conditional access/i },
+  { id: 'security',   label: 'Security',      re: /security|defender|vulnerab|phish|malware|zero trust/i },
+  { id: 'powershell', label: 'PowerShell',    re: /powershell/i },
+  { id: 'configmgr',  label: 'ConfigMgr',     re: /configmgr|\bsccm\b|configuration manager|\bmecm\b|\bosd\b/i },
+  { id: 'windows',    label: 'Windows',       re: /\bwindows\b|autopilot/i },
+  { id: 'macos',      label: 'macOS',         re: /macos|\bjamf\b|\bapple\b/i },
+  { id: 'm365',       label: 'Microsoft 365', re: /microsoft 365|\bm365\b|exchange|\bteams\b|sharepoint|purview/i },
+  { id: 'ai',         label: 'AI',            re: /\bai\b|copilot|\bagents?\b|foundry|artificial.intelligence/i },
+];
+const JUNK_TAGS = /^(uncategori[sz]ed|blog|episodes?|quick take|general|news|post)$/i;
+const READ_TTL = 30 * DAY;
+
+/* ── Icons ─────────────────────────────────────────────── */
+const I = {
+  bookmark: '<svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+  link: '<svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
+  read: '<svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.5" fill="currentColor"/></svg>',
+  play: '<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg>',
+  out: '<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M7 17 17 7M8 7h9v9"/></svg>',
+  down: '<svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg>',
+  up: '<svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3M7 8l5-5 5 5M4 19h16"/></svg>',
+  x: '<svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>',
+  sun: '<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+  moon: '<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>',
+};
+
+/* ── Storage (browser only; every access guarded) ──────── */
+const store = {
+  get(k, fb) { try { const v = localStorage.getItem(k); return v == null ? fb : JSON.parse(v); } catch (_) { return fb; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (_) { return false; } },
+};
+const NOW0 = Date.now();
+let saved = store.get('ef-saved', null);
+if (!saved || typeof saved !== 'object' || !saved.items || typeof saved.items !== 'object') saved = { v: 1, items: {} };
+let readMap = store.get('ef-read', {});
+if (!readMap || typeof readMap !== 'object') readMap = {};
+for (const k of Object.keys(readMap)) if (!readMap[k] || !(readMap[k].t > NOW0 - READ_TTL)) delete readMap[k];
+store.set('ef-read', readMap);
+let baseline = store.get('ef-baseline', null);
+if (typeof baseline !== 'number') { baseline = NOW0 - DAY; store.set('ef-baseline', baseline); }
+const prevVisit = store.get('ef-lastvisit', null);
+store.set('ef-lastvisit', NOW0);
+let persistAsked = store.get('ef-persist-asked', false);
+
+/* ── State ─────────────────────────────────────────────── */
+const savedDays = store.get('ef-days', 7);
+const S = {
+  view: 'timeline',       // timeline | unread | saved | sources
+  type: 'all', days: RANGES.includes(savedDays) ? savedDays : 7,
+  topic: null, source: '', query: '',
+  savedQuery: '', savedSort: 'saved',
+  notice: null,           // { kind: 'ok'|'bad', html }
+};
+let FEEDS = [], ITEMS = [], BYID = new Map(), GENERATED = null;
+
+/* ── Helpers ───────────────────────────────────────────── */
+function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
 function hi(text, q) {
-  return esc(text).replace(
-    new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),
-    '<mark style="background:rgba(255,185,0,0.25);color:var(--ms-yellow);border-radius:1px;padding:0 1px">$1</mark>'
-  );
+  const e = esc(text);
+  if (!q) return e;
+  const qe = esc(q).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return e.replace(new RegExp('(' + qe + ')', 'gi'), '<mark>$1</mark>');
+}
+function safeUrl(u) {
+  try { const x = new URL(String(u), location.href); return /^https?:$/.test(x.protocol) ? x.href : ''; } catch (_) { return ''; }
+}
+const parser = new DOMParser();
+function htmlToText(s) {
+  if (!s) return '';
+  s = String(s).replace(/\]\]>/g, '');
+  const doc = parser.parseFromString(s, 'text/html');
+  return (doc.body.textContent || '').replace(/\s+/g, ' ').trim();
+}
+function cleanSummary(s) {
+  let t = htmlToText(s);
+  t = t.replace(/\s*The post\s.*?\sappeared first on\s.*$/i, '');
+  t = t.replace(/\s*(?:…|\[…\]|\[\.\.\.\]|\.\.\.)\s*The post\s.*$/i, '…');
+  return t.trim();
+}
+function fallbackTitle(summary) {
+  if (!summary) return 'Untitled post';
+  const words = summary.split(' ');
+  return words.length > 12 ? words.slice(0, 12).join(' ') + '…' : summary;
+}
+function siteOf(feed) {
+  const first = (feed.items || []).find(i => safeUrl(i.link));
+  if (first) { try { return new URL(first.link).origin; } catch (_) {} }
+  return safeUrl(feed.url);
+}
+function shortErr(e) {
+  const s = String(e || '');
+  const m = s.match(/HTTP (\d{3})/); if (m) return m[1];
+  if (/certificate/i.test(s)) return 'cert expired';
+  if (/timeout/i.test(s)) return 'timeout';
+  if (/ENOTFOUND|getaddrinfo/i.test(s)) return 'DNS';
+  return s.slice(0, 18) || 'error';
+}
+const fmtTime = d => d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+const fmtDay = d => d.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+function fmtShort(ms) {
+  if (!ms) return '';
+  const d = new Date(ms), now = new Date();
+  const opts = { month: 'short', day: 'numeric' };
+  if (d.getFullYear() !== now.getFullYear()) opts.year = 'numeric';
+  return d.toLocaleDateString('en-US', opts);
+}
+function relDay(ms) {
+  const d = new Date(ms); const t = new Date(); t.setHours(0, 0, 0, 0);
+  const diff = Math.round((t - new Date(d.getFullYear(), d.getMonth(), d.getDate())) / DAY);
+  if (diff === 0) return 'today';
+  if (diff === 1) return 'yesterday';
+  if (diff < 7 && diff > 0) return d.toLocaleDateString('en-US', { weekday: 'short' });
+  return fmtShort(ms);
+}
+let toastTimer;
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
 }
 
-/* ── Boot ───────────────────────────────────────────────── */
-loadFeeds();
+/* ── Read / unread ─────────────────────────────────────── */
+function isUnread(it) { const e = readMap[it.id]; return e ? e.r === 0 : it.pub > baseline; }
+function setRead(id, read) { readMap[id] = { r: read ? 1 : 0, t: Date.now() }; store.set('ef-read', readMap); }
+function markAllRead() { baseline = Date.now(); readMap = {}; store.set('ef-baseline', baseline); store.set('ef-read', readMap); }
+
+/* ── Saves (full copy of the item, so it outlives the feed) */
+function isSaved(id) { return Object.prototype.hasOwnProperty.call(saved.items, id); }
+function snapshot(it) {
+  return { link: it.link, title: it.title, src: it.src, type: it.type, badge: it.badge || '', pub: it.pub,
+           summary: it.summary, tags: it.tags, thumb: it.thumb || '', savedAt: Date.now() };
+}
+function persistSaved() {
+  if (!store.set('ef-saved', saved)) toast('Couldn’t save — browser storage is full or blocked');
+}
+function toggleSave(id) {
+  if (isSaved(id)) { delete saved.items[id]; persistSaved(); toast('Removed from saved'); return false; }
+  const it = BYID.get(id); if (!it) return false;
+  saved.items[id] = snapshot(it); persistSaved(); toast('Saved');
+  if (!persistAsked && navigator.storage && navigator.storage.persist) {
+    persistAsked = true; store.set('ef-persist-asked', true);
+    navigator.storage.persist().catch(() => {});
+  }
+  return true;
+}
+function savedList() {
+  return Object.values(saved.items).map(s => ({
+    id: s.link, link: s.link, title: s.title, src: s.src, type: TYPE[s.type] ? s.type : 'rss',
+    badge: s.badge, pub: s.pub, summary: s.summary, tags: Array.isArray(s.tags) ? s.tags : [], thumb: s.thumb, savedAt: s.savedAt,
+  }));
+}
+function exportSaved() {
+  const items = Object.values(saved.items);
+  if (!items.length) { toast('Nothing saved yet'); return; }
+  const data = { app: 'endpointfeed', kind: 'saved', version: 1, exportedAt: new Date().toISOString(), items };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  const d = new Date();
+  const stamp = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  a.href = URL.createObjectURL(blob); a.download = 'endpointfeed-saved-' + stamp + '.json';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  toast('Exported ' + items.length + ' save' + (items.length === 1 ? '' : 's'));
+}
+const str = (v, max) => (typeof v === 'string' ? v : '').slice(0, max);
+function importSaved(file) {
+  const reader = new FileReader();
+  reader.onload = () => {
+    let data;
+    try { data = JSON.parse(reader.result); } catch (_) { data = null; }
+    const list = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : null);
+    if (!list) {
+      S.notice = { kind: 'bad', html: '<b>' + esc(file.name) + '</b> isn’t an EndpointFeed saves export.' };
+      render(); return;
+    }
+    let added = 0, dup = 0, bad = 0;
+    for (const r of list) {
+      const link = r && safeUrl(r.link);
+      if (!link || !/^https?:\/\//i.test(String(r.link))) { bad++; continue; }
+      if (isSaved(link)) { dup++; continue; }
+      saved.items[link] = {
+        link, title: str(r.title, 400) || 'Untitled post', src: str(r.src, 200), type: TYPE[r.type] ? r.type : 'rss',
+        badge: str(r.badge, 40), pub: Number(r.pub) || 0, summary: str(r.summary, 600),
+        tags: Array.isArray(r.tags) ? r.tags.filter(t => typeof t === 'string').slice(0, 5).map(t => t.slice(0, 60)) : [],
+        thumb: safeUrl(r.thumb) || '', savedAt: Number(r.savedAt) || Date.now(),
+      };
+      added++;
+    }
+    persistSaved();
+    let msg = 'Imported <b>' + added + ' save' + (added === 1 ? '' : 's') + '</b> from <span class="mono">' + esc(file.name) + '</span>.';
+    if (dup) msg += ' ' + dup + ' ' + (dup === 1 ? 'was' : 'were') + ' already here.';
+    if (bad) msg += ' ' + bad + ' skipped (no valid link).';
+    S.notice = { kind: 'ok', html: msg };
+    render();
+  };
+  reader.onerror = () => { S.notice = { kind: 'bad', html: 'Couldn’t read that file.' }; render(); };
+  reader.readAsText(file);
+}
+
+/* ── Clipboard ─────────────────────────────────────────── */
+function copyLink(url) {
+  const done = () => toast('Link copied');
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(url).then(done, () => fallbackCopy(url) && done());
+  } else if (fallbackCopy(url)) done(); else toast('Couldn’t copy the link');
+}
+function fallbackCopy(text) {
+  const ta = document.createElement('textarea');
+  ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  let ok = false; try { ok = document.execCommand('copy'); } catch (_) {}
+  ta.remove(); return ok;
+}
+
+/* ── Data ──────────────────────────────────────────────── */
+function prepare(data) {
+  FEEDS = (data.feeds || []).filter(f => TYPE[f.type]);
+  GENERATED = data.generatedAt ? new Date(data.generatedAt) : null;
+  const out = [];
+  for (const f of FEEDS) {
+    for (const i of (f.items || [])) {
+      const link = safeUrl(i.link); if (!link) continue;
+      const summary = cleanSummary(i.summary).slice(0, 400);
+      const title = htmlToText(i.title) || fallbackTitle(summary);
+      const rawCats = (i.categories || []).map(c => htmlToText(c)).filter(Boolean);
+      const seen = new Set(), tags = [];
+      for (const c of rawCats) { const k = c.toLowerCase(); if (!JUNK_TAGS.test(c) && !seen.has(k)) { seen.add(k); tags.push(c); } }
+      const pub = i.pubDate ? Date.parse(i.pubDate) || 0 : 0;
+      const thumb = f.type === 'video' ? (i.videoId ? 'https://i.ytimg.com/vi/' + encodeURIComponent(i.videoId) + '/mqdefault.jpg' : safeUrl(i.thumbnail)) : '';
+      const it = { id: link, link, title, summary, tags: tags.slice(0, 3), type: f.type, src: f.label, badge: f.badge || '', pub, thumb };
+      it.topics = TOPICS.filter(t => t.re.test(title + ' ' + rawCats.join(' '))).map(t => t.id);
+      it.hay = (title + ' ' + summary + ' ' + f.label + ' ' + rawCats.join(' ')).toLowerCase();
+      if (!BYID.has(link)) { BYID.set(link, it); out.push(it); }
+    }
+  }
+  ITEMS = out.sort((a, b) => b.pub - a.pub);
+  // Refresh saved snapshots for items still in the feed (titles/summaries get fixed upstream)
+  let changed = false;
+  for (const id of Object.keys(saved.items)) {
+    const it = BYID.get(id); if (!it) continue;
+    const s = saved.items[id];
+    if (s.title !== it.title || s.summary !== it.summary) { Object.assign(s, snapshot(it), { savedAt: s.savedAt }); changed = true; }
+  }
+  if (changed) store.set('ef-saved', saved);
+}
+
+/* ── Filtering ─────────────────────────────────────────── */
+function windowStart() { return Date.now() - S.days * DAY; }
+function match(it, skip) {
+  if (it.pub < windowStart()) return false;
+  if (S.view === 'unread' && !isUnread(it)) return false;
+  if (S.source && it.src !== S.source) return false;
+  if (skip !== 'topic' && S.topic && !it.topics.includes(S.topic)) return false;
+  if (S.query && !it.hay.includes(S.query)) return false;
+  if (skip !== 'type' && S.type !== 'all' && it.type !== S.type) return false;
+  return true;
+}
+const inWindow = it => it.pub >= windowStart();
+function unreadCount() { return ITEMS.filter(it => inWindow(it) && isUnread(it)).length; }
+
+/* ── Render: sidebar ───────────────────────────────────── */
+function renderSidebar() {
+  const pressed = b => b ? 'true' : 'false';
+  const typeCounts = { all: 0 }; TYPES.forEach(t => typeCounts[t.id] = 0);
+  for (const it of ITEMS) if (match(it, 'type')) { typeCounts.all++; typeCounts[it.type]++; }
+  const topicCounts = {};
+  for (const it of ITEMS) if (match(it, 'topic')) for (const t of it.topics) topicCounts[t] = (topicCounts[t] || 0) + 1;
+  const isFeedView = S.view === 'timeline' || S.view === 'unread';
+
+  const typeBtns = [{ id: 'all', label: 'All', color: 'var(--text-2)' }].concat(TYPES.map(t => ({ id: t.id, label: t.label, color: 'var(--t-' + t.id + ')' })))
+    .map(t => `<button class="navbtn" type="button" data-act="type" data-v="${t.id}" aria-pressed="${pressed(isFeedView && S.type === t.id)}">
+        <span class="sw" style="background:${t.color}"></span><span>${t.label}</span><span class="n">${typeCounts[t.id]}</span></button>`).join('');
+
+  const topics = TOPICS.filter(t => topicCounts[t.id] || S.topic === t.id)
+    .map(t => `<button class="chip" type="button" data-act="topic" data-v="${t.id}" aria-pressed="${pressed(S.topic === t.id)}">${t.label}<span class="n">${topicCounts[t.id] || 0}</span></button>`).join('');
+
+  const groups = TYPES.map(t => {
+    const fs = FEEDS.filter(f => f.type === t.id).sort((a, b) => a.label.localeCompare(b.label));
+    if (!fs.length) return '';
+    return `<optgroup label="${esc(t.label)}">` + fs.map(f => `<option value="${esc(f.label)}"${f.label === S.source ? ' selected' : ''}>${esc(f.label)}</option>`).join('') + '</optgroup>';
+  }).join('');
+
+  document.getElementById('sidebar').innerHTML = `
+    <div class="navgroup">
+      <div class="label">Library</div>
+      <button class="navbtn" type="button" data-act="view" data-v="unread" aria-pressed="${pressed(S.view === 'unread')}">
+        <span class="sw" style="background:var(--accent);border-radius:50%"></span><span>Unread</span><span class="n">${unreadCount()}</span></button>
+      <button class="navbtn" type="button" data-act="view" data-v="saved" aria-pressed="${pressed(S.view === 'saved')}">
+        <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="var(--saved)"><path d="M6 3h12v18l-6-4-6 4z"/></svg><span>Saved</span><span class="n">${Object.keys(saved.items).length}</span></button>
+      <button class="navbtn" type="button" data-act="view" data-v="sources" aria-pressed="${pressed(S.view === 'sources')}">
+        <span class="sw" style="background:var(--text-mute)"></span><span>Sources</span><span class="n">${FEEDS.length}</span></button>
+    </div>
+    <div class="navgroup types-group">
+      <div class="label">Show</div>
+      ${typeBtns}
+    </div>
+    <div>
+      <div class="label" style="padding:0 12px 8px">Published</div>
+      <div class="seg" role="group" aria-label="Time range">
+        ${RANGES.map(d => `<button type="button" data-act="days" data-v="${d}" aria-pressed="${pressed(S.days === d)}">${d === 1 ? '24h' : d + 'd'}</button>`).join('')}
+      </div>
+    </div>
+    ${topics ? `<div><div class="label" style="padding:0 12px 10px">Topics</div><div class="chips">${topics}</div></div>` : ''}
+    <div>
+      <label class="label" for="source-select" style="display:block;padding:0 12px 8px">Source</label>
+      <div style="padding:0 8px"><select class="select" id="source-select"><option value="">All ${FEEDS.length} sources</option>${groups}</select></div>
+    </div>`;
+}
+
+/* ── Render: rows ──────────────────────────────────────── */
+function rowHTML(it, opts) {
+  opts = opts || {};
+  const q = opts.q || '';
+  const t = TYPE[it.type] || TYPE.rss;
+  const sv = isSaved(it.id);
+  const unread = opts.saved ? false : isUnread(it);
+  const href = esc(safeUrl(it.link));
+  const badge = it.badge ? `<span class="badge">${esc(it.badge)}</span>` : '';
+  const tags = (it.tags || []).map(g => `<span class="tag">${esc(g)}</span>`).join('');
+  const when = opts.saved
+    ? `<span class="when">· published ${esc(fmtShort(it.pub)) || 'date unknown'}</span>`
+    : '';
+  const savedAt = opts.saved ? `<span class="mono when" style="font-size:12px">saved ${esc(relDay(it.savedAt))}</span>` : '';
+  const ep = it.type === 'audio' ? `<a class="open-ep" href="${href}" target="_blank" rel="noopener noreferrer" data-open="${esc(it.id)}">${I.play}Open episode</a>` : '';
+  const thumb = it.type === 'video'
+    ? `<a class="thumb" href="${href}" target="_blank" rel="noopener noreferrer" data-open="${esc(it.id)}" aria-label="Watch: ${esc(it.title)}">
+         ${it.thumb ? `<img src="${esc(it.thumb)}" alt="" loading="lazy" decoding="async" />` : ''}<span class="play">${I.play}</span></a>`
+    : '';
+  const markBtn = opts.saved ? '' :
+    `<button class="act" type="button" data-act="mark" data-id="${esc(it.id)}" aria-label="${unread ? 'Mark as read' : 'Mark as unread'}" title="${unread ? 'Mark as read' : 'Mark as unread'}">${I.read}</button>`;
+  return `
+    <article class="row${unread ? ' unread' : ''}${opts.saved ? ' noclock' : ''}" data-row="${esc(it.id)}">
+      ${opts.saved ? '' : `<div class="time">${esc(fmtTime(new Date(it.pub)).toLowerCase().replace(' ', ''))}</div>`}
+      <div class="body">
+        <div class="meta"><span class="type" style="color:var(--t-${t.id})">${t.short}</span><span class="src">${esc(it.src)}</span>${badge}${when}</div>
+        <h3 class="title"><span class="newdot" aria-hidden="true"></span>${unread ? '<span class="sr-only">Unread: </span>' : ''}<a href="${href}" target="_blank" rel="noopener noreferrer" data-open="${esc(it.id)}">${hi(it.title, q)}</a></h3>
+        ${it.summary ? `<p class="sum">${hi(it.summary, q)}</p>` : ''}
+        ${(tags || ep || savedAt) ? `<div class="tags">${tags}${ep}${savedAt}</div>` : ''}
+      </div>
+      <div class="side">
+        <div class="acts" role="group" aria-label="Actions">
+          <button class="act${sv ? ' on' : ''}" type="button" data-act="save" data-id="${esc(it.id)}" aria-pressed="${sv}" aria-label="${sv ? 'Remove from saved' : 'Save'}" title="${sv ? 'Remove from saved' : 'Save'}">${I.bookmark}</button>
+          <button class="act" type="button" data-act="copy" data-id="${esc(it.id)}" aria-label="Copy link" title="Copy link">${I.link}</button>
+          ${markBtn}
+        </div>
+        ${thumb}
+      </div>
+    </article>`;
+}
+
+/* ── Render: main views ────────────────────────────────── */
+function noticeHTML() {
+  if (!S.notice) return '';
+  return `<div class="banner ${S.notice.kind}"><span class="grow">${S.notice.html}</span>
+    <button class="btn icon quiet" type="button" data-act="dismiss" aria-label="Dismiss" style="border:0;min-height:36px;width:36px">${I.x}</button></div>`;
+}
+function filterLine() {
+  const parts = [];
+  if (S.view === 'unread') parts.push('<b>Unread</b>');
+  if (S.type !== 'all') parts.push('<b>' + esc(TYPE[S.type].label) + '</b>');
+  if (S.topic) parts.push('topic <b>' + esc(TOPICS.find(t => t.id === S.topic).label) + '</b>');
+  if (S.source) parts.push('from <b>' + esc(S.source) + '</b>');
+  if (S.query) parts.push('matching <b>“' + esc(S.query) + '”</b>');
+  if (!parts.length) return '';
+  return `<div class="filterline">Showing ${parts.join(' · ')} <button class="linkbtn" type="button" data-act="clear">Clear filters</button></div>`;
+}
+function typeChips() {
+  const pressed = b => b ? 'true' : 'false';
+  const counts = { all: 0 }; TYPES.forEach(t => counts[t.id] = 0);
+  for (const it of ITEMS) if (match(it, 'type')) { counts.all++; counts[it.type]++; }
+  return `<div class="typechips" role="group" aria-label="Type">` +
+    [{ id: 'all', label: 'All' }].concat(TYPES).map(t =>
+      `<button class="chip" type="button" data-act="type" data-v="${t.id}" aria-pressed="${pressed(S.type === t.id)}">${t.id !== 'all' ? `<span class="sw" style="background:var(--t-${t.id})"></span>` : ''}${esc(t.label)}<span class="n">${counts[t.id]}</span></button>`
+    ).join('') + `</div>`;
+}
+function renderTimeline() {
+  const items = ITEMS.filter(it => match(it));
+  let html = noticeHTML();
+  const unread = unreadCount();
+  if (S.view === 'timeline' && unread > 0) {
+    const last = prevVisit ? ' · last visit ' + esc(new Date(prevVisit).toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit' })) : '';
+    html += `<div class="banner"><span class="dot" style="background:var(--accent)"></span>
+      <span class="grow"><b>${unread} unread</b> in the last ${S.days === 1 ? '24 hours' : S.days + ' days'}${last}</span>
+      <button class="btn" type="button" data-act="view" data-v="unread">Show unread</button>
+      <button class="btn" type="button" data-act="allread">Mark all read</button></div>`;
+  }
+  if (S.view === 'unread' && unread > 0) {
+    html += `<div class="banner"><span class="grow"><b>${unread} unread</b>. Opening an item marks it read.</span>
+      <button class="btn" type="button" data-act="allread">Mark all read</button></div>`;
+  }
+  html += typeChips() + filterLine();
+
+  if (!items.length) {
+    const wider = S.days < 30 ? `<button class="btn" type="button" data-act="days" data-v="30">Show the last 30 days</button>` : '';
+    const msg = S.view === 'unread' ? ['You’re all caught up', 'Nothing unread with these filters.'] : ['Nothing here', 'No items match these filters in the last ' + (S.days === 1 ? '24 hours' : S.days + ' days') + '.'];
+    html += `<div class="empty"><h2>${msg[0]}</h2><p>${msg[1]}</p>${wider}</div>`;
+    return html;
+  }
+  const groups = [];
+  let key = null;
+  for (const it of items) {
+    const d = new Date(it.pub); const k = d.toDateString();
+    if (k !== key) { groups.push({ d, items: [] }); key = k; }
+    groups[groups.length - 1].items.push(it);
+  }
+  const today = new Date().toDateString(), yest = new Date(Date.now() - DAY).toDateString();
+  for (const g of groups) {
+    const k = g.d.toDateString();
+    const name = k === today ? 'Today' : k === yest ? 'Yesterday' : g.d.toLocaleDateString('en-US', { weekday: 'long' });
+    const date = g.d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    html += `<section class="day" aria-label="${esc(name + ', ' + date)}">
+      <div class="day-h"><h2>${esc(name)}</h2><span class="d">${esc(k === today || k === yest ? fmtDay(g.d) : date)}</span><span class="n">${g.items.length} item${g.items.length === 1 ? '' : 's'}</span></div>
+      ${g.items.map(it => rowHTML(it, { q: S.query })).join('')}
+    </section>`;
+  }
+  return html;
+}
+function renderSaved() {
+  let list = savedList();
+  const q = S.savedQuery;
+  if (q) list = list.filter(s => (s.title + ' ' + s.summary + ' ' + s.src + ' ' + s.tags.join(' ')).toLowerCase().includes(q));
+  if (S.savedSort === 'published') list.sort((a, b) => b.pub - a.pub);
+  else if (S.savedSort === 'source') list.sort((a, b) => a.src.localeCompare(b.src) || b.pub - a.pub);
+  else list.sort((a, b) => b.savedAt - a.savedAt);
+  const total = Object.keys(saved.items).length;
+  const sortOpt = (v, l) => `<option value="${v}"${S.savedSort === v ? ' selected' : ''}>${l}</option>`;
+  let html = `
+    <div class="pagehead">
+      <div class="grow"><h1>Saved</h1><p>${total} item${total === 1 ? '' : 's'}. Kept in this browser even after they leave the feed.</p></div>
+      <div style="display:flex;gap:8px">
+        <button class="btn" type="button" data-act="export">${I.down}Export</button>
+        <button class="btn" type="button" data-act="import">${I.up}Import</button>
+      </div>
+    </div>
+    ${noticeHTML()}`;
+  if (total) {
+    html += `<div class="toolbar">
+      <div class="search"><label class="sr-only" for="saved-q">Search saved</label>
+        <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <input type="search" id="saved-q" placeholder="Search saved" value="${esc(S.savedQuery)}" autocomplete="off" /></div>
+      <label class="sort">Sort <select class="select" id="saved-sort">${sortOpt('saved', 'Date saved')}${sortOpt('published', 'Date published')}${sortOpt('source', 'Source')}</select></label>
+    </div>`;
+  }
+  if (!total) {
+    html += `<div class="empty"><h2>Nothing saved yet</h2><p>Use the bookmark button on any item to keep it here. Have a backup? Import it above.</p></div>`;
+  } else if (!list.length) {
+    html += `<div class="empty"><h2>No matches</h2><p>No saved items match “${esc(q)}”.</p></div>`;
+  } else {
+    html += `<section class="list" aria-label="Saved items">${list.map(s => rowHTML(s, { saved: true, q })).join('')}</section>`;
+  }
+  html += `<p class="foot-note">Saves are stored in this browser only. Export a backup to keep them safe or move them to another device.</p>`;
+  return html;
+}
+function renderSources() {
+  const failing = FEEDS.filter(f => f.error).length;
+  let html = `<div class="pagehead"><div class="grow"><h1>Sources</h1>
+    <p>${FEEDS.length} sources · ${FEEDS.length - failing} fetched OK${failing ? ' · <span style="color:var(--err)">' + failing + ' failing</span>' : ''}</p></div></div>`;
+  for (const t of TYPES) {
+    const fs = FEEDS.filter(f => f.type === t.id).sort((a, b) => (b.error ? 1 : 0) - (a.error ? 1 : 0) || a.label.localeCompare(b.label));
+    if (!fs.length) continue;
+    html += `<section class="srcgroup"><h2><span class="sw" style="background:var(--t-${t.id})"></span>${esc(t.label)} <span class="n">${fs.length}</span></h2><div class="list">`;
+    for (const f of fs) {
+      const site = siteOf(f);
+      const latest = (f.items || []).reduce((m, i) => Math.max(m, Date.parse(i.pubDate) || 0), 0);
+      html += `<div class="srcrow">
+        <div><a class="nm" href="${esc(site)}" target="_blank" rel="noopener noreferrer">${esc(f.label)}</a><span class="url">${esc(site.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</span></div>
+        <span class="st">${latest ? 'last post ' + esc(fmtShort(latest)) : 'no posts'}</span>
+        ${f.error ? `<span class="st err" title="${esc(f.error)}">${esc(shortErr(f.error))}</span>`
+                  : `<button class="btn" type="button" data-act="source" data-v="${esc(f.label)}" style="min-height:36px">View posts</button>`}
+      </div>`;
+    }
+    html += `</div></section>`;
+  }
+  return html;
+}
+
+/* ── Render: rail ──────────────────────────────────────── */
+function renderRail() {
+  const off = ITEMS.filter(it => it.type === 'official' && inWindow(it));
+  const failing = FEEDS.filter(f => f.error);
+  const range = S.days === 1 ? 'last 24 hours' : 'last ' + S.days + ' days';
+  document.getElementById('rail').innerHTML = `
+    <section class="card">
+      <div class="card-h"><span class="sw" style="background:var(--t-official)"></span><h2>Official · ${esc(range)}</h2><span class="n">${off.length}</span></div>
+      ${off.length ? off.slice(0, 5).map(it => `<a class="off" href="${esc(safeUrl(it.link))}" target="_blank" rel="noopener noreferrer" data-open="${esc(it.id)}">
+          <span class="s">${esc(it.badge || it.src)} <span class="mono">· ${esc(relDay(it.pub))}</span></span><span class="t">${esc(it.title)}</span></a>`).join('')
+        : '<p>No official posts in this range.</p>'}
+      ${off.length > 5 ? `<button class="linkbtn" type="button" data-act="type" data-v="official" style="padding:0;margin-top:6px">All ${off.length} official</button>` : ''}
+    </section>
+    <section class="card">
+      <div class="card-h"><span class="dot${failing.length ? ' stale' : ''}"></span><h2>Source health</h2>
+        <span class="n" style="${failing.length ? 'color:var(--warn)' : ''}">${FEEDS.length - failing.length} / ${FEEDS.length} ok</span></div>
+      ${failing.length
+        ? `<p>${failing.length} source${failing.length === 1 ? '' : 's'} didn’t return posts on the last fetch.</p>` +
+          failing.slice(0, 5).map(f => `<div class="health"><span class="nm">${esc(f.label)}</span><span class="er" title="${esc(f.error)}">${esc(shortErr(f.error))}</span></div>`).join('')
+        : '<p>Every source fetched cleanly.</p>'}
+      <button class="linkbtn" type="button" data-act="view" data-v="sources" style="padding:0;margin-top:6px">See all sources</button>
+    </section>
+    <section class="card dashed">
+      <div class="card-h"><h2>Ask your AI about this feed</h2></div>
+      <p>Connect Claude, Codex or any MCP client to query every post here.</p>
+      <code class="code">https://mcp.endpointfeed.com</code>
+      <a class="more" href="mcp.html">Setup guide</a>
+    </section>`;
+}
+
+/* ── Render: all ───────────────────────────────────────── */
+function render() {
+  renderSidebar();
+  renderRail();
+  const main = document.getElementById('main');
+  main.innerHTML = S.view === 'saved' ? renderSaved() : S.view === 'sources' ? renderSources() : renderTimeline();
+}
+function refreshRowState(id) {
+  // Update a row in place (no full re-render, keeps scroll and focus)
+  document.querySelectorAll('[data-row]').forEach(row => {
+    if (row.dataset.row !== id) return;
+    const it = BYID.get(id);
+    if (it && S.view !== 'saved') {
+      const u = isUnread(it);
+      row.classList.toggle('unread', u);
+      const m = row.querySelector('[data-act="mark"]');
+      if (m) { const l = u ? 'Mark as read' : 'Mark as unread'; m.setAttribute('aria-label', l); m.title = l; }
+      const sr = row.querySelector('.title .sr-only'); if (sr && !u) sr.remove();
+    }
+    const s = row.querySelector('[data-act="save"]');
+    if (s) { const on = isSaved(id); s.classList.toggle('on', on); s.setAttribute('aria-pressed', on); const l = on ? 'Remove from saved' : 'Save'; s.setAttribute('aria-label', l); s.title = l; }
+  });
+  renderSidebar();
+}
+
+/* ── Events ────────────────────────────────────────────── */
+function setView(v) {
+  S.view = v; S.notice = null;
+  if (v === 'saved' || v === 'sources') { /* keep feed filters for when they come back */ }
+  closeSidebarOnMobile();
+  render(); window.scrollTo({ top: 0 });
+}
+function closeSidebarOnMobile() {
+  const sb = document.getElementById('sidebar');
+  if (sb.classList.contains('open') && window.matchMedia('(max-width: 820px)').matches) {
+    sb.classList.remove('open'); document.getElementById('filters-btn').setAttribute('aria-expanded', 'false');
+  }
+}
+document.addEventListener('click', e => {
+  const open = e.target.closest('[data-open]');
+  if (open) {
+    const id = open.dataset.open;
+    if (BYID.has(id) && isUnread(BYID.get(id))) { setRead(id, true); refreshRowState(id); if (S.view === 'timeline') updateBanner(); }
+    return;
+  }
+  const el = e.target.closest('[data-act]'); if (!el) return;
+  const act = el.dataset.act, v = el.dataset.v, id = el.dataset.id;
+  switch (act) {
+    case 'type':
+      S.type = v; if (S.view !== 'unread') S.view = 'timeline'; S.notice = null; render(); closeSidebarOnMobile(); break;
+    case 'view': setView(S.view === v && v === 'unread' ? 'timeline' : v); break;
+    case 'days': S.days = +v; store.set('ef-days', S.days); if (S.view === 'saved' || S.view === 'sources') S.view = 'timeline'; render(); break;
+    case 'topic': S.topic = S.topic === v ? null : v; if (S.view === 'saved' || S.view === 'sources') S.view = 'timeline'; render(); break;
+    case 'source': S.source = v; S.view = 'timeline'; render(); window.scrollTo({ top: 0 }); break;
+    case 'clear': S.type = 'all'; S.topic = null; S.source = ''; S.query = ''; document.getElementById('q').value = ''; if (S.view === 'unread') S.view = 'timeline'; render(); break;
+    case 'allread': markAllRead(); render(); toast('All caught up'); break;
+    case 'save': {
+      toggleSave(id);
+      if (S.view === 'saved') render(); else refreshRowState(id);
+      break;
+    }
+    case 'copy': copyLink((BYID.get(id) || saved.items[id] || { link: id }).link); break;
+    case 'mark': {
+      const it = BYID.get(id); if (!it) break;
+      const nowUnread = isUnread(it);
+      setRead(id, nowUnread);
+      toast(nowUnread ? 'Marked as read' : 'Marked as unread');
+      refreshRowState(id); if (S.view === 'timeline') updateBanner();
+      break;
+    }
+    case 'export': exportSaved(); break;
+    case 'import': document.getElementById('import-file').click(); break;
+    case 'dismiss': S.notice = null; render(); break;
+  }
+});
+function updateBanner() {
+  // Recount without rebuilding the timeline
+  const n = unreadCount();
+  const b = document.querySelector('#main > .banner:not(.ok):not(.bad) b');
+  if (b) b.textContent = n + ' unread';
+  if (n === 0) { const ban = b && b.closest('.banner'); if (ban) ban.remove(); }
+}
+document.addEventListener('change', e => {
+  if (e.target.id === 'source-select') { S.source = e.target.value; if (S.view === 'saved' || S.view === 'sources') S.view = 'timeline'; render(); }
+  if (e.target.id === 'saved-sort') { S.savedSort = e.target.value; render(); }
+  if (e.target.id === 'import-file') { const f = e.target.files && e.target.files[0]; if (f) importSaved(f); e.target.value = ''; }
+});
+let qTimer;
+document.addEventListener('input', e => {
+  if (e.target.id === 'q') {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => {
+      S.query = e.target.value.toLowerCase().trim();
+      if (S.view === 'saved' || S.view === 'sources') S.view = 'timeline';
+      render();
+    }, 160);
+  }
+  if (e.target.id === 'saved-q') {
+    clearTimeout(qTimer);
+    const el = e.target;
+    qTimer = setTimeout(() => {
+      S.savedQuery = el.value.toLowerCase().trim();
+      const pos = el.selectionStart; render();
+      const n = document.getElementById('saved-q'); if (n) { n.focus(); try { n.setSelectionRange(pos, pos); } catch (_) {} }
+    }, 160);
+  }
+});
+document.addEventListener('keydown', e => {
+  if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+  const t = e.target;
+  if (t.closest && t.closest('input, textarea, select, [contenteditable="true"]')) return;
+  e.preventDefault(); document.getElementById('q').focus();
+});
+document.getElementById('filters-btn').addEventListener('click', () => {
+  const sb = document.getElementById('sidebar');
+  const open = !sb.classList.contains('open');
+  sb.classList.toggle('open', open);
+  document.getElementById('filters-btn').setAttribute('aria-expanded', open);
+});
+
+/* ── Theme ─────────────────────────────────────────────── */
+function paintThemeBtn() {
+  const dark = document.documentElement.dataset.theme === 'dark';
+  const b = document.getElementById('theme-btn');
+  b.innerHTML = dark ? I.sun : I.moon;
+  b.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+  b.title = b.getAttribute('aria-label');
+}
+document.getElementById('theme-btn').addEventListener('click', () => {
+  const html = document.documentElement;
+  html.dataset.theme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('ef-theme', html.dataset.theme); } catch (_) {}
+  paintThemeBtn();
+});
+paintThemeBtn();
+
+/* ── Boot ──────────────────────────────────────────────── */
+async function load() {
+  try {
+    const res = await fetch('feeds.json?_=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    prepare(await res.json());
+    const sync = document.getElementById('sync');
+    if (GENERATED && !isNaN(GENERATED)) {
+      const ageH = (Date.now() - GENERATED) / 36e5;
+      const t = GENERATED.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+      const sameDay = GENERATED.toDateString() === new Date().toDateString();
+      sync.innerHTML = `<span class="dot${ageH > 6 ? ' stale' : ''}"></span>${ageH > 6 ? 'stale · ' : 'synced '}${esc(sameDay ? fmtTime(GENERATED) : t)}`;
+      sync.title = 'Feeds last fetched ' + GENERATED.toLocaleString();
+      document.getElementById('foot-ts').textContent = 'last fetch ' + t;
+    } else {
+      sync.innerHTML = '<span class="dot stale"></span>no sync data';
+    }
+    render();
+  } catch (err) {
+    document.getElementById('main').innerHTML =
+      `<div class="empty"><h2>Couldn’t load the feeds</h2><p class="mono">${esc(err.message)}</p><button class="btn" type="button" onclick="location.reload()">Try again</button></div>`;
+    document.getElementById('sync').innerHTML = '<span class="dot stale"></span>offline';
+  }
+}
+load();
 </script>
 </body>
 </html>
