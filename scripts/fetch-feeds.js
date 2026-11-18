@@ -359,6 +359,12 @@ const FEEDS = [
     type: "video",
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCIZgKKNrG-ty72Bez8b2qHg",
   },
+    {
+    id: "yt-jamf",
+    label: "JAMF",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCUGhY1mOxdEA4hyEnnB1NSw",
+  },
       {
     id: "yt-outofband",
     label: "Out of Band: A Microsoft Security Podcast",
