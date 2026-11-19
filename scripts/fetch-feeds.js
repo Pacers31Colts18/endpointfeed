@@ -139,10 +139,10 @@ const FEEDS = [
   },
   {
     id: "skiptotheendpoint",
-    label: "skiptotheendpoint.co.uk",
+    label: "skiptotheendpoint.co.uk - James Robinson",
     badge: 'MVP',
     type: "rss",
-    url: "https://skiptotheendpoint.co.uk/rss/",
+    url: "https://skiptotheendpoint.co.uk/rss",
   },
   {
     id: "oddsandendpoints",
