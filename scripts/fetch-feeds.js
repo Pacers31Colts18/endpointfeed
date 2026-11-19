@@ -169,12 +169,6 @@ const FEEDS = [
     url: "https://joostgelijsteen.com/feed/",
   },
   {
-    id: "zerotrust",
-    label: "zerotrust.tech",
-    type: "rss",
-    url: "https://zerototrust.tech/feed/",
-  },
-  {
     id: "euc365",
     label: "euc365.com - David Brook",
     type: "rss",
