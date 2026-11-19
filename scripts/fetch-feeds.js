@@ -305,7 +305,7 @@ const FEEDS = [
     id: "macadminsnews",
     label: "macadmins.news",
     type: "rss",
-    url: "https://macadmins.news/issues.rss",
+    url: "https://macadmins.news/rss",
   },
   {
     id: "macadminmusings",
