@@ -360,6 +360,12 @@ const FEEDS = [
     url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCIZgKKNrG-ty72Bez8b2qHg",
   },
     {
+    id: "yt-fleet",
+    label: "FleetDM",
+    type: "video",
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCZyoqZ4exJvoibmTKJrQ-dQ",
+  },
+    {
     id: "yt-jamf",
     label: "JAMF",
     type: "video",
