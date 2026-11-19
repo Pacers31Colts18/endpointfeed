@@ -175,12 +175,6 @@ const FEEDS = [
     url: "https://euc365.com/feed/",
   },
   {
-    id: "modernmanagement",
-    label: "modernmanagement.blog - Peter Daalmans",
-    type: "rss",
-    url: "https://modernmanagement.blog/feed/",
-  },
-  {
     id: "niallbrady",
     label: "Niall Brady - niallbrady.com",
     type: "rss",
